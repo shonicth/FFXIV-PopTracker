@@ -57,4 +57,10 @@ function outerlanosceaaccess()
     return(
     (has("outerlanosceaaccess") and upperlanoaccess())
   )
+
+--levels
+function Leveling()
+  return(
+    math.max(5pldlevels, 5warlevels, 5drklevels, 5gnblevels, 5whmlevels, 5schlevels, 5astlevels, 5sgelevels, 5mnklevels, 5drglevels, 5ninlevels, 5samlevels, 5rprlevels, 5vprlevels, 5brdlevels, 5mchlevels, 5dnclevels, 5blmlevels, 5smnlevels, 5rdmlevels, 5pctlevels, 5blulevels)
+  )
 end

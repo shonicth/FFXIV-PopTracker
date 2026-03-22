@@ -1380,42 +1380,6 @@
                 ]
             },
             {
-                "name": "",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
-                "children": [
-                    {
-                        "name": "The Isle of Zekki",
-                        "chest_unopened_img": "/images/items/close.png",
-                        "chest_opened_img": "/images/items/open.png",
-                        "overlay_background": "#000000",
-                        "access_rules": [
-                            " "
-                        ],
-                        "sections": [
-                            {
-                                "name": "Zekki Grouper",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1
-                            }
-                        ],
-                        "map_locations": [
-                            {
-                                "map": "The Ruby Sea",
-                                "x": 1804,
-                                "y": 1560,
-                                "size": 6
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
                 "name": "Shoal Rock",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
@@ -1517,6 +1481,12 @@
                     },
                     {
                         "name": "Rakshasa",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Zekki Grouper",
                         "access_rules": [],
                         "visibility_rules": [],
                         "item_count": 1
