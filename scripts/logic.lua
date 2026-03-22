@@ -27,14 +27,34 @@ function dump_table(o, depth)
         return tostring(o)
     end
 end
-
-function middlelanoaccess()
+--regions
+function middlelanosceaaccess()
   return(
     has("limsalominsaandmiddlelanosceaaccess")
   )
 end
-function lowerlanoaccess()
+function lowerlanosceaaccess()
     return(
     (has("lowerlanosceaaccess") and middlelanoaccess())
+  )
+end
+function easternlanosceaaccess()
+    return(
+    (has("easternlanosceaaccess") and middlelanoaccess())
+  )
+end
+function westernlanoaccess()
+    return(
+    (has("westernlanosceaaccess") and middlelanoaccess())
+  )
+end
+function upperlanosceaaccess()
+    return(
+    (has("upperlanosceaaccess") and easternlanoaccess()) or (has("upperlanosceaaccess") and westernlanoaccess())
+  )
+end
+function outerlanosceaaccess()
+    return(
+    (has("outerlanosceaaccess") and upperlanoaccess())
   )
 end
