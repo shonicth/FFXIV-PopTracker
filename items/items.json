@@ -1,0 +1,1798 @@
+[
+    {
+        "name": "ilmhegaccess",
+        "type": "toggle",
+        "img": "images/items/ilmhegaccess.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "ilmhegaccess"
+    },
+    {
+        "name": "5sgelevels",
+        "type": "consumable",
+        "img": "images/items/5sgelevels.png",
+        "min_quantity": 0,
+        "max_quantity": 10,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 1,
+        "overlay_align": "right",
+        "overlay_font_size": 14,
+        "overlay_background": "#000000",
+        "codes": "5sgelevels"
+    },
+    {
+        "name": "alexanderkey",
+        "type": "toggle",
+        "img": "images/items/alexanderkey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "alexanderkey"
+    },
+    {
+        "name": "silkworm",
+        "type": "toggle",
+        "img": "images/items/silkworm.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "silkworm"
+    },
+    {
+        "name": "uldahandcentralthanalanaccess",
+        "type": "toggle",
+        "img": "images/items/uldahandcentralthanalanaccess.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "uldahandcentralthanalanaccess"
+    },
+    {
+        "name": "westernthanalanaccess",
+        "type": "toggle",
+        "img": "images/items/westernthanalanaccess.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "westernthanalanaccess"
+    },
+    {
+        "name": "thechurningmistsaccess",
+        "type": "toggle",
+        "img": "images/items/thechurningmistsaccess.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "thechurningmistsaccess"
+    },
+    {
+        "name": "silverspoonlure",
+        "type": "toggle",
+        "img": "images/items/silverspoonlure.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "silverspoonlure"
+    },
+    {
+        "name": "lugworm",
+        "type": "toggle",
+        "img": "images/items/lugworm.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "lugworm"
+    },
+    {
+        "name": "nightcrawler",
+        "type": "toggle",
+        "img": "images/items/nightcrawler.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "nightcrawler"
+    },
+    {
+        "name": "saltwaterboilie",
+        "type": "toggle",
+        "img": "images/items/saltwaterboilie.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "saltwaterboilie"
+    },
+    {
+        "name": "thedravanianforelandsaccess",
+        "type": "toggle",
+        "img": "images/items/thedravanianforelandsaccess.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "thedravanianforelandsaccess"
+    },
+    {
+        "name": "coerthaswesternhighlandsaccess",
+        "type": "toggle",
+        "img": "images/items/coerthaswesternhighlandsaccess.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "coerthaswesternhighlandsaccess"
+    },
+    {
+        "name": "kuganeaccess",
+        "type": "toggle",
+        "img": "images/items/kuganeaccess.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "kuganeaccess"
+    },
+    {
+        "name": "selectbaitball",
+        "type": "toggle",
+        "img": "images/items/selectbaitball.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "selectbaitball"
+    },
+    {
+        "name": "5schlevels",
+        "type": "consumable",
+        "img": "images/items/5schlevels.png",
+        "min_quantity": 0,
+        "max_quantity": 10,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 1,
+        "overlay_align": "right",
+        "overlay_font_size": 14,
+        "overlay_background": "#000000",
+        "codes": "5schlevels"
+    },
+    {
+        "name": "robberball",
+        "type": "toggle",
+        "img": "images/items/robberball.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "robberball"
+    },
+    {
+        "name": "omegakey",
+        "type": "toggle",
+        "img": "images/items/omegakey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "omegakey"
+    },
+    {
+        "name": "stoneflylarva",
+        "type": "toggle",
+        "img": "images/items/stoneflylarva.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "stoneflylarva"
+    },
+    {
+        "name": "sinkingminnow",
+        "type": "toggle",
+        "img": "images/items/sinkingminnow.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "sinkingminnow"
+    },
+    {
+        "name": "liveshrimp",
+        "type": "toggle",
+        "img": "images/items/liveshrimp.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "liveshrimp"
+    },
+    {
+        "name": "bahamutkey",
+        "type": "toggle",
+        "img": "images/items/bahamutkey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "bahamutkey"
+    },
+    {
+        "name": "5rprlevels",
+        "type": "consumable",
+        "img": "images/items/5rprlevels.png",
+        "min_quantity": 0,
+        "max_quantity": 10,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 1,
+        "overlay_align": "right",
+        "overlay_font_size": 14,
+        "overlay_background": "#000000",
+        "codes": "5rprlevels"
+    },
+    {
+        "name": "popperlure",
+        "type": "toggle",
+        "img": "images/items/popperlure.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "popperlure"
+    },
+    {
+        "name": "plumpworm",
+        "type": "toggle",
+        "img": "images/items/plumpworm.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "plumpworm"
+    },
+    {
+        "name": "5cullevels",
+        "type": "consumable",
+        "img": "images/items/5cullevels.png",
+        "min_quantity": 0,
+        "max_quantity": 10,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 1,
+        "overlay_align": "right",
+        "overlay_font_size": 14,
+        "overlay_background": "#000000",
+        "codes": "5cullevels"
+    },
+    {
+        "name": "gobyball",
+        "type": "toggle",
+        "img": "images/items/gobyball.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "gobyball"
+    },
+    {
+        "name": "pandaemoniumkey",
+        "type": "toggle",
+        "img": "images/items/pandaemoniumkey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "pandaemoniumkey"
+    },
+    {
+        "name": "lowerlanosceaaccess",
+        "type": "toggle",
+        "img": "images/items/lowerlanosceaaccess.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "lowerlanosceaaccess"
+    },
+    {
+        "name": "ultimathuleaccess",
+        "type": "toggle",
+        "img": "images/items/ultimathuleaccess.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "ultimathuleaccess"
+    },
+    {
+        "name": "5pldlevels",
+        "type": "consumable",
+        "img": "images/items/5pldlevels.png",
+        "min_quantity": 0,
+        "max_quantity": 10,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 1,
+        "overlay_align": "right",
+        "overlay_font_size": 14,
+        "overlay_background": "#000000",
+        "codes": "5pldlevels"
+    },
+    {
+        "name": "5bsmlevels",
+        "type": "consumable",
+        "img": "images/items/5bsmlevels.png",
+        "min_quantity": 0,
+        "max_quantity": 10,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 1,
+        "overlay_align": "right",
+        "overlay_font_size": 14,
+        "overlay_background": "#000000",
+        "codes": "5bsmlevels"
+    },
+    {
+        "name": "breamlure",
+        "type": "toggle",
+        "img": "images/items/breamlure.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "breamlure"
+    },
+    {
+        "name": "marelamentorumaccess",
+        "type": "toggle",
+        "img": "images/items/marelamentorumaccess.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "marelamentorumaccess"
+    },
+    {
+        "name": "labyrinthosaccess",
+        "type": "toggle",
+        "img": "images/items/labyrinthosaccess.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "labyrinthosaccess"
+    },
+    {
+        "name": "bloodworm",
+        "type": "toggle",
+        "img": "images/items/bloodworm.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "bloodworm"
+    },
+    {
+        "name": "arcadionkey",
+        "type": "toggle",
+        "img": "images/items/arcadionkey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "arcadionkey"
+    },
+    {
+        "name": "midgebasket",
+        "type": "toggle",
+        "img": "images/items/midgebasket.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "midgebasket"
+    },
+    {
+        "name": "suspendingminnow",
+        "type": "toggle",
+        "img": "images/items/suspendingminnow.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "suspendingminnow"
+    },
+    {
+        "name": "freshwaterboilie",
+        "type": "toggle",
+        "img": "images/items/freshwaterboilie.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "freshwaterboilie"
+    },
+    {
+        "name": "salmonroe",
+        "type": "toggle",
+        "img": "images/items/salmonroe.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "salmonroe"
+    },
+    {
+        "name": "stemborer",
+        "type": "toggle",
+        "img": "images/items/stemborer.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "stemborer"
+    },
+    {
+        "name": "pillbug",
+        "type": "toggle",
+        "img": "images/items/pillbug.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "pillbug"
+    },
+    {
+        "name": "jerkedovim",
+        "type": "toggle",
+        "img": "images/items/jerkedovim.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "jerkedovim"
+    },
+    {
+        "name": "mackerelstrip",
+        "type": "toggle",
+        "img": "images/items/mackerelstrip.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "mackerelstrip"
+    },
+    {
+        "name": "southshroudaccess",
+        "type": "toggle",
+        "img": "images/items/southshroudaccess.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "southshroudaccess"
+    },
+    {
+        "name": "southernthanalanaccess",
+        "type": "toggle",
+        "img": "images/items/southernthanalanaccess.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "southernthanalanaccess"
+    },
+    {
+        "name": "hoverworm",
+        "type": "toggle",
+        "img": "images/items/hoverworm.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "hoverworm"
+    },
+    {
+        "name": "stardust",
+        "type": "toggle",
+        "img": "images/items/stardust.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "stardust"
+    },
+    {
+        "name": "easternthanalanaccess",
+        "type": "toggle",
+        "img": "images/items/easternthanalanaccess.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "easternthanalanaccess"
+    },
+    {
+        "name": "squidstrip",
+        "type": "toggle",
+        "img": "images/items/squidstrip.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "squidstrip"
+    },
+    {
+        "name": "mayfly",
+        "type": "toggle",
+        "img": "images/items/mayfly.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "mayfly"
+    },
+    {
+        "name": "thavnairaccess",
+        "type": "toggle",
+        "img": "images/items/thavnairaccess.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "thavnairaccess"
+    },
+    {
+        "name": "radz-at-hanaccess",
+        "type": "toggle",
+        "img": "images/items/radz-at-hanaccess.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "radz-at-hanaccess"
+    },
+    {
+        "name": "honeyworm",
+        "type": "toggle",
+        "img": "images/items/honeyworm.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "honeyworm"
+    },
+    {
+        "name": "easternlanosceaaccess",
+        "type": "toggle",
+        "img": "images/items/easternlanosceaaccess.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "easternlanosceaaccess"
+    },
+    {
+        "name": "bladedsteeljig",
+        "type": "toggle",
+        "img": "images/items/bladedsteeljig.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "bladedsteeljig"
+    },
+    {
+        "name": "panicjig",
+        "type": "toggle",
+        "img": "images/items/panicjig.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "panicjig"
+    },
+    {
+        "name": "mothpupa",
+        "type": "toggle",
+        "img": "images/items/mothpupa.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "mothpupa"
+    },
+    {
+        "name": "yanxiaaccess",
+        "type": "toggle",
+        "img": "images/items/yanxiaaccess.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "yanxiaaccess"
+    },
+    {
+        "name": "bassball",
+        "type": "toggle",
+        "img": "images/items/bassball.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "bassball"
+    },
+    {
+        "name": "marblenymph",
+        "type": "toggle",
+        "img": "images/items/marblenymph.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "marblenymph"
+    },
+    {
+        "name": "giantcranefly",
+        "type": "toggle",
+        "img": "images/items/giantcranefly.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "giantcranefly"
+    },
+    {
+        "name": "5dnclevels",
+        "type": "consumable",
+        "img": "images/items/5dnclevels.png",
+        "min_quantity": 0,
+        "max_quantity": 10,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 1,
+        "overlay_align": "right",
+        "overlay_font_size": 14,
+        "overlay_background": "#000000",
+        "codes": "5dnclevels"
+    },
+    {
+        "name": "thecrystariumaccess",
+        "type": "toggle",
+        "img": "images/items/thecrystariumaccess.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "thecrystariumaccess"
+    },
+    {
+        "name": "5wvrlevels",
+        "type": "consumable",
+        "img": "images/items/5wvrlevels.png",
+        "min_quantity": 0,
+        "max_quantity": 10,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 1,
+        "overlay_align": "right",
+        "overlay_font_size": 14,
+        "overlay_background": "#000000",
+        "codes": "5wvrlevels"
+    },
+    {
+        "name": "floatingminnow",
+        "type": "toggle",
+        "img": "images/items/floatingminnow.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "floatingminnow"
+    },
+    {
+        "name": "heavysteeljig",
+        "type": "toggle",
+        "img": "images/items/heavysteeljig.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "heavysteeljig"
+    },
+    {
+        "name": "glowworm",
+        "type": "toggle",
+        "img": "images/items/glowworm.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "glowworm"
+    },
+    {
+        "name": "metalspinner",
+        "type": "toggle",
+        "img": "images/items/metalspinner.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "metalspinner"
+    },
+    {
+        "name": "crimsonlugworm",
+        "type": "toggle",
+        "img": "images/items/crimsonlugworm.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "crimsonlugworm"
+    },
+    {
+        "name": "garlemaldaccess",
+        "type": "toggle",
+        "img": "images/items/garlemaldaccess.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "garlemaldaccess"
+    },
+    {
+        "name": "crowfly",
+        "type": "toggle",
+        "img": "images/items/crowfly.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "crowfly"
+    },
+    {
+        "name": "eulmoreaccess",
+        "type": "toggle",
+        "img": "images/items/eulmoreaccess.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "eulmoreaccess"
+    },
+    {
+        "name": "herringball",
+        "type": "toggle",
+        "img": "images/items/herringball.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "herringball"
+    },
+    {
+        "name": "coerthascentralhighlandsaccess",
+        "type": "toggle",
+        "img": "images/items/coerthascentralhighlandsaccess.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "coerthascentralhighlandsaccess"
+    },
+    {
+        "name": "shuckedclam",
+        "type": "toggle",
+        "img": "images/items/shuckedclam.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "shuckedclam"
+    },
+    {
+        "name": "rattail",
+        "type": "toggle",
+        "img": "images/items/rattail.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "rattail"
+    },
+    {
+        "name": "5fshlevels",
+        "type": "consumable",
+        "img": "images/items/5fshlevels.png",
+        "min_quantity": 0,
+        "max_quantity": 10,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 1,
+        "overlay_align": "right",
+        "overlay_font_size": 14,
+        "overlay_background": "#000000",
+        "codes": "5fshlevels"
+    },
+    {
+        "name": "redballoon",
+        "type": "toggle",
+        "img": "images/items/redballoon.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "redballoon"
+    },
+    {
+        "name": "amharaengaccess",
+        "type": "toggle",
+        "img": "images/items/amharaengaccess.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "amharaengaccess"
+    },
+    {
+        "name": "rollingstone",
+        "type": "toggle",
+        "img": "images/items/rollingstone.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "rollingstone"
+    },
+    {
+        "name": "greyworm",
+        "type": "toggle",
+        "img": "images/items/greyworm.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "greyworm"
+    },
+    {
+        "name": "yaktelcrab",
+        "type": "toggle",
+        "img": "images/items/yaktelcrab.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "yaktelcrab"
+    },
+    {
+        "name": "wolvesdenpieraccess",
+        "type": "toggle",
+        "img": "images/items/wolvesdenpieraccess.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "wolvesdenpieraccess"
+    },
+    {
+        "name": "stoneflynymph",
+        "type": "toggle",
+        "img": "images/items/stoneflynymph.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "stoneflynymph"
+    },
+    {
+        "name": "5gnblevels",
+        "type": "consumable",
+        "img": "images/items/5gnblevels.png",
+        "min_quantity": 0,
+        "max_quantity": 10,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 1,
+        "overlay_align": "right",
+        "overlay_font_size": 14,
+        "overlay_background": "#000000",
+        "codes": "5gnblevels"
+    },
+    {
+        "name": "5vprlevels",
+        "type": "consumable",
+        "img": "images/items/5vprlevels.png",
+        "min_quantity": 0,
+        "max_quantity": 10,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 1,
+        "overlay_align": "right",
+        "overlay_font_size": 14,
+        "overlay_background": "#000000",
+        "codes": "5vprlevels"
+    },
+    {
+        "name": "westernlanosceaaccess",
+        "type": "toggle",
+        "img": "images/items/westernlanosceaaccess.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "westernlanosceaaccess"
+    },
+    {
+        "name": "5brdlevels",
+        "type": "consumable",
+        "img": "images/items/5brdlevels.png",
+        "min_quantity": 0,
+        "max_quantity": 10,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 1,
+        "overlay_align": "right",
+        "overlay_font_size": 14,
+        "overlay_background": "#000000",
+        "codes": "5brdlevels"
+    },
+    {
+        "name": "mythrilspoonlure",
+        "type": "toggle",
+        "img": "images/items/mythrilspoonlure.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "mythrilspoonlure"
+    },
+    {
+        "name": "desertdessertfrog",
+        "type": "toggle",
+        "img": "images/items/desertdessertfrog.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "desertdessertfrog"
+    },
+    {
+        "name": "5warlevels",
+        "type": "consumable",
+        "img": "images/items/5warlevels.png",
+        "min_quantity": 0,
+        "max_quantity": 10,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 1,
+        "overlay_align": "right",
+        "overlay_font_size": 14,
+        "overlay_background": "#000000",
+        "codes": "5warlevels"
+    },
+    {
+        "name": "5armlevels",
+        "type": "consumable",
+        "img": "images/items/5armlevels.png",
+        "min_quantity": 0,
+        "max_quantity": 10,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 1,
+        "overlay_align": "right",
+        "overlay_font_size": 14,
+        "overlay_background": "#000000",
+        "codes": "5armlevels"
+    },
+    {
+        "name": "bruteleech",
+        "type": "toggle",
+        "img": "images/items/bruteleech.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "bruteleech"
+    },
+    {
+        "name": "5ninlevels",
+        "type": "consumable",
+        "img": "images/items/5ninlevels.png",
+        "min_quantity": 0,
+        "max_quantity": 10,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 1,
+        "overlay_align": "right",
+        "overlay_font_size": 14,
+        "overlay_background": "#000000",
+        "codes": "5ninlevels"
+    },
+    {
+        "name": "cloud-eyecarp",
+        "type": "toggle",
+        "img": "images/items/cloud-eyecarp.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "cloud-eyecarp"
+    },
+    {
+        "name": "honeybee",
+        "type": "toggle",
+        "img": "images/items/honeybee.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "honeybee"
+    },
+    {
+        "name": "therubyseaaccess",
+        "type": "toggle",
+        "img": "images/items/therubyseaaccess.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "therubyseaaccess"
+    },
+    {
+        "name": "butterworm",
+        "type": "toggle",
+        "img": "images/items/butterworm.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "butterworm"
+    },
+    {
+        "name": "livingmemoryaccess",
+        "type": "toggle",
+        "img": "images/items/livingmemoryaccess.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "livingmemoryaccess"
+    },
+    {
+        "name": "spinnerbait",
+        "type": "toggle",
+        "img": "images/items/spinnerbait.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "spinnerbait"
+    },
+    {
+        "name": "heritagefoundaccess",
+        "type": "toggle",
+        "img": "images/items/heritagefoundaccess.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "heritagefoundaccess"
+    },
+    {
+        "name": "northernkrill",
+        "type": "toggle",
+        "img": "images/items/northernkrill.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "northernkrill"
+    },
+    {
+        "name": "northernthanalanaccess",
+        "type": "toggle",
+        "img": "images/items/northernthanalanaccess.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "northernthanalanaccess"
+    },
+    {
+        "name": "signatureskyball",
+        "type": "toggle",
+        "img": "images/items/signatureskyball.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "signatureskyball"
+    },
+    {
+        "name": "ishgardaccess",
+        "type": "toggle",
+        "img": "images/items/ishgardaccess.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "ishgardaccess"
+    },
+    {
+        "name": "5drklevels",
+        "type": "consumable",
+        "img": "images/items/5drklevels.png",
+        "min_quantity": 0,
+        "max_quantity": 10,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 1,
+        "overlay_align": "right",
+        "overlay_font_size": 14,
+        "overlay_background": "#000000",
+        "codes": "5drklevels"
+    },
+    {
+        "name": "caddisflylarva",
+        "type": "toggle",
+        "img": "images/items/caddisflylarva.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "caddisflylarva"
+    },
+    {
+        "name": "magmaworm",
+        "type": "toggle",
+        "img": "images/items/magmaworm.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "magmaworm"
+    },
+    {
+        "name": "ghostnipper",
+        "type": "toggle",
+        "img": "images/items/ghostnipper.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "ghostnipper"
+    },
+    {
+        "name": "leech",
+        "type": "toggle",
+        "img": "images/items/leech.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "leech"
+    },
+    {
+        "name": "rhalgrsreachaccess",
+        "type": "toggle",
+        "img": "images/items/rhalgrsreachaccess.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "rhalgrsreachaccess"
+    },
+    {
+        "name": "spoonworm",
+        "type": "toggle",
+        "img": "images/items/spoonworm.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "spoonworm"
+    },
+    {
+        "name": "thetempestaccess",
+        "type": "toggle",
+        "img": "images/items/thetempestaccess.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "thetempestaccess"
+    },
+    {
+        "name": "sandgecko",
+        "type": "toggle",
+        "img": "images/items/sandgecko.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "sandgecko"
+    },
+    {
+        "name": "skyspoonlure",
+        "type": "toggle",
+        "img": "images/items/skyspoonlure.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "skyspoonlure"
+    },
+    {
+        "name": "wildfowlfly",
+        "type": "toggle",
+        "img": "images/items/wildfowlfly.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "wildfowlfly"
+    },
+    {
+        "name": "goblinjig",
+        "type": "toggle",
+        "img": "images/items/goblinjig.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "goblinjig"
+    },
+    {
+        "name": "outerlanosceaaccess",
+        "type": "toggle",
+        "img": "images/items/outerlanosceaaccess.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "outerlanosceaaccess"
+    },
+    {
+        "name": "fiendworm",
+        "type": "toggle",
+        "img": "images/items/fiendworm.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "fiendworm"
+    },
+    {
+        "name": "steeljig",
+        "type": "toggle",
+        "img": "images/items/steeljig.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "steeljig"
+    },
+    {
+        "name": "pursewebspider",
+        "type": "toggle",
+        "img": "images/items/pursewebspider.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "pursewebspider"
+    },
+    {
+        "name": "syrphidbasket",
+        "type": "toggle",
+        "img": "images/items/syrphidbasket.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "syrphidbasket"
+    },
+    {
+        "name": "moyebishrimp",
+        "type": "toggle",
+        "img": "images/items/moyebishrimp.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "moyebishrimp"
+    },
+    {
+        "name": "/pet",
+        "type": "toggle",
+        "img": "images/items//pet.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "/pet"
+    },
+    {
+        "name": "thedravanianhinterlandsandidyllshireaccess",
+        "type": "toggle",
+        "img": "images/items/thedravanianhinterlandsandidyllshireaccess.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "thedravanianhinterlandsandidyllshireaccess"
+    },
+    {
+        "name": "theazimsteppeaccess",
+        "type": "toggle",
+        "img": "images/items/theazimsteppeaccess.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "theazimsteppeaccess"
+    },
+    {
+        "name": "5smnlevels",
+        "type": "consumable",
+        "img": "images/items/5smnlevels.png",
+        "min_quantity": 0,
+        "max_quantity": 10,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 1,
+        "overlay_align": "right",
+        "overlay_font_size": 14,
+        "overlay_background": "#000000",
+        "codes": "5smnlevels"
+    },
+    {
+        "name": "spinner",
+        "type": "toggle",
+        "img": "images/items/spinner.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "spinner"
+    },
+    {
+        "name": "shrimpcagefeeder",
+        "type": "toggle",
+        "img": "images/items/shrimpcagefeeder.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "shrimpcagefeeder"
+    },
+    {
+        "name": "dragonfly",
+        "type": "toggle",
+        "img": "images/items/dragonfly.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "dragonfly"
+    },
+    {
+        "name": "thefringesaccess",
+        "type": "toggle",
+        "img": "images/items/thefringesaccess.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "thefringesaccess"
+    },
+    {
+        "name": "elpisaccess",
+        "type": "toggle",
+        "img": "images/items/elpisaccess.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "elpisaccess"
+    },
+    {
+        "name": "goldenstoneflynymph",
+        "type": "toggle",
+        "img": "images/items/goldenstoneflynymph.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "goldenstoneflynymph"
+    },
+    {
+        "name": "fruitworm",
+        "type": "toggle",
+        "img": "images/items/fruitworm.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "fruitworm"
+    },
+    {
+        "name": "cactuarjig",
+        "type": "toggle",
+        "img": "images/items/cactuarjig.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "cactuarjig"
+    },
+    {
+        "name": "azysllaaccess",
+        "type": "toggle",
+        "img": "images/items/azysllaaccess.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "azysllaaccess"
+    },
+    {
+        "name": "bluebobbit",
+        "type": "toggle",
+        "img": "images/items/bluebobbit.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "bluebobbit"
+    },
+    {
+        "name": "lakelandaccess",
+        "type": "toggle",
+        "img": "images/items/lakelandaccess.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "lakelandaccess"
+    },
+    {
+        "name": "eastshroudaccess",
+        "type": "toggle",
+        "img": "images/items/eastshroudaccess.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "eastshroudaccess"
+    },
+    {
+        "name": "theraktikagreatwoodaccess",
+        "type": "toggle",
+        "img": "images/items/theraktikagreatwoodaccess.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "theraktikagreatwoodaccess"
+    },
+    {
+        "name": "tuliyollalaccess",
+        "type": "toggle",
+        "img": "images/items/tuliyollalaccess.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "tuliyollalaccess"
+    },
+    {
+        "name": "5blmlevels",
+        "type": "consumable",
+        "img": "images/items/5blmlevels.png",
+        "min_quantity": 0,
+        "max_quantity": 10,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 1,
+        "overlay_align": "right",
+        "overlay_font_size": 14,
+        "overlay_background": "#000000",
+        "codes": "5blmlevels"
+    },
+    {
+        "name": "urqopachaaccess",
+        "type": "toggle",
+        "img": "images/items/urqopachaaccess.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "urqopachaaccess"
+    },
+    {
+        "name": "5btnlevels",
+        "type": "consumable",
+        "img": "images/items/5btnlevels.png",
+        "min_quantity": 0,
+        "max_quantity": 10,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 1,
+        "overlay_align": "right",
+        "overlay_font_size": 14,
+        "overlay_background": "#000000",
+        "codes": "5btnlevels"
+    },
+    {
+        "name": "gridaniaandcentralshroudaccess",
+        "type": "toggle",
+        "img": "images/items/gridaniaandcentralshroudaccess.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "gridaniaandcentralshroudaccess"
+    },
+    {
+        "name": "5crplevels",
+        "type": "consumable",
+        "img": "images/items/5crplevels.png",
+        "min_quantity": 0,
+        "max_quantity": 10,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 1,
+        "overlay_align": "right",
+        "overlay_font_size": 14,
+        "overlay_background": "#000000",
+        "codes": "5crplevels"
+    },
+    {
+        "name": "northshroudaccess",
+        "type": "toggle",
+        "img": "images/items/northshroudaccess.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "northshroudaccess"
+    },
+    {
+        "name": "limsalominsaandmiddlelanosceaaccess",
+        "type": "toggle",
+        "img": "images/items/limsalominsaandmiddlelanosceaaccess.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "limsalominsaandmiddlelanosceaaccess"
+    },
+    {
+        "name": "5drglevels",
+        "type": "consumable",
+        "img": "images/items/5drglevels.png",
+        "min_quantity": 0,
+        "max_quantity": 10,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 1,
+        "overlay_align": "right",
+        "overlay_font_size": 14,
+        "overlay_background": "#000000",
+        "codes": "5drglevels"
+    },
+    {
+        "name": "5alclevels",
+        "type": "consumable",
+        "img": "images/items/5alclevels.png",
+        "min_quantity": 0,
+        "max_quantity": 10,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 1,
+        "overlay_align": "right",
+        "overlay_font_size": 14,
+        "overlay_background": "#000000",
+        "codes": "5alclevels"
+    },
+    {
+        "name": "chocobofly",
+        "type": "toggle",
+        "img": "images/items/chocobofly.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "chocobofly"
+    },
+    {
+        "name": "theseaofcloudsaccess",
+        "type": "toggle",
+        "img": "images/items/theseaofcloudsaccess.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "theseaofcloudsaccess"
+    },
+    {
+        "name": "upperlanosceaaccess",
+        "type": "toggle",
+        "img": "images/items/upperlanosceaaccess.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "upperlanosceaaccess"
+    },
+    {
+        "name": "solutionnineaccess",
+        "type": "toggle",
+        "img": "images/items/solutionnineaccess.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "solutionnineaccess"
+    },
+    {
+        "name": "5rdmlevels",
+        "type": "consumable",
+        "img": "images/items/5rdmlevels.png",
+        "min_quantity": 0,
+        "max_quantity": 10,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 1,
+        "overlay_align": "right",
+        "overlay_font_size": 14,
+        "overlay_background": "#000000",
+        "codes": "5rdmlevels"
+    },
+    {
+        "name": "whiteworm",
+        "type": "toggle",
+        "img": "images/items/whiteworm.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "whiteworm"
+    },
+    {
+        "name": "goldsalmonroe",
+        "type": "toggle",
+        "img": "images/items/goldsalmonroe.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "goldsalmonroe"
+    },
+    {
+        "name": "basketofredmaggots",
+        "type": "toggle",
+        "img": "images/items/basketofredmaggots.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "basketofredmaggots"
+    },
+    {
+        "name": "streamer",
+        "type": "toggle",
+        "img": "images/items/streamer.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "streamer"
+    },
+    {
+        "name": "shortbillminnow",
+        "type": "toggle",
+        "img": "images/items/shortbillminnow.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "shortbillminnow"
+    },
+    {
+        "name": "5gsmlevels",
+        "type": "consumable",
+        "img": "images/items/5gsmlevels.png",
+        "min_quantity": 0,
+        "max_quantity": 10,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 1,
+        "overlay_align": "right",
+        "overlay_font_size": 14,
+        "overlay_background": "#000000",
+        "codes": "5gsmlevels"
+    },
+    {
+        "name": "thepeaksaccess",
+        "type": "toggle",
+        "img": "images/items/thepeaksaccess.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "thepeaksaccess"
+    },
+    {
+        "name": "kozamaukaaccess",
+        "type": "toggle",
+        "img": "images/items/kozamaukaaccess.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "kozamaukaaccess"
+    },
+    {
+        "name": "kholusiaaccess",
+        "type": "toggle",
+        "img": "images/items/kholusiaaccess.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "kholusiaaccess"
+    },
+    {
+        "name": "mordhonaaccess",
+        "type": "toggle",
+        "img": "images/items/mordhonaaccess.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "mordhonaaccess"
+    },
+    {
+        "name": "baitbugs",
+        "type": "toggle",
+        "img": "images/items/baitbugs.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "baitbugs"
+    },
+    {
+        "name": "memoryofadistantworld",
+        "type": "consumable",
+        "img": "images/items/memoryofadistantworld.png",
+        "min_quantity": 0,
+        "max_quantity": 10,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 1,
+        "overlay_align": "right",
+        "overlay_font_size": 14,
+        "overlay_background": "#000000",
+        "codes": "memoryofadistantworld"
+    },
+    {
+        "name": "5minlevels",
+        "type": "consumable",
+        "img": "images/items/5minlevels.png",
+        "min_quantity": 0,
+        "max_quantity": 10,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 1,
+        "overlay_align": "right",
+        "overlay_font_size": 14,
+        "overlay_background": "#000000",
+        "codes": "5minlevels"
+    },
+    {
+        "name": "shaaloaniaccess",
+        "type": "toggle",
+        "img": "images/items/shaaloaniaccess.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "shaaloaniaccess"
+    },
+    {
+        "name": "yaktelaccess",
+        "type": "toggle",
+        "img": "images/items/yaktelaccess.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "yaktelaccess"
+    },
+    {
+        "name": "versatilelure",
+        "type": "toggle",
+        "img": "images/items/versatilelure.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "versatilelure"
+    },
+    {
+        "name": "edenkey",
+        "type": "toggle",
+        "img": "images/items/edenkey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "edenkey"
+    },
+    {
+        "name": "5mchlevels",
+        "type": "consumable",
+        "img": "images/items/5mchlevels.png",
+        "min_quantity": 0,
+        "max_quantity": 10,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 1,
+        "overlay_align": "right",
+        "overlay_font_size": 14,
+        "overlay_background": "#000000",
+        "codes": "5mchlevels"
+    },
+    {
+        "name": "5astlevels",
+        "type": "consumable",
+        "img": "images/items/5astlevels.png",
+        "min_quantity": 0,
+        "max_quantity": 10,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 1,
+        "overlay_align": "right",
+        "overlay_font_size": 14,
+        "overlay_background": "#000000",
+        "codes": "5astlevels"
+    },
+    {
+        "name": "gangosaccess",
+        "type": "toggle",
+        "img": "images/items/gangosaccess.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "gangosaccess"
+    },
+    {
+        "name": "5whmlevels",
+        "type": "consumable",
+        "img": "images/items/5whmlevels.png",
+        "min_quantity": 0,
+        "max_quantity": 10,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 1,
+        "overlay_align": "right",
+        "overlay_font_size": 14,
+        "overlay_background": "#000000",
+        "codes": "5whmlevels"
+    },
+    {
+        "name": "5ltwlevels",
+        "type": "consumable",
+        "img": "images/items/5ltwlevels.png",
+        "min_quantity": 0,
+        "max_quantity": 10,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 1,
+        "overlay_align": "right",
+        "overlay_font_size": 14,
+        "overlay_background": "#000000",
+        "codes": "5ltwlevels"
+    },
+    {
+        "name": "oldsharlayanaccess",
+        "type": "toggle",
+        "img": "images/items/oldsharlayanaccess.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "oldsharlayanaccess"
+    },
+    {
+        "name": "chimeraworm",
+        "type": "toggle",
+        "img": "images/items/chimeraworm.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "chimeraworm"
+    },
+    {
+        "name": "rainbowspoonlure",
+        "type": "toggle",
+        "img": "images/items/rainbowspoonlure.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "rainbowspoonlure"
+    },
+    {
+        "name": "5mnklevels",
+        "type": "consumable",
+        "img": "images/items/5mnklevels.png",
+        "min_quantity": 0,
+        "max_quantity": 10,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 1,
+        "overlay_align": "right",
+        "overlay_font_size": 14,
+        "overlay_background": "#000000",
+        "codes": "5mnklevels"
+    },
+    {
+        "name": "potofstardust",
+        "type": "toggle",
+        "img": "images/items/potofstardust.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "potofstardust"
+    },
+    {
+        "name": "silkmothpupa",
+        "type": "toggle",
+        "img": "images/items/silkmothpupa.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "silkmothpupa"
+    },
+    {
+        "name": "crayfishball",
+        "type": "toggle",
+        "img": "images/items/crayfishball.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "crayfishball"
+    },
+    {
+        "name": "krillcagefeeder",
+        "type": "toggle",
+        "img": "images/items/krillcagefeeder.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "krillcagefeeder"
+    },
+    {
+        "name": "yumizuno",
+        "type": "toggle",
+        "img": "images/items/yumizuno.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "yumizuno"
+    },
+    {
+        "name": "topwaterfrog",
+        "type": "toggle",
+        "img": "images/items/topwaterfrog.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "topwaterfrog"
+    },
+    {
+        "name": "shrimpball",
+        "type": "toggle",
+        "img": "images/items/shrimpball.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "shrimpball"
+    },
+    {
+        "name": "balloonbug",
+        "type": "toggle",
+        "img": "images/items/balloonbug.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "balloonbug"
+    },
+    {
+        "name": "5blulevels",
+        "type": "consumable",
+        "img": "images/items/5blulevels.png",
+        "min_quantity": 0,
+        "max_quantity": 10,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 1,
+        "overlay_align": "right",
+        "overlay_font_size": 14,
+        "overlay_background": "#000000",
+        "codes": "5blulevels"
+    },
+    {
+        "name": "sandleech",
+        "type": "toggle",
+        "img": "images/items/sandleech.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "sandleech"
+    },
+    {
+        "name": "snurblefly",
+        "type": "toggle",
+        "img": "images/items/snurblefly.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "snurblefly"
+    },
+    {
+        "name": "midgelarva",
+        "type": "toggle",
+        "img": "images/items/midgelarva.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "midgelarva"
+    },
+    {
+        "name": "5samlevels",
+        "type": "consumable",
+        "img": "images/items/5samlevels.png",
+        "min_quantity": 0,
+        "max_quantity": 10,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 1,
+        "overlay_align": "right",
+        "overlay_font_size": 14,
+        "overlay_background": "#000000",
+        "codes": "5samlevels"
+    },
+    {
+        "name": "thelochsaccess",
+        "type": "toggle",
+        "img": "images/items/thelochsaccess.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "thelochsaccess"
+    },
+    {
+        "name": "5pctlevels",
+        "type": "consumable",
+        "img": "images/items/5pctlevels.png",
+        "min_quantity": 0,
+        "max_quantity": 10,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 1,
+        "overlay_align": "right",
+        "overlay_font_size": 14,
+        "overlay_background": "#000000",
+        "codes": "5pctlevels"
+    },
+    {
+        "name": "update",
+        "type": "toggle",
+        "img": "images/items/update.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "update"
+    }
+]
