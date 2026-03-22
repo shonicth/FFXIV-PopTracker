@@ -57,10 +57,10 @@ function outerlanosceaaccess()
     return(
     (has("outerlanosceaaccess") and upperlanoaccess())
   )
-
+end
 --levels
-function Leveling()
+function leveling()
   return(
-    math.max(5pldlevels, 5warlevels, 5drklevels, 5gnblevels, 5whmlevels, 5schlevels, 5astlevels, 5sgelevels, 5mnklevels, 5drglevels, 5ninlevels, 5samlevels, 5rprlevels, 5vprlevels, 5brdlevels, 5mchlevels, 5dnclevels, 5blmlevels, 5smnlevels, 5rdmlevels, 5pctlevels, 5blulevels)
+    math.max(Tracker:ProviderCountForCode("5pldlevels"), Tracker:ProviderCountForCode("5warlevels"), Tracker:ProviderCountForCode("5drklevels"), Tracker:ProviderCountForCode("5gnblevels"), Tracker:ProviderCountForCode("5whmlevels"), Tracker:ProviderCountForCode("5schlevels"), Tracker:ProviderCountForCode("5astlevels"), Tracker:ProviderCountForCode("5sgelevels"), Tracker:ProviderCountForCode("5mnklevels"), Tracker:ProviderCountForCode("5drglevels"), Tracker:ProviderCountForCode("5ninlevels"), Tracker:ProviderCountForCode("5samlevels"), Tracker:ProviderCountForCode("5rprlevels"), Tracker:ProviderCountForCode("5vprlevels"), Tracker:ProviderCountForCode("5brdlevels"), Tracker:ProviderCountForCode("5mchlevels"), Tracker:ProviderCountForCode("5dnclevels"), Tracker:ProviderCountForCode("5blmlevels"), Tracker:ProviderCountForCode("5smnlevels"), Tracker:ProviderCountForCode("5rdmlevels"), Tracker:ProviderCountForCode("5pctlevels"), Tracker:ProviderCountForCode("5blulevels"))
   )
 end
