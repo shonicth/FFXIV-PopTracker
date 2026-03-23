@@ -14,7 +14,7 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "$leveling:24"
                 ],
                 "sections": [
                     {
@@ -93,7 +93,7 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "$leveling:50"
                 ],
                 "sections": [
                     {
@@ -243,121 +243,121 @@
                 "sections": [
                     {
                         "name": "The Lost City of Amdapor",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:50"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "The Lost City of Amdapor (Hard)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:60"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "The Lost City of Amdapor 2",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:50"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "The Lost City of Amdapor 3",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:50"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "The Lost City of Amdapor 4",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:50"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "The Lost City of Amdapor 5",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:50"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "The Lost City of Amdapor 6",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:50"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "The Lost City of Amdapor 7",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:50"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "The Lost City of Amdapor 8",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:50"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "The Lost City of Amdapor 9",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:50"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "The Lost City of Amdapor 10",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:50"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "The Lost City of Amdapor (Hard) 2",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:60"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "The Lost City of Amdapor (Hard) 3",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:60"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "The Lost City of Amdapor (Hard) 4",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:60"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "The Lost City of Amdapor (Hard) 5",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:60"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "The Lost City of Amdapor (Hard) 6",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:60"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "The Lost City of Amdapor (Hard) 7",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:60"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "The Lost City of Amdapor (Hard) 8",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:60"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "The Lost City of Amdapor (Hard) 9",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:60"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "The Lost City of Amdapor (Hard) 10",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:60"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -382,7 +382,7 @@
                 "sections": [
                     {
                         "name": "Urths Fount",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:50"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -407,7 +407,7 @@
                 "sections": [
                     {
                         "name": "Stinging Back",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:20"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -432,7 +432,7 @@
                 "sections": [
                     {
                         "name": "Alls Well that Ends in the Well",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:25"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -452,7 +452,7 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "$leveling:21"
                 ],
                 "sections": [
                     {
@@ -536,7 +536,7 @@
                 "sections": [
                     {
                         "name": "Stag Parting (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:21"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -561,7 +561,7 @@
                 "sections": [
                     {
                         "name": "Another Round (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:22"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -586,7 +586,7 @@
                 "sections": [
                     {
                         "name": "Kickin it with the Kedtraps (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:22"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -611,7 +611,7 @@
                 "sections": [
                     {
                         "name": "To Whom the Toll Goes (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:22"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -636,7 +636,7 @@
                 "sections": [
                     {
                         "name": "The Hunted (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:23"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -661,7 +661,7 @@
                 "sections": [
                     {
                         "name": "Conspiracy Theory (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:24"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -686,7 +686,7 @@
                 "sections": [
                     {
                         "name": "The Negotiators (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:28"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -711,7 +711,7 @@
                 "sections": [
                     {
                         "name": "Hide and Seek (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:29"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -736,7 +736,7 @@
                 "sections": [
                     {
                         "name": "Robbin Goblins (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:29"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -761,7 +761,7 @@
                 "sections": [
                     {
                         "name": "The Coeurl King (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:29"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -786,7 +786,7 @@
                 "sections": [
                     {
                         "name": "To Train a Tortoise (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:30"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -811,7 +811,7 @@
                 "sections": [
                     {
                         "name": "Fate is a Fecal Mistress (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:31"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -836,7 +836,7 @@
                 "sections": [
                     {
                         "name": "A Tale of Two-tails (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:32"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -861,7 +861,7 @@
                 "sections": [
                     {
                         "name": "Breaching the Hive (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:32"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -886,7 +886,7 @@
                 "sections": [
                     {
                         "name": "Clearing the Hive (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:32"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -911,7 +911,7 @@
                 "sections": [
                     {
                         "name": "Defending the Hive (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:32"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -936,7 +936,7 @@
                 "sections": [
                     {
                         "name": "Keeping the Hive (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:32"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -961,7 +961,7 @@
                 "sections": [
                     {
                         "name": "Rogue on the Water (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:33"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -986,7 +986,7 @@
                 "sections": [
                     {
                         "name": "Eft for Dead (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:34"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -1011,7 +1011,7 @@
                 "sections": [
                     {
                         "name": "What Gored Before (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:46"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
