@@ -94,42 +94,42 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:1"
+                    ""
                 ],
                 "sections": [
                     {
                         "name": "Rhotano Sea",
-                        "access_rules": [],
+                        "access_rules": ["5fshlevels:1"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Bloodbrine Sea",
-                        "access_rules": [],
+                        "access_rules": ["5fshlevels:1"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Rothlyt Sound",
-                        "access_rules": [],
+                        "access_rules": ["5fshlevels:1"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Northern Strait of Merlthor",
-                        "access_rules": [],
+                        "access_rules": ["5fshlevels:1"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Ruby Sea",
-                        "access_rules": [],
+                        "access_rules": ["5fshlevels:60"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "One River",
-                        "access_rules": [],
+                        "access_rules": ["5fshlevels:1"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -150,60 +150,60 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    ""
+                    "5fshlevels:1"
                 ],
                 "sections": [
                     {
                         "name": "Malm Kelp",
-                        "access_rules": ["5fshlevels:4, pillbug"],
+                        "access_rules": ["pillbug"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Merlthor Goby",
-                        "access_rules": ["5fshlevels:3, lugworm"],
+                        "access_rules": ["lugworm"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Lominsan Anchovy",
-                        "access_rules": ["5fshlevels:3, lugworm"],
+                        "access_rules": ["lugworm"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Finger Shrimp",
-                        "access_rules": ["5fshlevels:4, lugworm"],
+                        "access_rules": ["lugworm"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Ocean Cloud",
-                        "access_rules": ["5fshlevels:6, pillbug"],
+                        "access_rules": ["pillbug"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Harbor Herring",
-                        "access_rules": ["5fshlevels:7, pillbug"],
+                        "access_rules": ["pillbug"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Coral Butterfly",
-                        "access_rules": ["5fshlevels:9, pillbug", "5fshlevels:1, floatingminnow"],
+                        "access_rules": ["pillbug", "floatingminnow"],
                         "visibility_rules": [],
                         "item_count": 9
                     },
                     {
                         "name": "Blue Octopus",
-                        "access_rules": ["5fshlevels:21, lugworm", "5fshlevels:21, pillbug"],
+                        "access_rules": ["lugworm", "pillbug"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Octomammoth",
-                        "access_rules": ["5fshlevels:50, pillbug"],
+                        "access_rules": ["pillbug"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
