@@ -14,126 +14,126 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    ""
                 ],
                 "sections": [
                     {
                         "name": "Brayfloxs Longstop",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:32"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Brayfloxs Longstop (Hard)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:50"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Brayfloxs Longstop 2",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:32"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Brayfloxs Longstop 3",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:32"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Brayfloxs Longstop 4",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:32"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Brayfloxs Longstop 5",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:32"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Brayfloxs Longstop 6",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:32"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Brayfloxs Longstop 7",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:32"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Brayfloxs Longstop 8",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:32"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Brayfloxs Longstop 9",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:32"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Brayfloxs Longstop 10",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:32"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Brayfloxs Longstop (Hard) 2",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:350"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Brayfloxs Longstop (Hard) 3",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:50"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Brayfloxs Longstop (Hard) 4",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:50"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Brayfloxs Longstop (Hard) 5",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:50"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Brayfloxs Longstop (Hard) 6",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:50"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Brayfloxs Longstop (Hard) 7",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:50"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Brayfloxs Longstop (Hard) 8",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:50"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Brayfloxs Longstop (Hard) 9",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:50"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Brayfloxs Longstop (Hard) 10",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:50"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -154,7 +154,7 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "$leveling:50"
                 ],
                 "sections": [
                     {
@@ -204,7 +204,7 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "$leveling:30"
                 ],
                 "sections": [
                     {
@@ -289,7 +289,7 @@
                 "sections": [
                     {
                         "name": "Careless Whiskers (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:30"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -315,7 +315,7 @@
                 "sections": [
                     {
                         "name": "Crab and Go (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:30"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -341,7 +341,7 @@
                 "sections": [
                     {
                         "name": "Just a Matter of Rut (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:31"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -367,7 +367,7 @@
                 "sections": [
                     {
                         "name": "9 to 5 (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:32"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -393,7 +393,7 @@
                 "sections": [
                     {
                         "name": "Cliff Hanger (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:32"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -419,7 +419,7 @@
                 "sections": [
                     {
                         "name": "Finding Wine (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:32"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -445,7 +445,7 @@
                 "sections": [
                     {
                         "name": "Its Not Lupus (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:32"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -471,7 +471,7 @@
                 "sections": [
                     {
                         "name": "Jewels of the Isle (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:32"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -497,7 +497,7 @@
                 "sections": [
                     {
                         "name": "Say My Name (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:32"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -523,7 +523,7 @@
                 "sections": [
                     {
                         "name": "The Pelican Briefing (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:32"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -549,7 +549,7 @@
                 "sections": [
                     {
                         "name": "The Thirst (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:32"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -575,7 +575,7 @@
                 "sections": [
                     {
                         "name": "Consigned, Sealed, and Undelivered (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:33"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -601,7 +601,7 @@
                 "sections": [
                     {
                         "name": "Follow the Light (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:33"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -627,7 +627,7 @@
                 "sections": [
                     {
                         "name": "Ho Ho Ho (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:33"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -653,7 +653,7 @@
                 "sections": [
                     {
                         "name": "Long Way Home (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:33"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -679,7 +679,7 @@
                 "sections": [
                     {
                         "name": "No Lip (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:33"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -705,7 +705,7 @@
                 "sections": [
                     {
                         "name": "Sweeter than Honey (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:33"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -731,7 +731,7 @@
                 "sections": [
                     {
                         "name": "Them (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:33"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -757,7 +757,7 @@
                 "sections": [
                     {
                         "name": "Thrill of the Hunt (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:33"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -783,7 +783,7 @@
                 "sections": [
                     {
                         "name": "Closing Time (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:34"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -804,7 +804,7 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "5fshlevels:25"
                 ],
                 "sections": [
                     {
@@ -884,7 +884,7 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "5fshlevels:50"
                 ],
                 "sections": [
                     {
@@ -964,7 +964,7 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "5fshlevels:50"
                 ],
                 "sections": [
                     {
@@ -1044,7 +1044,7 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "5fshlevels:50"
                 ],
                 "sections": [
                     {
@@ -1124,7 +1124,7 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "5fshlevels:35"
                 ],
                 "sections": [
                     {
@@ -1204,7 +1204,7 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "5fshlevels:30"
                 ],
                 "sections": [
                     {
@@ -1284,7 +1284,7 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "5fshlevels:35"
                 ],
                 "sections": [
                     {
@@ -1346,7 +1346,7 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "5fshlevels:40"
                 ],
                 "sections": [
                     {
@@ -1420,7 +1420,7 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "5fshlevels:40"
                 ],
                 "sections": [
                     {
@@ -1500,7 +1500,7 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "5fshlevels:40"
                 ],
                 "sections": [
                     {
@@ -1568,7 +1568,7 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "5fshlevels:45"
                 ],
                 "sections": [
                     {
