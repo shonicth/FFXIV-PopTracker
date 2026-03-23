@@ -110,6 +110,12 @@ function northanthanalanaccess()
     (has("northanthanalanaccess"))
   )
 end
+function thegobletaccess()
+    return(
+    --Connected to Western
+    (westernthanalanaccess())
+  )
+end
 --ARR Misc
 function coerthascentralhighlandsaccess()
     return(
