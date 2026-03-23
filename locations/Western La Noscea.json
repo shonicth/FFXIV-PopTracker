@@ -14,126 +14,126 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    ""
                 ],
                 "sections": [
                     {
                         "name": "Sastasha",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:15"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Sastasha (Hard)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:50"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Sastasha 2",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:15"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Sastasha 3",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:15"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Sastasha 4",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:15"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Sastasha 5",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:15"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Sastasha 6",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:15"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Sastasha 7",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:15"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Sastasha 8",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:15"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Sastasha 9",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:15"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Sastasha 10",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:15"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Sastasha (Hard) 2",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:50"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Sastasha (Hard) 3",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:50"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Sastasha (Hard) 4",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:50"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Sastasha (Hard) 5",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:50"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Sastasha (Hard) 6",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:50"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Sastasha (Hard) 7",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:50"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Sastasha (Hard) 8",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:50"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Sastasha (Hard) 9",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:50"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Sastasha (Hard) 10",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:50"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -154,7 +154,7 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "$leveling:50"
                 ],
                 "sections": [
                     {
@@ -234,7 +234,7 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "$leveling:10"
                 ],
                 "sections": [
                     {
@@ -319,7 +319,7 @@
                 "sections": [
                     {
                         "name": "Barometz Soup (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:10"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -345,7 +345,7 @@
                 "sections": [
                     {
                         "name": "Shredding Wheat (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:10"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -371,7 +371,7 @@
                 "sections": [
                     {
                         "name": "Tender Buttons (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:12"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -397,7 +397,7 @@
                 "sections": [
                     {
                         "name": "The Last Straw (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:12"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -413,50 +413,19 @@
                 ]
             },
             {
-                "name": "(I Just)",
+                "name": "(I Just) Died in Six Arms Tonight (FATE)",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
                     " "
                 ],
-                "children": [
+                "sections": [
                     {
-                        "name": "Died in Six Arms Tonight (FATE)",
-                        "chest_unopened_img": "/images/items/close.png",
-                        "chest_opened_img": "/images/items/open.png",
-                        "overlay_background": "#000000",
-                        "access_rules": [
-                            " "
-                        ],
-                        "children": [
-                            {
-                                "name": "(I Just)",
-                                "chest_unopened_img": "/images/items/close.png",
-                                "chest_opened_img": "/images/items/open.png",
-                                "overlay_background": "#000000",
-                                "access_rules": [
-                                    " "
-                                ],
-                                "sections": [
-                                    {
-                                        "name": "Died in Six Arms Tonight (FATE)",
-                                        "access_rules": [],
-                                        "visibility_rules": [],
-                                        "item_count": 1
-                                    }
-                                ],
-                                "map_locations": [
-                                    {
-                                        "map": "Western La Noscea",
-                                        "x": 1486,
-                                        "y": 1450,
-                                        "size": 40,
-                                        "shape": "rect"
-                                    }
-                                ]
-                            }
-                        ]
+                        "name": "(I Just) Died in Six Arms Tonight (FATE)",
+                        "access_rules": ["$leveling:13"],
+                        "visibility_rules": [],
+                        "item_count": 1
                     }
                 ]
             },
@@ -471,7 +440,7 @@
                 "sections": [
                     {
                         "name": "Between Aurochs (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:15"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -497,7 +466,7 @@
                 "sections": [
                     {
                         "name": "Goblin Chain (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:15"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -523,7 +492,7 @@
                 "sections": [
                     {
                         "name": "Absolutely Positively (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:16"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -549,7 +518,7 @@
                 "sections": [
                     {
                         "name": "In the Sac (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:16"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -575,7 +544,7 @@
                 "sections": [
                     {
                         "name": "Dont Call Him a Fishback (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:17"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -601,7 +570,7 @@
                 "sections": [
                     {
                         "name": "Letters from Tidegate (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:17"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -627,7 +596,7 @@
                 "sections": [
                     {
                         "name": "Iron Contra Affair (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:18"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -653,7 +622,7 @@
                 "sections": [
                     {
                         "name": "Tryp Fantastic (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:18"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -679,7 +648,7 @@
                 "sections": [
                     {
                         "name": "Dead Mans Rest (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:40"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -705,7 +674,7 @@
                 "sections": [
                     {
                         "name": "The Kings Justice (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:40"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -731,7 +700,7 @@
                 "sections": [
                     {
                         "name": "Breaching North Tidegate (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:44"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -757,7 +726,7 @@
                 "sections": [
                     {
                         "name": "Gauging North Tidegate (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:44"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -783,7 +752,7 @@
                 "sections": [
                     {
                         "name": "Sharknado (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:44"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -809,7 +778,7 @@
                 "sections": [
                     {
                         "name": "Breaching South Tidegate (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:45"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -835,7 +804,7 @@
                 "sections": [
                     {
                         "name": "Gauging South Tidegate (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:45"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -861,7 +830,7 @@
                 "sections": [
                     {
                         "name": "Tail of a Whale (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:46"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -887,7 +856,7 @@
                 "sections": [
                     {
                         "name": "Watch Your Tongue (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:48"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -913,7 +882,7 @@
                 "sections": [
                     {
                         "name": "Making Waves (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:49"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -934,7 +903,7 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "5fshlevels:15"
                 ],
                 "sections": [
                     {
@@ -1002,7 +971,7 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "5fshlevels:40"
                 ],
                 "sections": [
                     {
@@ -1082,7 +1051,7 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "fshlevels:45"
                 ],
                 "sections": [
                     {
@@ -1162,7 +1131,7 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "fshlevels:50"
                 ],
                 "sections": [
                     {
@@ -1230,7 +1199,7 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "fshlevels:10"
                 ],
                 "sections": [
                     {
@@ -1310,7 +1279,7 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "fshlevels:15"
                 ],
                 "sections": [
                     {
@@ -1373,7 +1342,7 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "fshlevels:35"
                 ],
                 "sections": [
                     {
@@ -1435,7 +1404,7 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "fshlevels:50"
                 ],
                 "sections": [
                     {
@@ -1515,7 +1484,7 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "fshlevels:45"
                 ],
                 "sections": [
                     {
