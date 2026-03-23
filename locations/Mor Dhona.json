@@ -5,7 +5,7 @@
         "chest_opened_img": "/images/items/open.png",
         "overlay_background": "#000000",
         "access_rules": [
-            " "
+            "$mordhonaaccess"
         ],
         "children": [
             {
@@ -14,7 +14,7 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "$leveling:50"
                 ],
                 "sections": [
                     {
@@ -98,7 +98,7 @@
                 "sections": [
                     {
                         "name": "The Chrysalis",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:50"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -118,7 +118,7 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "$leveling:50"
                 ],
                 "sections": [
                     {
@@ -160,7 +160,7 @@
                 "sections": [
                     {
                         "name": "Ward Up",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:40"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -185,7 +185,7 @@
                 "sections": [
                     {
                         "name": "Solemn Trinity",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:40"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -205,7 +205,7 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "$leveling:90"
                 ],
                 "sections": [
                     {
@@ -242,7 +242,7 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "$leveling:44"
                 ],
                 "sections": [
                     {
@@ -326,7 +326,7 @@
                 "sections": [
                     {
                         "name": "Good to Be Bud (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:44"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -351,7 +351,7 @@
                 "sections": [
                     {
                         "name": "Mud About You (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:44"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -376,7 +376,7 @@
                 "sections": [
                     {
                         "name": "V for Vinedetta (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:44"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -401,7 +401,7 @@
                 "sections": [
                     {
                         "name": "Among Giants (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:45"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -426,7 +426,7 @@
                 "sections": [
                     {
                         "name": "Black and Nburu (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:45"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -451,7 +451,7 @@
                 "sections": [
                     {
                         "name": "The Prodigal Son (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:45"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -476,7 +476,7 @@
                 "sections": [
                     {
                         "name": "Toll Collector (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:45"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -501,7 +501,7 @@
                 "sections": [
                     {
                         "name": "Another Day, Another Demon (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:46"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -526,7 +526,7 @@
                 "sections": [
                     {
                         "name": "Gone with the Shadow (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:46"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -551,7 +551,7 @@
                 "sections": [
                     {
                         "name": "Home Is Where the Horn Is (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:46"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -576,7 +576,7 @@
                 "sections": [
                     {
                         "name": "One Giant Leap (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:46"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -601,7 +601,7 @@
                 "sections": [
                     {
                         "name": "Standing Guard (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:46"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -626,7 +626,7 @@
                 "sections": [
                     {
                         "name": "Thats What Adventurers Are For (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:46"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -651,7 +651,7 @@
                 "sections": [
                     {
                         "name": "Another Notch on the Torch (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:48"],
                         "visibility_rules": [],
                         "item_count": 1
                     }

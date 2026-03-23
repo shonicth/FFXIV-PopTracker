@@ -5,7 +5,7 @@
         "chest_opened_img": "/images/items/open.png",
         "overlay_background": "#000000",
         "access_rules": [
-            " "
+            "$coerthascentralhighlandsaccess"
         ],
         "children": [
             {
@@ -19,121 +19,121 @@
                 "sections": [
                     {
                         "name": "The Stone Vigil",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:41"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "The Stone Vigil (Hard)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:50"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "The Stone Vigil 2",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:41"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "The Stone Vigil 3",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:41"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "The Stone Vigil 4",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:41"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "The Stone Vigil 5",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:41"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "The Stone Vigil 6",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:41"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "The Stone Vigil 7",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:41"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "The Stone Vigil 8",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:41"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "The Stone Vigil 9",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:41"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "The Stone Vigil 10",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:41"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "The Stone Vigil (Hard) 2",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:50"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "The Stone Vigil (Hard) 3",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:50"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "The Stone Vigil (Hard) 4",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:50"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "The Stone Vigil (Hard) 5",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:50"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "The Stone Vigil (Hard) 6",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:50"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "The Stone Vigil (Hard) 7",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:50"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "The Stone Vigil (Hard) 8",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:50"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "The Stone Vigil (Hard) 9",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:50"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "The Stone Vigil (Hard) 10",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:50"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -153,7 +153,7 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "$leveling:44"
                 ],
                 "sections": [
                     {
@@ -232,7 +232,7 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "$leveling:47"
                 ],
                 "sections": [
                     {
@@ -316,19 +316,19 @@
                 "sections": [
                     {
                         "name": "Snowcloak",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:50"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "The Akh Afah Amphitheatre (Hard)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:50"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "The Akh Afah Amphitheatre (Extreme)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:50"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
@@ -364,55 +364,55 @@
                     },
                     {
                         "name": "Snowcloak 2",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:50"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Snowcloak 3",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:50"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Snowcloak 4",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:50"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Snowcloak 5",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:50"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Snowcloak 6",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:50"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Snowcloak 7",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:50"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Snowcloak 8",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:50"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Snowcloak 9",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:50"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Snowcloak 10",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:50"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -437,13 +437,13 @@
                 "sections": [
                     {
                         "name": "The Howling Eye (Hard)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:50"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "The Howling Eye (Extreme)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:50"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -468,7 +468,7 @@
                 "sections": [
                     {
                         "name": "A Relic Reborn The Chimera",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:50"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -493,7 +493,7 @@
                 "sections": [
                     {
                         "name": "Battle on the Big Bridge",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:50"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -518,7 +518,7 @@
                 "sections": [
                     {
                         "name": "Shadow and Claw",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:35"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -543,7 +543,7 @@
                 "sections": [
                     {
                         "name": "Long Live the Queen",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:535"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -563,7 +563,7 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "$leveling:60"
                 ],
                 "sections": [
                     {
@@ -642,7 +642,7 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "$leveling:35"
                 ],
                 "sections": [
                     {
@@ -726,7 +726,7 @@
                 "sections": [
                     {
                         "name": "A Log Up (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:35"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -751,7 +751,7 @@
                 "sections": [
                     {
                         "name": "Gavial (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:35"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -776,7 +776,7 @@
                 "sections": [
                     {
                         "name": "Twelve Ilms of Snow (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:35"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -801,7 +801,7 @@
                 "sections": [
                     {
                         "name": "Baa Baa Black Sheep (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:36"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -826,7 +826,7 @@
                 "sections": [
                     {
                         "name": "Croc-y Road (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:36"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -851,7 +851,7 @@
                 "sections": [
                     {
                         "name": "Whiteout (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:36"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -876,7 +876,7 @@
                 "sections": [
                     {
                         "name": "Wish Upon a Star (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:36"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -901,7 +901,7 @@
                 "sections": [
                     {
                         "name": "A Fire in the Distance (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:37"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -926,7 +926,7 @@
                 "sections": [
                     {
                         "name": "Coming to a Head (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:37"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -951,7 +951,7 @@
                 "sections": [
                     {
                         "name": "Simply Red (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:38"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -976,7 +976,7 @@
                 "sections": [
                     {
                         "name": "Spring Forward, Fall Back (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:38"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -1001,7 +1001,7 @@
                 "sections": [
                     {
                         "name": "Svaras Fall (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:38"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -1026,7 +1026,7 @@
                 "sections": [
                     {
                         "name": "Svaras Fear (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:38"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -1051,7 +1051,7 @@
                 "sections": [
                     {
                         "name": "Svaras Flight (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:38"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -1076,7 +1076,7 @@
                 "sections": [
                     {
                         "name": "Svaras Fury (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:38"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -1101,7 +1101,7 @@
                 "sections": [
                     {
                         "name": "The Grey (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:38"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -1126,7 +1126,7 @@
                 "sections": [
                     {
                         "name": "A Freeze Is Coming (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:39"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -1151,7 +1151,7 @@
                 "sections": [
                     {
                         "name": "Bellyful (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:39"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -1176,7 +1176,7 @@
                 "sections": [
                     {
                         "name": "Judge Jury and Executioner (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:39"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -1201,7 +1201,7 @@
                 "sections": [
                     {
                         "name": "Roc of Ages (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:39"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -1226,7 +1226,7 @@
                 "sections": [
                     {
                         "name": "The Eyes Have It (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:39"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -1251,7 +1251,7 @@
                 "sections": [
                     {
                         "name": "Front and Center (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:40"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -1276,7 +1276,7 @@
                 "sections": [
                     {
                         "name": "Giant Seps (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:40"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -1301,7 +1301,7 @@
                 "sections": [
                     {
                         "name": "If This Wall Could Talk (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:40"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -1326,7 +1326,7 @@
                 "sections": [
                     {
                         "name": "Riddle Me This (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:40"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -1351,7 +1351,7 @@
                 "sections": [
                     {
                         "name": "The Taste of Fear (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:40"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -1376,7 +1376,7 @@
                 "sections": [
                     {
                         "name": "In the Saints Wake (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:45"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -1401,7 +1401,7 @@
                 "sections": [
                     {
                         "name": "Tower of Power (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:45"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -1426,7 +1426,7 @@
                 "sections": [
                     {
                         "name": "The Bigger They Are (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:46"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -1451,7 +1451,7 @@
                 "sections": [
                     {
                         "name": "Turn Off Your Hearthlight (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:47"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -1476,7 +1476,7 @@
                 "sections": [
                     {
                         "name": "Whats On Your Mind (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:47"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -1501,7 +1501,7 @@
                 "sections": [
                     {
                         "name": "Does Anyone Hear It (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:48"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -1526,7 +1526,7 @@
                 "sections": [
                     {
                         "name": "Inspector Hatchet (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:49"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -1551,7 +1551,7 @@
                 "sections": [
                     {
                         "name": "The Four Winds (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:49"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -1576,7 +1576,7 @@
                 "sections": [
                     {
                         "name": "The Storm Caller (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:49"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -1601,7 +1601,7 @@
                 "sections": [
                     {
                         "name": "Behold Now Behemoth (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:50"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -1626,7 +1626,7 @@
                 "sections": [
                     {
                         "name": "He Taketh It with His Eyes (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:50"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
