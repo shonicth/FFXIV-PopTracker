@@ -14,126 +14,126 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    ""
                 ],
                 "sections": [
                     {
                         "name": "Hullbreaker Isle",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:50"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Hullbreaker Isle (Hard)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:60"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Hullbreaker Isle 2",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:50"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Hullbreaker Isle 3",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:50"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Hullbreaker Isle 4",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:50"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Hullbreaker Isle 5",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:50"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Hullbreaker Isle 6",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:50"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Hullbreaker Isle 7",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:50"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Hullbreaker Isle 8",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:50"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Hullbreaker Isle 9",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:50"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Hullbreaker Isle 10",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:50"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Hullbreaker Isle (Hard) 2",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:60"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Hullbreaker Isle (Hard) 3",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:60"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Hullbreaker Isle (Hard) 4",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:60"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Hullbreaker Isle (Hard) 5",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:60"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Hullbreaker Isle (Hard) 6",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:60"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Hullbreaker Isle (Hard) 7",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:60"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Hullbreaker Isle (Hard) 8",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:60"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Hullbreaker Isle (Hard) 9",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:60"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Hullbreaker Isle (Hard) 10",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:60"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -159,13 +159,13 @@
                 "sections": [
                     {
                         "name": "The Whorleater (Hard)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:50"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "The Whorleater (Extreme)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:50"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -191,7 +191,7 @@
                 "sections": [
                     {
                         "name": "Annoy the Void",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:30"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -212,7 +212,7 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "$leveling:30"
                 ],
                 "sections": [
                     {
@@ -268,7 +268,7 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "$leveling:3"
                 ],
                 "sections": [
                     {
@@ -353,7 +353,7 @@
                 "sections": [
                     {
                         "name": "I Melt with You (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:3"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -379,7 +379,7 @@
                 "sections": [
                     {
                         "name": "You Call that a Toad (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:4"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -405,7 +405,7 @@
                 "sections": [
                     {
                         "name": "Fight the Flower (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:5"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -431,7 +431,7 @@
                 "sections": [
                     {
                         "name": "Caving In (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:7"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -457,7 +457,7 @@
                 "sections": [
                     {
                         "name": "Man of the Flour (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:8"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -483,7 +483,7 @@
                 "sections": [
                     {
                         "name": "Enter Beastman (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:9"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -509,7 +509,7 @@
                 "sections": [
                     {
                         "name": "One Pickman Enters (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:9"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -535,7 +535,7 @@
                 "sections": [
                     {
                         "name": "In the Name of Love (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:10"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -561,7 +561,7 @@
                 "sections": [
                     {
                         "name": "Under the Bridge (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:10"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -587,7 +587,7 @@
                 "sections": [
                     {
                         "name": "Away in a Bilge Hold (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:11"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -613,7 +613,7 @@
                 "sections": [
                     {
                         "name": "Dont Drink the Water (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:12"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -639,7 +639,7 @@
                 "sections": [
                     {
                         "name": "One Prince (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:13"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -660,7 +660,7 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "5fshlevels:5"
                 ],
                 "sections": [
                     {
@@ -734,7 +734,7 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "5fshlevels:10"
                 ],
                 "sections": [
                     {
@@ -808,7 +808,7 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "5fshlevels:10"
                 ],
                 "sections": [
                     {
@@ -876,7 +876,7 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "5fshlevels:15"
                 ],
                 "sections": [
                     {
@@ -950,7 +950,7 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "5fshlevels:10"
                 ],
                 "sections": [
                     {
@@ -1018,7 +1018,7 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "5fshlevels:20"
                 ],
                 "sections": [
                     {
@@ -1092,7 +1092,7 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "5fshlevels:1"
                 ],
                 "sections": [
                     {
@@ -1160,7 +1160,7 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "5fshlevels:20"
                 ],
                 "sections": [
                     {
@@ -1210,7 +1210,7 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "5fshlevels:15"
                 ],
                 "sections": [
                     {

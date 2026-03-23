@@ -14,12 +14,12 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    ""
                 ],
                 "sections": [
                     {
                         "name": "Basic Training Enemy Parties",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:10"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -40,7 +40,7 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "$leveling:3"
                 ],
                 "sections": [
                     {
@@ -125,7 +125,7 @@
                 "sections": [
                     {
                         "name": "On the Lamb (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:3"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -151,7 +151,7 @@
                 "sections": [
                     {
                         "name": "Taking It to the Streams (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:4"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -177,7 +177,7 @@
                 "sections": [
                     {
                         "name": "Overnight Migration (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:5"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -203,7 +203,7 @@
                 "sections": [
                     {
                         "name": "Yellow-bellied Greenbacks (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:5"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -229,7 +229,7 @@
                 "sections": [
                     {
                         "name": "Thwack-a-Mole (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:6"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -255,7 +255,7 @@
                 "sections": [
                     {
                         "name": "Crying over Spilled Salt (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:7"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -281,7 +281,7 @@
                 "sections": [
                     {
                         "name": "Hello, Work (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:7"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -307,7 +307,7 @@
                 "sections": [
                     {
                         "name": "Menuis at Work (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:8"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -333,7 +333,7 @@
                 "sections": [
                     {
                         "name": "The Orange Boxes (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:9"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -359,7 +359,7 @@
                 "sections": [
                     {
                         "name": "Shearing is Caring (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:10"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -385,7 +385,7 @@
                 "sections": [
                     {
                         "name": "Sister Crustacean (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:312"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -411,7 +411,7 @@
                 "sections": [
                     {
                         "name": "Go Wespe (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:13"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -437,7 +437,7 @@
                 "sections": [
                     {
                         "name": "A Mad, Mad, Mad Sergeant (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:14"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -463,7 +463,7 @@
                 "sections": [
                     {
                         "name": "The Boy Who Cried Jackal (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:14"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -489,7 +489,7 @@
                 "sections": [
                     {
                         "name": "The Truth Is out There (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:14"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -510,7 +510,7 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "5fshlevels:1"
                 ],
                 "sections": [
                     {
@@ -590,7 +590,7 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "5fshlevels:5"
                 ],
                 "sections": [
                     {
@@ -670,7 +670,7 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "5fshlevels:1"
                 ],
                 "sections": [
                     {
@@ -726,7 +726,7 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "5fshlevels:1"
                 ],
                 "sections": [
                     {
@@ -788,7 +788,7 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "5fshlevels:5"
                 ],
                 "sections": [
                     {
@@ -856,7 +856,7 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "5fshlevels:15"
                 ],
                 "sections": [
                     {
