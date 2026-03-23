@@ -14,12 +14,12 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    ""
                 ],
                 "sections": [
                     {
                         "name": "Thornmarch (Hard)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:50"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -44,13 +44,13 @@
                 "sections": [
                     {
                         "name": "The Striking Tree (Hard)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:50"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "The Striking Tree (Extreme)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:50"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -75,7 +75,7 @@
                 "sections": [
                     {
                         "name": "Pulling Poison Posies",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:20"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -95,7 +95,7 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "$leveling:60"
                 ],
                 "sections": [
                     {
@@ -174,7 +174,7 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "$leveling:11"
                 ],
                 "sections": [
                     {
@@ -258,7 +258,7 @@
                 "sections": [
                     {
                         "name": "Carrion Baggage (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:11"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -283,7 +283,7 @@
                 "sections": [
                     {
                         "name": "Now I See Bees I Won (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:11"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -308,7 +308,7 @@
                 "sections": [
                     {
                         "name": "Royal Rumble (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:16"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -333,7 +333,7 @@
                 "sections": [
                     {
                         "name": "Stopping the Spread (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:17"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -358,7 +358,7 @@
                 "sections": [
                     {
                         "name": "Ivy League (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:19"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -383,7 +383,7 @@
                 "sections": [
                     {
                         "name": "Jack of All Trades (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:19"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -408,7 +408,7 @@
                 "sections": [
                     {
                         "name": "Lazy for You (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:20"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -433,7 +433,7 @@
                 "sections": [
                     {
                         "name": "Protecting the Patch (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:20"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -458,7 +458,7 @@
                 "sections": [
                     {
                         "name": "What Have You Done for Mead Lately (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:21"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -483,7 +483,7 @@
                 "sections": [
                     {
                         "name": "Thunderstruck (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:23"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -508,7 +508,7 @@
                 "sections": [
                     {
                         "name": "All Vine and No Popotoes (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:40"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -533,7 +533,7 @@
                 "sections": [
                     {
                         "name": "Collecting Keepsakes (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:40"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -558,7 +558,7 @@
                 "sections": [
                     {
                         "name": "A Wrench in the Works (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:42"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -583,7 +583,7 @@
                 "sections": [
                     {
                         "name": "The Enemy of My Enemy (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:42"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -608,7 +608,7 @@
                 "sections": [
                     {
                         "name": "The Enmity of My Enemy (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:42"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -633,7 +633,7 @@
                 "sections": [
                     {
                         "name": "The Squirrel Trappers Wife (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:43"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -658,7 +658,7 @@
                 "sections": [
                     {
                         "name": "Below His Station (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:44"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -683,7 +683,7 @@
                 "sections": [
                     {
                         "name": "Got Milkroot (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:46"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -708,7 +708,7 @@
                 "sections": [
                     {
                         "name": "Breaking Dawn (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:47"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -733,7 +733,7 @@
                 "sections": [
                     {
                         "name": "Bush Blade (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:47"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -758,7 +758,7 @@
                 "sections": [
                     {
                         "name": "Everythings Better (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:49"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -783,7 +783,7 @@
                 "sections": [
                     {
                         "name": "Handful of Dreams (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:49"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -808,7 +808,7 @@
                 "sections": [
                     {
                         "name": "The Gale that Rocks the Cradle (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:49"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -833,7 +833,7 @@
                 "sections": [
                     {
                         "name": "What a Boar (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:49"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
