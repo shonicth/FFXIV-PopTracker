@@ -14,7 +14,7 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "$leveling:38"
                 ],
                 "sections": [
                     {
@@ -98,7 +98,7 @@
                 "sections": [
                     {
                         "name": "Hero on the Half Shell",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:15"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -118,7 +118,7 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "$leveling:90"
                 ],
                 "sections": [
                     {
@@ -197,7 +197,7 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "$leveling:5"
                 ],
                 "sections": [
                     {
@@ -281,7 +281,7 @@
                 "sections": [
                     {
                         "name": "Let them Eat Cactus (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:5"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -306,7 +306,7 @@
                 "sections": [
                     {
                         "name": "Like an Eft out of Water (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:5"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -331,7 +331,7 @@
                 "sections": [
                     {
                         "name": "Something to Prove (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:5"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -356,7 +356,7 @@
                 "sections": [
                     {
                         "name": "Survivor Rats (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:6"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -381,7 +381,7 @@
                 "sections": [
                     {
                         "name": "A Warm Welcome (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:7"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -406,7 +406,7 @@
                 "sections": [
                     {
                         "name": "Big Time (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:7"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -431,7 +431,7 @@
                 "sections": [
                     {
                         "name": "Wrecked Rats (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:7"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -456,7 +456,7 @@
                 "sections": [
                     {
                         "name": "Cracked (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:9"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -481,7 +481,7 @@
                 "sections": [
                     {
                         "name": "For the Queen (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:9"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -506,7 +506,7 @@
                 "sections": [
                     {
                         "name": "A Few Arrows Short of a Quiver (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:11"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -531,7 +531,7 @@
                 "sections": [
                     {
                         "name": "Leaving the Nest (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:12"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -556,7 +556,7 @@
                 "sections": [
                     {
                         "name": "Cold-blooded (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:14"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -571,35 +571,17 @@
                 ]
             },
             {
-                "name": "Orobon Part Two",
+                "name": "Orobon Part Two The Spawning (FATE)",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
                     " "
                 ],
-                "children": [
-                    {
-                        "name": "The Spawning (FATE)",
-                        "chest_unopened_img": "/images/items/close.png",
-                        "chest_opened_img": "/images/items/open.png",
-                        "overlay_background": "#000000",
-                        "access_rules": [
-                            " "
-                        ],
-                        "children": [
-                            {
-                                "name": "Orobon Part Two",
-                                "chest_unopened_img": "/images/items/close.png",
-                                "chest_opened_img": "/images/items/open.png",
-                                "overlay_background": "#000000",
-                                "access_rules": [
-                                    " "
-                                ],
-                                "sections": [
+                "sections": [
                                     {
-                                        "name": "The Spawning (FATE)",
-                                        "access_rules": [],
+                                        "name": "Orobon Part Two The Spawning (FATE)",
+                                        "access_rules": ["$leveling:14"],
                                         "visibility_rules": [],
                                         "item_count": 1
                                     }
@@ -612,10 +594,6 @@
                                         "size": 6
                                     }
                                 ]
-                            }
-                        ]
-                    }
-                ]
             },
             {
                 "name": "Upper Soot Creek",
