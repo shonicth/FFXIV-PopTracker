@@ -14,60 +14,60 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "5fshlevels:30"
                 ],
                 "sections": [
                     {
                         "name": "Pipira",
-                        "access_rules": [],
+                        "access_rules": ["crayfishball"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Ala Mhigan Fighting Fish",
-                        "access_rules": [],
+                        "access_rules": ["midgebasket"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Dark Sleeper",
-                        "access_rules": [],
+                        "access_rules": ["midgebasket"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Tricolored Carp",
-                        "access_rules": [],
+                        "access_rules": ["crowfly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Shadow Catfish",
-                        "access_rules": [],
+                        "access_rules": ["midgebasket"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Spotted Pleco",
-                        "access_rules": [],
+                        "access_rules": ["syrphidbasket"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Bonytongue",
-                        "access_rules": [],
+                        "access_rules": ["streamer"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Monke Onke",
-                        "access_rules": [],
+                        "access_rules": ["midgebasket"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Sweetnewt",
-                        "access_rules": [],
+                        "access_rules": ["midgebasket"],
                         "visibility_rules": [],
                         "item_count": 1
                     }

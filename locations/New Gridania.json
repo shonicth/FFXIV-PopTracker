@@ -40,48 +40,48 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "5fshlevels:5"
                 ],
                 "sections": [
                     {
                         "name": "Raincaller",
-                        "access_rules": [],
+                        "access_rules": ["stemborer"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Crayfish",
-                        "access_rules": [],
+                        "access_rules": ["mothpupa"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Pipira",
-                        "access_rules": [],
+                        "access_rules": ["crayfishball"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Gudgeon",
-                        "access_rules": [],
+                        "access_rules": ["crayfishball"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Maiden Carp",
-                        "access_rules": [],
+                        "access_rules": ["wildfowlfly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Moat Carp",
-                        "access_rules": [],
+                        "access_rules": ["crowfly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Stormdancer",
-                        "access_rules": [],
+                        "access_rules": ["stemborer"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -102,42 +102,42 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "5fshlevels:5"
                 ],
                 "sections": [
                     {
                         "name": "Crayfish",
-                        "access_rules": [],
+                        "access_rules": ["mothpupa"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Pipira",
-                        "access_rules": [],
+                        "access_rules": ["crayfishball"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Gudgeon",
-                        "access_rules": [],
+                        "access_rules": ["crayfishball"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Maiden Carp",
-                        "access_rules": [],
+                        "access_rules": ["wildfowlfly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Moat Carp",
-                        "access_rules": [],
+                        "access_rules": ["crowfly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Bloody Brewer",
-                        "access_rules": [],
+                        "access_rules": ["crayfishball"],
                         "visibility_rules": [],
                         "item_count": 1
                     }

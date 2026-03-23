@@ -22,7 +22,13 @@
                         "access_rules": ["$leveling:50"],
                         "visibility_rules": [],
                         "item_count": 1
-                    }
+                    },
+                    {
+                        "name": "Thornmarch (Extreme)",
+                        "access_rules": ["$leveling:50"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }                    
                 ],
                 "map_locations": [
                     {
@@ -853,54 +859,54 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "5fshlevels:15"
                 ],
                 "sections": [
                     {
                         "name": "Striped Goby",
-                        "access_rules": [],
+                        "access_rules": ["mothpupa"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Bone Crayfish",
-                        "access_rules": [],
+                        "access_rules": ["mothpupa"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Pipira",
-                        "access_rules": [],
+                        "access_rules": ["crayfishball"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Maiden Carp",
-                        "access_rules": [],
+                        "access_rules": ["wildfowlfly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "River Crab",
-                        "access_rules": [],
+                        "access_rules": ["butterworm"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Dark Sleeper",
-                        "access_rules": [],
+                        "access_rules": ["midgebasket"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Eunuch Crayfish",
-                        "access_rules": [],
+                        "access_rules": ["mothpupa", "midgebasket"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Dark Ambusher",
-                        "access_rules": [],
+                        "access_rules": ["mothpupa"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -920,54 +926,54 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "5fshlevels:20"
                 ],
                 "sections": [
                     {
                         "name": "Bone Crayfish",
-                        "access_rules": [],
+                        "access_rules": ["mothpupa"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "River Crab",
-                        "access_rules": [],
+                        "access_rules": ["butterworm"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Acorn Snail",
-                        "access_rules": [],
+                        "access_rules": ["midgebasket"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Moat Carp",
-                        "access_rules": [],
+                        "access_rules": ["crowfly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Tricolored Carp",
-                        "access_rules": [],
+                        "access_rules": ["wildfowlfly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Pond Mussel",
-                        "access_rules": [],
+                        "access_rules": ["butterworm"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Dark Bass",
-                        "access_rules": [],
+                        "access_rules": ["crowfly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "The Assassin",
-                        "access_rules": [],
+                        "access_rules": ["butterworm"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -987,48 +993,48 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "5fshlevels:15"
                 ],
                 "sections": [
                     {
                         "name": "Maiden Carp",
-                        "access_rules": [],
+                        "access_rules": ["wildfowlfly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Rainbow Trout",
-                        "access_rules": [],
+                        "access_rules": ["snurblefly", "crowfly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "River Crab",
-                        "access_rules": [],
+                        "access_rules": ["butterworm"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Ala Mhigan Fighting Fish",
-                        "access_rules": [],
+                        "access_rules": ["midgebasket"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Bluebell Salmon",
-                        "access_rules": [],
+                        "access_rules": ["floatingminnow"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Eunuch Crayfish",
-                        "access_rules": [],
+                        "access_rules": ["mothpupa", "midgebasket"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Moldva",
-                        "access_rules": [],
+                        "access_rules": ["midgebasket"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
@@ -1054,60 +1060,60 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "5fshlevels:25"
                 ],
                 "sections": [
                     {
                         "name": "Rainbow Trout",
-                        "access_rules": [],
+                        "access_rules": ["snurblefly", "crowfly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "River Crab",
-                        "access_rules": [],
+                        "access_rules": ["butterworm"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Copperfish",
-                        "access_rules": [],
+                        "access_rules": ["butterworm"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Black Eel",
-                        "access_rules": [],
+                        "access_rules": ["butterworm"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Climbing Perch",
-                        "access_rules": [],
+                        "access_rules": ["bassball"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Yugram Salmon",
-                        "access_rules": [],
+                        "access_rules": ["bassball"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Spotted Pleco",
-                        "access_rules": [],
+                        "access_rules": ["syrphidbasket"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Fall Jumper",
-                        "access_rules": [],
+                        "access_rules": ["butterworm"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Sylphsbane",
-                        "access_rules": [],
+                        "access_rules": ["butterworm"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -1127,48 +1133,48 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "5fshlevels:45"
                 ],
                 "sections": [
                     {
                         "name": "Giant Bass",
-                        "access_rules": [],
+                        "access_rules": ["honeyworm"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Velodyna Carp",
-                        "access_rules": [],
+                        "access_rules": ["streamer"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Oakroot",
-                        "access_rules": [],
+                        "access_rules": ["streamer"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Common Sculpin",
-                        "access_rules": [],
+                        "access_rules": ["spinnerbait"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Southern Pike",
-                        "access_rules": [],
+                        "access_rules": ["topwaterfrog"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Mushroom Crab",
-                        "access_rules": [],
+                        "access_rules": ["spinnerbait"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Magicked Mushroom",
-                        "access_rules": [],
+                        "access_rules": ["spinnerbait"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -1181,22 +1187,6 @@
                         "size": 6
                     }
                 ]
-            }
-        ],
-        "sections": [
-            {
-                "name": "Thornmarch (Hard)Thornmarch (Extreme)",
-                "access_rules": [],
-                "visibility_rules": [],
-                "item_count": 1
-            }
-        ],
-        "map_locations": [
-            {
-                "map": "East Shroud",
-                "x": 933,
-                "y": 119,
-                "size": 6
             }
         ]
     }
