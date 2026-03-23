@@ -35,27 +35,32 @@ function middlelanosceaaccess()
 end
 function lowerlanosceaaccess()
     return(
-    (has("lowerlanosceaaccess") and middlelanoaccess())
+    (has("lowerlanosceaaccess") and middlelanosceaaccess())
   )
 end
 function easternlanosceaaccess()
     return(
-    (has("easternlanosceaaccess") and middlelanoaccess())
+    (has("easternlanosceaaccess") and middlelanosceaaccess())
   )
 end
-function westernlanoaccess()
+function westernlanosceaaccess()
     return(
-    (has("westernlanosceaaccess") and middlelanoaccess())
+    (has("westernlanosceaaccess") and middlelanosceaaccess())
   )
 end
 function upperlanosceaaccess()
     return(
-    (has("upperlanosceaaccess") and easternlanoaccess()) or (has("upperlanosceaaccess") and westernlanoaccess())
+    (has("upperlanosceaaccess") and easternlanosceaaccess()) or (has("upperlanosceaaccess") and westernlanosceaaccess())
   )
 end
 function outerlanosceaaccess()
     return(
     (has("outerlanosceaaccess") and upperlanoaccess())
+  )
+end
+function mistaccess()
+    return(
+    (has("mistaccess") and lowerlanosceaaccess())
   )
 end
 --levels

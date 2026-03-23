@@ -14,7 +14,7 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "$leveling:50"
                 ],
                 "sections": [
                     {
@@ -46,7 +46,7 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "$leveling:30"
                 ],
                 "sections": [
                     {
@@ -131,7 +131,7 @@
                 "sections": [
                     {
                         "name": "Peryton Perhaps (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:30"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -157,7 +157,7 @@
                 "sections": [
                     {
                         "name": "By a Whisker (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:34"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -183,7 +183,7 @@
                 "sections": [
                     {
                         "name": "Im a Rock Not a Number (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:34"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -209,7 +209,7 @@
                 "sections": [
                     {
                         "name": "Overlooking the Obvious (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:34"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -235,7 +235,7 @@
                 "sections": [
                     {
                         "name": "Restless in OGhomoro (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:34"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -261,7 +261,7 @@
                 "sections": [
                     {
                         "name": "The Only Way Is Up (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:34"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -287,7 +287,7 @@
                 "sections": [
                     {
                         "name": "When the Coeurls Away (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:34"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -313,7 +313,7 @@
                 "sections": [
                     {
                         "name": "Fire in the Hole (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:41"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -339,7 +339,7 @@
                 "sections": [
                     {
                         "name": "Make it Rain (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:41"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -365,7 +365,7 @@
                 "sections": [
                     {
                         "name": "Schism (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:41"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -391,7 +391,7 @@
                 "sections": [
                     {
                         "name": "The Miner in the Mirror (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:44"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -417,7 +417,7 @@
                 "sections": [
                     {
                         "name": "Making the Rounds (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:47"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -443,7 +443,7 @@
                 "sections": [
                     {
                         "name": "Stopping the Shakes (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:47"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -469,7 +469,7 @@
                 "sections": [
                     {
                         "name": "Full Metal Alchemist (FATE)",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:49"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -490,7 +490,7 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "5fshlevels:35"
                 ],
                 "sections": [
                     {
@@ -570,7 +570,7 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "5fshlevels:40"
                 ],
                 "sections": [
                     {
