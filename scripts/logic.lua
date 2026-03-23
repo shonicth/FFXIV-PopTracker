@@ -28,41 +28,116 @@ function dump_table(o, depth)
     end
 end
 --regions
-function middlelanosceaaccess()
-  return(
-    has("limsalominsaandmiddlelanosceaaccess")
-  )
-end
+--La Noscea
 function lowerlanosceaaccess()
     return(
-    (has("lowerlanosceaaccess") and middlelanosceaaccess())
+    --Directly connected to Limsa
+    (has("lowerlanosceaaccess"))
+    
   )
 end
 function easternlanosceaaccess()
     return(
-    (has("easternlanosceaaccess") and middlelanosceaaccess())
+     --Directly connected to Limsa
+    (has("easternlanosceaaccess"))
   )
 end
 function westernlanosceaaccess()
     return(
-    (has("westernlanosceaaccess") and middlelanosceaaccess())
+     --Directly connected to Limsa
+    (has("westernlanosceaaccess"))
   )
 end
 function upperlanosceaaccess()
     return(
-    (has("upperlanosceaaccess") and easternlanosceaaccess()) or (has("upperlanosceaaccess") and westernlanosceaaccess())
+     --Connected to Western, Eastern, and Outer(stub?)
+    (has("upperlanosceaaccess") and (easternlanosceaaccess() or westernlanosceaaccess()))
   )
 end
 function outerlanosceaaccess()
     return(
+    --Connected to Upper
     (has("outerlanosceaaccess") and upperlanoaccess())
   )
 end
 function mistaccess()
     return(
-    (has("mistaccess") and lowerlanosceaaccess())
+    (lowerlanosceaaccess())
   )
 end
+
+--The Black Shroud
+function eastshroudaccess()
+    return(
+    --Directly connected to Gridania
+    (has("eastshroudaccess"))
+  )
+end
+function southshroudaccess()
+    return(
+    --Directly connected to Central
+    (has("southshroudaccess"))
+  )
+end
+function northshroudaccess()
+    return(
+    --Directly connected to Gridania
+    (has("northshroudaccess"))
+  )
+end
+--Thanalan
+function westernthanalanaccess()
+    return(
+    --Directly connected to Uldah
+    (has("westernthanalanaccess"))
+  )
+end
+function easternthanalanaccess()
+    return(
+    --Directly connected to Central
+    (has("easternthanalanaccess"))
+  )
+end
+function southernthanalanaccess()
+    return(
+    --Directly connected to Central
+    (has("southernthanalanaccess"))
+  )
+end
+function northanthanalanaccess()
+    return(
+    --Directly connected to Central
+    (has("northanthanalanaccess"))
+  )
+end
+--ARR Misc
+function coerthascentralhighlandsaccess()
+    return(
+    --Connected to North Shroud, Mor Dhona, and Ishgard
+    (has("coerthascentralhighlandsaccess") and (northshroudaccess() or mordhonaaccess()))
+  )
+end
+function mordhonaaccess()
+    return(
+    --Directly connected to Central
+    (has("mordhonaaccess") and (northanthanalanaccess() or coerthascentralhighlandsaccess()))
+  )
+end
+--HW
+function ishgardaccess()
+    return(
+    --Directly connected to Airship
+    (has("ishgardaccess"))
+  )
+end
+--StB
+
+--ShB
+
+--EnW
+
+--DT
+
 --levels
 function leveling()
   return(
