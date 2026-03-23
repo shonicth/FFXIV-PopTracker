@@ -14,7 +14,7 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "$leveling:44"
                 ],
                 "sections": [
                     {
@@ -27,9 +27,10 @@
                 "map_locations": [
                     {
                         "map": "New Gridania",
-                        "x": 1714,
-                        "y": 1259,
-                        "size": 6
+                        "x": 1069,
+                        "y": 1280,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -88,9 +89,10 @@
                 "map_locations": [
                     {
                         "map": "New Gridania",
-                        "x": 739,
-                        "y": 925,
-                        "size": 6
+                        "x": 1207,
+                        "y": 1299,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -143,9 +145,10 @@
                 "map_locations": [
                     {
                         "map": "New Gridania",
-                        "x": 965,
-                        "y": 1955,
-                        "size": 6
+                        "x": 961,
+                        "y": 1039,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             }
