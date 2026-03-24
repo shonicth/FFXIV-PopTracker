@@ -165,6 +165,32 @@ function preOnClear()
         -- do nothing
     end
 end
+-- ===== SLOT DATA PROCESSING =====
+    --Add Sanity
+        Tracker:FindObjectForCode("fatesanity").Active = slot_data["fatesanity"] == 1
+        Tracker:FindObjectForCode("level_cap").AcquiredCount = slot_data["level_cap"]
+        Tracker:FindObjectForCode("max_party_size").CurrentStage = slot_data["max_party_size"]
+        Tracker:FindObjectForCode("include_bozja").Active = slot_data["include_bozja"] == 1
+        Tracker:FindObjectForCode("include_ocean_fishing").Active = slot_data["include_bozja"] == 1
+        Tracker:FindObjectForCode("include_dungeons").Active = slot_data["include_dungeons"] == 1
+        Tracker:FindObjectForCode("fishsanity").CurrentStage = slot_data["fishsanity"]
+        Tracker:FindObjectForCode("include_unreasonable_fates").AcquiredCount = slot_data["include_unreasonable_fates"] == 1
+        Tracker:FindObjectForCode("allow_main_scenario_duties").AcquiredCount = slot_data["allow_main_scenario_duties"] == 1
+        Tracker:FindObjectForCode("include_pvp").Activel = slot_data["include_pvp"] == 1
+        Tracker:FindObjectForCode("duty_difficulty").AcquiredCount = slot_data["duty_difficulty"]
+        Tracker:FindObjectForCode("fates_per_zone").AcquiredCount = slot_data["fates_per_zone"]
+        Tracker:FindObjectForCode("extra_dungeon_checks").AcquiredCount = slot_data["extra_dungeon_checks"]
+        Tracker:FindObjectForCode("include_guildhests").Active = slot_data["include_guildhests"] == 1
+
+     --Exclude Duty Check
+        for _, excluded_duty in 
+        pairs(slot_data["excluded_duties"]) do
+            Tracker:FindObjectForCode(duty_table[excluded_duty]).Active = false
+        end
+    end
+
+
+
 
 function onClear(slot_data)
     MANUAL_CHECKED = false
@@ -179,7 +205,8 @@ function onClear(slot_data)
     
     ScriptHost:RemoveWatchForCode("StateChanged")
     ScriptHost:RemoveOnLocationSectionHandler("location_section_change_handler")
-    --SLOT_DATA = slot_data
+    SLOT_DATA = slot_data
+    processYaml(slot_data)
     CUR_INDEX = -1
     -- reset locations
     for _, location_array in pairs(LOCATION_MAPPING) do

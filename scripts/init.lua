@@ -8,7 +8,8 @@ require("scripts/items_import")
 require("scripts/logic/logic_helper")
 require("scripts/logic/base_logic")
 require("scripts/logic/graph_logic/logic_main")
-ScriptHost:LoadScript("scripts/logic.lua")
+require("scripts/logic")
+require("scripts/duties")
 
 -- Maps
 if Tracker.ActiveVariantUID == "maps-u" then
