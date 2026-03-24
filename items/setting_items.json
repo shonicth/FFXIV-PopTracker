@@ -25,7 +25,7 @@
     "name": "Max Party Size",
     "type": "progressive",
     "allow_disabled": false,
-    "initial_stage_idx": 3,
+    "initial_stage_idx": 2,
     "stages": [
             {
         "img": "images/items/placeholder.png",
@@ -61,7 +61,7 @@
         "name": "Include Ocean Fishing",
         "type": "toggle",
         "img": "images/items/placeholder.png",
-        "initial_active_state": true,
+        "initial_active_state": false,
         "overlay_align": "right",
         "codes": "include_ocean_fishing"
     },
@@ -202,6 +202,4 @@
         "overlay_align": "right",
         "codes": "include_guildhests"
     }
-
-
 ]
