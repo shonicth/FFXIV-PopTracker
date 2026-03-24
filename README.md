@@ -6,7 +6,7 @@ Current Status(3/23/2026):
 
 -La Noscea and Black Shroud should be fully finished. Aiming to complete Thanalan tomorrow
 
--Fish will ONLY show the bait required for logic. I plan to fix this after my first pass on every location
+-Fish will ONLY show the bait required for logic. I plan to fix this after everything else is finished
 
 -Assets still need to be made. If anyone wants to help me with these, it would be greatly appreciated.
 
