@@ -174,10 +174,10 @@ end
         Tracker:FindObjectForCode("include_ocean_fishing").Active = slot_data["include_bozja"] == 1
         Tracker:FindObjectForCode("include_dungeons").Active = slot_data["include_dungeons"] == 1
         Tracker:FindObjectForCode("fishsanity").CurrentStage = slot_data["fishsanity"]
-        Tracker:FindObjectForCode("include_unreasonable_fates").AcquiredCount = slot_data["include_unreasonable_fates"] == 1
-        Tracker:FindObjectForCode("allow_main_scenario_duties").AcquiredCount = slot_data["allow_main_scenario_duties"] == 1
-        Tracker:FindObjectForCode("include_pvp").Activel = slot_data["include_pvp"] == 1
-        Tracker:FindObjectForCode("duty_difficulty").AcquiredCount = slot_data["duty_difficulty"]
+        Tracker:FindObjectForCode("include_unreasonable_fates").Active = slot_data["include_unreasonable_fates"] == 1
+        Tracker:FindObjectForCode("allow_main_scenario_duties").Active = slot_data["allow_main_scenario_duties"] == 1
+        Tracker:FindObjectForCode("include_pvp").Active = slot_data["include_pvp"] == 1
+        Tracker:FindObjectForCode("duty_difficulty").CurrentStage = slot_data["duty_difficulty"]
         Tracker:FindObjectForCode("fates_per_zone").AcquiredCount = slot_data["fates_per_zone"]
         Tracker:FindObjectForCode("extra_dungeon_checks").AcquiredCount = slot_data["extra_dungeon_checks"]
         Tracker:FindObjectForCode("include_guildhests").Active = slot_data["include_guildhests"] == 1

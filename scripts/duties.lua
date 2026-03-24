@@ -1,10 +1,10 @@
 duty_table = {
-    ["Sastasha"] = "",
+    ["Sastasha"] = "sastasha_include",
     ["The Tam-Tara Deepcroft"] = "",
     ["Copperbell Mines"] = "",
     ["Halatali"] = "",
     ["The Thousand Maws of Toto-Rak"] = "",
-    ["Haukke Manor"] = "",
+    ["Haukke Manor"] = "haukkemanor_include",
     ["Brayflox's Longstop"] = "",
     ["The Sunken Temple of Qarn"] = "",
     ["Cutter's Cry"] = "",
