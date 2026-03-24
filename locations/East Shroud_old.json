@@ -19,28 +19,23 @@
                 "sections": [
                     {
                         "name": "Thornmarch (Hard)",
-                        "access_rules": [
-                            "$leveling:50"
-                        ],
+                        "access_rules": ["$leveling:50"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Thornmarch (Extreme)",
-                        "access_rules": [
-                            "$leveling:50"
-                        ],
+                        "access_rules": ["$leveling:50"],
                         "visibility_rules": [],
                         "item_count": 1
-                    }
+                    }                    
                 ],
                 "map_locations": [
                     {
                         "map": "East Shroud",
-                        "x": 736,
-                        "y": 992,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1300,
+                        "y": 1153,
+                        "size": 6
                     }
                 ]
             },
@@ -55,17 +50,13 @@
                 "sections": [
                     {
                         "name": "The Striking Tree (Hard)",
-                        "access_rules": [
-                            "$leveling:50"
-                        ],
+                        "access_rules": ["$leveling:50"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "The Striking Tree (Extreme)",
-                        "access_rules": [
-                            "$leveling:50"
-                        ],
+                        "access_rules": ["$leveling:50"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -73,10 +64,9 @@
                 "map_locations": [
                     {
                         "map": "East Shroud",
-                        "x": 1209,
-                        "y": 807,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1300,
+                        "y": 165,
+                        "size": 6
                     }
                 ]
             },
@@ -91,9 +81,7 @@
                 "sections": [
                     {
                         "name": "Pulling Poison Posies",
-                        "access_rules": [
-                            "$leveling:20"
-                        ],
+                        "access_rules": ["$leveling:20"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -101,10 +89,9 @@
                 "map_locations": [
                     {
                         "map": "East Shroud",
-                        "x": 823,
-                        "y": 1193,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 467,
+                        "y": 435,
+                        "size": 6
                     }
                 ]
             },
@@ -181,10 +168,9 @@
                 "map_locations": [
                     {
                         "map": "East Shroud",
-                        "x": 1084,
-                        "y": 1518,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 2027,
+                        "y": 2301,
+                        "size": 6
                     }
                 ]
             },
@@ -261,10 +247,9 @@
                 "map_locations": [
                     {
                         "map": "East Shroud",
-                        "x": 709,
-                        "y": 141,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 613,
+                        "y": 1224,
+                        "size": 6
                     }
                 ]
             },
@@ -279,9 +264,7 @@
                 "sections": [
                     {
                         "name": "Carrion Baggage (FATE)",
-                        "access_rules": [
-                            "$leveling:11"
-                        ],
+                        "access_rules": ["$leveling:11"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -289,10 +272,9 @@
                 "map_locations": [
                     {
                         "map": "East Shroud",
-                        "x": 544,
-                        "y": 1263,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1135,
+                        "y": 1717,
+                        "size": 6
                     }
                 ]
             },
@@ -307,9 +289,7 @@
                 "sections": [
                     {
                         "name": "Now I See Bees I Won (FATE)",
-                        "access_rules": [
-                            "$leveling:11"
-                        ],
+                        "access_rules": ["$leveling:11"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -317,10 +297,9 @@
                 "map_locations": [
                     {
                         "map": "East Shroud",
-                        "x": 527,
-                        "y": 1164,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 206,
+                        "y": 1634,
+                        "size": 6
                     }
                 ]
             },
@@ -335,9 +314,7 @@
                 "sections": [
                     {
                         "name": "Royal Rumble (FATE)",
-                        "access_rules": [
-                            "$leveling:16"
-                        ],
+                        "access_rules": ["$leveling:16"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -345,10 +322,9 @@
                 "map_locations": [
                     {
                         "map": "East Shroud",
-                        "x": 905,
-                        "y": 1315,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1877,
+                        "y": 314,
+                        "size": 6
                     }
                 ]
             },
@@ -363,9 +339,7 @@
                 "sections": [
                     {
                         "name": "Stopping the Spread (FATE)",
-                        "access_rules": [
-                            "$leveling:17"
-                        ],
+                        "access_rules": ["$leveling:17"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -373,10 +347,9 @@
                 "map_locations": [
                     {
                         "map": "East Shroud",
-                        "x": 1042,
-                        "y": 1277,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1539,
+                        "y": 1973,
+                        "size": 6
                     }
                 ]
             },
@@ -391,9 +364,7 @@
                 "sections": [
                     {
                         "name": "Ivy League (FATE)",
-                        "access_rules": [
-                            "$leveling:19"
-                        ],
+                        "access_rules": ["$leveling:19"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -401,10 +372,9 @@
                 "map_locations": [
                     {
                         "map": "East Shroud",
-                        "x": 891,
-                        "y": 1378,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1685,
+                        "y": 1118,
+                        "size": 6
                     }
                 ]
             },
@@ -419,9 +389,7 @@
                 "sections": [
                     {
                         "name": "Jack of All Trades (FATE)",
-                        "access_rules": [
-                            "$leveling:19"
-                        ],
+                        "access_rules": ["$leveling:19"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -429,10 +397,9 @@
                 "map_locations": [
                     {
                         "map": "East Shroud",
-                        "x": 933,
-                        "y": 1377,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1534,
+                        "y": 1556,
+                        "size": 6
                     }
                 ]
             },
@@ -447,9 +414,7 @@
                 "sections": [
                     {
                         "name": "Lazy for You (FATE)",
-                        "access_rules": [
-                            "$leveling:20"
-                        ],
+                        "access_rules": ["$leveling:20"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -457,10 +422,9 @@
                 "map_locations": [
                     {
                         "map": "East Shroud",
-                        "x": 1118,
-                        "y": 1456,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 2351,
+                        "y": 169,
+                        "size": 6
                     }
                 ]
             },
@@ -475,9 +439,7 @@
                 "sections": [
                     {
                         "name": "Protecting the Patch (FATE)",
-                        "access_rules": [
-                            "$leveling:20"
-                        ],
+                        "access_rules": ["$leveling:20"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -485,10 +447,9 @@
                 "map_locations": [
                     {
                         "map": "East Shroud",
-                        "x": 877,
-                        "y": 1196,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1687,
+                        "y": 498,
+                        "size": 6
                     }
                 ]
             },
@@ -503,9 +464,7 @@
                 "sections": [
                     {
                         "name": "What Have You Done for Mead Lately (FATE)",
-                        "access_rules": [
-                            "$leveling:21"
-                        ],
+                        "access_rules": ["$leveling:21"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -513,10 +472,9 @@
                 "map_locations": [
                     {
                         "map": "East Shroud",
-                        "x": 840,
-                        "y": 1297,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1677,
+                        "y": 2443,
+                        "size": 6
                     }
                 ]
             },
@@ -531,9 +489,7 @@
                 "sections": [
                     {
                         "name": "Thunderstruck (FATE)",
-                        "access_rules": [
-                            "$leveling:23"
-                        ],
+                        "access_rules": ["$leveling:23"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -541,10 +497,9 @@
                 "map_locations": [
                     {
                         "map": "East Shroud",
-                        "x": 925,
-                        "y": 1034,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1821,
+                        "y": 850,
+                        "size": 6
                     }
                 ]
             },
@@ -559,9 +514,7 @@
                 "sections": [
                     {
                         "name": "All Vine and No Popotoes (FATE)",
-                        "access_rules": [
-                            "$leveling:40"
-                        ],
+                        "access_rules": ["$leveling:40"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -570,9 +523,8 @@
                     {
                         "map": "East Shroud",
                         "x": 1246,
-                        "y": 1098,
-                        "size": 40,
-                        "shape": "rect"
+                        "y": 1284,
+                        "size": 6
                     }
                 ]
             },
@@ -587,9 +539,7 @@
                 "sections": [
                     {
                         "name": "Collecting Keepsakes (FATE)",
-                        "access_rules": [
-                            "$leveling:40"
-                        ],
+                        "access_rules": ["$leveling:40"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -597,10 +547,9 @@
                 "map_locations": [
                     {
                         "map": "East Shroud",
-                        "x": 1324,
-                        "y": 1192,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1996,
+                        "y": 892,
+                        "size": 6
                     }
                 ]
             },
@@ -615,9 +564,7 @@
                 "sections": [
                     {
                         "name": "A Wrench in the Works (FATE)",
-                        "access_rules": [
-                            "$leveling:42"
-                        ],
+                        "access_rules": ["$leveling:42"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -625,10 +572,9 @@
                 "map_locations": [
                     {
                         "map": "East Shroud",
-                        "x": 1451,
-                        "y": 1024,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 433,
+                        "y": 71,
+                        "size": 6
                     }
                 ]
             },
@@ -643,9 +589,7 @@
                 "sections": [
                     {
                         "name": "The Enemy of My Enemy (FATE)",
-                        "access_rules": [
-                            "$leveling:42"
-                        ],
+                        "access_rules": ["$leveling:42"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -653,10 +597,9 @@
                 "map_locations": [
                     {
                         "map": "East Shroud",
-                        "x": 1361,
-                        "y": 1000,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1575,
+                        "y": 853,
+                        "size": 6
                     }
                 ]
             },
@@ -671,9 +614,7 @@
                 "sections": [
                     {
                         "name": "The Enmity of My Enemy (FATE)",
-                        "access_rules": [
-                            "$leveling:42"
-                        ],
+                        "access_rules": ["$leveling:42"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -681,10 +622,9 @@
                 "map_locations": [
                     {
                         "map": "East Shroud",
-                        "x": 1329,
-                        "y": 1039,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1970,
+                        "y": 1499,
+                        "size": 6
                     }
                 ]
             },
@@ -699,9 +639,7 @@
                 "sections": [
                     {
                         "name": "The Squirrel Trappers Wife (FATE)",
-                        "access_rules": [
-                            "$leveling:43"
-                        ],
+                        "access_rules": ["$leveling:43"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -709,10 +647,9 @@
                 "map_locations": [
                     {
                         "map": "East Shroud",
-                        "x": 1114,
-                        "y": 997,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 77,
+                        "y": 1978,
+                        "size": 6
                     }
                 ]
             },
@@ -727,9 +664,7 @@
                 "sections": [
                     {
                         "name": "Below His Station (FATE)",
-                        "access_rules": [
-                            "$leveling:44"
-                        ],
+                        "access_rules": ["$leveling:44"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -737,10 +672,9 @@
                 "map_locations": [
                     {
                         "map": "East Shroud",
-                        "x": 1573,
-                        "y": 999,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 577,
+                        "y": 432,
+                        "size": 6
                     }
                 ]
             },
@@ -755,9 +689,7 @@
                 "sections": [
                     {
                         "name": "Got Milkroot (FATE)",
-                        "access_rules": [
-                            "$leveling:46"
-                        ],
+                        "access_rules": ["$leveling:46"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -765,10 +697,9 @@
                 "map_locations": [
                     {
                         "map": "East Shroud",
-                        "x": 1391,
-                        "y": 798,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 2414,
+                        "y": 599,
+                        "size": 6
                     }
                 ]
             },
@@ -783,9 +714,7 @@
                 "sections": [
                     {
                         "name": "Breaking Dawn (FATE)",
-                        "access_rules": [
-                            "$leveling:47"
-                        ],
+                        "access_rules": ["$leveling:47"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -793,10 +722,9 @@
                 "map_locations": [
                     {
                         "map": "East Shroud",
-                        "x": 1570,
-                        "y": 676,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 61,
+                        "y": 2217,
+                        "size": 6
                     }
                 ]
             },
@@ -811,9 +739,7 @@
                 "sections": [
                     {
                         "name": "Bush Blade (FATE)",
-                        "access_rules": [
-                            "$leveling:47"
-                        ],
+                        "access_rules": ["$leveling:47"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -821,10 +747,9 @@
                 "map_locations": [
                     {
                         "map": "East Shroud",
-                        "x": 1409,
-                        "y": 575,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 52,
+                        "y": 2418,
+                        "size": 6
                     }
                 ]
             },
@@ -839,9 +764,7 @@
                 "sections": [
                     {
                         "name": "Everythings Better (FATE)",
-                        "access_rules": [
-                            "$leveling:49"
-                        ],
+                        "access_rules": ["$leveling:49"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -849,10 +772,9 @@
                 "map_locations": [
                     {
                         "map": "East Shroud",
-                        "x": 1137,
-                        "y": 673,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 2413,
+                        "y": 1742,
+                        "size": 6
                     }
                 ]
             },
@@ -867,9 +789,7 @@
                 "sections": [
                     {
                         "name": "Handful of Dreams (FATE)",
-                        "access_rules": [
-                            "$leveling:49"
-                        ],
+                        "access_rules": ["$leveling:49"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -877,10 +797,9 @@
                 "map_locations": [
                     {
                         "map": "East Shroud",
-                        "x": 1201,
-                        "y": 494,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 939,
+                        "y": 600,
+                        "size": 6
                     }
                 ]
             },
@@ -895,9 +814,7 @@
                 "sections": [
                     {
                         "name": "The Gale that Rocks the Cradle (FATE)",
-                        "access_rules": [
-                            "$leveling:49"
-                        ],
+                        "access_rules": ["$leveling:49"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -905,10 +822,9 @@
                 "map_locations": [
                     {
                         "map": "East Shroud",
-                        "x": 1002,
-                        "y": 485,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1943,
+                        "y": 1522,
+                        "size": 6
                     }
                 ]
             },
@@ -923,9 +839,7 @@
                 "sections": [
                     {
                         "name": "What a Boar (FATE)",
-                        "access_rules": [
-                            "$leveling:49"
-                        ],
+                        "access_rules": ["$leveling:49"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -933,10 +847,9 @@
                 "map_locations": [
                     {
                         "map": "East Shroud",
-                        "x": 1115,
-                        "y": 863,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 559,
+                        "y": 890,
+                        "size": 6
                     }
                 ]
             },
@@ -951,66 +864,49 @@
                 "sections": [
                     {
                         "name": "Striped Goby",
-                        "access_rules": [
-                            "mothpupa"
-                        ],
+                        "access_rules": ["mothpupa"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Bone Crayfish",
-                        "access_rules": [
-                            "mothpupa"
-                        ],
+                        "access_rules": ["mothpupa"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Pipira",
-                        "access_rules": [
-                            "crayfishball"
-                        ],
+                        "access_rules": ["crayfishball"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Maiden Carp",
-                        "access_rules": [
-                            "wildfowlfly"
-                        ],
+                        "access_rules": ["wildfowlfly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "River Crab",
-                        "access_rules": [
-                            "butterworm"
-                        ],
+                        "access_rules": ["butterworm"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Dark Sleeper",
-                        "access_rules": [
-                            "midgebasket"
-                        ],
+                        "access_rules": ["midgebasket"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Eunuch Crayfish",
-                        "access_rules": [
-                            "mothpupa",
-                            "midgebasket"
-                        ],
+                        "access_rules": ["mothpupa", "midgebasket"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Dark Ambusher",
-                        "access_rules": [
-                            "mothpupa"
-                        ],
+                        "access_rules": ["mothpupa"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -1018,10 +914,9 @@
                 "map_locations": [
                     {
                         "map": "East Shroud",
-                        "x": 424,
-                        "y": 1087,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 756,
+                        "y": 2119,
+                        "size": 6
                     }
                 ]
             },
@@ -1036,65 +931,49 @@
                 "sections": [
                     {
                         "name": "Bone Crayfish",
-                        "access_rules": [
-                            "mothpupa"
-                        ],
+                        "access_rules": ["mothpupa"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "River Crab",
-                        "access_rules": [
-                            "butterworm"
-                        ],
+                        "access_rules": ["butterworm"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Acorn Snail",
-                        "access_rules": [
-                            "midgebasket"
-                        ],
+                        "access_rules": ["midgebasket"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Moat Carp",
-                        "access_rules": [
-                            "crowfly"
-                        ],
+                        "access_rules": ["crowfly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Tricolored Carp",
-                        "access_rules": [
-                            "wildfowlfly"
-                        ],
+                        "access_rules": ["wildfowlfly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Pond Mussel",
-                        "access_rules": [
-                            "butterworm"
-                        ],
+                        "access_rules": ["butterworm"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Dark Bass",
-                        "access_rules": [
-                            "crowfly"
-                        ],
+                        "access_rules": ["crowfly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "The Assassin",
-                        "access_rules": [
-                            "butterworm"
-                        ],
+                        "access_rules": ["butterworm"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -1102,10 +981,9 @@
                 "map_locations": [
                     {
                         "map": "East Shroud",
-                        "x": 835,
-                        "y": 799,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 2199,
+                        "y": 539,
+                        "size": 6
                     }
                 ]
             },
@@ -1120,67 +998,49 @@
                 "sections": [
                     {
                         "name": "Maiden Carp",
-                        "access_rules": [
-                            "wildfowlfly"
-                        ],
+                        "access_rules": ["wildfowlfly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Rainbow Trout",
-                        "access_rules": [
-                            "snurblefly",
-                            "crowfly"
-                        ],
+                        "access_rules": ["snurblefly", "crowfly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "River Crab",
-                        "access_rules": [
-                            "butterworm"
-                        ],
+                        "access_rules": ["butterworm"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Ala Mhigan Fighting Fish",
-                        "access_rules": [
-                            "midgebasket"
-                        ],
+                        "access_rules": ["midgebasket"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Bluebell Salmon",
-                        "access_rules": [
-                            "floatingminnow"
-                        ],
+                        "access_rules": ["floatingminnow"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Eunuch Crayfish",
-                        "access_rules": [
-                            "mothpupa",
-                            "midgebasket"
-                        ],
+                        "access_rules": ["mothpupa", "midgebasket"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Moldva",
-                        "access_rules": [
-                            "midgebasket"
-                        ],
+                        "access_rules": ["midgebasket"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
-                    {
+                                        {
                         "name": "Brass Loach",
-                        "access_rules": [
-                            "wildfowlfly"
-                        ],
+                        "access_rules": ["wildfowlfly"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -1188,10 +1048,9 @@
                 "map_locations": [
                     {
                         "map": "East Shroud",
-                        "x": 1154,
-                        "y": 1215,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 30,
+                        "y": 1724,
+                        "size": 6
                     }
                 ]
             },
@@ -1206,74 +1065,55 @@
                 "sections": [
                     {
                         "name": "Rainbow Trout",
-                        "access_rules": [
-                            "snurblefly",
-                            "crowfly"
-                        ],
+                        "access_rules": ["snurblefly", "crowfly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "River Crab",
-                        "access_rules": [
-                            "butterworm"
-                        ],
+                        "access_rules": ["butterworm"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Copperfish",
-                        "access_rules": [
-                            "butterworm"
-                        ],
+                        "access_rules": ["butterworm"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Black Eel",
-                        "access_rules": [
-                            "butterworm"
-                        ],
+                        "access_rules": ["butterworm"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Climbing Perch",
-                        "access_rules": [
-                            "bassball"
-                        ],
+                        "access_rules": ["bassball"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Yugram Salmon",
-                        "access_rules": [
-                            "bassball"
-                        ],
+                        "access_rules": ["bassball"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Spotted Pleco",
-                        "access_rules": [
-                            "syrphidbasket"
-                        ],
+                        "access_rules": ["syrphidbasket"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Fall Jumper",
-                        "access_rules": [
-                            "butterworm"
-                        ],
+                        "access_rules": ["butterworm"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Sylphsbane",
-                        "access_rules": [
-                            "butterworm"
-                        ],
+                        "access_rules": ["butterworm"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -1281,10 +1121,9 @@
                 "map_locations": [
                     {
                         "map": "East Shroud",
-                        "x": 1002,
-                        "y": 1013,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 2462,
+                        "y": 2346,
+                        "size": 6
                     }
                 ]
             },
@@ -1299,57 +1138,43 @@
                 "sections": [
                     {
                         "name": "Giant Bass",
-                        "access_rules": [
-                            "honeyworm"
-                        ],
+                        "access_rules": ["honeyworm"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Velodyna Carp",
-                        "access_rules": [
-                            "streamer"
-                        ],
+                        "access_rules": ["streamer"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Oakroot",
-                        "access_rules": [
-                            "streamer"
-                        ],
+                        "access_rules": ["streamer"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Common Sculpin",
-                        "access_rules": [
-                            "spinnerbait"
-                        ],
+                        "access_rules": ["spinnerbait"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Southern Pike",
-                        "access_rules": [
-                            "topwaterfrog"
-                        ],
+                        "access_rules": ["topwaterfrog"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Mushroom Crab",
-                        "access_rules": [
-                            "spinnerbait"
-                        ],
+                        "access_rules": ["spinnerbait"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Magicked Mushroom",
-                        "access_rules": [
-                            "spinnerbait"
-                        ],
+                        "access_rules": ["spinnerbait"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -1357,10 +1182,9 @@
                 "map_locations": [
                     {
                         "map": "East Shroud",
-                        "x": 1251,
-                        "y": 991,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 2062,
+                        "y": 1019,
+                        "size": 6
                     }
                 ]
             }
