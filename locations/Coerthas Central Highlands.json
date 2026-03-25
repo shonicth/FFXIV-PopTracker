@@ -344,31 +344,31 @@
                     },
                     {
                         "name": "Rainbow Trout",
-                        "access_rules": ["midgebasket", "crowfly"],
+                        "access_rules": ["midgebasket, 5fshlevels:45", "crowfly, 5fshlevels:45"],
                         "visibility_rules": ["fishsanity_normal, level_cap:45"],
                         "item_count": 1
                     },
                     {
                         "name": "Seema",
-                        "access_rules": ["wildfowlfly"],
+                        "access_rules": ["wildfowlfly, 5fshlevels:45"],
                         "visibility_rules": ["fishsanity_normal, level_cap:45"],
                         "item_count": 1
                     },
                     {
                         "name": "Crimson Trout",
-                        "access_rules": ["spinner", "wildfowlfly"],
+                        "access_rules": ["spinner, 5fshlevels:45", "wildfowlfly, 5fshlevels:45"],
                         "visibility_rules": ["fishsanity_normal, level_cap:45"],
                         "item_count": 1
                     },
                     {
                         "name": "Wandering Sculpin",
-                        "access_rules": ["caddisflylarva"],
+                        "access_rules": ["caddisflylarva, 5fshlevels:45"],
                         "visibility_rules": ["fishsanity_normal, level_cap:45"],
                         "item_count": 1
                     },
                     {
                         "name": "Blue Corpse",
-                        "access_rules": ["caddisflylarva"],
+                        "access_rules": ["caddisflylarva, 5fshlevels:45"],
                         "visibility_rules": ["fishsanity_big, level_cap:45"],
                         "item_count": 1
                     },
@@ -1660,9 +1660,9 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "5fshlevels:35"
                 ],
-                "visibility_rules": ["fishsanity_normal"],
+                "visibility_rules": ["fishsanity_normal, level_cap:35"],
                 "sections": [
                     {
                         "name": "Striped Goby",
@@ -1728,9 +1728,9 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "5fshlevels:40"
                 ],
-                "visibility_rules": ["fishsanity_normal"],
+                "visibility_rules": ["fishsanity_normal, level_cap:40"],
                 "sections": [
                     {
                         "name": "Striped Goby",
@@ -1802,9 +1802,9 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "5fshlevels:40"
                 ],
-                "visibility_rules": ["fishsanity_normal"],
+                "visibility_rules": ["fishsanity_normal, level_cap:40"],
                 "sections": [
                     {
                         "name": "Striped Goby",
@@ -1864,9 +1864,9 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "5fshlevels:35"
                 ],
-                "visibility_rules": ["fishsanity_normal"],
+                "visibility_rules": ["fishsanity_normal, 5fshlevels:35"],
                 "sections": [
                     {
                         "name": "Striped Goby",
@@ -1926,9 +1926,9 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "5fshlevels:45"
                 ],
-                "visibility_rules": ["fishsanity_normal"],
+                "visibility_rules": ["fishsanity_normal, 5fshlevels:45"],
                 "sections": [
                     {
                         "name": "Abalathian Smelt",
@@ -1994,9 +1994,9 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "5fshlevels:40"
                 ],
-                "visibility_rules": ["fishsanity_normal"],
+                "visibility_rules": ["fishsanity_normal, 5fshlevels:40"],
                 "sections": [
                     {
                         "name": "Abalathian Smelt",
@@ -2044,9 +2044,9 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "5fshlevels:50"
                 ],
-                "visibility_rules": ["fishsanity_normal"],
+                "visibility_rules": ["fishsanity_normal, level_cap:50"],
                 "sections": [
                     {
                         "name": "Cloud Jellyfish",
@@ -2118,9 +2118,9 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "5fshlevels:45"
                 ],
-                "visibility_rules": ["fishsanity_normal"],
+                "visibility_rules": ["fishsanity_normal, level_cap:45"],
                 "sections": [
                     {
                         "name": "Cloud Jellyfish",
