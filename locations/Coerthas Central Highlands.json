@@ -16,125 +16,128 @@
                 "access_rules": [
                     " "
                 ],
+                "visibility_rules":[
+                    "include_dungeons, max_party_size_4, duty_difficulty_normal"
+                ],
                 "sections": [
                     {
                         "name": "The Stone Vigil",
                         "access_rules": ["$leveling:41"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_TheStoneVigil, level_cap:41"],
                         "item_count": 1
                     },
                     {
                         "name": "The Stone Vigil (Hard)",
                         "access_rules": ["$leveling:50"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_TheStoneVigilHard, level_cap:50"],
                         "item_count": 1
                     },
                     {
                         "name": "The Stone Vigil 2",
                         "access_rules": ["$leveling:41"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_TheStoneVigil, level_cap:41, extra_dungeon_checks:1"],
                         "item_count": 1
                     },
                     {
                         "name": "The Stone Vigil 3",
                         "access_rules": ["$leveling:41"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_TheStoneVigil, level_cap:41, extra_dungeon_checks:2"],
                         "item_count": 1
                     },
                     {
                         "name": "The Stone Vigil 4",
                         "access_rules": ["$leveling:41"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_TheStoneVigil, level_cap:41, extra_dungeon_checks:3"],
                         "item_count": 1
                     },
                     {
                         "name": "The Stone Vigil 5",
                         "access_rules": ["$leveling:41"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_TheStoneVigil, level_cap:41, extra_dungeon_checks:4"],
                         "item_count": 1
                     },
                     {
                         "name": "The Stone Vigil 6",
                         "access_rules": ["$leveling:41"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_TheStoneVigil, level_cap:41, extra_dungeon_checks:5"],
                         "item_count": 1
                     },
                     {
                         "name": "The Stone Vigil 7",
                         "access_rules": ["$leveling:41"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_TheStoneVigil, level_cap:41, extra_dungeon_checks:6"],
                         "item_count": 1
                     },
                     {
                         "name": "The Stone Vigil 8",
                         "access_rules": ["$leveling:41"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_TheStoneVigil, level_cap:41, extra_dungeon_checks:7"],
                         "item_count": 1
                     },
                     {
                         "name": "The Stone Vigil 9",
                         "access_rules": ["$leveling:41"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_TheStoneVigil, level_cap:41, extra_dungeon_checks:8"],
                         "item_count": 1
                     },
                     {
                         "name": "The Stone Vigil 10",
                         "access_rules": ["$leveling:41"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_TheStoneVigil, level_cap:41, extra_dungeon_checks:9"],
                         "item_count": 1
                     },
                     {
                         "name": "The Stone Vigil (Hard) 2",
                         "access_rules": ["$leveling:50"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_TheStoneVigilHard, level_cap:50, extra_dungeon_checks:1"],
                         "item_count": 1
                     },
                     {
                         "name": "The Stone Vigil (Hard) 3",
                         "access_rules": ["$leveling:50"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_TheStoneVigilHard, level_cap:50, extra_dungeon_checks:2"],
                         "item_count": 1
                     },
                     {
                         "name": "The Stone Vigil (Hard) 4",
                         "access_rules": ["$leveling:50"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_TheStoneVigilHard, level_cap:50, extra_dungeon_checks:3"],
                         "item_count": 1
                     },
                     {
                         "name": "The Stone Vigil (Hard) 5",
                         "access_rules": ["$leveling:50"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_TheStoneVigilHard, level_cap:50, extra_dungeon_checks:4"],
                         "item_count": 1
                     },
                     {
                         "name": "The Stone Vigil (Hard) 6",
                         "access_rules": ["$leveling:50"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_TheStoneVigilHard, level_cap:50, extra_dungeon_checks:5"],
                         "item_count": 1
                     },
                     {
                         "name": "The Stone Vigil (Hard) 7",
                         "access_rules": ["$leveling:50"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_TheStoneVigilHard, level_cap:50, extra_dungeon_checks:6"],
                         "item_count": 1
                     },
                     {
                         "name": "The Stone Vigil (Hard) 8",
                         "access_rules": ["$leveling:50"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_TheStoneVigilHard, level_cap:50, extra_dungeon_checks:7"],
                         "item_count": 1
                     },
                     {
                         "name": "The Stone Vigil (Hard) 9",
                         "access_rules": ["$leveling:50"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_TheStoneVigilHard, level_cap:50, extra_dungeon_checks:8"],
                         "item_count": 1
                     },
                     {
                         "name": "The Stone Vigil (Hard) 10",
                         "access_rules": ["$leveling:50"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_TheStoneVigilHard, level_cap:50, extra_dungeon_checks:9"],
                         "item_count": 1
                     }
                 ],
@@ -155,6 +158,9 @@
                 "access_rules": [
                     "$leveling:44"
                 ],
+                "visibility_rules":[
+                    "include_dungeons, max_party_size_4, duty_difficulty_normal, level_cap:44, include_DzemaelDarkhold"
+                ],
                 "sections": [
                     {
                         "name": "Dzemael Darkhold",
@@ -165,55 +171,55 @@
                     {
                         "name": "Dzemael Darkhold 2",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:"],
                         "item_count": 1
                     },
                     {
                         "name": "Dzemael Darkhold 3",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:"],
                         "item_count": 1
                     },
                     {
                         "name": "Dzemael Darkhold 4",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:"],
                         "item_count": 1
                     },
                     {
                         "name": "Dzemael Darkhold 5",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:"],
                         "item_count": 1
                     },
                     {
                         "name": "Dzemael Darkhold 6",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:"],
                         "item_count": 1
                     },
                     {
                         "name": "Dzemael Darkhold 7",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:"],
                         "item_count": 1
                     },
                     {
                         "name": "Dzemael Darkhold 8",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:"],
                         "item_count": 1
                     },
                     {
                         "name": "Dzemael Darkhold 9",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:"],
                         "item_count": 1
                     },
                     {
                         "name": "Dzemael Darkhold 10",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:"],
                         "item_count": 1
                     }
                 ],
@@ -234,6 +240,9 @@
                 "access_rules": [
                     "$leveling:47"
                 ],
+                "visibility_rules":[
+                    "include_dungeons, max_party_size_4, duty_difficulty_normal, level_cap:47, include_TheAurumVale"
+                ],
                 "sections": [
                     {
                         "name": "The Aurum Vale",
@@ -244,55 +253,55 @@
                     {
                         "name": "The Aurum Vale 2",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:1"],
                         "item_count": 1
                     },
                     {
                         "name": "The Aurum Vale 3",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:2"],
                         "item_count": 1
                     },
                     {
                         "name": "The Aurum Vale 4",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:3"],
                         "item_count": 1
                     },
                     {
                         "name": "The Aurum Vale 5",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:4"],
                         "item_count": 1
                     },
                     {
                         "name": "The Aurum Vale 6",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:5"],
                         "item_count": 1
                     },
                     {
                         "name": "The Aurum Vale 7",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:6"],
                         "item_count": 1
                     },
                     {
                         "name": "The Aurum Vale 8",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:7"],
                         "item_count": 1
                     },
                     {
                         "name": "The Aurum Vale 9",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:8"],
                         "item_count": 1
                     },
                     {
                         "name": "The Aurum Vale 10",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:9"],
                         "item_count": 1
                     }
                 ],
@@ -313,107 +322,108 @@
                 "access_rules": [
                     " "
                 ],
+                
                 "sections": [
                     {
                         "name": "Snowcloak",
                         "access_rules": ["$leveling:50"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_dungeons, max_party_size_4, duty_difficulty_normal, level_cap:50, include_Snowcloak"],
                         "item_count": 1
                     },
                     {
                         "name": "The Akh Afah Amphitheatre (Hard)",
                         "access_rules": ["$leveling:50"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["max_party_size_8, duty_difficulty_normal, level_cap:50, include_TheAkhAfahAmphitheatreHard"],
                         "item_count": 1
                     },
                     {
                         "name": "The Akh Afah Amphitheatre (Extreme)",
                         "access_rules": ["$leveling:50"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["max_party_size_8, duty_difficulty_ex, level_cap:50, include_TheAkhAfahAmphitheatreExtreme"],
                         "item_count": 1
                     },
                     {
                         "name": "Rainbow Trout",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["midgebasket", "crowfly"],
+                        "visibility_rules": ["fishsanity_normal, level_cap:45"],
                         "item_count": 1
                     },
                     {
                         "name": "Seema",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["wildfowlfly"],
+                        "visibility_rules": ["fishsanity_normal, level_cap:45"],
                         "item_count": 1
                     },
                     {
                         "name": "Crimson Trout",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["spinner", "wildfowlfly"],
+                        "visibility_rules": ["fishsanity_normal, level_cap:45"],
                         "item_count": 1
                     },
                     {
                         "name": "Wandering Sculpin",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["caddisflylarva"],
+                        "visibility_rules": ["fishsanity_normal, level_cap:45"],
                         "item_count": 1
                     },
                     {
                         "name": "Blue Corpse",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["caddisflylarva"],
+                        "visibility_rules": ["fishsanity_big, level_cap:45"],
                         "item_count": 1
                     },
                     {
                         "name": "Snowcloak 2",
                         "access_rules": ["$leveling:50"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_dungeons, max_party_size_4, duty_difficulty_normal, level_cap:50, include_Snowcloak"],
                         "item_count": 1
                     },
                     {
                         "name": "Snowcloak 3",
                         "access_rules": ["$leveling:50"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_dungeons, max_party_size_4, duty_difficulty_normal, level_cap:50, include_Snowcloak"],
                         "item_count": 1
                     },
                     {
                         "name": "Snowcloak 4",
                         "access_rules": ["$leveling:50"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_dungeons, max_party_size_4, duty_difficulty_normal, level_cap:50, include_Snowcloak"],
                         "item_count": 1
                     },
                     {
                         "name": "Snowcloak 5",
                         "access_rules": ["$leveling:50"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_dungeons, max_party_size_4, duty_difficulty_normal, level_cap:50, include_Snowcloak"],
                         "item_count": 1
                     },
                     {
                         "name": "Snowcloak 6",
                         "access_rules": ["$leveling:50"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_dungeons, max_party_size_4, duty_difficulty_normal, level_cap:50, include_Snowcloak"],
                         "item_count": 1
                     },
                     {
                         "name": "Snowcloak 7",
                         "access_rules": ["$leveling:50"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_dungeons, max_party_size_4, duty_difficulty_normal, level_cap:50, include_Snowcloak"],
                         "item_count": 1
                     },
                     {
                         "name": "Snowcloak 8",
                         "access_rules": ["$leveling:50"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_dungeons, max_party_size_4, duty_difficulty_normal, level_cap:50, include_Snowcloak"],
                         "item_count": 1
                     },
                     {
                         "name": "Snowcloak 9",
                         "access_rules": ["$leveling:50"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_dungeons, max_party_size_4, duty_difficulty_normal, level_cap:50, include_Snowcloak"],
                         "item_count": 1
                     },
                     {
                         "name": "Snowcloak 10",
                         "access_rules": ["$leveling:50"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_dungeons, max_party_size_4, duty_difficulty_normal, level_cap:50, include_Snowcloak"],
                         "item_count": 1
                     }
                 ],
@@ -438,13 +448,13 @@
                     {
                         "name": "The Howling Eye (Hard)",
                         "access_rules": ["$leveling:50"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["max_party_size_8, duty_difficulty_normal, level_cap:50, include_TheHowlingEyeHard"],
                         "item_count": 1
                     },
                     {
                         "name": "The Howling Eye (Extreme)",
                         "access_rules": ["$leveling:50"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["max_party_size_8, duty_difficulty_ex, level_cap:50, include_TheHowlingEyeExtreme"],
                         "item_count": 1
                     }
                 ],
@@ -469,7 +479,7 @@
                     {
                         "name": "A Relic Reborn The Chimera",
                         "access_rules": ["$leveling:50"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["max_party_size_8, duty_difficulty_normal, level_cap:50, include_ARelicRebornTheChimera"],
                         "item_count": 1
                     }
                 ],
@@ -494,7 +504,7 @@
                     {
                         "name": "Battle on the Big Bridge",
                         "access_rules": ["$leveling:50"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["max_party_size_8, duty_difficulty_normal, level_cap:50, include_BattleontheBigBridge"],
                         "item_count": 1
                     }
                 ],
@@ -519,7 +529,7 @@
                     {
                         "name": "Shadow and Claw",
                         "access_rules": ["$leveling:35"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_guildhests, max_party_size_4, duty_difficulty_normal, include_ShadowandClaw, level_cap:35"],
                         "item_count": 1
                     }
                 ],
@@ -543,8 +553,8 @@
                 "sections": [
                     {
                         "name": "Long Live the Queen",
-                        "access_rules": ["$leveling:535"],
-                        "visibility_rules": [],
+                        "access_rules": ["$leveling:35"],
+                        "visibility_rules": ["include_guildhests, max_party_size_4, duty_difficulty_normal, include_LongLivetheQueen, level_cap:35"],
                         "item_count": 1
                     }
                 ],
@@ -565,6 +575,9 @@
                 "access_rules": [
                     "$leveling:60"
                 ],
+                "visibility_rules":[
+                    "include_dungeons, max_party_size_4, duty_difficulty_normal, include_Xelphatol, level_cap:60"
+                ],
                 "sections": [
                     {
                         "name": "Xelphatol",
@@ -575,55 +588,55 @@
                     {
                         "name": "Xelphatol 2",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:1"],
                         "item_count": 1
                     },
                     {
                         "name": "Xelphatol 3",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:2"],
                         "item_count": 1
                     },
                     {
                         "name": "Xelphatol 4",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:3"],
                         "item_count": 1
                     },
                     {
                         "name": "Xelphatol 5",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:4"],
                         "item_count": 1
                     },
                     {
                         "name": "Xelphatol 6",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:5"],
                         "item_count": 1
                     },
                     {
                         "name": "Xelphatol 7",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:6"],
                         "item_count": 1
                     },
                     {
                         "name": "Xelphatol 8",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:7"],
                         "item_count": 1
                     },
                     {
                         "name": "Xelphatol 9",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:8"],
                         "item_count": 1
                     },
                     {
                         "name": "Xelphatol 10",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:9"],
                         "item_count": 1
                     }
                 ],
@@ -644,65 +657,66 @@
                 "access_rules": [
                     "$leveling:35"
                 ],
+                "visibility_rules": ["!fatesanity, level_cap:35"],
                 "sections": [
                     {
                         "name": "FATE #1",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fates_per_zone:1"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #2",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fates_per_zone:2"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #3",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fates_per_zone:3"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #4",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fates_per_zone:4"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #5",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fates_per_zone:5"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #6",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fates_per_zone:6"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #7",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fates_per_zone:7"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #8",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fates_per_zone:8"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #9",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fates_per_zone:9"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #10",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fates_per_zone:10"],
                         "item_count": 1
                     }
                 ],
@@ -727,7 +741,7 @@
                     {
                         "name": "A Log Up (FATE)",
                         "access_rules": ["$leveling:35"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity, level_cap:35"],
                         "item_count": 1
                     }
                 ],
@@ -752,7 +766,7 @@
                     {
                         "name": "Gavial (FATE)",
                         "access_rules": ["$leveling:35"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity, level_cap:35"],
                         "item_count": 1
                     }
                 ],
@@ -777,7 +791,7 @@
                     {
                         "name": "Twelve Ilms of Snow (FATE)",
                         "access_rules": ["$leveling:35"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity, level_cap:35"],
                         "item_count": 1
                     }
                 ],
@@ -802,7 +816,7 @@
                     {
                         "name": "Baa Baa Black Sheep (FATE)",
                         "access_rules": ["$leveling:36"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity, level_cap:36"],
                         "item_count": 1
                     }
                 ],
@@ -827,7 +841,7 @@
                     {
                         "name": "Croc-y Road (FATE)",
                         "access_rules": ["$leveling:36"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity, level_cap:36"],
                         "item_count": 1
                     }
                 ],
@@ -852,7 +866,7 @@
                     {
                         "name": "Whiteout (FATE)",
                         "access_rules": ["$leveling:36"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity, level_cap:36"],
                         "item_count": 1
                     }
                 ],
@@ -877,7 +891,7 @@
                     {
                         "name": "Wish Upon a Star (FATE)",
                         "access_rules": ["$leveling:36"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity, level_cap:36"],
                         "item_count": 1
                     }
                 ],
@@ -902,7 +916,7 @@
                     {
                         "name": "A Fire in the Distance (FATE)",
                         "access_rules": ["$leveling:37"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity, level_cap:37"],
                         "item_count": 1
                     }
                 ],
@@ -927,7 +941,7 @@
                     {
                         "name": "Coming to a Head (FATE)",
                         "access_rules": ["$leveling:37"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity, level_cap:37"],
                         "item_count": 1
                     }
                 ],
@@ -952,7 +966,7 @@
                     {
                         "name": "Simply Red (FATE)",
                         "access_rules": ["$leveling:38"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity, level_cap:38"],
                         "item_count": 1
                     }
                 ],
@@ -977,7 +991,7 @@
                     {
                         "name": "Spring Forward, Fall Back (FATE)",
                         "access_rules": ["$leveling:38"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity, level_cap:38"],
                         "item_count": 1
                     }
                 ],
@@ -1002,7 +1016,7 @@
                     {
                         "name": "Svaras Fall (FATE)",
                         "access_rules": ["$leveling:38"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity, level_cap:38"],
                         "item_count": 1
                     }
                 ],
@@ -1027,7 +1041,7 @@
                     {
                         "name": "Svaras Fear (FATE)",
                         "access_rules": ["$leveling:38"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity, level_cap:38"],
                         "item_count": 1
                     }
                 ],
@@ -1052,7 +1066,7 @@
                     {
                         "name": "Svaras Flight (FATE)",
                         "access_rules": ["$leveling:38"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity, level_cap:38"],
                         "item_count": 1
                     }
                 ],
@@ -1077,7 +1091,7 @@
                     {
                         "name": "Svaras Fury (FATE)",
                         "access_rules": ["$leveling:38"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity, level_cap:38"],
                         "item_count": 1
                     }
                 ],
@@ -1102,7 +1116,7 @@
                     {
                         "name": "The Grey (FATE)",
                         "access_rules": ["$leveling:38"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity, level_cap:38"],
                         "item_count": 1
                     }
                 ],
@@ -1127,7 +1141,7 @@
                     {
                         "name": "A Freeze Is Coming (FATE)",
                         "access_rules": ["$leveling:39"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity, level_cap:39"],
                         "item_count": 1
                     }
                 ],
@@ -1152,7 +1166,7 @@
                     {
                         "name": "Bellyful (FATE)",
                         "access_rules": ["$leveling:39"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity, level_cap:39"],
                         "item_count": 1
                     }
                 ],
@@ -1177,7 +1191,7 @@
                     {
                         "name": "Judge Jury and Executioner (FATE)",
                         "access_rules": ["$leveling:39"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity, level_cap:39"],
                         "item_count": 1
                     }
                 ],
@@ -1202,7 +1216,7 @@
                     {
                         "name": "Roc of Ages (FATE)",
                         "access_rules": ["$leveling:39"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity, level_cap:39"],
                         "item_count": 1
                     }
                 ],
@@ -1227,7 +1241,7 @@
                     {
                         "name": "The Eyes Have It (FATE)",
                         "access_rules": ["$leveling:39"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity, level_cap:39"],
                         "item_count": 1
                     }
                 ],
@@ -1252,7 +1266,7 @@
                     {
                         "name": "Front and Center (FATE)",
                         "access_rules": ["$leveling:40"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity, level_cap:40"],
                         "item_count": 1
                     }
                 ],
@@ -1277,7 +1291,7 @@
                     {
                         "name": "Giant Seps (FATE)",
                         "access_rules": ["$leveling:40"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity, level_cap:40"],
                         "item_count": 1
                     }
                 ],
@@ -1302,7 +1316,7 @@
                     {
                         "name": "If This Wall Could Talk (FATE)",
                         "access_rules": ["$leveling:40"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity, level_cap:40"],
                         "item_count": 1
                     }
                 ],
@@ -1327,7 +1341,7 @@
                     {
                         "name": "Riddle Me This (FATE)",
                         "access_rules": ["$leveling:40"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity, level_cap:40"],
                         "item_count": 1
                     }
                 ],
@@ -1352,7 +1366,7 @@
                     {
                         "name": "The Taste of Fear (FATE)",
                         "access_rules": ["$leveling:40"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity, level_cap:40"],
                         "item_count": 1
                     }
                 ],
@@ -1377,7 +1391,7 @@
                     {
                         "name": "In the Saints Wake (FATE)",
                         "access_rules": ["$leveling:45"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity, level_cap:45"],
                         "item_count": 1
                     }
                 ],
@@ -1402,7 +1416,7 @@
                     {
                         "name": "Tower of Power (FATE)",
                         "access_rules": ["$leveling:45"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity, level_cap:45"],
                         "item_count": 1
                     }
                 ],
@@ -1427,7 +1441,7 @@
                     {
                         "name": "The Bigger They Are (FATE)",
                         "access_rules": ["$leveling:46"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity, level_cap:46"],
                         "item_count": 1
                     }
                 ],
@@ -1452,7 +1466,7 @@
                     {
                         "name": "Turn Off Your Hearthlight (FATE)",
                         "access_rules": ["$leveling:47"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity, level_cap:47"],
                         "item_count": 1
                     }
                 ],
@@ -1477,7 +1491,7 @@
                     {
                         "name": "Whats On Your Mind (FATE)",
                         "access_rules": ["$leveling:47"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity, level_cap:47"],
                         "item_count": 1
                     }
                 ],
@@ -1502,7 +1516,7 @@
                     {
                         "name": "Does Anyone Hear It (FATE)",
                         "access_rules": ["$leveling:48"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity, level_cap:48"],
                         "item_count": 1
                     }
                 ],
@@ -1527,7 +1541,7 @@
                     {
                         "name": "Inspector Hatchet (FATE)",
                         "access_rules": ["$leveling:49"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity, level_cap:49"],
                         "item_count": 1
                     }
                 ],
@@ -1552,7 +1566,7 @@
                     {
                         "name": "The Four Winds (FATE)",
                         "access_rules": ["$leveling:49"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity, level_cap:49"],
                         "item_count": 1
                     }
                 ],
@@ -1577,7 +1591,7 @@
                     {
                         "name": "The Storm Caller (FATE)",
                         "access_rules": ["$leveling:49"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity, level_cap:49"],
                         "item_count": 1
                     }
                 ],
@@ -1602,7 +1616,7 @@
                     {
                         "name": "Behold Now Behemoth (FATE)",
                         "access_rules": ["$leveling:50"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity, level_cap:50, include_unreasonable_fates"],
                         "item_count": 1
                     }
                 ],
@@ -1627,7 +1641,7 @@
                     {
                         "name": "He Taketh It with His Eyes (FATE)",
                         "access_rules": ["$leveling:50"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity, level_cap:50, include_unreasonable_fates"],
                         "item_count": 1
                     }
                 ],
@@ -1648,53 +1662,54 @@
                 "access_rules": [
                     " "
                 ],
+                "visibility_rules": ["fishsanity_normal"],
                 "sections": [
                     {
                         "name": "Striped Goby",
-                        "access_rules": [],
+                        "access_rules": ["mothpupa"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Maiden Carp",
-                        "access_rules": [],
+                        "access_rules": ["wildfowlfly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Rainbow Trout",
-                        "access_rules": [],
+                        "access_rules": ["midgebasket", "crowfly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Seema",
-                        "access_rules": [],
+                        "access_rules": ["wildfowlfly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Giant Bass",
-                        "access_rules": [],
+                        "access_rules": ["honeyworm"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Crimson Trout",
-                        "access_rules": [],
+                        "access_rules": ["spinner", "wildfowlfly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Kissing Trout",
-                        "access_rules": [],
+                        "access_rules": ["mothpupa", "honeyworm"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Daniffens Mark",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["wildfowlfly"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
@@ -1715,59 +1730,60 @@
                 "access_rules": [
                     " "
                 ],
+                "visibility_rules": ["fishsanity_normal"],
                 "sections": [
                     {
                         "name": "Striped Goby",
-                        "access_rules": [],
+                        "access_rules": ["mothpupa"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Abalathian Smelt",
-                        "access_rules": [],
+                        "access_rules": ["glowworm", "syrphidbasket", "honeyworm", "stoneflynymph"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Giant Bass",
-                        "access_rules": [],
+                        "access_rules": ["honeyworm"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Crimson Trout",
-                        "access_rules": [],
+                        "access_rules": ["spinner", "wildfowlfly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Bronze Lake Trout",
-                        "access_rules": [],
+                        "access_rules": ["spinnerbait"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Northern Pike",
-                        "access_rules": [],
+                        "access_rules": ["topwaterfrog"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Kissing Trout",
-                        "access_rules": [],
+                        "access_rules": ["mothpupa", "honeyworm"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Emperor Fish",
-                        "access_rules": [],
+                        "access_rules": ["mothpupa"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Starbright",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["syrphidbasket"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
@@ -1788,47 +1804,48 @@
                 "access_rules": [
                     " "
                 ],
+                "visibility_rules": ["fishsanity_normal"],
                 "sections": [
                     {
                         "name": "Striped Goby",
-                        "access_rules": [],
+                        "access_rules": ["mothpupa"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Abalathian Smelt",
-                        "access_rules": [],
+                        "access_rules": ["glowworm", "syrphidbasket", "honeyworm", "stoneflynymph"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Rainbow Trout",
-                        "access_rules": [],
+                        "access_rules": ["midgebasket", "crowfly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Seema",
-                        "access_rules": [],
+                        "access_rules": ["wildfowlfly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Crimson Trout",
-                        "access_rules": [],
+                        "access_rules": ["spinner", "wildfowlfly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Kissing Trout",
-                        "access_rules": [],
+                        "access_rules": ["mothpupa", "honeyworm"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Dawn Maiden",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["wildfowlfly"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
@@ -1849,47 +1866,48 @@
                 "access_rules": [
                     " "
                 ],
+                "visibility_rules": ["fishsanity_normal"],
                 "sections": [
                     {
                         "name": "Striped Goby",
-                        "access_rules": [],
+                        "access_rules": ["mothpupa"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Abalathian Smelt",
-                        "access_rules": [],
+                        "access_rules": ["glowworm", "syrphidbasket", "honeyworm", "stoneflynymph"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Blindfish",
-                        "access_rules": [],
+                        "access_rules": ["syrphidbasket"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Golden Loach",
-                        "access_rules": [],
+                        "access_rules": ["topwaterfrog"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Cave Cherax",
-                        "access_rules": [],
+                        "access_rules": ["mothpupa"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Lamp Marimo",
-                        "access_rules": [],
+                        "access_rules": ["chocobofly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Charons Lantern",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["glowworm"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
@@ -1910,53 +1928,54 @@
                 "access_rules": [
                     " "
                 ],
+                "visibility_rules": ["fishsanity_normal"],
                 "sections": [
                     {
                         "name": "Abalathian Smelt",
-                        "access_rules": [],
+                        "access_rules": ["glowworm", "syrphidbasket", "honeyworm", "stoneflynymph"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Giant Bass",
-                        "access_rules": [],
+                        "access_rules": ["honeyworm"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Crimson Trout",
-                        "access_rules": [],
+                        "access_rules": ["spinner", "wildfowlfly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Common Sculpin",
-                        "access_rules": [],
+                        "access_rules": ["spinnerbait"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Northern Pike",
-                        "access_rules": [],
+                        "access_rules": ["topwaterfrog"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Angry Pike",
-                        "access_rules": [],
+                        "access_rules": ["stoneflynymph"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Lamp Marimo",
-                        "access_rules": [],
+                        "access_rules": ["chocobofly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Darkstar",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["stoneflynymph"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
@@ -1977,35 +1996,36 @@
                 "access_rules": [
                     " "
                 ],
+                "visibility_rules": ["fishsanity_normal"],
                 "sections": [
                     {
                         "name": "Abalathian Smelt",
-                        "access_rules": [],
+                        "access_rules": ["glowworm", "syrphidbasket", "honeyworm", "stoneflynymph"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Northern Pike",
-                        "access_rules": [],
+                        "access_rules": ["topwaterfrog"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Kissing Trout",
-                        "access_rules": [],
+                        "access_rules": ["mothpupa", "honeyworm"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Lamp Marimo",
-                        "access_rules": [],
+                        "access_rules": ["chocobofly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "The Matriarch",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["honeyworm"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
@@ -2026,59 +2046,60 @@
                 "access_rules": [
                     " "
                 ],
+                "visibility_rules": ["fishsanity_normal"],
                 "sections": [
                     {
                         "name": "Cloud Jellyfish",
-                        "access_rules": [],
+                        "access_rules": ["balloonbug"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Skyfish",
-                        "access_rules": [],
+                        "access_rules": ["balloonbug"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Cloud Cutter",
-                        "access_rules": [],
+                        "access_rules": ["hoverworm"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Blind Manta",
-                        "access_rules": [],
+                        "access_rules": ["hoverworm"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Rift Sailor",
-                        "access_rules": [],
+                        "access_rules": ["balloonbug"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Saucerfish",
-                        "access_rules": [],
+                        "access_rules": ["hoverworm"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Rhamphorhynchus",
-                        "access_rules": [],
+                        "access_rules": ["hoverworm"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Mahar",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["hoverworm"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     },
                     {
                         "name": "Shonisaurus",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["hoverworm"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
@@ -2099,41 +2120,42 @@
                 "access_rules": [
                     " "
                 ],
+                "visibility_rules": ["fishsanity_normal"],
                 "sections": [
                     {
                         "name": "Cloud Jellyfish",
-                        "access_rules": [],
+                        "access_rules": ["balloonbug"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Skyfish",
-                        "access_rules": [],
+                        "access_rules": ["balloonbug"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Cloud Cutter",
-                        "access_rules": [],
+                        "access_rules": ["hoverworm"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Blind Manta",
-                        "access_rules": [],
+                        "access_rules": ["hoverworm"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Rift Sailor",
-                        "access_rules": [],
+                        "access_rules": ["balloonbug"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Anomalocaris",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["hoverworm"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
