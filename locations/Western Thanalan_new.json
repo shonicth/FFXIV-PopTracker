@@ -1,0 +1,1689 @@
+[
+    {
+        "name": "Western Thanalan",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            "$westernthanalanaccess"
+        ],
+        "children": [
+            {
+                "name": "Pray",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Return to the Waking Sands",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Western Thanalan",
+                        "x": 538,
+                        "y": 644,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Copperbell Mines",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "visibility_rules": [
+                    "include_dungeons, max_party_size_4, duty_difficulty_normal"
+                ],
+                "sections": [
+                    {
+                        "name": "Copperbell Mines",
+                        "access_rules": [
+                            "$leveling:17"
+                        ],
+                        "visibility_rules": [
+                            "include_CopperbellMines"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Copperbell Mines (Hard)",
+                        "access_rules": [
+                            "$leveling:50"
+                        ],
+                        "visibility_rules": [
+                            "include_CopperbellMinesHard, level_cap:50"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Copperbell Mines 2",
+                        "access_rules": [
+                            "$leveling:17"
+                        ],
+                        "visibility_rules": [
+                            "include_CopperbellMines, extra_dungeon_checks:1"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Copperbell Mines 3",
+                        "access_rules": [
+                            "$leveling:17"
+                        ],
+                        "visibility_rules": [
+                            "include_CopperbellMines, extra_dungeon_checks:2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Copperbell Mines 4",
+                        "access_rules": [
+                            "$leveling:17"
+                        ],
+                        "visibility_rules": [
+                            "include_CopperbellMines, extra_dungeon_checks:3"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Copperbell Mines 5",
+                        "access_rules": [
+                            "$leveling:17"
+                        ],
+                        "visibility_rules": [
+                            "include_CopperbellMines, extra_dungeon_checks:4"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Copperbell Mines 6",
+                        "access_rules": [
+                            "$leveling:17"
+                        ],
+                        "visibility_rules": [
+                            "include_CopperbellMines, extra_dungeon_checks:5"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Copperbell Mines 7",
+                        "access_rules": [
+                            "$leveling:17"
+                        ],
+                        "visibility_rules": [
+                            "include_CopperbellMines, extra_dungeon_checks:6"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Copperbell Mines 8",
+                        "access_rules": [
+                            "$leveling:17"
+                        ],
+                        "visibility_rules": [
+                            "include_CopperbellMines, extra_dungeon_checks:7"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Copperbell Mines 9",
+                        "access_rules": [
+                            "$leveling:17"
+                        ],
+                        "visibility_rules": [
+                            "include_CopperbellMines, extra_dungeon_checks:8"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Copperbell Mines 10",
+                        "access_rules": [
+                            "$leveling:17"
+                        ],
+                        "visibility_rules": [
+                            "include_CopperbellMines, extra_dungeon_checks:9"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Copperbell Mines (Hard) 2",
+                        "access_rules": [
+                            "$leveling:50"
+                        ],
+                        "visibility_rules": [
+                            "include_CopperbellMinesHard, level_cap:50, extra_dungeon_checks:1"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Copperbell Mines (Hard) 3",
+                        "access_rules": [
+                            "$leveling:50"
+                        ],
+                        "visibility_rules": [
+                            "include_CopperbellMinesHard, level_cap:50, extra_dungeon_checks:2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Copperbell Mines (Hard) 4",
+                        "access_rules": [
+                            "$leveling:50"
+                        ],
+                        "visibility_rules": [
+                            "include_CopperbellMinesHard, level_cap:50, extra_dungeon_checks:3"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Copperbell Mines (Hard) 5",
+                        "access_rules": [
+                            "$leveling:50"
+                        ],
+                        "visibility_rules": [
+                            "include_CopperbellMinesHard, level_cap:50, extra_dungeon_checks:4"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Copperbell Mines (Hard) 6",
+                        "access_rules": [
+                            "$leveling:50"
+                        ],
+                        "visibility_rules": [
+                            "include_CopperbellMinesHard, level_cap:50, extra_dungeon_checks:5"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Copperbell Mines (Hard) 7",
+                        "access_rules": [
+                            "$leveling:50"
+                        ],
+                        "visibility_rules": [
+                            "include_CopperbellMinesHard, level_cap:50, extra_dungeon_checks:6"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Copperbell Mines (Hard) 8",
+                        "access_rules": [
+                            "$leveling:50"
+                        ],
+                        "visibility_rules": [
+                            "include_CopperbellMinesHard, level_cap:50, extra_dungeon_checks:7"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Copperbell Mines (Hard) 9",
+                        "access_rules": [
+                            "$leveling:50"
+                        ],
+                        "visibility_rules": [
+                            "include_CopperbellMinesHard, level_cap:50, extra_dungeon_checks:8"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Copperbell Mines (Hard) 10",
+                        "access_rules": [
+                            "$leveling:50"
+                        ],
+                        "visibility_rules": [
+                            "include_CopperbellMinesHard, level_cap:50, extra_dungeon_checks:9"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Western Thanalan",
+                        "x": 1357,
+                        "y": 789,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Basic Training Enemy Strongholds",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Basic Training Enemy Strongholds",
+                        "access_rules": [
+                            "$leveling:15"
+                        ],
+                        "visibility_rules": [
+                            "include_guildhests, max_party_size_4, duty_difficulty_normal, include_BasicTrainingEnemyStrongholds"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Western Thanalan",
+                        "x": 582,
+                        "y": 540,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Castrum Marinum",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$leveling:80"
+                ],
+                "sections": [
+                    {
+                        "name": "Castrum Marinum",
+                        "access_rules": [
+                            "$leveling:80"
+                        ],
+                        "visibility_rules": [
+                            "max_party_size_8, duty_difficulty_normal, include_Castrum Marinum, level_cap:80"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Castrum Marinum (Extreme)",
+                        "access_rules": [
+                            "max_party_size_8, duty_difficulty_ex, include_Castrum MarinumExtreme, level_cap:80"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Western Thanalan",
+                        "x": 543,
+                        "y": 600,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "FATEs",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$leveling:5"
+                ],
+                "visibility_rules": [
+                    "!fatesanity"
+                ],
+                "sections": [
+                    {
+                        "name": "FATE #1",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "fates_per_zone:1"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "FATE #2",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "fates_per_zone:2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "FATE #3",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "fates_per_zone:3"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "FATE #4",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "fates_per_zone:4"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "FATE #5",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "fates_per_zone:5"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "FATE #6",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "fates_per_zone:6"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "FATE #7",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "fates_per_zone:7"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "FATE #8",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "fates_per_zone:8"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "FATE #9",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "fates_per_zone:9"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "FATE #10",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "fates_per_zone:10"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Western Thanalan",
+                        "x": 725,
+                        "y": 119,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "A Matter of Rust (FATE)",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "A Matter of Rust (FATE)",
+                        "access_rules": [
+                            "$leveling:5"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Western Thanalan",
+                        "x": 1132,
+                        "y": 1263,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Needles to Slay (FATE)",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Needles to Slay (FATE)",
+                        "access_rules": [
+                            "$leveling:5"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Western Thanalan",
+                        "x": 1176,
+                        "y": 1249,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Things that Make You Go Home (FATE)",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Things that Make You Go Home (FATE)",
+                        "access_rules": [
+                            "$leveling:6"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Western Thanalan",
+                        "x": 1081,
+                        "y": 1385,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Deface the Facts (FATE)",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Deface the Facts (FATE)",
+                        "access_rules": [
+                            "$leveling:8"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Western Thanalan",
+                        "x": 930,
+                        "y": 1288,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Please Hammers, Dont Hurt Them (FATE)",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Please Hammers, Dont Hurt Them (FATE)",
+                        "access_rules": [
+                            "$leveling:8"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Western Thanalan",
+                        "x": 874,
+                        "y": 1380,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "The Cores (FATE)",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "The Cores (FATE)",
+                        "access_rules": [
+                            "$leveling:8"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Western Thanalan",
+                        "x": 908,
+                        "y": 1364,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Doomed (FATE)",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Doomed (FATE)",
+                        "access_rules": [
+                            "$leveling:9"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Western Thanalan",
+                        "x": 1215,
+                        "y": 1031,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "The Villain (FATE)",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "The Villain (FATE)",
+                        "access_rules": [
+                            "$leveling:9"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Western Thanalan",
+                        "x": 1089,
+                        "y": 1139,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Copied Peistes (FATE)",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Copied Peistes (FATE)",
+                        "access_rules": [
+                            "$leveling:10"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Western Thanalan",
+                        "x": 1179,
+                        "y": 1048,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Dog Eat Dog (FATE)",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Dog Eat Dog (FATE)",
+                        "access_rules": [
+                            "$leveling:10"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Western Thanalan",
+                        "x": 1220,
+                        "y": 893,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Pound for Pound (FATE)",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Pound for Pound (FATE)",
+                        "access_rules": [
+                            "$leveling:10"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Western Thanalan",
+                        "x": 1100,
+                        "y": 1030,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Bigger Fish to Fry (FATE)",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bigger Fish to Fry (FATE)",
+                        "access_rules": [
+                            "$leveling:13"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Western Thanalan",
+                        "x": 732,
+                        "y": 798,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Bubble Trouble (FATE)",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Bubble Trouble (FATE)",
+                        "access_rules": [
+                            "$leveling:13"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Western Thanalan",
+                        "x": 748,
+                        "y": 753,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Staying Dead (FATE)",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Staying Dead (FATE)",
+                        "access_rules": [
+                            "$leveling:20"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Western Thanalan",
+                        "x": 630,
+                        "y": 538,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "There Might Be Giants (FATE)",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "There Might Be Giants (FATE)",
+                        "access_rules": [
+                            "$leveling:21"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Western Thanalan",
+                        "x": 644,
+                        "y": 485,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Hes Got Legs (FATE)",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Hes Got Legs (FATE)",
+                        "access_rules": [
+                            "$leveling:22"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Western Thanalan",
+                        "x": 673,
+                        "y": 298,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Tripped up by the Fruit of Another (FATE)",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Tripped up by the Fruit of Another (FATE)",
+                        "access_rules": [
+                            "$leveling:22"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Western Thanalan",
+                        "x": 664,
+                        "y": 407,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Juggernaut Down (FATE)",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Juggernaut Down (FATE)",
+                        "access_rules": [
+                            "$leveling:23"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Western Thanalan",
+                        "x": 636,
+                        "y": 339,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Cape Westwind",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "5fshlevels:45"
+                ],
+                "visibility_rules": [
+                    "fishsanity_normal, level_cap:45"
+                ],
+                "sections": [
+                    {
+                        "name": "Merlthor Goby",
+                        "access_rules": [
+                            "lugworm"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Haraldr Haddock",
+                        "access_rules": [
+                            "heavysteeljig"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Whitelip Oyster",
+                        "access_rules": [
+                            "herrinball"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Silver Shark",
+                        "access_rules": [
+                            "lugworm"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Wahoo",
+                        "access_rules": [
+                            "lugworm"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Plaice",
+                        "access_rules": [
+                            "yumizuno"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Sea Devil",
+                        "access_rules": [
+                            "yumizuno"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Titanic Sawfish",
+                        "access_rules": [
+                            "lugworm"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Blacklip Oyster",
+                        "access_rules": [
+                            "krillcagefeeder"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Pirates Bane",
+                        "access_rules": [
+                            "lugworm"
+                        ],
+                        "visibility_rules": [
+                            "fishsanity_big"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Western Thanalan",
+                        "x": 434,
+                        "y": 284,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "The Silver Bazaar",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "5fshlevels:25"
+                ],
+                "visibility_rules": [
+                    "fishsanity_normal"
+                ],
+                "sections": [
+                    {
+                        "name": "Lominsan Anchovy",
+                        "access_rules": [
+                            "lugworm"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Pebble Crab",
+                        "access_rules": [
+                            "yumizuno"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Tiger Cod",
+                        "access_rules": [
+                            "rattail"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Rothlyt Oyster",
+                        "access_rules": [
+                            "rattail"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Hammerhead Shark",
+                        "access_rules": [
+                            "steeljig"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Indigo Herring",
+                        "access_rules": [
+                            "spoonworm"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Haraldr Haddock",
+                        "access_rules": [
+                            "heavysteeljig"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Rock Lobster",
+                        "access_rules": [
+                            "northernkrill"
+                        ],
+                        "visibility_rules": [
+                            "fishsanity_timed"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Dirty Herry",
+                        "access_rules": [
+                            "northernkrill"
+                        ],
+                        "visibility_rules": [
+                            "fishsanity_big"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Western Thanalan",
+                        "x": 694,
+                        "y": 1441,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Vesper Bay",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "5fshlevels:15"
+                ],
+                "visibility_rules": [
+                    "fishsanity_normal"
+                ],
+                "sections": [
+                    {
+                        "name": "Lominsan Anchovy",
+                        "access_rules": [
+                            "lugworm"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Harbor Herring",
+                        "access_rules": [
+                            "pillbug"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Pebble Crab",
+                        "access_rules": [
+                            "yumizuno"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Tiger Cod",
+                        "access_rules": [
+                            "rattail"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Rothlyt Oyster",
+                        "access_rules": [
+                            "rattail"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Blue Octopus",
+                        "access_rules": [
+                            "lugworm"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Rivet Oyster",
+                        "access_rules": [
+                            "heavysteeljig"
+                        ],
+                        "visibility_rules": [
+                            "fishsanity_big"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Western Thanalan",
+                        "x": 526,
+                        "y": 535,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Crescent Cove",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "5fshlevels:20"
+                ],
+                "visibility_rules": [
+                    "fishsanity_normal"
+                ],
+                "sections": [
+                    {
+                        "name": "Lominsan Anchovy",
+                        "access_rules": [
+                            "lugworm"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Razor Clam",
+                        "access_rules": [
+                            "rattail"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Blowfish",
+                        "access_rules": [
+                            "northernkrill"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Saber Sardine",
+                        "access_rules": [
+                            "heavysteeljig"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Monkfish",
+                        "access_rules": [
+                            "heavysteeljig"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Rock Lobster",
+                        "access_rules": [
+                            "northernkrill"
+                        ],
+                        "visibility_rules": [
+                            "fishsanity_timed"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Spotted Puffer",
+                        "access_rules": [
+                            "honeyworm"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Fingers",
+                        "access_rules": [
+                            "Northern Krill"
+                        ],
+                        "visibility_rules": [
+                            "fishsanity_big"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Western Thanalan",
+                        "x": 711,
+                        "y": 891,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "The Footfalls",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "5fshlevels:10"
+                ],
+                "visibility_rules": [
+                    "fishsanity_normal"
+                ],
+                "sections": [
+                    {
+                        "name": "Crayfish",
+                        "access_rules": [
+                            "mothpupa"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Mudskipper",
+                        "access_rules": [
+                            "midgebasket"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Faerie Bass",
+                        "access_rules": [
+                            "midgebasket"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Acorn Snail",
+                        "access_rules": [
+                            "midgebasket"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Copperfish",
+                        "access_rules": [
+                            "butterworm"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Mudcrab",
+                        "access_rules": [
+                            "honeyworm"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Eunuch Crayfish",
+                        "access_rules": [
+                            "butterworm"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Mud Golem",
+                        "access_rules": [
+                            "butterworm"
+                        ],
+                        "visibility_rules": [
+                            "fishsanity_big"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Western Thanalan",
+                        "x": 798,
+                        "y": 666,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Nophicas Wells",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "5fshlevels:5"
+                ],
+                "visibility_rules": [
+                    "fishsanity_normal"
+                ],
+                "sections": [
+                    {
+                        "name": "Bone Crayfish",
+                        "access_rules": [
+                            "mothpupa"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Dusk Goby",
+                        "access_rules": [
+                            "crayfishball"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Gudgeon",
+                        "access_rules": [
+                            "crayfishball"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Maiden Carp",
+                        "access_rules": [
+                            "wildfowlfly"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Eunuch Crayfish",
+                        "access_rules": [
+                            "butterworm"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Glimmerscale",
+                        "access_rules": [
+                            "butterworm"
+                        ],
+                        "visibility_rules": [
+                            "fishsanity_big"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Copperfish",
+                        "access_rules": [
+                            "butterworm"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Brass Loach",
+                        "access_rules": [
+                            "wildfowlfly"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Western Thanalan",
+                        "x": 1134,
+                        "y": 1055,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Moondrip",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "5fshlevels:45"
+                ],
+                "visibility_rules": [
+                    "fishsanity_normal, level_cap:45"
+                ],
+                "sections": [
+                    {
+                        "name": "Blindfish",
+                        "access_rules": [
+                            "syrphidbasket"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Grip Killifish",
+                        "access_rules": [
+                            "chocobofly"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Silverfish",
+                        "access_rules": [
+                            "honeyworm"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Assassin Betta",
+                        "access_rules": [
+                            "honeyworm"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Garpike",
+                        "access_rules": [
+                            "honeyworm"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Ndendecki",
+                        "access_rules": [
+                            "honeyworm"
+                        ],
+                        "visibility_rules": [
+                            "fishsanity_big"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Western Thanalan",
+                        "x": 840,
+                        "y": 286,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Paratas Peace",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "5fshlevels:50"
+                ],
+                "visibility_rules": [
+                    "fishsanity_normal, level_cap:50"
+                ],
+                "sections": [
+                    {
+                        "name": "Grip Killifish",
+                        "access_rules": [
+                            "chocobofly"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Silverfish",
+                        "access_rules": [
+                            "honeyworm"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Ignus Snail",
+                        "access_rules": [
+                            "stemborer"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Sludgeskipper",
+                        "access_rules": [
+                            "stemborer"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Boltfish",
+                        "access_rules": [
+                            "honeyworm"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Ilsabardian Bass",
+                        "access_rules": [
+                            "topwaterfrog"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Vampire Lampern",
+                        "access_rules": [
+                            "honeyworm"
+                        ],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bat-o-Nine-Tails",
+                        "access_rules": [
+                            "honeyworm"
+                        ],
+                        "visibility_rules": [
+                            "fishsanity_big"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Western Thanalan",
+                        "x": 680,
+                        "y": 252,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            }
+        ]
+    }
+]
