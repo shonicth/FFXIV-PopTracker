@@ -376,6 +376,35 @@
             ]
         }]
     },
+    "setting_grid": {
+        "type": "array",
+        "orientation": "horizontal",
+        "margin": "0,0",
+        "content": [{
+            "type": "itemgrid",
+            "item_margin": "2, 2",
+            "h_alignment": "left",
+            "item_h_alignment": "center",
+            "item_v_alignment": "center",
+            "item_height": 36,
+            "item_width": 36,
+            "rows": [
+                [
+                    "fatesanity",
+                    "include_unreasonable_fates",
+                    "level_cap",
+                    "max_party_size",
+
+                ],
+                [
+                    "include_bozja",
+                    "include_ocean_fishing",
+                    "include_dungeons",
+                    "fishsanity",
+                ]
+            ]
+        }]
+    },
     "shared_item_grid_horizontal": {
         "type": "array",
         "orientation": "horizontal",
@@ -404,12 +433,12 @@
                 "type": "layout",
                 "key": "tural_zones"
             },
-            { 
-                // I'm thinking we should split Area Access and Bait into two separate tabs here.
-                // But that's a question for when we have icons for all the bait.
-                "type": "layout",
-                "key": "bait"
-            }
+            // { 
+            //     // I'm thinking we should split Area Access and Bait into two separate tabs here.
+            //     // But that's a question for when we have icons for all the bait.
+            //     "type": "layout",
+            //     "key": "bait"
+            // }
         ]
     },
     "shared_item_grid_vertical": {
