@@ -20,7 +20,7 @@
                     {
                         "name": "Basic Training Enemy Parties",
                         "access_rules": ["$leveling:10"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_guildhests, max_party_size_4"],
                         "item_count": 1
                     }
                 ],
@@ -42,65 +42,66 @@
                 "access_rules": [
                     "$leveling:3"
                 ],
+                "visibility_rules": ["!fatesanity"],
                 "sections": [
                     {
                         "name": "FATE #1",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fates_per_zone:1"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #2",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fates_per_zone:2"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #3",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fates_per_zone:3"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #4",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fates_per_zone:4"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #5",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fates_per_zone:5"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #6",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fates_per_zone:6"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #7",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fates_per_zone:7"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #8",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fates_per_zone:8"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #9",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fates_per_zone:9"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #10",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fates_per_zone:10"],
                         "item_count": 1
                     }
                 ],
@@ -126,7 +127,7 @@
                     {
                         "name": "On the Lamb (FATE)",
                         "access_rules": ["$leveling:3"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity"],
                         "item_count": 1
                     }
                 ],
@@ -152,7 +153,7 @@
                     {
                         "name": "Taking It to the Streams (FATE)",
                         "access_rules": ["$leveling:4"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity"],
                         "item_count": 1
                     }
                 ],
@@ -178,7 +179,7 @@
                     {
                         "name": "Overnight Migration (FATE)",
                         "access_rules": ["$leveling:5"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity"],
                         "item_count": 1
                     }
                 ],
@@ -204,7 +205,7 @@
                     {
                         "name": "Yellow-bellied Greenbacks (FATE)",
                         "access_rules": ["$leveling:5"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity"],
                         "item_count": 1
                     }
                 ],
@@ -230,7 +231,7 @@
                     {
                         "name": "Thwack-a-Mole (FATE)",
                         "access_rules": ["$leveling:6"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity"],
                         "item_count": 1
                     }
                 ],
@@ -256,7 +257,7 @@
                     {
                         "name": "Crying over Spilled Salt (FATE)",
                         "access_rules": ["$leveling:7"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity"],
                         "item_count": 1
                     }
                 ],
@@ -282,7 +283,7 @@
                     {
                         "name": "Hello, Work (FATE)",
                         "access_rules": ["$leveling:7"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity"],
                         "item_count": 1
                     }
                 ],
@@ -308,7 +309,7 @@
                     {
                         "name": "Menuis at Work (FATE)",
                         "access_rules": ["$leveling:8"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity"],
                         "item_count": 1
                     }
                 ],
@@ -334,7 +335,7 @@
                     {
                         "name": "The Orange Boxes (FATE)",
                         "access_rules": ["$leveling:9"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity"],
                         "item_count": 1
                     }
                 ],
@@ -360,7 +361,7 @@
                     {
                         "name": "Shearing is Caring (FATE)",
                         "access_rules": ["$leveling:10"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity"],
                         "item_count": 1
                     }
                 ],
@@ -386,7 +387,7 @@
                     {
                         "name": "Sister Crustacean (FATE)",
                         "access_rules": ["$leveling:312"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity"],
                         "item_count": 1
                     }
                 ],
@@ -412,7 +413,7 @@
                     {
                         "name": "Go Wespe (FATE)",
                         "access_rules": ["$leveling:13"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity"],
                         "item_count": 1
                     }
                 ],
@@ -438,7 +439,7 @@
                     {
                         "name": "A Mad, Mad, Mad Sergeant (FATE)",
                         "access_rules": ["$leveling:14"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity"],
                         "item_count": 1
                     }
                 ],
@@ -464,7 +465,7 @@
                     {
                         "name": "The Boy Who Cried Jackal (FATE)",
                         "access_rules": ["$leveling:14"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity"],
                         "item_count": 1
                     }
                 ],
@@ -490,7 +491,7 @@
                     {
                         "name": "The Truth Is out There (FATE)",
                         "access_rules": ["$leveling:14"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity"],
                         "item_count": 1
                     }
                 ],
@@ -512,6 +513,7 @@
                 "access_rules": [
                     "5fshlevels:1"
                 ],
+                "visibility_rules": ["fishsanity_normal"],
                 "sections": [
                     {
                         "name": "Merlthor Goby",
@@ -592,6 +594,7 @@
                 "access_rules": [
                     "5fshlevels:5"
                 ],
+                "visibility_rules": ["fishsanity_normal"],
                 "sections": [
                     {
                         "name": "Merlthor Goby",
@@ -672,6 +675,7 @@
                 "access_rules": [
                     "5fshlevels:1"
                 ],
+                "visibility_rules": ["fishsanity_normal"],
                 "sections": [
                     {
                         "name": "Crayfish",
@@ -728,6 +732,7 @@
                 "access_rules": [
                     "5fshlevels:1"
                 ],
+                "visibility_rules": ["fishsanity_normal"],
                 "sections": [
                     {
                         "name": "Crayfish",
@@ -790,6 +795,7 @@
                 "access_rules": [
                     "5fshlevels:5"
                 ],
+                "visibility_rules": ["fishsanity_normal"],
                 "sections": [
                     {
                         "name": "Chub",
@@ -858,6 +864,7 @@
                 "access_rules": [
                     "5fshlevels:15"
                 ],
+                "visibility_rules": ["fishsanity_normal"],
                 "sections": [
                     {
                         "name": "Dwarf Catfish",
