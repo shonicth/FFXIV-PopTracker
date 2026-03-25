@@ -166,6 +166,7 @@ function preOnClear()
     end
 end
 -- ===== SLOT DATA PROCESSING =====
+function processYaml(slot_data)
     --Add Sanity
         Tracker:FindObjectForCode("fatesanity").Active = slot_data["fatesanity"] == 1
         Tracker:FindObjectForCode("level_cap").AcquiredCount = slot_data["level_cap"]
