@@ -718,65 +718,66 @@
                 "access_rules": [
                     " "
                 ],
+                "visibility_rules": ["fishsanity_normal"],
                 "sections": [
                     {
                         "name": "Bone Crayfish",
-                        "access_rules": [],
+                        "access_rules": ["mothpupa"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Silverfish",
-                        "access_rules": [],
+                        "access_rules": ["honeyworm"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Giant Bass",
-                        "access_rules": [],
+                        "access_rules": ["honeyworm"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Golden Loach",
-                        "access_rules": [],
+                        "access_rules": ["honeyworm"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Ignus Snail",
-                        "access_rules": [],
+                        "access_rules": ["stemborer"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Knifefish",
-                        "access_rules": [],
+                        "access_rules": ["glowworm"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Common Sculpin",
-                        "access_rules": [],
+                        "access_rules": ["Spinnerbait"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Garpike",
-                        "access_rules": [],
+                        "access_rules": ["honeyworm"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Alligator Garfish",
-                        "access_rules": [],
+                        "access_rules": ["spinnerbait"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Hannibal",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["spinnerbait"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
@@ -797,59 +798,60 @@
                 "access_rules": [
                     " "
                 ],
+                "visibility_rules": ["fishsanity_normal"],
                 "sections": [
                     {
                         "name": "Grip Killifish",
-                        "access_rules": [],
+                        "access_rules": ["chocobofly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Silverfish",
-                        "access_rules": [],
+                        "access_rules": ["honeyworm"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Ignus Snail",
-                        "access_rules": [],
+                        "access_rules": ["stemborer"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Sludgeskipper",
-                        "access_rules": [],
+                        "access_rules": ["stemborer"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Boltfish",
-                        "access_rules": [],
+                        "access_rules": ["honeyworm"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Ilsabardian Bass",
-                        "access_rules": [],
+                        "access_rules": ["topwaterfrog"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Goldfish",
-                        "access_rules": [],
+                        "access_rules": ["honeyworm"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Wootz Knifefish",
-                        "access_rules": [],
+                        "access_rules": ["honeyworm"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Wootz Knifefish Zenith",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["honeyworm"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],

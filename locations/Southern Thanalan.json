@@ -1000,53 +1000,54 @@
                 "access_rules": [
                     " "
                 ],
+                "visibility_rules": ["fishsanity_normal"],
                 "sections": [
                     {
                         "name": "Moat Carp",
-                        "access_rules": [],
+                        "access_rules": ["crowfly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Mudcrab",
-                        "access_rules": [],
+                        "access_rules": ["honeyworm"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Plaguefish",
-                        "access_rules": [],
+                        "access_rules": ["chocobofly", "bassball"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Clown Loach",
-                        "access_rules": [],
+                        "access_rules": ["honeyworm"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Discus",
-                        "access_rules": [],
+                        "access_rules": ["honeyworm"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Ignus Snail",
-                        "access_rules": [],
+                        "access_rules": ["stemborer"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Paglthan Discus",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["glowworm"],
+                        "visibility_rules": ["fishsanity_timed"],
                         "item_count": 1
                     },
                     {
                         "name": "Discobolus",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["glowworm"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
@@ -1067,41 +1068,42 @@
                 "access_rules": [
                     " "
                 ],
+                "visibility_rules": ["fishsanity_normal"],
                 "sections": [
                     {
                         "name": "Copperfish",
-                        "access_rules": [],
+                        "access_rules": ["butterworm"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Warmwater Trout",
-                        "access_rules": [],
+                        "access_rules": ["crowfly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Dark Bass",
-                        "access_rules": [],
+                        "access_rules": ["crowfly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Lamprey",
-                        "access_rules": [],
+                        "access_rules": ["butterworm"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Plaguefish",
-                        "access_rules": [],
+                        "access_rules": ["chocobofly", "bassball"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Old Hollow Eyes",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["butterworm"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
@@ -1122,53 +1124,54 @@
                 "access_rules": [
                     " "
                 ],
+                "visibility_rules": ["fishsanity_normal"],
                 "sections": [
                     {
                         "name": "Copperfish",
-                        "access_rules": [],
+                        "access_rules": ["butterworm"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Warmwater Trout",
-                        "access_rules": [],
+                        "access_rules": ["crowfly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Lamprey",
-                        "access_rules": [],
+                        "access_rules": ["butterworm"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Plaguefish",
-                        "access_rules": [],
+                        "access_rules": ["chocobofly", "bassball"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Ropefish",
-                        "access_rules": [],
+                        "access_rules": ["silverspoonlure"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Clown Loach",
-                        "access_rules": [],
+                        "access_rules": ["honeyworm"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Golden Loach",
-                        "access_rules": [],
+                        "access_rules": ["honeyworm"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Iron Noose",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["spinner"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
@@ -1189,59 +1192,60 @@
                 "access_rules": [
                     " "
                 ],
+                "visibility_rules": ["fishsanity_normal"],
                 "sections": [
                     {
                         "name": "Sandfish",
-                        "access_rules": [],
+                        "access_rules": ["freshwaterboilie"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Sand Bream",
-                        "access_rules": [],
+                        "access_rules": ["rollingstone", "saltwaterboilie"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Dustfish",
-                        "access_rules": [],
+                        "access_rules": ["freshwaterboilie", "saltwaterboilie"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Storm Rider",
-                        "access_rules": [],
+                        "access_rules": ["sandleech"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Antlion Slug",
-                        "access_rules": [],
+                        "access_rules": ["sandgecko"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Dune Manta",
-                        "access_rules": [],
+                        "access_rules": ["sandleech"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Sagolii Monkfish",
-                        "access_rules": [],
+                        "access_rules": ["freshwaterboilie"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Magic Carpet",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["sandleech"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     },
                     {
                         "name": "Helicoprion",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["sandleech"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
@@ -1262,53 +1266,56 @@
                 "access_rules": [
                     " "
                 ],
+                "visibility_rules": ["fishsanity_normal"],
                 "sections": [
                     {
                         "name": "Sand Bream",
-                        "access_rules": [],
+                        "access_rules": ["rollingstone", "saltwaterboilie"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Desert Catfish",
-                        "access_rules": [],
+                        "access_rules": ["rollingstone"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Storm Rider",
-                        "access_rules": [],
+                        "access_rules": ["sandleech"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Antlion Slug",
-                        "access_rules": [],
+                        "access_rules": ["sandgecko"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Dune Manta",
-                        "access_rules": [],
+                        "access_rules": ["sandleech"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Caravan Eel",
-                        "access_rules": [],
+                        "access_rules": ["sandleech"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Olgoi-Khorkhoi",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["sandleech"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     },
-                                {"name": "Dustfish",
-                                "access_rules": [],
-                                "visibility_rules": [],
-                                "item_count": 1}
+                    {
+                        "name": "Dustfish",
+                        "access_rules": ["freshwaterboilie", "saltwaterboilie"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
                 ],
                 "map_locations": [
                     {
