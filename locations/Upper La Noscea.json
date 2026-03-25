@@ -16,125 +16,128 @@
                 "access_rules": [
                     "$leveling:50"
                 ],
+                "visibility_rules":[
+                    "include_dungeons, level_cap:50, max_party_size_4, duty_difficulty_normal"
+                ],
                 "sections": [
                     {
                         "name": "The Wanderers Palace",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_TheWanderersPalace"],
                         "item_count": 1
                     },
                     {
                         "name": "The Wanderers Palace (Hard)",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_TheWanderersPalaceHard"],
                         "item_count": 1
                     },
                     {
                         "name": "The Wanderers Palace 2",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_TheWanderersPalace, extra_dungeon_checks:1"],
                         "item_count": 1
                     },
                     {
                         "name": "The Wanderers Palace 3",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_TheWanderersPalace, extra_dungeon_checks:2"],
                         "item_count": 1
                     },
                     {
                         "name": "The Wanderers Palace 4",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_TheWanderersPalace, extra_dungeon_checks:3"],
                         "item_count": 1
                     },
                     {
                         "name": "The Wanderers Palace 5",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_TheWanderersPalace, extra_dungeon_checks:4"],
                         "item_count": 1
                     },
                     {
                         "name": "The Wanderers Palace 6",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_TheWanderersPalace, extra_dungeon_checks:5"],
                         "item_count": 1
                     },
                     {
                         "name": "The Wanderers Palace 7",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_TheWanderersPalace, extra_dungeon_checks:6"],
                         "item_count": 1
                     },
                     {
                         "name": "The Wanderers Palace 8",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_TheWanderersPalace, extra_dungeon_checks:7"],
                         "item_count": 1
                     },
                     {
                         "name": "The Wanderers Palace 9",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_TheWanderersPalace, extra_dungeon_checks:8"],
                         "item_count": 1
                     },
                     {
                         "name": "The Wanderers Palace 10",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_TheWanderersPalace, extra_dungeon_checks:9"],
                         "item_count": 1
                     },
                     {
                         "name": "The Wanderers Palace (Hard) 2",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_TheWanderersPalaceHard, extra_dungeon_checks:1"],
                         "item_count": 1
                     },
                     {
                         "name": "The Wanderers Palace (Hard) 3",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_TheWanderersPalaceHard, extra_dungeon_checks:2"],
                         "item_count": 1
                     },
                     {
                         "name": "The Wanderers Palace (Hard) 4",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_TheWanderersPalaceHard, extra_dungeon_checks:3"],
                         "item_count": 1
                     },
                     {
                         "name": "The Wanderers Palace (Hard) 5",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_TheWanderersPalaceHard, extra_dungeon_checks:4"],
                         "item_count": 1
                     },
                     {
                         "name": "The Wanderers Palace (Hard) 6",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_TheWanderersPalaceHard, extra_dungeon_checks:5"],
                         "item_count": 1
                     },
                     {
                         "name": "The Wanderers Palace (Hard) 7",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_TheWanderersPalaceHard, extra_dungeon_checks:6"],
                         "item_count": 1
                     },
                     {
                         "name": "The Wanderers Palace (Hard) 8",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_TheWanderersPalaceHard, extra_dungeon_checks:7"],
                         "item_count": 1
                     },
                     {
                         "name": "The Wanderers Palace (Hard) 9",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_TheWanderersPalaceHard, extra_dungeon_checks:8"],
                         "item_count": 1
                     },
                     {
                         "name": "The Wanderers Palace (Hard) 10",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_TheWanderersPalaceHard, extra_dungeon_checks:9"],
                         "item_count": 1
                     }
                 ],
@@ -154,13 +157,13 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "$leveling:34"
+                    
                 ],
                 "sections": [
                     {
                         "name": "The Navel",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["$leveling:34"],
+                        "visibility_rules": ["max_party_size_4, duty_difficulty_normal, level_cap:34, include_TheNavel"],
                         "item_count": 1
                     }
                 ],
@@ -186,7 +189,7 @@
                     {
                         "name": "More than a Feeler",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_guildhests, max_party_size_4, duty_difficulty_normal, include_MorethanaFeeler"],
                         "item_count": 1
                     }
                 ],
@@ -208,65 +211,66 @@
                 "access_rules": [
                     "$leveling:20"
                 ],
+                "visibility_rules": ["!fatesanity"],
                 "sections": [
                     {
                         "name": "FATE #1",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fates_per_zone:1"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #2",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fates_per_zone:2"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #3",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fates_per_zone:3"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #4",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fates_per_zone:4"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #5",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fates_per_zone:5"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #6",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fates_per_zone:6"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #7",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fates_per_zone:7"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #8",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fates_per_zone:8"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #9",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fates_per_zone:9"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #10",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fates_per_zone:10"],
                         "item_count": 1
                     }
                 ],
@@ -294,7 +298,7 @@
                         "access_rules": [
                             "$leveling:20"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity"],
                         "item_count": 1
                     }
                 ],
@@ -322,7 +326,7 @@
                         "access_rules": [
                             "$leveling:20"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity"],
                         "item_count": 1
                     }
                 ],
@@ -350,7 +354,7 @@
                         "access_rules": [
                             "$leveling:20"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity"],
                         "item_count": 1
                     }
                 ],
@@ -378,7 +382,7 @@
                         "access_rules": [
                             "$leveling:21"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity"],
                         "item_count": 1
                     }
                 ],
@@ -406,7 +410,7 @@
                         "access_rules": [
                             "$leveling:23"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity"],
                         "item_count": 1
                     }
                 ],
@@ -434,7 +438,7 @@
                         "access_rules": [
                             "$leveling:30"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity, level_cap:30"],
                         "item_count": 1
                     }
                 ],
@@ -462,7 +466,7 @@
                         "access_rules": [
                             "$leveling:30"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity, level_cap:30"],
                         "item_count": 1
                     }
                 ],
@@ -490,7 +494,7 @@
                         "access_rules": [
                             "$leveling:31"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity, level_cap:31"],
                         "item_count": 1
                     }
                 ],
@@ -518,7 +522,7 @@
                         "access_rules": [
                             "$leveling:31"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity, level_cap:31"],
                         "item_count": 1
                     }
                 ],
@@ -546,7 +550,7 @@
                         "access_rules": [
                             "$leveling:33"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity, level_cap:33"],
                         "item_count": 1
                     }
                 ],
@@ -572,9 +576,9 @@
                     {
                         "name": "Peeping Ja (FATE)",
                         "access_rules": [
-                            "$leveling:233"
+                            "$leveling:33"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity, level_cap:33"],
                         "item_count": 1
                     }
                 ],
@@ -602,7 +606,7 @@
                         "access_rules": [
                             "$leveling:34"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity, level_cap:34"],
                         "item_count": 1
                     }
                 ],
@@ -624,6 +628,7 @@
                 "access_rules": [
                     "5fshlevels:20"
                 ],
+                "visibility_rules": ["fishsanity_normal"],
                 "sections": [
                     {
                         "name": "Crimson Crayfish",
@@ -704,6 +709,7 @@
                 "access_rules": [
                     "5fshlevels:30"
                 ],
+                "visibility_rules": ["fishsanity_normal"],
                 "sections": [
                     {
                         "name": "Crimson Crayfish",
@@ -760,6 +766,7 @@
                 "access_rules": [
                     "5fshlevels:20"
                 ],
+                "visibility_rules": ["fishsanity_normal"],
                 "sections": [
                     {
                         "name": "River Crab",
@@ -840,6 +847,8 @@
                 "access_rules": [
                     "5fshlevels:35"
                 ],
+                
+                "visibility_rules": ["fishsanity_normal"],
                 "sections": [
                     {
                         "name": "Jade Eel",

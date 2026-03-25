@@ -14,127 +14,127 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    ""
+                    "include_dungeons, max_party_size_4, duty_difficulty_normal"
                 ],
                 "sections": [
                     {
                         "name": "Sastasha",
                         "access_rules": ["$leveling:15"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_Sastasha"],
                         "item_count": 1
                     },
                     {
                         "name": "Sastasha (Hard)",
                         "access_rules": ["$leveling:50"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["level_cap:50, include_SastashaHard"],
                         "item_count": 1
                     },
                     {
                         "name": "Sastasha 2",
                         "access_rules": ["$leveling:15"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_Sastasha, extra_dungeon_checks:1"],
                         "item_count": 1
                     },
                     {
                         "name": "Sastasha 3",
                         "access_rules": ["$leveling:15"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_Sastasha, extra_dungeon_checks:2"],
                         "item_count": 1
                     },
                     {
                         "name": "Sastasha 4",
                         "access_rules": ["$leveling:15"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_Sastasha, extra_dungeon_checks:3"],
                         "item_count": 1
                     },
                     {
                         "name": "Sastasha 5",
                         "access_rules": ["$leveling:15"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_Sastasha, extra_dungeon_checks:4"],
                         "item_count": 1
                     },
                     {
                         "name": "Sastasha 6",
                         "access_rules": ["$leveling:15"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_Sastasha, extra_dungeon_checks:5"],
                         "item_count": 1
                     },
                     {
                         "name": "Sastasha 7",
                         "access_rules": ["$leveling:15"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_Sastasha, extra_dungeon_checks:6"],
                         "item_count": 1
                     },
                     {
                         "name": "Sastasha 8",
                         "access_rules": ["$leveling:15"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_Sastasha, extra_dungeon_checks:7"],
                         "item_count": 1
                     },
                     {
                         "name": "Sastasha 9",
                         "access_rules": ["$leveling:15"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_Sastasha, extra_dungeon_checks:8"],
                         "item_count": 1
                     },
                     {
                         "name": "Sastasha 10",
                         "access_rules": ["$leveling:15"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_Sastasha, extra_dungeon_checks:9"],
                         "item_count": 1
                     },
                     {
                         "name": "Sastasha (Hard) 2",
                         "access_rules": ["$leveling:50"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["level_cap:50, include_SastashaHard, extra_dungeon_checks:1"],
                         "item_count": 1
                     },
                     {
                         "name": "Sastasha (Hard) 3",
                         "access_rules": ["$leveling:50"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["$level_cap:50, include_SastashaHard, extra_dungeon_checks:2"],
                         "item_count": 1
                     },
                     {
                         "name": "Sastasha (Hard) 4",
                         "access_rules": ["$leveling:50"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["$level_cap:50, include_SastashaHard, extra_dungeon_checks:3"],
                         "item_count": 1
                     },
                     {
                         "name": "Sastasha (Hard) 5",
                         "access_rules": ["$leveling:50"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["$level_cap:50, include_SastashaHard, extra_dungeon_checks:4"],
                         "item_count": 1
                     },
                     {
                         "name": "Sastasha (Hard) 6",
                         "access_rules": ["$leveling:50"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["$level_cap:50, include_SastashaHard, extra_dungeon_checks:5"],
                         "item_count": 1
                     },
                     {
                         "name": "Sastasha (Hard) 7",
                         "access_rules": ["$leveling:50"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["$level_cap:50, include_SastashaHard, extra_dungeon_checks:6"],
                         "item_count": 1
                     },
                     {
                         "name": "Sastasha (Hard) 8",
                         "access_rules": ["$leveling:50"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["$level_cap:50, include_SastashaHard, extra_dungeon_checks:7"],
                         "item_count": 1
                     },
                     {
                         "name": "Sastasha (Hard) 9",
                         "access_rules": ["$leveling:50"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["$level_cap:50, include_SastashaHard, extra_dungeon_checks:8"],
                         "item_count": 1
                     },
                     {
                         "name": "Sastasha (Hard) 10",
                         "access_rules": ["$leveling:50"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["$level_cap:50, include_SastashaHard, extra_dungeon_checks:9"],
                         "item_count": 1
                     }
                 ],
@@ -156,6 +156,9 @@
                 "access_rules": [
                     "$leveling:50"
                 ],
+                "visibility_rules":[
+                    "include_dungeons, level_cap:50, max_party_size_4, include_PharosSirius, duty_difficulty_normal"
+                ],
                 "sections": [
                     {
                         "name": "Pharos Sirius",
@@ -166,55 +169,55 @@
                     {
                         "name": "Pharos Sirius 2",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:1"],
                         "item_count": 1
                     },
                     {
                         "name": "Pharos Sirius 3",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:2"],
                         "item_count": 1
                     },
                     {
                         "name": "Pharos Sirius 4",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:3"],
                         "item_count": 1
                     },
                     {
                         "name": "Pharos Sirius 5",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:4"],
                         "item_count": 1
                     },
                     {
                         "name": "Pharos Sirius 6",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:5"],
                         "item_count": 1
                     },
                     {
                         "name": "Pharos Sirius 7",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:6"],
                         "item_count": 1
                     },
                     {
                         "name": "Pharos Sirius 8",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:7"],
                         "item_count": 1
                     },
                     {
                         "name": "Pharos Sirius 9",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:8"],
                         "item_count": 1
                     },
                     {
                         "name": "Pharos Sirius 10",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:9"],
                         "item_count": 1
                     }
                 ],
@@ -236,65 +239,66 @@
                 "access_rules": [
                     "$leveling:10"
                 ],
+                "visibility_rules": ["!fatesanity"],
                 "sections": [
                     {
                         "name": "FATE #1",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fates_per_zone:1"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #2",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fates_per_zone:2"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #3",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fates_per_zone:3"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #4",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fates_per_zone:4"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #5",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fates_per_zone:5"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #6",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fates_per_zone:6"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #7",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fates_per_zone:7"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #8",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fates_per_zone:8"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #9",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fates_per_zone:9"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #10",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fates_per_zone:10"],
                         "item_count": 1
                     }
                 ],
@@ -320,7 +324,7 @@
                     {
                         "name": "Barometz Soup (FATE)",
                         "access_rules": ["$leveling:10"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity"],
                         "item_count": 1
                     }
                 ],
@@ -346,7 +350,7 @@
                     {
                         "name": "Shredding Wheat (FATE)",
                         "access_rules": ["$leveling:10"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity"],
                         "item_count": 1
                     }
                 ],
@@ -372,7 +376,7 @@
                     {
                         "name": "Tender Buttons (FATE)",
                         "access_rules": ["$leveling:12"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity"],
                         "item_count": 1
                     }
                 ],
@@ -398,7 +402,7 @@
                     {
                         "name": "The Last Straw (FATE)",
                         "access_rules": ["$leveling:12"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity"],
                         "item_count": 1
                     }
                 ],
@@ -424,7 +428,7 @@
                     {
                         "name": "(I Just) Died in Six Arms Tonight (FATE)",
                         "access_rules": ["$leveling:13"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity"],
                         "item_count": 1
                     }
                 ]
@@ -441,7 +445,7 @@
                     {
                         "name": "Between Aurochs (FATE)",
                         "access_rules": ["$leveling:15"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity"],
                         "item_count": 1
                     }
                 ],
@@ -467,7 +471,7 @@
                     {
                         "name": "Goblin Chain (FATE)",
                         "access_rules": ["$leveling:15"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity"],
                         "item_count": 1
                     }
                 ],
@@ -493,7 +497,7 @@
                     {
                         "name": "Absolutely Positively (FATE)",
                         "access_rules": ["$leveling:16"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity"],
                         "item_count": 1
                     }
                 ],
@@ -519,7 +523,7 @@
                     {
                         "name": "In the Sac (FATE)",
                         "access_rules": ["$leveling:16"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity"],
                         "item_count": 1
                     }
                 ],
@@ -545,7 +549,7 @@
                     {
                         "name": "Dont Call Him a Fishback (FATE)",
                         "access_rules": ["$leveling:17"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity"],
                         "item_count": 1
                     }
                 ],
@@ -571,7 +575,7 @@
                     {
                         "name": "Letters from Tidegate (FATE)",
                         "access_rules": ["$leveling:17"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity"],
                         "item_count": 1
                     }
                 ],
@@ -597,7 +601,7 @@
                     {
                         "name": "Iron Contra Affair (FATE)",
                         "access_rules": ["$leveling:18"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity"],
                         "item_count": 1
                     }
                 ],
@@ -623,7 +627,7 @@
                     {
                         "name": "Tryp Fantastic (FATE)",
                         "access_rules": ["$leveling:18"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity"],
                         "item_count": 1
                     }
                 ],
@@ -649,7 +653,7 @@
                     {
                         "name": "Dead Mans Rest (FATE)",
                         "access_rules": ["$leveling:40"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity, level_cap:40"],
                         "item_count": 1
                     }
                 ],
@@ -675,7 +679,7 @@
                     {
                         "name": "The Kings Justice (FATE)",
                         "access_rules": ["$leveling:40"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity, level_cap:40"],
                         "item_count": 1
                     }
                 ],
@@ -701,7 +705,7 @@
                     {
                         "name": "Breaching North Tidegate (FATE)",
                         "access_rules": ["$leveling:44"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity, level_cap:44"],
                         "item_count": 1
                     }
                 ],
@@ -727,7 +731,7 @@
                     {
                         "name": "Gauging North Tidegate (FATE)",
                         "access_rules": ["$leveling:44"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity, level_cap:44"],
                         "item_count": 1
                     }
                 ],
@@ -753,7 +757,7 @@
                     {
                         "name": "Sharknado (FATE)",
                         "access_rules": ["$leveling:44"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity, level_cap:44"],
                         "item_count": 1
                     }
                 ],
@@ -779,7 +783,7 @@
                     {
                         "name": "Breaching South Tidegate (FATE)",
                         "access_rules": ["$leveling:45"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity, level_cap:45"],
                         "item_count": 1
                     }
                 ],
@@ -805,7 +809,7 @@
                     {
                         "name": "Gauging South Tidegate (FATE)",
                         "access_rules": ["$leveling:45"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity, level_cap:45"],
                         "item_count": 1
                     }
                 ],
@@ -831,7 +835,7 @@
                     {
                         "name": "Tail of a Whale (FATE)",
                         "access_rules": ["$leveling:46"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity, level_cap:46"],
                         "item_count": 1
                     }
                 ],
@@ -857,7 +861,7 @@
                     {
                         "name": "Watch Your Tongue (FATE)",
                         "access_rules": ["$leveling:48"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity, level_cap:48"],
                         "item_count": 1
                     }
                 ],
@@ -883,7 +887,7 @@
                     {
                         "name": "Making Waves (FATE)",
                         "access_rules": ["$leveling:49"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity, level_cap:49"],
                         "item_count": 1
                     }
                 ],
@@ -905,6 +909,7 @@
                 "access_rules": [
                     "5fshlevels:15"
                 ],
+                "visibility_rules": ["fishsanity_normal"],
                 "sections": [
                     {
                         "name": "Merlthor Goby",
@@ -973,6 +978,7 @@
                 "access_rules": [
                     "5fshlevels:40"
                 ],
+                "visibility_rules": ["fishsanity_normal"],
                 "sections": [
                     {
                         "name": "Merlthor Goby",
@@ -1053,6 +1059,7 @@
                 "access_rules": [
                     "fshlevels:45"
                 ],
+                "visibility_rules": ["fishsanity_normal"],
                 "sections": [
                     {
                         "name": "Merlthor Goby",
@@ -1133,6 +1140,7 @@
                 "access_rules": [
                     "fshlevels:50"
                 ],
+                "visibility_rules": ["fishsanity_normal"],
                 "sections": [
                     {
                         "name": "Merlthor Goby",
@@ -1201,6 +1209,7 @@
                 "access_rules": [
                     "fshlevels:10"
                 ],
+                "visibility_rules": ["fishsanity_normal"],
                 "sections": [
                     {
                         "name": "Lominsan Anchovy",
@@ -1281,6 +1290,7 @@
                 "access_rules": [
                     "fshlevels:15"
                 ],
+                "visibility_rules": ["fishsanity_normal"],
                 "sections": [
                     {
                         "name": "Harbor Herring",
@@ -1344,6 +1354,7 @@
                 "access_rules": [
                     "fshlevels:35"
                 ],
+                "visibility_rules": ["fishsanity_normal"],
                 "sections": [
                     {
                         "name": "Saber Sardine",
@@ -1412,6 +1423,7 @@
                 "access_rules": [
                     "fshlevels:50"
                 ],
+                "visibility_rules": ["fishsanity_normal"],
                 "sections": [
                     {
                         "name": "Fullmoon Sardine",
@@ -1492,6 +1504,7 @@
                 "access_rules": [
                     "fshlevels:45"
                 ],
+                "visibility_rules": ["fishsanity_normal"],
                 "sections": [
                     {
                         "name": "Fullmoon Sardine",

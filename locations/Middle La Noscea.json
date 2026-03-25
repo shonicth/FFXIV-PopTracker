@@ -20,7 +20,7 @@
                     {
                         "name": "Basic Training Enemy Parties",
                         "access_rules": ["$leveling:10"],
-                        "visibility_rules": ["include_guildhests, max_party_size_4"],
+                        "visibility_rules": ["include_guildhests, max_party_size_4, duty_difficulty_normal, include_BasicTrainingEnemyParties"],
                         "item_count": 1
                     }
                 ],
@@ -386,7 +386,7 @@
                 "sections": [
                     {
                         "name": "Sister Crustacean (FATE)",
-                        "access_rules": ["$leveling:312"],
+                        "access_rules": ["$leveling:12"],
                         "visibility_rules": ["fatesanity"],
                         "item_count": 1
                     }
