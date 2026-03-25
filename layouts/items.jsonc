@@ -66,7 +66,19 @@
                     "5bsmlevels",
                     "5armlevels",
                     "5gsmlevels",
-                    "5ltwlevels"
+                ],
+                [
+                    "5ltwlevels",
+                    "5btnlevels",
+                    "5crplevels",
+                    "5alclevels",
+                    "5gsmlevels",
+                ],
+                [
+                    "5minlevels",
+                    "5ltwlevels",
+                    "5wvrlevels",
+                    "5armlevels",
                 ]
             ]
         }]
@@ -277,7 +289,11 @@
                     "hoverworm",
                     "stardust",
                     "squidstrip",
-                    "mayfly"
+                    "mayfly",
+                    "honeyworm",
+                    "bladedsteeljig",
+                    "panicjig",
+                    "mothpupa"
                 ]
             ]
         }]
@@ -310,6 +326,10 @@
                     "type": "layout",
                     "key": "shb_zones"
                 },
+                {
+                    "type": "layout",
+                    "key": "tural_zones"
+                },
                 // {
                 //     "type": "layout",
                 //     "key": "bait"
@@ -324,19 +344,10 @@
                     "item_width": 36,
                     "rows": [
                         [
-
-
-                            "honeyworm",
-                            "bladedsteeljig",
-                            "panicjig",
-                            "mothpupa",
-                        ],
-                        [
                             "bassball",
                             "marblenymph",
                             "giantcranefly",
 
-                            "5wvrlevels",
                             "floatingminnow",
                             "heavysteeljig",
                             "glowworm",
@@ -358,14 +369,13 @@
                         [
                             "mythrilspoonlure",
                             "desertdessertfrog",
-                            "5armlevels",
                             "bruteleech",
                             "cloud-eyecarp",
                             "honeybee",
                             "butterworm",
                             "spinnerbait",
                             "northernkrill",
-                    
+
                             "signatureskyball",
                             "caddisflylarva",
                             "magmaworm",
@@ -392,25 +402,20 @@
                             "cactuarjig",
                             "bluebobbit",
 
-                            "5btnlevels",
-                            "5crplevels",
-                            "5alclevels",
+
                             "chocobofly",
                             "whiteworm",
                             "goldsalmonroe",
                             "basketofredmaggots",
                             "streamer",
                             "shortbillminnow",
-                            "5gsmlevels",
 
                         ],
                         [
                             "baitbugs",
                             "memoryofadistantworld",
-                            "5minlevels",
 
                             "versatilelure",
-                            "5ltwlevels",
                             "chimeraworm",
                             "rainbowspoonlure",
                             "potofstardust",
