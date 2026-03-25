@@ -16,7 +16,7 @@
                 "access_rules": [
                     "$leveling:80"
                 ],
-                "visibility_rules":[
+                "visibility_rules": [
                     "include_dungeons, level_cap:80, max_party_size_4, include_Paglthan, duty_difficulty_normal"
                 ],
                 "sections": [
@@ -29,55 +29,73 @@
                     {
                         "name": "Paglthan 2",
                         "access_rules": [],
-                        "visibility_rules": ["extra_dungeon_checks:1"],
+                        "visibility_rules": [
+                            "extra_dungeon_checks:1"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Paglthan 3",
                         "access_rules": [],
-                        "visibility_rules": ["extra_dungeon_checks:2"],
+                        "visibility_rules": [
+                            "extra_dungeon_checks:2"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Paglthan 4",
                         "access_rules": [],
-                        "visibility_rules": ["extra_dungeon_checks:3"],
+                        "visibility_rules": [
+                            "extra_dungeon_checks:3"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Paglthan 5",
                         "access_rules": [],
-                        "visibility_rules": ["extra_dungeon_checks:4"],
+                        "visibility_rules": [
+                            "extra_dungeon_checks:4"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Paglthan 6",
                         "access_rules": [],
-                        "visibility_rules": ["extra_dungeon_checks:5"],
+                        "visibility_rules": [
+                            "extra_dungeon_checks:5"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Paglthan 7",
                         "access_rules": [],
-                        "visibility_rules": ["extra_dungeon_checks:6"],
+                        "visibility_rules": [
+                            "extra_dungeon_checks:6"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Paglthan 8",
                         "access_rules": [],
-                        "visibility_rules": ["extra_dungeon_checks:7"],
+                        "visibility_rules": [
+                            "extra_dungeon_checks:7"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Paglthan 9",
                         "access_rules": [],
-                        "visibility_rules": ["extra_dungeon_checks:8"],
+                        "visibility_rules": [
+                            "extra_dungeon_checks:8"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Paglthan 10",
                         "access_rules": [],
-                        "visibility_rules": ["extra_dungeon_checks:9"],
+                        "visibility_rules": [
+                            "extra_dungeon_checks:9"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -87,6 +105,13 @@
                         "x": 1050,
                         "y": 1742,
                         "size": 6
+                    },
+                    {
+                        "map": "Uldah  Steps of Nald",
+                        "x": 997,
+                        "y": 939,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             }
