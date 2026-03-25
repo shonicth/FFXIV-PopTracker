@@ -16,6 +16,9 @@
                 "access_rules": [
                     "$leveling:50"
                 ],
+                "visibility_rules":[
+                    "include_dungeons, max_party_size_4, duty_difficulty_normal, level_cap:50, include:TheKeeperoftheLake"
+                ],
                 "sections": [
                     {
                         "name": "The Keeper of the Lake",
@@ -26,55 +29,55 @@
                     {
                         "name": "The Keeper of the Lake 2",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:1"],
                         "item_count": 1
                     },
                     {
                         "name": "The Keeper of the Lake 3",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:2"],
                         "item_count": 1
                     },
                     {
                         "name": "The Keeper of the Lake 4",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:3"],
                         "item_count": 1
                     },
                     {
                         "name": "The Keeper of the Lake 5",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:4"],
                         "item_count": 1
                     },
                     {
                         "name": "The Keeper of the Lake 6",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:5"],
                         "item_count": 1
                     },
                     {
                         "name": "The Keeper of the Lake 7",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:6"],
                         "item_count": 1
                     },
                     {
                         "name": "The Keeper of the Lake 8",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:7"],
                         "item_count": 1
                     },
                     {
                         "name": "The Keeper of the Lake 9",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:8"],
                         "item_count": 1
                     },
                     {
                         "name": "The Keeper of the Lake 10",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:9"],
                         "item_count": 1
                     }
                 ],
@@ -99,7 +102,7 @@
                     {
                         "name": "The Chrysalis",
                         "access_rules": ["$leveling:50"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_dungeons, max_party_size_4, duty_difficulty_normal, level_cap:50, include:TheChrysalis"],
                         "item_count": 1
                     }
                 ],
@@ -120,23 +123,26 @@
                 "access_rules": [
                     "$leveling:50"
                 ],
+                "visibility_rules": [
+                    "max_party_size_24, duty_difficulty_normal, level_cap:50"
+                ],
                 "sections": [
                     {
                         "name": "The Labyrinth of the Ancients",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_TheLabyrinthoftheAncients"],
                         "item_count": 1
                     },
                     {
                         "name": "Syrcus Tower",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_SyrcusTower"],
                         "item_count": 1
                     },
                     {
                         "name": "The World of Darkness",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_TheWorldofDarkness"],
                         "item_count": 1
                     }
                 ],
@@ -161,7 +167,7 @@
                     {
                         "name": "Ward Up",
                         "access_rules": ["$leveling:40"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_guildhests, max_party_size_4, duty_difficulty_normal, include_WardUp, level_cap:40"],
                         "item_count": 1
                     }
                 ],
@@ -186,7 +192,7 @@
                     {
                         "name": "Solemn Trinity",
                         "access_rules": ["$leveling:40"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_guildhests, max_party_size_8, duty_difficulty_normal, include_SolemnTrinity, level_cap:40"],
                         "item_count": 1
                     }
                 ],
@@ -207,23 +213,26 @@
                 "access_rules": [
                     "$leveling:90"
                 ],
+                "visibility_rules": [
+                    "max_party_size_24, duty_difficulty_normal, level_cap:90"
+                ],
                 "sections": [
                     {
                         "name": "Aglaia",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_Aglaia"],
                         "item_count": 1
                     },
                     {
                         "name": "Euphrosyne",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_Euphrosyne"],
                         "item_count": 1
                     },
                     {
                         "name": "Thaleia",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_Thaleia"],
                         "item_count": 1
                     }
                 ],
@@ -328,7 +337,7 @@
                     {
                         "name": "Good to Be Bud (FATE)",
                         "access_rules": ["$leveling:44"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity, level_cap:40"],
                         "item_count": 1
                     }
                 ],
@@ -353,7 +362,7 @@
                     {
                         "name": "Mud About You (FATE)",
                         "access_rules": ["$leveling:44"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity, level_cap:44"],
                         "item_count": 1
                     }
                 ],
@@ -378,7 +387,7 @@
                     {
                         "name": "V for Vinedetta (FATE)",
                         "access_rules": ["$leveling:44"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity, level_cap:44"],
                         "item_count": 1
                     }
                 ],
@@ -403,7 +412,7 @@
                     {
                         "name": "Among Giants (FATE)",
                         "access_rules": ["$leveling:45"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity, level_cap:45"],
                         "item_count": 1
                     }
                 ],
@@ -428,7 +437,7 @@
                     {
                         "name": "Black and Nburu (FATE)",
                         "access_rules": ["$leveling:45"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity, level_cap:45"],
                         "item_count": 1
                     }
                 ],
@@ -453,7 +462,7 @@
                     {
                         "name": "The Prodigal Son (FATE)",
                         "access_rules": ["$leveling:45"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity, level_cap:45"],
                         "item_count": 1
                     }
                 ],
@@ -478,7 +487,7 @@
                     {
                         "name": "Toll Collector (FATE)",
                         "access_rules": ["$leveling:45"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity, level_cap:45"],
                         "item_count": 1
                     }
                 ],
@@ -503,7 +512,7 @@
                     {
                         "name": "Another Day, Another Demon (FATE)",
                         "access_rules": ["$leveling:46"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity, level_cap:46"],
                         "item_count": 1
                     }
                 ],
@@ -528,7 +537,7 @@
                     {
                         "name": "Gone with the Shadow (FATE)",
                         "access_rules": ["$leveling:46"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity, level_cap:46"],
                         "item_count": 1
                     }
                 ],
@@ -553,7 +562,7 @@
                     {
                         "name": "Home Is Where the Horn Is (FATE)",
                         "access_rules": ["$leveling:46"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity, level_cap:46"],
                         "item_count": 1
                     }
                 ],
@@ -578,7 +587,7 @@
                     {
                         "name": "One Giant Leap (FATE)",
                         "access_rules": ["$leveling:46"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity, level_cap:46"],
                         "item_count": 1
                     }
                 ],
@@ -603,7 +612,7 @@
                     {
                         "name": "Standing Guard (FATE)",
                         "access_rules": ["$leveling:46"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity, level_cap:46"],
                         "item_count": 1
                     }
                 ],
@@ -628,7 +637,7 @@
                     {
                         "name": "Thats What Adventurers Are For (FATE)",
                         "access_rules": ["$leveling:46"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity, level_cap:46"],
                         "item_count": 1
                     }
                 ],
@@ -653,7 +662,7 @@
                     {
                         "name": "Another Notch on the Torch (FATE)",
                         "access_rules": ["$leveling:48"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity, level_cap:48"],
                         "item_count": 1
                     }
                 ],
@@ -674,58 +683,59 @@
                 "access_rules": [
                     " "
                 ],
+                "visibility_rules": ["fishsanity_normal"],
                 "sections": [
                     {
                         "name": "Bone Crayfish",
-                        "access_rules": [],
+                        "access_rules": ["mothpupa"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Silverfish",
-                        "access_rules": [],
+                        "access_rules": ["honeyworm"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Assassin Betta",
-                        "access_rules": [],
+                        "access_rules": ["honeyworm", "crowfly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Sludgeskipper",
-                        "access_rules": [],
+                        "access_rules": ["stemborer"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Boltfish",
-                        "access_rules": [],
+                        "access_rules": ["honeyworm"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Ilsabardian Bass",
-                        "access_rules": [],
+                        "access_rules": ["glowworm", "topwaterfrog"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Cadaver Carp",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["rainbowspoonlure"],
+                        "visibility_rules": ["fishsanity_timed"],
                         "item_count": 1
                     },
                     {
                         "name": "Ninja Betta",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["crowfly"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     },
                                         {                        
                         "name": "Ala Mhigan Fighting Fish",
-                        "access_rules": [],
+                        "access_rules": ["midgebasket", "crowfly"],
                         "visibility_rules": [],
                         "item_count": 1
                         
@@ -749,59 +759,60 @@
                 "access_rules": [
                     " "
                 ],
+                "visibility_rules": ["fishsanity_normal"],
                 "sections": [
                     {
                         "name": "Mudcrab",
-                        "access_rules": [],
+                        "access_rules": ["glowworm"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Bonytongue",
-                        "access_rules": [],
+                        "access_rules": ["mythrilspoonlure"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Silverfish",
-                        "access_rules": [],
+                        "access_rules": ["honeyworm"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Giant Bass",
-                        "access_rules": [],
+                        "access_rules": ["honeyworm", "mythrilspoonlure"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Knifefish",
-                        "access_rules": [],
+                        "access_rules": ["stemborer", "glowworm"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Garpike",
-                        "access_rules": [],
+                        "access_rules": ["honeyworm"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Ilsabardian Bass",
-                        "access_rules": [],
+                        "access_rules": ["glowworm", "topwaterfrog"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Lamp Marimo",
-                        "access_rules": [],
+                        "access_rules": ["chocobofly", "glowworm"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Blood Red Bonytongue",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["honeyworm"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
@@ -822,59 +833,60 @@
                 "access_rules": [
                     " "
                 ],
+                "visibility_rules": ["fishsanity_normal"],
                 "sections": [
                     {
                         "name": "Dark Bass",
-                        "access_rules": [],
+                        "access_rules": ["crowfly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Mitten Crab",
-                        "access_rules": [],
+                        "access_rules": ["honeyworm"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Monke Onke",
-                        "access_rules": [],
+                        "access_rules": ["midgebasket"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Giant Bass",
-                        "access_rules": [],
+                        "access_rules": ["honeyworm", "mythrilspoonlure"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Ignus Snail",
-                        "access_rules": [],
+                        "access_rules": ["stemborer", "glowworm"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Knifefish",
-                        "access_rules": [],
+                        "access_rules": ["stemborer", "glowworm"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Ignus Horn",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["glowworm"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     },
                     {                        
                         "name": "Ala Mhigan Fighting Fish",
-                        "access_rules": [],
+                        "access_rules": ["midgebasket", "crowfly"],
                         "visibility_rules": [],
                         "item_count": 1
                         
                     },
-                                        {                        
+                    {                        
                         "name": "Boxing Pleco",
-                        "access_rules": [],
+                        "access_rules": ["glowworm"],
                         "visibility_rules": [],
                         "item_count": 1
                         
@@ -897,59 +909,60 @@
                 "access_rules": [
                     " "
                 ],
+                "visibility_rules": ["fishsanity_normal"],
                 "sections": [
                     {
                         "name": "Silverfish",
-                        "access_rules": [],
+                        "access_rules": ["honeyworm"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Ignus Snail",
-                        "access_rules": [],
+                        "access_rules": ["stemborer", "glowworm"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Assassin Betta",
-                        "access_rules": [],
+                        "access_rules": ["honeyworm", "crowfly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Sludgeskipper",
-                        "access_rules": [],
+                        "access_rules": ["stemborer"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Ilsabardian Bass",
-                        "access_rules": [],
+                        "access_rules": ["glowworm", "topwaterfrog"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Goldfish",
-                        "access_rules": [],
+                        "access_rules": ["honeyworm"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Heliobatis",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["caddisflylarva"],
+                        "visibility_rules": ["fishsanity_timed"],
                         "item_count": 1
                     },
                     {
                         "name": "Lamp Marimo",
-                        "access_rules": [],
+                        "access_rules": ["chocobofly", "glowworm"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Aetherlouse",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["glowworm"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
@@ -970,65 +983,72 @@
                 "access_rules": [
                     " "
                 ],
+                "visibility_rules": ["fishsanity_normal"],
                 "sections": [
                     {
                         "name": "Silverfish",
-                        "access_rules": [],
+                        "access_rules": ["honeyworm"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Giant Bass",
-                        "access_rules": [],
+                        "access_rules": ["honeyworm", "mythrilspoonlure"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Ignus Snail",
-                        "access_rules": [],
+                        "access_rules": ["stemborer", "glowworm"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Knifefish",
-                        "access_rules": [],
+                        "access_rules": ["stemborer", "glowworm"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Assassin Betta",
-                        "access_rules": [],
+                        "access_rules": ["honeyworm", "crowfly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Sludgeskipper",
-                        "access_rules": [],
+                        "access_rules": ["stemborer"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Ilsabardian Bass",
-                        "access_rules": [],
+                        "access_rules": ["glowworm", "topwaterfrog"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Goldfish",
-                        "access_rules": [],
+                        "access_rules": ["honeyworm"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Poxpike",
-                        "access_rules": [],
+                        "access_rules": ["honeyworm"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Lamp Marimo",
-                        "access_rules": [],
+                        "access_rules": ["chocobofly", "glowworm"],
                         "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Void Bass",
+                        "access_rules": ["glowworm"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
@@ -1049,71 +1069,66 @@
                 "access_rules": [
                     " "
                 ],
+                "visibility_rules": ["fishsanity_normal"],
                 "sections": [
                     {
                         "name": "Silverfish",
-                        "access_rules": [],
+                        "access_rules": ["honeyworm"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Giant Bass",
-                        "access_rules": [],
+                        "access_rules": ["honeyworm", "mythrilspoonlure"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Ignus Snail",
-                        "access_rules": [],
+                        "access_rules": ["stemborer", "glowworm"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Assassin Betta",
-                        "access_rules": [],
+                        "access_rules": ["honeyworm", "crowfly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Ilsabardian Bass",
-                        "access_rules": [],
+                        "access_rules": ["glowworm", "topwaterfrog"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Goldfish",
-                        "access_rules": [],
+                        "access_rules": ["honeyworm"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Morinabaligi",
-                        "access_rules": [],
+                        "access_rules": ["honeyworm"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Lamp Marimo",
-                        "access_rules": [],
+                        "access_rules": ["chocobofly", "glowworm"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Canavan",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["honeyworm"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     },
                     {
                         "name": "Kuno the Killer",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                            "name": "Void Bass",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["honeyworm"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
