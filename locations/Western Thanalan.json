@@ -41,125 +41,128 @@
                 "access_rules": [
                     " "
                 ],
+                "visibility_rules":[
+                    "include_dungeons, max_party_size_4, duty_difficulty_normal"
+                ],
                 "sections": [
                     {
                         "name": "Copperbell Mines",
                         "access_rules": ["$leveling:17"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_CopperbellMines"],
                         "item_count": 1
                     },
                     {
                         "name": "Copperbell Mines (Hard)",
                         "access_rules": ["$leveling:50"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_CopperbellMinesHard, level_cap:50"],
                         "item_count": 1
                     },
                     {
                         "name": "Copperbell Mines 2",
                         "access_rules": ["$leveling:17"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_CopperbellMines, extra_dungeon_checks:1"],
                         "item_count": 1
                     },
                     {
                         "name": "Copperbell Mines 3",
                         "access_rules": ["$leveling:17"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_CopperbellMines, extra_dungeon_checks:2"],
                         "item_count": 1
                     },
                     {
                         "name": "Copperbell Mines 4",
                         "access_rules": ["$leveling:17"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_CopperbellMines, extra_dungeon_checks:3"],
                         "item_count": 1
                     },
                     {
                         "name": "Copperbell Mines 5",
                         "access_rules": ["$leveling:17"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_CopperbellMines, extra_dungeon_checks:4"],
                         "item_count": 1
                     },
                     {
                         "name": "Copperbell Mines 6",
                         "access_rules": ["$leveling:17"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_CopperbellMines, extra_dungeon_checks:5"],
                         "item_count": 1
                     },
                     {
                         "name": "Copperbell Mines 7",
                         "access_rules": ["$leveling:17"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_CopperbellMines, extra_dungeon_checks:6"],
                         "item_count": 1
                     },
                     {
                         "name": "Copperbell Mines 8",
                         "access_rules": ["$leveling:17"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_CopperbellMines, extra_dungeon_checks:7"],
                         "item_count": 1
                     },
                     {
                         "name": "Copperbell Mines 9",
                         "access_rules": ["$leveling:17"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_CopperbellMines, extra_dungeon_checks:8"],
                         "item_count": 1
                     },
                     {
                         "name": "Copperbell Mines 10",
                         "access_rules": ["$leveling:17"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_CopperbellMines, extra_dungeon_checks:9"],
                         "item_count": 1
                     },
                     {
                         "name": "Copperbell Mines (Hard) 2",
                         "access_rules": ["$leveling:50"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_CopperbellMinesHard, level_cap:50, extra_dungeon_checks:1"],
                         "item_count": 1
                     },
                     {
                         "name": "Copperbell Mines (Hard) 3",
                         "access_rules": ["$leveling:50"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_CopperbellMinesHard, level_cap:50, extra_dungeon_checks:2"],
                         "item_count": 1
                     },
                     {
                         "name": "Copperbell Mines (Hard) 4",
                         "access_rules": ["$leveling:50"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_CopperbellMinesHard, level_cap:50, extra_dungeon_checks:3"],
                         "item_count": 1
                     },
                     {
                         "name": "Copperbell Mines (Hard) 5",
                         "access_rules": ["$leveling:50"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_CopperbellMinesHard, level_cap:50, extra_dungeon_checks:4"],
                         "item_count": 1
                     },
                     {
                         "name": "Copperbell Mines (Hard) 6",
                         "access_rules": ["$leveling:50"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_CopperbellMinesHard, level_cap:50, extra_dungeon_checks:5"],
                         "item_count": 1
                     },
                     {
                         "name": "Copperbell Mines (Hard) 7",
                         "access_rules": ["$leveling:50"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_CopperbellMinesHard, level_cap:50, extra_dungeon_checks:6"],
                         "item_count": 1
                     },
                     {
                         "name": "Copperbell Mines (Hard) 8",
                         "access_rules": ["$leveling:50"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_CopperbellMinesHard, level_cap:50, extra_dungeon_checks:7"],
                         "item_count": 1
                     },
                     {
                         "name": "Copperbell Mines (Hard) 9",
                         "access_rules": ["$leveling:50"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_CopperbellMinesHard, level_cap:50, extra_dungeon_checks:8"],
                         "item_count": 1
                     },
                     {
                         "name": "Copperbell Mines (Hard) 10",
                         "access_rules": ["$leveling:50"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_CopperbellMinesHard, level_cap:50, extra_dungeon_checks:9"],
                         "item_count": 1
                     }
                 ],
@@ -184,7 +187,7 @@
                     {
                         "name": "Basic Training Enemy Strongholds",
                         "access_rules": ["$leveling:15"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_guildhests, max_party_size_4, duty_difficulty_normal, include_BasicTrainingEnemyStrongholds"],
                         "item_count": 1
                     }
                 ],
@@ -203,18 +206,18 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "$leveling:80"
                 ],
                 "sections": [
                     {
                         "name": "Castrum Marinum",
                         "access_rules": ["$leveling:80"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["max_party_size_8, duty_difficulty_normal, include_Castrum Marinum, level_cap:80"],
                         "item_count": 1
                     },
                     {
                         "name": "Castrum Marinum (Extreme)",
-                        "access_rules": ["$leveling:80"],
+                        "access_rules": ["max_party_size_8, duty_difficulty_ex, include_Castrum MarinumExtreme, level_cap:80"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -236,65 +239,66 @@
                 "access_rules": [
                     "$leveling:5"
                 ],
+                "visibility_rules": ["!fatesanity"],
                 "sections": [
                     {
                         "name": "FATE #1",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fates_per_zone:1"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #2",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fates_per_zone:2"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #3",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fates_per_zone:3"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #4",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fates_per_zone:4"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #5",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fates_per_zone:5"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #6",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fates_per_zone:6"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #7",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fates_per_zone:7"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #8",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fates_per_zone:8"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #9",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fates_per_zone:9"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #10",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fates_per_zone:10"],
                         "item_count": 1
                     }
                 ],
@@ -319,7 +323,7 @@
                     {
                         "name": "A Matter of Rust (FATE)",
                         "access_rules": ["$leveling:5"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity"],
                         "item_count": 1
                     }
                 ],
@@ -344,7 +348,7 @@
                     {
                         "name": "Needles to Slay (FATE)",
                         "access_rules": ["$leveling:5"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity"],
                         "item_count": 1
                     }
                 ],
@@ -369,7 +373,7 @@
                     {
                         "name": "Things that Make You Go Home (FATE)",
                         "access_rules": ["$leveling:6"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity"],
                         "item_count": 1
                     }
                 ],
@@ -394,7 +398,7 @@
                     {
                         "name": "Deface the Facts (FATE)",
                         "access_rules": ["$leveling:8"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity"],
                         "item_count": 1
                     }
                 ],
@@ -419,7 +423,7 @@
                     {
                         "name": "Please Hammers, Dont Hurt Them (FATE)",
                         "access_rules": ["$leveling:8"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity"],
                         "item_count": 1
                     }
                 ],
@@ -444,7 +448,7 @@
                     {
                         "name": "The Cores (FATE)",
                         "access_rules": ["$leveling:8"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity"],
                         "item_count": 1
                     }
                 ],
@@ -469,7 +473,7 @@
                     {
                         "name": "Doomed (FATE)",
                         "access_rules": ["$leveling:9"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity"],
                         "item_count": 1
                     }
                 ],
@@ -494,7 +498,7 @@
                     {
                         "name": "The Villain (FATE)",
                         "access_rules": ["$leveling:9"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity"],
                         "item_count": 1
                     }
                 ],
@@ -519,7 +523,7 @@
                     {
                         "name": "Copied Peistes (FATE)",
                         "access_rules": ["$leveling:10"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity"],
                         "item_count": 1
                     }
                 ],
@@ -544,7 +548,7 @@
                     {
                         "name": "Dog Eat Dog (FATE)",
                         "access_rules": ["$leveling:10"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity"],
                         "item_count": 1
                     }
                 ],
@@ -569,7 +573,7 @@
                     {
                         "name": "Pound for Pound (FATE)",
                         "access_rules": ["$leveling:10"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity"],
                         "item_count": 1
                     }
                 ],
@@ -594,7 +598,7 @@
                     {
                         "name": "Bigger Fish to Fry (FATE)",
                         "access_rules": ["$leveling:13"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity"],
                         "item_count": 1
                     }
                 ],
@@ -619,7 +623,7 @@
                     {
                         "name": "Bubble Trouble (FATE)",
                         "access_rules": ["$leveling:13"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity"],
                         "item_count": 1
                     }
                 ],
@@ -644,7 +648,7 @@
                     {
                         "name": "Staying Dead (FATE)",
                         "access_rules": ["$leveling:20"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity"],
                         "item_count": 1
                     }
                 ],
@@ -669,7 +673,7 @@
                     {
                         "name": "There Might Be Giants (FATE)",
                         "access_rules": ["$leveling:21"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity"],
                         "item_count": 1
                     }
                 ],
@@ -694,7 +698,7 @@
                     {
                         "name": "Hes Got Legs (FATE)",
                         "access_rules": ["$leveling:22"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity"],
                         "item_count": 1
                     }
                 ],
@@ -719,7 +723,7 @@
                     {
                         "name": "Tripped up by the Fruit of Another (FATE)",
                         "access_rules": ["$leveling:22"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity"],
                         "item_count": 1
                     }
                 ],
@@ -744,7 +748,7 @@
                     {
                         "name": "Juggernaut Down (FATE)",
                         "access_rules": ["$leveling:23"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity"],
                         "item_count": 1
                     }
                 ],

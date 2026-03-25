@@ -14,60 +14,61 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "5fshlevels:30"
                 ],
+                "visibility_rules":["fishsanity_normal"],
                 "sections": [
                     {
                         "name": "Faerie Bass",
-                        "access_rules": [],
+                        "access_rules": ["midgebasket"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Copperfish",
-                        "access_rules": [],
+                        "access_rules": ["butterworm"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Eunuch Crayfish",
-                        "access_rules": [],
+                        "access_rules": ["butterworm"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Dark Bass",
-                        "access_rules": [],
+                        "access_rules": ["crowfly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Lamprey",
-                        "access_rules": [],
+                        "access_rules": ["butterworm"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Silverfish",
-                        "access_rules": [],
+                        "access_rules": ["honeyworm"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Goldfish",
-                        "access_rules": [],
+                        "access_rules": ["honeyworm"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Spearnose",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["caddisflylarva"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     },
                                         {
                         "name": "Brass Loach",
-                        "access_rules": [],
+                        "access_rules": ["wildfowlfly"],
                         "visibility_rules": [],
                         "item_count": 1
                     }

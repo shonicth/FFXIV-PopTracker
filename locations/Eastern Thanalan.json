@@ -20,133 +20,133 @@
                     {
                         "name": "Halatali",
                         "access_rules": ["$leveling:20"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_dungeons, max_party_size_4, duty_difficulty_normal, include_Halatali"],
                         "item_count": 1
                     },
                     {
                         "name": "Halatali (Hard)",
                         "access_rules": ["$leveling:50"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_dungeons, max_party_size_4, duty_difficulty_normal, include_HalataliHard, level_cap:50"],
                         "item_count": 1
                     },
                     {
                         "name": "A Relic Reborn The Hydra",
                         "access_rules": ["$leveling:50"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["max_party_size_8, duty_difficulty_normal, include_ARelicRebornTheHydra, level_cap:50"],
                         "item_count": 1
                     },
                     {
                         "name": "The Dragons Neck",
                         "access_rules": ["$leveling:50"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["max_party_size_8, duty_difficulty_normal, include_TheDragonsNeck, level_cap:50"],
                         "item_count": 1
                     },
                     {
                         "name": "Halatali 2",
                         "access_rules": ["$leveling:20"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_dungeons, max_party_size_4, duty_difficulty_normal, include_Halatali, extra_dungeon_checks:1"],
                         "item_count": 1
                     },
                     {
                         "name": "Halatali 3",
                         "access_rules": ["$leveling:20"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_dungeons, max_party_size_4, duty_difficulty_normal, include_Halatali, extra_dungeon_checks:2"],
                         "item_count": 1
                     },
                     {
                         "name": "Halatali 4",
                         "access_rules": ["$leveling:20"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_dungeons, max_party_size_4, duty_difficulty_normal, include_Halatali, extra_dungeon_checks:3"],
                         "item_count": 1
                     },
                     {
                         "name": "Halatali 5",
                         "access_rules": ["$leveling:20"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_dungeons, max_party_size_4, duty_difficulty_normal, include_Halatali, extra_dungeon_checks:4"],
                         "item_count": 1
                     },
                     {
                         "name": "Halatali 6",
                         "access_rules": ["$leveling:20"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_dungeons, max_party_size_4, duty_difficulty_normal, include_Halatali, extra_dungeon_checks:5"],
                         "item_count": 1
                     },
                     {
                         "name": "Halatali 7",
                         "access_rules": ["$leveling:20"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_dungeons, max_party_size_4, duty_difficulty_normal, include_Halatali, extra_dungeon_checks:6"],
                         "item_count": 1
                     },
                     {
                         "name": "Halatali 8",
                         "access_rules": ["$leveling:20"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_dungeons, max_party_size_4, duty_difficulty_normal, include_Halatali, extra_dungeon_checks:7"],
                         "item_count": 1
                     },
                     {
                         "name": "Halatali 9",
                         "access_rules": ["$leveling:20"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_dungeons, max_party_size_4, duty_difficulty_normal, include_Halatali, extra_dungeon_checks:8"],
                         "item_count": 1
                     },
                     {
                         "name": "Halatali 10",
                         "access_rules": ["$leveling:20"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_dungeons, max_party_size_4, duty_difficulty_normal, include_Halatali, extra_dungeon_checks:9"],
                         "item_count": 1
                     },
                     {
                         "name": "Halatali (Hard) 2",
                         "access_rules": ["$leveling:50"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_dungeons, max_party_size_4, duty_difficulty_normal, include_HalataliHard, level_cap:50, extra_dungeon_checks:1"],
                         "item_count": 1
                     },
                     {
                         "name": "Halatali (Hard) 3",
                         "access_rules": ["$leveling:50"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_dungeons, max_party_size_4, duty_difficulty_normal, include_HalataliHard, level_cap:50, extra_dungeon_checks:2"],
                         "item_count": 1
                     },
                     {
                         "name": "Halatali (Hard) 4",
                         "access_rules": ["$leveling:50"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_dungeons, max_party_size_4, duty_difficulty_normal, include_HalataliHard, level_cap:50, extra_dungeon_checks:3"],
                         "item_count": 1
                     },
                     {
                         "name": "Halatali (Hard) 5",
                         "access_rules": ["$leveling:50"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_dungeons, max_party_size_4, duty_difficulty_normal, include_HalataliHard, level_cap:50, extra_dungeon_checks:4"],
                         "item_count": 1
                     },
                     {
                         "name": "Halatali (Hard) 6",
                         "access_rules": ["$leveling:50"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_dungeons, max_party_size_4, duty_difficulty_normal, include_HalataliHard, level_cap:50, extra_dungeon_checks:5"],
                         "item_count": 1
                     },
                     {
                         "name": "Halatali (Hard) 7",
                         "access_rules": ["$leveling:50"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_dungeons, max_party_size_4, duty_difficulty_normal, include_HalataliHard, level_cap:50, extra_dungeon_checks:6"],
                         "item_count": 1
                     },
                     {
                         "name": "Halatali (Hard) 8",
                         "access_rules": ["$leveling:50"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_dungeons, max_party_size_4, duty_difficulty_normal, include_HalataliHard, level_cap:50, extra_dungeon_checks:7"],
                         "item_count": 1
                     },
                     {
                         "name": "Halatali (Hard) 9",
                         "access_rules": ["$leveling:50"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_dungeons, max_party_size_4, duty_difficulty_normal, include_HalataliHard, level_cap:50, extra_dungeon_checks:8"],
                         "item_count": 1
                     },
                     {
                         "name": "Halatali (Hard) 10",
                         "access_rules": ["$leveling:50"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_dungeons, max_party_size_4, duty_difficulty_normal, include_HalataliHard, level_cap:50, extra_dungeon_checks:9"],
                         "item_count": 1
                     }
                 ],
@@ -167,65 +167,66 @@
                 "access_rules": [
                     "$leveling:15"
                 ],
+                "visibility_rules": ["!fatesanity"],
                 "sections": [
                     {
                         "name": "FATE #1",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fates_per_zone:1"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #2",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fates_per_zone:2"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #3",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fates_per_zone:3"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #4",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fates_per_zone:4"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #5",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fates_per_zone:5"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #6",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fates_per_zone:6"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #7",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fates_per_zone:7"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #8",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fates_per_zone:8"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #9",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fates_per_zone:9"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #10",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fates_per_zone:10"],
                         "item_count": 1
                     }
                 ],
@@ -250,7 +251,7 @@
                     {
                         "name": "License to Quill (FATE)",
                         "access_rules": ["$leveling:15"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity"],
                         "item_count": 1
                     }
                 ],
@@ -275,7 +276,7 @@
                     {
                         "name": "Almost Paradise (FATE)",
                         "access_rules": ["$leveling:17"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity"],
                         "item_count": 1
                     }
                 ],
@@ -300,7 +301,7 @@
                     {
                         "name": "Bazaar Blood Triangle (FATE)",
                         "access_rules": ["$leveling:17"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity"],
                         "item_count": 1
                     }
                 ],
@@ -325,7 +326,7 @@
                     {
                         "name": "Deep in the Heart of Sagolii (FATE)",
                         "access_rules": ["$leveling:17"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity"],
                         "item_count": 1
                     }
                 ],
@@ -350,7 +351,7 @@
                     {
                         "name": "Grim Undertakings (FATE)",
                         "access_rules": ["$leveling:17"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity"],
                         "item_count": 1
                     }
                 ],
@@ -375,7 +376,7 @@
                     {
                         "name": "Simple Minds (FATE)",
                         "access_rules": ["$leveling:17"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity"],
                         "item_count": 1
                     }
                 ],
@@ -400,7 +401,7 @@
                     {
                         "name": "Bad Camp (FATE)",
                         "access_rules": ["$leveling:18"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity"],
                         "item_count": 1
                     }
                 ],
@@ -425,7 +426,7 @@
                     {
                         "name": "Westward Bound (FATE)",
                         "access_rules": ["$leveling:18"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity"],
                         "item_count": 1
                     }
                 ],
@@ -450,7 +451,7 @@
                     {
                         "name": "Men Who See Goats (FATE)",
                         "access_rules": ["$leveling:19"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity"],
                         "item_count": 1
                     }
                 ],
@@ -475,7 +476,7 @@
                     {
                         "name": "Attack on Highbridge Act I (FATE)",
                         "access_rules": ["$leveling:26"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity"],
                         "item_count": 1
                     }
                 ],
@@ -500,7 +501,7 @@
                     {
                         "name": "Attack on Highbridge Act II (FATE)",
                         "access_rules": ["$leveling:26"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity"],
                         "item_count": 1
                     }
                 ],
@@ -525,7 +526,7 @@
                     {
                         "name": "Attack on Highbridge Act III (FATE)",
                         "access_rules": ["$leveling:26"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity"],
                         "item_count": 1
                     }
                 ],
@@ -550,7 +551,7 @@
                     {
                         "name": "Attack on Highbridge Denouement (FATE)",
                         "access_rules": ["$leveling:26"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity"],
                         "item_count": 1
                     }
                 ],
@@ -575,7 +576,7 @@
                     {
                         "name": "Attack on Highbridge Prelude (FATE)",
                         "access_rules": ["$leveling:26"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity"],
                         "item_count": 1
                     }
                 ],
@@ -600,7 +601,7 @@
                     {
                         "name": "Desert Rose (FATE)",
                         "access_rules": ["$leveling:26"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity"],
                         "item_count": 1
                     }
                 ],
@@ -625,7 +626,7 @@
                     {
                         "name": "Manifest Destiny (FATE)",
                         "access_rules": ["$leveling:27"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity"],
                         "item_count": 1
                     }
                 ],
@@ -650,7 +651,7 @@
                     {
                         "name": "Spare the Hair (FATE)",
                         "access_rules": ["$leveling:26"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity"],
                         "item_count": 1
                     }
                 ],
@@ -675,7 +676,7 @@
                     {
                         "name": "A Man Rides Through (FATE)",
                         "access_rules": ["$leveling:40"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity, level_cap:40"],
                         "item_count": 1
                     }
                 ],
@@ -700,7 +701,7 @@
                     {
                         "name": "Bad Hair Day (FATE)",
                         "access_rules": ["$leveling:42"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity, level_cap:42"],
                         "item_count": 1
                     }
                 ],
@@ -725,7 +726,7 @@
                     {
                         "name": "Quartz Coupling (FATE)",
                         "access_rules": ["$leveling:42"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity, level_cap:42"],
                         "item_count": 1
                     }
                 ],
@@ -750,7 +751,7 @@
                     {
                         "name": "The Big Bagoly Theory (FATE)",
                         "access_rules": ["$leveling:42"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity, level_cap:42"],
                         "item_count": 1
                     }
                 ],

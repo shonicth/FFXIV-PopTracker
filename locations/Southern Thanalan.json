@@ -16,125 +16,128 @@
                 "access_rules": [
                     " "
                 ],
+                "visibility_rules":[
+                    "include_dungeons, max_party_size_4, duty_difficulty_normal"
+                ],
                 "sections": [
                     {
                         "name": "The Sunken Temple of Qarn",
                         "access_rules": ["$leveling:35"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_TheSunkenTempleofQarn, level_cap:35"],
                         "item_count": 1
                     },
                     {
                         "name": "The Sunken Temple of Qarn (Hard)",
                         "access_rules": ["$leveling:50"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_TheSunkenTempleofQarnHard, level_cap:50"],
                         "item_count": 1
                     },
                     {
                         "name": "The Sunken Temple of Qarn 2",
                         "access_rules": ["$leveling:35"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_TheSunkenTempleofQarn, level_cap:35, extra_dungeon_checks:1"],
                         "item_count": 1
                     },
                     {
                         "name": "The Sunken Temple of Qarn 3",
                         "access_rules": ["$leveling:35"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_TheSunkenTempleofQarn, level_cap:35, extra_dungeon_checks:2"],
                         "item_count": 1
                     },
                     {
                         "name": "The Sunken Temple of Qarn 4",
                         "access_rules": ["$leveling:35"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_TheSunkenTempleofQarn, level_cap:35, extra_dungeon_checks:3"],
                         "item_count": 1
                     },
                     {
                         "name": "The Sunken Temple of Qarn 5",
                         "access_rules": ["$leveling:35"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_TheSunkenTempleofQarn, level_cap:35, extra_dungeon_checks:4"],
                         "item_count": 1
                     },
                     {
                         "name": "The Sunken Temple of Qarn 6",
                         "access_rules": ["$leveling:35"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_TheSunkenTempleofQarn, level_cap:35, extra_dungeon_checks:5"],
                         "item_count": 1
                     },
                     {
                         "name": "The Sunken Temple of Qarn 7",
                         "access_rules": ["$leveling:35"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_TheSunkenTempleofQarn, level_cap:35, extra_dungeon_checks:6"],
                         "item_count": 1
                     },
                     {
                         "name": "The Sunken Temple of Qarn 8",
                         "access_rules": ["$leveling:35"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_TheSunkenTempleofQarn, level_cap:35, extra_dungeon_checks:7"],
                         "item_count": 1
                     },
                     {
                         "name": "The Sunken Temple of Qarn 9",
                         "access_rules": ["$leveling:35"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_TheSunkenTempleofQarn, level_cap:35, extra_dungeon_checks:8"],
                         "item_count": 1
                     },
                     {
                         "name": "The Sunken Temple of Qarn 10",
                         "access_rules": ["$leveling:35"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_TheSunkenTempleofQarn, level_cap:35, extra_dungeon_checks:9"],
                         "item_count": 1
                     },
                     {
                         "name": "The Sunken Temple of Qarn (Hard) 2",
                         "access_rules": ["$leveling:50"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_TheSunkenTempleofQarnHard, level_cap:50, extra_dungeon_checks:1"],
                         "item_count": 1
                     },
                     {
                         "name": "The Sunken Temple of Qarn (Hard) 3",
                         "access_rules": ["$leveling:50"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_TheSunkenTempleofQarnHard, level_cap:50, extra_dungeon_checks:2"],
                         "item_count": 1
                     },
                     {
                         "name": "The Sunken Temple of Qarn (Hard) 4",
                         "access_rules": ["$leveling:50"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_TheSunkenTempleofQarnHard, level_cap:50, extra_dungeon_checks:3"],
                         "item_count": 1
                     },
                     {
                         "name": "The Sunken Temple of Qarn (Hard) 5",
                         "access_rules": ["$leveling:50"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_TheSunkenTempleofQarnHard, level_cap:50, extra_dungeon_checks:4"],
                         "item_count": 1
                     },
                     {
                         "name": "The Sunken Temple of Qarn (Hard) 6",
                         "access_rules": ["$leveling:50"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_TheSunkenTempleofQarnHard, level_cap:50, extra_dungeon_checks:5"],
                         "item_count": 1
                     },
                     {
                         "name": "The Sunken Temple of Qarn (Hard) 7",
                         "access_rules": ["$leveling:50"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_TheSunkenTempleofQarnHard, level_cap:50, extra_dungeon_checks:6"],
                         "item_count": 1
                     },
                     {
                         "name": "The Sunken Temple of Qarn (Hard) 8",
                         "access_rules": ["$leveling:50"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_TheSunkenTempleofQarnHard, level_cap:50, extra_dungeon_checks:7"],
                         "item_count": 1
                     },
                     {
                         "name": "The Sunken Temple of Qarn (Hard) 9",
                         "access_rules": ["$leveling:50"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_TheSunkenTempleofQarnHard, level_cap:50, extra_dungeon_checks:8"],
                         "item_count": 1
                     },
                     {
                         "name": "The Sunken Temple of Qarn (Hard) 10",
                         "access_rules": ["$leveling:50"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_TheSunkenTempleofQarnHard, level_cap:50, extra_dungeon_checks:9"],
                         "item_count": 1
                     }
                 ],
@@ -159,19 +162,19 @@
                     {
                         "name": "The Bowl of Embers",
                         "access_rules": ["$leveling:20"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["max_party_size_4, duty_difficulty_normal, include_TheBowlofEmbers"],
                         "item_count": 1
                     },
                     {
                         "name": "The Bowl of Embers (Hard)",
                         "access_rules": ["$leveling:50"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["max_party_size_8, duty_difficulty_normal, includeTheBowlofEmbersHard"],
                         "item_count": 1
                     },
                     {
                         "name": "The Bowl of Embers (Extreme)",
                         "access_rules": ["$leveling:50"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["max_party_size_8, duty_difficulty_ex, includeTheBowlofEmbersExtreme"],
                         "item_count": 1
                     }
                 ],
@@ -192,65 +195,66 @@
                 "access_rules": [
                     "$leveling:25"
                 ],
+                "visibility_rules": ["!fatesanity"],
                 "sections": [
                     {
                         "name": "FATE #1",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fates_per_zone:1"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #2",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fates_per_zone:2"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #3",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fates_per_zone:3"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #4",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fates_per_zone:4"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #5",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fates_per_zone:5"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #6",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fates_per_zone:6"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #7",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fates_per_zone:7"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #8",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fates_per_zone:8"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #9",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fates_per_zone:9"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #10",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fates_per_zone:10"],
                         "item_count": 1
                     }
                 ],
@@ -275,7 +279,7 @@
                     {
                         "name": "Downwind (FATE)",
                         "access_rules": ["$leveling:25"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity"],
                         "item_count": 1
                     }
                 ],
@@ -300,7 +304,7 @@
                     {
                         "name": "Run Like a Flame (FATE)",
                         "access_rules": ["$leveling:26"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity"],
                         "item_count": 1
                     }
                 ],
@@ -325,7 +329,7 @@
                     {
                         "name": "The Corpse Bribe (FATE)",
                         "access_rules": ["$leveling:27"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity"],
                         "item_count": 1
                     }
                 ],
@@ -350,7 +354,7 @@
                     {
                         "name": "Adventures in Throat Slitting (FATE)",
                         "access_rules": ["$leveling:28"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity"],
                         "item_count": 1
                     }
                 ],
@@ -375,7 +379,7 @@
                     {
                         "name": "Bump and Grind (FATE)",
                         "access_rules": ["$leveling:28"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity"],
                         "item_count": 1
                     }
                 ],
@@ -400,7 +404,7 @@
                     {
                         "name": "Harder, Bigger, Faster, Stronger (FATE)",
                         "access_rules": ["$leveling:28"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity"],
                         "item_count": 1
                     }
                 ],
@@ -425,7 +429,7 @@
                     {
                         "name": "Soul Man (FATE)",
                         "access_rules": ["$leveling:29"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity"],
                         "item_count": 1
                     }
                 ],
@@ -450,7 +454,7 @@
                     {
                         "name": "Children of the Sands (FATE)",
                         "access_rules": ["$leveling:31"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity, level_cap:31"],
                         "item_count": 1
                     }
                 ],
@@ -475,7 +479,7 @@
                     {
                         "name": "Fish out of Water (FATE)",
                         "access_rules": ["$leveling:31"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity, level_cap:31"],
                         "item_count": 1
                     }
                 ],
@@ -500,7 +504,7 @@
                     {
                         "name": "Blood, Augur, Hex, Magicks (FATE)",
                         "access_rules": ["$leveling:32"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity, level_cap:32"],
                         "item_count": 1
                     }
                 ],
@@ -525,7 +529,7 @@
                     {
                         "name": "From Point A (FATE)",
                         "access_rules": ["$leveling:32"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity, level_cap:32"],
                         "item_count": 1
                     }
                 ],
@@ -550,7 +554,7 @@
                     {
                         "name": "Revenge of the Worms (FATE)",
                         "access_rules": ["$leveling:32"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity, level_cap:32"],
                         "item_count": 1
                     }
                 ],
@@ -575,7 +579,7 @@
                     {
                         "name": "Heroes of the 2nd (FATE)",
                         "access_rules": ["$leveling:45"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity, level_cap:45"],
                         "item_count": 1
                     }
                 ],
@@ -600,7 +604,7 @@
                     {
                         "name": "Taken (FATE)",
                         "access_rules": ["$leveling:45"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity, level_cap:45"],
                         "item_count": 1
                     }
                 ],
@@ -625,7 +629,7 @@
                     {
                         "name": "Bigger than Life (FATE)",
                         "access_rules": ["$leveling:46"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity, level_cap:46"],
                         "item_count": 1
                     }
                 ],
@@ -650,7 +654,7 @@
                     {
                         "name": "Book of Pride (FATE)",
                         "access_rules": ["$leveling:46"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity, level_cap:46"],
                         "item_count": 1
                     }
                 ],
@@ -675,7 +679,7 @@
                     {
                         "name": "Call Me Mayhaps (FATE)",
                         "access_rules": ["$leveling:46"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity, level_cap:46"],
                         "item_count": 1
                     }
                 ],
@@ -700,7 +704,7 @@
                     {
                         "name": "Fallen Corpses Writhe in Style (FATE)",
                         "access_rules": ["$leveling:46"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity, level_cap:46"],
                         "item_count": 1
                     }
                 ],
@@ -725,7 +729,7 @@
                     {
                         "name": "Full of Rigor Mortis (FATE)",
                         "access_rules": ["$leveling:46"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity, level_cap:46"],
                         "item_count": 1
                     }
                 ],
@@ -750,7 +754,7 @@
                     {
                         "name": "Tempered, Tempered (FATE)",
                         "access_rules": ["$leveling:46"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity, level_cap:46"],
                         "item_count": 1
                     }
                 ],
@@ -775,7 +779,7 @@
                     {
                         "name": "An Inconvenient Truth (FATE)",
                         "access_rules": ["$leveling:48"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity, level_cap:48"],
                         "item_count": 1
                     }
                 ],
@@ -800,7 +804,7 @@
                     {
                         "name": "Diamond in the Rough (FATE)",
                         "access_rules": ["$leveling:48"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity, level_cap:48"],
                         "item_count": 1
                     }
                 ],
@@ -825,7 +829,7 @@
                     {
                         "name": "Future Shock (FATE)",
                         "access_rules": ["$leveling:48"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity, level_cap:48"],
                         "item_count": 1
                     }
                 ],
@@ -850,7 +854,7 @@
                     {
                         "name": "Hes a Firestarter (FATE)",
                         "access_rules": ["$leveling:48"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity, level_cap:48"],
                         "item_count": 1
                     }
                 ],
@@ -875,7 +879,7 @@
                     {
                         "name": "Gyve Talk (FATE)",
                         "access_rules": ["$leveling:49"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity, level_cap:49"],
                         "item_count": 1
                     }
                 ],
@@ -900,7 +904,7 @@
                     {
                         "name": "Hunters and the Hunted (FATE)",
                         "access_rules": ["$leveling:49"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity, level_cap:49"],
                         "item_count": 1
                     }
                 ],
@@ -925,7 +929,7 @@
                     {
                         "name": "Quenching the Flame (FATE)",
                         "access_rules": ["$leveling:49"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity, level_cap:49"],
                         "item_count": 1
                     }
                 ],
@@ -950,7 +954,7 @@
                     {
                         "name": "Return to Cinder (FATE)",
                         "access_rules": ["$leveling:49"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity, level_cap:49"],
                         "item_count": 1
                     }
                 ],
@@ -975,7 +979,7 @@
                     {
                         "name": "Spark off the Bench (FATE)",
                         "access_rules": ["$leveling:49"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity, level_cap:49"],
                         "item_count": 1
                     }
                 ],

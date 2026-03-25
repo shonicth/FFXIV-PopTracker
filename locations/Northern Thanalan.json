@@ -16,6 +16,9 @@
                 "access_rules": [
                     "$leveling:50"
                 ],
+                "visibility_rules":[
+                    "include_dungeons, max_party_size_4, duty_difficulty_normal, include_CastrumMeridianum, level_cap:50, allow_main_scenario_duties"
+                ],
                 "sections": [
                     {
                         "name": "Castrum Meridianum",
@@ -26,55 +29,55 @@
                     {
                         "name": "Castrum Meridianum 2",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:1"],
                         "item_count": 1
                     },
                     {
                         "name": "Castrum Meridianum 3",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:2"],
                         "item_count": 1
                     },
                     {
                         "name": "Castrum Meridianum 4",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:3"],
                         "item_count": 1
                     },
                     {
                         "name": "Castrum Meridianum 5",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:4"],
                         "item_count": 1
                     },
                     {
                         "name": "Castrum Meridianum 6",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:5"],
                         "item_count": 1
                     },
                     {
                         "name": "Castrum Meridianum 7",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:6"],
                         "item_count": 1
                     },
                     {
                         "name": "Castrum Meridianum 8",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:7"],
                         "item_count": 1
                     },
                     {
                         "name": "Castrum Meridianum 9",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:8"],
                         "item_count": 1
                     },
                     {
                         "name": "Castrum Meridianum 10",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:9"],
                         "item_count": 1
                     }
                 ],
@@ -95,77 +98,80 @@
                 "access_rules": [
                     "$leveling:50"
                 ],
+                "visibility_rules":[
+                    "max_party_size_4, duty_difficulty_normal, level_cap:50, allow_main_scenario_duties"
+                ],
                 "sections": [
                     {
                         "name": "The Praetorium",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_dungeons, include_ThePraetorium"],
                         "item_count": 1
                     },
                     {
                         "name": "The Porta Decumana",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_ThePortaDecumana, max_party_size_8"],
                         "item_count": 1
                     },
                     {
                         "name": "The Minstrels Ballad Ultimas Bane",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_TheMinstrelsBalladUltimasBane, max_party_size_8, duty_difficulty_ex"],
                         "item_count": 1
                     },
                     {
                         "name": "The Praetorium 2",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_dungeons, include_ThePraetorium, level_cap:50, extra_dungeon_checks:1"],
                         "item_count": 1
                     },
                     {
                         "name": "The Praetorium 3",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_dungeons, include_ThePraetorium, level_cap:50, extra_dungeon_checks:2"],
                         "item_count": 1
                     },
                     {
                         "name": "The Praetorium 4",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_dungeons, include_ThePraetorium, level_cap:50, extra_dungeon_checks:3"],
                         "item_count": 1
                     },
                     {
                         "name": "The Praetorium 5",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_dungeons, include_ThePraetorium, level_cap:50, extra_dungeon_checks:4"],
                         "item_count": 1
                     },
                     {
                         "name": "The Praetorium 6",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_dungeons, include_ThePraetorium, level_cap:50, extra_dungeon_checks:5"],
                         "item_count": 1
                     },
                     {
                         "name": "The Praetorium 7",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_dungeons, include_ThePraetorium, level_cap:50, extra_dungeon_checks:6"],
                         "item_count": 1
                     },
                     {
                         "name": "The Praetorium 8",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_dungeons, include_ThePraetorium, level_cap:50, extra_dungeon_checks:7"],
                         "item_count": 1
                     },
                     {
                         "name": "The Praetorium 9",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_dungeons, include_ThePraetorium, level_cap:50, extra_dungeon_checks:8"],
                         "item_count": 1
                     },
                     {
                         "name": "The Praetorium 10",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_dungeons, include_ThePraetorium, level_cap:50, extra_dungeon_checks:9"],
                         "item_count": 1
                     }
                 ],
@@ -184,31 +190,34 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "$leveling:50"
+                    "$leveling:50, bahamutkey"
+                ],
+                "visibility_rules":[
+                    "max_party_size_8, duty_difficulty_normal, level_cap:50"
                 ],
                 "sections": [
                     {
                         "name": "The Final Coil of Bahamut Turn 1",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_TheFinalCoilofBahamutTurn1"],
                         "item_count": 1
                     },
                     {
                         "name": "The Final Coil of Bahamut Turn 2",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_TheFinalCoilofBahamutTurn2"],
                         "item_count": 1
                     },
                     {
                         "name": "The Final Coil of Bahamut Turn 3",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_TheFinalCoilofBahamutTurn3"],
                         "item_count": 1
                     },
                     {
                         "name": "The Final Coil of Bahamut Turn 4",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_TheFinalCoilofBahamutTurn4"],
                         "item_count": 1
                     }
                 ],
@@ -229,65 +238,66 @@
                 "access_rules": [
                     "$leveling:49"
                 ],
+                "visibility_rules": ["!fatesanity, level_cap:49"],
                 "sections": [
                     {
                         "name": "FATE #1",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fates_per_zone:1"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #2",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fates_per_zone:2"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #3",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fates_per_zone:3"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #4",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fates_per_zone:4"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #5",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fates_per_zone:5"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #6",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fates_per_zone:6"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #7",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fates_per_zone:7"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #8",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fates_per_zone:8"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #9",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fates_per_zone:9"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #10",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fates_per_zone:10"],
                         "item_count": 1
                     }
                 ],
@@ -312,7 +322,7 @@
                     {
                         "name": "Boom Goes the Ceruleum (FATE)",
                         "access_rules": ["$leveling:49"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity, level_cap:49"],
                         "item_count": 1
                     }
                 ],
@@ -337,7 +347,7 @@
                     {
                         "name": "Core Blimey (FATE)",
                         "access_rules": ["$leveling:49"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity, level_cap:49"],
                         "item_count": 1
                     }
                 ],
@@ -362,7 +372,7 @@
                     {
                         "name": "Dark Devices The Bait (FATE)",
                         "access_rules": ["$leveling:49"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity, level_cap:49"],
                         "item_count": 1
                     }
                 ],
@@ -387,7 +397,7 @@
                     {
                         "name": "Dark Devices The End (FATE)",
                         "access_rules": ["$leveling:49"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity, level_cap:49"],
                         "item_count": 1
                     }
                 ],
@@ -412,7 +422,7 @@
                     {
                         "name": "Dark Devices The Plea (FATE)",
                         "access_rules": ["$leveling:49"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity, level_cap:49"],
                         "item_count": 1
                     }
                 ],
@@ -437,7 +447,7 @@
                     {
                         "name": "Dark Devices The Switch (FATE)",
                         "access_rules": ["$leveling:49"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity, level_cap:49"],
                         "item_count": 1
                     }
                 ],
@@ -462,7 +472,7 @@
                     {
                         "name": "East Meets Worst (FATE)",
                         "access_rules": ["$leveling:49"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity, level_cap:49"],
                         "item_count": 1
                     }
                 ],
@@ -487,7 +497,7 @@
                     {
                         "name": "Go, Go, Gorgimera (FATE)",
                         "access_rules": ["$leveling:49"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity, level_cap:49"],
                         "item_count": 1
                     }
                 ],
@@ -512,7 +522,7 @@
                     {
                         "name": "Just a Sip (FATE)",
                         "access_rules": ["$leveling:49"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity, level_cap:49"],
                         "item_count": 1
                     }
                 ],
@@ -537,7 +547,7 @@
                     {
                         "name": "Knock on Steel (FATE)",
                         "access_rules": ["$leveling:49"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity, level_cap:49"],
                         "item_count": 1
                     }
                 ],
@@ -562,7 +572,7 @@
                     {
                         "name": "Reverse Engineering (FATE)",
                         "access_rules": ["$leveling:49"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity, level_cap:49"],
                         "item_count": 1
                     }
                 ],
@@ -587,7 +597,7 @@
                     {
                         "name": "The Ceruleum Road (FATE)",
                         "access_rules": ["$leveling:49"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity, level_cap:49"],
                         "item_count": 1
                     }
                 ],
@@ -612,7 +622,7 @@
                     {
                         "name": "The Red Baron (FATE)",
                         "access_rules": ["$leveling:49"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity, level_cap:49"],
                         "item_count": 1
                     }
                 ],
@@ -637,7 +647,7 @@
                     {
                         "name": "Twinkle Twinkle Little Trap (FATE)",
                         "access_rules": ["$leveling:49"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity, level_cap:49"],
                         "item_count": 1
                     }
                 ],
@@ -662,7 +672,7 @@
                     {
                         "name": "Under the Nails (FATE)",
                         "access_rules": ["$leveling:49"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity, level_cap:49"],
                         "item_count": 1
                     }
                 ],
@@ -687,7 +697,7 @@
                     {
                         "name": "With One Eye Open (FATE)",
                         "access_rules": ["$leveling:49"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity, level_cap:49"],
                         "item_count": 1
                     }
                 ],
@@ -835,26 +845,7 @@
                         "access_rules": [],
                         "visibility_rules": [],
                         "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Northern Thanalan",
-                        "x": 1674,
-                        "y": 102,
-                        "size": 6
-                    }
-                ]
-            },
-            {
-                "name": "eruleum Field",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
-                "sections": [
+                    },
                     {
                         "name": "Wootz Knifefish Zenith",
                         "access_rules": [],
@@ -865,8 +856,8 @@
                 "map_locations": [
                     {
                         "map": "Northern Thanalan",
-                        "x": 661,
-                        "y": 1583,
+                        "x": 1674,
+                        "y": 102,
                         "size": 6
                     }
                 ]
