@@ -16,7 +16,9 @@
                     "5whmlevels",
                     "5astlevels",
                     "5schlevels",
-                    "5sgelevels"
+                    "5sgelevels",
+                    "",
+                    "memoryofadistantworld"
                 ],
                 [
                     "5pldlevels",
@@ -110,7 +112,8 @@
                     "eastshroudaccess",
                     "southshroudaccess",
                     "northshroudaccess",
-                    "mordhonaaccess"
+                    "mordhonaaccess",
+                    "bahamutkey"
                 ],
                 [
                     "uldahandcentralthanalanaccess",
@@ -241,6 +244,7 @@
                     "heritagefoundaccess",
                     "solutionnineaccess",
                     "livingmemoryaccess",
+                    "arcadionkey",
                 ]
             ]
         }]
@@ -269,15 +273,13 @@
                     "stoneflylarva",
                     "sinkingminnow",
                     "liveshrimp",
-                    "bahamutkey",
                     "popperlure",
                     "plumpworm",
-                    "gobyball"
+                    "gobyball",
+                    "breamlure",
                 ],
                 [
-                    "breamlure",
                     "bloodworm",
-                    "arcadionkey",
                     "midgebasket",
                     "suspendingminnow",
                     "freshwaterboilie",
@@ -289,152 +291,126 @@
                     "hoverworm",
                     "stardust",
                     "squidstrip",
+                ],
+                [
                     "mayfly",
                     "honeyworm",
                     "bladedsteeljig",
                     "panicjig",
-                    "mothpupa"
+                    "mothpupa",
+                    "bassball",
+                    "marblenymph",
+                    "giantcranefly",
+                    "floatingminnow",
+                    "heavysteeljig",
+                    "glowworm",
+                    "metalspinner",
+                    "crimsonlugworm",
+                    "crowfly",
+                    "herringball",
+                    "shuckedclam",
+                    "rattail",
+                    "redballoon",
+                    "rollingstone",
+                    "greyworm",
+                    "yaktelcrab",
+                    "stoneflynymph",
+                    "nightcrawler",
+                    "mythrilspoonlure",
+                    "desertdessertfrog",
+                    "bruteleech",
+                    "cloud-eyecarp",
+                    "honeybee",
+                ],
+                [
+                    "butterworm",
+                    "spinnerbait",
+                    "northernkrill",
+                    "signatureskyball",
+                    "caddisflylarva",
+                    "magmaworm",
+                    "ghostnipper",
+                    "leech",
+                    "spoonworm",
+                    "sandgecko",
+                    "skyspoonlure",
+                    "wildfowlfly",
+                    "goblinjig",
+                    "fiendworm",
+                    "steeljig",
+                    "pursewebspider",
+                    "syrphidbasket",
+                    "moyebishrimp",
+                    "spinner",
+                    "shrimpcagefeeder",
+                    "dragonfly",
+                    "goldenstoneflynymph",
+                    "fruitworm",
+                    "cactuarjig",
+                    "bluebobbit",
+                    "chocobofly",
+                    "whiteworm",
+                    "goldsalmonroe",
+                ],
+                [
+                    "basketofredmaggots",
+                    "streamer",
+                    "shortbillminnow",
+                    "baitbugs",
+                    "versatilelure",
+                    "chimeraworm",
+                    "rainbowspoonlure",
+                    "potofstardust",
+                    "silkmothpupa",
+                    "crayfishball",
+                    "krillcagefeeder",
+                    "yumizuno",
+                    "topwaterfrog",
+                    "shrimpball",
+                    "balloonbug",
+                    "sandleech",
+                    "snurblefly",
+                    "midgelarva",
+                    "update"
                 ]
             ]
         }]
     },
     "shared_item_grid_horizontal": {
         "type": "array",
-        "orientation": "vertical",
+        "orientation": "horizontal",
         "margin": "0,0",
         "content": [{
-            "type": "array",
-            "orientation": "horizontal",
-            "margin": "0,0",
-            "content": [{
-                    "type": "layout",
-                    "key": "combat_classes"
-                },
-                // {
-                //     "type": "layout",
-                //     "key": "non_combat_classes"
-                // },
-                {
-                    "type": "layout",
-                    "key": "eorzea_zones"
-                },
-                {
-                    "type": "layout",
-                    "key": "orthard_zones"
-                },
-                {
-                    "type": "layout",
-                    "key": "shb_zones"
-                },
-                {
-                    "type": "layout",
-                    "key": "tural_zones"
-                },
-                // {
-                //     "type": "layout",
-                //     "key": "bait"
-                // },
-                {
-                    "type": "itemgrid",
-                    "item_margin": "2, 2",
-                    "h_alignment": "left",
-                    "item_h_alignment": "center",
-                    "item_v_alignment": "center",
-                    "item_height": 36,
-                    "item_width": 36,
-                    "rows": [
-                        [
-                            "bassball",
-                            "marblenymph",
-                            "giantcranefly",
-
-                            "floatingminnow",
-                            "heavysteeljig",
-                            "glowworm",
-                            "metalspinner",
-                            "crimsonlugworm",
-                            "crowfly",
-                            "herringball"
-                        ],
-                        [
-                            "shuckedclam",
-                            "rattail",
-                            "redballoon",
-                            "rollingstone",
-                            "greyworm",
-                            "yaktelcrab",
-                            "stoneflynymph",
-                            "nightcrawler",
-                        ],
-                        [
-                            "mythrilspoonlure",
-                            "desertdessertfrog",
-                            "bruteleech",
-                            "cloud-eyecarp",
-                            "honeybee",
-                            "butterworm",
-                            "spinnerbait",
-                            "northernkrill",
-
-                            "signatureskyball",
-                            "caddisflylarva",
-                            "magmaworm",
-                            "ghostnipper",
-                            "leech",
-                            "spoonworm",
-                            "sandgecko",
-                            "skyspoonlure",
-                            "wildfowlfly",
-                            "goblinjig",
-                        ],
-                        [
-                            "fiendworm",
-                            "steeljig",
-                            "pursewebspider",
-                            "syrphidbasket",
-                            "moyebishrimp",
-                            "/pet",
-                            "spinner",
-                            "shrimpcagefeeder",
-                            "dragonfly",
-                            "goldenstoneflynymph",
-                            "fruitworm",
-                            "cactuarjig",
-                            "bluebobbit",
-
-
-                            "chocobofly",
-                            "whiteworm",
-                            "goldsalmonroe",
-                            "basketofredmaggots",
-                            "streamer",
-                            "shortbillminnow",
-
-                        ],
-                        [
-                            "baitbugs",
-                            "memoryofadistantworld",
-
-                            "versatilelure",
-                            "chimeraworm",
-                            "rainbowspoonlure",
-                            "potofstardust",
-                            "silkmothpupa",
-                            "crayfishball",
-                            "krillcagefeeder",
-                            "yumizuno",
-                            "topwaterfrog",
-                            "shrimpball",
-                            "balloonbug",
-                            "sandleech",
-                            "snurblefly",
-                            "midgelarva",
-                            "update"
-                        ]
-                    ]
-                }
-            ]
-        }]
+                "type": "layout",
+                "key": "combat_classes"
+            },
+            // {
+            //     "type": "layout",
+            //     "key": "non_combat_classes"
+            // },
+            {
+                "type": "layout",
+                "key": "eorzea_zones"
+            },
+            {
+                "type": "layout",
+                "key": "orthard_zones"
+            },
+            {
+                "type": "layout",
+                "key": "shb_zones"
+            },
+            {
+                "type": "layout",
+                "key": "tural_zones"
+            },
+            { 
+                // I'm thinking we should split Area Access and Bait into two separate tabs here.
+                // But that's a question for when we have icons for all the bait.
+                "type": "layout",
+                "key": "bait"
+            }
+        ]
     },
     "shared_item_grid_vertical": {
         "type": "array",
