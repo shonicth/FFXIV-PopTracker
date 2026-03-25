@@ -20,7 +20,7 @@
                     {
                         "name": "The Howling Eye",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["max_party_size_4, duty_difficulty_normal, level_cap:44, include_TheHowlingEye"],
                         "item_count": 1
                     }
                 ],
@@ -42,11 +42,12 @@
                 "access_rules": [
                     "5fshlevels:5"
                 ],
+                "visibility_rules": ["fishsanity_normal"],
                 "sections": [
                     {
                         "name": "Raincaller",
                         "access_rules": ["stemborer"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fishsanity_timed"],
                         "item_count": 1
                     },
                     {
@@ -82,7 +83,7 @@
                     {
                         "name": "Stormdancer",
                         "access_rules": ["stemborer"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
@@ -104,6 +105,7 @@
                 "access_rules": [
                     "5fshlevels:5"
                 ],
+                "visibility_rules": ["fishsanity_normal"],
                 "sections": [
                     {
                         "name": "Crayfish",
@@ -138,7 +140,7 @@
                     {
                         "name": "Bloody Brewer",
                         "access_rules": ["crayfishball"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],

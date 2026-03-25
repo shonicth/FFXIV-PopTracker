@@ -16,53 +16,55 @@
                 "access_rules": [
                     "$leveling:50, bahamutkey"
                 ],
+                
+                "visibility_rules": ["level_cap:50, max_party_size_8, duty_difficulty_normal"],
                 "sections": [
                     {
                         "name": "The Second Coil of Bahamut Turn 1",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_TheBindingCoilofBahamutTurn1"],
                         "item_count": 1
                     },
                     {
                         "name": "The Second Coil of Bahamut Turn 2",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_TheBindingCoilofBahamutTurn2"],
                         "item_count": 1
                     },
                     {
                         "name": "The Second Coil of Bahamut Turn 3",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_TheBindingCoilofBahamutTurn3"],
                         "item_count": 1
                     },
                     {
                         "name": "The Second Coil of Bahamut Turn 4",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_TheBindingCoilofBahamutTurn4"],
                         "item_count": 1
                     },
                     {
                         "name": "The Second Coil of Bahamut (Savage)Turn 1",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_TheBindingCoilofBahamutSavageTurn1, duty_difficulty_savage"],
                         "item_count": 1
                     },
                     {
                         "name": "The Second Coil of Bahamut (Savage)Turn 2",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_TheBindingCoilofBahamutSavageTurn2, duty_difficulty_savage"],
                         "item_count": 1
                     },
                     {
                         "name": "The Second Coil of Bahamut (Savage)Turn 3",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_TheBindingCoilofBahamutSavageTurn3, duty_difficulty_savage"],
                         "item_count": 1
                     },
                     {
                         "name": "The Second Coil of Bahamut (Savage)Turn 4",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_TheBindingCoilofBahamutSavageTurn4, duty_difficulty_savage"],
                         "item_count": 1
                     }
                 ],
@@ -84,65 +86,66 @@
                 "access_rules": [
                     "$leveling:3"
                 ],
+                "visibility_rules": ["!fatesanity"],
                 "sections": [
                     {
                         "name": "FATE #1",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fates_per_zone:1"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #2",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fates_per_zone:2"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #3",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fates_per_zone:3"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #4",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fates_per_zone:4"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #5",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fates_per_zone:5"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #6",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fates_per_zone:6"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #7",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fates_per_zone:7"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #8",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fates_per_zone:8"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #9",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fates_per_zone:9"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #10",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fates_per_zone:10"],
                         "item_count": 1
                     }
                 ],
@@ -170,7 +173,7 @@
                         "access_rules": [
                             "$leveling:3"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity"],
                         "item_count": 1
                     }
                 ],
@@ -198,7 +201,7 @@
                         "access_rules": [
                             "$leveling:3"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity"],
                         "item_count": 1
                     }
                 ],
@@ -226,7 +229,7 @@
                         "access_rules": [
                             "$leveling:5"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity"],
                         "item_count": 1
                     }
                 ],
@@ -254,7 +257,7 @@
                         "access_rules": [
                             "$leveling:7"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity"],
                         "item_count": 1
                     }
                 ],
@@ -282,7 +285,7 @@
                         "access_rules": [
                             "$leveling:8"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity"],
                         "item_count": 1
                     }
                 ],
@@ -310,7 +313,7 @@
                         "access_rules": [
                             "$leveling:25"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity"],
                         "item_count": 1
                     }
                 ],
@@ -338,7 +341,7 @@
                         "access_rules": [
                             "$leveling:27"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity"],
                         "item_count": 1
                     }
                 ],
@@ -366,7 +369,7 @@
                         "access_rules": [
                             "$leveling:27"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity"],
                         "item_count": 1
                     }
                 ],
@@ -394,7 +397,7 @@
                         "access_rules": [
                             "$leveling:28"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity"],
                         "item_count": 1
                     }
                 ],
@@ -422,7 +425,7 @@
                         "access_rules": [
                             "$leveling:28"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity"],
                         "item_count": 1
                     }
                 ],
@@ -450,7 +453,7 @@
                         "access_rules": [
                             "$leveling:37"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity, level_cap:37"],
                         "item_count": 1
                     }
                 ],
@@ -478,7 +481,7 @@
                         "access_rules": [
                             "$leveling:37"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity, level_cap:37"],
                         "item_count": 1
                     }
                 ],
@@ -506,7 +509,7 @@
                         "access_rules": [
                             "$leveling:47"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity, level_cap:47"],
                         "item_count": 1
                     }
                 ],
@@ -534,7 +537,7 @@
                         "access_rules": [
                             "$leveling:48"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity, level_cap:48"],
                         "item_count": 1
                     }
                 ],
@@ -556,6 +559,7 @@
                 "access_rules": [
                     "5fshlevels:15"
                 ],
+                "visibility_rules": ["fishsanity_normal"],
                 "sections": [
                     {
                         "name": "Striped Goby",
@@ -603,7 +607,7 @@
                         "access_rules": [
                             "midgebasket"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fishsanity_timed"],
                         "item_count": 1
                     },
                     {
@@ -619,7 +623,7 @@
                         "access_rules": [
                             "wildfowlfly"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     },
                     {
@@ -649,6 +653,7 @@
                 "access_rules": [
                     "5fshlevels:15"
                 ],
+                "visibility_rules": ["fishsanity_normal"],
                 "sections": [
                     {
                         "name": "Maiden Carp",
@@ -696,7 +701,7 @@
                         "access_rules": [
                             "floatingminnow"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     },
                     {
@@ -726,6 +731,7 @@
                 "access_rules": [
                     "5fshlevels:50"
                 ],
+                "visibility_rules": ["fishsanity_normal, level_cap:50"],
                 "sections": [
                     {
                         "name": "Mudcrab",
@@ -788,7 +794,7 @@
                         "access_rules": [
                             "rainbowspoonlure"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     },
                     {
@@ -818,6 +824,7 @@
                 "access_rules": [
                     "5fshlevels:40"
                 ],
+                "visibility_rules": ["fishsanity_normal, level_cap:40"],
                 "sections": [
                     {
                         "name": "Seema",
@@ -866,7 +873,7 @@
                         "access_rules": [
                             "streamer"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fishsanity_timed"],
                         "item_count": 1
                     },
                     {
@@ -890,7 +897,7 @@
                         "access_rules": [
                             "topwaterfrog"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],

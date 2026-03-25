@@ -16,11 +16,12 @@
                 "access_rules": [
                     "5fshlevels:5"
                 ],
+                "visibility_rules": ["fishsanity_normal"],
                 "sections": [
                     {
                         "name": "Raincaller",
                         "access_rules": ["stemborer"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fishsanity_timed"],
                         "item_count": 1
                     },
                     {
@@ -56,7 +57,7 @@
                     {
                         "name": "Matron Carp",
                         "access_rules": ["bloodworm"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
@@ -112,7 +113,7 @@
                     {
                         "name": "Carp Diem",
                         "access_rules": ["crowfly"],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],

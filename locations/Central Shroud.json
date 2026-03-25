@@ -16,13 +16,16 @@
                 "access_rules": [
                     " "
                 ],
+                "visibility_rules":[
+                    "include_dungeons, max_party_size_4, duty_difficulty_normal"
+                ],
                 "sections": [
                     {
                         "name": "The Tam-Tara Deepcroft",
                         "access_rules": [
                             "$leveling:16"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_TheTamTaraDeepcroft"],
                         "item_count": 1
                     },
                     {
@@ -30,7 +33,7 @@
                         "access_rules": [
                             "$leveling:50"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": ["level_cap:60, include_TheTamTaraDeepcroftHard"],
                         "item_count": 1
                     },
                     {
@@ -38,7 +41,7 @@
                         "access_rules": [
                             "$leveling:16"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_TheTamTaraDeepcroft, extra_dungeon_checks:1"],
                         "item_count": 1
                     },
                     {
@@ -46,7 +49,7 @@
                         "access_rules": [
                             "$leveling:16"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_TheTamTaraDeepcroft, extra_dungeon_checks:2"],
                         "item_count": 1
                     },
                     {
@@ -54,7 +57,7 @@
                         "access_rules": [
                             "$leveling:16"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_TheTamTaraDeepcroft, extra_dungeon_checks:3"],
                         "item_count": 1
                     },
                     {
@@ -62,7 +65,7 @@
                         "access_rules": [
                             "$leveling:16"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_TheTamTaraDeepcroft, extra_dungeon_checks:4"],
                         "item_count": 1
                     },
                     {
@@ -70,7 +73,7 @@
                         "access_rules": [
                             "$leveling:16"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_TheTamTaraDeepcroft, extra_dungeon_checks:5"],
                         "item_count": 1
                     },
                     {
@@ -78,7 +81,7 @@
                         "access_rules": [
                             "$leveling:16"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_TheTamTaraDeepcroft, extra_dungeon_checks:6"],
                         "item_count": 1
                     },
                     {
@@ -86,7 +89,7 @@
                         "access_rules": [
                             "$leveling:16"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_TheTamTaraDeepcroft, extra_dungeon_checks:7"],
                         "item_count": 1
                     },
                     {
@@ -94,7 +97,7 @@
                         "access_rules": [
                             "$leveling:16"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_TheTamTaraDeepcroft, extra_dungeon_checks:8"],
                         "item_count": 1
                     },
                     {
@@ -102,7 +105,7 @@
                         "access_rules": [
                             "$leveling:16"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_TheTamTaraDeepcroft, extra_dungeon_checks:9"],
                         "item_count": 1
                     },
                     {
@@ -110,7 +113,7 @@
                         "access_rules": [
                             "$leveling:50"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": ["level_cap:60, include_TheTamTaraDeepcroftHard, extra_dungeon_checks:1"],
                         "item_count": 1
                     },
                     {
@@ -118,7 +121,7 @@
                         "access_rules": [
                             "$leveling:50"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": ["level_cap:60, include_TheTamTaraDeepcroftHard, extra_dungeon_checks:2"],
                         "item_count": 1
                     },
                     {
@@ -126,7 +129,7 @@
                         "access_rules": [
                             "$leveling:50"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": ["level_cap:60, include_TheTamTaraDeepcroftHard, extra_dungeon_checks:3"],
                         "item_count": 1
                     },
                     {
@@ -134,7 +137,7 @@
                         "access_rules": [
                             "$leveling:50"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": ["level_cap:60, include_TheTamTaraDeepcroftHard, extra_dungeon_checks:4"],
                         "item_count": 1
                     },
                     {
@@ -142,7 +145,7 @@
                         "access_rules": [
                             "$leveling:50"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": ["level_cap:60, include_TheTamTaraDeepcroftHard, extra_dungeon_checks:5"],
                         "item_count": 1
                     },
                     {
@@ -150,7 +153,7 @@
                         "access_rules": [
                             "$leveling:50"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": ["level_cap:60, include_TheTamTaraDeepcroftHard, extra_dungeon_checks:6"],
                         "item_count": 1
                     },
                     {
@@ -158,7 +161,7 @@
                         "access_rules": [
                             "$leveling:50"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": ["level_cap:60, include_TheTamTaraDeepcroftHard, extra_dungeon_checks:7"],
                         "item_count": 1
                     },
                     {
@@ -166,7 +169,7 @@
                         "access_rules": [
                             "$leveling:50"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": ["level_cap:60, include_TheTamTaraDeepcroftHard, extra_dungeon_checks:8"],
                         "item_count": 1
                     },
                     {
@@ -174,7 +177,7 @@
                         "access_rules": [
                             "$leveling:50"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": ["level_cap:60, include_TheTamTaraDeepcroftHard, extra_dungeon_checks:9"],
                         "item_count": 1
                     }
                 ],
@@ -202,7 +205,7 @@
                         "access_rules": [
                             "$leveling:28"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_dungeons, max_party_size_4, duty_difficulty_normal, include_HaukkeManor"],
                         "item_count": 1
                     },
                     {
@@ -210,7 +213,7 @@
                         "access_rules": [
                             "$leveling:50"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_dungeons, max_party_size_4, duty_difficulty_normal, levelcap:50, include_HaukkeManorHard"],
                         "item_count": 1
                     },
                     {
@@ -218,7 +221,7 @@
                         "access_rules": [
                             "5fshlevels:35, midgebasket"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fishsanity_normal, level_cap:35"],
                         "item_count": 1
                     },
                     {
@@ -226,7 +229,7 @@
                         "access_rules": [
                             "5fshlevels:35, midgebasket"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fishsanity_normal, level_cap:35"],
                         "item_count": 1
                     },
                     {
@@ -234,7 +237,7 @@
                         "access_rules": [
                             "5fshlevels:35, honeyworm"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fishsanity_normal, level_cap:35"],
                         "item_count": 1
                     },
                     {
@@ -242,7 +245,7 @@
                         "access_rules": [
                             "5fshlevels:35, midgebasket"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fishsanity_normal, level_cap:35"],
                         "item_count": 1
                     },
                     {
@@ -250,7 +253,7 @@
                         "access_rules": [
                             "5fshlevels:35, honeyworm"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fishsanity_normal, level_cap:35"],
                         "item_count": 1
                     },
                     {
@@ -258,7 +261,7 @@
                         "access_rules": [
                             "5fshlevels:35, honeyworm"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fishsanity_big, level_cap:35"],
                         "item_count": 1
                     },
                     {
@@ -266,7 +269,7 @@
                         "access_rules": [
                             "$leveling:28"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_dungeons, max_party_size_4, duty_difficulty_normal, include_HaukkeManor, extra_dungeon_checks:1"],
                         "item_count": 1
                     },
                     {
@@ -274,7 +277,7 @@
                         "access_rules": [
                             "$leveling:28"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_dungeons, max_party_size_4, duty_difficulty_normal, include_HaukkeManor, extra_dungeon_checks:2"],
                         "item_count": 1
                     },
                     {
@@ -282,7 +285,7 @@
                         "access_rules": [
                             "$leveling:28"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_dungeons, max_party_size_4, duty_difficulty_normal, include_HaukkeManor, extra_dungeon_checks:3"],
                         "item_count": 1
                     },
                     {
@@ -290,7 +293,7 @@
                         "access_rules": [
                             "$leveling:28"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_dungeons, max_party_size_4, duty_difficulty_normal, include_HaukkeMano, extra_dungeon_checks:4"],
                         "item_count": 1
                     },
                     {
@@ -298,7 +301,7 @@
                         "access_rules": [
                             "$leveling:28"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_dungeons, max_party_size_4, duty_difficulty_normal, include_HaukkeManor, extra_dungeon_checks:5"],
                         "item_count": 1
                     },
                     {
@@ -306,7 +309,7 @@
                         "access_rules": [
                             "$leveling:28"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_dungeons, max_party_size_4, duty_difficulty_normal, include_HaukkeManor, extra_dungeon_checks:6"],
                         "item_count": 1
                     },
                     {
@@ -314,7 +317,7 @@
                         "access_rules": [
                             "$leveling:28"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_dungeons, max_party_size_4, duty_difficulty_normal, include_HaukkeManor, extra_dungeon_checks:7"],
                         "item_count": 1
                     },
                     {
@@ -322,7 +325,7 @@
                         "access_rules": [
                             "$leveling:28"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_dungeons, max_party_size_4, duty_difficulty_normal, include_HaukkeManor, extra_dungeon_checks:8"],
                         "item_count": 1
                     },
                     {
@@ -330,7 +333,7 @@
                         "access_rules": [
                             "$leveling:28"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_dungeons, max_party_size_4, duty_difficulty_normal, include_HaukkeManor, extra_dungeon_checks:9"],
                         "item_count": 1
                     },
                     {
@@ -338,7 +341,7 @@
                         "access_rules": [
                             "$leveling:50"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_dungeons, max_party_size_4, duty_difficulty_normal, levelcap:50, include_HaukkeManorHard, extra_dungeon_checks:1"],
                         "item_count": 1
                     },
                     {
@@ -346,7 +349,7 @@
                         "access_rules": [
                             "$leveling:50"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_dungeons, max_party_size_4, duty_difficulty_normal, levelcap:50, include_HaukkeManorHard, extra_dungeon_checks:2"],
                         "item_count": 1
                     },
                     {
@@ -354,7 +357,7 @@
                         "access_rules": [
                             "$leveling:50"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_dungeons, max_party_size_4, duty_difficulty_normal, levelcap:50, include_HaukkeManorHard, extra_dungeon_checks:3"],
                         "item_count": 1
                     },
                     {
@@ -362,7 +365,7 @@
                         "access_rules": [
                             "$leveling:50"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_dungeons, max_party_size_4, duty_difficulty_normal, levelcap:50, include_HaukkeManorHard, extra_dungeon_checks:4"],
                         "item_count": 1
                     },
                     {
@@ -370,7 +373,7 @@
                         "access_rules": [
                             "$leveling:50"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_dungeons, max_party_size_4, duty_difficulty_normal, levelcap:50, include_HaukkeManorHard, extra_dungeon_checks:5"],
                         "item_count": 1
                     },
                     {
@@ -378,7 +381,7 @@
                         "access_rules": [
                             "$leveling:50"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_dungeons, max_party_size_4, duty_difficulty_normal, levelcap:50, include_HaukkeManorHard, extra_dungeon_checks:6"],
                         "item_count": 1
                     },
                     {
@@ -386,7 +389,7 @@
                         "access_rules": [
                             "$leveling:50"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_dungeons, max_party_size_4, duty_difficulty_normal, levelcap:50, include_HaukkeManorHard, extra_dungeon_checks:7"],
                         "item_count": 1
                     },
                     {
@@ -394,7 +397,7 @@
                         "access_rules": [
                             "$leveling:50"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_dungeons, max_party_size_4, duty_difficulty_normal, levelcap:50, include_HaukkeManorHard, extra_dungeon_checks:8"],
                         "item_count": 1
                     },
                     {
@@ -402,7 +405,7 @@
                         "access_rules": [
                             "$leveling:50"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_dungeons, max_party_size_4, duty_difficulty_normal, levelcap:50, include_HaukkeManorHard, extra_dungeon_checks:9"],
                         "item_count": 1
                     }
                 ],
@@ -430,7 +433,7 @@
                         "access_rules": [
                             "$leveling:10"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_guildhests, max_party_size_4, duty_difficulty_normal, include_UnderTheArmor"],
                         "item_count": 1
                     }
                 ],
@@ -458,7 +461,7 @@
                         "access_rules": [
                             "$leveling:25"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": ["include_guildhests, max_party_size_4, duty_difficulty_normal, include_FlickingSticksandTakingNames"],
                         "item_count": 1
                     }
                 ],
@@ -480,65 +483,66 @@
                 "access_rules": [
                     "$leveling:4"
                 ],
+                "visibility_rules": ["!fatesanity"],
                 "sections": [
                     {
                         "name": "FATE #1",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fates_per_zone:1"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #2",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fates_per_zone:2"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #3",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fates_per_zone:3"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #4",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fates_per_zone:4"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #5",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fates_per_zone:5"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #6",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fates_per_zone:6"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #7",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fates_per_zone:7"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #8",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fates_per_zone:8"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #9",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fates_per_zone:9"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #10",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fates_per_zone:10"],
                         "item_count": 1
                     }
                 ],
@@ -566,7 +570,7 @@
                         "access_rules": [
                             "$leveling:4"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity"],
                         "item_count": 1
                     }
                 ],
@@ -594,7 +598,7 @@
                         "access_rules": [
                             "$leveling:5"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity"],
                         "item_count": 1
                     }
                 ],
@@ -622,7 +626,7 @@
                         "access_rules": [
                             "$leveling:5"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity"],
                         "item_count": 1
                     }
                 ],
@@ -650,7 +654,7 @@
                         "access_rules": [
                             "$leveling:7"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity"],
                         "item_count": 1
                     }
                 ],
@@ -678,7 +682,7 @@
                         "access_rules": [
                             "$leveling:8"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity"],
                         "item_count": 1
                     }
                 ],
@@ -706,7 +710,7 @@
                         "access_rules": [
                             "$leveling:8"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity"],
                         "item_count": 1
                     }
                 ],
@@ -734,7 +738,7 @@
                         "access_rules": [
                             "$leveling:9"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity"],
                         "item_count": 1
                     }
                 ],
@@ -762,7 +766,7 @@
                         "access_rules": [
                             "$leveling:9"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity"],
                         "item_count": 1
                     }
                 ],
@@ -790,7 +794,7 @@
                         "access_rules": [
                             "$leveling:10"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity"],
                         "item_count": 1
                     }
                 ],
@@ -818,7 +822,7 @@
                         "access_rules": [
                             "$leveling:10"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity"],
                         "item_count": 1
                     }
                 ],
@@ -846,7 +850,7 @@
                         "access_rules": [
                             "$leveling:11"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity"],
                         "item_count": 1
                     }
                 ],
@@ -874,7 +878,7 @@
                         "access_rules": [
                             "$leveling:11"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity"],
                         "item_count": 1
                     }
                 ],
@@ -902,7 +906,7 @@
                         "access_rules": [
                             "$leveling:12"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity"],
                         "item_count": 1
                     }
                 ],
@@ -930,7 +934,7 @@
                         "access_rules": [
                             "$leveling:13"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity"],
                         "item_count": 1
                     }
                 ],
@@ -958,7 +962,7 @@
                         "access_rules": [
                             "$leveling:14"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity"],
                         "item_count": 1
                     }
                 ],
@@ -986,7 +990,7 @@
                         "access_rules": [
                             "$leveling:30"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity"],
                         "item_count": 1
                     }
                 ],
@@ -1014,7 +1018,7 @@
                         "access_rules": [
                             "$leveling:31"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity, level_cap:31"],
                         "item_count": 1
                     }
                 ],
@@ -1042,7 +1046,7 @@
                         "access_rules": [
                             "$leveling:31"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity, level_cap:31"],
                         "item_count": 1
                     }
                 ],
@@ -1070,7 +1074,7 @@
                         "access_rules": [
                             "$leveling:31"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity, level_cap:31"],
                         "item_count": 1
                     }
                 ],
@@ -1098,7 +1102,7 @@
                         "access_rules": [
                             "$leveling:33"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity, level_cap:33"],
                         "item_count": 1
                     }
                 ],
@@ -1126,7 +1130,7 @@
                         "access_rules": [
                             "$leveling:34"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity, level_cap:34"],
                         "item_count": 1
                     }
                 ],
@@ -1154,7 +1158,7 @@
                         "access_rules": [
                             "$leveling:43"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity, level_cap:43"],
                         "item_count": 1
                     }
                 ],
@@ -1182,7 +1186,7 @@
                         "access_rules": [
                             "$leveling:50"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fatesanity, level_cap:50, include_unreasonable_fates"],
                         "item_count": 1
                     }
                 ],
@@ -1204,6 +1208,7 @@
                 "access_rules": [
                     "5fshlevels:5"
                 ],
+                "visibility_rules": ["fishsanity_normal"],
                 "sections": [
                     {
                         "name": "Brass Loach",
@@ -1266,7 +1271,7 @@
                         "access_rules": [
                             "mothpupa"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
@@ -1286,8 +1291,9 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "5fshlevels:15"
                 ],
+                "visibility_rules": ["fishsanity_normal"],
                 "sections": [
                     {
                         "name": "Bone Crayfish",
@@ -1342,7 +1348,7 @@
                         "access_rules": [
                             "butterworm"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     },
                     {
@@ -1370,8 +1376,9 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "5fshlevels:35"
                 ],
+                "visibility_rules": ["fishsanity_normal, level_cap:35"],
                 "sections": [
                     {
                         "name": "Mudskipper",
@@ -1402,7 +1409,7 @@
                         "access_rules": [
                             "butterworm"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fishsanity_timed"],
                         "item_count": 1
                     },
                     {
@@ -1436,7 +1443,7 @@
                         "access_rules": [
                             "honeyworm"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
@@ -1456,8 +1463,10 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "5fshlevels:30"
                 ],
+                
+                "visibility_rules": ["fishsanity_normal"],
                 "sections": [
                     {
                         "name": "Ala Mhigan Fighting Fish",
@@ -1472,7 +1481,7 @@
                         "access_rules": [
                             "butterworm"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fishsanity_timed"],
                         "item_count": 1
                     },
                     {
@@ -1512,7 +1521,7 @@
                         "access_rules": [
                             "syrphidbasket"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],

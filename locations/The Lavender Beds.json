@@ -16,6 +16,7 @@
                 "access_rules": [
                     "5fshlevels:30"
                 ],
+                "visibility_rules": ["fishsanity_normal"],
                 "sections": [
                     {
                         "name": "Pipira",
@@ -38,7 +39,7 @@
                         "access_rules": [
                             "midgebasket"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fishsanity_timed"],
                         "item_count": 1
                     },
                     {
@@ -86,7 +87,7 @@
                         "access_rules": [
                             "midgebasket"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
