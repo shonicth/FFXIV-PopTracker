@@ -831,26 +831,26 @@
                 "sections": [
                     {
                         "name": "Abalathian Smelt",
-                        "access_rules": [],
+                        "access_rules": ["stoneflynymph", "freshwaterboilie", "syrphidbasket"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Coerthan Crab",
-                        "access_rules": [],
+                        "access_rules": ["metalspinner", "stoneflynymph"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Coerthan Puffer",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["pursewebspider"],
+                        "visibility_rules": ["fishsanity_timed"],
                         "item_count": 1
                     },
                     {
                         "name": "Fat Purse",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["bruteleech"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
@@ -874,44 +874,44 @@
                 "sections": [
                     {
                         "name": "Abalathian Smelt",
-                        "access_rules": [],
+                        "access_rules": ["stoneflynymph", "freshwaterboilie", "syrphidbasket"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Icepick",
-                        "access_rules": [],
+                        "access_rules": ["goblinjig", "metalspinner"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Ice Faerie",
-                        "access_rules": [],
+                        "access_rules": ["metalspinner", "pursewebspider", "caddisflylarva"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Sorcerer Fish",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["freshwaterboilie"],
+                        "visibility_rules": ["fishsanity_timed"],
                         "item_count": 1
                     },
                     {
                         "name": "Albino Octopus",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["metalspinner"],
+                        "visibility_rules": ["fishsanity_timed"],
                         "item_count": 1
                     },
                     {
                         "name": "Coerthan Clione",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["bruteleech"],
+                        "visibility_rules": ["fishsanity_timed"],
                         "item_count": 1
                     },
                     {
                         "name": "Flarefish",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["metalspinner"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
@@ -935,56 +935,56 @@
                 "sections": [
                     {
                         "name": "Abalathian Smelt",
-                        "access_rules": [],
+                        "access_rules": ["stoneflynymph", "freshwaterboilie", "syrphidbasket"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Ice Faerie",
-                        "access_rules": [],
+                        "access_rules": ["metalspinner", "pursewebspider", "caddisflylarva"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Coerthan Crab",
-                        "access_rules": [],
+                        "access_rules": ["metalspinner", "stoneflynymph"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Hotrod",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["pursewebspider"],
+                        "visibility_rules": ["fishsanity_timed"],
                         "item_count": 1
                     },
                     {
                         "name": "Capelin",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["bruteleech"],
+                        "visibility_rules": ["fishsanity_timed"],
                         "item_count": 1
                     },
                     {
                         "name": "Priestfish",
-                        "access_rules": [],
+                        "access_rules": ["bruteleech"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Ghost Faerie",
-                        "access_rules": [],
+                        "access_rules": ["metalspinner"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Bishopfish",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["bruteleech"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     },
                     {
                         "name": "Charibenet",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["pursewebspider"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
@@ -1008,62 +1008,62 @@
                 "sections": [
                     {
                         "name": "Abalathian Smelt",
-                        "access_rules": [],
+                        "access_rules": ["stoneflynymph", "freshwaterboilie", "syrphidbasket"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Icepick",
-                        "access_rules": [],
+                        "access_rules": ["goblinjig", "metalspinner"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Ice Faerie",
-                        "access_rules": [],
+                        "access_rules": ["metalspinner", "pursewebspider", "caddisflylarva"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Fanged Clam",
-                        "access_rules": [],
+                        "access_rules": ["metalspinner"," goblinjig"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Lake Urchin",
-                        "access_rules": [],
+                        "access_rules": ["bruteleech", "goblinjig"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Seema Patrician",
-                        "access_rules": [],
+                        "access_rules": ["goblinjig"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Ammonite",
-                        "access_rules": [],
+                        "access_rules": ["goblinjig"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Mountain Kraken",
-                        "access_rules": [],
+                        "access_rules": ["bruteleech"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Magic Bucket",
-                        "access_rules": [],
+                        "access_rules": ["bruteleech"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Captain Nemo",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["bruteleech"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
@@ -1087,49 +1087,49 @@
                 "sections": [
                     {
                         "name": "Abalathian Smelt",
-                        "access_rules": [],
+                        "access_rules": ["stoneflynymph", "freshwaterboilie", "syrphidbasket"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Ice Faerie",
-                        "access_rules": [],
+                        "access_rules": ["metalspinner", "pursewebspider", "caddisflylarva"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Fanged Clam",
-                        "access_rules": [],
+                        "access_rules": ["metalspinner"," goblinjig"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Lake Urchin",
-                        "access_rules": [],
+                        "access_rules": ["bruteleech", "goblinjig"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Gigant Grouper",
-                        "access_rules": [],
+                        "access_rules": ["goblinjig"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Battle Galley",
-                        "access_rules": [],
+                        "access_rules": ["pursewebspider"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "La Reale",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["bruteleech"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     },
                     {
                         "name": "Northern Oyster",
-                        "access_rules": [],
+                        "access_rules": ["metalspinner"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -1154,38 +1154,38 @@
                 "sections": [
                     {
                         "name": "Cloud Coral",
-                        "access_rules": [],
+                        "access_rules": ["balloonbug"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Skyworm",
-                        "access_rules": [],
+                        "access_rules": ["giantcranefly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Glacier Core",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["redballoon"],
+                        "visibility_rules": ["fishsanity_timed"],
                         "item_count": 1
                     },
                     {
                         "name": "Rime Eater",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["redballoon"],
+                        "visibility_rules": ["fishsanity_timed"],
                         "item_count": 1
                     },
                     {
                         "name": "Warballoon",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["giantcranefly"],
+                        "visibility_rules": ["fishsanity_timed"],
                         "item_count": 1
                     },
                     {
                         "name": "Hailfinder",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["redballoon"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
@@ -1209,49 +1209,49 @@
                 "sections": [
                     {
                         "name": "Ice Faerie",
-                        "access_rules": [],
+                        "access_rules": ["metalspinner", "pursewebspider", "caddisflylarva"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Fanged Clam",
-                        "access_rules": [],
+                        "access_rules": ["metalspinner"," goblinjig"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Lake Urchin",
-                        "access_rules": [],
+                        "access_rules": ["bruteleech", "goblinjig"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Snowcaller",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["caddisflylarva"],
+                        "visibility_rules": ["fishsanity_timed"],
                         "item_count": 1
                     },
                     {
                         "name": "Mercy Staff",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["bruteleech"],
+                        "visibility_rules": ["fishsanity_timed"],
                         "item_count": 1
                     },
                     {
                         "name": "Coerthan Oyster",
-                        "access_rules": [],
+                        "access_rules": ["bruteleech"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Merciless",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["caddisflylarva"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     },
                     {
                         "name": "Warmscale Pleco",
-                        "access_rules": [],
+                        "access_rules": ["metalspinner"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -1276,37 +1276,37 @@
                 "sections": [
                     {
                         "name": "Ogre Horn Snail",
-                        "access_rules": [],
+                        "access_rules": ["stoneflynymph"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Hospitalier Fish",
-                        "access_rules": [],
+                        "access_rules": ["pursewebspider"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Spring Urchin",
-                        "access_rules": [],
+                        "access_rules": ["bruteleech"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Cherry Trout",
-                        "access_rules": [],
+                        "access_rules": ["bladedsteeljig"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "The Impaler",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["bruteleech"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     },
                     {
                         "name": "Dragonspine",
-                        "access_rules": [],
+                        "access_rules": ["signatureskyball"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
