@@ -14,7 +14,10 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "$leveling:51"
+                ],
+                "visibility_rules":[
+                    "level_cap:51, duty_difficulty_normal, $duty_visibility|The Dusk Vigil"
                 ],
                 "sections": [
                     {
@@ -26,55 +29,55 @@
                     {
                         "name": "The Dusk Vigil 2",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:1"],
                         "item_count": 1
                     },
                     {
                         "name": "The Dusk Vigil 3",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:2"],
                         "item_count": 1
                     },
                     {
                         "name": "The Dusk Vigil 4",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:3"],
                         "item_count": 1
                     },
                     {
                         "name": "The Dusk Vigil 5",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:4"],
                         "item_count": 1
                     },
                     {
                         "name": "The Dusk Vigil 6",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:5"],
                         "item_count": 1
                     },
                     {
                         "name": "The Dusk Vigil 7",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:6"],
                         "item_count": 1
                     },
                     {
                         "name": "The Dusk Vigil 8",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:7"],
                         "item_count": 1
                     },
                     {
                         "name": "The Dusk Vigil 9",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:8"],
                         "item_count": 1
                     },
                     {
                         "name": "The Dusk Vigil 10",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:9"],
                         "item_count": 1
                     }
                 ],
@@ -93,67 +96,68 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "$leveling:50"
                 ],
+                "visibility_rules": ["$fatesanity_disabled, level_cap:50"],
                 "sections": [
                     {
                         "name": "FATE #1",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fates_per_zone:1"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #2",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fates_per_zone:2"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #3",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fates_per_zone:3"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #4",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fates_per_zone:4"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #5",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fates_per_zone:5"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #6",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fates_per_zone:6"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #7",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fates_per_zone:7"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #8",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fates_per_zone:8"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #9",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fates_per_zone:9"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #10",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fates_per_zone:10"],
                         "item_count": 1
                     }
                 ],
@@ -177,8 +181,8 @@
                 "sections": [
                     {
                         "name": "A Dung Deal (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["$leveling:50"],
+                        "visibility_rules": ["fatesanity, level_cap:50"],
                         "item_count": 1
                     }
                 ],
@@ -202,8 +206,8 @@
                 "sections": [
                     {
                         "name": "Apparent Trap (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["$leveling:50"],
+                        "visibility_rules": ["fatesanity, level_cap:50"],
                         "item_count": 1
                     }
                 ],
@@ -227,8 +231,8 @@
                 "sections": [
                     {
                         "name": "Dawn of the Mylodons (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["$leveling:50"],
+                        "visibility_rules": ["fatesanity, level_cap:50"],
                         "item_count": 1
                     }
                 ],
@@ -252,8 +256,8 @@
                 "sections": [
                     {
                         "name": "Don of the Mylodons (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["$leveling:50"],
+                        "visibility_rules": ["fatesanity, level_cap:50"],
                         "item_count": 1
                     }
                 ],
@@ -277,8 +281,8 @@
                 "sections": [
                     {
                         "name": "Eye in the Sky (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["$leveling:50"],
+                        "visibility_rules": ["fatesanity, level_cap:50"],
                         "item_count": 1
                     }
                 ],
@@ -302,8 +306,8 @@
                 "sections": [
                     {
                         "name": "Follow the Sleet (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["$leveling:50"],
+                        "visibility_rules": ["fatesanity, level_cap:50"],
                         "item_count": 1
                     }
                 ],
@@ -327,8 +331,8 @@
                 "sections": [
                     {
                         "name": "Land of the Freeze (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["$leveling:50"],
+                        "visibility_rules": ["fatesanity, level_cap:50"],
                         "item_count": 1
                     }
                 ],
@@ -352,8 +356,8 @@
                 "sections": [
                     {
                         "name": "No Ifs, Ands, or Butts (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["$leveling:50"],
+                        "visibility_rules": ["fatesanity, level_cap:50"],
                         "item_count": 1
                     }
                 ],
@@ -377,8 +381,8 @@
                 "sections": [
                     {
                         "name": "Null and Void (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["$leveling:50"],
+                        "visibility_rules": ["fatesanity, level_cap:50"],
                         "item_count": 1
                     }
                 ],
@@ -402,8 +406,8 @@
                 "sections": [
                     {
                         "name": "One Whiskey, One Goat, One Spear (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["$leveling:50"],
+                        "visibility_rules": ["fatesanity, level_cap:50"],
                         "item_count": 1
                     }
                 ],
@@ -427,8 +431,8 @@
                 "sections": [
                     {
                         "name": "Panic Rheum (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["$leveling:50"],
+                        "visibility_rules": ["fatesanity, level_cap:50"],
                         "item_count": 1
                     }
                 ],
@@ -452,8 +456,8 @@
                 "sections": [
                     {
                         "name": "Run, Riders, Run (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["$leveling:50"],
+                        "visibility_rules": ["fatesanity, level_cap:50"],
                         "item_count": 1
                     }
                 ],
@@ -477,8 +481,8 @@
                 "sections": [
                     {
                         "name": "Sugar, Sugar (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["$leveling:50"],
+                        "visibility_rules": ["fatesanity, level_cap:50"],
                         "item_count": 1
                     }
                 ],
@@ -502,8 +506,8 @@
                 "sections": [
                     {
                         "name": "What You See Is What You Get (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["$leveling:50"],
+                        "visibility_rules": ["fatesanity, level_cap:50"],
                         "item_count": 1
                     }
                 ],
@@ -527,8 +531,8 @@
                 "sections": [
                     {
                         "name": "Abominable Me (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["$leveling:51"],
+                        "visibility_rules": ["fatesanity, level_cap:51"],
                         "item_count": 1
                     }
                 ],
@@ -552,8 +556,8 @@
                 "sections": [
                     {
                         "name": "Dishonored (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["$leveling:51"],
+                        "visibility_rules": ["fatesanity, level_cap:51"],
                         "item_count": 1
                     }
                 ],
@@ -577,8 +581,8 @@
                 "sections": [
                     {
                         "name": "In Command (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["$leveling:51"],
+                        "visibility_rules": ["fatesanity, level_cap:51"],
                         "item_count": 1
                     }
                 ],
@@ -602,8 +606,8 @@
                 "sections": [
                     {
                         "name": "Pico de Gallows (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["$leveling:51"],
+                        "visibility_rules": ["fatesanity, level_cap:51"],
                         "item_count": 1
                     }
                 ],
@@ -627,8 +631,8 @@
                 "sections": [
                     {
                         "name": "Requiem for a Dragon (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["$leveling:51"],
+                        "visibility_rules": ["fatesanity, level_cap:51"],
                         "item_count": 1
                     }
                 ],
@@ -652,8 +656,8 @@
                 "sections": [
                     {
                         "name": "Sick Pack (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["$leveling:51"],
+                        "visibility_rules": ["fatesanity, level_cap:51"],
                         "item_count": 1
                     }
                 ],
@@ -677,8 +681,8 @@
                 "sections": [
                     {
                         "name": "The Polar Express (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["$leveling:51"],
+                        "visibility_rules": ["fatesanity, level_cap:51"],
                         "item_count": 1
                     }
                 ],
@@ -702,8 +706,8 @@
                 "sections": [
                     {
                         "name": "True Convictions (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["$leveling:51"],
+                        "visibility_rules": ["fatesanity, level_cap:51"],
                         "item_count": 1
                     }
                 ],
@@ -727,8 +731,8 @@
                 "sections": [
                     {
                         "name": "Unsilent Vigil (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["$leveling:51"],
+                        "visibility_rules": ["fatesanity, level_cap:51"],
                         "item_count": 1
                     }
                 ],
@@ -752,8 +756,8 @@
                 "sections": [
                     {
                         "name": "We Fought a Dzu (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["$leveling:51"],
+                        "visibility_rules": ["fatesanity, level_cap:51"],
                         "item_count": 1
                     }
                 ],
@@ -777,8 +781,8 @@
                 "sections": [
                     {
                         "name": "A Stihi Situation (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["$leveling:56"],
+                        "visibility_rules": ["fatesanity, level_cap:56"],
                         "item_count": 1
                     }
                 ],
@@ -802,8 +806,8 @@
                 "sections": [
                     {
                         "name": "Sphenopalatine Ganglioneuralgia (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["$leveling:56"],
+                        "visibility_rules": ["fatesanity, level_cap:6"],
                         "item_count": 1
                     }
                 ],

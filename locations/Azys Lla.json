@@ -14,79 +14,82 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "$leveling:60"
+                ],
+                "visibility_rules":[
+                    "level_cap:60, duty_difficulty_normal"
                 ],
                 "sections": [
                     {
                         "name": "The Aetherochemical Research Facility",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["$duty_visibility|The Aetherochemical Research Facility, extra_dungeon_checks:1"],
                         "item_count": 1
                     },
                     {
                         "name": "The Singularity Reactor",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["$duty_visibility|The Singularity Reactor"],
                         "item_count": 1
                     },
                     {
                         "name": "The Minstrels Ballad Thordans Reign",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["duty_difficulty_ex, $duty_visibility|The Minstrels Ballad Thordans Reign"],
                         "item_count": 1
                     },
                     {
                         "name": "The Aetherochemical Research Facility 2",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["$duty_visibility|The Aetherochemical Research Facility, extra_dungeon_checks:1"],
                         "item_count": 1
                     },
                     {
                         "name": "The Aetherochemical Research Facility 3",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["$duty_visibility|The Aetherochemical Research Facility, extra_dungeon_checks:2"],
                         "item_count": 1
                     },
                     {
                         "name": "The Aetherochemical Research Facility 4",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["$duty_visibility|The Aetherochemical Research Facility, extra_dungeon_checks:3"],
                         "item_count": 1
                     },
                     {
                         "name": "The Aetherochemical Research Facility 5",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["$duty_visibility|The Aetherochemical Research Facility, extra_dungeon_checks:4"],
                         "item_count": 1
                     },
                     {
                         "name": "The Aetherochemical Research Facility 6",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["$duty_visibility|The Aetherochemical Research Facility, extra_dungeon_checks:5"],
                         "item_count": 1
                     },
                     {
                         "name": "The Aetherochemical Research Facility 7",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["$duty_visibility|The Aetherochemical Research Facility, extra_dungeon_checks:6"],
                         "item_count": 1
                     },
                     {
                         "name": "The Aetherochemical Research Facility 8",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["$duty_visibility|The Aetherochemical Research Facility, extra_dungeon_checks:7"],
                         "item_count": 1
                     },
                     {
                         "name": "The Aetherochemical Research Facility 9",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["$duty_visibility|The Aetherochemical Research Facility, extra_dungeon_checks:8"],
                         "item_count": 1
                     },
                     {
                         "name": "The Aetherochemical Research Facility 10",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["$duty_visibility|The Aetherochemical Research Facility, extra_dungeon_checks:9"],
                         "item_count": 1
                     }
                 ],
@@ -110,122 +113,122 @@
                 "sections": [
                     {
                         "name": "The Fractal Continuum",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["$leveling:60"],
+                        "visibility_rules": ["level_cap:60, duty_difficulty_normal, $duty_visibility|The Fractal Continuum"],
                         "item_count": 1
                     },
                     {
                         "name": "The Fractal Continuum (Hard)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["$leveling:70"],
+                        "visibility_rules": ["level_cap:70, duty_difficulty_normal, $duty_visibility|The Fractal Continuum (Hard)"],
                         "item_count": 1
                     },
                     {
                         "name": "The Fractal Continuum 2",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["$leveling:60"],
+                        "visibility_rules": ["level_cap:60, duty_difficulty_normal, $duty_visibility|The Fractal Continuum, extra_dungeon_checks:1"],
                         "item_count": 1
                     },
                     {
                         "name": "The Fractal Continuum 3",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["$leveling:60"],
+                        "visibility_rules": ["level_cap:60, duty_difficulty_normal, $duty_visibility|The Fractal Continuum, extra_dungeon_checks:2"],
                         "item_count": 1
                     },
                     {
                         "name": "The Fractal Continuum 4",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["$leveling:60"],
+                        "visibility_rules": ["level_cap:60, duty_difficulty_normal, $duty_visibility|The Fractal Continuum, extra_dungeon_checks:3"],
                         "item_count": 1
                     },
                     {
                         "name": "The Fractal Continuum 5",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["$leveling:60"],
+                        "visibility_rules": ["level_cap:60, duty_difficulty_normal, $duty_visibility|The Fractal Continuum, extra_dungeon_checks:4"],
                         "item_count": 1
                     },
                     {
                         "name": "The Fractal Continuum 6",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["$leveling:60"],
+                        "visibility_rules": ["level_cap:60, duty_difficulty_normal, $duty_visibility|The Fractal Continuum, extra_dungeon_checks:5"],
                         "item_count": 1
                     },
                     {
                         "name": "The Fractal Continuum 7",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["$leveling:60"],
+                        "visibility_rules": ["level_cap:60, duty_difficulty_normal, $duty_visibility|The Fractal Continuum, extra_dungeon_checks:6"],
                         "item_count": 1
                     },
                     {
                         "name": "The Fractal Continuum 8",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["$leveling:60"],
+                        "visibility_rules": ["level_cap:60, duty_difficulty_normal, $duty_visibility|The Fractal Continuum, extra_dungeon_checks:7"],
                         "item_count": 1
                     },
                     {
                         "name": "The Fractal Continuum 9",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["$leveling:60"],
+                        "visibility_rules": ["level_cap:60, duty_difficulty_normal, $duty_visibility|The Fractal Continuum, extra_dungeon_checks:8"],
                         "item_count": 1
                     },
                     {
                         "name": "The Fractal Continuum 10",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["$leveling:60"],
+                        "visibility_rules": ["level_cap:60, duty_difficulty_normal, $duty_visibility|The Fractal Continuum, extra_dungeon_checks:9"],
                         "item_count": 1
                     },
                     {
                         "name": "The Fractal Continuum (Hard) 2",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["$leveling:70"],
+                        "visibility_rules": ["level_cap:70, duty_difficulty_normal, $duty_visibility|The Fractal Continuum (Hard), extra_dungeon_checks:1"],
                         "item_count": 1
                     },
                     {
                         "name": "The Fractal Continuum (Hard) 3",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["$leveling:70"],
+                        "visibility_rules": ["level_cap:70, duty_difficulty_normal, $duty_visibility|The Fractal Continuum (Hard), extra_dungeon_checks:2"],
                         "item_count": 1
                     },
                     {
                         "name": "The Fractal Continuum (Hard) 4",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["$leveling:70"],
+                        "visibility_rules": ["level_cap:70, duty_difficulty_normal, $duty_visibility|The Fractal Continuum (Hard), extra_dungeon_checks:3"],
                         "item_count": 1
                     },
                     {
                         "name": "The Fractal Continuum (Hard) 5",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["$leveling:70"],
+                        "visibility_rules": ["level_cap:70, duty_difficulty_normal, $duty_visibility|The Fractal Continuum (Hard), extra_dungeon_checks:4"],
                         "item_count": 1
                     },
                     {
                         "name": "The Fractal Continuum (Hard) 6",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["$leveling:70"],
+                        "visibility_rules": ["level_cap:70, duty_difficulty_normal, $duty_visibility|The Fractal Continuum (Hard), extra_dungeon_checks:5"],
                         "item_count": 1
                     },
                     {
                         "name": "The Fractal Continuum (Hard) 7",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["$leveling:70"],
+                        "visibility_rules": ["level_cap:70, duty_difficulty_normal, $duty_visibility|The Fractal Continuum (Hard), extra_dungeon_checks:6"],
                         "item_count": 1
                     },
                     {
                         "name": "The Fractal Continuum (Hard) 8",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["$leveling:70"],
+                        "visibility_rules": ["level_cap:70, duty_difficulty_normal, $duty_visibility|The Fractal Continuum (Hard), extra_dungeon_checks:7"],
                         "item_count": 1
                     },
                     {
                         "name": "The Fractal Continuum (Hard) 9",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["$leveling:70"],
+                        "visibility_rules": ["level_cap:70, duty_difficulty_normal, $duty_visibility|The Fractal Continuum (Hard), extra_dungeon_checks:8"],
                         "item_count": 1
                     },
                     {
                         "name": "The Fractal Continuum (Hard) 10",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["$leveling:70"],
+                        "visibility_rules": ["level_cap:70, duty_difficulty_normal, $duty_visibility|The Fractal Continuum (Hard), extra_dungeon_checks:9"],
                         "item_count": 1
                     }
                 ],
@@ -244,43 +247,43 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                   "$leveling:60"
                 ],
                 "sections": [
                     {
                         "name": "Containment Bay S1T7",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["level_cap:60, duty_difficulty_normal, $duty_visibility|Containment Bay S1T7"],
                         "item_count": 1
                     },
                     {
                         "name": "Containment Bay P1T6",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["level_cap:60, duty_difficulty_normal, $duty_visibility|Containment Bay P1T6"],
                         "item_count": 1
                     },
                     {
                         "name": "Containment Bay Z1T9",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["level_cap:60, duty_difficulty_normal, $duty_visibility|Containment Bay Z1T9"],
                         "item_count": 1
                     },
                     {
                         "name": "Containment Bay S1T7 (Extreme)",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["level_cap:60, duty_difficulty_ex, $duty_visibility|Containment Bay S1T7 (Extreme)"],
                         "item_count": 1
                     },
                     {
                         "name": "Containment Bay P1T6 (Extreme)",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["level_cap:60, duty_difficulty_ex, $duty_visibility|Containment Bay P1T6 (Extreme)"],
                         "item_count": 1
                     },
                     {
                         "name": "Containment Bay Z1T9 (Extreme)",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["level_cap:60, duty_difficulty_ex, $duty_visibility|Containment Bay Z1T9 (Extreme)"],
                         "item_count": 1
                     }
                 ],
@@ -299,67 +302,68 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "$leveling:59"
                 ],
+                "visibility_rules": ["$fatesanity_disabled, level_cap:59"],
                 "sections": [
                     {
                         "name": "FATE #1",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fates_per_zone:1"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #2",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fates_per_zone:2"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #3",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fates_per_zone:3"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #4",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fates_per_zone:4"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #5",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fates_per_zone:5"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #6",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fates_per_zone:6"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #7",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fates_per_zone:7"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #8",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fates_per_zone:8"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #9",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fates_per_zone:9"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #10",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["fates_per_zone:10"],
                         "item_count": 1
                     }
                 ],
@@ -383,8 +387,8 @@
                 "sections": [
                     {
                         "name": "A Bugs Death (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["$leveling:59"],
+                        "visibility_rules": ["fatesanity, level_cap:59"],
                         "item_count": 1
                     }
                 ],
@@ -408,8 +412,8 @@
                 "sections": [
                     {
                         "name": "A Room Without Books (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["$leveling:59"],
+                        "visibility_rules": ["fatesanity, level_cap:59"],
                         "item_count": 1
                     }
                 ],
@@ -433,8 +437,8 @@
                 "sections": [
                     {
                         "name": "Curiously Strong Things (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["$leveling:59"],
+                        "visibility_rules": ["fatesanity, level_cap:59"],
                         "item_count": 1
                     }
                 ],
@@ -458,8 +462,8 @@
                 "sections": [
                     {
                         "name": "Do Spinners Dream of Electric Rooks (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["$leveling:59"],
+                        "visibility_rules": ["fatesanity, level_cap:59"],
                         "item_count": 1
                     }
                 ],
@@ -483,8 +487,8 @@
                 "sections": [
                     {
                         "name": "Harvest Moon (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["$leveling:59"],
+                        "visibility_rules": ["fatesanity, level_cap:59"],
                         "item_count": 1
                     }
                 ],
@@ -508,8 +512,8 @@
                 "sections": [
                     {
                         "name": "Life of Brain (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["$leveling:59"],
+                        "visibility_rules": ["fatesanity, level_cap:59"],
                         "item_count": 1
                     }
                 ],
@@ -533,8 +537,8 @@
                 "sections": [
                     {
                         "name": "No Greater Goryshche (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["$leveling:59"],
+                        "visibility_rules": ["fatesanity, level_cap:59"],
                         "item_count": 1
                     }
                 ],
@@ -558,8 +562,8 @@
                 "sections": [
                     {
                         "name": "Out of Sight Out of Mind (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["$leveling:59"],
+                        "visibility_rules": ["fatesanity, level_cap:59"],
                         "item_count": 1
                     }
                 ],
@@ -583,8 +587,8 @@
                 "sections": [
                     {
                         "name": "Pet Smart (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["$leveling:59"],
+                        "visibility_rules": ["fatesanity, level_cap:59"],
                         "item_count": 1
                     }
                 ],
@@ -608,8 +612,8 @@
                 "sections": [
                     {
                         "name": "Phi Slamma Gamma East (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["$leveling:59"],
+                        "visibility_rules": ["fatesanity, level_cap:59"],
                         "item_count": 1
                     }
                 ],
@@ -633,8 +637,8 @@
                 "sections": [
                     {
                         "name": "Phi Slamma Gamma South (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["$leveling:59"],
+                        "visibility_rules": ["fatesanity, level_cap:59"],
                         "item_count": 1
                     }
                 ],
@@ -658,8 +662,8 @@
                 "sections": [
                     {
                         "name": "Phi Slamma Gamma West (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["$leveling:59"],
+                        "visibility_rules": ["fatesanity, level_cap:59"],
                         "item_count": 1
                     }
                 ],
@@ -683,8 +687,8 @@
                 "sections": [
                     {
                         "name": "Prey Online (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["$leveling:59"],
+                        "visibility_rules": ["fatesanity, level_cap:59"],
                         "item_count": 1
                     }
                 ],
@@ -708,8 +712,8 @@
                 "sections": [
                     {
                         "name": "Put the Knives Down (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["$leveling:59"],
+                        "visibility_rules": ["fatesanity, level_cap:59"],
                         "item_count": 1
                     }
                 ],
@@ -733,8 +737,8 @@
                 "sections": [
                     {
                         "name": "Rampant Speculation (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["$leveling:59"],
+                        "visibility_rules": ["fatesanity, level_cap:59"],
                         "item_count": 1
                     }
                 ],
@@ -758,8 +762,8 @@
                 "sections": [
                     {
                         "name": "Scared Sylla (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["$leveling:59"],
+                        "visibility_rules": ["fatesanity, level_cap:59"],
                         "item_count": 1
                     }
                 ],
@@ -783,8 +787,8 @@
                 "sections": [
                     {
                         "name": "Still Ticking (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["$leveling:59"],
+                        "visibility_rules": ["fatesanity, level_cap:59"],
                         "item_count": 1
                     }
                 ],
@@ -808,8 +812,8 @@
                 "sections": [
                     {
                         "name": "The Late Escape (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["$leveling:59"],
+                        "visibility_rules": ["fatesanity, level_cap:59"],
                         "item_count": 1
                     }
                 ],
@@ -833,8 +837,8 @@
                 "sections": [
                     {
                         "name": "The Monster Mass (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["$leveling:59"],
+                        "visibility_rules": ["fatesanity, level_cap:59"],
                         "item_count": 1
                     }
                 ],
@@ -858,8 +862,8 @@
                 "sections": [
                     {
                         "name": "The Mystery Machine (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["$leveling:59"],
+                        "visibility_rules": ["fatesanity, level_cap:59"],
                         "item_count": 1
                     }
                 ],
@@ -883,8 +887,8 @@
                 "sections": [
                     {
                         "name": "The Root of Evil (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["$leveling:59"],
+                        "visibility_rules": ["fatesanity, level_cap:59"],
                         "item_count": 1
                     }
                 ],
@@ -908,8 +912,8 @@
                 "sections": [
                     {
                         "name": "Yak it Up (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["$leveling:59"],
+                        "visibility_rules": ["fatesanity, level_cap:59"],
                         "item_count": 1
                     }
                 ],
