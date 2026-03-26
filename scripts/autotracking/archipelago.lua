@@ -188,7 +188,7 @@ function processYaml(slot_data)
         Tracker:FindObjectForCode("include_guildhests").Active = slot_data["include_guildhests"] == 1
 
      --Exclude Duty Check
-        ExcludedDuties = slot_data["excluded_duties"]
+        ExcludedDuties = slot_data["skipped_duties"]
     end
 
 
