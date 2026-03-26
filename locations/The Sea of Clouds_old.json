@@ -16,7 +16,7 @@
                 "access_rules": [
                     "$leveling:60"
                 ],
-                "visibility_rules": [
+                "visibility_rules":[
                     "level_cap:60, duty_difficulty_normal, $duty_visibility|Neverreap"
                 ],
                 "sections": [
@@ -29,83 +29,64 @@
                     {
                         "name": "Neverreap 2",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:1"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:1"],
                         "item_count": 1
                     },
                     {
                         "name": "Neverreap 3",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:2"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:2"],
                         "item_count": 1
                     },
                     {
                         "name": "Neverreap 4",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:3"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:3"],
                         "item_count": 1
                     },
                     {
                         "name": "Neverreap 5",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:4"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:4"],
                         "item_count": 1
                     },
                     {
                         "name": "Neverreap 6",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:5"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:5"],
                         "item_count": 1
                     },
                     {
                         "name": "Neverreap 7",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:6"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:6"],
                         "item_count": 1
                     },
                     {
                         "name": "Neverreap 8",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:7"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:7"],
                         "item_count": 1
                     },
                     {
                         "name": "Neverreap 9",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:8"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:8"],
                         "item_count": 1
                     },
                     {
                         "name": "Neverreap 10",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:9"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:9"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "The Sea of Clouds",
-                        "x": 1865,
-                        "y": 295,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 608,
+                        "y": 1120,
+                        "size": 6
                     }
                 ]
             },
@@ -117,7 +98,7 @@
                 "access_rules": [
                     "$leveling:57"
                 ],
-                "visibility_rules": [
+                "visibility_rules":[
                     "level_cap:57, duty_difficulty_normal, $duty_visibility|The Limitless Blue (Hard)"
                 ],
                 "sections": [
@@ -131,10 +112,9 @@
                 "map_locations": [
                     {
                         "map": "The Sea of Clouds",
-                        "x": 887,
-                        "y": 518,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 2327,
+                        "y": 1813,
+                        "size": 6
                     }
                 ]
             },
@@ -146,7 +126,7 @@
                 "access_rules": [
                     "$leveling:60"
                 ],
-                "visibility_rules": [
+                "visibility_rules":[
                     "level_cap:60, duty_difficulty_ex, $duty_visibility|The Limitless Blue (Hard)"
                 ],
                 "sections": [
@@ -160,10 +140,9 @@
                 "map_locations": [
                     {
                         "map": "The Sea of Clouds",
-                        "x": 1372,
-                        "y": 1265,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1197,
+                        "y": 2223,
+                        "size": 6
                     }
                 ]
             },
@@ -175,7 +154,7 @@
                 "access_rules": [
                     "$leveling:60"
                 ],
-                "visibility_rules": [
+                "visibility_rules":[
                     "level_cap:60, duty_difficulty_normal, $duty_visibility|The Void Ark"
                 ],
                 "sections": [
@@ -189,10 +168,9 @@
                 "map_locations": [
                     {
                         "map": "The Sea of Clouds",
-                        "x": 1173,
-                        "y": 196,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1237,
+                        "y": 119,
+                        "size": 6
                     }
                 ]
             },
@@ -207,32 +185,23 @@
                 "sections": [
                     {
                         "name": "The Weeping City of Mhach",
-                        "access_rules": [
-                            "$leveling:60"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:60, duty_difficulty_normal, $duty_visibility|The Weeping City of Mhach"
-                        ],
+                        "access_rules": ["$leveling:60"],
+                        "visibility_rules": ["level_cap:60, duty_difficulty_normal, $duty_visibility|The Weeping City of Mhach"],
                         "item_count": 1
                     },
                     {
                         "name": "Dun Scaith",
-                        "access_rules": [
-                            "$leveling:60"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:60, duty_difficulty_normal, $duty_visibility|Dun Scaith"
-                        ],
+                        "access_rules": ["$leveling:60"],
+                        "visibility_rules": ["level_cap:60, duty_difficulty_normal, $duty_visibility|Dun Scaith"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "The Sea of Clouds",
-                        "x": 255,
-                        "y": 228,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 95,
+                        "y": 1789,
+                        "size": 6
                     }
                 ]
             },
@@ -244,98 +213,75 @@
                 "access_rules": [
                     "$leveling:50"
                 ],
-                "visibility_rules": [
-                    "$fatesanity_disabled, level_cap:50"
-                ],
+                "visibility_rules": ["$fatesanity_disabled, level_cap:50"],
                 "sections": [
                     {
                         "name": "FATE #1",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "fates_per_zone:1"
-                        ],
+                        "visibility_rules": ["fates_per_zone:1"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #2",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "fates_per_zone:2"
-                        ],
+                        "visibility_rules": ["fates_per_zone:2"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #3",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "fates_per_zone:3"
-                        ],
+                        "visibility_rules": ["fates_per_zone:3"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #4",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "fates_per_zone:4"
-                        ],
+                        "visibility_rules": ["fates_per_zone:4"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #5",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "fates_per_zone:5"
-                        ],
+                        "visibility_rules": ["fates_per_zone:5"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #6",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "fates_per_zone:6"
-                        ],
+                        "visibility_rules": ["fates_per_zone:6"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #7",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "fates_per_zone:7"
-                        ],
+                        "visibility_rules": ["fates_per_zone:7"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #8",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "fates_per_zone:8"
-                        ],
+                        "visibility_rules": ["fates_per_zone:8"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #9",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "fates_per_zone:9"
-                        ],
+                        "visibility_rules": ["fates_per_zone:9"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #10",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "fates_per_zone:10"
-                        ],
+                        "visibility_rules": ["fates_per_zone:10"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "The Sea of Clouds",
-                        "x": 712,
-                        "y": 105,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1692,
+                        "y": 338,
+                        "size": 6
                     }
                 ]
             },
@@ -350,22 +296,17 @@
                 "sections": [
                     {
                         "name": "A Long Way Down (FATE)",
-                        "access_rules": [
-                            "$leveling:50"
-                        ],
-                        "visibility_rules": [
-                            "fatesanity, level_cap:50"
-                        ],
+                        "access_rules": ["$leveling:50"],
+                        "visibility_rules": ["fatesanity, level_cap:50"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "The Sea of Clouds",
-                        "x": 1662,
-                        "y": 1532,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1108,
+                        "y": 243,
+                        "size": 6
                     }
                 ]
             },
@@ -380,22 +321,17 @@
                 "sections": [
                     {
                         "name": "Anzu Trois (FATE)",
-                        "access_rules": [
-                            "$leveling:50"
-                        ],
-                        "visibility_rules": [
-                            "fatesanity, level_cap:50"
-                        ],
+                        "access_rules": ["$leveling:50"],
+                        "visibility_rules": ["fatesanity, level_cap:50"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "The Sea of Clouds",
-                        "x": 1381,
-                        "y": 1716,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 2003,
+                        "y": 1504,
+                        "size": 6
                     }
                 ]
             },
@@ -410,22 +346,17 @@
                 "sections": [
                     {
                         "name": "Food Fight (FATE)",
-                        "access_rules": [
-                            "$leveling:50"
-                        ],
-                        "visibility_rules": [
-                            "fatesanity, level_cap:50"
-                        ],
+                        "access_rules": ["$leveling:50"],
+                        "visibility_rules": ["fatesanity, level_cap:50"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "The Sea of Clouds",
-                        "x": 1290,
-                        "y": 1521,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 2166,
+                        "y": 2043,
+                        "size": 6
                     }
                 ]
             },
@@ -440,22 +371,17 @@
                 "sections": [
                     {
                         "name": "Leech the Sky (FATE)",
-                        "access_rules": [
-                            "$leveling:50"
-                        ],
-                        "visibility_rules": [
-                            "fatesanity, level_cap:50"
-                        ],
+                        "access_rules": ["$leveling:50"],
+                        "visibility_rules": ["fatesanity, level_cap:50"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "The Sea of Clouds",
-                        "x": 1212,
-                        "y": 1713,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 210,
+                        "y": 827,
+                        "size": 6
                     }
                 ]
             },
@@ -470,22 +396,17 @@
                 "sections": [
                     {
                         "name": "Mint Condition (FATE)",
-                        "access_rules": [
-                            "$leveling:50"
-                        ],
-                        "visibility_rules": [
-                            "fatesanity, level_cap:50"
-                        ],
+                        "access_rules": ["$leveling:50"],
+                        "visibility_rules": ["fatesanity, level_cap:50"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "The Sea of Clouds",
-                        "x": 675,
-                        "y": 1749,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1850,
+                        "y": 501,
+                        "size": 6
                     }
                 ]
             },
@@ -500,22 +421,17 @@
                 "sections": [
                     {
                         "name": "One Turned Over the Cloudkins Nest (FATE)",
-                        "access_rules": [
-                            "$leveling:50"
-                        ],
-                        "visibility_rules": [
-                            "fatesanity, level_cap:50"
-                        ],
+                        "access_rules": ["$leveling:50"],
+                        "visibility_rules": ["fatesanity, level_cap:50"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "The Sea of Clouds",
-                        "x": 983,
-                        "y": 1551,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1204,
+                        "y": 215,
+                        "size": 6
                     }
                 ]
             },
@@ -530,22 +446,17 @@
                 "sections": [
                     {
                         "name": "Saved the Nests for Last (FATE)",
-                        "access_rules": [
-                            "$leveling:50"
-                        ],
-                        "visibility_rules": [
-                            "fatesanity, level_cap:50"
-                        ],
+                        "access_rules": ["$leveling:50"],
+                        "visibility_rules": ["fatesanity, level_cap:50"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "The Sea of Clouds",
-                        "x": 933,
-                        "y": 1548,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 168,
+                        "y": 1640,
+                        "size": 6
                     }
                 ]
             },
@@ -560,22 +471,17 @@
                 "sections": [
                     {
                         "name": "This Is How We Gundu (FATE)",
-                        "access_rules": [
-                            "$leveling:50"
-                        ],
-                        "visibility_rules": [
-                            "fatesanity, level_cap:50"
-                        ],
+                        "access_rules": ["$leveling:50"],
+                        "visibility_rules": ["fatesanity, level_cap:50"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "The Sea of Clouds",
-                        "x": 1581,
-                        "y": 1417,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1703,
+                        "y": 1591,
+                        "size": 6
                     }
                 ]
             },
@@ -590,22 +496,17 @@
                 "sections": [
                     {
                         "name": "Youth Must Be Severed (FATE)",
-                        "access_rules": [
-                            "$leveling:50"
-                        ],
-                        "visibility_rules": [
-                            "fatesanity, level_cap:50"
-                        ],
+                        "access_rules": ["$leveling:50"],
+                        "visibility_rules": ["fatesanity, level_cap:50"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "The Sea of Clouds",
-                        "x": 1403,
-                        "y": 1408,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1783,
+                        "y": 1225,
+                        "size": 6
                     }
                 ]
             },
@@ -620,22 +521,17 @@
                 "sections": [
                     {
                         "name": "Bones (FATE)",
-                        "access_rules": [
-                            "$leveling:57"
-                        ],
-                        "visibility_rules": [
-                            "fatesanity, level_cap:57"
-                        ],
+                        "access_rules": ["$leveling:57"],
+                        "visibility_rules": ["fatesanity, level_cap:57"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "The Sea of Clouds",
-                        "x": 1100,
-                        "y": 897,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1961,
+                        "y": 1683,
+                        "size": 6
                     }
                 ]
             },
@@ -650,22 +546,17 @@
                 "sections": [
                     {
                         "name": "Come to My Window (FATE)",
-                        "access_rules": [
-                            "$leveling:57"
-                        ],
-                        "visibility_rules": [
-                            "fatesanity, level_cap:57"
-                        ],
+                        "access_rules": ["$leveling:57"],
+                        "visibility_rules": ["fatesanity, level_cap:57"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "The Sea of Clouds",
-                        "x": 278,
-                        "y": 957,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 2489,
+                        "y": 596,
+                        "size": 6
                     }
                 ]
             },
@@ -680,22 +571,17 @@
                 "sections": [
                     {
                         "name": "Hearts Like Steel Fists Like Thunder (FATE)",
-                        "access_rules": [
-                            "$leveling:57"
-                        ],
-                        "visibility_rules": [
-                            "fatesanity, level_cap:57"
-                        ],
+                        "access_rules": ["$leveling:57"],
+                        "visibility_rules": ["fatesanity, level_cap:57"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "The Sea of Clouds",
-                        "x": 1400,
-                        "y": 645,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1156,
+                        "y": 2461,
+                        "size": 6
                     }
                 ]
             },
@@ -710,22 +596,17 @@
                 "sections": [
                     {
                         "name": "Leather and Mace (FATE)",
-                        "access_rules": [
-                            "$leveling:57"
-                        ],
-                        "visibility_rules": [
-                            "fatesanity, level_cap:57"
-                        ],
+                        "access_rules": ["$leveling:57"],
+                        "visibility_rules": ["fatesanity, level_cap:57"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "The Sea of Clouds",
-                        "x": 1204,
-                        "y": 417,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 102,
+                        "y": 971,
+                        "size": 6
                     }
                 ]
             },
@@ -740,22 +621,17 @@
                 "sections": [
                     {
                         "name": "Obey their Thirst (FATE)",
-                        "access_rules": [
-                            "$leveling:57"
-                        ],
-                        "visibility_rules": [
-                            "fatesanity, level_cap:57"
-                        ],
+                        "access_rules": ["$leveling:57"],
+                        "visibility_rules": ["fatesanity, level_cap:57"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "The Sea of Clouds",
-                        "x": 468,
-                        "y": 820,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 359,
+                        "y": 52,
+                        "size": 6
                     }
                 ]
             },
@@ -770,22 +646,17 @@
                 "sections": [
                     {
                         "name": "On Dangerous Ground (FATE)",
-                        "access_rules": [
-                            "$leveling:57"
-                        ],
-                        "visibility_rules": [
-                            "fatesanity, level_cap:57"
-                        ],
+                        "access_rules": ["$leveling:57"],
+                        "visibility_rules": ["fatesanity, level_cap:57"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "The Sea of Clouds",
-                        "x": 991,
-                        "y": 544,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1349,
+                        "y": 153,
+                        "size": 6
                     }
                 ]
             },
@@ -800,22 +671,17 @@
                 "sections": [
                     {
                         "name": "The Fugitive (FATE)",
-                        "access_rules": [
-                            "$leveling:57"
-                        ],
-                        "visibility_rules": [
-                            "fatesanity, level_cap:57"
-                        ],
+                        "access_rules": ["$leveling:57"],
+                        "visibility_rules": ["fatesanity, level_cap:57"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "The Sea of Clouds",
-                        "x": 1311,
-                        "y": 426,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 316,
+                        "y": 371,
+                        "size": 6
                     }
                 ]
             },
@@ -830,22 +696,17 @@
                 "sections": [
                     {
                         "name": "Zuns on the Run (FATE)",
-                        "access_rules": [
-                            "$leveling:57"
-                        ],
-                        "visibility_rules": [
-                            "fatesanity, level_cap:57"
-                        ],
+                        "access_rules": ["$leveling:57"],
+                        "visibility_rules": ["fatesanity, level_cap:57"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "The Sea of Clouds",
-                        "x": 770,
-                        "y": 393,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 2269,
+                        "y": 1453,
+                        "size": 6
                     }
                 ]
             },
@@ -860,22 +721,17 @@
                 "sections": [
                     {
                         "name": "A Disturbing Lack of Faith (FATE)",
-                        "access_rules": [
-                            "$leveling:59"
-                        ],
-                        "visibility_rules": [
-                            "fatesanity, level_cap:59"
-                        ],
+                        "access_rules": ["$leveling:59"],
+                        "visibility_rules": ["fatesanity, level_cap:59"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "The Sea of Clouds",
-                        "x": 950,
-                        "y": 1030,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 2344,
+                        "y": 2244,
+                        "size": 6
                     }
                 ]
             },
@@ -890,22 +746,17 @@
                 "sections": [
                     {
                         "name": "A Dream Perchance to Eat (FATE)",
-                        "access_rules": [
-                            "$leveling:59"
-                        ],
-                        "visibility_rules": [
-                            "fatesanity, level_cap:59"
-                        ],
+                        "access_rules": ["$leveling:59"],
+                        "visibility_rules": ["fatesanity, level_cap:59"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "The Sea of Clouds",
-                        "x": 985,
-                        "y": 231,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 786,
+                        "y": 634,
+                        "size": 6
                     }
                 ]
             },
@@ -920,22 +771,17 @@
                 "sections": [
                     {
                         "name": "Bismarcking Time (FATE)",
-                        "access_rules": [
-                            "$leveling:59"
-                        ],
-                        "visibility_rules": [
-                            "fatesanity, level_cap:59"
-                        ],
+                        "access_rules": ["$leveling:59"],
+                        "visibility_rules": ["fatesanity, level_cap:59"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "The Sea of Clouds",
-                        "x": 927,
-                        "y": 1070,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 2294,
+                        "y": 1529,
+                        "size": 6
                     }
                 ]
             },
@@ -950,22 +796,17 @@
                 "sections": [
                     {
                         "name": "Guano a Mano (FATE)",
-                        "access_rules": [
-                            "$leveling:59"
-                        ],
-                        "visibility_rules": [
-                            "fatesanity, level_cap:59"
-                        ],
+                        "access_rules": ["$leveling:59"],
+                        "visibility_rules": ["fatesanity, level_cap:59"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "The Sea of Clouds",
-                        "x": 1686,
-                        "y": 1724,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1137,
+                        "y": 815,
+                        "size": 6
                     }
                 ]
             },
@@ -980,22 +821,17 @@
                 "sections": [
                     {
                         "name": "Let There Be Acolytes (FATE)",
-                        "access_rules": [
-                            "$leveling:59"
-                        ],
-                        "visibility_rules": [
-                            "fatesanity, level_cap:59"
-                        ],
+                        "access_rules": ["$leveling:59"],
+                        "visibility_rules": ["fatesanity, level_cap:59"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "The Sea of Clouds",
-                        "x": 908,
-                        "y": 1031,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 57,
+                        "y": 953,
+                        "size": 6
                     }
                 ]
             },
@@ -1010,22 +846,17 @@
                 "sections": [
                     {
                         "name": "Rebel Yehl (FATE)",
-                        "access_rules": [
-                            "$leveling:59"
-                        ],
-                        "visibility_rules": [
-                            "fatesanity, level_cap:59"
-                        ],
+                        "access_rules": ["$leveling:59"],
+                        "visibility_rules": ["fatesanity, level_cap:59"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "The Sea of Clouds",
-                        "x": 1753,
-                        "y": 634,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 907,
+                        "y": 1327,
+                        "size": 6
                     }
                 ]
             },
@@ -1040,22 +871,17 @@
                 "sections": [
                     {
                         "name": "The Sound of Madness (FATE)",
-                        "access_rules": [
-                            "$leveling:59"
-                        ],
-                        "visibility_rules": [
-                            "fatesanity, level_cap:59"
-                        ],
+                        "access_rules": ["$leveling:59"],
+                        "visibility_rules": ["fatesanity, level_cap:59"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "The Sea of Clouds",
-                        "x": 454,
-                        "y": 1184,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1957,
+                        "y": 1937,
+                        "size": 6
                     }
                 ]
             },
@@ -1070,22 +896,17 @@
                 "sections": [
                     {
                         "name": "You Eat What You Arent (FATE)",
-                        "access_rules": [
-                            "$leveling:59"
-                        ],
-                        "visibility_rules": [
-                            "fatesanity, level_cap:59"
-                        ],
+                        "access_rules": ["$leveling:59"],
+                        "visibility_rules": ["fatesanity, level_cap:59"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "The Sea of Clouds",
-                        "x": 1668,
-                        "y": 382,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 422,
+                        "y": 571,
+                        "size": 6
                     }
                 ]
             },
@@ -1103,74 +924,53 @@
                 "sections": [
                     {
                         "name": "Starflower",
-                        "access_rules": [
-                            "redballoon"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_timed"
-                        ],
+                        "access_rules": ["redballoon"],
+                        "visibility_rules": ["fishsanity_timed"],
                         "item_count": 1
                     },
                     {
                         "name": "Mahu Wai",
-                        "access_rules": [
-                            "redballoon"
-                        ],
+                        "access_rules": ["redballoon"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Buoyant Oviform",
-                        "access_rules": [
-                            "redballoon"
-                        ],
+                        "access_rules": ["redballoon"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Blue Cloud Coral",
-                        "access_rules": [
-                            "redballoon"
-                        ],
+                        "access_rules": ["redballoon"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Mitre Slug",
-                        "access_rules": [
-                            "redballoon"
-                        ],
+                        "access_rules": ["redballoon"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Fleece Stingray",
-                        "access_rules": [
-                            "giantcranefly"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_timed"
-                        ],
+                        "access_rules": ["giantcranefly"],
+                        "visibility_rules": ["fishsanity_timed"],
                         "item_count": 1
                     },
                     {
                         "name": "Cirrostratus",
-                        "access_rules": [
-                            "giantcranefly"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_big"
-                        ],
+                        "access_rules": ["giantcranefly"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "The Sea of Clouds",
-                        "x": 652,
-                        "y": 1795,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1703,
+                        "y": 601,
+                        "size": 6
                     }
                 ]
             },
@@ -1188,83 +988,59 @@
                 "sections": [
                     {
                         "name": "Starflower",
-                        "access_rules": [
-                            "redballoon"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_timed"
-                        ],
+                        "access_rules": ["redballoon"],
+                        "visibility_rules": ["fishsanity_timed"],
                         "item_count": 1
                     },
                     {
                         "name": "Sky Faerie",
-                        "access_rules": [
-                            "redballoon",
-                            "metalspinner"
-                        ],
+                        "access_rules": ["redballoon", "metalspinner"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Scorpionfly",
-                        "access_rules": [
-                            "metalspinner"
-                        ],
+                        "access_rules": ["metalspinner"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Moogle Spirit",
-                        "access_rules": [
-                            "giantcranefly"
-                        ],
+                        "access_rules": ["giantcranefly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Vampiric Tapestry",
-                        "access_rules": [
-                            "giantcranefly"
-                        ],
+                        "access_rules": ["giantcranefly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Heavens Coral",
-                        "access_rules": [
-                            "giantcranefly"
-                        ],
+                        "access_rules": ["giantcranefly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Basking Shark",
-                        "access_rules": [
-                            "metalspinner"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_big"
-                        ],
+                        "access_rules": ["metalspinner"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     },
                     {
                         "name": "Sea Butterfly",
-                        "access_rules": [
-                            "giantcranefly"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_big"
-                        ],
+                        "access_rules": ["giantcranefly"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "The Sea of Clouds",
-                        "x": 712,
-                        "y": 210,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 359,
+                        "y": 2479,
+                        "size": 6
                     }
                 ]
             },
@@ -1282,72 +1058,49 @@
                 "sections": [
                     {
                         "name": "Maiboi",
-                        "access_rules": [
-                            "stoneflynymph"
-                        ],
+                        "access_rules": ["stoneflynymph"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Bullfrog",
-                        "access_rules": [
-                            "bladedsteeljig"
-                        ],
+                        "access_rules": ["bladedsteeljig"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Cloudfish",
-                        "access_rules": [
-                            "stoneflynymph"
-                        ],
+                        "access_rules": ["stoneflynymph"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Bubble Eye",
-                        "access_rules": [
-                            "bruteleech"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_timed"
-                        ],
+                        "access_rules": ["bruteleech"],
+                        "visibility_rules": ["fishsanity_timed"],
                         "item_count": 1
                     },
                     {
                         "name": "Hedgemole Cricket",
-                        "access_rules": [
-                            "metalspinner",
-                            "stoneflynymph"
-                        ],
+                        "access_rules": ["metalspinner", "stoneflynymph"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Caiman",
-                        "access_rules": [
-                            "bladedsteeljig"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_timed"
-                        ],
+                        "access_rules": ["bladedsteeljig"],
+                        "visibility_rules": ["fishsanity_timed"],
                         "item_count": 1
                     },
                     {
                         "name": "Inkfish",
-                        "access_rules": [
-                            "bruteleech"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_big"
-                        ],
+                        "access_rules": ["bruteleech"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     },
                     {
                         "name": "Cloud Kelp",
-                        "access_rules": [
-                            "metalspinner"
-                        ],
+                        "access_rules": ["metalspinner"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -1355,10 +1108,9 @@
                 "map_locations": [
                     {
                         "map": "The Sea of Clouds",
-                        "x": 1310,
-                        "y": 1672,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 285,
+                        "y": 1084,
+                        "size": 6
                     }
                 ]
             },
@@ -1376,83 +1128,59 @@
                 "sections": [
                     {
                         "name": "Bullfrog",
-                        "access_rules": [
-                            "bladedsteeljig"
-                        ],
+                        "access_rules": ["bladedsteeljig"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Cloudfish",
-                        "access_rules": [
-                            "stoneflynymph"
-                        ],
+                        "access_rules": ["stoneflynymph"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Vanuhead",
-                        "access_rules": [
-                            "bladedsteeljig"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_timed"
-                        ],
+                        "access_rules": ["bladedsteeljig"],
+                        "visibility_rules": ["fishsanity_timed"],
                         "item_count": 1
                     },
                     {
                         "name": "Hedgemole Cricket",
-                        "access_rules": [
-                            "metalspinner",
-                            "stoneflynymph"
-                        ],
+                        "access_rules": ["metalspinner", "stoneflynymph"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Yalm Lobster",
-                        "access_rules": [
-                            "bruteleech"
-                        ],
+                        "access_rules": ["bruteleech"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Catkiller",
-                        "access_rules": [
-                            "bruteleech"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_timed"
-                        ],
+                        "access_rules": ["bruteleech"],
+                        "visibility_rules": ["fishsanity_timed"],
                         "item_count": 1
                     },
                     {
                         "name": "Red Sky Coral",
-                        "access_rules": [
-                            "metalspinner"
-                        ],
+                        "access_rules": ["metalspinner"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Paikiller",
-                        "access_rules": [
-                            "bladedsteeljig"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_big"
-                        ],
+                        "access_rules": ["bladedsteeljig"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "The Sea of Clouds",
-                        "x": 1433,
-                        "y": 1834,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 256,
+                        "y": 2188,
+                        "size": 6
                     }
                 ]
             },
@@ -1470,78 +1198,55 @@
                 "sections": [
                     {
                         "name": "Buoyant Oviform",
-                        "access_rules": [
-                            "redballoon"
-                        ],
+                        "access_rules": ["redballoon"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Whiteloom",
-                        "access_rules": [
-                            "redballoon"
-                        ],
+                        "access_rules": ["redballoon"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Storm Core",
-                        "access_rules": [
-                            "redballoon"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_timed"
-                        ],
+                        "access_rules": ["redballoon"],
+                        "visibility_rules": ["fishsanity_timed"],
                         "item_count": 1
                     },
                     {
                         "name": "Sky Faerie",
-                        "access_rules": [
-                            "redballoon",
-                            "metalspinner"
-                        ],
+                        "access_rules": ["redballoon", "metalspinner"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Sky Sweeper",
-                        "access_rules": [
-                            "redballoon"
-                        ],
+                        "access_rules": ["redballoon"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Tornado Shark",
-                        "access_rules": [
-                            "giantcranefly"
-                        ],
+                        "access_rules": ["giantcranefly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Winged Gurnard",
-                        "access_rules": [
-                            "giantcranefly"
-                        ],
+                        "access_rules": ["giantcranefly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "The Second One",
-                        "access_rules": [
-                            "giantcranefly"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_big"
-                        ],
+                        "access_rules": ["giantcranefly"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     },
                     {
                         "name": "Cloudweed",
-                        "access_rules": [
-                            "metalspinner"
-                        ],
+                        "access_rules": ["metalspinner"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -1549,10 +1254,9 @@
                 "map_locations": [
                     {
                         "map": "The Sea of Clouds",
-                        "x": 350,
-                        "y": 560,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1857,
+                        "y": 1382,
+                        "size": 6
                     }
                 ]
             }

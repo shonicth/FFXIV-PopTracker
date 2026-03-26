@@ -16,7 +16,7 @@
                 "access_rules": [
                     "$leveling:55"
                 ],
-                "visibility_rules": [
+                "visibility_rules":[
                     "level_cap:55, duty_difficulty_normal, $duty_visibility|The Aery"
                 ],
                 "sections": [
@@ -29,83 +29,64 @@
                     {
                         "name": "The Aery 2",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:1"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:1"],
                         "item_count": 1
                     },
                     {
                         "name": "The Aery 3",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:2"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:2"],
                         "item_count": 1
                     },
                     {
                         "name": "The Aery 4",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:3"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:3"],
                         "item_count": 1
                     },
                     {
                         "name": "The Aery 5",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:4"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:4"],
                         "item_count": 1
                     },
                     {
                         "name": "The Aery 6",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:5"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:5"],
                         "item_count": 1
                     },
                     {
                         "name": "The Aery 7",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:6"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:6"],
                         "item_count": 1
                     },
                     {
                         "name": "The Aery 8",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:7"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:7"],
                         "item_count": 1
                     },
                     {
                         "name": "The Aery 9",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:8"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:8"],
                         "item_count": 1
                     },
                     {
                         "name": "The Aery 10",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:9"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:9"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Foundation",
-                        "x": 626,
-                        "y": 921,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1928,
+                        "y": 729,
+                        "size": 6
                     }
                 ]
             },
@@ -121,27 +102,22 @@
                     {
                         "name": "The Final Steps of Faith",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "level_cap:60, duty_difficulty_normal, $duty_visibility|The Final Steps of Faith"
-                        ],
+                        "visibility_rules": ["level_cap:60, duty_difficulty_normal, $duty_visibility|The Final Steps of Faith"],
                         "item_count": 1
                     },
                     {
                         "name": "The Minstrels Ballad Nidhoggs Rage",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "level_cap:60, duty_difficulty_ex, $duty_visibility|The Minstrels Ballad Nidhoggs Rage"
-                        ],
+                        "visibility_rules": ["level_cap:60, duty_difficulty_ex, $duty_visibility|The Minstrels Ballad Nidhoggs Rage"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Foundation",
-                        "x": 1025,
-                        "y": 1351,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1526,
+                        "y": 119,
+                        "size": 6
                     }
                 ]
             },
@@ -156,52 +132,41 @@
                 "sections": [
                     {
                         "name": "A Twist of Fete (FETE)",
-                        "access_rules": ["5crplevels:5", "5bsmlevels:1", "5armlevels:1", "5gsmlevels:1", "5ltwlevels:1", "5wvrlevels:1", "5alclevels:1", "5cullevels:1", "5minlevels:1", "5btnlevels:1", "5cfshlevels:1"],
-                        "visibility_rules": [
-                            "fatesanity"
-                        ],
+                        "access_rules": [],
+                        "visibility_rules": ["fatesanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Made of Softer Stuff (FETE)",
-                        "access_rules": ["5crplevels:5", "5bsmlevels:1", "5armlevels:1", "5gsmlevels:1", "5ltwlevels:1", "5wvrlevels:1", "5alclevels:1", "5cullevels:1", "5minlevels:1", "5btnlevels:1", "5cfshlevels:1"],
-                        "visibility_rules": [
-                            "fatesanity"
-                        ],
+                        "access_rules": [],
+                        "visibility_rules": ["fatesanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Shear-a-Yak (FETE)",
-                        "access_rules": ["5crplevels:5", "5bsmlevels:1", "5armlevels:1", "5gsmlevels:1", "5ltwlevels:1", "5wvrlevels:1", "5alclevels:1", "5cullevels:1", "5minlevels:1", "5btnlevels:1", "5cfshlevels:1"],
-                        "visibility_rules": [
-                            "fatesanity"
-                        ],
+                        "access_rules": [],
+                        "visibility_rules": ["fatesanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Toy Hunter (FETE)",
-                        "access_rules": ["5crplevels:5", "5bsmlevels:1", "5armlevels:1", "5gsmlevels:1", "5ltwlevels:1", "5wvrlevels:1", "5alclevels:1", "5cullevels:1", "5minlevels:1", "5btnlevels:1", "5cfshlevels:1"],
-                        "visibility_rules": [
-                            "fatesanity"
-                        ],
+                        "access_rules": [],
+                        "visibility_rules": ["fatesanity"],
                         "item_count": 1
                     },
                     {
                         "name": "Presents of Mind (FETE)",
-                        "access_rules": ["5crplevels:5", "5bsmlevels:1", "5armlevels:1", "5gsmlevels:1", "5ltwlevels:1", "5wvrlevels:1", "5alclevels:1", "5cullevels:1", "5minlevels:1", "5btnlevels:1", "5cfshlevels:1"],
-                        "visibility_rules": [
-                            "fatesanity"
-                        ],
+                        "access_rules": [],
+                        "visibility_rules": ["fatesanity"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Foundation",
-                        "x": 1286,
-                        "y": 1182,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 572,
+                        "y": 174,
+                        "size": 6
                     }
                 ]
             }

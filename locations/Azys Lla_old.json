@@ -16,114 +16,89 @@
                 "access_rules": [
                     "$leveling:60"
                 ],
-                "visibility_rules": [
+                "visibility_rules":[
                     "level_cap:60, duty_difficulty_normal"
                 ],
                 "sections": [
                     {
                         "name": "The Aetherochemical Research Facility",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "$duty_visibility|The Aetherochemical Research Facility, extra_dungeon_checks:1"
-                        ],
+                        "visibility_rules": ["$duty_visibility|The Aetherochemical Research Facility, extra_dungeon_checks:1"],
                         "item_count": 1
                     },
                     {
                         "name": "The Singularity Reactor",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "$duty_visibility|The Singularity Reactor"
-                        ],
+                        "visibility_rules": ["$duty_visibility|The Singularity Reactor"],
                         "item_count": 1
                     },
                     {
                         "name": "The Minstrels Ballad Thordans Reign",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "duty_difficulty_ex, $duty_visibility|The Minstrels Ballad Thordans Reign"
-                        ],
+                        "visibility_rules": ["duty_difficulty_ex, $duty_visibility|The Minstrels Ballad Thordans Reign"],
                         "item_count": 1
                     },
                     {
                         "name": "The Aetherochemical Research Facility 2",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "$duty_visibility|The Aetherochemical Research Facility, extra_dungeon_checks:1"
-                        ],
+                        "visibility_rules": ["$duty_visibility|The Aetherochemical Research Facility, extra_dungeon_checks:1"],
                         "item_count": 1
                     },
                     {
                         "name": "The Aetherochemical Research Facility 3",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "$duty_visibility|The Aetherochemical Research Facility, extra_dungeon_checks:2"
-                        ],
+                        "visibility_rules": ["$duty_visibility|The Aetherochemical Research Facility, extra_dungeon_checks:2"],
                         "item_count": 1
                     },
                     {
                         "name": "The Aetherochemical Research Facility 4",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "$duty_visibility|The Aetherochemical Research Facility, extra_dungeon_checks:3"
-                        ],
+                        "visibility_rules": ["$duty_visibility|The Aetherochemical Research Facility, extra_dungeon_checks:3"],
                         "item_count": 1
                     },
                     {
                         "name": "The Aetherochemical Research Facility 5",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "$duty_visibility|The Aetherochemical Research Facility, extra_dungeon_checks:4"
-                        ],
+                        "visibility_rules": ["$duty_visibility|The Aetherochemical Research Facility, extra_dungeon_checks:4"],
                         "item_count": 1
                     },
                     {
                         "name": "The Aetherochemical Research Facility 6",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "$duty_visibility|The Aetherochemical Research Facility, extra_dungeon_checks:5"
-                        ],
+                        "visibility_rules": ["$duty_visibility|The Aetherochemical Research Facility, extra_dungeon_checks:5"],
                         "item_count": 1
                     },
                     {
                         "name": "The Aetherochemical Research Facility 7",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "$duty_visibility|The Aetherochemical Research Facility, extra_dungeon_checks:6"
-                        ],
+                        "visibility_rules": ["$duty_visibility|The Aetherochemical Research Facility, extra_dungeon_checks:6"],
                         "item_count": 1
                     },
                     {
                         "name": "The Aetherochemical Research Facility 8",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "$duty_visibility|The Aetherochemical Research Facility, extra_dungeon_checks:7"
-                        ],
+                        "visibility_rules": ["$duty_visibility|The Aetherochemical Research Facility, extra_dungeon_checks:7"],
                         "item_count": 1
                     },
                     {
                         "name": "The Aetherochemical Research Facility 9",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "$duty_visibility|The Aetherochemical Research Facility, extra_dungeon_checks:8"
-                        ],
+                        "visibility_rules": ["$duty_visibility|The Aetherochemical Research Facility, extra_dungeon_checks:8"],
                         "item_count": 1
                     },
                     {
                         "name": "The Aetherochemical Research Facility 10",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "$duty_visibility|The Aetherochemical Research Facility, extra_dungeon_checks:9"
-                        ],
+                        "visibility_rules": ["$duty_visibility|The Aetherochemical Research Facility, extra_dungeon_checks:9"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Azys Lla",
-                        "x": 995,
-                        "y": 1027,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 2029,
+                        "y": 1745,
+                        "size": 6
                     }
                 ]
             },
@@ -138,212 +113,131 @@
                 "sections": [
                     {
                         "name": "The Fractal Continuum",
-                        "access_rules": [
-                            "$leveling:60"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:60, duty_difficulty_normal, $duty_visibility|The Fractal Continuum"
-                        ],
+                        "access_rules": ["$leveling:60"],
+                        "visibility_rules": ["level_cap:60, duty_difficulty_normal, $duty_visibility|The Fractal Continuum"],
                         "item_count": 1
                     },
                     {
                         "name": "The Fractal Continuum (Hard)",
-                        "access_rules": [
-                            "$leveling:70"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:70, duty_difficulty_normal, $duty_visibility|The Fractal Continuum (Hard)"
-                        ],
+                        "access_rules": ["$leveling:70"],
+                        "visibility_rules": ["level_cap:70, duty_difficulty_normal, $duty_visibility|The Fractal Continuum (Hard)"],
                         "item_count": 1
                     },
                     {
                         "name": "The Fractal Continuum 2",
-                        "access_rules": [
-                            "$leveling:60"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:60, duty_difficulty_normal, $duty_visibility|The Fractal Continuum, extra_dungeon_checks:1"
-                        ],
+                        "access_rules": ["$leveling:60"],
+                        "visibility_rules": ["level_cap:60, duty_difficulty_normal, $duty_visibility|The Fractal Continuum, extra_dungeon_checks:1"],
                         "item_count": 1
                     },
                     {
                         "name": "The Fractal Continuum 3",
-                        "access_rules": [
-                            "$leveling:60"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:60, duty_difficulty_normal, $duty_visibility|The Fractal Continuum, extra_dungeon_checks:2"
-                        ],
+                        "access_rules": ["$leveling:60"],
+                        "visibility_rules": ["level_cap:60, duty_difficulty_normal, $duty_visibility|The Fractal Continuum, extra_dungeon_checks:2"],
                         "item_count": 1
                     },
                     {
                         "name": "The Fractal Continuum 4",
-                        "access_rules": [
-                            "$leveling:60"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:60, duty_difficulty_normal, $duty_visibility|The Fractal Continuum, extra_dungeon_checks:3"
-                        ],
+                        "access_rules": ["$leveling:60"],
+                        "visibility_rules": ["level_cap:60, duty_difficulty_normal, $duty_visibility|The Fractal Continuum, extra_dungeon_checks:3"],
                         "item_count": 1
                     },
                     {
                         "name": "The Fractal Continuum 5",
-                        "access_rules": [
-                            "$leveling:60"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:60, duty_difficulty_normal, $duty_visibility|The Fractal Continuum, extra_dungeon_checks:4"
-                        ],
+                        "access_rules": ["$leveling:60"],
+                        "visibility_rules": ["level_cap:60, duty_difficulty_normal, $duty_visibility|The Fractal Continuum, extra_dungeon_checks:4"],
                         "item_count": 1
                     },
                     {
                         "name": "The Fractal Continuum 6",
-                        "access_rules": [
-                            "$leveling:60"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:60, duty_difficulty_normal, $duty_visibility|The Fractal Continuum, extra_dungeon_checks:5"
-                        ],
+                        "access_rules": ["$leveling:60"],
+                        "visibility_rules": ["level_cap:60, duty_difficulty_normal, $duty_visibility|The Fractal Continuum, extra_dungeon_checks:5"],
                         "item_count": 1
                     },
                     {
                         "name": "The Fractal Continuum 7",
-                        "access_rules": [
-                            "$leveling:60"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:60, duty_difficulty_normal, $duty_visibility|The Fractal Continuum, extra_dungeon_checks:6"
-                        ],
+                        "access_rules": ["$leveling:60"],
+                        "visibility_rules": ["level_cap:60, duty_difficulty_normal, $duty_visibility|The Fractal Continuum, extra_dungeon_checks:6"],
                         "item_count": 1
                     },
                     {
                         "name": "The Fractal Continuum 8",
-                        "access_rules": [
-                            "$leveling:60"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:60, duty_difficulty_normal, $duty_visibility|The Fractal Continuum, extra_dungeon_checks:7"
-                        ],
+                        "access_rules": ["$leveling:60"],
+                        "visibility_rules": ["level_cap:60, duty_difficulty_normal, $duty_visibility|The Fractal Continuum, extra_dungeon_checks:7"],
                         "item_count": 1
                     },
                     {
                         "name": "The Fractal Continuum 9",
-                        "access_rules": [
-                            "$leveling:60"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:60, duty_difficulty_normal, $duty_visibility|The Fractal Continuum, extra_dungeon_checks:8"
-                        ],
+                        "access_rules": ["$leveling:60"],
+                        "visibility_rules": ["level_cap:60, duty_difficulty_normal, $duty_visibility|The Fractal Continuum, extra_dungeon_checks:8"],
                         "item_count": 1
                     },
                     {
                         "name": "The Fractal Continuum 10",
-                        "access_rules": [
-                            "$leveling:60"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:60, duty_difficulty_normal, $duty_visibility|The Fractal Continuum, extra_dungeon_checks:9"
-                        ],
+                        "access_rules": ["$leveling:60"],
+                        "visibility_rules": ["level_cap:60, duty_difficulty_normal, $duty_visibility|The Fractal Continuum, extra_dungeon_checks:9"],
                         "item_count": 1
                     },
                     {
                         "name": "The Fractal Continuum (Hard) 2",
-                        "access_rules": [
-                            "$leveling:70"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:70, duty_difficulty_normal, $duty_visibility|The Fractal Continuum (Hard), extra_dungeon_checks:1"
-                        ],
+                        "access_rules": ["$leveling:70"],
+                        "visibility_rules": ["level_cap:70, duty_difficulty_normal, $duty_visibility|The Fractal Continuum (Hard), extra_dungeon_checks:1"],
                         "item_count": 1
                     },
                     {
                         "name": "The Fractal Continuum (Hard) 3",
-                        "access_rules": [
-                            "$leveling:70"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:70, duty_difficulty_normal, $duty_visibility|The Fractal Continuum (Hard), extra_dungeon_checks:2"
-                        ],
+                        "access_rules": ["$leveling:70"],
+                        "visibility_rules": ["level_cap:70, duty_difficulty_normal, $duty_visibility|The Fractal Continuum (Hard), extra_dungeon_checks:2"],
                         "item_count": 1
                     },
                     {
                         "name": "The Fractal Continuum (Hard) 4",
-                        "access_rules": [
-                            "$leveling:70"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:70, duty_difficulty_normal, $duty_visibility|The Fractal Continuum (Hard), extra_dungeon_checks:3"
-                        ],
+                        "access_rules": ["$leveling:70"],
+                        "visibility_rules": ["level_cap:70, duty_difficulty_normal, $duty_visibility|The Fractal Continuum (Hard), extra_dungeon_checks:3"],
                         "item_count": 1
                     },
                     {
                         "name": "The Fractal Continuum (Hard) 5",
-                        "access_rules": [
-                            "$leveling:70"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:70, duty_difficulty_normal, $duty_visibility|The Fractal Continuum (Hard), extra_dungeon_checks:4"
-                        ],
+                        "access_rules": ["$leveling:70"],
+                        "visibility_rules": ["level_cap:70, duty_difficulty_normal, $duty_visibility|The Fractal Continuum (Hard), extra_dungeon_checks:4"],
                         "item_count": 1
                     },
                     {
                         "name": "The Fractal Continuum (Hard) 6",
-                        "access_rules": [
-                            "$leveling:70"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:70, duty_difficulty_normal, $duty_visibility|The Fractal Continuum (Hard), extra_dungeon_checks:5"
-                        ],
+                        "access_rules": ["$leveling:70"],
+                        "visibility_rules": ["level_cap:70, duty_difficulty_normal, $duty_visibility|The Fractal Continuum (Hard), extra_dungeon_checks:5"],
                         "item_count": 1
                     },
                     {
                         "name": "The Fractal Continuum (Hard) 7",
-                        "access_rules": [
-                            "$leveling:70"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:70, duty_difficulty_normal, $duty_visibility|The Fractal Continuum (Hard), extra_dungeon_checks:6"
-                        ],
+                        "access_rules": ["$leveling:70"],
+                        "visibility_rules": ["level_cap:70, duty_difficulty_normal, $duty_visibility|The Fractal Continuum (Hard), extra_dungeon_checks:6"],
                         "item_count": 1
                     },
                     {
                         "name": "The Fractal Continuum (Hard) 8",
-                        "access_rules": [
-                            "$leveling:70"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:70, duty_difficulty_normal, $duty_visibility|The Fractal Continuum (Hard), extra_dungeon_checks:7"
-                        ],
+                        "access_rules": ["$leveling:70"],
+                        "visibility_rules": ["level_cap:70, duty_difficulty_normal, $duty_visibility|The Fractal Continuum (Hard), extra_dungeon_checks:7"],
                         "item_count": 1
                     },
                     {
                         "name": "The Fractal Continuum (Hard) 9",
-                        "access_rules": [
-                            "$leveling:70"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:70, duty_difficulty_normal, $duty_visibility|The Fractal Continuum (Hard), extra_dungeon_checks:8"
-                        ],
+                        "access_rules": ["$leveling:70"],
+                        "visibility_rules": ["level_cap:70, duty_difficulty_normal, $duty_visibility|The Fractal Continuum (Hard), extra_dungeon_checks:8"],
                         "item_count": 1
                     },
                     {
                         "name": "The Fractal Continuum (Hard) 10",
-                        "access_rules": [
-                            "$leveling:70"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:70, duty_difficulty_normal, $duty_visibility|The Fractal Continuum (Hard), extra_dungeon_checks:9"
-                        ],
+                        "access_rules": ["$leveling:70"],
+                        "visibility_rules": ["level_cap:70, duty_difficulty_normal, $duty_visibility|The Fractal Continuum (Hard), extra_dungeon_checks:9"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Azys Lla",
-                        "x": 1027,
-                        "y": 1828,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 2120,
+                        "y": 533,
+                        "size": 6
                     }
                 ]
             },
@@ -353,65 +247,52 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "$leveling:60"
+                   "$leveling:60"
                 ],
                 "sections": [
                     {
                         "name": "Containment Bay S1T7",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "level_cap:60, duty_difficulty_normal, $duty_visibility|Containment Bay S1T7"
-                        ],
+                        "visibility_rules": ["level_cap:60, duty_difficulty_normal, $duty_visibility|Containment Bay S1T7"],
                         "item_count": 1
                     },
                     {
                         "name": "Containment Bay P1T6",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "level_cap:60, duty_difficulty_normal, $duty_visibility|Containment Bay P1T6"
-                        ],
+                        "visibility_rules": ["level_cap:60, duty_difficulty_normal, $duty_visibility|Containment Bay P1T6"],
                         "item_count": 1
                     },
                     {
                         "name": "Containment Bay Z1T9",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "level_cap:60, duty_difficulty_normal, $duty_visibility|Containment Bay Z1T9"
-                        ],
+                        "visibility_rules": ["level_cap:60, duty_difficulty_normal, $duty_visibility|Containment Bay Z1T9"],
                         "item_count": 1
                     },
                     {
                         "name": "Containment Bay S1T7 (Extreme)",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "level_cap:60, duty_difficulty_ex, $duty_visibility|Containment Bay S1T7 (Extreme)"
-                        ],
+                        "visibility_rules": ["level_cap:60, duty_difficulty_ex, $duty_visibility|Containment Bay S1T7 (Extreme)"],
                         "item_count": 1
                     },
                     {
                         "name": "Containment Bay P1T6 (Extreme)",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "level_cap:60, duty_difficulty_ex, $duty_visibility|Containment Bay P1T6 (Extreme)"
-                        ],
+                        "visibility_rules": ["level_cap:60, duty_difficulty_ex, $duty_visibility|Containment Bay P1T6 (Extreme)"],
                         "item_count": 1
                     },
                     {
                         "name": "Containment Bay Z1T9 (Extreme)",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "level_cap:60, duty_difficulty_ex, $duty_visibility|Containment Bay Z1T9 (Extreme)"
-                        ],
+                        "visibility_rules": ["level_cap:60, duty_difficulty_ex, $duty_visibility|Containment Bay Z1T9 (Extreme)"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Azys Lla",
-                        "x": 1150,
-                        "y": 1027,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1884,
+                        "y": 142,
+                        "size": 6
                     }
                 ]
             },
@@ -423,98 +304,75 @@
                 "access_rules": [
                     "$leveling:59"
                 ],
-                "visibility_rules": [
-                    "$fatesanity_disabled, level_cap:59"
-                ],
+                "visibility_rules": ["$fatesanity_disabled, level_cap:59"],
                 "sections": [
                     {
                         "name": "FATE #1",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "fates_per_zone:1"
-                        ],
+                        "visibility_rules": ["fates_per_zone:1"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #2",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "fates_per_zone:2"
-                        ],
+                        "visibility_rules": ["fates_per_zone:2"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #3",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "fates_per_zone:3"
-                        ],
+                        "visibility_rules": ["fates_per_zone:3"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #4",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "fates_per_zone:4"
-                        ],
+                        "visibility_rules": ["fates_per_zone:4"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #5",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "fates_per_zone:5"
-                        ],
+                        "visibility_rules": ["fates_per_zone:5"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #6",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "fates_per_zone:6"
-                        ],
+                        "visibility_rules": ["fates_per_zone:6"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #7",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "fates_per_zone:7"
-                        ],
+                        "visibility_rules": ["fates_per_zone:7"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #8",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "fates_per_zone:8"
-                        ],
+                        "visibility_rules": ["fates_per_zone:8"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #9",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "fates_per_zone:9"
-                        ],
+                        "visibility_rules": ["fates_per_zone:9"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #10",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "fates_per_zone:10"
-                        ],
+                        "visibility_rules": ["fates_per_zone:10"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Azys Lla",
-                        "x": 715,
-                        "y": 91,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 2013,
+                        "y": 2345,
+                        "size": 6
                     }
                 ]
             },
@@ -529,22 +387,17 @@
                 "sections": [
                     {
                         "name": "A Bugs Death (FATE)",
-                        "access_rules": [
-                            "$leveling:59"
-                        ],
-                        "visibility_rules": [
-                            "fatesanity, level_cap:59"
-                        ],
+                        "access_rules": ["$leveling:59"],
+                        "visibility_rules": ["fatesanity, level_cap:59"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Azys Lla",
-                        "x": 818,
-                        "y": 834,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1754,
+                        "y": 1755,
+                        "size": 6
                     }
                 ]
             },
@@ -559,22 +412,17 @@
                 "sections": [
                     {
                         "name": "A Room Without Books (FATE)",
-                        "access_rules": [
-                            "$leveling:59"
-                        ],
-                        "visibility_rules": [
-                            "fatesanity, level_cap:59"
-                        ],
+                        "access_rules": ["$leveling:59"],
+                        "visibility_rules": ["fatesanity, level_cap:59"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Azys Lla",
-                        "x": 575,
-                        "y": 1392,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 722,
+                        "y": 1467,
+                        "size": 6
                     }
                 ]
             },
@@ -589,22 +437,17 @@
                 "sections": [
                     {
                         "name": "Curiously Strong Things (FATE)",
-                        "access_rules": [
-                            "$leveling:59"
-                        ],
-                        "visibility_rules": [
-                            "fatesanity, level_cap:59"
-                        ],
+                        "access_rules": ["$leveling:59"],
+                        "visibility_rules": ["fatesanity, level_cap:59"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Azys Lla",
-                        "x": 1455,
-                        "y": 512,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1955,
+                        "y": 2195,
+                        "size": 6
                     }
                 ]
             },
@@ -619,22 +462,17 @@
                 "sections": [
                     {
                         "name": "Do Spinners Dream of Electric Rooks (FATE)",
-                        "access_rules": [
-                            "$leveling:59"
-                        ],
-                        "visibility_rules": [
-                            "fatesanity, level_cap:59"
-                        ],
+                        "access_rules": ["$leveling:59"],
+                        "visibility_rules": ["fatesanity, level_cap:59"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Azys Lla",
-                        "x": 532,
-                        "y": 588,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 612,
+                        "y": 651,
+                        "size": 6
                     }
                 ]
             },
@@ -649,22 +487,17 @@
                 "sections": [
                     {
                         "name": "Harvest Moon (FATE)",
-                        "access_rules": [
-                            "$leveling:59"
-                        ],
-                        "visibility_rules": [
-                            "fatesanity, level_cap:59"
-                        ],
+                        "access_rules": ["$leveling:59"],
+                        "visibility_rules": ["fatesanity, level_cap:59"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Azys Lla",
-                        "x": 574,
-                        "y": 785,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1367,
+                        "y": 860,
+                        "size": 6
                     }
                 ]
             },
@@ -679,22 +512,17 @@
                 "sections": [
                     {
                         "name": "Life of Brain (FATE)",
-                        "access_rules": [
-                            "$leveling:59"
-                        ],
-                        "visibility_rules": [
-                            "fatesanity, level_cap:59"
-                        ],
+                        "access_rules": ["$leveling:59"],
+                        "visibility_rules": ["fatesanity, level_cap:59"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Azys Lla",
-                        "x": 1413,
-                        "y": 245,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 2379,
+                        "y": 849,
+                        "size": 6
                     }
                 ]
             },
@@ -709,22 +537,17 @@
                 "sections": [
                     {
                         "name": "No Greater Goryshche (FATE)",
-                        "access_rules": [
-                            "$leveling:59"
-                        ],
-                        "visibility_rules": [
-                            "fatesanity, level_cap:59"
-                        ],
+                        "access_rules": ["$leveling:59"],
+                        "visibility_rules": ["fatesanity, level_cap:59"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Azys Lla",
-                        "x": 538,
-                        "y": 1593,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1993,
+                        "y": 508,
+                        "size": 6
                     }
                 ]
             },
@@ -739,22 +562,17 @@
                 "sections": [
                     {
                         "name": "Out of Sight Out of Mind (FATE)",
-                        "access_rules": [
-                            "$leveling:59"
-                        ],
-                        "visibility_rules": [
-                            "fatesanity, level_cap:59"
-                        ],
+                        "access_rules": ["$leveling:59"],
+                        "visibility_rules": ["fatesanity, level_cap:59"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Azys Lla",
-                        "x": 406,
-                        "y": 978,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 992,
+                        "y": 1699,
+                        "size": 6
                     }
                 ]
             },
@@ -769,22 +587,17 @@
                 "sections": [
                     {
                         "name": "Pet Smart (FATE)",
-                        "access_rules": [
-                            "$leveling:59"
-                        ],
-                        "visibility_rules": [
-                            "fatesanity, level_cap:59"
-                        ],
+                        "access_rules": ["$leveling:59"],
+                        "visibility_rules": ["fatesanity, level_cap:59"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Azys Lla",
-                        "x": 1671,
-                        "y": 541,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 2147,
+                        "y": 1745,
+                        "size": 6
                     }
                 ]
             },
@@ -799,22 +612,17 @@
                 "sections": [
                     {
                         "name": "Phi Slamma Gamma East (FATE)",
-                        "access_rules": [
-                            "$leveling:59"
-                        ],
-                        "visibility_rules": [
-                            "fatesanity, level_cap:59"
-                        ],
+                        "access_rules": ["$leveling:59"],
+                        "visibility_rules": ["fatesanity, level_cap:59"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Azys Lla",
-                        "x": 1724,
-                        "y": 1363,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 737,
+                        "y": 2385,
+                        "size": 6
                     }
                 ]
             },
@@ -829,22 +637,17 @@
                 "sections": [
                     {
                         "name": "Phi Slamma Gamma South (FATE)",
-                        "access_rules": [
-                            "$leveling:59"
-                        ],
-                        "visibility_rules": [
-                            "fatesanity, level_cap:59"
-                        ],
+                        "access_rules": ["$leveling:59"],
+                        "visibility_rules": ["fatesanity, level_cap:59"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Azys Lla",
-                        "x": 1311,
-                        "y": 1834,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1331,
+                        "y": 835,
+                        "size": 6
                     }
                 ]
             },
@@ -859,22 +662,17 @@
                 "sections": [
                     {
                         "name": "Phi Slamma Gamma West (FATE)",
-                        "access_rules": [
-                            "$leveling:59"
-                        ],
-                        "visibility_rules": [
-                            "fatesanity, level_cap:59"
-                        ],
+                        "access_rules": ["$leveling:59"],
+                        "visibility_rules": ["fatesanity, level_cap:59"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Azys Lla",
-                        "x": 1394,
-                        "y": 1537,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 2166,
+                        "y": 597,
+                        "size": 6
                     }
                 ]
             },
@@ -889,22 +687,17 @@
                 "sections": [
                     {
                         "name": "Prey Online (FATE)",
-                        "access_rules": [
-                            "$leveling:59"
-                        ],
-                        "visibility_rules": [
-                            "fatesanity, level_cap:59"
-                        ],
+                        "access_rules": ["$leveling:59"],
+                        "visibility_rules": ["fatesanity, level_cap:59"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Azys Lla",
-                        "x": 1360,
-                        "y": 102,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1992,
+                        "y": 1691,
+                        "size": 6
                     }
                 ]
             },
@@ -919,22 +712,17 @@
                 "sections": [
                     {
                         "name": "Put the Knives Down (FATE)",
-                        "access_rules": [
-                            "$leveling:59"
-                        ],
-                        "visibility_rules": [
-                            "fatesanity, level_cap:59"
-                        ],
+                        "access_rules": ["$leveling:59"],
+                        "visibility_rules": ["fatesanity, level_cap:59"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Azys Lla",
-                        "x": 1595,
-                        "y": 1721,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 27,
+                        "y": 1755,
+                        "size": 6
                     }
                 ]
             },
@@ -949,22 +737,17 @@
                 "sections": [
                     {
                         "name": "Rampant Speculation (FATE)",
-                        "access_rules": [
-                            "$leveling:59"
-                        ],
-                        "visibility_rules": [
-                            "fatesanity, level_cap:59"
-                        ],
+                        "access_rules": ["$leveling:59"],
+                        "visibility_rules": ["fatesanity, level_cap:59"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Azys Lla",
-                        "x": 1146,
-                        "y": 1346,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 22,
+                        "y": 1277,
+                        "size": 6
                     }
                 ]
             },
@@ -979,22 +762,17 @@
                 "sections": [
                     {
                         "name": "Scared Sylla (FATE)",
-                        "access_rules": [
-                            "$leveling:59"
-                        ],
-                        "visibility_rules": [
-                            "fatesanity, level_cap:59"
-                        ],
+                        "access_rules": ["$leveling:59"],
+                        "visibility_rules": ["fatesanity, level_cap:59"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Azys Lla",
-                        "x": 1641,
-                        "y": 1724,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 260,
+                        "y": 468,
+                        "size": 6
                     }
                 ]
             },
@@ -1009,22 +787,17 @@
                 "sections": [
                     {
                         "name": "Still Ticking (FATE)",
-                        "access_rules": [
-                            "$leveling:59"
-                        ],
-                        "visibility_rules": [
-                            "fatesanity, level_cap:59"
-                        ],
+                        "access_rules": ["$leveling:59"],
+                        "visibility_rules": ["fatesanity, level_cap:59"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Azys Lla",
-                        "x": 838,
-                        "y": 536,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1974,
+                        "y": 154,
+                        "size": 6
                     }
                 ]
             },
@@ -1039,22 +812,17 @@
                 "sections": [
                     {
                         "name": "The Late Escape (FATE)",
-                        "access_rules": [
-                            "$leveling:59"
-                        ],
-                        "visibility_rules": [
-                            "fatesanity, level_cap:59"
-                        ],
+                        "access_rules": ["$leveling:59"],
+                        "visibility_rules": ["fatesanity, level_cap:59"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Azys Lla",
-                        "x": 874,
-                        "y": 294,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1065,
+                        "y": 111,
+                        "size": 6
                     }
                 ]
             },
@@ -1069,22 +837,17 @@
                 "sections": [
                     {
                         "name": "The Monster Mass (FATE)",
-                        "access_rules": [
-                            "$leveling:59"
-                        ],
-                        "visibility_rules": [
-                            "fatesanity, level_cap:59"
-                        ],
+                        "access_rules": ["$leveling:59"],
+                        "visibility_rules": ["fatesanity, level_cap:59"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Azys Lla",
-                        "x": 1716,
-                        "y": 224,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1132,
+                        "y": 1165,
+                        "size": 6
                     }
                 ]
             },
@@ -1099,22 +862,17 @@
                 "sections": [
                     {
                         "name": "The Mystery Machine (FATE)",
-                        "access_rules": [
-                            "$leveling:59"
-                        ],
-                        "visibility_rules": [
-                            "fatesanity, level_cap:59"
-                        ],
+                        "access_rules": ["$leveling:59"],
+                        "visibility_rules": ["fatesanity, level_cap:59"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Azys Lla",
-                        "x": 1766,
-                        "y": 1153,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 180,
+                        "y": 2266,
+                        "size": 6
                     }
                 ]
             },
@@ -1129,22 +887,17 @@
                 "sections": [
                     {
                         "name": "The Root of Evil (FATE)",
-                        "access_rules": [
-                            "$leveling:59"
-                        ],
-                        "visibility_rules": [
-                            "fatesanity, level_cap:59"
-                        ],
+                        "access_rules": ["$leveling:59"],
+                        "visibility_rules": ["fatesanity, level_cap:59"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Azys Lla",
-                        "x": 1624,
-                        "y": 384,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1878,
+                        "y": 1665,
+                        "size": 6
                     }
                 ]
             },
@@ -1159,22 +912,17 @@
                 "sections": [
                     {
                         "name": "Yak it Up (FATE)",
-                        "access_rules": [
-                            "$leveling:59"
-                        ],
-                        "visibility_rules": [
-                            "fatesanity, level_cap:59"
-                        ],
+                        "access_rules": ["$leveling:59"],
+                        "visibility_rules": ["fatesanity, level_cap:59"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Azys Lla",
-                        "x": 287,
-                        "y": 1662,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 422,
+                        "y": 1453,
+                        "size": 6
                     }
                 ]
             },
@@ -1192,66 +940,47 @@
                 "sections": [
                     {
                         "name": "Lungfish",
-                        "access_rules": [
-                            "bruteleech"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_timed"
-                        ],
+                        "access_rules": ["bruteleech"],
+                        "visibility_rules": ["fishsanity_timed"],
                         "item_count": 1
                     },
                     {
                         "name": "Tiny Axolotl",
-                        "access_rules": [
-                            "bruteleech"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_timed"
-                        ],
+                        "access_rules": ["bruteleech"],
+                        "visibility_rules": ["fishsanity_timed"],
                         "item_count": 1
                     },
                     {
                         "name": "Aether Eye",
-                        "access_rules": [
-                            "pursewebspider"
-                        ],
+                        "access_rules": ["pursewebspider"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Crystalfin",
-                        "access_rules": [
-                            "bladedsteeljig"
-                        ],
+                        "access_rules": ["bladedsteeljig"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Fountfish",
-                        "access_rules": [
-                            "goblinjig"
-                        ],
+                        "access_rules": ["goblinjig"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Hundred-eyed Axolotl",
-                        "access_rules": [
-                            "pursewebspider"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_big"
-                        ],
+                        "access_rules": ["pursewebspider"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Azys Lla",
-                        "x": 259,
-                        "y": 1612,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1377,
+                        "y": 949,
+                        "size": 6
                     }
                 ]
             },
@@ -1269,88 +998,65 @@
                 "sections": [
                     {
                         "name": "Sky Faerie",
-                        "access_rules": [
-                            "redballoon"
-                        ],
+                        "access_rules": ["redballoon"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Sky Sweeper",
-                        "access_rules": [
-                            "giantcranefly"
-                        ],
+                        "access_rules": ["giantcranefly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Rudderfish",
-                        "access_rules": [
-                            "giantcranefly"
-                        ],
+                        "access_rules": ["giantcranefly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Bomb Puffer",
-                        "access_rules": [
-                            "redballoon"
-                        ],
+                        "access_rules": ["redballoon"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Unidentified Flying Biomass",
-                        "access_rules": [
-                            "redballoon"
-                        ],
+                        "access_rules": ["redballoon"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Cobrafish",
-                        "access_rules": [
-                            "giantcranefly"
-                        ],
+                        "access_rules": ["giantcranefly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Stupendemys",
-                        "access_rules": [
-                            "giantcranefly"
-                        ],
+                        "access_rules": ["giantcranefly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Tupuxuara",
-                        "access_rules": [
-                            "redballoon"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_timed"
-                        ],
+                        "access_rules": ["redballoon"],
+                        "visibility_rules": ["fishsanity_timed"],
                         "item_count": 1
                     },
                     {
                         "name": "Crystal Pigeon",
-                        "access_rules": [
-                            "giantcranefly"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_big"
-                        ],
+                        "access_rules": ["giantcranefly"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Azys Lla",
-                        "x": 1867,
-                        "y": 840,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1273,
+                        "y": 234,
+                        "size": 6
                     }
                 ]
             },
@@ -1368,56 +1074,41 @@
                 "sections": [
                     {
                         "name": "Bullwhip",
-                        "access_rules": [
-                            "fiendworm"
-                        ],
+                        "access_rules": ["fiendworm"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "High Allagan Helmet",
-                        "access_rules": [
-                            "fiendworm"
-                        ],
+                        "access_rules": ["fiendworm"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Platinum Fish",
-                        "access_rules": [
-                            "fiendworm"
-                        ],
+                        "access_rules": ["fiendworm"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Blood Skipper",
-                        "access_rules": [
-                            "fiendworm"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_timed"
-                        ],
+                        "access_rules": ["fiendworm"],
+                        "visibility_rules": ["fishsanity_timed"],
                         "item_count": 1
                     },
                     {
                         "name": "Augmented High Allagan Helmet",
-                        "access_rules": [
-                            "fiendworm"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_big"
-                        ],
+                        "access_rules": ["fiendworm"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Azys Lla",
-                        "x": 753,
-                        "y": 507,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 2408,
+                        "y": 1604,
+                        "size": 6
                     }
                 ]
             },
@@ -1435,64 +1126,47 @@
                 "sections": [
                     {
                         "name": "Bullwhip",
-                        "access_rules": [
-                            "fiendworm"
-                        ],
+                        "access_rules": ["fiendworm"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Platinum Fish",
-                        "access_rules": [
-                            "fiendworm"
-                        ],
+                        "access_rules": ["fiendworm"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Aetherochemical Compound 123",
-                        "access_rules": [
-                            "fiendworm"
-                        ],
+                        "access_rules": ["fiendworm"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Proto-hropken",
-                        "access_rules": [
-                            "fiendworm"
-                        ],
+                        "access_rules": ["fiendworm"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Blood Skipper",
-                        "access_rules": [
-                            "fiendworm"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_timed"
-                        ],
+                        "access_rules": ["fiendworm"],
+                        "visibility_rules": ["fishsanity_timed"],
                         "item_count": 1
                     },
                     {
                         "name": "Aetherochemical Compound 666",
-                        "access_rules": [
-                            "fiendworm"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_big"
-                        ],
+                        "access_rules": ["fiendworm"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Azys Lla",
-                        "x": 1437,
-                        "y": 287,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 2310,
+                        "y": 1558,
+                        "size": 6
                     }
                 ]
             },
@@ -1510,64 +1184,47 @@
                 "sections": [
                     {
                         "name": "Platinum Fish",
-                        "access_rules": [
-                            "fiendworm"
-                        ],
+                        "access_rules": ["fiendworm"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Azysfish",
-                        "access_rules": [
-                            "fiendworm"
-                        ],
+                        "access_rules": ["fiendworm"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Mucous Minnow",
-                        "access_rules": [
-                            "fiendworm"
-                        ],
+                        "access_rules": ["fiendworm"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Oil Eel",
-                        "access_rules": [
-                            "fiendworm"
-                        ],
+                        "access_rules": ["fiendworm"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Oliphants Trunk",
-                        "access_rules": [
-                            "fiendworm"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_timed"
-                        ],
+                        "access_rules": ["fiendworm"],
+                        "visibility_rules": ["fishsanity_timed"],
                         "item_count": 1
                     },
                     {
                         "name": "Ceti",
-                        "access_rules": [
-                            "fiendworm"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_big"
-                        ],
+                        "access_rules": ["fiendworm"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Azys Lla",
-                        "x": 269,
-                        "y": 731,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 817,
+                        "y": 595,
+                        "size": 6
                     }
                 ]
             },
@@ -1585,84 +1242,59 @@
                 "sections": [
                     {
                         "name": "Platinum Fish",
-                        "access_rules": [
-                            "fiendworm"
-                        ],
+                        "access_rules": ["fiendworm"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Azysfish",
-                        "access_rules": [
-                            "fiendworm"
-                        ],
+                        "access_rules": ["fiendworm"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Oil Eel",
-                        "access_rules": [
-                            "fiendworm"
-                        ],
+                        "access_rules": ["fiendworm"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Jeweled Jellyfish",
-                        "access_rules": [
-                            "fiendworm"
-                        ],
+                        "access_rules": ["fiendworm"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Barreleye",
-                        "access_rules": [
-                            "fiendworm"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_timed"
-                        ],
+                        "access_rules": ["fiendworm"],
+                        "visibility_rules": ["fishsanity_timed"],
                         "item_count": 1
                     },
                     {
                         "name": "Functional Proto-hropken",
-                        "access_rules": [
-                            "fiendworm"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_timed"
-                        ],
+                        "access_rules": ["fiendworm"],
+                        "visibility_rules": ["fishsanity_timed"],
                         "item_count": 1
                     },
                     {
                         "name": "Allagan Bladeshark",
-                        "access_rules": [
-                            "fiendworm"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_big"
-                        ],
+                        "access_rules": ["fiendworm"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     },
                     {
                         "name": "Opabinia",
-                        "access_rules": [
-                            "fiendworm"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_big"
-                        ],
+                        "access_rules": ["fiendworm"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Azys Lla",
-                        "x": 997,
-                        "y": 980,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1393,
+                        "y": 1192,
+                        "size": 6
                     }
                 ]
             },
@@ -1680,64 +1312,47 @@
                 "sections": [
                     {
                         "name": "Aether Eye",
-                        "access_rules": [
-                            "pursewebspider"
-                        ],
+                        "access_rules": ["pursewebspider"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Fountfish",
-                        "access_rules": [
-                            "goblinjig"
-                        ],
+                        "access_rules": ["goblinjig"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Euphotic Pirarucu",
-                        "access_rules": [
-                            "bruteleech"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_timed"
-                        ],
+                        "access_rules": ["bruteleech"],
+                        "visibility_rules": ["fishsanity_timed"],
                         "item_count": 1
                     },
                     {
                         "name": "Rockclimber",
-                        "access_rules": [
-                            "bladedsteeljig"
-                        ],
+                        "access_rules": ["bladedsteeljig"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Yalm Lobster",
-                        "access_rules": [
-                            "pursewebspider"
-                        ],
+                        "access_rules": ["pursewebspider"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Aphotic Pirarucu",
-                        "access_rules": [
-                            "pursewebspider"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_big"
-                        ],
+                        "access_rules": ["pursewebspider"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Azys Lla",
-                        "x": 515,
-                        "y": 1490,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 901,
+                        "y": 1086,
+                        "size": 6
                     }
                 ]
             }

@@ -16,7 +16,7 @@
                 "access_rules": [
                     "$leveling:51"
                 ],
-                "visibility_rules": [
+                "visibility_rules":[
                     "level_cap:51, duty_difficulty_normal, $duty_visibility|The Dusk Vigil"
                 ],
                 "sections": [
@@ -29,83 +29,64 @@
                     {
                         "name": "The Dusk Vigil 2",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:1"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:1"],
                         "item_count": 1
                     },
                     {
                         "name": "The Dusk Vigil 3",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:2"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:2"],
                         "item_count": 1
                     },
                     {
                         "name": "The Dusk Vigil 4",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:3"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:3"],
                         "item_count": 1
                     },
                     {
                         "name": "The Dusk Vigil 5",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:4"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:4"],
                         "item_count": 1
                     },
                     {
                         "name": "The Dusk Vigil 6",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:5"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:5"],
                         "item_count": 1
                     },
                     {
                         "name": "The Dusk Vigil 7",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:6"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:6"],
                         "item_count": 1
                     },
                     {
                         "name": "The Dusk Vigil 8",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:7"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:7"],
                         "item_count": 1
                     },
                     {
                         "name": "The Dusk Vigil 9",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:8"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:8"],
                         "item_count": 1
                     },
                     {
                         "name": "The Dusk Vigil 10",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:9"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:9"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Coerthas Western Highlands",
-                        "x": 949,
-                        "y": 228,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 530,
+                        "y": 1567,
+                        "size": 6
                     }
                 ]
             },
@@ -117,98 +98,75 @@
                 "access_rules": [
                     "$leveling:50"
                 ],
-                "visibility_rules": [
-                    "$fatesanity_disabled, level_cap:50"
-                ],
+                "visibility_rules": ["$fatesanity_disabled, level_cap:50"],
                 "sections": [
                     {
                         "name": "FATE #1",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "fates_per_zone:1"
-                        ],
+                        "visibility_rules": ["fates_per_zone:1"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #2",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "fates_per_zone:2"
-                        ],
+                        "visibility_rules": ["fates_per_zone:2"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #3",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "fates_per_zone:3"
-                        ],
+                        "visibility_rules": ["fates_per_zone:3"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #4",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "fates_per_zone:4"
-                        ],
+                        "visibility_rules": ["fates_per_zone:4"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #5",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "fates_per_zone:5"
-                        ],
+                        "visibility_rules": ["fates_per_zone:5"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #6",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "fates_per_zone:6"
-                        ],
+                        "visibility_rules": ["fates_per_zone:6"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #7",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "fates_per_zone:7"
-                        ],
+                        "visibility_rules": ["fates_per_zone:7"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #8",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "fates_per_zone:8"
-                        ],
+                        "visibility_rules": ["fates_per_zone:8"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #9",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "fates_per_zone:9"
-                        ],
+                        "visibility_rules": ["fates_per_zone:9"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #10",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "fates_per_zone:10"
-                        ],
+                        "visibility_rules": ["fates_per_zone:10"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Coerthas Western Highlands",
-                        "x": 718,
-                        "y": 87,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 2451,
+                        "y": 851,
+                        "size": 6
                     }
                 ]
             },
@@ -223,22 +181,17 @@
                 "sections": [
                     {
                         "name": "A Dung Deal (FATE)",
-                        "access_rules": [
-                            "$leveling:50"
-                        ],
-                        "visibility_rules": [
-                            "fatesanity, level_cap:50"
-                        ],
+                        "access_rules": ["$leveling:50"],
+                        "visibility_rules": ["fatesanity, level_cap:50"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Coerthas Western Highlands",
-                        "x": 1450,
-                        "y": 1459,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 616,
+                        "y": 255,
+                        "size": 6
                     }
                 ]
             },
@@ -253,22 +206,17 @@
                 "sections": [
                     {
                         "name": "Apparent Trap (FATE)",
-                        "access_rules": [
-                            "$leveling:50"
-                        ],
-                        "visibility_rules": [
-                            "fatesanity, level_cap:50"
-                        ],
+                        "access_rules": ["$leveling:50"],
+                        "visibility_rules": ["fatesanity, level_cap:50"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Coerthas Western Highlands",
-                        "x": 1249,
-                        "y": 585,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 280,
+                        "y": 1504,
+                        "size": 6
                     }
                 ]
             },
@@ -283,22 +231,17 @@
                 "sections": [
                     {
                         "name": "Dawn of the Mylodons (FATE)",
-                        "access_rules": [
-                            "$leveling:50"
-                        ],
-                        "visibility_rules": [
-                            "fatesanity, level_cap:50"
-                        ],
+                        "access_rules": ["$leveling:50"],
+                        "visibility_rules": ["fatesanity, level_cap:50"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Coerthas Western Highlands",
-                        "x": 1392,
-                        "y": 919,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 2483,
+                        "y": 1215,
+                        "size": 6
                     }
                 ]
             },
@@ -313,22 +256,17 @@
                 "sections": [
                     {
                         "name": "Don of the Mylodons (FATE)",
-                        "access_rules": [
-                            "$leveling:50"
-                        ],
-                        "visibility_rules": [
-                            "fatesanity, level_cap:50"
-                        ],
+                        "access_rules": ["$leveling:50"],
+                        "visibility_rules": ["fatesanity, level_cap:50"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Coerthas Western Highlands",
-                        "x": 1439,
-                        "y": 921,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 2089,
+                        "y": 1963,
+                        "size": 6
                     }
                 ]
             },
@@ -343,22 +281,17 @@
                 "sections": [
                     {
                         "name": "Eye in the Sky (FATE)",
-                        "access_rules": [
-                            "$leveling:50"
-                        ],
-                        "visibility_rules": [
-                            "fatesanity, level_cap:50"
-                        ],
+                        "access_rules": ["$leveling:50"],
+                        "visibility_rules": ["fatesanity, level_cap:50"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Coerthas Western Highlands",
-                        "x": 1301,
-                        "y": 1361,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1391,
+                        "y": 2142,
+                        "size": 6
                     }
                 ]
             },
@@ -373,22 +306,17 @@
                 "sections": [
                     {
                         "name": "Follow the Sleet (FATE)",
-                        "access_rules": [
-                            "$leveling:50"
-                        ],
-                        "visibility_rules": [
-                            "fatesanity, level_cap:50"
-                        ],
+                        "access_rules": ["$leveling:50"],
+                        "visibility_rules": ["fatesanity, level_cap:50"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Coerthas Western Highlands",
-                        "x": 1610,
-                        "y": 633,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 470,
+                        "y": 754,
+                        "size": 6
                     }
                 ]
             },
@@ -403,22 +331,17 @@
                 "sections": [
                     {
                         "name": "Land of the Freeze (FATE)",
-                        "access_rules": [
-                            "$leveling:50"
-                        ],
-                        "visibility_rules": [
-                            "fatesanity, level_cap:50"
-                        ],
+                        "access_rules": ["$leveling:50"],
+                        "visibility_rules": ["fatesanity, level_cap:50"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Coerthas Western Highlands",
-                        "x": 1143,
-                        "y": 1041,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1164,
+                        "y": 1391,
+                        "size": 6
                     }
                 ]
             },
@@ -433,22 +356,17 @@
                 "sections": [
                     {
                         "name": "No Ifs, Ands, or Butts (FATE)",
-                        "access_rules": [
-                            "$leveling:50"
-                        ],
-                        "visibility_rules": [
-                            "fatesanity, level_cap:50"
-                        ],
+                        "access_rules": ["$leveling:50"],
+                        "visibility_rules": ["fatesanity, level_cap:50"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Coerthas Western Highlands",
-                        "x": 1400,
-                        "y": 1551,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1982,
+                        "y": 2404,
+                        "size": 6
                     }
                 ]
             },
@@ -463,22 +381,17 @@
                 "sections": [
                     {
                         "name": "Null and Void (FATE)",
-                        "access_rules": [
-                            "$leveling:50"
-                        ],
-                        "visibility_rules": [
-                            "fatesanity, level_cap:50"
-                        ],
+                        "access_rules": ["$leveling:50"],
+                        "visibility_rules": ["fatesanity, level_cap:50"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Coerthas Western Highlands",
-                        "x": 1448,
-                        "y": 1550,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1070,
+                        "y": 1081,
+                        "size": 6
                     }
                 ]
             },
@@ -493,22 +406,17 @@
                 "sections": [
                     {
                         "name": "One Whiskey, One Goat, One Spear (FATE)",
-                        "access_rules": [
-                            "$leveling:50"
-                        ],
-                        "visibility_rules": [
-                            "fatesanity, level_cap:50"
-                        ],
+                        "access_rules": ["$leveling:50"],
+                        "visibility_rules": ["fatesanity, level_cap:50"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Coerthas Western Highlands",
-                        "x": 1243,
-                        "y": 1204,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 2272,
+                        "y": 33,
+                        "size": 6
                     }
                 ]
             },
@@ -523,22 +431,17 @@
                 "sections": [
                     {
                         "name": "Panic Rheum (FATE)",
-                        "access_rules": [
-                            "$leveling:50"
-                        ],
-                        "visibility_rules": [
-                            "fatesanity, level_cap:50"
-                        ],
+                        "access_rules": ["$leveling:50"],
+                        "visibility_rules": ["fatesanity, level_cap:50"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Coerthas Western Highlands",
-                        "x": 1176,
-                        "y": 776,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 705,
+                        "y": 2097,
+                        "size": 6
                     }
                 ]
             },
@@ -553,22 +456,17 @@
                 "sections": [
                     {
                         "name": "Run, Riders, Run (FATE)",
-                        "access_rules": [
-                            "$leveling:50"
-                        ],
-                        "visibility_rules": [
-                            "fatesanity, level_cap:50"
-                        ],
+                        "access_rules": ["$leveling:50"],
+                        "visibility_rules": ["fatesanity, level_cap:50"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Coerthas Western Highlands",
-                        "x": 1475,
-                        "y": 1626,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1030,
+                        "y": 547,
+                        "size": 6
                     }
                 ]
             },
@@ -583,22 +481,17 @@
                 "sections": [
                     {
                         "name": "Sugar, Sugar (FATE)",
-                        "access_rules": [
-                            "$leveling:50"
-                        ],
-                        "visibility_rules": [
-                            "fatesanity, level_cap:50"
-                        ],
+                        "access_rules": ["$leveling:50"],
+                        "visibility_rules": ["fatesanity, level_cap:50"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Coerthas Western Highlands",
-                        "x": 1226,
-                        "y": 778,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1049,
+                        "y": 964,
+                        "size": 6
                     }
                 ]
             },
@@ -613,22 +506,17 @@
                 "sections": [
                     {
                         "name": "What You See Is What You Get (FATE)",
-                        "access_rules": [
-                            "$leveling:50"
-                        ],
-                        "visibility_rules": [
-                            "fatesanity, level_cap:50"
-                        ],
+                        "access_rules": ["$leveling:50"],
+                        "visibility_rules": ["fatesanity, level_cap:50"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Coerthas Western Highlands",
-                        "x": 1405,
-                        "y": 1330,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1723,
+                        "y": 1190,
+                        "size": 6
                     }
                 ]
             },
@@ -643,22 +531,17 @@
                 "sections": [
                     {
                         "name": "Abominable Me (FATE)",
-                        "access_rules": [
-                            "$leveling:51"
-                        ],
-                        "visibility_rules": [
-                            "fatesanity, level_cap:51"
-                        ],
+                        "access_rules": ["$leveling:51"],
+                        "visibility_rules": ["fatesanity, level_cap:51"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Coerthas Western Highlands",
-                        "x": 348,
-                        "y": 431,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1558,
+                        "y": 1169,
+                        "size": 6
                     }
                 ]
             },
@@ -673,22 +556,17 @@
                 "sections": [
                     {
                         "name": "Dishonored (FATE)",
-                        "access_rules": [
-                            "$leveling:51"
-                        ],
-                        "visibility_rules": [
-                            "fatesanity, level_cap:51"
-                        ],
+                        "access_rules": ["$leveling:51"],
+                        "visibility_rules": ["fatesanity, level_cap:51"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Coerthas Western Highlands",
-                        "x": 803,
-                        "y": 1006,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 423,
+                        "y": 893,
+                        "size": 6
                     }
                 ]
             },
@@ -703,22 +581,17 @@
                 "sections": [
                     {
                         "name": "In Command (FATE)",
-                        "access_rules": [
-                            "$leveling:51"
-                        ],
-                        "visibility_rules": [
-                            "fatesanity, level_cap:51"
-                        ],
+                        "access_rules": ["$leveling:51"],
+                        "visibility_rules": ["fatesanity, level_cap:51"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Coerthas Western Highlands",
-                        "x": 742,
-                        "y": 578,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 979,
+                        "y": 1676,
+                        "size": 6
                     }
                 ]
             },
@@ -733,22 +606,17 @@
                 "sections": [
                     {
                         "name": "Pico de Gallows (FATE)",
-                        "access_rules": [
-                            "$leveling:51"
-                        ],
-                        "visibility_rules": [
-                            "fatesanity, level_cap:51"
-                        ],
+                        "access_rules": ["$leveling:51"],
+                        "visibility_rules": ["fatesanity, level_cap:51"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Coerthas Western Highlands",
-                        "x": 905,
-                        "y": 652,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1953,
+                        "y": 358,
+                        "size": 6
                     }
                 ]
             },
@@ -763,22 +631,17 @@
                 "sections": [
                     {
                         "name": "Requiem for a Dragon (FATE)",
-                        "access_rules": [
-                            "$leveling:51"
-                        ],
-                        "visibility_rules": [
-                            "fatesanity, level_cap:51"
-                        ],
+                        "access_rules": ["$leveling:51"],
+                        "visibility_rules": ["fatesanity, level_cap:51"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Coerthas Western Highlands",
-                        "x": 596,
-                        "y": 865,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 941,
+                        "y": 595,
+                        "size": 6
                     }
                 ]
             },
@@ -793,22 +656,17 @@
                 "sections": [
                     {
                         "name": "Sick Pack (FATE)",
-                        "access_rules": [
-                            "$leveling:51"
-                        ],
-                        "visibility_rules": [
-                            "fatesanity, level_cap:51"
-                        ],
+                        "access_rules": ["$leveling:51"],
+                        "visibility_rules": ["fatesanity, level_cap:51"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Coerthas Western Highlands",
-                        "x": 554,
-                        "y": 451,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1404,
+                        "y": 1732,
+                        "size": 6
                     }
                 ]
             },
@@ -823,22 +681,17 @@
                 "sections": [
                     {
                         "name": "The Polar Express (FATE)",
-                        "access_rules": [
-                            "$leveling:51"
-                        ],
-                        "visibility_rules": [
-                            "fatesanity, level_cap:51"
-                        ],
+                        "access_rules": ["$leveling:51"],
+                        "visibility_rules": ["fatesanity, level_cap:51"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Coerthas Western Highlands",
-                        "x": 720,
-                        "y": 949,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1401,
+                        "y": 2198,
+                        "size": 6
                     }
                 ]
             },
@@ -853,22 +706,17 @@
                 "sections": [
                     {
                         "name": "True Convictions (FATE)",
-                        "access_rules": [
-                            "$leveling:51"
-                        ],
-                        "visibility_rules": [
-                            "fatesanity, level_cap:51"
-                        ],
+                        "access_rules": ["$leveling:51"],
+                        "visibility_rules": ["fatesanity, level_cap:51"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Coerthas Western Highlands",
-                        "x": 894,
-                        "y": 977,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1749,
+                        "y": 199,
+                        "size": 6
                     }
                 ]
             },
@@ -883,22 +731,17 @@
                 "sections": [
                     {
                         "name": "Unsilent Vigil (FATE)",
-                        "access_rules": [
-                            "$leveling:51"
-                        ],
-                        "visibility_rules": [
-                            "fatesanity, level_cap:51"
-                        ],
+                        "access_rules": ["$leveling:51"],
+                        "visibility_rules": ["fatesanity, level_cap:51"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Coerthas Western Highlands",
-                        "x": 859,
-                        "y": 650,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 2361,
+                        "y": 969,
+                        "size": 6
                     }
                 ]
             },
@@ -913,22 +756,17 @@
                 "sections": [
                     {
                         "name": "We Fought a Dzu (FATE)",
-                        "access_rules": [
-                            "$leveling:51"
-                        ],
-                        "visibility_rules": [
-                            "fatesanity, level_cap:51"
-                        ],
+                        "access_rules": ["$leveling:51"],
+                        "visibility_rules": ["fatesanity, level_cap:51"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Coerthas Western Highlands",
-                        "x": 921,
-                        "y": 1570,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 374,
+                        "y": 2341,
+                        "size": 6
                     }
                 ]
             },
@@ -943,22 +781,17 @@
                 "sections": [
                     {
                         "name": "A Stihi Situation (FATE)",
-                        "access_rules": [
-                            "$leveling:56"
-                        ],
-                        "visibility_rules": [
-                            "fatesanity, level_cap:56"
-                        ],
+                        "access_rules": ["$leveling:56"],
+                        "visibility_rules": ["fatesanity, level_cap:56"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Coerthas Western Highlands",
-                        "x": 575,
-                        "y": 1094,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 432,
+                        "y": 629,
+                        "size": 6
                     }
                 ]
             },
@@ -973,22 +806,17 @@
                 "sections": [
                     {
                         "name": "Sphenopalatine Ganglioneuralgia (FATE)",
-                        "access_rules": [
-                            "$leveling:56"
-                        ],
-                        "visibility_rules": [
-                            "fatesanity, level_cap:56"
-                        ],
+                        "access_rules": ["$leveling:56"],
+                        "visibility_rules": ["fatesanity, level_cap:56"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Coerthas Western Highlands",
-                        "x": 1036,
-                        "y": 1269,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1442,
+                        "y": 1060,
+                        "size": 6
                     }
                 ]
             },
@@ -1006,51 +834,35 @@
                 "sections": [
                     {
                         "name": "Abalathian Smelt",
-                        "access_rules": [
-                            "stoneflynymph",
-                            "freshwaterboilie",
-                            "syrphidbasket"
-                        ],
+                        "access_rules": ["stoneflynymph", "freshwaterboilie", "syrphidbasket"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Coerthan Crab",
-                        "access_rules": [
-                            "metalspinner",
-                            "stoneflynymph"
-                        ],
+                        "access_rules": ["metalspinner", "stoneflynymph"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Coerthan Puffer",
-                        "access_rules": [
-                            "pursewebspider"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_timed"
-                        ],
+                        "access_rules": ["pursewebspider"],
+                        "visibility_rules": ["fishsanity_timed"],
                         "item_count": 1
                     },
                     {
                         "name": "Fat Purse",
-                        "access_rules": [
-                            "bruteleech"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_big"
-                        ],
+                        "access_rules": ["bruteleech"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Coerthas Western Highlands",
-                        "x": 1529,
-                        "y": 1251,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 56,
+                        "y": 920,
+                        "size": 6
                     }
                 ]
             },
@@ -1068,81 +880,53 @@
                 "sections": [
                     {
                         "name": "Abalathian Smelt",
-                        "access_rules": [
-                            "stoneflynymph",
-                            "freshwaterboilie",
-                            "syrphidbasket"
-                        ],
+                        "access_rules": ["stoneflynymph", "freshwaterboilie", "syrphidbasket"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Icepick",
-                        "access_rules": [
-                            "goblinjig",
-                            "metalspinner"
-                        ],
+                        "access_rules": ["goblinjig", "metalspinner"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Ice Faerie",
-                        "access_rules": [
-                            "metalspinner",
-                            "pursewebspider",
-                            "caddisflylarva"
-                        ],
+                        "access_rules": ["metalspinner", "pursewebspider", "caddisflylarva"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Sorcerer Fish",
-                        "access_rules": [
-                            "freshwaterboilie"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_timed"
-                        ],
+                        "access_rules": ["freshwaterboilie"],
+                        "visibility_rules": ["fishsanity_timed"],
                         "item_count": 1
                     },
                     {
                         "name": "Albino Octopus",
-                        "access_rules": [
-                            "metalspinner"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_timed"
-                        ],
+                        "access_rules": ["metalspinner"],
+                        "visibility_rules": ["fishsanity_timed"],
                         "item_count": 1
                     },
                     {
                         "name": "Coerthan Clione",
-                        "access_rules": [
-                            "bruteleech"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_timed"
-                        ],
+                        "access_rules": ["bruteleech"],
+                        "visibility_rules": ["fishsanity_timed"],
                         "item_count": 1
                     },
                     {
                         "name": "Flarefish",
-                        "access_rules": [
-                            "metalspinner"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_big"
-                        ],
+                        "access_rules": ["metalspinner"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Coerthas Western Highlands",
-                        "x": 1301,
-                        "y": 789,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 2020,
+                        "y": 84,
+                        "size": 6
                     }
                 ]
             },
@@ -1160,97 +944,65 @@
                 "sections": [
                     {
                         "name": "Abalathian Smelt",
-                        "access_rules": [
-                            "stoneflynymph",
-                            "freshwaterboilie",
-                            "syrphidbasket"
-                        ],
+                        "access_rules": ["stoneflynymph", "freshwaterboilie", "syrphidbasket"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Ice Faerie",
-                        "access_rules": [
-                            "metalspinner",
-                            "pursewebspider",
-                            "caddisflylarva"
-                        ],
+                        "access_rules": ["metalspinner", "pursewebspider", "caddisflylarva"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Coerthan Crab",
-                        "access_rules": [
-                            "metalspinner",
-                            "stoneflynymph"
-                        ],
+                        "access_rules": ["metalspinner", "stoneflynymph"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Hotrod",
-                        "access_rules": [
-                            "pursewebspider"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_timed"
-                        ],
+                        "access_rules": ["pursewebspider"],
+                        "visibility_rules": ["fishsanity_timed"],
                         "item_count": 1
                     },
                     {
                         "name": "Capelin",
-                        "access_rules": [
-                            "bruteleech"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_timed"
-                        ],
+                        "access_rules": ["bruteleech"],
+                        "visibility_rules": ["fishsanity_timed"],
                         "item_count": 1
                     },
                     {
                         "name": "Priestfish",
-                        "access_rules": [
-                            "bruteleech"
-                        ],
+                        "access_rules": ["bruteleech"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Ghost Faerie",
-                        "access_rules": [
-                            "metalspinner"
-                        ],
+                        "access_rules": ["metalspinner"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Bishopfish",
-                        "access_rules": [
-                            "bruteleech"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_big"
-                        ],
+                        "access_rules": ["bruteleech"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     },
                     {
                         "name": "Charibenet",
-                        "access_rules": [
-                            "pursewebspider"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_big"
-                        ],
+                        "access_rules": ["pursewebspider"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Coerthas Western Highlands",
-                        "x": 1691,
-                        "y": 241,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1782,
+                        "y": 1953,
+                        "size": 6
                     }
                 ]
             },
@@ -1268,101 +1020,71 @@
                 "sections": [
                     {
                         "name": "Abalathian Smelt",
-                        "access_rules": [
-                            "stoneflynymph",
-                            "freshwaterboilie",
-                            "syrphidbasket"
-                        ],
+                        "access_rules": ["stoneflynymph", "freshwaterboilie", "syrphidbasket"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Icepick",
-                        "access_rules": [
-                            "goblinjig",
-                            "metalspinner"
-                        ],
+                        "access_rules": ["goblinjig", "metalspinner"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Ice Faerie",
-                        "access_rules": [
-                            "metalspinner",
-                            "pursewebspider",
-                            "caddisflylarva"
-                        ],
+                        "access_rules": ["metalspinner", "pursewebspider", "caddisflylarva"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Fanged Clam",
-                        "access_rules": [
-                            "metalspinner",
-                            " goblinjig"
-                        ],
+                        "access_rules": ["metalspinner"," goblinjig"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Lake Urchin",
-                        "access_rules": [
-                            "bruteleech",
-                            "goblinjig"
-                        ],
+                        "access_rules": ["bruteleech", "goblinjig"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Seema Patrician",
-                        "access_rules": [
-                            "goblinjig"
-                        ],
+                        "access_rules": ["goblinjig"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Ammonite",
-                        "access_rules": [
-                            "goblinjig"
-                        ],
+                        "access_rules": ["goblinjig"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Mountain Kraken",
-                        "access_rules": [
-                            "bruteleech"
-                        ],
+                        "access_rules": ["bruteleech"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Magic Bucket",
-                        "access_rules": [
-                            "bruteleech"
-                        ],
+                        "access_rules": ["bruteleech"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Captain Nemo",
-                        "access_rules": [
-                            "bruteleech"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_big"
-                        ],
+                        "access_rules": ["bruteleech"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Coerthas Western Highlands",
-                        "x": 978,
-                        "y": 488,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1798,
+                        "y": 137,
+                        "size": 6
                     }
                 ]
             },
@@ -1380,73 +1102,49 @@
                 "sections": [
                     {
                         "name": "Abalathian Smelt",
-                        "access_rules": [
-                            "stoneflynymph",
-                            "freshwaterboilie",
-                            "syrphidbasket"
-                        ],
+                        "access_rules": ["stoneflynymph", "freshwaterboilie", "syrphidbasket"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Ice Faerie",
-                        "access_rules": [
-                            "metalspinner",
-                            "pursewebspider",
-                            "caddisflylarva"
-                        ],
+                        "access_rules": ["metalspinner", "pursewebspider", "caddisflylarva"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Fanged Clam",
-                        "access_rules": [
-                            "metalspinner",
-                            " goblinjig"
-                        ],
+                        "access_rules": ["metalspinner"," goblinjig"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Lake Urchin",
-                        "access_rules": [
-                            "bruteleech",
-                            "goblinjig"
-                        ],
+                        "access_rules": ["bruteleech", "goblinjig"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Gigant Grouper",
-                        "access_rules": [
-                            "goblinjig"
-                        ],
+                        "access_rules": ["goblinjig"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Battle Galley",
-                        "access_rules": [
-                            "pursewebspider"
-                        ],
+                        "access_rules": ["pursewebspider"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "La Reale",
-                        "access_rules": [
-                            "bruteleech"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_big"
-                        ],
+                        "access_rules": ["bruteleech"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     },
                     {
                         "name": "Northern Oyster",
-                        "access_rules": [
-                            "metalspinner"
-                        ],
+                        "access_rules": ["metalspinner"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -1454,10 +1152,9 @@
                 "map_locations": [
                     {
                         "map": "Coerthas Western Highlands",
-                        "x": 603,
-                        "y": 675,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1316,
+                        "y": 1380,
+                        "size": 6
                     }
                 ]
             },
@@ -1475,68 +1172,47 @@
                 "sections": [
                     {
                         "name": "Cloud Coral",
-                        "access_rules": [
-                            "balloonbug"
-                        ],
+                        "access_rules": ["balloonbug"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Skyworm",
-                        "access_rules": [
-                            "giantcranefly"
-                        ],
+                        "access_rules": ["giantcranefly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Glacier Core",
-                        "access_rules": [
-                            "redballoon"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_timed"
-                        ],
+                        "access_rules": ["redballoon"],
+                        "visibility_rules": ["fishsanity_timed"],
                         "item_count": 1
                     },
                     {
                         "name": "Rime Eater",
-                        "access_rules": [
-                            "redballoon"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_timed"
-                        ],
+                        "access_rules": ["redballoon"],
+                        "visibility_rules": ["fishsanity_timed"],
                         "item_count": 1
                     },
                     {
                         "name": "Warballoon",
-                        "access_rules": [
-                            "giantcranefly"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_timed"
-                        ],
+                        "access_rules": ["giantcranefly"],
+                        "visibility_rules": ["fishsanity_timed"],
                         "item_count": 1
                     },
                     {
                         "name": "Hailfinder",
-                        "access_rules": [
-                            "redballoon"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_big"
-                        ],
+                        "access_rules": ["redballoon"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Coerthas Western Highlands",
-                        "x": 1655,
-                        "y": 1243,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 303,
+                        "y": 799,
+                        "size": 6
                     }
                 ]
             },
@@ -1554,75 +1230,49 @@
                 "sections": [
                     {
                         "name": "Ice Faerie",
-                        "access_rules": [
-                            "metalspinner",
-                            "pursewebspider",
-                            "caddisflylarva"
-                        ],
+                        "access_rules": ["metalspinner", "pursewebspider", "caddisflylarva"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Fanged Clam",
-                        "access_rules": [
-                            "metalspinner",
-                            " goblinjig"
-                        ],
+                        "access_rules": ["metalspinner"," goblinjig"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Lake Urchin",
-                        "access_rules": [
-                            "bruteleech",
-                            "goblinjig"
-                        ],
+                        "access_rules": ["bruteleech", "goblinjig"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Snowcaller",
-                        "access_rules": [
-                            "caddisflylarva"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_timed"
-                        ],
+                        "access_rules": ["caddisflylarva"],
+                        "visibility_rules": ["fishsanity_timed"],
                         "item_count": 1
                     },
                     {
                         "name": "Mercy Staff",
-                        "access_rules": [
-                            "bruteleech"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_timed"
-                        ],
+                        "access_rules": ["bruteleech"],
+                        "visibility_rules": ["fishsanity_timed"],
                         "item_count": 1
                     },
                     {
                         "name": "Coerthan Oyster",
-                        "access_rules": [
-                            "bruteleech"
-                        ],
+                        "access_rules": ["bruteleech"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Merciless",
-                        "access_rules": [
-                            "caddisflylarva"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_big"
-                        ],
+                        "access_rules": ["caddisflylarva"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     },
                     {
                         "name": "Warmscale Pleco",
-                        "access_rules": [
-                            "metalspinner"
-                        ],
+                        "access_rules": ["metalspinner"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -1630,10 +1280,9 @@
                 "map_locations": [
                     {
                         "map": "Coerthas Western Highlands",
-                        "x": 572,
-                        "y": 364,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1042,
+                        "y": 653,
+                        "size": 6
                     }
                 ]
             },
@@ -1651,51 +1300,37 @@
                 "sections": [
                     {
                         "name": "Ogre Horn Snail",
-                        "access_rules": [
-                            "stoneflynymph"
-                        ],
+                        "access_rules": ["stoneflynymph"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Hospitalier Fish",
-                        "access_rules": [
-                            "pursewebspider"
-                        ],
+                        "access_rules": ["pursewebspider"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Spring Urchin",
-                        "access_rules": [
-                            "bruteleech"
-                        ],
+                        "access_rules": ["bruteleech"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Cherry Trout",
-                        "access_rules": [
-                            "bladedsteeljig"
-                        ],
+                        "access_rules": ["bladedsteeljig"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "The Impaler",
-                        "access_rules": [
-                            "bruteleech"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_big"
-                        ],
+                        "access_rules": ["bruteleech"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     },
                     {
                         "name": "Dragonspine",
-                        "access_rules": [
-                            "signatureskyball"
-                        ],
+                        "access_rules": ["signatureskyball"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -1703,10 +1338,9 @@
                 "map_locations": [
                     {
                         "map": "Coerthas Western Highlands",
-                        "x": 343,
-                        "y": 385,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 939,
+                        "y": 1153,
+                        "size": 6
                     }
                 ]
             }
