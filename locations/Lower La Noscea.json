@@ -23,121 +23,121 @@
                     {
                         "name": "Hullbreaker Isle",
                         "access_rules": ["$leveling:50"],
-                        "visibility_rules": ["level_cap:50, include_HullbreakerIsle"],
+                        "visibility_rules": ["level_cap:50, $duty_visibility|Hullbreaker Isle"],
                         "item_count": 1
                     },
                     {
                         "name": "Hullbreaker Isle (Hard)",
                         "access_rules": ["$leveling:50"],
-                        "visibility_rules": ["level_cap:60, include_HullbreakerIsleHard"],
+                        "visibility_rules": ["level_cap:60, $duty_visibility|Hullbreaker Isle (Hard)"],
                         "item_count": 1
                     },
                     {
                         "name": "Hullbreaker Isle 2",
                         "access_rules": ["$leveling:50"],
-                        "visibility_rules": ["level_cap:50, include_HullbreakerIsle, extra_dungeon_checks:1"],
+                        "visibility_rules": ["level_cap:50, $duty_visibility|Hullbreaker Isle, extra_dungeon_checks:1"],
                         "item_count": 1
                     },
                     {
                         "name": "Hullbreaker Isle 3",
                         "access_rules": ["$leveling:50"],
-                        "visibility_rules": ["level_cap:50, include_HullbreakerIsle, extra_dungeon_checks:2"],
+                        "visibility_rules": ["level_cap:50, $duty_visibility|Hullbreaker Isle, extra_dungeon_checks:2"],
                         "item_count": 1
                     },
                     {
                         "name": "Hullbreaker Isle 4",
                         "access_rules": ["$leveling:50"],
-                        "visibility_rules": ["level_cap:50, include_HullbreakerIsle, extra_dungeon_checks:3"],
+                        "visibility_rules": ["level_cap:50, $duty_visibility|Hullbreaker Isle, extra_dungeon_checks:3"],
                         "item_count": 1
                     },
                     {
                         "name": "Hullbreaker Isle 5",
                         "access_rules": ["$leveling:50"],
-                        "visibility_rules": ["level_cap:50, include_HullbreakerIsle, extra_dungeon_checks:4"],
+                        "visibility_rules": ["level_cap:50, $duty_visibility|Hullbreaker Isle, extra_dungeon_checks:4"],
                         "item_count": 1
                     },
                     {
                         "name": "Hullbreaker Isle 6",
                         "access_rules": ["$leveling:50"],
-                        "visibility_rules": ["level_cap:50, include_HullbreakerIsle, extra_dungeon_checks:5"],
+                        "visibility_rules": ["level_cap:50, $duty_visibility|Hullbreaker Isle, extra_dungeon_checks:5"],
                         "item_count": 1
                     },
                     {
                         "name": "Hullbreaker Isle 7",
                         "access_rules": ["$leveling:50"],
-                        "visibility_rules": ["level_cap:50, include_HullbreakerIsle, extra_dungeon_checks:6"],
+                        "visibility_rules": ["level_cap:50, $duty_visibility|Hullbreaker Isle, extra_dungeon_checks:6"],
                         "item_count": 1
                     },
                     {
                         "name": "Hullbreaker Isle 8",
                         "access_rules": ["$leveling:50"],
-                        "visibility_rules": ["level_cap:50, include_HullbreakerIsle, extra_dungeon_checks:7"],
+                        "visibility_rules": ["level_cap:50, $duty_visibility|Hullbreaker Isle, extra_dungeon_checks:7"],
                         "item_count": 1
                     },
                     {
                         "name": "Hullbreaker Isle 9",
                         "access_rules": ["$leveling:50"],
-                        "visibility_rules": ["level_cap:50, include_HullbreakerIsle, extra_dungeon_checks:8"],
+                        "visibility_rules": ["level_cap:50, $duty_visibility|Hullbreaker Isle, extra_dungeon_checks:8"],
                         "item_count": 1
                     },
                     {
                         "name": "Hullbreaker Isle 10",
                         "access_rules": ["$leveling:50"],
-                        "visibility_rules": ["level_cap:50, include_HullbreakerIsle, extra_dungeon_checks:9"],
+                        "visibility_rules": ["level_cap:50, $duty_visibility|Hullbreaker Isle, extra_dungeon_checks:9"],
                         "item_count": 1
                     },
                     {
                         "name": "Hullbreaker Isle (Hard) 2",
                         "access_rules": ["$leveling:60"],
-                        "visibility_rules": ["level_cap:60, include_HullbreakerIsleHard, extra_dungeon_checks:1"],
+                        "visibility_rules": ["level_cap:60, $duty_visibility|Hullbreaker Isle (Hard), extra_dungeon_checks:1"],
                         "item_count": 1
                     },
                     {
                         "name": "Hullbreaker Isle (Hard) 3",
                         "access_rules": ["$leveling:60"],
-                        "visibility_rules": ["level_cap:60, include_HullbreakerIsleHard, extra_dungeon_checks:2"],
+                        "visibility_rules": ["level_cap:60, $duty_visibility|Hullbreaker Isle (Hard), extra_dungeon_checks:2"],
                         "item_count": 1
                     },
                     {
                         "name": "Hullbreaker Isle (Hard) 4",
                         "access_rules": ["$leveling:60"],
-                        "visibility_rules": ["level_cap:60, include_HullbreakerIsleHard, extra_dungeon_checks:3"],
+                        "visibility_rules": ["level_cap:60, $duty_visibility|Hullbreaker Isle (Hard), extra_dungeon_checks:3"],
                         "item_count": 1
                     },
                     {
                         "name": "Hullbreaker Isle (Hard) 5",
                         "access_rules": ["$leveling:60"],
-                        "visibility_rules": ["level_cap:60, include_HullbreakerIsleHard, extra_dungeon_checks:4"],
+                        "visibility_rules": ["level_cap:60, $duty_visibility|Hullbreaker Isle (Hard), extra_dungeon_checks:4"],
                         "item_count": 1
                     },
                     {
                         "name": "Hullbreaker Isle (Hard) 6",
                         "access_rules": ["$leveling:60"],
-                        "visibility_rules": ["level_cap:60, include_HullbreakerIsleHard, extra_dungeon_checks:5"],
+                        "visibility_rules": ["level_cap:60, $duty_visibility|Hullbreaker Isle (Hard), extra_dungeon_checks:5"],
                         "item_count": 1
                     },
                     {
                         "name": "Hullbreaker Isle (Hard) 7",
                         "access_rules": ["$leveling:60"],
-                        "visibility_rules": ["level_cap:60, include_HullbreakerIsleHard, extra_dungeon_checks:6"],
+                        "visibility_rules": ["level_cap:60, $duty_visibility|Hullbreaker Isle (Hard), extra_dungeon_checks:6"],
                         "item_count": 1
                     },
                     {
                         "name": "Hullbreaker Isle (Hard) 8",
                         "access_rules": ["$leveling:60"],
-                        "visibility_rules": ["level_cap:60, include_HullbreakerIsleHard, extra_dungeon_checks:7"],
+                        "visibility_rules": ["level_cap:60, $duty_visibility|Hullbreaker Isle (Hard), extra_dungeon_checks:7"],
                         "item_count": 1
                     },
                     {
                         "name": "Hullbreaker Isle (Hard) 9",
                         "access_rules": ["$leveling:60"],
-                        "visibility_rules": ["level_cap:60, include_HullbreakerIsleHard, extra_dungeon_checks:8"],
+                        "visibility_rules": ["level_cap:60, $duty_visibility|Hullbreaker Isle (Hard), extra_dungeon_checks:8"],
                         "item_count": 1
                     },
                     {
                         "name": "Hullbreaker Isle (Hard) 10",
                         "access_rules": ["$leveling:60"],
-                        "visibility_rules": ["level_cap:60, include_HullbreakerIsleHard, extra_dungeon_checks:9"],
+                        "visibility_rules": ["level_cap:60, $duty_visibility|Hullbreaker Isle (Hard), extra_dungeon_checks:9"],
                         "item_count": 1
                     }
                 ],

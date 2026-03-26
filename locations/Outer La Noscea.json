@@ -20,13 +20,13 @@
                     {
                         "name": "The Navel (Hard)",
                         "access_rules": [],
-                        "visibility_rules": ["max_party_size_8, duty_difficulty_normal, level_cap:50, include_TheNavelHard"],
+                        "visibility_rules": ["max_party_size_8, duty_difficulty_normal, level_cap:50, $duty_visibility|The Navel (Hard)"],
                         "item_count": 1
                     },
                     {
                         "name": "The Navel (Extreme)",
                         "access_rules": [],
-                        "visibility_rules": ["max_party_size_8, duty_difficulty_ex, level_cap:50, include_TheNavelExtreme"],
+                        "visibility_rules": ["max_party_size_8, duty_difficulty_ex, level_cap:50, $duty_visibility|The Navel (Extreme)"],
                         "item_count": 1
                     }
                 ],

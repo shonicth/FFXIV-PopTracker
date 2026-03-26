@@ -23,121 +23,121 @@
                     {
                         "name": "The Wanderers Palace",
                         "access_rules": [],
-                        "visibility_rules": ["include_TheWanderersPalace"],
+                        "visibility_rules": ["$duty_visibility|The Wanderer's Palace"],
                         "item_count": 1
                     },
                     {
                         "name": "The Wanderers Palace (Hard)",
                         "access_rules": [],
-                        "visibility_rules": ["include_TheWanderersPalaceHard"],
+                        "visibility_rules": ["$duty_visibility|The Wanderer's Palace (Hard)"],
                         "item_count": 1
                     },
                     {
                         "name": "The Wanderers Palace 2",
                         "access_rules": [],
-                        "visibility_rules": ["include_TheWanderersPalace, extra_dungeon_checks:1"],
+                        "visibility_rules": ["$duty_visibility|The Wanderer's Palace, extra_dungeon_checks:1"],
                         "item_count": 1
                     },
                     {
                         "name": "The Wanderers Palace 3",
                         "access_rules": [],
-                        "visibility_rules": ["include_TheWanderersPalace, extra_dungeon_checks:2"],
+                        "visibility_rules": ["$duty_visibility|The Wanderer's Palace, extra_dungeon_checks:2"],
                         "item_count": 1
                     },
                     {
                         "name": "The Wanderers Palace 4",
                         "access_rules": [],
-                        "visibility_rules": ["include_TheWanderersPalace, extra_dungeon_checks:3"],
+                        "visibility_rules": ["$duty_visibility|The Wanderer's Palace, extra_dungeon_checks:3"],
                         "item_count": 1
                     },
                     {
                         "name": "The Wanderers Palace 5",
                         "access_rules": [],
-                        "visibility_rules": ["include_TheWanderersPalace, extra_dungeon_checks:4"],
+                        "visibility_rules": ["$duty_visibility|The Wanderer's Palace, extra_dungeon_checks:4"],
                         "item_count": 1
                     },
                     {
                         "name": "The Wanderers Palace 6",
                         "access_rules": [],
-                        "visibility_rules": ["include_TheWanderersPalace, extra_dungeon_checks:5"],
+                        "visibility_rules": ["$duty_visibility|The Wanderer's Palace, extra_dungeon_checks:5"],
                         "item_count": 1
                     },
                     {
                         "name": "The Wanderers Palace 7",
                         "access_rules": [],
-                        "visibility_rules": ["include_TheWanderersPalace, extra_dungeon_checks:6"],
+                        "visibility_rules": ["$duty_visibility|The Wanderer's Palace, extra_dungeon_checks:6"],
                         "item_count": 1
                     },
                     {
                         "name": "The Wanderers Palace 8",
                         "access_rules": [],
-                        "visibility_rules": ["include_TheWanderersPalace, extra_dungeon_checks:7"],
+                        "visibility_rules": ["$duty_visibility|The Wanderer's Palace, extra_dungeon_checks:7"],
                         "item_count": 1
                     },
                     {
                         "name": "The Wanderers Palace 9",
                         "access_rules": [],
-                        "visibility_rules": ["include_TheWanderersPalace, extra_dungeon_checks:8"],
+                        "visibility_rules": ["$duty_visibility|The Wanderer's Palace, extra_dungeon_checks:8"],
                         "item_count": 1
                     },
                     {
                         "name": "The Wanderers Palace 10",
                         "access_rules": [],
-                        "visibility_rules": ["include_TheWanderersPalace, extra_dungeon_checks:9"],
+                        "visibility_rules": ["$duty_visibility|The Wanderer's Palace, extra_dungeon_checks:9"],
                         "item_count": 1
                     },
                     {
                         "name": "The Wanderers Palace (Hard) 2",
                         "access_rules": [],
-                        "visibility_rules": ["include_TheWanderersPalaceHard, extra_dungeon_checks:1"],
+                        "visibility_rules": ["$duty_visibility|The Wanderer's Palace (Hard), extra_dungeon_checks:1"],
                         "item_count": 1
                     },
                     {
                         "name": "The Wanderers Palace (Hard) 3",
                         "access_rules": [],
-                        "visibility_rules": ["include_TheWanderersPalaceHard, extra_dungeon_checks:2"],
+                        "visibility_rules": ["$duty_visibility|The Wanderer's Palace (Hard), extra_dungeon_checks:2"],
                         "item_count": 1
                     },
                     {
                         "name": "The Wanderers Palace (Hard) 4",
                         "access_rules": [],
-                        "visibility_rules": ["include_TheWanderersPalaceHard, extra_dungeon_checks:3"],
+                        "visibility_rules": ["$duty_visibility|The Wanderer's Palace (Hard), extra_dungeon_checks:3"],
                         "item_count": 1
                     },
                     {
                         "name": "The Wanderers Palace (Hard) 5",
                         "access_rules": [],
-                        "visibility_rules": ["include_TheWanderersPalaceHard, extra_dungeon_checks:4"],
+                        "visibility_rules": ["$duty_visibility|The Wanderer's Palace (Hard), extra_dungeon_checks:4"],
                         "item_count": 1
                     },
                     {
                         "name": "The Wanderers Palace (Hard) 6",
                         "access_rules": [],
-                        "visibility_rules": ["include_TheWanderersPalaceHard, extra_dungeon_checks:5"],
+                        "visibility_rules": ["$duty_visibility|The Wanderer's Palace (Hard), extra_dungeon_checks:5"],
                         "item_count": 1
                     },
                     {
                         "name": "The Wanderers Palace (Hard) 7",
                         "access_rules": [],
-                        "visibility_rules": ["include_TheWanderersPalaceHard, extra_dungeon_checks:6"],
+                        "visibility_rules": ["$duty_visibility|The Wanderer's Palace (Hard), extra_dungeon_checks:6"],
                         "item_count": 1
                     },
                     {
                         "name": "The Wanderers Palace (Hard) 8",
                         "access_rules": [],
-                        "visibility_rules": ["include_TheWanderersPalaceHard, extra_dungeon_checks:7"],
+                        "visibility_rules": ["$duty_visibility|The Wanderer's Palace (Hard), extra_dungeon_checks:7"],
                         "item_count": 1
                     },
                     {
                         "name": "The Wanderers Palace (Hard) 9",
                         "access_rules": [],
-                        "visibility_rules": ["include_TheWanderersPalaceHard, extra_dungeon_checks:8"],
+                        "visibility_rules": ["$duty_visibility|The Wanderer's Palace (Hard), extra_dungeon_checks:8"],
                         "item_count": 1
                     },
                     {
                         "name": "The Wanderers Palace (Hard) 10",
                         "access_rules": [],
-                        "visibility_rules": ["include_TheWanderersPalaceHard, extra_dungeon_checks:9"],
+                        "visibility_rules": ["$duty_visibility|The Wanderer's Palace (Hard), extra_dungeon_checks:9"],
                         "item_count": 1
                     }
                 ],
@@ -163,7 +163,7 @@
                     {
                         "name": "The Navel",
                         "access_rules": ["$leveling:34"],
-                        "visibility_rules": ["max_party_size_4, duty_difficulty_normal, level_cap:34, include_TheNavel"],
+                        "visibility_rules": ["max_party_size_4, duty_difficulty_normal, level_cap:34, $duty_visibility|The Navel"],
                         "item_count": 1
                     }
                 ],

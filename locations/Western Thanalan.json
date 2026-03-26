@@ -48,121 +48,121 @@
                     {
                         "name": "Copperbell Mines",
                         "access_rules": ["$leveling:17"],
-                        "visibility_rules": ["include_CopperbellMines"],
+                        "visibility_rules": ["$duty_visibility|Copperbell Mines"],
                         "item_count": 1
                     },
                     {
                         "name": "Copperbell Mines (Hard)",
                         "access_rules": ["$leveling:50"],
-                        "visibility_rules": ["include_CopperbellMinesHard, level_cap:50"],
+                        "visibility_rules": ["$duty_visibility|Copperbell Mines (Hard), level_cap:50"],
                         "item_count": 1
                     },
                     {
                         "name": "Copperbell Mines 2",
                         "access_rules": ["$leveling:17"],
-                        "visibility_rules": ["include_CopperbellMines, extra_dungeon_checks:1"],
+                        "visibility_rules": ["$duty_visibility|Copperbell Mines, extra_dungeon_checks:1"],
                         "item_count": 1
                     },
                     {
                         "name": "Copperbell Mines 3",
                         "access_rules": ["$leveling:17"],
-                        "visibility_rules": ["include_CopperbellMines, extra_dungeon_checks:2"],
+                        "visibility_rules": ["$duty_visibility|Copperbell Mines, extra_dungeon_checks:2"],
                         "item_count": 1
                     },
                     {
                         "name": "Copperbell Mines 4",
                         "access_rules": ["$leveling:17"],
-                        "visibility_rules": ["include_CopperbellMines, extra_dungeon_checks:3"],
+                        "visibility_rules": ["$duty_visibility|Copperbell Mines, extra_dungeon_checks:3"],
                         "item_count": 1
                     },
                     {
                         "name": "Copperbell Mines 5",
                         "access_rules": ["$leveling:17"],
-                        "visibility_rules": ["include_CopperbellMines, extra_dungeon_checks:4"],
+                        "visibility_rules": ["$duty_visibility|Copperbell Mines, extra_dungeon_checks:4"],
                         "item_count": 1
                     },
                     {
                         "name": "Copperbell Mines 6",
                         "access_rules": ["$leveling:17"],
-                        "visibility_rules": ["include_CopperbellMines, extra_dungeon_checks:5"],
+                        "visibility_rules": ["$duty_visibility|Copperbell Mines, extra_dungeon_checks:5"],
                         "item_count": 1
                     },
                     {
                         "name": "Copperbell Mines 7",
                         "access_rules": ["$leveling:17"],
-                        "visibility_rules": ["include_CopperbellMines, extra_dungeon_checks:6"],
+                        "visibility_rules": ["$duty_visibility|Copperbell Mines, extra_dungeon_checks:6"],
                         "item_count": 1
                     },
                     {
                         "name": "Copperbell Mines 8",
                         "access_rules": ["$leveling:17"],
-                        "visibility_rules": ["include_CopperbellMines, extra_dungeon_checks:7"],
+                        "visibility_rules": ["$duty_visibility|Copperbell Mines, extra_dungeon_checks:7"],
                         "item_count": 1
                     },
                     {
                         "name": "Copperbell Mines 9",
                         "access_rules": ["$leveling:17"],
-                        "visibility_rules": ["include_CopperbellMines, extra_dungeon_checks:8"],
+                        "visibility_rules": ["$duty_visibility|Copperbell Mines, extra_dungeon_checks:8"],
                         "item_count": 1
                     },
                     {
                         "name": "Copperbell Mines 10",
                         "access_rules": ["$leveling:17"],
-                        "visibility_rules": ["include_CopperbellMines, extra_dungeon_checks:9"],
+                        "visibility_rules": ["$duty_visibility|Copperbell Mines, extra_dungeon_checks:9"],
                         "item_count": 1
                     },
                     {
                         "name": "Copperbell Mines (Hard) 2",
                         "access_rules": ["$leveling:50"],
-                        "visibility_rules": ["include_CopperbellMinesHard, level_cap:50, extra_dungeon_checks:1"],
+                        "visibility_rules": ["$duty_visibility|Copperbell Mines (Hard), level_cap:50, extra_dungeon_checks:1"],
                         "item_count": 1
                     },
                     {
                         "name": "Copperbell Mines (Hard) 3",
                         "access_rules": ["$leveling:50"],
-                        "visibility_rules": ["include_CopperbellMinesHard, level_cap:50, extra_dungeon_checks:2"],
+                        "visibility_rules": ["$duty_visibility|Copperbell Mines (Hard), level_cap:50, extra_dungeon_checks:2"],
                         "item_count": 1
                     },
                     {
                         "name": "Copperbell Mines (Hard) 4",
                         "access_rules": ["$leveling:50"],
-                        "visibility_rules": ["include_CopperbellMinesHard, level_cap:50, extra_dungeon_checks:3"],
+                        "visibility_rules": ["$duty_visibility|Copperbell Mines (Hard), level_cap:50, extra_dungeon_checks:3"],
                         "item_count": 1
                     },
                     {
                         "name": "Copperbell Mines (Hard) 5",
                         "access_rules": ["$leveling:50"],
-                        "visibility_rules": ["include_CopperbellMinesHard, level_cap:50, extra_dungeon_checks:4"],
+                        "visibility_rules": ["$duty_visibility|Copperbell Mines (Hard), level_cap:50, extra_dungeon_checks:4"],
                         "item_count": 1
                     },
                     {
                         "name": "Copperbell Mines (Hard) 6",
                         "access_rules": ["$leveling:50"],
-                        "visibility_rules": ["include_CopperbellMinesHard, level_cap:50, extra_dungeon_checks:5"],
+                        "visibility_rules": ["$duty_visibility|Copperbell Mines (Hard), level_cap:50, extra_dungeon_checks:5"],
                         "item_count": 1
                     },
                     {
                         "name": "Copperbell Mines (Hard) 7",
                         "access_rules": ["$leveling:50"],
-                        "visibility_rules": ["include_CopperbellMinesHard, level_cap:50, extra_dungeon_checks:6"],
+                        "visibility_rules": ["$duty_visibility|Copperbell Mines (Hard), level_cap:50, extra_dungeon_checks:6"],
                         "item_count": 1
                     },
                     {
                         "name": "Copperbell Mines (Hard) 8",
                         "access_rules": ["$leveling:50"],
-                        "visibility_rules": ["include_CopperbellMinesHard, level_cap:50, extra_dungeon_checks:7"],
+                        "visibility_rules": ["$duty_visibility|Copperbell Mines (Hard), level_cap:50, extra_dungeon_checks:7"],
                         "item_count": 1
                     },
                     {
                         "name": "Copperbell Mines (Hard) 9",
                         "access_rules": ["$leveling:50"],
-                        "visibility_rules": ["include_CopperbellMinesHard, level_cap:50, extra_dungeon_checks:8"],
+                        "visibility_rules": ["$duty_visibility|Copperbell Mines (Hard), level_cap:50, extra_dungeon_checks:8"],
                         "item_count": 1
                     },
                     {
                         "name": "Copperbell Mines (Hard) 10",
                         "access_rules": ["$leveling:50"],
-                        "visibility_rules": ["include_CopperbellMinesHard, level_cap:50, extra_dungeon_checks:9"],
+                        "visibility_rules": ["$duty_visibility|Copperbell Mines (Hard), level_cap:50, extra_dungeon_checks:9"],
                         "item_count": 1
                     }
                 ],

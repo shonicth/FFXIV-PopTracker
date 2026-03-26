@@ -8,6 +8,8 @@ CUR_INDEX = -1
 ALL_LOCATIONS = {}
 SLOT_DATA = {}
 
+ExcludedDuties = {}
+
 MANUAL_CHECKED = true
 ROOM_SEED = "default"
 TROLL_PLAYER = false
@@ -120,6 +122,8 @@ end
 function preOnClear()
     PLAYER_ID = Archipelago.PlayerNumber or -1
 	TEAM_NUMBER = Archipelago.TeamNumber or 0
+    ExcludedDuties = {}
+    
     if Archipelago.PlayerNumber > -1 then
         for key, _ in pairs(Troll_Lookup) do
             if string.find(string.lower(Archipelago:GetPlayerAlias(PLAYER_ID)), key, 1, true) ~= nil then
@@ -184,10 +188,7 @@ function processYaml(slot_data)
         Tracker:FindObjectForCode("include_guildhests").Active = slot_data["include_guildhests"] == 1
 
      --Exclude Duty Check
-        for _, excluded_duty in 
-        pairs(slot_data["excluded_duties"]) do
-            Tracker:FindObjectForCode(duty_table[excluded_duty]).Active = false
-        end
+        ExcludedDuties = slot_data["excluded_duties"]
     end
 
 
