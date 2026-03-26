@@ -26,7 +26,7 @@
                             "$leveling:41"
                         ],
                         "visibility_rules": [
-                            "include_TheStoneVigil, level_cap:41"
+                            "$duty_visibility|The Stone Vigil, level_cap:41"
                         ],
                         "item_count": 1
                     },
@@ -36,7 +36,7 @@
                             "$leveling:50"
                         ],
                         "visibility_rules": [
-                            "include_TheStoneVigilHard, level_cap:50"
+                            "$duty_visibility|The Stone Vigil (Hard), level_cap:50"
                         ],
                         "item_count": 1
                     },
@@ -46,7 +46,7 @@
                             "$leveling:41"
                         ],
                         "visibility_rules": [
-                            "include_TheStoneVigil, level_cap:41, extra_dungeon_checks:1"
+                            "$duty_visibility|The Stone Vigil, level_cap:41, extra_dungeon_checks:1"
                         ],
                         "item_count": 1
                     },
@@ -56,7 +56,7 @@
                             "$leveling:41"
                         ],
                         "visibility_rules": [
-                            "include_TheStoneVigil, level_cap:41, extra_dungeon_checks:2"
+                            "$duty_visibility|The Stone Vigil, level_cap:41, extra_dungeon_checks:2"
                         ],
                         "item_count": 1
                     },
@@ -66,7 +66,7 @@
                             "$leveling:41"
                         ],
                         "visibility_rules": [
-                            "include_TheStoneVigil, level_cap:41, extra_dungeon_checks:3"
+                            "$duty_visibility|The Stone Vigil, level_cap:41, extra_dungeon_checks:3"
                         ],
                         "item_count": 1
                     },
@@ -76,7 +76,7 @@
                             "$leveling:41"
                         ],
                         "visibility_rules": [
-                            "include_TheStoneVigil, level_cap:41, extra_dungeon_checks:4"
+                            "$duty_visibility|The Stone Vigil, level_cap:41, extra_dungeon_checks:4"
                         ],
                         "item_count": 1
                     },
@@ -86,7 +86,7 @@
                             "$leveling:41"
                         ],
                         "visibility_rules": [
-                            "include_TheStoneVigil, level_cap:41, extra_dungeon_checks:5"
+                            "$duty_visibility|The Stone Vigil, level_cap:41, extra_dungeon_checks:5"
                         ],
                         "item_count": 1
                     },
@@ -96,7 +96,7 @@
                             "$leveling:41"
                         ],
                         "visibility_rules": [
-                            "include_TheStoneVigil, level_cap:41, extra_dungeon_checks:6"
+                            "$duty_visibility|The Stone Vigil, level_cap:41, extra_dungeon_checks:6"
                         ],
                         "item_count": 1
                     },
@@ -106,7 +106,7 @@
                             "$leveling:41"
                         ],
                         "visibility_rules": [
-                            "include_TheStoneVigil, level_cap:41, extra_dungeon_checks:7"
+                            "$duty_visibility|The Stone Vigil, level_cap:41, extra_dungeon_checks:7"
                         ],
                         "item_count": 1
                     },
@@ -116,7 +116,7 @@
                             "$leveling:41"
                         ],
                         "visibility_rules": [
-                            "include_TheStoneVigil, level_cap:41, extra_dungeon_checks:8"
+                            "$duty_visibility|The Stone Vigil, level_cap:41, extra_dungeon_checks:8"
                         ],
                         "item_count": 1
                     },
@@ -126,7 +126,7 @@
                             "$leveling:41"
                         ],
                         "visibility_rules": [
-                            "include_TheStoneVigil, level_cap:41, extra_dungeon_checks:9"
+                            "$duty_visibility|The Stone Vigil, level_cap:41, extra_dungeon_checks:9"
                         ],
                         "item_count": 1
                     },
@@ -136,7 +136,7 @@
                             "$leveling:50"
                         ],
                         "visibility_rules": [
-                            "include_TheStoneVigilHard, level_cap:50, extra_dungeon_checks:1"
+                            "$duty_visibility|The Stone Vigil (Hard), level_cap:50, extra_dungeon_checks:1"
                         ],
                         "item_count": 1
                     },
@@ -146,7 +146,7 @@
                             "$leveling:50"
                         ],
                         "visibility_rules": [
-                            "include_TheStoneVigilHard, level_cap:50, extra_dungeon_checks:2"
+                            "$duty_visibility|The Stone Vigil (Hard), level_cap:50, extra_dungeon_checks:2"
                         ],
                         "item_count": 1
                     },
@@ -156,7 +156,7 @@
                             "$leveling:50"
                         ],
                         "visibility_rules": [
-                            "include_TheStoneVigilHard, level_cap:50, extra_dungeon_checks:3"
+                            "$duty_visibility|The Stone Vigil (Hard), level_cap:50, extra_dungeon_checks:3"
                         ],
                         "item_count": 1
                     },
@@ -166,7 +166,7 @@
                             "$leveling:50"
                         ],
                         "visibility_rules": [
-                            "include_TheStoneVigilHard, level_cap:50, extra_dungeon_checks:4"
+                            "$duty_visibility|The Stone Vigil (Hard), level_cap:50, extra_dungeon_checks:4"
                         ],
                         "item_count": 1
                     },
@@ -176,7 +176,7 @@
                             "$leveling:50"
                         ],
                         "visibility_rules": [
-                            "include_TheStoneVigilHard, level_cap:50, extra_dungeon_checks:5"
+                            "$duty_visibility|The Stone Vigil (Hard), level_cap:50, extra_dungeon_checks:5"
                         ],
                         "item_count": 1
                     },
@@ -186,7 +186,7 @@
                             "$leveling:50"
                         ],
                         "visibility_rules": [
-                            "include_TheStoneVigilHard, level_cap:50, extra_dungeon_checks:6"
+                            "$duty_visibility|The Stone Vigil (Hard), level_cap:50, extra_dungeon_checks:6"
                         ],
                         "item_count": 1
                     },
@@ -196,7 +196,7 @@
                             "$leveling:50"
                         ],
                         "visibility_rules": [
-                            "include_TheStoneVigilHard, level_cap:50, extra_dungeon_checks:7"
+                            "$duty_visibility|The Stone Vigil (Hard), level_cap:50, extra_dungeon_checks:7"
                         ],
                         "item_count": 1
                     },
@@ -206,7 +206,7 @@
                             "$leveling:50"
                         ],
                         "visibility_rules": [
-                            "include_TheStoneVigilHard, level_cap:50, extra_dungeon_checks:8"
+                            "$duty_visibility|The Stone Vigil (Hard), level_cap:50, extra_dungeon_checks:8"
                         ],
                         "item_count": 1
                     },
@@ -216,7 +216,7 @@
                             "$leveling:50"
                         ],
                         "visibility_rules": [
-                            "include_TheStoneVigilHard, level_cap:50, extra_dungeon_checks:9"
+                            "$duty_visibility|The Stone Vigil (Hard), level_cap:50, extra_dungeon_checks:9"
                         ],
                         "item_count": 1
                     }
@@ -240,7 +240,7 @@
                     "$leveling:44"
                 ],
                 "visibility_rules": [
-                    "include_dungeons, max_party_size_4, duty_difficulty_normal, level_cap:44, include_DzemaelDarkhold"
+                    "include_dungeons, max_party_size_4, duty_difficulty_normal, level_cap:44, $duty_visibility|Dzemael Darkhold"
                 ],
                 "sections": [
                     {
@@ -341,7 +341,7 @@
                     "$leveling:47"
                 ],
                 "visibility_rules": [
-                    "include_dungeons, max_party_size_4, duty_difficulty_normal, level_cap:47, include_TheAurumVale"
+                    "include_dungeons, max_party_size_4, duty_difficulty_normal, level_cap:47, $duty_visibility|The Aurum Vale"
                 ],
                 "sections": [
                     {
@@ -448,7 +448,7 @@
                             "$leveling:50"
                         ],
                         "visibility_rules": [
-                            "include_dungeons, max_party_size_4, duty_difficulty_normal, level_cap:50, include_Snowcloak"
+                            "include_dungeons, max_party_size_4, duty_difficulty_normal, level_cap:50, $duty_visibility|Snowcloak"
                         ],
                         "item_count": 1
                     },
@@ -530,7 +530,7 @@
                             "$leveling:50"
                         ],
                         "visibility_rules": [
-                            "include_dungeons, max_party_size_4, duty_difficulty_normal, level_cap:50, include_Snowcloak"
+                            "include_dungeons, max_party_size_4, duty_difficulty_normal, level_cap:50, $duty_visibility|Snowcloak"
                         ],
                         "item_count": 1
                     },
@@ -540,7 +540,7 @@
                             "$leveling:50"
                         ],
                         "visibility_rules": [
-                            "include_dungeons, max_party_size_4, duty_difficulty_normal, level_cap:50, include_Snowcloak"
+                            "include_dungeons, max_party_size_4, duty_difficulty_normal, level_cap:50, $duty_visibility|Snowcloak"
                         ],
                         "item_count": 1
                     },
@@ -550,7 +550,7 @@
                             "$leveling:50"
                         ],
                         "visibility_rules": [
-                            "include_dungeons, max_party_size_4, duty_difficulty_normal, level_cap:50, include_Snowcloak"
+                            "include_dungeons, max_party_size_4, duty_difficulty_normal, level_cap:50, $duty_visibility|Snowcloak"
                         ],
                         "item_count": 1
                     },
@@ -560,7 +560,7 @@
                             "$leveling:50"
                         ],
                         "visibility_rules": [
-                            "include_dungeons, max_party_size_4, duty_difficulty_normal, level_cap:50, include_Snowcloak"
+                            "include_dungeons, max_party_size_4, duty_difficulty_normal, level_cap:50, $duty_visibility|Snowcloak"
                         ],
                         "item_count": 1
                     },
@@ -570,7 +570,7 @@
                             "$leveling:50"
                         ],
                         "visibility_rules": [
-                            "include_dungeons, max_party_size_4, duty_difficulty_normal, level_cap:50, include_Snowcloak"
+                            "include_dungeons, max_party_size_4, duty_difficulty_normal, level_cap:50, $duty_visibility|Snowcloak"
                         ],
                         "item_count": 1
                     },
@@ -580,7 +580,7 @@
                             "$leveling:50"
                         ],
                         "visibility_rules": [
-                            "include_dungeons, max_party_size_4, duty_difficulty_normal, level_cap:50, include_Snowcloak"
+                            "include_dungeons, max_party_size_4, duty_difficulty_normal, level_cap:50, $duty_visibility|Snowcloak"
                         ],
                         "item_count": 1
                     },
@@ -590,7 +590,7 @@
                             "$leveling:50"
                         ],
                         "visibility_rules": [
-                            "include_dungeons, max_party_size_4, duty_difficulty_normal, level_cap:50, include_Snowcloak"
+                            "include_dungeons, max_party_size_4, duty_difficulty_normal, level_cap:50, $duty_visibility|Snowcloak"
                         ],
                         "item_count": 1
                     },
@@ -600,7 +600,7 @@
                             "$leveling:50"
                         ],
                         "visibility_rules": [
-                            "include_dungeons, max_party_size_4, duty_difficulty_normal, level_cap:50, include_Snowcloak"
+                            "include_dungeons, max_party_size_4, duty_difficulty_normal, level_cap:50, $duty_visibility|Snowcloak"
                         ],
                         "item_count": 1
                     },
@@ -610,7 +610,7 @@
                             "$leveling:50"
                         ],
                         "visibility_rules": [
-                            "include_dungeons, max_party_size_4, duty_difficulty_normal, level_cap:50, include_Snowcloak"
+                            "include_dungeons, max_party_size_4, duty_difficulty_normal, level_cap:50, $duty_visibility|Snowcloak"
                         ],
                         "item_count": 1
                     }

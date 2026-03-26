@@ -52,7 +52,7 @@
                             "$leveling:17"
                         ],
                         "visibility_rules": [
-                            "include_CopperbellMines"
+                            "$duty_visibility|Copperbell Mines"
                         ],
                         "item_count": 1
                     },
@@ -62,7 +62,7 @@
                             "$leveling:50"
                         ],
                         "visibility_rules": [
-                            "include_CopperbellMinesHard, level_cap:50"
+                            "$duty_visibility|Copperbell Mines (Hard), level_cap:50"
                         ],
                         "item_count": 1
                     },
@@ -72,7 +72,7 @@
                             "$leveling:17"
                         ],
                         "visibility_rules": [
-                            "include_CopperbellMines, extra_dungeon_checks:1"
+                            "$duty_visibility|Copperbell Mines, extra_dungeon_checks:1"
                         ],
                         "item_count": 1
                     },
@@ -82,7 +82,7 @@
                             "$leveling:17"
                         ],
                         "visibility_rules": [
-                            "include_CopperbellMines, extra_dungeon_checks:2"
+                            "$duty_visibility|Copperbell Mines, extra_dungeon_checks:2"
                         ],
                         "item_count": 1
                     },
@@ -92,7 +92,7 @@
                             "$leveling:17"
                         ],
                         "visibility_rules": [
-                            "include_CopperbellMines, extra_dungeon_checks:3"
+                            "$duty_visibility|Copperbell Mines, extra_dungeon_checks:3"
                         ],
                         "item_count": 1
                     },
@@ -102,7 +102,7 @@
                             "$leveling:17"
                         ],
                         "visibility_rules": [
-                            "include_CopperbellMines, extra_dungeon_checks:4"
+                            "$duty_visibility|Copperbell Mines, extra_dungeon_checks:4"
                         ],
                         "item_count": 1
                     },
@@ -112,7 +112,7 @@
                             "$leveling:17"
                         ],
                         "visibility_rules": [
-                            "include_CopperbellMines, extra_dungeon_checks:5"
+                            "$duty_visibility|Copperbell Mines, extra_dungeon_checks:5"
                         ],
                         "item_count": 1
                     },
@@ -122,7 +122,7 @@
                             "$leveling:17"
                         ],
                         "visibility_rules": [
-                            "include_CopperbellMines, extra_dungeon_checks:6"
+                            "$duty_visibility|Copperbell Mines, extra_dungeon_checks:6"
                         ],
                         "item_count": 1
                     },
@@ -132,7 +132,7 @@
                             "$leveling:17"
                         ],
                         "visibility_rules": [
-                            "include_CopperbellMines, extra_dungeon_checks:7"
+                            "$duty_visibility|Copperbell Mines, extra_dungeon_checks:7"
                         ],
                         "item_count": 1
                     },
@@ -142,7 +142,7 @@
                             "$leveling:17"
                         ],
                         "visibility_rules": [
-                            "include_CopperbellMines, extra_dungeon_checks:8"
+                            "$duty_visibility|Copperbell Mines, extra_dungeon_checks:8"
                         ],
                         "item_count": 1
                     },
@@ -152,7 +152,7 @@
                             "$leveling:17"
                         ],
                         "visibility_rules": [
-                            "include_CopperbellMines, extra_dungeon_checks:9"
+                            "$duty_visibility|Copperbell Mines, extra_dungeon_checks:9"
                         ],
                         "item_count": 1
                     },
@@ -162,7 +162,7 @@
                             "$leveling:50"
                         ],
                         "visibility_rules": [
-                            "include_CopperbellMinesHard, level_cap:50, extra_dungeon_checks:1"
+                            "$duty_visibility|Copperbell Mines (Hard), level_cap:50, extra_dungeon_checks:1"
                         ],
                         "item_count": 1
                     },
@@ -172,7 +172,7 @@
                             "$leveling:50"
                         ],
                         "visibility_rules": [
-                            "include_CopperbellMinesHard, level_cap:50, extra_dungeon_checks:2"
+                            "$duty_visibility|Copperbell Mines (Hard), level_cap:50, extra_dungeon_checks:2"
                         ],
                         "item_count": 1
                     },
@@ -182,7 +182,7 @@
                             "$leveling:50"
                         ],
                         "visibility_rules": [
-                            "include_CopperbellMinesHard, level_cap:50, extra_dungeon_checks:3"
+                            "$duty_visibility|Copperbell Mines (Hard), level_cap:50, extra_dungeon_checks:3"
                         ],
                         "item_count": 1
                     },
@@ -192,7 +192,7 @@
                             "$leveling:50"
                         ],
                         "visibility_rules": [
-                            "include_CopperbellMinesHard, level_cap:50, extra_dungeon_checks:4"
+                            "$duty_visibility|Copperbell Mines (Hard), level_cap:50, extra_dungeon_checks:4"
                         ],
                         "item_count": 1
                     },
@@ -202,7 +202,7 @@
                             "$leveling:50"
                         ],
                         "visibility_rules": [
-                            "include_CopperbellMinesHard, level_cap:50, extra_dungeon_checks:5"
+                            "$duty_visibility|Copperbell Mines (Hard), level_cap:50, extra_dungeon_checks:5"
                         ],
                         "item_count": 1
                     },
@@ -212,7 +212,7 @@
                             "$leveling:50"
                         ],
                         "visibility_rules": [
-                            "include_CopperbellMinesHard, level_cap:50, extra_dungeon_checks:6"
+                            "$duty_visibility|Copperbell Mines (Hard), level_cap:50, extra_dungeon_checks:6"
                         ],
                         "item_count": 1
                     },
@@ -222,7 +222,7 @@
                             "$leveling:50"
                         ],
                         "visibility_rules": [
-                            "include_CopperbellMinesHard, level_cap:50, extra_dungeon_checks:7"
+                            "$duty_visibility|Copperbell Mines (Hard), level_cap:50, extra_dungeon_checks:7"
                         ],
                         "item_count": 1
                     },
@@ -232,7 +232,7 @@
                             "$leveling:50"
                         ],
                         "visibility_rules": [
-                            "include_CopperbellMinesHard, level_cap:50, extra_dungeon_checks:8"
+                            "$duty_visibility|Copperbell Mines (Hard), level_cap:50, extra_dungeon_checks:8"
                         ],
                         "item_count": 1
                     },
@@ -242,7 +242,7 @@
                             "$leveling:50"
                         ],
                         "visibility_rules": [
-                            "include_CopperbellMinesHard, level_cap:50, extra_dungeon_checks:9"
+                            "$duty_visibility|Copperbell Mines (Hard), level_cap:50, extra_dungeon_checks:9"
                         ],
                         "item_count": 1
                     }

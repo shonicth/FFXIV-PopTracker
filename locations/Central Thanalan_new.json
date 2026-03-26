@@ -17,7 +17,7 @@
                     "$leveling:38"
                 ],
                 "visibility_rules": [
-                    "include_dungeons, max_party_size_4, duty_difficulty_normal, include_CuttersCry, level_cap:38"
+                    "include_dungeons, max_party_size_4, duty_difficulty_normal, $duty_visibility|Cutter's Cry, level_cap:38"
                 ],
                 "sections": [
                     {

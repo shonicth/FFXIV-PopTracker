@@ -23,7 +23,7 @@
                             "$leveling:20"
                         ],
                         "visibility_rules": [
-                            "include_dungeons, max_party_size_4, duty_difficulty_normal, include_Halatali"
+                            "include_dungeons, max_party_size_4, duty_difficulty_normal, $duty_visibility|Halatali"
                         ],
                         "item_count": 1
                     },
@@ -33,7 +33,7 @@
                             "$leveling:50"
                         ],
                         "visibility_rules": [
-                            "include_dungeons, max_party_size_4, duty_difficulty_normal, include_HalataliHard, level_cap:50"
+                            "include_dungeons, max_party_size_4, duty_difficulty_normal, $duty_visibility|Halatali (Hard), level_cap:50"
                         ],
                         "item_count": 1
                     },
@@ -63,7 +63,7 @@
                             "$leveling:20"
                         ],
                         "visibility_rules": [
-                            "include_dungeons, max_party_size_4, duty_difficulty_normal, include_Halatali, extra_dungeon_checks:1"
+                            "include_dungeons, max_party_size_4, duty_difficulty_normal, $duty_visibility|Halatali, extra_dungeon_checks:1"
                         ],
                         "item_count": 1
                     },
@@ -73,7 +73,7 @@
                             "$leveling:20"
                         ],
                         "visibility_rules": [
-                            "include_dungeons, max_party_size_4, duty_difficulty_normal, include_Halatali, extra_dungeon_checks:2"
+                            "include_dungeons, max_party_size_4, duty_difficulty_normal, $duty_visibility|Halatali, extra_dungeon_checks:2"
                         ],
                         "item_count": 1
                     },
@@ -83,7 +83,7 @@
                             "$leveling:20"
                         ],
                         "visibility_rules": [
-                            "include_dungeons, max_party_size_4, duty_difficulty_normal, include_Halatali, extra_dungeon_checks:3"
+                            "include_dungeons, max_party_size_4, duty_difficulty_normal, $duty_visibility|Halatali, extra_dungeon_checks:3"
                         ],
                         "item_count": 1
                     },
@@ -93,7 +93,7 @@
                             "$leveling:20"
                         ],
                         "visibility_rules": [
-                            "include_dungeons, max_party_size_4, duty_difficulty_normal, include_Halatali, extra_dungeon_checks:4"
+                            "include_dungeons, max_party_size_4, duty_difficulty_normal, $duty_visibility|Halatali, extra_dungeon_checks:4"
                         ],
                         "item_count": 1
                     },
@@ -103,7 +103,7 @@
                             "$leveling:20"
                         ],
                         "visibility_rules": [
-                            "include_dungeons, max_party_size_4, duty_difficulty_normal, include_Halatali, extra_dungeon_checks:5"
+                            "include_dungeons, max_party_size_4, duty_difficulty_normal, $duty_visibility|Halatali, extra_dungeon_checks:5"
                         ],
                         "item_count": 1
                     },
@@ -113,7 +113,7 @@
                             "$leveling:20"
                         ],
                         "visibility_rules": [
-                            "include_dungeons, max_party_size_4, duty_difficulty_normal, include_Halatali, extra_dungeon_checks:6"
+                            "include_dungeons, max_party_size_4, duty_difficulty_normal, $duty_visibility|Halatali, extra_dungeon_checks:6"
                         ],
                         "item_count": 1
                     },
@@ -123,7 +123,7 @@
                             "$leveling:20"
                         ],
                         "visibility_rules": [
-                            "include_dungeons, max_party_size_4, duty_difficulty_normal, include_Halatali, extra_dungeon_checks:7"
+                            "include_dungeons, max_party_size_4, duty_difficulty_normal, $duty_visibility|Halatali, extra_dungeon_checks:7"
                         ],
                         "item_count": 1
                     },
@@ -133,7 +133,7 @@
                             "$leveling:20"
                         ],
                         "visibility_rules": [
-                            "include_dungeons, max_party_size_4, duty_difficulty_normal, include_Halatali, extra_dungeon_checks:8"
+                            "include_dungeons, max_party_size_4, duty_difficulty_normal, $duty_visibility|Halatali, extra_dungeon_checks:8"
                         ],
                         "item_count": 1
                     },
@@ -143,7 +143,7 @@
                             "$leveling:20"
                         ],
                         "visibility_rules": [
-                            "include_dungeons, max_party_size_4, duty_difficulty_normal, include_Halatali, extra_dungeon_checks:9"
+                            "include_dungeons, max_party_size_4, duty_difficulty_normal, $duty_visibility|Halatali, extra_dungeon_checks:9"
                         ],
                         "item_count": 1
                     },
@@ -153,7 +153,7 @@
                             "$leveling:50"
                         ],
                         "visibility_rules": [
-                            "include_dungeons, max_party_size_4, duty_difficulty_normal, include_HalataliHard, level_cap:50, extra_dungeon_checks:1"
+                            "include_dungeons, max_party_size_4, duty_difficulty_normal, $duty_visibility|Halatali (Hard), level_cap:50, extra_dungeon_checks:1"
                         ],
                         "item_count": 1
                     },
@@ -163,7 +163,7 @@
                             "$leveling:50"
                         ],
                         "visibility_rules": [
-                            "include_dungeons, max_party_size_4, duty_difficulty_normal, include_HalataliHard, level_cap:50, extra_dungeon_checks:2"
+                            "include_dungeons, max_party_size_4, duty_difficulty_normal, $duty_visibility|Halatali (Hard), level_cap:50, extra_dungeon_checks:2"
                         ],
                         "item_count": 1
                     },
@@ -173,7 +173,7 @@
                             "$leveling:50"
                         ],
                         "visibility_rules": [
-                            "include_dungeons, max_party_size_4, duty_difficulty_normal, include_HalataliHard, level_cap:50, extra_dungeon_checks:3"
+                            "include_dungeons, max_party_size_4, duty_difficulty_normal, $duty_visibility|Halatali (Hard), level_cap:50, extra_dungeon_checks:3"
                         ],
                         "item_count": 1
                     },
@@ -183,7 +183,7 @@
                             "$leveling:50"
                         ],
                         "visibility_rules": [
-                            "include_dungeons, max_party_size_4, duty_difficulty_normal, include_HalataliHard, level_cap:50, extra_dungeon_checks:4"
+                            "include_dungeons, max_party_size_4, duty_difficulty_normal, $duty_visibility|Halatali (Hard), level_cap:50, extra_dungeon_checks:4"
                         ],
                         "item_count": 1
                     },
@@ -193,7 +193,7 @@
                             "$leveling:50"
                         ],
                         "visibility_rules": [
-                            "include_dungeons, max_party_size_4, duty_difficulty_normal, include_HalataliHard, level_cap:50, extra_dungeon_checks:5"
+                            "include_dungeons, max_party_size_4, duty_difficulty_normal, $duty_visibility|Halatali (Hard), level_cap:50, extra_dungeon_checks:5"
                         ],
                         "item_count": 1
                     },
@@ -203,7 +203,7 @@
                             "$leveling:50"
                         ],
                         "visibility_rules": [
-                            "include_dungeons, max_party_size_4, duty_difficulty_normal, include_HalataliHard, level_cap:50, extra_dungeon_checks:6"
+                            "include_dungeons, max_party_size_4, duty_difficulty_normal, $duty_visibility|Halatali (Hard), level_cap:50, extra_dungeon_checks:6"
                         ],
                         "item_count": 1
                     },
@@ -213,7 +213,7 @@
                             "$leveling:50"
                         ],
                         "visibility_rules": [
-                            "include_dungeons, max_party_size_4, duty_difficulty_normal, include_HalataliHard, level_cap:50, extra_dungeon_checks:7"
+                            "include_dungeons, max_party_size_4, duty_difficulty_normal, $duty_visibility|Halatali (Hard), level_cap:50, extra_dungeon_checks:7"
                         ],
                         "item_count": 1
                     },
@@ -223,7 +223,7 @@
                             "$leveling:50"
                         ],
                         "visibility_rules": [
-                            "include_dungeons, max_party_size_4, duty_difficulty_normal, include_HalataliHard, level_cap:50, extra_dungeon_checks:8"
+                            "include_dungeons, max_party_size_4, duty_difficulty_normal, $duty_visibility|Halatali (Hard), level_cap:50, extra_dungeon_checks:8"
                         ],
                         "item_count": 1
                     },
@@ -233,7 +233,7 @@
                             "$leveling:50"
                         ],
                         "visibility_rules": [
-                            "include_dungeons, max_party_size_4, duty_difficulty_normal, include_HalataliHard, level_cap:50, extra_dungeon_checks:9"
+                            "include_dungeons, max_party_size_4, duty_difficulty_normal, $duty_visibility|Halatali (Hard), level_cap:50, extra_dungeon_checks:9"
                         ],
                         "item_count": 1
                     }

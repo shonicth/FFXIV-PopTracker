@@ -17,7 +17,7 @@
                     "$leveling:60"
                 ],
                 "visibility_rules":[
-                    "include_dungeons, level_cap:60, max_party_size_4, include_PharosSiriusHard, duty_difficulty_normal"
+                    "include_dungeons, level_cap:60, max_party_size_4, $duty_visibility|Pharos SiriusHard, duty_difficulty_normal"
                 ],
                 "sections": [
                     {
