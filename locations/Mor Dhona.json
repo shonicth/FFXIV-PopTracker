@@ -302,7 +302,7 @@
                     "$leveling:44"
                 ],
                 "visibility_rules": [
-                    "!fatesanity, level_cap:44"
+                    "$fatesanity_disabled, level_cap:44"
                 ],
                 "sections": [
                     {
