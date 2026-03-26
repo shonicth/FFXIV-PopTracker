@@ -16,7 +16,7 @@
                 "access_rules": [
                     "$leveling:50"
                 ],
-                "visibility_rules":[
+                "visibility_rules": [
                     "include_dungeons, max_party_size_4, duty_difficulty_normal, level_cap:50, include:TheKeeperoftheLake"
                 ],
                 "sections": [
@@ -29,64 +29,83 @@
                     {
                         "name": "The Keeper of the Lake 2",
                         "access_rules": [],
-                        "visibility_rules": ["extra_dungeon_checks:1"],
+                        "visibility_rules": [
+                            "extra_dungeon_checks:1"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "The Keeper of the Lake 3",
                         "access_rules": [],
-                        "visibility_rules": ["extra_dungeon_checks:2"],
+                        "visibility_rules": [
+                            "extra_dungeon_checks:2"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "The Keeper of the Lake 4",
                         "access_rules": [],
-                        "visibility_rules": ["extra_dungeon_checks:3"],
+                        "visibility_rules": [
+                            "extra_dungeon_checks:3"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "The Keeper of the Lake 5",
                         "access_rules": [],
-                        "visibility_rules": ["extra_dungeon_checks:4"],
+                        "visibility_rules": [
+                            "extra_dungeon_checks:4"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "The Keeper of the Lake 6",
                         "access_rules": [],
-                        "visibility_rules": ["extra_dungeon_checks:5"],
+                        "visibility_rules": [
+                            "extra_dungeon_checks:5"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "The Keeper of the Lake 7",
                         "access_rules": [],
-                        "visibility_rules": ["extra_dungeon_checks:6"],
+                        "visibility_rules": [
+                            "extra_dungeon_checks:6"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "The Keeper of the Lake 8",
                         "access_rules": [],
-                        "visibility_rules": ["extra_dungeon_checks:7"],
+                        "visibility_rules": [
+                            "extra_dungeon_checks:7"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "The Keeper of the Lake 9",
                         "access_rules": [],
-                        "visibility_rules": ["extra_dungeon_checks:8"],
+                        "visibility_rules": [
+                            "extra_dungeon_checks:8"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "The Keeper of the Lake 10",
                         "access_rules": [],
-                        "visibility_rules": ["extra_dungeon_checks:9"],
+                        "visibility_rules": [
+                            "extra_dungeon_checks:9"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Mor Dhona",
-                        "x": 187,
-                        "y": 1415,
-                        "size": 6
+                        "x": 1372,
+                        "y": 664,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -101,17 +120,22 @@
                 "sections": [
                     {
                         "name": "The Chrysalis",
-                        "access_rules": ["$leveling:50"],
-                        "visibility_rules": ["include_dungeons, max_party_size_4, duty_difficulty_normal, level_cap:50, include:TheChrysalis"],
+                        "access_rules": [
+                            "$leveling:50"
+                        ],
+                        "visibility_rules": [
+                            "include_dungeons, max_party_size_4, duty_difficulty_normal, level_cap:50, include:TheChrysalis"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Mor Dhona",
-                        "x": 911,
-                        "y": 1234,
-                        "size": 6
+                        "x": 1047,
+                        "y": 399,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -130,28 +154,35 @@
                     {
                         "name": "The Labyrinth of the Ancients",
                         "access_rules": [],
-                        "visibility_rules": ["include_TheLabyrinthoftheAncients"],
+                        "visibility_rules": [
+                            "include_TheLabyrinthoftheAncients"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Syrcus Tower",
                         "access_rules": [],
-                        "visibility_rules": ["include_SyrcusTower"],
+                        "visibility_rules": [
+                            "include_SyrcusTower"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "The World of Darkness",
                         "access_rules": [],
-                        "visibility_rules": ["include_TheWorldofDarkness"],
+                        "visibility_rules": [
+                            "include_TheWorldofDarkness"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Mor Dhona",
-                        "x": 1369,
-                        "y": 1823,
-                        "size": 6
+                        "x": 1747,
+                        "y": 953,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -166,17 +197,22 @@
                 "sections": [
                     {
                         "name": "Ward Up",
-                        "access_rules": ["$leveling:40"],
-                        "visibility_rules": ["include_guildhests, max_party_size_4, duty_difficulty_normal, include_WardUp, level_cap:40"],
+                        "access_rules": [
+                            "$leveling:40"
+                        ],
+                        "visibility_rules": [
+                            "include_guildhests, max_party_size_4, duty_difficulty_normal, include_WardUp, level_cap:40"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Mor Dhona",
-                        "x": 1712,
-                        "y": 1191,
-                        "size": 6
+                        "x": 1573,
+                        "y": 281,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -191,17 +227,22 @@
                 "sections": [
                     {
                         "name": "Solemn Trinity",
-                        "access_rules": ["$leveling:40"],
-                        "visibility_rules": ["include_guildhests, max_party_size_8, duty_difficulty_normal, include_SolemnTrinity, level_cap:40"],
+                        "access_rules": [
+                            "$leveling:40"
+                        ],
+                        "visibility_rules": [
+                            "include_guildhests, max_party_size_8, duty_difficulty_normal, include_SolemnTrinity, level_cap:40"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Mor Dhona",
-                        "x": 1144,
-                        "y": 2434,
-                        "size": 6
+                        "x": 1557,
+                        "y": 468,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -220,28 +261,35 @@
                     {
                         "name": "Aglaia",
                         "access_rules": [],
-                        "visibility_rules": ["include_Aglaia"],
+                        "visibility_rules": [
+                            "include_Aglaia"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Euphrosyne",
                         "access_rules": [],
-                        "visibility_rules": ["include_Euphrosyne"],
+                        "visibility_rules": [
+                            "include_Euphrosyne"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Thaleia",
                         "access_rules": [],
-                        "visibility_rules": ["include_Thaleia"],
+                        "visibility_rules": [
+                            "include_Thaleia"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Mor Dhona",
-                        "x": 1554,
-                        "y": 1060,
-                        "size": 6
+                        "x": 1176,
+                        "y": 586,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -253,75 +301,98 @@
                 "access_rules": [
                     "$leveling:44"
                 ],
-                "visibility_rules": ["!fatesanity, level_cap:44"],
+                "visibility_rules": [
+                    "!fatesanity, level_cap:44"
+                ],
                 "sections": [
                     {
                         "name": "FATE #1",
                         "access_rules": [],
-                        "visibility_rules": ["fates_per_zone:1"],
+                        "visibility_rules": [
+                            "fates_per_zone:1"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #2",
                         "access_rules": [],
-                        "visibility_rules": ["fates_per_zone:2"],
+                        "visibility_rules": [
+                            "fates_per_zone:2"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #3",
                         "access_rules": [],
-                        "visibility_rules": ["fates_per_zone:3"],
+                        "visibility_rules": [
+                            "fates_per_zone:3"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #4",
                         "access_rules": [],
-                        "visibility_rules": ["fates_per_zone:4"],
+                        "visibility_rules": [
+                            "fates_per_zone:4"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #5",
                         "access_rules": [],
-                        "visibility_rules": ["fates_per_zone:5"],
+                        "visibility_rules": [
+                            "fates_per_zone:5"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #6",
                         "access_rules": [],
-                        "visibility_rules": ["fates_per_zone:6"],
+                        "visibility_rules": [
+                            "fates_per_zone:6"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #7",
                         "access_rules": [],
-                        "visibility_rules": ["fates_per_zone:7"],
+                        "visibility_rules": [
+                            "fates_per_zone:7"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #8",
                         "access_rules": [],
-                        "visibility_rules": ["fates_per_zone:8"],
+                        "visibility_rules": [
+                            "fates_per_zone:8"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #9",
                         "access_rules": [],
-                        "visibility_rules": ["fates_per_zone:9"],
+                        "visibility_rules": [
+                            "fates_per_zone:9"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #10",
                         "access_rules": [],
-                        "visibility_rules": ["fates_per_zone:10"],
+                        "visibility_rules": [
+                            "fates_per_zone:10"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Mor Dhona",
-                        "x": 1712,
-                        "y": 542,
-                        "size": 6
+                        "x": 720,
+                        "y": 144,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -336,17 +407,22 @@
                 "sections": [
                     {
                         "name": "Good to Be Bud (FATE)",
-                        "access_rules": ["$leveling:44"],
-                        "visibility_rules": ["fatesanity, level_cap:40"],
+                        "access_rules": [
+                            "$leveling:44"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:40"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Mor Dhona",
-                        "x": 1946,
-                        "y": 386,
-                        "size": 6
+                        "x": 634,
+                        "y": 549,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -361,17 +437,22 @@
                 "sections": [
                     {
                         "name": "Mud About You (FATE)",
-                        "access_rules": ["$leveling:44"],
-                        "visibility_rules": ["fatesanity, level_cap:44"],
+                        "access_rules": [
+                            "$leveling:44"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:44"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Mor Dhona",
-                        "x": 103,
-                        "y": 2198,
-                        "size": 6
+                        "x": 694,
+                        "y": 575,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -386,17 +467,22 @@
                 "sections": [
                     {
                         "name": "V for Vinedetta (FATE)",
-                        "access_rules": ["$leveling:44"],
-                        "visibility_rules": ["fatesanity, level_cap:44"],
+                        "access_rules": [
+                            "$leveling:44"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:44"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Mor Dhona",
-                        "x": 1187,
-                        "y": 321,
-                        "size": 6
+                        "x": 659,
+                        "y": 482,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -411,17 +497,22 @@
                 "sections": [
                     {
                         "name": "Among Giants (FATE)",
-                        "access_rules": ["$leveling:45"],
-                        "visibility_rules": ["fatesanity, level_cap:45"],
+                        "access_rules": [
+                            "$leveling:45"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:45"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Mor Dhona",
-                        "x": 1789,
-                        "y": 2284,
-                        "size": 6
+                        "x": 1262,
+                        "y": 505,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -436,17 +527,22 @@
                 "sections": [
                     {
                         "name": "Black and Nburu (FATE)",
-                        "access_rules": ["$leveling:45"],
-                        "visibility_rules": ["fatesanity, level_cap:45"],
+                        "access_rules": [
+                            "$leveling:45"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:45"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Mor Dhona",
-                        "x": 235,
-                        "y": 934,
-                        "size": 6
+                        "x": 737,
+                        "y": 667,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -461,17 +557,22 @@
                 "sections": [
                     {
                         "name": "The Prodigal Son (FATE)",
-                        "access_rules": ["$leveling:45"],
-                        "visibility_rules": ["fatesanity, level_cap:45"],
+                        "access_rules": [
+                            "$leveling:45"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:45"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Mor Dhona",
-                        "x": 1116,
-                        "y": 746,
-                        "size": 6
+                        "x": 1094,
+                        "y": 317,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -486,17 +587,22 @@
                 "sections": [
                     {
                         "name": "Toll Collector (FATE)",
-                        "access_rules": ["$leveling:45"],
-                        "visibility_rules": ["fatesanity, level_cap:45"],
+                        "access_rules": [
+                            "$leveling:45"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:45"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Mor Dhona",
-                        "x": 14,
-                        "y": 2304,
-                        "size": 6
+                        "x": 893,
+                        "y": 393,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -511,17 +617,22 @@
                 "sections": [
                     {
                         "name": "Another Day, Another Demon (FATE)",
-                        "access_rules": ["$leveling:46"],
-                        "visibility_rules": ["fatesanity, level_cap:46"],
+                        "access_rules": [
+                            "$leveling:46"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:46"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Mor Dhona",
-                        "x": 1576,
-                        "y": 1587,
-                        "size": 6
+                        "x": 1322,
+                        "y": 501,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -536,17 +647,22 @@
                 "sections": [
                     {
                         "name": "Gone with the Shadow (FATE)",
-                        "access_rules": ["$leveling:46"],
-                        "visibility_rules": ["fatesanity, level_cap:46"],
+                        "access_rules": [
+                            "$leveling:46"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:46"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Mor Dhona",
-                        "x": 944,
-                        "y": 2025,
-                        "size": 6
+                        "x": 1357,
+                        "y": 300,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -561,17 +677,22 @@
                 "sections": [
                     {
                         "name": "Home Is Where the Horn Is (FATE)",
-                        "access_rules": ["$leveling:46"],
-                        "visibility_rules": ["fatesanity, level_cap:46"],
+                        "access_rules": [
+                            "$leveling:46"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:46"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Mor Dhona",
-                        "x": 2480,
-                        "y": 1794,
-                        "size": 6
+                        "x": 1620,
+                        "y": 519,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -586,17 +707,22 @@
                 "sections": [
                     {
                         "name": "One Giant Leap (FATE)",
-                        "access_rules": ["$leveling:46"],
-                        "visibility_rules": ["fatesanity, level_cap:46"],
+                        "access_rules": [
+                            "$leveling:46"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:46"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Mor Dhona",
-                        "x": 1189,
-                        "y": 597,
-                        "size": 6
+                        "x": 1439,
+                        "y": 639,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -611,17 +737,22 @@
                 "sections": [
                     {
                         "name": "Standing Guard (FATE)",
-                        "access_rules": ["$leveling:46"],
-                        "visibility_rules": ["fatesanity, level_cap:46"],
+                        "access_rules": [
+                            "$leveling:46"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:46"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Mor Dhona",
-                        "x": 1138,
-                        "y": 902,
-                        "size": 6
+                        "x": 583,
+                        "y": 585,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -636,17 +767,22 @@
                 "sections": [
                     {
                         "name": "Thats What Adventurers Are For (FATE)",
-                        "access_rules": ["$leveling:46"],
-                        "visibility_rules": ["fatesanity, level_cap:46"],
+                        "access_rules": [
+                            "$leveling:46"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:46"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Mor Dhona",
-                        "x": 1036,
-                        "y": 717,
-                        "size": 6
+                        "x": 1451,
+                        "y": 695,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -661,17 +797,22 @@
                 "sections": [
                     {
                         "name": "Another Notch on the Torch (FATE)",
-                        "access_rules": ["$leveling:48"],
-                        "visibility_rules": ["fatesanity, level_cap:48"],
+                        "access_rules": [
+                            "$leveling:48"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:48"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Mor Dhona",
-                        "x": 21,
-                        "y": 2239,
-                        "size": 6
+                        "x": 1507,
+                        "y": 217,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -683,74 +824,100 @@
                 "access_rules": [
                     "5fshlevels:50"
                 ],
-                "visibility_rules": ["fishsanity_normal, level_cap:50"],
+                "visibility_rules": [
+                    "fishsanity_normal, level_cap:50"
+                ],
                 "sections": [
                     {
                         "name": "Bone Crayfish",
-                        "access_rules": ["mothpupa"],
+                        "access_rules": [
+                            "mothpupa"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Silverfish",
-                        "access_rules": ["honeyworm"],
+                        "access_rules": [
+                            "honeyworm"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Assassin Betta",
-                        "access_rules": ["honeyworm", "crowfly"],
+                        "access_rules": [
+                            "honeyworm",
+                            "crowfly"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Sludgeskipper",
-                        "access_rules": ["stemborer"],
+                        "access_rules": [
+                            "stemborer"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Boltfish",
-                        "access_rules": ["honeyworm"],
+                        "access_rules": [
+                            "honeyworm"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Ilsabardian Bass",
-                        "access_rules": ["glowworm", "topwaterfrog"],
+                        "access_rules": [
+                            "glowworm",
+                            "topwaterfrog"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Cadaver Carp",
-                        "access_rules": ["rainbowspoonlure"],
-                        "visibility_rules": ["fishsanity_timed"],
+                        "access_rules": [
+                            "rainbowspoonlure"
+                        ],
+                        "visibility_rules": [
+                            "fishsanity_timed"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Ninja Betta",
-                        "access_rules": ["crowfly"],
-                        "visibility_rules": ["fishsanity_big"],
+                        "access_rules": [
+                            "crowfly"
+                        ],
+                        "visibility_rules": [
+                            "fishsanity_big"
+                        ],
                         "item_count": 1
                     },
-                                        {                        
+                    {
                         "name": "Ala Mhigan Fighting Fish",
-                        "access_rules": ["midgebasket", "crowfly"],
+                        "access_rules": [
+                            "midgebasket",
+                            "crowfly"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
-                        
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Mor Dhona",
-                        "x": 914,
-                        "y": 1942,
-                        "size": 6
+                        "x": 655,
+                        "y": 622,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
-
             {
                 "name": "Singing Shards",
                 "chest_unopened_img": "/images/items/close.png",
@@ -759,69 +926,96 @@
                 "access_rules": [
                     "5fshlevels:45"
                 ],
-                "visibility_rules": ["fishsanity_normal, level_cap:45"],
+                "visibility_rules": [
+                    "fishsanity_normal, level_cap:45"
+                ],
                 "sections": [
                     {
                         "name": "Mudcrab",
-                        "access_rules": ["glowworm"],
+                        "access_rules": [
+                            "glowworm"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Bonytongue",
-                        "access_rules": ["mythrilspoonlure"],
+                        "access_rules": [
+                            "mythrilspoonlure"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Silverfish",
-                        "access_rules": ["honeyworm"],
+                        "access_rules": [
+                            "honeyworm"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Giant Bass",
-                        "access_rules": ["honeyworm", "mythrilspoonlure"],
+                        "access_rules": [
+                            "honeyworm",
+                            "mythrilspoonlure"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Knifefish",
-                        "access_rules": ["stemborer", "glowworm"],
+                        "access_rules": [
+                            "stemborer",
+                            "glowworm"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Garpike",
-                        "access_rules": ["honeyworm"],
+                        "access_rules": [
+                            "honeyworm"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Ilsabardian Bass",
-                        "access_rules": ["glowworm", "topwaterfrog"],
+                        "access_rules": [
+                            "glowworm",
+                            "topwaterfrog"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Lamp Marimo",
-                        "access_rules": ["chocobofly", "glowworm"],
+                        "access_rules": [
+                            "chocobofly",
+                            "glowworm"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Blood Red Bonytongue",
-                        "access_rules": ["honeyworm"],
-                        "visibility_rules": ["fishsanity_big"],
+                        "access_rules": [
+                            "honeyworm"
+                        ],
+                        "visibility_rules": [
+                            "fishsanity_big"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Mor Dhona",
-                        "x": 831,
-                        "y": 1530,
-                        "size": 6
+                        "x": 1375,
+                        "y": 482,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -833,71 +1027,96 @@
                 "access_rules": [
                     "5fshlevels:45"
                 ],
-                "visibility_rules": ["fishsanity_normal, level_cap:45"],
+                "visibility_rules": [
+                    "fishsanity_normal, level_cap:45"
+                ],
                 "sections": [
                     {
                         "name": "Dark Bass",
-                        "access_rules": ["crowfly"],
+                        "access_rules": [
+                            "crowfly"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Mitten Crab",
-                        "access_rules": ["honeyworm"],
+                        "access_rules": [
+                            "honeyworm"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Monke Onke",
-                        "access_rules": ["midgebasket"],
+                        "access_rules": [
+                            "midgebasket"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Giant Bass",
-                        "access_rules": ["honeyworm", "mythrilspoonlure"],
+                        "access_rules": [
+                            "honeyworm",
+                            "mythrilspoonlure"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Ignus Snail",
-                        "access_rules": ["stemborer", "glowworm"],
+                        "access_rules": [
+                            "stemborer",
+                            "glowworm"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Knifefish",
-                        "access_rules": ["stemborer", "glowworm"],
+                        "access_rules": [
+                            "stemborer",
+                            "glowworm"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Ignus Horn",
-                        "access_rules": ["glowworm"],
-                        "visibility_rules": ["fishsanity_big"],
+                        "access_rules": [
+                            "glowworm"
+                        ],
+                        "visibility_rules": [
+                            "fishsanity_big"
+                        ],
                         "item_count": 1
                     },
-                    {                        
+                    {
                         "name": "Ala Mhigan Fighting Fish",
-                        "access_rules": ["midgebasket", "crowfly"],
+                        "access_rules": [
+                            "midgebasket",
+                            "crowfly"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
-                        
                     },
-                    {                        
+                    {
                         "name": "Boxing Pleco",
-                        "access_rules": ["glowworm"],
+                        "access_rules": [
+                            "glowworm"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
-                        
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Mor Dhona",
-                        "x": 1225,
-                        "y": 911,
-                        "size": 6
+                        "x": 575,
+                        "y": 519,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -909,69 +1128,98 @@
                 "access_rules": [
                     "5fshlevels:45"
                 ],
-                "visibility_rules": ["fishsanity_normal, level_cap:45"],
+                "visibility_rules": [
+                    "fishsanity_normal, level_cap:45"
+                ],
                 "sections": [
                     {
                         "name": "Silverfish",
-                        "access_rules": ["honeyworm"],
+                        "access_rules": [
+                            "honeyworm"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Ignus Snail",
-                        "access_rules": ["stemborer", "glowworm"],
+                        "access_rules": [
+                            "stemborer",
+                            "glowworm"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Assassin Betta",
-                        "access_rules": ["honeyworm", "crowfly"],
+                        "access_rules": [
+                            "honeyworm",
+                            "crowfly"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Sludgeskipper",
-                        "access_rules": ["stemborer"],
+                        "access_rules": [
+                            "stemborer"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Ilsabardian Bass",
-                        "access_rules": ["glowworm", "topwaterfrog"],
+                        "access_rules": [
+                            "glowworm",
+                            "topwaterfrog"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Goldfish",
-                        "access_rules": ["honeyworm"],
+                        "access_rules": [
+                            "honeyworm"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Heliobatis",
-                        "access_rules": ["caddisflylarva"],
-                        "visibility_rules": ["fishsanity_timed"],
+                        "access_rules": [
+                            "caddisflylarva"
+                        ],
+                        "visibility_rules": [
+                            "fishsanity_timed"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Lamp Marimo",
-                        "access_rules": ["chocobofly", "glowworm"],
+                        "access_rules": [
+                            "chocobofly",
+                            "glowworm"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Aetherlouse",
-                        "access_rules": ["glowworm"],
-                        "visibility_rules": ["fishsanity_big"],
+                        "access_rules": [
+                            "glowworm"
+                        ],
+                        "visibility_rules": [
+                            "fishsanity_big"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Mor Dhona",
-                        "x": 1675,
-                        "y": 1549,
-                        "size": 6
+                        "x": 1220,
+                        "y": 603,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -983,81 +1231,114 @@
                 "access_rules": [
                     "5fshlevels:50"
                 ],
-                "visibility_rules": ["fishsanity_normal, level_cap:50"],
+                "visibility_rules": [
+                    "fishsanity_normal, level_cap:50"
+                ],
                 "sections": [
                     {
                         "name": "Silverfish",
-                        "access_rules": ["honeyworm"],
+                        "access_rules": [
+                            "honeyworm"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Giant Bass",
-                        "access_rules": ["honeyworm", "mythrilspoonlure"],
+                        "access_rules": [
+                            "honeyworm",
+                            "mythrilspoonlure"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Ignus Snail",
-                        "access_rules": ["stemborer", "glowworm"],
+                        "access_rules": [
+                            "stemborer",
+                            "glowworm"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Knifefish",
-                        "access_rules": ["stemborer", "glowworm"],
+                        "access_rules": [
+                            "stemborer",
+                            "glowworm"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Assassin Betta",
-                        "access_rules": ["honeyworm", "crowfly"],
+                        "access_rules": [
+                            "honeyworm",
+                            "crowfly"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Sludgeskipper",
-                        "access_rules": ["stemborer"],
+                        "access_rules": [
+                            "stemborer"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Ilsabardian Bass",
-                        "access_rules": ["glowworm", "topwaterfrog"],
+                        "access_rules": [
+                            "glowworm",
+                            "topwaterfrog"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Goldfish",
-                        "access_rules": ["honeyworm"],
+                        "access_rules": [
+                            "honeyworm"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Poxpike",
-                        "access_rules": ["honeyworm"],
+                        "access_rules": [
+                            "honeyworm"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Lamp Marimo",
-                        "access_rules": ["chocobofly", "glowworm"],
+                        "access_rules": [
+                            "chocobofly",
+                            "glowworm"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Void Bass",
-                        "access_rules": ["glowworm"],
-                        "visibility_rules": ["fishsanity_big"],
+                        "access_rules": [
+                            "glowworm"
+                        ],
+                        "visibility_rules": [
+                            "fishsanity_big"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Mor Dhona",
-                        "x": 1836,
-                        "y": 1535,
-                        "size": 6
+                        "x": 907,
+                        "y": 824,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -1069,75 +1350,107 @@
                 "access_rules": [
                     "5fshlevels:50"
                 ],
-                "visibility_rules": ["fishsanity_normal, level_cap:50"],
+                "visibility_rules": [
+                    "fishsanity_normal, level_cap:50"
+                ],
                 "sections": [
                     {
                         "name": "Silverfish",
-                        "access_rules": ["honeyworm"],
+                        "access_rules": [
+                            "honeyworm"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Giant Bass",
-                        "access_rules": ["honeyworm", "mythrilspoonlure"],
+                        "access_rules": [
+                            "honeyworm",
+                            "mythrilspoonlure"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Ignus Snail",
-                        "access_rules": ["stemborer", "glowworm"],
+                        "access_rules": [
+                            "stemborer",
+                            "glowworm"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Assassin Betta",
-                        "access_rules": ["honeyworm", "crowfly"],
+                        "access_rules": [
+                            "honeyworm",
+                            "crowfly"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Ilsabardian Bass",
-                        "access_rules": ["glowworm", "topwaterfrog"],
+                        "access_rules": [
+                            "glowworm",
+                            "topwaterfrog"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Goldfish",
-                        "access_rules": ["honeyworm"],
+                        "access_rules": [
+                            "honeyworm"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Morinabaligi",
-                        "access_rules": ["honeyworm"],
+                        "access_rules": [
+                            "honeyworm"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Lamp Marimo",
-                        "access_rules": ["chocobofly", "glowworm"],
+                        "access_rules": [
+                            "chocobofly",
+                            "glowworm"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Canavan",
-                        "access_rules": ["honeyworm"],
-                        "visibility_rules": ["fishsanity_big"],
+                        "access_rules": [
+                            "honeyworm"
+                        ],
+                        "visibility_rules": [
+                            "fishsanity_big"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Kuno the Killer",
-                        "access_rules": ["honeyworm"],
-                        "visibility_rules": ["fishsanity_big"],
+                        "access_rules": [
+                            "honeyworm"
+                        ],
+                        "visibility_rules": [
+                            "fishsanity_big"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Mor Dhona",
-                        "x": 1009,
-                        "y": 1855,
-                        "size": 6
+                        "x": 1486,
+                        "y": 269,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             }

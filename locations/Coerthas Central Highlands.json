@@ -16,137 +16,218 @@
                 "access_rules": [
                     " "
                 ],
-                "visibility_rules":[
+                "visibility_rules": [
                     "include_dungeons, max_party_size_4, duty_difficulty_normal"
                 ],
                 "sections": [
                     {
                         "name": "The Stone Vigil",
-                        "access_rules": ["$leveling:41"],
-                        "visibility_rules": ["include_TheStoneVigil, level_cap:41"],
+                        "access_rules": [
+                            "$leveling:41"
+                        ],
+                        "visibility_rules": [
+                            "include_TheStoneVigil, level_cap:41"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "The Stone Vigil (Hard)",
-                        "access_rules": ["$leveling:50"],
-                        "visibility_rules": ["include_TheStoneVigilHard, level_cap:50"],
+                        "access_rules": [
+                            "$leveling:50"
+                        ],
+                        "visibility_rules": [
+                            "include_TheStoneVigilHard, level_cap:50"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "The Stone Vigil 2",
-                        "access_rules": ["$leveling:41"],
-                        "visibility_rules": ["include_TheStoneVigil, level_cap:41, extra_dungeon_checks:1"],
+                        "access_rules": [
+                            "$leveling:41"
+                        ],
+                        "visibility_rules": [
+                            "include_TheStoneVigil, level_cap:41, extra_dungeon_checks:1"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "The Stone Vigil 3",
-                        "access_rules": ["$leveling:41"],
-                        "visibility_rules": ["include_TheStoneVigil, level_cap:41, extra_dungeon_checks:2"],
+                        "access_rules": [
+                            "$leveling:41"
+                        ],
+                        "visibility_rules": [
+                            "include_TheStoneVigil, level_cap:41, extra_dungeon_checks:2"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "The Stone Vigil 4",
-                        "access_rules": ["$leveling:41"],
-                        "visibility_rules": ["include_TheStoneVigil, level_cap:41, extra_dungeon_checks:3"],
+                        "access_rules": [
+                            "$leveling:41"
+                        ],
+                        "visibility_rules": [
+                            "include_TheStoneVigil, level_cap:41, extra_dungeon_checks:3"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "The Stone Vigil 5",
-                        "access_rules": ["$leveling:41"],
-                        "visibility_rules": ["include_TheStoneVigil, level_cap:41, extra_dungeon_checks:4"],
+                        "access_rules": [
+                            "$leveling:41"
+                        ],
+                        "visibility_rules": [
+                            "include_TheStoneVigil, level_cap:41, extra_dungeon_checks:4"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "The Stone Vigil 6",
-                        "access_rules": ["$leveling:41"],
-                        "visibility_rules": ["include_TheStoneVigil, level_cap:41, extra_dungeon_checks:5"],
+                        "access_rules": [
+                            "$leveling:41"
+                        ],
+                        "visibility_rules": [
+                            "include_TheStoneVigil, level_cap:41, extra_dungeon_checks:5"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "The Stone Vigil 7",
-                        "access_rules": ["$leveling:41"],
-                        "visibility_rules": ["include_TheStoneVigil, level_cap:41, extra_dungeon_checks:6"],
+                        "access_rules": [
+                            "$leveling:41"
+                        ],
+                        "visibility_rules": [
+                            "include_TheStoneVigil, level_cap:41, extra_dungeon_checks:6"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "The Stone Vigil 8",
-                        "access_rules": ["$leveling:41"],
-                        "visibility_rules": ["include_TheStoneVigil, level_cap:41, extra_dungeon_checks:7"],
+                        "access_rules": [
+                            "$leveling:41"
+                        ],
+                        "visibility_rules": [
+                            "include_TheStoneVigil, level_cap:41, extra_dungeon_checks:7"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "The Stone Vigil 9",
-                        "access_rules": ["$leveling:41"],
-                        "visibility_rules": ["include_TheStoneVigil, level_cap:41, extra_dungeon_checks:8"],
+                        "access_rules": [
+                            "$leveling:41"
+                        ],
+                        "visibility_rules": [
+                            "include_TheStoneVigil, level_cap:41, extra_dungeon_checks:8"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "The Stone Vigil 10",
-                        "access_rules": ["$leveling:41"],
-                        "visibility_rules": ["include_TheStoneVigil, level_cap:41, extra_dungeon_checks:9"],
+                        "access_rules": [
+                            "$leveling:41"
+                        ],
+                        "visibility_rules": [
+                            "include_TheStoneVigil, level_cap:41, extra_dungeon_checks:9"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "The Stone Vigil (Hard) 2",
-                        "access_rules": ["$leveling:50"],
-                        "visibility_rules": ["include_TheStoneVigilHard, level_cap:50, extra_dungeon_checks:1"],
+                        "access_rules": [
+                            "$leveling:50"
+                        ],
+                        "visibility_rules": [
+                            "include_TheStoneVigilHard, level_cap:50, extra_dungeon_checks:1"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "The Stone Vigil (Hard) 3",
-                        "access_rules": ["$leveling:50"],
-                        "visibility_rules": ["include_TheStoneVigilHard, level_cap:50, extra_dungeon_checks:2"],
+                        "access_rules": [
+                            "$leveling:50"
+                        ],
+                        "visibility_rules": [
+                            "include_TheStoneVigilHard, level_cap:50, extra_dungeon_checks:2"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "The Stone Vigil (Hard) 4",
-                        "access_rules": ["$leveling:50"],
-                        "visibility_rules": ["include_TheStoneVigilHard, level_cap:50, extra_dungeon_checks:3"],
+                        "access_rules": [
+                            "$leveling:50"
+                        ],
+                        "visibility_rules": [
+                            "include_TheStoneVigilHard, level_cap:50, extra_dungeon_checks:3"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "The Stone Vigil (Hard) 5",
-                        "access_rules": ["$leveling:50"],
-                        "visibility_rules": ["include_TheStoneVigilHard, level_cap:50, extra_dungeon_checks:4"],
+                        "access_rules": [
+                            "$leveling:50"
+                        ],
+                        "visibility_rules": [
+                            "include_TheStoneVigilHard, level_cap:50, extra_dungeon_checks:4"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "The Stone Vigil (Hard) 6",
-                        "access_rules": ["$leveling:50"],
-                        "visibility_rules": ["include_TheStoneVigilHard, level_cap:50, extra_dungeon_checks:5"],
+                        "access_rules": [
+                            "$leveling:50"
+                        ],
+                        "visibility_rules": [
+                            "include_TheStoneVigilHard, level_cap:50, extra_dungeon_checks:5"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "The Stone Vigil (Hard) 7",
-                        "access_rules": ["$leveling:50"],
-                        "visibility_rules": ["include_TheStoneVigilHard, level_cap:50, extra_dungeon_checks:6"],
+                        "access_rules": [
+                            "$leveling:50"
+                        ],
+                        "visibility_rules": [
+                            "include_TheStoneVigilHard, level_cap:50, extra_dungeon_checks:6"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "The Stone Vigil (Hard) 8",
-                        "access_rules": ["$leveling:50"],
-                        "visibility_rules": ["include_TheStoneVigilHard, level_cap:50, extra_dungeon_checks:7"],
+                        "access_rules": [
+                            "$leveling:50"
+                        ],
+                        "visibility_rules": [
+                            "include_TheStoneVigilHard, level_cap:50, extra_dungeon_checks:7"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "The Stone Vigil (Hard) 9",
-                        "access_rules": ["$leveling:50"],
-                        "visibility_rules": ["include_TheStoneVigilHard, level_cap:50, extra_dungeon_checks:8"],
+                        "access_rules": [
+                            "$leveling:50"
+                        ],
+                        "visibility_rules": [
+                            "include_TheStoneVigilHard, level_cap:50, extra_dungeon_checks:8"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "The Stone Vigil (Hard) 10",
-                        "access_rules": ["$leveling:50"],
-                        "visibility_rules": ["include_TheStoneVigilHard, level_cap:50, extra_dungeon_checks:9"],
+                        "access_rules": [
+                            "$leveling:50"
+                        ],
+                        "visibility_rules": [
+                            "include_TheStoneVigilHard, level_cap:50, extra_dungeon_checks:9"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Coerthas Central Highlands",
-                        "x": 2201,
-                        "y": 986,
-                        "size": 6
+                        "x": 312,
+                        "y": 468,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -158,7 +239,7 @@
                 "access_rules": [
                     "$leveling:44"
                 ],
-                "visibility_rules":[
+                "visibility_rules": [
                     "include_dungeons, max_party_size_4, duty_difficulty_normal, level_cap:44, include_DzemaelDarkhold"
                 ],
                 "sections": [
@@ -171,64 +252,83 @@
                     {
                         "name": "Dzemael Darkhold 2",
                         "access_rules": [],
-                        "visibility_rules": ["extra_dungeon_checks:"],
+                        "visibility_rules": [
+                            "extra_dungeon_checks:"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Dzemael Darkhold 3",
                         "access_rules": [],
-                        "visibility_rules": ["extra_dungeon_checks:"],
+                        "visibility_rules": [
+                            "extra_dungeon_checks:"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Dzemael Darkhold 4",
                         "access_rules": [],
-                        "visibility_rules": ["extra_dungeon_checks:"],
+                        "visibility_rules": [
+                            "extra_dungeon_checks:"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Dzemael Darkhold 5",
                         "access_rules": [],
-                        "visibility_rules": ["extra_dungeon_checks:"],
+                        "visibility_rules": [
+                            "extra_dungeon_checks:"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Dzemael Darkhold 6",
                         "access_rules": [],
-                        "visibility_rules": ["extra_dungeon_checks:"],
+                        "visibility_rules": [
+                            "extra_dungeon_checks:"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Dzemael Darkhold 7",
                         "access_rules": [],
-                        "visibility_rules": ["extra_dungeon_checks:"],
+                        "visibility_rules": [
+                            "extra_dungeon_checks:"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Dzemael Darkhold 8",
                         "access_rules": [],
-                        "visibility_rules": ["extra_dungeon_checks:"],
+                        "visibility_rules": [
+                            "extra_dungeon_checks:"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Dzemael Darkhold 9",
                         "access_rules": [],
-                        "visibility_rules": ["extra_dungeon_checks:"],
+                        "visibility_rules": [
+                            "extra_dungeon_checks:"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Dzemael Darkhold 10",
                         "access_rules": [],
-                        "visibility_rules": ["extra_dungeon_checks:"],
+                        "visibility_rules": [
+                            "extra_dungeon_checks:"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Coerthas Central Highlands",
-                        "x": 1062,
-                        "y": 625,
-                        "size": 6
+                        "x": 961,
+                        "y": 1360,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -240,7 +340,7 @@
                 "access_rules": [
                     "$leveling:47"
                 ],
-                "visibility_rules":[
+                "visibility_rules": [
                     "include_dungeons, max_party_size_4, duty_difficulty_normal, level_cap:47, include_TheAurumVale"
                 ],
                 "sections": [
@@ -253,64 +353,83 @@
                     {
                         "name": "The Aurum Vale 2",
                         "access_rules": [],
-                        "visibility_rules": ["extra_dungeon_checks:1"],
+                        "visibility_rules": [
+                            "extra_dungeon_checks:1"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "The Aurum Vale 3",
                         "access_rules": [],
-                        "visibility_rules": ["extra_dungeon_checks:2"],
+                        "visibility_rules": [
+                            "extra_dungeon_checks:2"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "The Aurum Vale 4",
                         "access_rules": [],
-                        "visibility_rules": ["extra_dungeon_checks:3"],
+                        "visibility_rules": [
+                            "extra_dungeon_checks:3"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "The Aurum Vale 5",
                         "access_rules": [],
-                        "visibility_rules": ["extra_dungeon_checks:4"],
+                        "visibility_rules": [
+                            "extra_dungeon_checks:4"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "The Aurum Vale 6",
                         "access_rules": [],
-                        "visibility_rules": ["extra_dungeon_checks:5"],
+                        "visibility_rules": [
+                            "extra_dungeon_checks:5"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "The Aurum Vale 7",
                         "access_rules": [],
-                        "visibility_rules": ["extra_dungeon_checks:6"],
+                        "visibility_rules": [
+                            "extra_dungeon_checks:6"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "The Aurum Vale 8",
                         "access_rules": [],
-                        "visibility_rules": ["extra_dungeon_checks:7"],
+                        "visibility_rules": [
+                            "extra_dungeon_checks:7"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "The Aurum Vale 9",
                         "access_rules": [],
-                        "visibility_rules": ["extra_dungeon_checks:8"],
+                        "visibility_rules": [
+                            "extra_dungeon_checks:8"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "The Aurum Vale 10",
                         "access_rules": [],
-                        "visibility_rules": ["extra_dungeon_checks:9"],
+                        "visibility_rules": [
+                            "extra_dungeon_checks:9"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Coerthas Central Highlands",
-                        "x": 1229,
-                        "y": 2237,
-                        "size": 6
+                        "x": 666,
+                        "y": 1714,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -322,117 +441,187 @@
                 "access_rules": [
                     " "
                 ],
-                
                 "sections": [
                     {
                         "name": "Snowcloak",
-                        "access_rules": ["$leveling:50"],
-                        "visibility_rules": ["include_dungeons, max_party_size_4, duty_difficulty_normal, level_cap:50, include_Snowcloak"],
+                        "access_rules": [
+                            "$leveling:50"
+                        ],
+                        "visibility_rules": [
+                            "include_dungeons, max_party_size_4, duty_difficulty_normal, level_cap:50, include_Snowcloak"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "The Akh Afah Amphitheatre (Hard)",
-                        "access_rules": ["$leveling:50"],
-                        "visibility_rules": ["max_party_size_8, duty_difficulty_normal, level_cap:50, include_TheAkhAfahAmphitheatreHard"],
+                        "access_rules": [
+                            "$leveling:50"
+                        ],
+                        "visibility_rules": [
+                            "max_party_size_8, duty_difficulty_normal, level_cap:50, include_TheAkhAfahAmphitheatreHard"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "The Akh Afah Amphitheatre (Extreme)",
-                        "access_rules": ["$leveling:50"],
-                        "visibility_rules": ["max_party_size_8, duty_difficulty_ex, level_cap:50, include_TheAkhAfahAmphitheatreExtreme"],
+                        "access_rules": [
+                            "$leveling:50"
+                        ],
+                        "visibility_rules": [
+                            "max_party_size_8, duty_difficulty_ex, level_cap:50, include_TheAkhAfahAmphitheatreExtreme"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Rainbow Trout",
-                        "access_rules": ["midgebasket, 5fshlevels:45", "crowfly, 5fshlevels:45"],
-                        "visibility_rules": ["fishsanity_normal, level_cap:45"],
+                        "access_rules": [
+                            "midgebasket, 5fshlevels:45",
+                            "crowfly, 5fshlevels:45"
+                        ],
+                        "visibility_rules": [
+                            "fishsanity_normal, level_cap:45"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Seema",
-                        "access_rules": ["wildfowlfly, 5fshlevels:45"],
-                        "visibility_rules": ["fishsanity_normal, level_cap:45"],
+                        "access_rules": [
+                            "wildfowlfly, 5fshlevels:45"
+                        ],
+                        "visibility_rules": [
+                            "fishsanity_normal, level_cap:45"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Crimson Trout",
-                        "access_rules": ["spinner, 5fshlevels:45", "wildfowlfly, 5fshlevels:45"],
-                        "visibility_rules": ["fishsanity_normal, level_cap:45"],
+                        "access_rules": [
+                            "spinner, 5fshlevels:45",
+                            "wildfowlfly, 5fshlevels:45"
+                        ],
+                        "visibility_rules": [
+                            "fishsanity_normal, level_cap:45"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Wandering Sculpin",
-                        "access_rules": ["caddisflylarva, 5fshlevels:45"],
-                        "visibility_rules": ["fishsanity_normal, level_cap:45"],
+                        "access_rules": [
+                            "caddisflylarva, 5fshlevels:45"
+                        ],
+                        "visibility_rules": [
+                            "fishsanity_normal, level_cap:45"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Blue Corpse",
-                        "access_rules": ["caddisflylarva, 5fshlevels:45"],
-                        "visibility_rules": ["fishsanity_big, level_cap:45"],
+                        "access_rules": [
+                            "caddisflylarva, 5fshlevels:45"
+                        ],
+                        "visibility_rules": [
+                            "fishsanity_big, level_cap:45"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Snowcloak 2",
-                        "access_rules": ["$leveling:50"],
-                        "visibility_rules": ["include_dungeons, max_party_size_4, duty_difficulty_normal, level_cap:50, include_Snowcloak"],
+                        "access_rules": [
+                            "$leveling:50"
+                        ],
+                        "visibility_rules": [
+                            "include_dungeons, max_party_size_4, duty_difficulty_normal, level_cap:50, include_Snowcloak"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Snowcloak 3",
-                        "access_rules": ["$leveling:50"],
-                        "visibility_rules": ["include_dungeons, max_party_size_4, duty_difficulty_normal, level_cap:50, include_Snowcloak"],
+                        "access_rules": [
+                            "$leveling:50"
+                        ],
+                        "visibility_rules": [
+                            "include_dungeons, max_party_size_4, duty_difficulty_normal, level_cap:50, include_Snowcloak"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Snowcloak 4",
-                        "access_rules": ["$leveling:50"],
-                        "visibility_rules": ["include_dungeons, max_party_size_4, duty_difficulty_normal, level_cap:50, include_Snowcloak"],
+                        "access_rules": [
+                            "$leveling:50"
+                        ],
+                        "visibility_rules": [
+                            "include_dungeons, max_party_size_4, duty_difficulty_normal, level_cap:50, include_Snowcloak"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Snowcloak 5",
-                        "access_rules": ["$leveling:50"],
-                        "visibility_rules": ["include_dungeons, max_party_size_4, duty_difficulty_normal, level_cap:50, include_Snowcloak"],
+                        "access_rules": [
+                            "$leveling:50"
+                        ],
+                        "visibility_rules": [
+                            "include_dungeons, max_party_size_4, duty_difficulty_normal, level_cap:50, include_Snowcloak"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Snowcloak 6",
-                        "access_rules": ["$leveling:50"],
-                        "visibility_rules": ["include_dungeons, max_party_size_4, duty_difficulty_normal, level_cap:50, include_Snowcloak"],
+                        "access_rules": [
+                            "$leveling:50"
+                        ],
+                        "visibility_rules": [
+                            "include_dungeons, max_party_size_4, duty_difficulty_normal, level_cap:50, include_Snowcloak"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Snowcloak 7",
-                        "access_rules": ["$leveling:50"],
-                        "visibility_rules": ["include_dungeons, max_party_size_4, duty_difficulty_normal, level_cap:50, include_Snowcloak"],
+                        "access_rules": [
+                            "$leveling:50"
+                        ],
+                        "visibility_rules": [
+                            "include_dungeons, max_party_size_4, duty_difficulty_normal, level_cap:50, include_Snowcloak"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Snowcloak 8",
-                        "access_rules": ["$leveling:50"],
-                        "visibility_rules": ["include_dungeons, max_party_size_4, duty_difficulty_normal, level_cap:50, include_Snowcloak"],
+                        "access_rules": [
+                            "$leveling:50"
+                        ],
+                        "visibility_rules": [
+                            "include_dungeons, max_party_size_4, duty_difficulty_normal, level_cap:50, include_Snowcloak"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Snowcloak 9",
-                        "access_rules": ["$leveling:50"],
-                        "visibility_rules": ["include_dungeons, max_party_size_4, duty_difficulty_normal, level_cap:50, include_Snowcloak"],
+                        "access_rules": [
+                            "$leveling:50"
+                        ],
+                        "visibility_rules": [
+                            "include_dungeons, max_party_size_4, duty_difficulty_normal, level_cap:50, include_Snowcloak"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Snowcloak 10",
-                        "access_rules": ["$leveling:50"],
-                        "visibility_rules": ["include_dungeons, max_party_size_4, duty_difficulty_normal, level_cap:50, include_Snowcloak"],
+                        "access_rules": [
+                            "$leveling:50"
+                        ],
+                        "visibility_rules": [
+                            "include_dungeons, max_party_size_4, duty_difficulty_normal, level_cap:50, include_Snowcloak"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Coerthas Central Highlands",
-                        "x": 736,
-                        "y": 2391,
-                        "size": 6
+                        "x": 65,
+                        "y": 1005,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -447,23 +636,32 @@
                 "sections": [
                     {
                         "name": "The Howling Eye (Hard)",
-                        "access_rules": ["$leveling:50"],
-                        "visibility_rules": ["max_party_size_8, duty_difficulty_normal, level_cap:50, include_TheHowlingEyeHard"],
+                        "access_rules": [
+                            "$leveling:50"
+                        ],
+                        "visibility_rules": [
+                            "max_party_size_8, duty_difficulty_normal, level_cap:50, include_TheHowlingEyeHard"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "The Howling Eye (Extreme)",
-                        "access_rules": ["$leveling:50"],
-                        "visibility_rules": ["max_party_size_8, duty_difficulty_ex, level_cap:50, include_TheHowlingEyeExtreme"],
+                        "access_rules": [
+                            "$leveling:50"
+                        ],
+                        "visibility_rules": [
+                            "max_party_size_8, duty_difficulty_ex, level_cap:50, include_TheHowlingEyeExtreme"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Coerthas Central Highlands",
-                        "x": 1494,
-                        "y": 1091,
-                        "size": 6
+                        "x": 1666,
+                        "y": 1196,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -478,17 +676,22 @@
                 "sections": [
                     {
                         "name": "A Relic Reborn The Chimera",
-                        "access_rules": ["$leveling:50"],
-                        "visibility_rules": ["max_party_size_8, duty_difficulty_normal, level_cap:50, include_ARelicRebornTheChimera"],
+                        "access_rules": [
+                            "$leveling:50"
+                        ],
+                        "visibility_rules": [
+                            "max_party_size_8, duty_difficulty_normal, level_cap:50, include_ARelicRebornTheChimera"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Coerthas Central Highlands",
-                        "x": 789,
-                        "y": 1384,
-                        "size": 6
+                        "x": 1610,
+                        "y": 297,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -503,17 +706,22 @@
                 "sections": [
                     {
                         "name": "Battle on the Big Bridge",
-                        "access_rules": ["$leveling:50"],
-                        "visibility_rules": ["max_party_size_8, duty_difficulty_normal, level_cap:50, include_BattleontheBigBridge"],
+                        "access_rules": [
+                            "$leveling:50"
+                        ],
+                        "visibility_rules": [
+                            "max_party_size_8, duty_difficulty_normal, level_cap:50, include_BattleontheBigBridge"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Coerthas Central Highlands",
-                        "x": 772,
-                        "y": 1361,
-                        "size": 6
+                        "x": 1528,
+                        "y": 1517,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -528,17 +736,22 @@
                 "sections": [
                     {
                         "name": "Shadow and Claw",
-                        "access_rules": ["$leveling:35"],
-                        "visibility_rules": ["include_guildhests, max_party_size_4, duty_difficulty_normal, include_ShadowandClaw, level_cap:35"],
+                        "access_rules": [
+                            "$leveling:35"
+                        ],
+                        "visibility_rules": [
+                            "include_guildhests, max_party_size_4, duty_difficulty_normal, include_ShadowandClaw, level_cap:35"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Coerthas Central Highlands",
-                        "x": 2131,
-                        "y": 130,
-                        "size": 6
+                        "x": 1562,
+                        "y": 1329,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -553,17 +766,22 @@
                 "sections": [
                     {
                         "name": "Long Live the Queen",
-                        "access_rules": ["$leveling:35"],
-                        "visibility_rules": ["include_guildhests, max_party_size_4, duty_difficulty_normal, include_LongLivetheQueen, level_cap:35"],
+                        "access_rules": [
+                            "$leveling:35"
+                        ],
+                        "visibility_rules": [
+                            "include_guildhests, max_party_size_4, duty_difficulty_normal, include_LongLivetheQueen, level_cap:35"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Coerthas Central Highlands",
-                        "x": 1565,
-                        "y": 530,
-                        "size": 6
+                        "x": 322,
+                        "y": 995,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -575,7 +793,7 @@
                 "access_rules": [
                     "$leveling:60"
                 ],
-                "visibility_rules":[
+                "visibility_rules": [
                     "include_dungeons, max_party_size_4, duty_difficulty_normal, include_Xelphatol, level_cap:60"
                 ],
                 "sections": [
@@ -588,64 +806,83 @@
                     {
                         "name": "Xelphatol 2",
                         "access_rules": [],
-                        "visibility_rules": ["extra_dungeon_checks:1"],
+                        "visibility_rules": [
+                            "extra_dungeon_checks:1"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Xelphatol 3",
                         "access_rules": [],
-                        "visibility_rules": ["extra_dungeon_checks:2"],
+                        "visibility_rules": [
+                            "extra_dungeon_checks:2"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Xelphatol 4",
                         "access_rules": [],
-                        "visibility_rules": ["extra_dungeon_checks:3"],
+                        "visibility_rules": [
+                            "extra_dungeon_checks:3"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Xelphatol 5",
                         "access_rules": [],
-                        "visibility_rules": ["extra_dungeon_checks:4"],
+                        "visibility_rules": [
+                            "extra_dungeon_checks:4"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Xelphatol 6",
                         "access_rules": [],
-                        "visibility_rules": ["extra_dungeon_checks:5"],
+                        "visibility_rules": [
+                            "extra_dungeon_checks:5"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Xelphatol 7",
                         "access_rules": [],
-                        "visibility_rules": ["extra_dungeon_checks:6"],
+                        "visibility_rules": [
+                            "extra_dungeon_checks:6"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Xelphatol 8",
                         "access_rules": [],
-                        "visibility_rules": ["extra_dungeon_checks:7"],
+                        "visibility_rules": [
+                            "extra_dungeon_checks:7"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Xelphatol 9",
                         "access_rules": [],
-                        "visibility_rules": ["extra_dungeon_checks:8"],
+                        "visibility_rules": [
+                            "extra_dungeon_checks:8"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Xelphatol 10",
                         "access_rules": [],
-                        "visibility_rules": ["extra_dungeon_checks:9"],
+                        "visibility_rules": [
+                            "extra_dungeon_checks:9"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Coerthas Central Highlands",
-                        "x": 554,
-                        "y": 2479,
-                        "size": 6
+                        "x": 1606,
+                        "y": 726,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -657,75 +894,98 @@
                 "access_rules": [
                     "$leveling:35"
                 ],
-                "visibility_rules": ["!fatesanity, level_cap:35"],
+                "visibility_rules": [
+                    "!fatesanity, level_cap:35"
+                ],
                 "sections": [
                     {
                         "name": "FATE #1",
                         "access_rules": [],
-                        "visibility_rules": ["fates_per_zone:1"],
+                        "visibility_rules": [
+                            "fates_per_zone:1"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #2",
                         "access_rules": [],
-                        "visibility_rules": ["fates_per_zone:2"],
+                        "visibility_rules": [
+                            "fates_per_zone:2"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #3",
                         "access_rules": [],
-                        "visibility_rules": ["fates_per_zone:3"],
+                        "visibility_rules": [
+                            "fates_per_zone:3"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #4",
                         "access_rules": [],
-                        "visibility_rules": ["fates_per_zone:4"],
+                        "visibility_rules": [
+                            "fates_per_zone:4"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #5",
                         "access_rules": [],
-                        "visibility_rules": ["fates_per_zone:5"],
+                        "visibility_rules": [
+                            "fates_per_zone:5"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #6",
                         "access_rules": [],
-                        "visibility_rules": ["fates_per_zone:6"],
+                        "visibility_rules": [
+                            "fates_per_zone:6"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #7",
                         "access_rules": [],
-                        "visibility_rules": ["fates_per_zone:7"],
+                        "visibility_rules": [
+                            "fates_per_zone:7"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #8",
                         "access_rules": [],
-                        "visibility_rules": ["fates_per_zone:8"],
+                        "visibility_rules": [
+                            "fates_per_zone:8"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #9",
                         "access_rules": [],
-                        "visibility_rules": ["fates_per_zone:9"],
+                        "visibility_rules": [
+                            "fates_per_zone:9"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #10",
                         "access_rules": [],
-                        "visibility_rules": ["fates_per_zone:10"],
+                        "visibility_rules": [
+                            "fates_per_zone:10"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Coerthas Central Highlands",
-                        "x": 785,
-                        "y": 2319,
-                        "size": 6
+                        "x": 717,
+                        "y": 121,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -740,17 +1000,22 @@
                 "sections": [
                     {
                         "name": "A Log Up (FATE)",
-                        "access_rules": ["$leveling:35"],
-                        "visibility_rules": ["fatesanity, level_cap:35"],
+                        "access_rules": [
+                            "$leveling:35"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:35"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Coerthas Central Highlands",
-                        "x": 2427,
-                        "y": 1685,
-                        "size": 6
+                        "x": 1243,
+                        "y": 1325,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -765,17 +1030,22 @@
                 "sections": [
                     {
                         "name": "Gavial (FATE)",
-                        "access_rules": ["$leveling:35"],
-                        "visibility_rules": ["fatesanity, level_cap:35"],
+                        "access_rules": [
+                            "$leveling:35"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:35"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Coerthas Central Highlands",
-                        "x": 239,
-                        "y": 2004,
-                        "size": 6
+                        "x": 1221,
+                        "y": 1095,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -790,17 +1060,22 @@
                 "sections": [
                     {
                         "name": "Twelve Ilms of Snow (FATE)",
-                        "access_rules": ["$leveling:35"],
-                        "visibility_rules": ["fatesanity, level_cap:35"],
+                        "access_rules": [
+                            "$leveling:35"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:35"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Coerthas Central Highlands",
-                        "x": 1869,
-                        "y": 697,
-                        "size": 6
+                        "x": 1154,
+                        "y": 1375,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -815,17 +1090,22 @@
                 "sections": [
                     {
                         "name": "Baa Baa Black Sheep (FATE)",
-                        "access_rules": ["$leveling:36"],
-                        "visibility_rules": ["fatesanity, level_cap:36"],
+                        "access_rules": [
+                            "$leveling:36"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:36"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Coerthas Central Highlands",
-                        "x": 1978,
-                        "y": 116,
-                        "size": 6
+                        "x": 1325,
+                        "y": 1159,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -840,17 +1120,22 @@
                 "sections": [
                     {
                         "name": "Croc-y Road (FATE)",
-                        "access_rules": ["$leveling:36"],
-                        "visibility_rules": ["fatesanity, level_cap:36"],
+                        "access_rules": [
+                            "$leveling:36"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:36"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Coerthas Central Highlands",
-                        "x": 760,
-                        "y": 2481,
-                        "size": 6
+                        "x": 1248,
+                        "y": 977,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -865,17 +1150,22 @@
                 "sections": [
                     {
                         "name": "Whiteout (FATE)",
-                        "access_rules": ["$leveling:36"],
-                        "visibility_rules": ["fatesanity, level_cap:36"],
+                        "access_rules": [
+                            "$leveling:36"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:36"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Coerthas Central Highlands",
-                        "x": 741,
-                        "y": 773,
-                        "size": 6
+                        "x": 1248,
+                        "y": 921,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -890,17 +1180,22 @@
                 "sections": [
                     {
                         "name": "Wish Upon a Star (FATE)",
-                        "access_rules": ["$leveling:36"],
-                        "visibility_rules": ["fatesanity, level_cap:36"],
+                        "access_rules": [
+                            "$leveling:36"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:36"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Coerthas Central Highlands",
-                        "x": 494,
-                        "y": 592,
-                        "size": 6
+                        "x": 1290,
+                        "y": 1325,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -915,17 +1210,22 @@
                 "sections": [
                     {
                         "name": "A Fire in the Distance (FATE)",
-                        "access_rules": ["$leveling:37"],
-                        "visibility_rules": ["fatesanity, level_cap:37"],
+                        "access_rules": [
+                            "$leveling:37"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:37"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Coerthas Central Highlands",
-                        "x": 236,
-                        "y": 2315,
-                        "size": 6
+                        "x": 1562,
+                        "y": 592,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -940,17 +1240,22 @@
                 "sections": [
                     {
                         "name": "Coming to a Head (FATE)",
-                        "access_rules": ["$leveling:37"],
-                        "visibility_rules": ["fatesanity, level_cap:37"],
+                        "access_rules": [
+                            "$leveling:37"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:37"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Coerthas Central Highlands",
-                        "x": 193,
-                        "y": 1427,
-                        "size": 6
+                        "x": 1297,
+                        "y": 709,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -965,17 +1270,22 @@
                 "sections": [
                     {
                         "name": "Simply Red (FATE)",
-                        "access_rules": ["$leveling:38"],
-                        "visibility_rules": ["fatesanity, level_cap:38"],
+                        "access_rules": [
+                            "$leveling:38"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:38"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Coerthas Central Highlands",
-                        "x": 1388,
-                        "y": 1553,
-                        "size": 6
+                        "x": 1139,
+                        "y": 703,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -990,17 +1300,22 @@
                 "sections": [
                     {
                         "name": "Spring Forward, Fall Back (FATE)",
-                        "access_rules": ["$leveling:38"],
-                        "visibility_rules": ["fatesanity, level_cap:38"],
+                        "access_rules": [
+                            "$leveling:38"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:38"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Coerthas Central Highlands",
-                        "x": 239,
-                        "y": 2136,
-                        "size": 6
+                        "x": 1581,
+                        "y": 261,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -1015,17 +1330,22 @@
                 "sections": [
                     {
                         "name": "Svaras Fall (FATE)",
-                        "access_rules": ["$leveling:38"],
-                        "visibility_rules": ["fatesanity, level_cap:38"],
+                        "access_rules": [
+                            "$leveling:38"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:38"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Coerthas Central Highlands",
-                        "x": 572,
-                        "y": 1757,
-                        "size": 6
+                        "x": 1237,
+                        "y": 328,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -1040,17 +1360,22 @@
                 "sections": [
                     {
                         "name": "Svaras Fear (FATE)",
-                        "access_rules": ["$leveling:38"],
-                        "visibility_rules": ["fatesanity, level_cap:38"],
+                        "access_rules": [
+                            "$leveling:38"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:38"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Coerthas Central Highlands",
-                        "x": 2387,
-                        "y": 212,
-                        "size": 6
+                        "x": 1237,
+                        "y": 371,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -1065,17 +1390,22 @@
                 "sections": [
                     {
                         "name": "Svaras Flight (FATE)",
-                        "access_rules": ["$leveling:38"],
-                        "visibility_rules": ["fatesanity, level_cap:38"],
+                        "access_rules": [
+                            "$leveling:38"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:38"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Coerthas Central Highlands",
-                        "x": 493,
-                        "y": 1838,
-                        "size": 6
+                        "x": 1258,
+                        "y": 754,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -1090,17 +1420,22 @@
                 "sections": [
                     {
                         "name": "Svaras Fury (FATE)",
-                        "access_rules": ["$leveling:38"],
-                        "visibility_rules": ["fatesanity, level_cap:38"],
+                        "access_rules": [
+                            "$leveling:38"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:38"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Coerthas Central Highlands",
-                        "x": 545,
-                        "y": 1659,
-                        "size": 6
+                        "x": 1297,
+                        "y": 350,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -1115,17 +1450,22 @@
                 "sections": [
                     {
                         "name": "The Grey (FATE)",
-                        "access_rules": ["$leveling:38"],
-                        "visibility_rules": ["fatesanity, level_cap:38"],
+                        "access_rules": [
+                            "$leveling:38"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:38"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Coerthas Central Highlands",
-                        "x": 1240,
-                        "y": 1142,
-                        "size": 6
+                        "x": 1325,
+                        "y": 508,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -1140,17 +1480,22 @@
                 "sections": [
                     {
                         "name": "A Freeze Is Coming (FATE)",
-                        "access_rules": ["$leveling:39"],
-                        "visibility_rules": ["fatesanity, level_cap:39"],
+                        "access_rules": [
+                            "$leveling:39"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:39"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Coerthas Central Highlands",
-                        "x": 787,
-                        "y": 795,
-                        "size": 6
+                        "x": 760,
+                        "y": 991,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -1165,17 +1510,22 @@
                 "sections": [
                     {
                         "name": "Bellyful (FATE)",
-                        "access_rules": ["$leveling:39"],
-                        "visibility_rules": ["fatesanity, level_cap:39"],
+                        "access_rules": [
+                            "$leveling:39"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:39"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Coerthas Central Highlands",
-                        "x": 1620,
-                        "y": 1762,
-                        "size": 6
+                        "x": 1677,
+                        "y": 638,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -1190,17 +1540,22 @@
                 "sections": [
                     {
                         "name": "Judge Jury and Executioner (FATE)",
-                        "access_rules": ["$leveling:39"],
-                        "visibility_rules": ["fatesanity, level_cap:39"],
+                        "access_rules": [
+                            "$leveling:39"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:39"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Coerthas Central Highlands",
-                        "x": 1681,
-                        "y": 1733,
-                        "size": 6
+                        "x": 871,
+                        "y": 832,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -1215,17 +1570,22 @@
                 "sections": [
                     {
                         "name": "Roc of Ages (FATE)",
-                        "access_rules": ["$leveling:39"],
-                        "visibility_rules": ["fatesanity, level_cap:39"],
+                        "access_rules": [
+                            "$leveling:39"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:39"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Coerthas Central Highlands",
-                        "x": 1774,
-                        "y": 1265,
-                        "size": 6
+                        "x": 1030,
+                        "y": 843,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -1240,17 +1600,22 @@
                 "sections": [
                     {
                         "name": "The Eyes Have It (FATE)",
-                        "access_rules": ["$leveling:39"],
-                        "visibility_rules": ["fatesanity, level_cap:39"],
+                        "access_rules": [
+                            "$leveling:39"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:39"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Coerthas Central Highlands",
-                        "x": 667,
-                        "y": 888,
-                        "size": 6
+                        "x": 760,
+                        "y": 950,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -1265,17 +1630,22 @@
                 "sections": [
                     {
                         "name": "Front and Center (FATE)",
-                        "access_rules": ["$leveling:40"],
-                        "visibility_rules": ["fatesanity, level_cap:40"],
+                        "access_rules": [
+                            "$leveling:40"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:40"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Coerthas Central Highlands",
-                        "x": 1604,
-                        "y": 343,
-                        "size": 6
+                        "x": 494,
+                        "y": 725,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -1290,17 +1660,22 @@
                 "sections": [
                     {
                         "name": "Giant Seps (FATE)",
-                        "access_rules": ["$leveling:40"],
-                        "visibility_rules": ["fatesanity, level_cap:40"],
+                        "access_rules": [
+                            "$leveling:40"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:40"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Coerthas Central Highlands",
-                        "x": 1129,
-                        "y": 494,
-                        "size": 6
+                        "x": 389,
+                        "y": 558,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -1315,17 +1690,22 @@
                 "sections": [
                     {
                         "name": "If This Wall Could Talk (FATE)",
-                        "access_rules": ["$leveling:40"],
-                        "visibility_rules": ["fatesanity, level_cap:40"],
+                        "access_rules": [
+                            "$leveling:40"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:40"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Coerthas Central Highlands",
-                        "x": 2382,
-                        "y": 290,
-                        "size": 6
+                        "x": 594,
+                        "y": 888,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -1340,17 +1720,22 @@
                 "sections": [
                     {
                         "name": "Riddle Me This (FATE)",
-                        "access_rules": ["$leveling:40"],
-                        "visibility_rules": ["fatesanity, level_cap:40"],
+                        "access_rules": [
+                            "$leveling:40"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:40"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Coerthas Central Highlands",
-                        "x": 1896,
-                        "y": 1221,
-                        "size": 6
+                        "x": 445,
+                        "y": 943,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -1365,17 +1750,22 @@
                 "sections": [
                     {
                         "name": "The Taste of Fear (FATE)",
-                        "access_rules": ["$leveling:40"],
-                        "visibility_rules": ["fatesanity, level_cap:40"],
+                        "access_rules": [
+                            "$leveling:40"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:40"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Coerthas Central Highlands",
-                        "x": 341,
-                        "y": 1085,
-                        "size": 6
+                        "x": 196,
+                        "y": 1050,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -1390,17 +1780,22 @@
                 "sections": [
                     {
                         "name": "In the Saints Wake (FATE)",
-                        "access_rules": ["$leveling:45"],
-                        "visibility_rules": ["fatesanity, level_cap:45"],
+                        "access_rules": [
+                            "$leveling:45"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:45"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Coerthas Central Highlands",
-                        "x": 487,
-                        "y": 1510,
-                        "size": 6
+                        "x": 591,
+                        "y": 1126,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -1415,17 +1810,22 @@
                 "sections": [
                     {
                         "name": "Tower of Power (FATE)",
-                        "access_rules": ["$leveling:45"],
-                        "visibility_rules": ["fatesanity, level_cap:45"],
+                        "access_rules": [
+                            "$leveling:45"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:45"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Coerthas Central Highlands",
-                        "x": 683,
-                        "y": 2477,
-                        "size": 6
+                        "x": 526,
+                        "y": 1408,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -1440,17 +1840,22 @@
                 "sections": [
                     {
                         "name": "The Bigger They Are (FATE)",
-                        "access_rules": ["$leveling:46"],
-                        "visibility_rules": ["fatesanity, level_cap:46"],
+                        "access_rules": [
+                            "$leveling:46"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:46"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Coerthas Central Highlands",
-                        "x": 894,
-                        "y": 1954,
-                        "size": 6
+                        "x": 627,
+                        "y": 1258,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -1465,17 +1870,22 @@
                 "sections": [
                     {
                         "name": "Turn Off Your Hearthlight (FATE)",
-                        "access_rules": ["$leveling:47"],
-                        "visibility_rules": ["fatesanity, level_cap:47"],
+                        "access_rules": [
+                            "$leveling:47"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:47"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Coerthas Central Highlands",
-                        "x": 1110,
-                        "y": 2425,
-                        "size": 6
+                        "x": 943,
+                        "y": 1459,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -1490,17 +1900,22 @@
                 "sections": [
                     {
                         "name": "Whats On Your Mind (FATE)",
-                        "access_rules": ["$leveling:47"],
-                        "visibility_rules": ["fatesanity, level_cap:47"],
+                        "access_rules": [
+                            "$leveling:47"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:47"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Coerthas Central Highlands",
-                        "x": 413,
-                        "y": 722,
-                        "size": 6
+                        "x": 399,
+                        "y": 1311,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -1515,17 +1930,22 @@
                 "sections": [
                     {
                         "name": "Does Anyone Hear It (FATE)",
-                        "access_rules": ["$leveling:48"],
-                        "visibility_rules": ["fatesanity, level_cap:48"],
+                        "access_rules": [
+                            "$leveling:48"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:48"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Coerthas Central Highlands",
-                        "x": 259,
-                        "y": 1514,
-                        "size": 6
+                        "x": 1607,
+                        "y": 1003,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -1540,17 +1960,22 @@
                 "sections": [
                     {
                         "name": "Inspector Hatchet (FATE)",
-                        "access_rules": ["$leveling:49"],
-                        "visibility_rules": ["fatesanity, level_cap:49"],
+                        "access_rules": [
+                            "$leveling:49"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:49"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Coerthas Central Highlands",
-                        "x": 2447,
-                        "y": 1657,
-                        "size": 6
+                        "x": 1637,
+                        "y": 1145,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -1565,17 +1990,22 @@
                 "sections": [
                     {
                         "name": "The Four Winds (FATE)",
-                        "access_rules": ["$leveling:49"],
-                        "visibility_rules": ["fatesanity, level_cap:49"],
+                        "access_rules": [
+                            "$leveling:49"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:49"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Coerthas Central Highlands",
-                        "x": 2481,
-                        "y": 1256,
-                        "size": 6
+                        "x": 1676,
+                        "y": 989,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -1590,17 +2020,22 @@
                 "sections": [
                     {
                         "name": "The Storm Caller (FATE)",
-                        "access_rules": ["$leveling:49"],
-                        "visibility_rules": ["fatesanity, level_cap:49"],
+                        "access_rules": [
+                            "$leveling:49"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:49"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Coerthas Central Highlands",
-                        "x": 1128,
-                        "y": 1543,
-                        "size": 6
+                        "x": 1674,
+                        "y": 1104,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -1615,17 +2050,22 @@
                 "sections": [
                     {
                         "name": "Behold Now Behemoth (FATE)",
-                        "access_rules": ["$leveling:50"],
-                        "visibility_rules": ["fatesanity, level_cap:50, include_unreasonable_fates"],
+                        "access_rules": [
+                            "$leveling:50"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:50, include_unreasonable_fates"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Coerthas Central Highlands",
-                        "x": 1495,
-                        "y": 1647,
-                        "size": 6
+                        "x": 269,
+                        "y": 1053,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -1640,17 +2080,22 @@
                 "sections": [
                     {
                         "name": "He Taketh It with His Eyes (FATE)",
-                        "access_rules": ["$leveling:50"],
-                        "visibility_rules": ["fatesanity, level_cap:50, include_unreasonable_fates"],
+                        "access_rules": [
+                            "$leveling:50"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:50, include_unreasonable_fates"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Coerthas Central Highlands",
-                        "x": 2404,
-                        "y": 680,
-                        "size": 6
+                        "x": 171,
+                        "y": 708,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -1662,63 +2107,87 @@
                 "access_rules": [
                     "5fshlevels:35"
                 ],
-                "visibility_rules": ["fishsanity_normal, level_cap:35"],
+                "visibility_rules": [
+                    "fishsanity_normal, level_cap:35"
+                ],
                 "sections": [
                     {
                         "name": "Striped Goby",
-                        "access_rules": ["mothpupa"],
+                        "access_rules": [
+                            "mothpupa"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Maiden Carp",
-                        "access_rules": ["wildfowlfly"],
+                        "access_rules": [
+                            "wildfowlfly"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Rainbow Trout",
-                        "access_rules": ["midgebasket", "crowfly"],
+                        "access_rules": [
+                            "midgebasket",
+                            "crowfly"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Seema",
-                        "access_rules": ["wildfowlfly"],
+                        "access_rules": [
+                            "wildfowlfly"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Giant Bass",
-                        "access_rules": ["honeyworm"],
+                        "access_rules": [
+                            "honeyworm"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Crimson Trout",
-                        "access_rules": ["spinner", "wildfowlfly"],
+                        "access_rules": [
+                            "spinner",
+                            "wildfowlfly"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Kissing Trout",
-                        "access_rules": ["mothpupa", "honeyworm"],
+                        "access_rules": [
+                            "mothpupa",
+                            "honeyworm"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Daniffens Mark",
-                        "access_rules": ["wildfowlfly"],
-                        "visibility_rules": ["fishsanity_big"],
+                        "access_rules": [
+                            "wildfowlfly"
+                        ],
+                        "visibility_rules": [
+                            "fishsanity_big"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Coerthas Central Highlands",
-                        "x": 898,
-                        "y": 1822,
-                        "size": 6
+                        "x": 977,
+                        "y": 1409,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -1730,69 +2199,97 @@
                 "access_rules": [
                     "5fshlevels:40"
                 ],
-                "visibility_rules": ["fishsanity_normal, level_cap:40"],
+                "visibility_rules": [
+                    "fishsanity_normal, level_cap:40"
+                ],
                 "sections": [
                     {
                         "name": "Striped Goby",
-                        "access_rules": ["mothpupa"],
+                        "access_rules": [
+                            "mothpupa"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Abalathian Smelt",
-                        "access_rules": ["glowworm", "syrphidbasket", "honeyworm", "stoneflynymph"],
+                        "access_rules": [
+                            "glowworm",
+                            "syrphidbasket",
+                            "honeyworm",
+                            "stoneflynymph"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Giant Bass",
-                        "access_rules": ["honeyworm"],
+                        "access_rules": [
+                            "honeyworm"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Crimson Trout",
-                        "access_rules": ["spinner", "wildfowlfly"],
+                        "access_rules": [
+                            "spinner",
+                            "wildfowlfly"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Bronze Lake Trout",
-                        "access_rules": ["spinnerbait"],
+                        "access_rules": [
+                            "spinnerbait"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Northern Pike",
-                        "access_rules": ["topwaterfrog"],
+                        "access_rules": [
+                            "topwaterfrog"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Kissing Trout",
-                        "access_rules": ["mothpupa", "honeyworm"],
+                        "access_rules": [
+                            "mothpupa",
+                            "honeyworm"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Emperor Fish",
-                        "access_rules": ["mothpupa"],
+                        "access_rules": [
+                            "mothpupa"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Starbright",
-                        "access_rules": ["syrphidbasket"],
-                        "visibility_rules": ["fishsanity_big"],
+                        "access_rules": [
+                            "syrphidbasket"
+                        ],
+                        "visibility_rules": [
+                            "fishsanity_big"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Coerthas Central Highlands",
-                        "x": 2128,
-                        "y": 1131,
-                        "size": 6
+                        "x": 734,
+                        "y": 1034,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -1804,57 +2301,82 @@
                 "access_rules": [
                     "5fshlevels:40"
                 ],
-                "visibility_rules": ["fishsanity_normal, level_cap:40"],
+                "visibility_rules": [
+                    "fishsanity_normal, level_cap:40"
+                ],
                 "sections": [
                     {
                         "name": "Striped Goby",
-                        "access_rules": ["mothpupa"],
+                        "access_rules": [
+                            "mothpupa"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Abalathian Smelt",
-                        "access_rules": ["glowworm", "syrphidbasket", "honeyworm", "stoneflynymph"],
+                        "access_rules": [
+                            "glowworm",
+                            "syrphidbasket",
+                            "honeyworm",
+                            "stoneflynymph"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Rainbow Trout",
-                        "access_rules": ["midgebasket", "crowfly"],
+                        "access_rules": [
+                            "midgebasket",
+                            "crowfly"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Seema",
-                        "access_rules": ["wildfowlfly"],
+                        "access_rules": [
+                            "wildfowlfly"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Crimson Trout",
-                        "access_rules": ["spinner", "wildfowlfly"],
+                        "access_rules": [
+                            "spinner",
+                            "wildfowlfly"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Kissing Trout",
-                        "access_rules": ["mothpupa", "honeyworm"],
+                        "access_rules": [
+                            "mothpupa",
+                            "honeyworm"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Dawn Maiden",
-                        "access_rules": ["wildfowlfly"],
-                        "visibility_rules": ["fishsanity_big"],
+                        "access_rules": [
+                            "wildfowlfly"
+                        ],
+                        "visibility_rules": [
+                            "fishsanity_big"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Coerthas Central Highlands",
-                        "x": 1599,
-                        "y": 150,
-                        "size": 6
+                        "x": 1332,
+                        "y": 784,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -1866,57 +2388,79 @@
                 "access_rules": [
                     "5fshlevels:35"
                 ],
-                "visibility_rules": ["fishsanity_normal, 5fshlevels:35"],
+                "visibility_rules": [
+                    "fishsanity_normal, 5fshlevels:35"
+                ],
                 "sections": [
                     {
                         "name": "Striped Goby",
-                        "access_rules": ["mothpupa"],
+                        "access_rules": [
+                            "mothpupa"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Abalathian Smelt",
-                        "access_rules": ["glowworm", "syrphidbasket", "honeyworm", "stoneflynymph"],
+                        "access_rules": [
+                            "glowworm",
+                            "syrphidbasket",
+                            "honeyworm",
+                            "stoneflynymph"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Blindfish",
-                        "access_rules": ["syrphidbasket"],
+                        "access_rules": [
+                            "syrphidbasket"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Golden Loach",
-                        "access_rules": ["topwaterfrog"],
+                        "access_rules": [
+                            "topwaterfrog"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Cave Cherax",
-                        "access_rules": ["mothpupa"],
+                        "access_rules": [
+                            "mothpupa"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Lamp Marimo",
-                        "access_rules": ["chocobofly"],
+                        "access_rules": [
+                            "chocobofly"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Charons Lantern",
-                        "access_rules": ["glowworm"],
-                        "visibility_rules": ["fishsanity_big"],
+                        "access_rules": [
+                            "glowworm"
+                        ],
+                        "visibility_rules": [
+                            "fishsanity_big"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Coerthas Central Highlands",
-                        "x": 1351,
-                        "y": 1814,
-                        "size": 6
+                        "x": 622,
+                        "y": 1080,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -1928,63 +2472,88 @@
                 "access_rules": [
                     "5fshlevels:45"
                 ],
-                "visibility_rules": ["fishsanity_normal, 5fshlevels:45"],
+                "visibility_rules": [
+                    "fishsanity_normal, 5fshlevels:45"
+                ],
                 "sections": [
                     {
                         "name": "Abalathian Smelt",
-                        "access_rules": ["glowworm", "syrphidbasket", "honeyworm", "stoneflynymph"],
+                        "access_rules": [
+                            "glowworm",
+                            "syrphidbasket",
+                            "honeyworm",
+                            "stoneflynymph"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Giant Bass",
-                        "access_rules": ["honeyworm"],
+                        "access_rules": [
+                            "honeyworm"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Crimson Trout",
-                        "access_rules": ["spinner", "wildfowlfly"],
+                        "access_rules": [
+                            "spinner",
+                            "wildfowlfly"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Common Sculpin",
-                        "access_rules": ["spinnerbait"],
+                        "access_rules": [
+                            "spinnerbait"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Northern Pike",
-                        "access_rules": ["topwaterfrog"],
+                        "access_rules": [
+                            "topwaterfrog"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Angry Pike",
-                        "access_rules": ["stoneflynymph"],
+                        "access_rules": [
+                            "stoneflynymph"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Lamp Marimo",
-                        "access_rules": ["chocobofly"],
+                        "access_rules": [
+                            "chocobofly"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Darkstar",
-                        "access_rules": ["stoneflynymph"],
-                        "visibility_rules": ["fishsanity_big"],
+                        "access_rules": [
+                            "stoneflynymph"
+                        ],
+                        "visibility_rules": [
+                            "fishsanity_big"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Coerthas Central Highlands",
-                        "x": 636,
-                        "y": 2374,
-                        "size": 6
+                        "x": 1525,
+                        "y": 277,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -1996,45 +2565,64 @@
                 "access_rules": [
                     "5fshlevels:40"
                 ],
-                "visibility_rules": ["fishsanity_normal, 5fshlevels:40"],
+                "visibility_rules": [
+                    "fishsanity_normal, 5fshlevels:40"
+                ],
                 "sections": [
                     {
                         "name": "Abalathian Smelt",
-                        "access_rules": ["glowworm", "syrphidbasket", "honeyworm", "stoneflynymph"],
+                        "access_rules": [
+                            "glowworm",
+                            "syrphidbasket",
+                            "honeyworm",
+                            "stoneflynymph"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Northern Pike",
-                        "access_rules": ["topwaterfrog"],
+                        "access_rules": [
+                            "topwaterfrog"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Kissing Trout",
-                        "access_rules": ["mothpupa", "honeyworm"],
+                        "access_rules": [
+                            "mothpupa",
+                            "honeyworm"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Lamp Marimo",
-                        "access_rules": ["chocobofly"],
+                        "access_rules": [
+                            "chocobofly"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "The Matriarch",
-                        "access_rules": ["honeyworm"],
-                        "visibility_rules": ["fishsanity_big"],
+                        "access_rules": [
+                            "honeyworm"
+                        ],
+                        "visibility_rules": [
+                            "fishsanity_big"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Coerthas Central Highlands",
-                        "x": 2443,
-                        "y": 2113,
-                        "size": 6
+                        "x": 264,
+                        "y": 1095,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -2046,69 +2634,94 @@
                 "access_rules": [
                     "5fshlevels:50"
                 ],
-                "visibility_rules": ["fishsanity_normal, level_cap:50"],
+                "visibility_rules": [
+                    "fishsanity_normal, level_cap:50"
+                ],
                 "sections": [
                     {
                         "name": "Cloud Jellyfish",
-                        "access_rules": ["balloonbug"],
+                        "access_rules": [
+                            "balloonbug"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Skyfish",
-                        "access_rules": ["balloonbug"],
+                        "access_rules": [
+                            "balloonbug"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Cloud Cutter",
-                        "access_rules": ["hoverworm"],
+                        "access_rules": [
+                            "hoverworm"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Blind Manta",
-                        "access_rules": ["hoverworm"],
+                        "access_rules": [
+                            "hoverworm"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Rift Sailor",
-                        "access_rules": ["balloonbug"],
+                        "access_rules": [
+                            "balloonbug"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Saucerfish",
-                        "access_rules": ["hoverworm"],
+                        "access_rules": [
+                            "hoverworm"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Rhamphorhynchus",
-                        "access_rules": ["hoverworm"],
+                        "access_rules": [
+                            "hoverworm"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Mahar",
-                        "access_rules": ["hoverworm"],
-                        "visibility_rules": ["fishsanity_big"],
+                        "access_rules": [
+                            "hoverworm"
+                        ],
+                        "visibility_rules": [
+                            "fishsanity_big"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Shonisaurus",
-                        "access_rules": ["hoverworm"],
-                        "visibility_rules": ["fishsanity_big"],
+                        "access_rules": [
+                            "hoverworm"
+                        ],
+                        "visibility_rules": [
+                            "fishsanity_big"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Coerthas Central Highlands",
-                        "x": 896,
-                        "y": 2130,
-                        "size": 6
+                        "x": 1630,
+                        "y": 896,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -2120,51 +2733,68 @@
                 "access_rules": [
                     "5fshlevels:45"
                 ],
-                "visibility_rules": ["fishsanity_normal, level_cap:45"],
+                "visibility_rules": [
+                    "fishsanity_normal, level_cap:45"
+                ],
                 "sections": [
                     {
                         "name": "Cloud Jellyfish",
-                        "access_rules": ["balloonbug"],
+                        "access_rules": [
+                            "balloonbug"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Skyfish",
-                        "access_rules": ["balloonbug"],
+                        "access_rules": [
+                            "balloonbug"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Cloud Cutter",
-                        "access_rules": ["hoverworm"],
+                        "access_rules": [
+                            "hoverworm"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Blind Manta",
-                        "access_rules": ["hoverworm"],
+                        "access_rules": [
+                            "hoverworm"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Rift Sailor",
-                        "access_rules": ["balloonbug"],
+                        "access_rules": [
+                            "balloonbug"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Anomalocaris",
-                        "access_rules": ["hoverworm"],
-                        "visibility_rules": ["fishsanity_big"],
+                        "access_rules": [
+                            "hoverworm"
+                        ],
+                        "visibility_rules": [
+                            "fishsanity_big"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Coerthas Central Highlands",
-                        "x": 299,
-                        "y": 633,
-                        "size": 6
+                        "x": 613,
+                        "y": 673,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             }
