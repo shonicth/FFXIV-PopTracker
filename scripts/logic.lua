@@ -136,6 +136,37 @@ function ishgardaccess()
     (has("ishgardaccess"))
   )
 end
+function coerthaswesternhighlandsaccess()
+  return(
+    --Connected to Ishgard
+    (has("coerthaswesternhighlandsaccess" and (ishgardaccess())))
+  )
+function theseaofcloudsaccess()
+  return(
+    --Connected to Ishgard
+    (has("theseaofcloudsaccess" and (ishgardaccess())))
+  )
+  function thedravanianforelandsaccess()
+  return(
+    --Connected to CWH and Dravanian Hinterlands
+    (has("thedravanianforelandsaccess" and (coerthaswesternhighlandsaccess() or thedravanianhinterlandsandidyllshireaccess())))
+  )
+  function thechurningmistsaccess()
+  return(
+    --Connected to Dravanian Forelands
+    (has("thechurningmistsaccess" and (thedravanianforelandsaccess())))
+  )
+  function thedravanianhinterlandsandidyllshireaccess()
+  return(
+    --Connected to CWH and Dravanian Forelands
+    (has("coerthaswesternhighlandsaccess" and (coerthaswesternhighlandsaccess() or thedravanianforelandsaccess())))
+  )
+  function azysllaaccess()
+  return(
+    --Connected to Ishgard
+    (has("coerthaswesternhighlandsaccess" and (ishgardaccess())))
+  )
+
 --StB
 
 --ShB
