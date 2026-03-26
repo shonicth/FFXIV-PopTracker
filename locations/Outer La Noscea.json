@@ -48,7 +48,7 @@
                 "access_rules": [
                     "$leveling:30"
                 ],
-                "visibility_rules": ["!fatesanity"],
+                "visibility_rules": ["$fatesanity_disabled"],
                 "sections": [
                     {
                         "name": "FATE #1",
