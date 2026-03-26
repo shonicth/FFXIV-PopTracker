@@ -149,7 +149,7 @@ function theseaofcloudsaccess()
   function thedravanianforelandsaccess()
   return(
     --Connected to CWH and Dravanian Hinterlands
-    (has("thedravanianforelandsaccess" and (coerthaswesternhighlandsaccess() or thedravanianhinterlandsandidyllshireaccess())))
+    (has("thedravanianforelandsaccess" and (coerthaswesternhighlandsaccess())))
   )
   function thechurningmistsaccess()
   return(
@@ -159,7 +159,7 @@ function theseaofcloudsaccess()
   function thedravanianhinterlandsandidyllshireaccess()
   return(
     --Connected to CWH and Dravanian Forelands
-    (has("coerthaswesternhighlandsaccess" and (coerthaswesternhighlandsaccess() or thedravanianforelandsaccess())))
+    (has("coerthaswesternhighlandsaccess" and (coerthaswesternhighlandsaccess())))
   )
   function azysllaaccess()
   return(
