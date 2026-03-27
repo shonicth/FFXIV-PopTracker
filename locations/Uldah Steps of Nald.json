@@ -17,7 +17,7 @@
                     "$leveling:80"
                 ],
                 "visibility_rules": [
-                    "include_dungeons, level_cap:80, max_party_size_4, include_Paglth'an, duty_difficulty_normal"
+                    "include_dungeons, level_cap:80, max_party_size_4, $duty_visibility|Paglth'an, duty_difficulty_normal"
                 ],
                 "sections": [
                     {
