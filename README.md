@@ -4,7 +4,7 @@ Very very very early work in progress. Will add as I go.
 
 Current Status(3/27/2026):
 
--ARR and HW are basically 100%(I need to finalize a few things with regards to Dravanians and Churning Mist but they will be done by End of Day).
+-ARR and HW should be 100% ready, though I imagine there will be things that need to be fixed while testing.
 
 -Currently fish will only show if they are in logic. I plan to eventually add all the baits to every fish as a yellow out of logic check, but this will be probably a few months from now.
 
