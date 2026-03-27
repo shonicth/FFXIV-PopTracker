@@ -1,212 +1,123 @@
 [
     {
-        "name": "The Churning Mists",
+        "name": "The Dravanian Forelands",
         "chest_unopened_img": "/images/items/close.png",
         "chest_opened_img": "/images/items/open.png",
         "overlay_background": "#000000",
         "access_rules": [
-            "$thechurningmistsaccess"
+            "$thedravanianforelandsaccess"
         ],
         "children": [
             {
-                "name": "Sohr Khai",
+                "name": "Sohm Al",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "$leveling:60"
+                    "$leveling:53"
                 ],
                 "visibility_rules": [
-                    "level_cap:60, duty_difficulty_normal, $duty_visibility|Sohr Khai"
+                    "level_cap:53, duty_difficulty_normal, $duty_visibility|Sohm Al"
                 ],
                 "sections": [
                     {
-                        "name": "Sohr Khai",
+                        "name": "Sohm Al",
                         "access_rules": [],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Sohr Khai 2",
+                        "name": "Sohm Al 2",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:1"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:1"],
                         "item_count": 1
                     },
                     {
-                        "name": "Sohr Khai 3",
+                        "name": "Sohm Al 3",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:2"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:2"],
                         "item_count": 1
                     },
                     {
-                        "name": "Sohr Khai 4",
+                        "name": "Sohm Al 4",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:3"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:3"],
                         "item_count": 1
                     },
                     {
-                        "name": "Sohr Khai 5",
+                        "name": "Sohm Al 5",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:4"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:4"],
                         "item_count": 1
                     },
                     {
-                        "name": "Sohr Khai 6",
+                        "name": "Sohm Al 6",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:5"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:5"],
                         "item_count": 1
                     },
                     {
-                        "name": "Sohr Khai 7",
+                        "name": "Sohm Al 7",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:6"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:6"],
                         "item_count": 1
                     },
                     {
-                        "name": "Sohr Khai 8",
+                        "name": "Sohm Al 8",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:7"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:7"],
                         "item_count": 1
                     },
                     {
-                        "name": "Sohr Khai 9",
+                        "name": "Sohm Al 9",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:8"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:8"],
                         "item_count": 1
                     },
                     {
-                        "name": "Sohr Khai 10",
+                        "name": "Sohm Al 10",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:9"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:9"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "The Churning Mists",
-                        "x": 319,
-                        "y": 1274,
-                        "size": 40,
-                        "shape": "rect"
+                        "map": "The Dravanian Forelands",
+                        "x": 738,
+                        "y": 2201,
+                        "size": 6
                     }
                 ]
             },
             {
-                "name": "Sohm Al (Hard)",
+                "name": "Thok ast Thok (Hard)",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "$leveling:60"
-                ],
-                "visibility_rules": [
-                    "level_cap:60, duty_difficulty_normal, $duty_visibility|Sohm Al (Hard)"
+                    " "
                 ],
                 "sections": [
                     {
-                        "name": "Sohm Al (Hard)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "name": "Thok ast Thok (Hard)",
+                        "access_rules": ["$leveling:53"],
+                        "visibility_rules": ["level_cap:53, duty_difficulty_normal, $duty_visibility|Thok ast Thok (Hard)"],
                         "item_count": 1
                     },
                     {
-                        "name": "Sohm Al (Hard) 2",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:1"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Sohm Al (Hard) 3",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Sohm Al (Hard) 4",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:3"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Sohm Al (Hard) 5",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:4"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Sohm Al (Hard) 6",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:5"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Sohm Al (Hard) 7",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:6"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Sohm Al (Hard) 8",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:7"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Sohm Al (Hard) 9",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:8"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Sohm Al (Hard) 10",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:9"
-                        ],
+                        "name": "Thok ast Thok (Extreme)",
+                        "access_rules": ["$leveling:60"],
+                        "visibility_rules": ["level_cap:60, duty_difficulty_ex, $duty_visibility|Thok ast Thok (Savage)"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "The Churning Mists",
-                        "x": 1194,
-                        "y": 1692,
-                        "size": 40,
-                        "shape": "rect"
+                        "map": "The Dravanian Forelands",
+                        "x": 630,
+                        "y": 473,
+                        "size": 6
                     }
                 ]
             },
@@ -216,10 +127,10 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "$leveling:54"
+                    "$leveling:52"
                 ],
                 "visibility_rules": [
-                    "$fatesanity_disabled, level_cap:54"
+                    "$fatesanity_disabled, level_cap:52"
                 ],
                 "sections": [
                     {
@@ -305,16 +216,15 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "The Churning Mists",
-                        "x": 717,
-                        "y": 97,
-                        "size": 40,
-                        "shape": "rect"
+                        "map": "The Dravanian Forelands",
+                        "x": 2460,
+                        "y": 150,
+                        "size": 6
                     }
                 ]
             },
             {
-                "name": "Aevis Has Left the Building (FATE)",
+                "name": "Bear Apparent (FATE)",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -323,28 +233,27 @@
                 ],
                 "sections": [
                     {
-                        "name": "Aevis Has Left the Building (FATE)",
+                        "name": "Bear Apparent (FATE)",
                         "access_rules": [
-                            "$leveling:54"
+                            "$leveling:52"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:54"
+                            "fatesanity, level_cap:52"
                         ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "The Churning Mists",
-                        "x": 805,
-                        "y": 1515,
-                        "size": 40,
-                        "shape": "rect"
+                        "map": "The Dravanian Forelands",
+                        "x": 36,
+                        "y": 1620,
+                        "size": 6
                     }
                 ]
             },
             {
-                "name": "Aint Misbehaving (FATE)",
+                "name": "Birds of a Feather (FATE)",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -353,28 +262,27 @@
                 ],
                 "sections": [
                     {
-                        "name": "Aint Misbehaving (FATE)",
+                        "name": "Birds of a Feather (FATE)",
                         "access_rules": [
-                            "$leveling:54"
+                            "$leveling:52"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:54"
+                            "fatesanity, level_cap:52"
                         ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "The Churning Mists",
-                        "x": 796,
-                        "y": 1441,
-                        "size": 40,
-                        "shape": "rect"
+                        "map": "The Dravanian Forelands",
+                        "x": 2012,
+                        "y": 518,
+                        "size": 6
                     }
                 ]
             },
             {
-                "name": "Asah I Came I Conquered (FATE)",
+                "name": "By the Horns (FATE)",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -383,358 +291,27 @@
                 ],
                 "sections": [
                     {
-                        "name": "Asah I Came I Conquered (FATE)",
+                        "name": "By the Horns (FATE)",
                         "access_rules": [
-                            "$leveling:54"
+                            "$leveling:52"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:54"
+                            "fatesanity, level_cap:52"
                         ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "The Churning Mists",
-                        "x": 976,
-                        "y": 1372,
-                        "size": 40,
-                        "shape": "rect"
-                    }
-                ]
-            },
-            {
-                "name": "Corporal Pomishment (FATE)",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
-                "sections": [
-                    {
-                        "name": "Corporal Pomishment (FATE)",
-                        "access_rules": [
-                            "$leveling:54"
-                        ],
-                        "visibility_rules": [
-                            "fatesanity, level_cap:54"
-                        ],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "The Churning Mists",
-                        "x": 958,
-                        "y": 1092,
-                        "size": 40,
-                        "shape": "rect"
-                    }
-                ]
-            },
-            {
-                "name": "End of the Rainbow (FATE)",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
-                "sections": [
-                    {
-                        "name": "End of the Rainbow (FATE)",
-                        "access_rules": [
-                            "$leveling:54"
-                        ],
-                        "visibility_rules": [
-                            "fatesanity, level_cap:54"
-                        ],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "The Churning Mists",
-                        "x": 599,
-                        "y": 1114,
-                        "size": 40,
-                        "shape": "rect"
-                    }
-                ]
-            },
-            {
-                "name": "Glycon Air (FATE)",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
-                "sections": [
-                    {
-                        "name": "Glycon Air (FATE)",
-                        "access_rules": [
-                            "$leveling:54"
-                        ],
-                        "visibility_rules": [
-                            "fatesanity, level_cap:54"
-                        ],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "The Churning Mists",
-                        "x": 1509,
-                        "y": 1161,
-                        "size": 40,
-                        "shape": "rect"
-                    }
-                ]
-            },
-            {
-                "name": "How to Cane Your Dragon (FATE)",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
-                "sections": [
-                    {
-                        "name": "How to Cane Your Dragon (FATE)",
-                        "access_rules": [
-                            "$leveling:54"
-                        ],
-                        "visibility_rules": [
-                            "fatesanity, level_cap:54"
-                        ],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "The Churning Mists",
-                        "x": 763,
-                        "y": 1515,
-                        "size": 40,
-                        "shape": "rect"
-                    }
-                ]
-            },
-            {
-                "name": "Its the Moogle Reinvented (FATE)",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
-                "sections": [
-                    {
-                        "name": "Its the Moogle Reinvented (FATE)",
-                        "access_rules": [
-                            "$leveling:54"
-                        ],
-                        "visibility_rules": [
-                            "fatesanity, level_cap:54"
-                        ],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "The Churning Mists",
-                        "x": 844,
-                        "y": 1341,
-                        "size": 40,
-                        "shape": "rect"
-                    }
-                ]
-            },
-            {
-                "name": "Mogicide (FATE)",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
-                "sections": [
-                    {
-                        "name": "Mogicide (FATE)",
-                        "access_rules": [
-                            "$leveling:54"
-                        ],
-                        "visibility_rules": [
-                            "fatesanity, level_cap:54"
-                        ],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "The Churning Mists",
-                        "x": 1006,
-                        "y": 989,
-                        "size": 40,
-                        "shape": "rect"
-                    }
-                ]
-            },
-            {
-                "name": "Say it Tulihand (FATE)",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
-                "sections": [
-                    {
-                        "name": "Say it Tulihand (FATE)",
-                        "access_rules": [
-                            "$leveling:54"
-                        ],
-                        "visibility_rules": [
-                            "fatesanity, level_cap:54"
-                        ],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "The Churning Mists",
-                        "x": 1275,
-                        "y": 897,
-                        "size": 40,
-                        "shape": "rect"
-                    }
-                ]
-            },
-            {
-                "name": "Sprite Club (FATE)",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
-                "sections": [
-                    {
-                        "name": "Sprite Club (FATE)",
-                        "access_rules": [
-                            "$leveling:54"
-                        ],
-                        "visibility_rules": [
-                            "fatesanity, level_cap:54"
-                        ],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "The Churning Mists",
-                        "x": 1557,
-                        "y": 1652,
-                        "size": 40,
-                        "shape": "rect"
-                    }
-                ]
-            },
-            {
-                "name": "Supper Time (FATE)",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
-                "sections": [
-                    {
-                        "name": "Supper Time (FATE)",
-                        "access_rules": [
-                            "$leveling:54"
-                        ],
-                        "visibility_rules": [
-                            "fatesanity, level_cap:54"
-                        ],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "The Churning Mists",
-                        "x": 1700,
-                        "y": 1527,
-                        "size": 40,
-                        "shape": "rect"
-                    }
-                ]
-            },
-            {
-                "name": "The Nuts (FATE)",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
-                "sections": [
-                    {
-                        "name": "The Nuts (FATE)",
-                        "access_rules": [
-                            "$leveling:54"
-                        ],
-                        "visibility_rules": [
-                            "fatesanity, level_cap:54"
-                        ],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "The Churning Mists",
-                        "x": 1368,
-                        "y": 1296,
-                        "size": 40,
-                        "shape": "rect"
-                    }
-                ]
-            },
-            {
-                "name": "Vouivre Believre (FATE)",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
-                "sections": [
-                    {
-                        "name": "Vouivre Believre (FATE)",
-                        "access_rules": [
-                            "$leveling:54"
-                        ],
-                        "visibility_rules": [
-                            "fatesanity, level_cap:54"
-                        ],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "The Churning Mists",
+                        "map": "The Dravanian Forelands",
                         "x": 1193,
-                        "y": 873,
-                        "size": 40,
-                        "shape": "rect"
+                        "y": 1933,
+                        "size": 6
                     }
                 ]
             },
             {
-                "name": "Waugyl Waugyl Waugyl (FATE)",
+                "name": "Dead Meat (FATE)",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -743,28 +320,27 @@
                 ],
                 "sections": [
                     {
-                        "name": "Waugyl Waugyl Waugyl (FATE)",
+                        "name": "Dead Meat (FATE)",
                         "access_rules": [
-                            "$leveling:54"
+                            "$leveling:52"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:54"
+                            "fatesanity, level_cap:52"
                         ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "The Churning Mists",
-                        "x": 1539,
-                        "y": 728,
-                        "size": 40,
-                        "shape": "rect"
+                        "map": "The Dravanian Forelands",
+                        "x": 2282,
+                        "y": 1708,
+                        "size": 6
                     }
                 ]
             },
             {
-                "name": "Wave Good-bye (FATE)",
+                "name": "Drone Under (FATE)",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -773,28 +349,27 @@
                 ],
                 "sections": [
                     {
-                        "name": "Wave Good-bye (FATE)",
+                        "name": "Drone Under (FATE)",
                         "access_rules": [
-                            "$leveling:54"
+                            "$leveling:52"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:54"
+                            "fatesanity, level_cap:52"
                         ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "The Churning Mists",
-                        "x": 1270,
-                        "y": 1514,
-                        "size": 40,
-                        "shape": "rect"
+                        "map": "The Dravanian Forelands",
+                        "x": 1283,
+                        "y": 147,
+                        "size": 6
                     }
                 ]
             },
             {
-                "name": "Whole Food (FATE)",
+                "name": "Glawackus On Glawackus Off (FATE)",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -803,28 +378,27 @@
                 ],
                 "sections": [
                     {
-                        "name": "Whole Food (FATE)",
+                        "name": "Glawackus On Glawackus Off (FATE)",
                         "access_rules": [
-                            "$leveling:54"
+                            "$leveling:52"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:54"
+                            "fatesanity, level_cap:52"
                         ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "The Churning Mists",
-                        "x": 1371,
-                        "y": 1100,
-                        "size": 40,
-                        "shape": "rect"
+                        "map": "The Dravanian Forelands",
+                        "x": 1483,
+                        "y": 203,
+                        "size": 6
                     }
                 ]
             },
             {
-                "name": "Coin Toss (FATE)",
+                "name": "Ladies First (FATE)",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -833,28 +407,27 @@
                 ],
                 "sections": [
                     {
-                        "name": "Coin Toss (FATE)",
+                        "name": "Ladies First (FATE)",
                         "access_rules": [
-                            "$leveling:55"
+                            "$leveling:52"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:55"
+                            "fatesanity, level_cap:52"
                         ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "The Churning Mists",
-                        "x": 1585,
-                        "y": 1005,
-                        "size": 40,
-                        "shape": "rect"
+                        "map": "The Dravanian Forelands",
+                        "x": 2008,
+                        "y": 1690,
+                        "size": 6
                     }
                 ]
             },
             {
-                "name": "Darkscale Descendeth (FATE)",
+                "name": "Long Live the Coeurl (FATE)",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -863,28 +436,27 @@
                 ],
                 "sections": [
                     {
-                        "name": "Darkscale Descendeth (FATE)",
+                        "name": "Long Live the Coeurl (FATE)",
                         "access_rules": [
-                            "$leveling:55"
+                            "$leveling:52"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:55"
+                            "fatesanity, level_cap:52"
                         ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "The Churning Mists",
-                        "x": 814,
-                        "y": 510,
-                        "size": 40,
-                        "shape": "rect"
+                        "map": "The Dravanian Forelands",
+                        "x": 1737,
+                        "y": 1161,
+                        "size": 6
                     }
                 ]
             },
             {
-                "name": "Darkscale Devoureth (FATE)",
+                "name": "Nothing but the Truth (FATE)",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -893,28 +465,27 @@
                 ],
                 "sections": [
                     {
-                        "name": "Darkscale Devoureth (FATE)",
+                        "name": "Nothing but the Truth (FATE)",
                         "access_rules": [
-                            "$leveling:55"
+                            "$leveling:52"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:55"
+                            "fatesanity, level_cap:52"
                         ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "The Churning Mists",
-                        "x": 815,
-                        "y": 333,
-                        "size": 40,
-                        "shape": "rect"
+                        "map": "The Dravanian Forelands",
+                        "x": 1837,
+                        "y": 1055,
+                        "size": 6
                     }
                 ]
             },
             {
-                "name": "Darkscale Disappeareth (FATE)",
+                "name": "Run Run Away (FATE)",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -923,28 +494,27 @@
                 ],
                 "sections": [
                     {
-                        "name": "Darkscale Disappeareth (FATE)",
+                        "name": "Run Run Away (FATE)",
                         "access_rules": [
-                            "$leveling:55"
+                            "$leveling:52"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:55"
+                            "fatesanity, level_cap:52"
                         ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "The Churning Mists",
-                        "x": 858,
-                        "y": 511,
-                        "size": 40,
-                        "shape": "rect"
+                        "map": "The Dravanian Forelands",
+                        "x": 225,
+                        "y": 979,
+                        "size": 6
                     }
                 ]
             },
             {
-                "name": "From Dusk Till Gone (FATE)",
+                "name": "The Migas Touch (FATE)",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -953,28 +523,27 @@
                 ],
                 "sections": [
                     {
-                        "name": "From Dusk Till Gone (FATE)",
+                        "name": "The Migas Touch (FATE)",
                         "access_rules": [
-                            "$leveling:55"
+                            "$leveling:52"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:55"
+                            "fatesanity, level_cap:52"
                         ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "The Churning Mists",
-                        "x": 919,
-                        "y": 770,
-                        "size": 40,
-                        "shape": "rect"
+                        "map": "The Dravanian Forelands",
+                        "x": 197,
+                        "y": 1974,
+                        "size": 6
                     }
                 ]
             },
             {
-                "name": "Infamous (FATE)",
+                "name": "The Rite Stuff (FATE)",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -983,28 +552,27 @@
                 ],
                 "sections": [
                     {
-                        "name": "Infamous (FATE)",
+                        "name": "The Rite Stuff (FATE)",
                         "access_rules": [
-                            "$leveling:55"
+                            "$leveling:52"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:55"
+                            "fatesanity, level_cap:52"
                         ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "The Churning Mists",
-                        "x": 599,
-                        "y": 1155,
-                        "size": 40,
-                        "shape": "rect"
+                        "map": "The Dravanian Forelands",
+                        "x": 142,
+                        "y": 365,
+                        "size": 6
                     }
                 ]
             },
             {
-                "name": "Rastaban Vibration (FATE)",
+                "name": "The Whole Truth (FATE)",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -1013,28 +581,27 @@
                 ],
                 "sections": [
                     {
-                        "name": "Rastaban Vibration (FATE)",
+                        "name": "The Whole Truth (FATE)",
                         "access_rules": [
-                            "$leveling:55"
+                            "$leveling:52"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:55"
+                            "fatesanity, level_cap:52"
                         ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "The Churning Mists",
-                        "x": 638,
-                        "y": 554,
-                        "size": 40,
-                        "shape": "rect"
+                        "map": "The Dravanian Forelands",
+                        "x": 1252,
+                        "y": 1127,
+                        "size": 6
                     }
                 ]
             },
             {
-                "name": "Treehouse of the Spirits (FATE)",
+                "name": "Whos the Moss (FATE)",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -1043,28 +610,27 @@
                 ],
                 "sections": [
                     {
-                        "name": "Treehouse of the Spirits (FATE)",
+                        "name": "Whos the Moss (FATE)",
                         "access_rules": [
-                            "$leveling:55"
+                            "$leveling:52"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:55"
+                            "fatesanity, level_cap:52"
                         ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "The Churning Mists",
-                        "x": 334,
-                        "y": 624,
-                        "size": 40,
-                        "shape": "rect"
+                        "map": "The Dravanian Forelands",
+                        "x": 1595,
+                        "y": 2333,
+                        "size": 6
                     }
                 ]
             },
             {
-                "name": "Waiting for Fjalar to Stall (FATE)",
+                "name": "Cerfs Up (FATE)",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -1073,28 +639,27 @@
                 ],
                 "sections": [
                     {
-                        "name": "Waiting for Fjalar to Stall (FATE)",
+                        "name": "Cerfs Up (FATE)",
                         "access_rules": [
-                            "$leveling:55"
+                            "$leveling:53"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:55"
+                            "fatesanity, level_cap:53"
                         ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "The Churning Mists",
-                        "x": 629,
-                        "y": 1026,
-                        "size": 40,
-                        "shape": "rect"
+                        "map": "The Dravanian Forelands",
+                        "x": 2437,
+                        "y": 1853,
+                        "size": 6
                     }
                 ]
             },
             {
-                "name": "As the World Burns (FATE)",
+                "name": "El Miacid (FATE)",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -1103,28 +668,27 @@
                 ],
                 "sections": [
                     {
-                        "name": "As the World Burns (FATE)",
+                        "name": "El Miacid (FATE)",
                         "access_rules": [
-                            "$leveling:56"
+                            "$leveling:53"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:56"
+                            "fatesanity, level_cap:53"
                         ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "The Churning Mists",
-                        "x": 1179,
-                        "y": 294,
-                        "size": 40,
-                        "shape": "rect"
+                        "map": "The Dravanian Forelands",
+                        "x": 722,
+                        "y": 798,
+                        "size": 6
                     }
                 ]
             },
             {
-                "name": "Dont Know Wyvern (FATE)",
+                "name": "Elephant in the Brume (FATE)",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -1133,28 +697,27 @@
                 ],
                 "sections": [
                     {
-                        "name": "Dont Know Wyvern (FATE)",
+                        "name": "Elephant in the Brume (FATE)",
                         "access_rules": [
-                            "$leveling:56"
+                            "$leveling:53"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:56"
+                            "fatesanity, level_cap:53"
                         ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "The Churning Mists",
-                        "x": 342,
-                        "y": 777,
-                        "size": 40,
-                        "shape": "rect"
+                        "map": "The Dravanian Forelands",
+                        "x": 1889,
+                        "y": 1770,
+                        "size": 6
                     }
                 ]
             },
             {
-                "name": "Vedrfolnir Devoteth (FATE)",
+                "name": "Hearing Voices (FATE)",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -1163,272 +726,428 @@
                 ],
                 "sections": [
                     {
-                        "name": "Vedrfolnir Devoteth (FATE)",
+                        "name": "Hearing Voices (FATE)",
                         "access_rules": [
-                            "$leveling:56"
+                            "$leveling:53"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:56"
+                            "fatesanity, level_cap:53"
                         ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "The Churning Mists",
-                        "x": 509,
-                        "y": 1740,
-                        "size": 40,
-                        "shape": "rect"
+                        "map": "The Dravanian Forelands",
+                        "x": 546,
+                        "y": 2225,
+                        "size": 6
                     }
                 ]
             },
             {
-                "name": "Eil Tohm",
+                "name": "Special Tarasque Force (FATE)",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:54"
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Special Tarasque Force (FATE)",
+                        "access_rules": [
+                            "$leveling:53"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:53"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "The Dravanian Forelands",
+                        "x": 195,
+                        "y": 1347,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Stamp the Yard (FATE)",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Stamp the Yard (FATE)",
+                        "access_rules": [
+                            "$leveling:53"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:53"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "The Dravanian Forelands",
+                        "x": 1848,
+                        "y": 164,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "The Mourning After (FATE)",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "The Mourning After (FATE)",
+                        "access_rules": [
+                            "$leveling:53"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:53"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "The Dravanian Forelands",
+                        "x": 2426,
+                        "y": 2237,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Coeurls Chase Boys (FATE)",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Coeurls Chase Boys (FATE)",
+                        "access_rules": [
+                            "$leveling:57"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:57"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "The Dravanian Forelands",
+                        "x": 768,
+                        "y": 47,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Come to My Arms (FATE)",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Come to My Arms (FATE)",
+                        "access_rules": [
+                            "$leveling:57"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:57"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "The Dravanian Forelands",
+                        "x": 654,
+                        "y": 1808,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Ware the Maiden Fair (FATE)",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Ware the Maiden Fair (FATE)",
+                        "access_rules": [
+                            "$leveling:57"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:57"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "The Dravanian Forelands",
+                        "x": 196,
+                        "y": 2072,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Coeurls Chase Boys Chase Coeurls (FATE)",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Coeurls Chase Boys Chase Coeurls (FATE)",
+                        "access_rules": [
+                            "$leveling:60"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:60"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "The Dravanian Forelands",
+                        "x": 1767,
+                        "y": 2208,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "The Hundred Throes",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "5fshlevels:52"
                 ],
                 "visibility_rules": [
-                    "levelcap:54, fishsanity_normal"
+                    "levelcap:52, fishsanity_normal"
                 ],
                 "sections": [
                     {
-                        "name": "Lamp Marimo",
-                        "access_rules": [
-                            "stoneflynymph"
-                        ],
+                        "name": "Whilom Catfish",
+                        "access_rules": ["bladedsteeljig", "goblinjig"],
+                        "visibility_rules": ["fishsanity_timed"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Blueclaw Shrimp",
+                        "access_rules": ["pursewebspider", "stoneflynymph"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Cloudfish",
-                        "access_rules": [
-                            "stoneflynymph"
-                        ],
+                        "name": "Grass Carp",
+                        "access_rules": ["bladedsteeljig"],
+                        "visibility_rules": ["fishsanity_timed"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Pipira Pira",
+                        "access_rules": ["goblinjig"],
+                        "visibility_rules": ["fishsanity_timed"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Shadowhisker",
+                        "access_rules": ["versatilelure"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Kissing Fish",
-                        "access_rules": [
-                            "bruteleech"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_timed"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Noontide Oscar",
-                        "access_rules": [
-                            "bruteleech"
-                        ],
+                        "name": "Dravanian Smelt",
+                        "access_rules": ["bruteleech"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Vidofnir",
-                        "access_rules": [
-                            "bruteleech"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_big"
-                        ],
+                        "name": "Scaleripper",
+                        "access_rules": ["bruteleech"],
+                        "visibility_rules": ["fishsanity_big"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "River Shrimp",
+                        "access_rules": ["metalspinner"],
+                        "visibility_rules": [],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "The Churning Mists",
-                        "x": 1690,
-                        "y": 1388,
-                        "size": 40,
-                        "shape": "rect"
+                        "map": "The Dravanian Forelands",
+                        "x": 1992,
+                        "y": 200,
+                        "size": 6
                     }
                 ]
             },
             {
-                "name": "Weston Waters",
+                "name": "Whilom River",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:54"
+                    "5fshlevels:52"
                 ],
                 "visibility_rules": [
-                    "levelcap:54, fishsanity_normal"
+                    "levelcap:52, fishsanity_normal"
                 ],
                 "sections": [
                     {
-                        "name": "Cloudfish",
-                        "access_rules": [
-                            "stoneflynymph"
-                        ],
+                        "name": "Whilom Catfish",
+                        "access_rules": ["bladedsteeljig", "goblinjig"],
+                        "visibility_rules": ["fishsanity_timed"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Blueclaw Shrimp",
+                        "access_rules": ["pursewebspider", "stoneflynymph"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Dravanian Squeaker",
-                        "access_rules": [
-                            "stoneflynymph"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_timed"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Hundred Fin",
-                        "access_rules": [
-                            "goblinjig"
-                        ],
+                        "name": "Three-lip Carp",
+                        "access_rules": ["bladedsteeljig"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Weston Bowfin",
-                        "access_rules": [
-                            "goblinjig"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_timed"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Lovers Clam",
-                        "access_rules": [
-                            "metalspinner"
-                        ],
+                        "name": "Rock Mussel",
+                        "access_rules": ["goblinjig", "stoneflynymph"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Thousand Fin",
-                        "access_rules": [
-                            "bruteleech"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_big"
-                        ],
+                        "name": "Pipira Pira",
+                        "access_rules": ["goblinjig"],
+                        "visibility_rules": ["fishsanity_timed"],
                         "item_count": 1
                     },
                     {
-                        "name": "Illuminati Mask",
-                        "access_rules": [
-                            "metalspinner"
-                        ],
-                        "visibility_rules": [],
+                        "name": "Dravanian Bass",
+                        "access_rules": ["pursewebspider"],
+                        "visibility_rules": ["fishsanity_timed"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Twin-tongued Carp",
+                        "access_rules": ["bruteleech"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "The Churning Mists",
-                        "x": 384,
-                        "y": 327,
-                        "size": 40,
-                        "shape": "rect"
+                        "map": "The Dravanian Forelands",
+                        "x": 462,
+                        "y": 956,
+                        "size": 6
                     }
                 ]
             },
             {
-                "name": "Landlord Colony",
+                "name": "The Smoldering Wastes",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:54"
+                    "5fshlevels:52"
                 ],
                 "visibility_rules": [
-                    "levelcap:54, fishsanity_normal"
+                    "levelcap:52, fishsanity_normal"
                 ],
                 "sections": [
                     {
-                        "name": "Sky Faerie",
-                        "access_rules": [
-                            "metalspinner",
-                            "redballoon"
-                        ],
+                        "name": "Whilom Catfish",
+                        "access_rules": ["bladedsteeljig", "goblinjig"],
+                        "visibility_rules": ["fishsanity_timed"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Blueclaw Shrimp",
+                        "access_rules": ["pursewebspider", "stoneflynymph"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Cloud Rider",
-                        "access_rules": [
-                            "redballoon"
-                        ],
+                        "name": "Three-lip Carp",
+                        "access_rules": ["bladedsteeljig"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Blue Medusa",
-                        "access_rules": [
-                            "metalspinner"
-                        ],
+                        "name": "Rock Mussel",
+                        "access_rules": ["goblinjig", "stoneflynymph"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Letter Puffer",
-                        "access_rules": [
-                            "giantcranefly"
-                        ],
+                        "name": "Marble Oscar",
+                        "access_rules": ["metalspinner"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Gloaming Coral",
-                        "access_rules": [
-                            "redballoon"
-                        ],
-                        "visibility_rules": [],
+                        "name": "Warmwater Bichir",
+                        "access_rules": ["bruteleech"],
+                        "visibility_rules": ["fishsanity_timed"],
                         "item_count": 1
                     },
                     {
-                        "name": "Dragons Soul",
-                        "access_rules": [
-                            "versatilelure"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Sunsail",
-                        "access_rules": [
-                            "giantcranefly"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_timed"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Soul of the Martyr",
-                        "access_rules": [
-                            "giantcranefly"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_big"
-                        ],
+                        "name": "The Dreamweaver",
+                        "access_rules": ["bruteleech"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "The Churning Mists",
-                        "x": 1316,
-                        "y": 1173,
-                        "size": 40,
-                        "shape": "rect"
+                        "map": "The Dravanian Forelands",
+                        "x": 1158,
+                        "y": 1506,
+                        "size": 6
                     }
                 ]
             },
             {
-                "name": "Sohm Al Summit",
+                "name": "The Iron Feast",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -1440,87 +1159,59 @@
                 ],
                 "sections": [
                     {
-                        "name": "Sky Faerie",
-                        "access_rules": [
-                            "metalspinner",
-                            "redballoon"
-                        ],
+                        "name": "Blueclaw Shrimp",
+                        "access_rules": ["pursewebspider", "stoneflynymph"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Cloud Rider",
-                        "access_rules": [
-                            "redballoon"
-                        ],
+                        "name": "Pipira Pira",
+                        "access_rules": ["goblinjig"],
+                        "visibility_rules": ["fishsanity_timed"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Dragonhead",
+                        "access_rules": ["goblinjig"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Gobbie Mask",
-                        "access_rules": [
-                            "giantcranefly"
-                        ],
-                        "visibility_rules": [],
+                        "name": "Caiman",
+                        "access_rules": ["stoneflynymph"],
+                        "visibility_rules": ["fishsanity_timed"],
                         "item_count": 1
                     },
                     {
-                        "name": "Star Faerie",
-                        "access_rules": [
-                            "giantcranefly"
-                        ],
-                        "visibility_rules": [],
+                        "name": "Thunderbolt Eel",
+                        "access_rules": ["stoneflynymph"],
+                        "visibility_rules": ["fishsanity_timed"],
                         "item_count": 1
                     },
                     {
-                        "name": "Gloaming Coral",
-                        "access_rules": [
-                            "redballoon"
-                        ],
-                        "visibility_rules": [],
+                        "name": "Amber Salamander",
+                        "access_rules": ["bruteleech"],
+                        "visibility_rules": ["fishsanity_timed"],
                         "item_count": 1
                     },
                     {
-                        "name": "Rudderfish",
-                        "access_rules": [
-                            "giantcranefly"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Pteranodon",
-                        "access_rules": [
-                            "giantcranefly"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_timed"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Dimorphodon",
-                        "access_rules": [
-                            "giantcranefly"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_big"
-                        ],
+                        "name": "Thunderscale",
+                        "access_rules": ["stoneflynymph"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "The Churning Mists",
-                        "x": 790,
-                        "y": 1800,
-                        "size": 40,
-                        "shape": "rect"
+                        "map": "The Dravanian Forelands",
+                        "x": 1419,
+                        "y": 2390,
+                        "size": 6
                     }
                 ]
             },
             {
-                "name": "Tharl Oom Khash",
+                "name": "Mourn",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -1532,151 +1223,246 @@
                 ],
                 "sections": [
                     {
-                        "name": "Sky Faerie",
-                        "access_rules": [
-                            "metalspinner",
-                            "redballoon"
-                        ],
+                        "name": "Lava Crab",
+                        "access_rules": ["metalspinner", "magmaworm"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Cloud Rider",
-                        "access_rules": [
-                            "redballoon"
-                        ],
+                        "name": "Granite Crab",
+                        "access_rules": ["magmaworm", "metalspinner"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Manasail",
-                        "access_rules": [
-                            "metalspinner"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_timed"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Brown Bolo",
-                        "access_rules": [
-                            "redballoon"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_timed"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Rudderfish",
-                        "access_rules": [
-                            "giantcranefly"
-                        ],
+                        "name": "Cindersmith",
+                        "access_rules": ["magmaworm"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Cobrafish",
-                        "access_rules": [
-                            "giantcranefly"
-                        ],
+                        "name": "Cometoise",
+                        "access_rules": ["magmaworm", "metalspinner"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Storm Chaser",
-                        "access_rules": [
-                            "giantcranefly"
-                        ],
+                        "name": "Oven Catfish",
+                        "access_rules": ["magmaworm"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Nyctosaur",
-                        "access_rules": [
-                            "giantcranefly"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Bloodchaser",
-                        "access_rules": [
-                            "giantcranefly"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_big"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Raimdellopterus",
-                        "access_rules": [
-                            "giantcranefly"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_big"
-                        ],
+                        "name": "Meteortoise",
+                        "access_rules": ["magmaworm"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "The Churning Mists",
-                        "x": 886,
-                        "y": 263,
-                        "size": 40,
-                        "shape": "rect"
+                        "map": "The Dravanian Forelands",
+                        "x": 1974,
+                        "y": 1475,
+                        "size": 6
                     }
                 ]
             },
             {
-                "name": "Greensward",
+                "name": "Anyx Old",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:54"
+                    "5fshlevels:57"
                 ],
                 "visibility_rules": [
-                    "levelcap:54, fishsanity_normal"
+                    "levelcap:57, fishsanity_normal"
                 ],
                 "sections": [
                     {
-                        "name": "Mogpom",
-                        "access_rules": [
-                            "versatilelure"
-                        ],
+                        "name": "Lava Crab",
+                        "access_rules": ["metalspinner", "magmaworm"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Moggle Mogpom",
-                        "access_rules": [
-                            "bruteleech"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_big"
-                        ],
+                        "name": "Granite Crab",
+                        "access_rules": ["magmaworm", "metalspinner"],
+                        "visibility_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Holier-than Mogpom",
-                        "access_rules": [
-                            "metalspinner"
-                        ],
+                        "name": "Aithons Colt",
+                        "access_rules": ["magmaworm"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cindersmith",
+                        "access_rules": ["magmaworm"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Magma Louse",
+                        "access_rules": ["magmaworm"],
+                        "visibility_rules": ["fishsanity_timed"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cometoise",
+                        "access_rules": ["magmaworm", "metalspinner"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Riddle",
+                        "access_rules": ["magmaworm"],
+                        "visibility_rules": ["fishsanity_big"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Hoplite",
+                        "access_rules": ["metalspinner"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "The Churning Mists",
-                        "x": 372,
-                        "y": 1587,
-                        "size": 40,
-                        "shape": "rect"
+                        "map": "The Dravanian Forelands",
+                        "x": 1502,
+                        "y": 1804,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "West Mourn",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "5fshlevels:56"
+                ],
+                "visibility_rules": [
+                    "levelcap:56, fishsanity_normal"
+                ],
+                "sections": [
+                    {
+                        "name": "Granite Crab",
+                        "access_rules": ["magmaworm", "metalspinner"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Aithons Colt",
+                        "access_rules": ["magmaworm"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Magma Tree",
+                        "access_rules": ["magmaworm"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cindersmith",
+                        "access_rules": ["magmaworm"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Black Magefish",
+                        "access_rules": ["magmaworm"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Hraesvelgrs Tear",
+                        "access_rules": ["magmaworm"],
+                        "visibility_rules": ["fishsanity_big"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "The Dravanian Forelands",
+                        "x": 159,
+                        "y": 1233,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Halo",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "5fshlevels:60"
+                ],
+                "visibility_rules": [
+                    "levelcap:60, fishsanity_normal"
+                ],
+                "sections": [
+                    {
+                        "name": "Granite Crab",
+                        "access_rules": ["magmaworm", "metalspinner"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Magma Tree",
+                        "access_rules": ["magmaworm"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cometoise",
+                        "access_rules": ["magmaworm", "metalspinner"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Fossiltongue",
+                        "access_rules": ["magmaworm"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Lavalord",
+                        "access_rules": ["metalspinner"],
+                        "visibility_rules": ["fishsanity_timed"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Lava Snail",
+                        "access_rules": ["magmaworm"],
+                        "visibility_rules": ["fishsanity_timed"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "The Lord of Lords",
+                        "access_rules": ["metalspinner"],
+                        "visibility_rules": ["fishsanity_big"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Problematicus",
+                        "access_rules": ["metalspinner"],
+                        "visibility_rules": ["fishsanity_big"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "The Dravanian Forelands",
+                        "x": 177,
+                        "y": 685,
+                        "size": 6
                     }
                 ]
             }

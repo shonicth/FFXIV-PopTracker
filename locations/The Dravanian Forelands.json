@@ -29,64 +29,83 @@
                     {
                         "name": "Sohm Al 2",
                         "access_rules": [],
-                        "visibility_rules": ["extra_dungeon_checks:1"],
+                        "visibility_rules": [
+                            "extra_dungeon_checks:1"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Sohm Al 3",
                         "access_rules": [],
-                        "visibility_rules": ["extra_dungeon_checks:2"],
+                        "visibility_rules": [
+                            "extra_dungeon_checks:2"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Sohm Al 4",
                         "access_rules": [],
-                        "visibility_rules": ["extra_dungeon_checks:3"],
+                        "visibility_rules": [
+                            "extra_dungeon_checks:3"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Sohm Al 5",
                         "access_rules": [],
-                        "visibility_rules": ["extra_dungeon_checks:4"],
+                        "visibility_rules": [
+                            "extra_dungeon_checks:4"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Sohm Al 6",
                         "access_rules": [],
-                        "visibility_rules": ["extra_dungeon_checks:5"],
+                        "visibility_rules": [
+                            "extra_dungeon_checks:5"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Sohm Al 7",
                         "access_rules": [],
-                        "visibility_rules": ["extra_dungeon_checks:6"],
+                        "visibility_rules": [
+                            "extra_dungeon_checks:6"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Sohm Al 8",
                         "access_rules": [],
-                        "visibility_rules": ["extra_dungeon_checks:7"],
+                        "visibility_rules": [
+                            "extra_dungeon_checks:7"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Sohm Al 9",
                         "access_rules": [],
-                        "visibility_rules": ["extra_dungeon_checks:8"],
+                        "visibility_rules": [
+                            "extra_dungeon_checks:8"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Sohm Al 10",
                         "access_rules": [],
-                        "visibility_rules": ["extra_dungeon_checks:9"],
+                        "visibility_rules": [
+                            "extra_dungeon_checks:9"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "The Dravanian Forelands",
-                        "x": 738,
-                        "y": 2201,
-                        "size": 6
+                        "x": 373,
+                        "y": 279,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -101,23 +120,32 @@
                 "sections": [
                     {
                         "name": "Thok ast Thok (Hard)",
-                        "access_rules": ["$leveling:53"],
-                        "visibility_rules": ["level_cap:53, duty_difficulty_normal, $duty_visibility|Thok ast Thok (Hard)"],
+                        "access_rules": [
+                            "$leveling:53"
+                        ],
+                        "visibility_rules": [
+                            "level_cap:53, duty_difficulty_normal, $duty_visibility|Thok ast Thok (Hard)"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Thok ast Thok (Extreme)",
-                        "access_rules": ["$leveling:60"],
-                        "visibility_rules": ["level_cap:60, duty_difficulty_ex, $duty_visibility|Thok ast Thok (Savage)"],
+                        "access_rules": [
+                            "$leveling:60"
+                        ],
+                        "visibility_rules": [
+                            "level_cap:60, duty_difficulty_ex, $duty_visibility|Thok ast Thok (Savage)"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "The Dravanian Forelands",
-                        "x": 630,
-                        "y": 473,
-                        "size": 6
+                        "x": 1259,
+                        "y": 1895,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -217,9 +245,10 @@
                 "map_locations": [
                     {
                         "map": "The Dravanian Forelands",
-                        "x": 2460,
-                        "y": 150,
-                        "size": 6
+                        "x": 1386,
+                        "y": 1910,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -246,9 +275,10 @@
                 "map_locations": [
                     {
                         "map": "The Dravanian Forelands",
-                        "x": 36,
-                        "y": 1620,
-                        "size": 6
+                        "x": 1443,
+                        "y": 698,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -275,9 +305,10 @@
                 "map_locations": [
                     {
                         "map": "The Dravanian Forelands",
-                        "x": 2012,
-                        "y": 518,
-                        "size": 6
+                        "x": 1502,
+                        "y": 926,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -304,9 +335,10 @@
                 "map_locations": [
                     {
                         "map": "The Dravanian Forelands",
-                        "x": 1193,
-                        "y": 1933,
-                        "size": 6
+                        "x": 1590,
+                        "y": 1463,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -333,9 +365,10 @@
                 "map_locations": [
                     {
                         "map": "The Dravanian Forelands",
-                        "x": 2282,
-                        "y": 1708,
-                        "size": 6
+                        "x": 1101,
+                        "y": 931,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -362,9 +395,10 @@
                 "map_locations": [
                     {
                         "map": "The Dravanian Forelands",
-                        "x": 1283,
-                        "y": 147,
-                        "size": 6
+                        "x": 1205,
+                        "y": 1574,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -391,9 +425,10 @@
                 "map_locations": [
                     {
                         "map": "The Dravanian Forelands",
-                        "x": 1483,
-                        "y": 203,
-                        "size": 6
+                        "x": 1697,
+                        "y": 358,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -420,9 +455,10 @@
                 "map_locations": [
                     {
                         "map": "The Dravanian Forelands",
-                        "x": 2008,
-                        "y": 1690,
-                        "size": 6
+                        "x": 1656,
+                        "y": 1215,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -449,9 +485,10 @@
                 "map_locations": [
                     {
                         "map": "The Dravanian Forelands",
-                        "x": 1737,
-                        "y": 1161,
-                        "size": 6
+                        "x": 1711,
+                        "y": 1149,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -478,9 +515,10 @@
                 "map_locations": [
                     {
                         "map": "The Dravanian Forelands",
-                        "x": 1837,
-                        "y": 1055,
-                        "size": 6
+                        "x": 1192,
+                        "y": 1033,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -507,9 +545,10 @@
                 "map_locations": [
                     {
                         "map": "The Dravanian Forelands",
-                        "x": 225,
-                        "y": 979,
-                        "size": 6
+                        "x": 1780,
+                        "y": 916,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -536,9 +575,10 @@
                 "map_locations": [
                     {
                         "map": "The Dravanian Forelands",
-                        "x": 197,
-                        "y": 1974,
-                        "size": 6
+                        "x": 1046,
+                        "y": 1470,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -565,9 +605,10 @@
                 "map_locations": [
                     {
                         "map": "The Dravanian Forelands",
-                        "x": 142,
-                        "y": 365,
-                        "size": 6
+                        "x": 1211,
+                        "y": 556,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -594,9 +635,10 @@
                 "map_locations": [
                     {
                         "map": "The Dravanian Forelands",
-                        "x": 1252,
-                        "y": 1127,
-                        "size": 6
+                        "x": 1129,
+                        "y": 1030,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -623,9 +665,10 @@
                 "map_locations": [
                     {
                         "map": "The Dravanian Forelands",
-                        "x": 1595,
-                        "y": 2333,
-                        "size": 6
+                        "x": 1638,
+                        "y": 782,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -652,9 +695,10 @@
                 "map_locations": [
                     {
                         "map": "The Dravanian Forelands",
-                        "x": 2437,
-                        "y": 1853,
-                        "size": 6
+                        "x": 865,
+                        "y": 1309,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -681,9 +725,10 @@
                 "map_locations": [
                     {
                         "map": "The Dravanian Forelands",
-                        "x": 722,
-                        "y": 798,
-                        "size": 6
+                        "x": 1014,
+                        "y": 1574,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -710,9 +755,10 @@
                 "map_locations": [
                     {
                         "map": "The Dravanian Forelands",
-                        "x": 1889,
-                        "y": 1770,
-                        "size": 6
+                        "x": 749,
+                        "y": 1676,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -739,9 +785,10 @@
                 "map_locations": [
                     {
                         "map": "The Dravanian Forelands",
-                        "x": 546,
-                        "y": 2225,
-                        "size": 6
+                        "x": 618,
+                        "y": 837,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -768,9 +815,10 @@
                 "map_locations": [
                     {
                         "map": "The Dravanian Forelands",
-                        "x": 195,
-                        "y": 1347,
-                        "size": 6
+                        "x": 589,
+                        "y": 1726,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -797,9 +845,10 @@
                 "map_locations": [
                     {
                         "map": "The Dravanian Forelands",
-                        "x": 1848,
-                        "y": 164,
-                        "size": 6
+                        "x": 693,
+                        "y": 928,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -826,9 +875,10 @@
                 "map_locations": [
                     {
                         "map": "The Dravanian Forelands",
-                        "x": 2426,
-                        "y": 2237,
-                        "size": 6
+                        "x": 827,
+                        "y": 240,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -855,9 +905,10 @@
                 "map_locations": [
                     {
                         "map": "The Dravanian Forelands",
-                        "x": 768,
-                        "y": 47,
-                        "size": 6
+                        "x": 1983,
+                        "y": 1875,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -884,9 +935,10 @@
                 "map_locations": [
                     {
                         "map": "The Dravanian Forelands",
-                        "x": 654,
-                        "y": 1808,
-                        "size": 6
+                        "x": 1302,
+                        "y": 316,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -913,9 +965,10 @@
                 "map_locations": [
                     {
                         "map": "The Dravanian Forelands",
-                        "x": 196,
-                        "y": 2072,
-                        "size": 6
+                        "x": 530,
+                        "y": 1845,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -942,9 +995,10 @@
                 "map_locations": [
                     {
                         "map": "The Dravanian Forelands",
-                        "x": 1767,
-                        "y": 2208,
-                        "size": 6
+                        "x": 1983,
+                        "y": 1932,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -954,54 +1008,83 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "5fshlevels:52"
+                ],
+                "visibility_rules": [
+                    "levelcap:52, fishsanity_normal"
                 ],
                 "sections": [
                     {
                         "name": "Whilom Catfish",
-                        "access_rules": ["bladedsteeljig", "goblinjig"],
-                        "visibility_rules": ["fishsanity_timed"],
+                        "access_rules": [
+                            "bladedsteeljig",
+                            "goblinjig"
+                        ],
+                        "visibility_rules": [
+                            "fishsanity_timed"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Blueclaw Shrimp",
-                        "access_rules": ["pursewebspider", "stoneflynymph"],
+                        "access_rules": [
+                            "pursewebspider",
+                            "stoneflynymph"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Grass Carp",
-                        "access_rules": ["bladedsteeljig"],
-                        "visibility_rules": ["fishsanity_timed"],
+                        "access_rules": [
+                            "bladedsteeljig"
+                        ],
+                        "visibility_rules": [
+                            "fishsanity_timed"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Pipira Pira",
-                        "access_rules": ["goblinjig"],
-                        "visibility_rules": ["fishsanity_timed"],
+                        "access_rules": [
+                            "goblinjig"
+                        ],
+                        "visibility_rules": [
+                            "fishsanity_timed"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Shadowhisker",
-                        "access_rules": ["versatilelure"],
+                        "access_rules": [
+                            "versatilelure"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Dravanian Smelt",
-                        "access_rules": ["bruteleech"],
+                        "access_rules": [
+                            "bruteleech"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Scaleripper",
-                        "access_rules": ["bruteleech"],
-                        "visibility_rules": ["fishsanity_big"],
+                        "access_rules": [
+                            "bruteleech"
+                        ],
+                        "visibility_rules": [
+                            "fishsanity_big"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "River Shrimp",
-                        "access_rules": ["metalspinner"],
+                        "access_rules": [
+                            "metalspinner"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -1009,9 +1092,10 @@
                 "map_locations": [
                     {
                         "map": "The Dravanian Forelands",
-                        "x": 1992,
-                        "y": 200,
-                        "size": 6
+                        "x": 1439,
+                        "y": 439,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -1021,58 +1105,87 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "5fshlevels:52"
+                ],
+                "visibility_rules": [
+                    "levelcap:52, fishsanity_normal"
                 ],
                 "sections": [
                     {
                         "name": "Whilom Catfish",
-                        "access_rules": ["bladedsteeljig", "goblinjig"],
-                        "visibility_rules": ["fishsanity_timed"],
+                        "access_rules": [
+                            "bladedsteeljig",
+                            "goblinjig"
+                        ],
+                        "visibility_rules": [
+                            "fishsanity_timed"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Blueclaw Shrimp",
-                        "access_rules": ["pursewebspider", "stoneflynymph"],
+                        "access_rules": [
+                            "pursewebspider",
+                            "stoneflynymph"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Three-lip Carp",
-                        "access_rules": ["bladedsteeljig"],
+                        "access_rules": [
+                            "bladedsteeljig"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Rock Mussel",
-                        "access_rules": ["goblinjig", "stoneflynymph"],
+                        "access_rules": [
+                            "goblinjig",
+                            "stoneflynymph"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Pipira Pira",
-                        "access_rules": ["goblinjig"],
-                        "visibility_rules": ["fishsanity_timed"],
+                        "access_rules": [
+                            "goblinjig"
+                        ],
+                        "visibility_rules": [
+                            "fishsanity_timed"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Dravanian Bass",
-                        "access_rules": ["pursewebspider"],
-                        "visibility_rules": ["fishsanity_timed"],
+                        "access_rules": [
+                            "pursewebspider"
+                        ],
+                        "visibility_rules": [
+                            "fishsanity_timed"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Twin-tongued Carp",
-                        "access_rules": ["bruteleech"],
-                        "visibility_rules": ["fishsanity_big"],
+                        "access_rules": [
+                            "bruteleech"
+                        ],
+                        "visibility_rules": [
+                            "fishsanity_big"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "The Dravanian Forelands",
-                        "x": 462,
-                        "y": 956,
-                        "size": 6
+                        "x": 1412,
+                        "y": 657,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -1082,58 +1195,85 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "5fshlevels:52"
+                ],
+                "visibility_rules": [
+                    "levelcap:52, fishsanity_normal"
                 ],
                 "sections": [
                     {
                         "name": "Whilom Catfish",
-                        "access_rules": ["bladedsteeljig", "goblinjig"],
-                        "visibility_rules": ["fishsanity_timed"],
+                        "access_rules": [
+                            "bladedsteeljig",
+                            "goblinjig"
+                        ],
+                        "visibility_rules": [
+                            "fishsanity_timed"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Blueclaw Shrimp",
-                        "access_rules": ["pursewebspider", "stoneflynymph"],
+                        "access_rules": [
+                            "pursewebspider",
+                            "stoneflynymph"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Three-lip Carp",
-                        "access_rules": ["bladedsteeljig"],
+                        "access_rules": [
+                            "bladedsteeljig"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Rock Mussel",
-                        "access_rules": ["goblinjig", "stoneflynymph"],
+                        "access_rules": [
+                            "goblinjig",
+                            "stoneflynymph"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Marble Oscar",
-                        "access_rules": ["metalspinner"],
+                        "access_rules": [
+                            "metalspinner"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Warmwater Bichir",
-                        "access_rules": ["bruteleech"],
-                        "visibility_rules": ["fishsanity_timed"],
+                        "access_rules": [
+                            "bruteleech"
+                        ],
+                        "visibility_rules": [
+                            "fishsanity_timed"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "The Dreamweaver",
-                        "access_rules": ["bruteleech"],
-                        "visibility_rules": ["fishsanity_big"],
+                        "access_rules": [
+                            "bruteleech"
+                        ],
+                        "visibility_rules": [
+                            "fishsanity_big"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "The Dravanian Forelands",
-                        "x": 1158,
-                        "y": 1506,
-                        "size": 6
+                        "x": 1190,
+                        "y": 1190,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -1143,58 +1283,87 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "5fshlevels:55"
+                ],
+                "visibility_rules": [
+                    "levelcap:55, fishsanity_normal"
                 ],
                 "sections": [
                     {
                         "name": "Blueclaw Shrimp",
-                        "access_rules": ["pursewebspider", "stoneflynymph"],
+                        "access_rules": [
+                            "pursewebspider",
+                            "stoneflynymph"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Pipira Pira",
-                        "access_rules": ["goblinjig"],
-                        "visibility_rules": ["fishsanity_timed"],
+                        "access_rules": [
+                            "goblinjig"
+                        ],
+                        "visibility_rules": [
+                            "fishsanity_timed"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Dragonhead",
-                        "access_rules": ["goblinjig"],
+                        "access_rules": [
+                            "goblinjig"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Caiman",
-                        "access_rules": ["stoneflynymph"],
-                        "visibility_rules": ["fishsanity_timed"],
+                        "access_rules": [
+                            "stoneflynymph"
+                        ],
+                        "visibility_rules": [
+                            "fishsanity_timed"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Thunderbolt Eel",
-                        "access_rules": ["stoneflynymph"],
-                        "visibility_rules": ["fishsanity_timed"],
+                        "access_rules": [
+                            "stoneflynymph"
+                        ],
+                        "visibility_rules": [
+                            "fishsanity_timed"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Amber Salamander",
-                        "access_rules": ["bruteleech"],
-                        "visibility_rules": ["fishsanity_timed"],
+                        "access_rules": [
+                            "bruteleech"
+                        ],
+                        "visibility_rules": [
+                            "fishsanity_timed"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Thunderscale",
-                        "access_rules": ["stoneflynymph"],
-                        "visibility_rules": ["fishsanity_big"],
+                        "access_rules": [
+                            "stoneflynymph"
+                        ],
+                        "visibility_rules": [
+                            "fishsanity_big"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "The Dravanian Forelands",
-                        "x": 1419,
-                        "y": 2390,
-                        "size": 6
+                        "x": 1454,
+                        "y": 219,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -1204,52 +1373,73 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "5fshlevels:55"
+                ],
+                "visibility_rules": [
+                    "levelcap:55, fishsanity_normal"
                 ],
                 "sections": [
                     {
                         "name": "Lava Crab",
-                        "access_rules": ["metalspinner", "magmaworm"],
+                        "access_rules": [
+                            "metalspinner",
+                            "magmaworm"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Granite Crab",
-                        "access_rules": ["magmaworm", "metalspinner"],
+                        "access_rules": [
+                            "magmaworm",
+                            "metalspinner"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Cindersmith",
-                        "access_rules": ["magmaworm"],
+                        "access_rules": [
+                            "magmaworm"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Cometoise",
-                        "access_rules": ["magmaworm", "metalspinner"],
+                        "access_rules": [
+                            "magmaworm",
+                            "metalspinner"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Oven Catfish",
-                        "access_rules": ["magmaworm"],
+                        "access_rules": [
+                            "magmaworm"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Meteortoise",
-                        "access_rules": ["magmaworm"],
-                        "visibility_rules": ["fishsanity_big"],
+                        "access_rules": [
+                            "magmaworm"
+                        ],
+                        "visibility_rules": [
+                            "fishsanity_big"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "The Dravanian Forelands",
-                        "x": 1974,
-                        "y": 1475,
-                        "size": 6
+                        "x": 574,
+                        "y": 577,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -1259,54 +1449,80 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "5fshlevels:57"
+                ],
+                "visibility_rules": [
+                    "levelcap:57, fishsanity_normal"
                 ],
                 "sections": [
                     {
                         "name": "Lava Crab",
-                        "access_rules": ["metalspinner", "magmaworm"],
+                        "access_rules": [
+                            "metalspinner",
+                            "magmaworm"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Granite Crab",
-                        "access_rules": ["magmaworm", "metalspinner"],
+                        "access_rules": [
+                            "magmaworm",
+                            "metalspinner"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Aithons Colt",
-                        "access_rules": ["magmaworm"],
+                        "access_rules": [
+                            "magmaworm"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Cindersmith",
-                        "access_rules": ["magmaworm"],
+                        "access_rules": [
+                            "magmaworm"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Magma Louse",
-                        "access_rules": ["magmaworm"],
-                        "visibility_rules": ["fishsanity_timed"],
+                        "access_rules": [
+                            "magmaworm"
+                        ],
+                        "visibility_rules": [
+                            "fishsanity_timed"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Cometoise",
-                        "access_rules": ["magmaworm", "metalspinner"],
+                        "access_rules": [
+                            "magmaworm",
+                            "metalspinner"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Riddle",
-                        "access_rules": ["magmaworm"],
-                        "visibility_rules": ["fishsanity_big"],
+                        "access_rules": [
+                            "magmaworm"
+                        ],
+                        "visibility_rules": [
+                            "fishsanity_big"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Hoplite",
-                        "access_rules": ["metalspinner"],
+                        "access_rules": [
+                            "metalspinner"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -1314,9 +1530,10 @@
                 "map_locations": [
                     {
                         "map": "The Dravanian Forelands",
-                        "x": 1502,
-                        "y": 1804,
-                        "size": 6
+                        "x": 847,
+                        "y": 463,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -1326,52 +1543,71 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "5fshlevels:56"
+                ],
+                "visibility_rules": [
+                    "levelcap:56, fishsanity_normal"
                 ],
                 "sections": [
                     {
                         "name": "Granite Crab",
-                        "access_rules": ["magmaworm", "metalspinner"],
+                        "access_rules": [
+                            "magmaworm",
+                            "metalspinner"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Aithons Colt",
-                        "access_rules": ["magmaworm"],
+                        "access_rules": [
+                            "magmaworm"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Magma Tree",
-                        "access_rules": ["magmaworm"],
+                        "access_rules": [
+                            "magmaworm"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Cindersmith",
-                        "access_rules": ["magmaworm"],
+                        "access_rules": [
+                            "magmaworm"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Black Magefish",
-                        "access_rules": ["magmaworm"],
+                        "access_rules": [
+                            "magmaworm"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Hraesvelgrs Tear",
-                        "access_rules": ["magmaworm"],
-                        "visibility_rules": ["fishsanity_big"],
+                        "access_rules": [
+                            "magmaworm"
+                        ],
+                        "visibility_rules": [
+                            "fishsanity_big"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "The Dravanian Forelands",
-                        "x": 159,
-                        "y": 1233,
-                        "size": 6
+                        "x": 414,
+                        "y": 307,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -1381,64 +1617,94 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "5fshlevels:60"
+                ],
+                "visibility_rules": [
+                    "levelcap:60, fishsanity_normal"
                 ],
                 "sections": [
                     {
                         "name": "Granite Crab",
-                        "access_rules": ["magmaworm", "metalspinner"],
+                        "access_rules": [
+                            "magmaworm",
+                            "metalspinner"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Magma Tree",
-                        "access_rules": ["magmaworm"],
+                        "access_rules": [
+                            "magmaworm"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Cometoise",
-                        "access_rules": ["magmaworm", "metalspinner"],
+                        "access_rules": [
+                            "magmaworm",
+                            "metalspinner"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Fossiltongue",
-                        "access_rules": ["magmaworm"],
+                        "access_rules": [
+                            "magmaworm"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Lavalord",
-                        "access_rules": ["metalspinner"],
-                        "visibility_rules": ["fishsanity_timed"],
+                        "access_rules": [
+                            "metalspinner"
+                        ],
+                        "visibility_rules": [
+                            "fishsanity_timed"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Lava Snail",
-                        "access_rules": ["magmaworm"],
-                        "visibility_rules": ["fishsanity_timed"],
+                        "access_rules": [
+                            "magmaworm"
+                        ],
+                        "visibility_rules": [
+                            "fishsanity_timed"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "The Lord of Lords",
-                        "access_rules": ["metalspinner"],
-                        "visibility_rules": ["fishsanity_big"],
+                        "access_rules": [
+                            "metalspinner"
+                        ],
+                        "visibility_rules": [
+                            "fishsanity_big"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Problematicus",
-                        "access_rules": ["metalspinner"],
-                        "visibility_rules": ["fishsanity_big"],
+                        "access_rules": [
+                            "metalspinner"
+                        ],
+                        "visibility_rules": [
+                            "fishsanity_big"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "The Dravanian Forelands",
-                        "x": 177,
-                        "y": 685,
-                        "size": 6
+                        "x": 329,
+                        "y": 214,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             }
