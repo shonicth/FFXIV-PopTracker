@@ -14,7 +14,10 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "$leveling:60"
+                ],
+                "visibility_rules": [
+                    "level_cap:60, duty_difficulty_normal, $duty_visibility|Sohr Khai"
                 ],
                 "sections": [
                     {
@@ -26,55 +29,55 @@
                     {
                         "name": "Sohr Khai 2",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:1"],
                         "item_count": 1
                     },
                     {
                         "name": "Sohr Khai 3",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:2"],
                         "item_count": 1
                     },
                     {
                         "name": "Sohr Khai 4",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:3"],
                         "item_count": 1
                     },
                     {
                         "name": "Sohr Khai 5",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:4"],
                         "item_count": 1
                     },
                     {
                         "name": "Sohr Khai 6",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:5"],
                         "item_count": 1
                     },
                     {
                         "name": "Sohr Khai 7",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:6"],
                         "item_count": 1
                     },
                     {
                         "name": "Sohr Khai 8",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:7"],
                         "item_count": 1
                     },
                     {
                         "name": "Sohr Khai 9",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:8"],
                         "item_count": 1
                     },
                     {
                         "name": "Sohr Khai 10",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:9"],
                         "item_count": 1
                     }
                 ],
@@ -93,7 +96,10 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "$leveling:60"
+                ],
+                "visibility_rules": [
+                    "level_cap:60, duty_difficulty_normal, $duty_visibility|Sohm Al (Hard)"
                 ],
                 "sections": [
                     {
@@ -105,55 +111,55 @@
                     {
                         "name": "Sohm Al (Hard) 2",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:1"],
                         "item_count": 1
                     },
                     {
                         "name": "Sohm Al (Hard) 3",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:2"],
                         "item_count": 1
                     },
                     {
                         "name": "Sohm Al (Hard) 4",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:3"],
                         "item_count": 1
                     },
                     {
                         "name": "Sohm Al (Hard) 5",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:4"],
                         "item_count": 1
                     },
                     {
                         "name": "Sohm Al (Hard) 6",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:5"],
                         "item_count": 1
                     },
                     {
                         "name": "Sohm Al (Hard) 7",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:6"],
                         "item_count": 1
                     },
                     {
                         "name": "Sohm Al (Hard) 8",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:7"],
                         "item_count": 1
                     },
                     {
                         "name": "Sohm Al (Hard) 9",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:8"],
                         "item_count": 1
                     },
                     {
                         "name": "Sohm Al (Hard) 10",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:9"],
                         "item_count": 1
                     }
                 ],
@@ -172,67 +178,90 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "$leveling:54"
+                ],
+                "visibility_rules": [
+                    "$fatesanity_disabled, level_cap:54"
                 ],
                 "sections": [
                     {
                         "name": "FATE #1",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "fates_per_zone:1"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #2",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "fates_per_zone:2"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #3",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "fates_per_zone:3"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #4",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "fates_per_zone:4"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #5",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "fates_per_zone:5"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #6",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "fates_per_zone:6"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #7",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "fates_per_zone:7"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #8",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "fates_per_zone:8"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #9",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "fates_per_zone:9"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #10",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "fates_per_zone:10"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -256,8 +285,12 @@
                 "sections": [
                     {
                         "name": "Aevis Has Left the Building (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "$leveling:54"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:54"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -281,8 +314,12 @@
                 "sections": [
                     {
                         "name": "Aint Misbehaving (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "$leveling:54"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:54"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -306,8 +343,12 @@
                 "sections": [
                     {
                         "name": "Asah I Came I Conquered (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "$leveling:54"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:54"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -331,8 +372,12 @@
                 "sections": [
                     {
                         "name": "Corporal Pomishment (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "$leveling:54"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:54"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -356,8 +401,12 @@
                 "sections": [
                     {
                         "name": "End of the Rainbow (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "$leveling:54"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:54"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -381,8 +430,12 @@
                 "sections": [
                     {
                         "name": "Glycon Air (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "$leveling:54"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:54"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -406,8 +459,12 @@
                 "sections": [
                     {
                         "name": "How to Cane Your Dragon (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "$leveling:54"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:54"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -431,8 +488,12 @@
                 "sections": [
                     {
                         "name": "Its the Moogle Reinvented (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "$leveling:54"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:54"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -456,8 +517,12 @@
                 "sections": [
                     {
                         "name": "Mogicide (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "$leveling:54"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:54"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -481,8 +546,12 @@
                 "sections": [
                     {
                         "name": "Say it Tulihand (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "$leveling:54"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:54"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -506,8 +575,12 @@
                 "sections": [
                     {
                         "name": "Sprite Club (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "$leveling:54"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:54"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -531,8 +604,12 @@
                 "sections": [
                     {
                         "name": "Supper Time (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "$leveling:54"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:54"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -556,8 +633,12 @@
                 "sections": [
                     {
                         "name": "The Nuts (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "$leveling:54"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:54"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -581,8 +662,12 @@
                 "sections": [
                     {
                         "name": "Vouivre Believre (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "$leveling:54"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:54"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -606,8 +691,12 @@
                 "sections": [
                     {
                         "name": "Waugyl Waugyl Waugyl (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "$leveling:54"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:54"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -631,8 +720,12 @@
                 "sections": [
                     {
                         "name": "Wave Good-bye (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "$leveling:54"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:54"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -656,8 +749,12 @@
                 "sections": [
                     {
                         "name": "Whole Food (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "$leveling:54"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:54"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -681,8 +778,12 @@
                 "sections": [
                     {
                         "name": "Coin Toss (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "$leveling:55"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:55"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -706,8 +807,12 @@
                 "sections": [
                     {
                         "name": "Darkscale Descendeth (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "$leveling:55"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:55"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -731,8 +836,12 @@
                 "sections": [
                     {
                         "name": "Darkscale Devoureth (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "$leveling:55"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:55"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -756,8 +865,12 @@
                 "sections": [
                     {
                         "name": "Darkscale Disappeareth (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "$leveling:55"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:55"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -781,8 +894,12 @@
                 "sections": [
                     {
                         "name": "From Dusk Till Gone (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "$leveling:55"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:55"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -806,8 +923,12 @@
                 "sections": [
                     {
                         "name": "Infamous (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "$leveling:55"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:55"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -831,8 +952,12 @@
                 "sections": [
                     {
                         "name": "Rastaban Vibration (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "$leveling:55"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:55"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -856,8 +981,12 @@
                 "sections": [
                     {
                         "name": "Treehouse of the Spirits (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "$leveling:55"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:55"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -881,8 +1010,12 @@
                 "sections": [
                     {
                         "name": "Waiting for Fjalar to Stall (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "$leveling:55"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:55"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -906,8 +1039,12 @@
                 "sections": [
                     {
                         "name": "As the World Burns (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "$leveling:56"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:56"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -931,8 +1068,12 @@
                 "sections": [
                     {
                         "name": "Dont Know Wyvern (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "$leveling:56"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:56"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -956,8 +1097,12 @@
                 "sections": [
                     {
                         "name": "Vedrfolnir Devoteth (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "$leveling:56"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:56"
+                        ],
                         "item_count": 1
                     }
                 ],
