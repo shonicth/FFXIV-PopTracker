@@ -19,143 +19,232 @@
                 "sections": [
                     {
                         "name": "Halatali",
-                        "access_rules": ["$leveling:20"],
-                        "visibility_rules": ["include_dungeons, max_party_size_4, duty_difficulty_normal, $duty_visibility|Halatali"],
+                        "access_rules": [
+                            "$leveling:20"
+                        ],
+                        "visibility_rules": [
+                            "include_dungeons, max_party_size_4, duty_difficulty_normal, $duty_visibility|Halatali"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Halatali (Hard)",
-                        "access_rules": ["$leveling:50"],
-                        "visibility_rules": ["include_dungeons, max_party_size_4, duty_difficulty_normal, $duty_visibility|Halatali (Hard), level_cap:50"],
+                        "access_rules": [
+                            "$leveling:50"
+                        ],
+                        "visibility_rules": [
+                            "include_dungeons, max_party_size_4, duty_difficulty_normal, $duty_visibility|Halatali (Hard), level_cap:50"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "A Relic Reborn The Hydra",
-                        "access_rules": ["$leveling:50"],
-                        "visibility_rules": ["max_party_size_8, duty_difficulty_normal, include_ARelicRebornTheHydra, level_cap:50"],
+                        "access_rules": [
+                            "$leveling:50"
+                        ],
+                        "visibility_rules": [
+                            "max_party_size_8, duty_difficulty_normal, include_ARelicRebornTheHydra, level_cap:50"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "The Dragons Neck",
-                        "access_rules": ["$leveling:50"],
-                        "visibility_rules": ["max_party_size_8, duty_difficulty_normal, include_TheDragonsNeck, level_cap:50"],
+                        "access_rules": [
+                            "$leveling:50"
+                        ],
+                        "visibility_rules": [
+                            "max_party_size_8, duty_difficulty_normal, include_TheDragonsNeck, level_cap:50"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Halatali 2",
-                        "access_rules": ["$leveling:20"],
-                        "visibility_rules": ["include_dungeons, max_party_size_4, duty_difficulty_normal, $duty_visibility|Halatali, extra_dungeon_checks:1"],
+                        "access_rules": [
+                            "$leveling:20"
+                        ],
+                        "visibility_rules": [
+                            "include_dungeons, max_party_size_4, duty_difficulty_normal, $duty_visibility|Halatali, extra_dungeon_checks:1"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Halatali 3",
-                        "access_rules": ["$leveling:20"],
-                        "visibility_rules": ["include_dungeons, max_party_size_4, duty_difficulty_normal, $duty_visibility|Halatali, extra_dungeon_checks:2"],
+                        "access_rules": [
+                            "$leveling:20"
+                        ],
+                        "visibility_rules": [
+                            "include_dungeons, max_party_size_4, duty_difficulty_normal, $duty_visibility|Halatali, extra_dungeon_checks:2"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Halatali 4",
-                        "access_rules": ["$leveling:20"],
-                        "visibility_rules": ["include_dungeons, max_party_size_4, duty_difficulty_normal, $duty_visibility|Halatali, extra_dungeon_checks:3"],
+                        "access_rules": [
+                            "$leveling:20"
+                        ],
+                        "visibility_rules": [
+                            "include_dungeons, max_party_size_4, duty_difficulty_normal, $duty_visibility|Halatali, extra_dungeon_checks:3"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Halatali 5",
-                        "access_rules": ["$leveling:20"],
-                        "visibility_rules": ["include_dungeons, max_party_size_4, duty_difficulty_normal, $duty_visibility|Halatali, extra_dungeon_checks:4"],
+                        "access_rules": [
+                            "$leveling:20"
+                        ],
+                        "visibility_rules": [
+                            "include_dungeons, max_party_size_4, duty_difficulty_normal, $duty_visibility|Halatali, extra_dungeon_checks:4"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Halatali 6",
-                        "access_rules": ["$leveling:20"],
-                        "visibility_rules": ["include_dungeons, max_party_size_4, duty_difficulty_normal, $duty_visibility|Halatali, extra_dungeon_checks:5"],
+                        "access_rules": [
+                            "$leveling:20"
+                        ],
+                        "visibility_rules": [
+                            "include_dungeons, max_party_size_4, duty_difficulty_normal, $duty_visibility|Halatali, extra_dungeon_checks:5"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Halatali 7",
-                        "access_rules": ["$leveling:20"],
-                        "visibility_rules": ["include_dungeons, max_party_size_4, duty_difficulty_normal, $duty_visibility|Halatali, extra_dungeon_checks:6"],
+                        "access_rules": [
+                            "$leveling:20"
+                        ],
+                        "visibility_rules": [
+                            "include_dungeons, max_party_size_4, duty_difficulty_normal, $duty_visibility|Halatali, extra_dungeon_checks:6"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Halatali 8",
-                        "access_rules": ["$leveling:20"],
-                        "visibility_rules": ["include_dungeons, max_party_size_4, duty_difficulty_normal, $duty_visibility|Halatali, extra_dungeon_checks:7"],
+                        "access_rules": [
+                            "$leveling:20"
+                        ],
+                        "visibility_rules": [
+                            "include_dungeons, max_party_size_4, duty_difficulty_normal, $duty_visibility|Halatali, extra_dungeon_checks:7"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Halatali 9",
-                        "access_rules": ["$leveling:20"],
-                        "visibility_rules": ["include_dungeons, max_party_size_4, duty_difficulty_normal, $duty_visibility|Halatali, extra_dungeon_checks:8"],
+                        "access_rules": [
+                            "$leveling:20"
+                        ],
+                        "visibility_rules": [
+                            "include_dungeons, max_party_size_4, duty_difficulty_normal, $duty_visibility|Halatali, extra_dungeon_checks:8"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Halatali 10",
-                        "access_rules": ["$leveling:20"],
-                        "visibility_rules": ["include_dungeons, max_party_size_4, duty_difficulty_normal, $duty_visibility|Halatali, extra_dungeon_checks:9"],
+                        "access_rules": [
+                            "$leveling:20"
+                        ],
+                        "visibility_rules": [
+                            "include_dungeons, max_party_size_4, duty_difficulty_normal, $duty_visibility|Halatali, extra_dungeon_checks:9"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Halatali (Hard) 2",
-                        "access_rules": ["$leveling:50"],
-                        "visibility_rules": ["include_dungeons, max_party_size_4, duty_difficulty_normal, $duty_visibility|Halatali (Hard), level_cap:50, extra_dungeon_checks:1"],
+                        "access_rules": [
+                            "$leveling:50"
+                        ],
+                        "visibility_rules": [
+                            "include_dungeons, max_party_size_4, duty_difficulty_normal, $duty_visibility|Halatali (Hard), level_cap:50, extra_dungeon_checks:1"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Halatali (Hard) 3",
-                        "access_rules": ["$leveling:50"],
-                        "visibility_rules": ["include_dungeons, max_party_size_4, duty_difficulty_normal, $duty_visibility|Halatali (Hard), level_cap:50, extra_dungeon_checks:2"],
+                        "access_rules": [
+                            "$leveling:50"
+                        ],
+                        "visibility_rules": [
+                            "include_dungeons, max_party_size_4, duty_difficulty_normal, $duty_visibility|Halatali (Hard), level_cap:50, extra_dungeon_checks:2"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Halatali (Hard) 4",
-                        "access_rules": ["$leveling:50"],
-                        "visibility_rules": ["include_dungeons, max_party_size_4, duty_difficulty_normal, $duty_visibility|Halatali (Hard), level_cap:50, extra_dungeon_checks:3"],
+                        "access_rules": [
+                            "$leveling:50"
+                        ],
+                        "visibility_rules": [
+                            "include_dungeons, max_party_size_4, duty_difficulty_normal, $duty_visibility|Halatali (Hard), level_cap:50, extra_dungeon_checks:3"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Halatali (Hard) 5",
-                        "access_rules": ["$leveling:50"],
-                        "visibility_rules": ["include_dungeons, max_party_size_4, duty_difficulty_normal, $duty_visibility|Halatali (Hard), level_cap:50, extra_dungeon_checks:4"],
+                        "access_rules": [
+                            "$leveling:50"
+                        ],
+                        "visibility_rules": [
+                            "include_dungeons, max_party_size_4, duty_difficulty_normal, $duty_visibility|Halatali (Hard), level_cap:50, extra_dungeon_checks:4"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Halatali (Hard) 6",
-                        "access_rules": ["$leveling:50"],
-                        "visibility_rules": ["include_dungeons, max_party_size_4, duty_difficulty_normal, $duty_visibility|Halatali (Hard), level_cap:50, extra_dungeon_checks:5"],
+                        "access_rules": [
+                            "$leveling:50"
+                        ],
+                        "visibility_rules": [
+                            "include_dungeons, max_party_size_4, duty_difficulty_normal, $duty_visibility|Halatali (Hard), level_cap:50, extra_dungeon_checks:5"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Halatali (Hard) 7",
-                        "access_rules": ["$leveling:50"],
-                        "visibility_rules": ["include_dungeons, max_party_size_4, duty_difficulty_normal, $duty_visibility|Halatali (Hard), level_cap:50, extra_dungeon_checks:6"],
+                        "access_rules": [
+                            "$leveling:50"
+                        ],
+                        "visibility_rules": [
+                            "include_dungeons, max_party_size_4, duty_difficulty_normal, $duty_visibility|Halatali (Hard), level_cap:50, extra_dungeon_checks:6"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Halatali (Hard) 8",
-                        "access_rules": ["$leveling:50"],
-                        "visibility_rules": ["include_dungeons, max_party_size_4, duty_difficulty_normal, $duty_visibility|Halatali (Hard), level_cap:50, extra_dungeon_checks:7"],
+                        "access_rules": [
+                            "$leveling:50"
+                        ],
+                        "visibility_rules": [
+                            "include_dungeons, max_party_size_4, duty_difficulty_normal, $duty_visibility|Halatali (Hard), level_cap:50, extra_dungeon_checks:7"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Halatali (Hard) 9",
-                        "access_rules": ["$leveling:50"],
-                        "visibility_rules": ["include_dungeons, max_party_size_4, duty_difficulty_normal, $duty_visibility|Halatali (Hard), level_cap:50, extra_dungeon_checks:8"],
+                        "access_rules": [
+                            "$leveling:50"
+                        ],
+                        "visibility_rules": [
+                            "include_dungeons, max_party_size_4, duty_difficulty_normal, $duty_visibility|Halatali (Hard), level_cap:50, extra_dungeon_checks:8"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Halatali (Hard) 10",
-                        "access_rules": ["$leveling:50"],
-                        "visibility_rules": ["include_dungeons, max_party_size_4, duty_difficulty_normal, $duty_visibility|Halatali (Hard), level_cap:50, extra_dungeon_checks:9"],
+                        "access_rules": [
+                            "$leveling:50"
+                        ],
+                        "visibility_rules": [
+                            "include_dungeons, max_party_size_4, duty_difficulty_normal, $duty_visibility|Halatali (Hard), level_cap:50, extra_dungeon_checks:9"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Eastern Thanalan",
-                        "x": 302,
-                        "y": 216,
-                        "size": 6
+                        "x": 678,
+                        "y": 1461,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -167,75 +256,98 @@
                 "access_rules": [
                     "$leveling:15"
                 ],
-                "visibility_rules": ["$fatesanity_disabled"],
+                "visibility_rules": [
+                    "$fatesanity_disabled"
+                ],
                 "sections": [
                     {
                         "name": "FATE #1",
                         "access_rules": [],
-                        "visibility_rules": ["fates_per_zone:1"],
+                        "visibility_rules": [
+                            "fates_per_zone:1"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #2",
                         "access_rules": [],
-                        "visibility_rules": ["fates_per_zone:2"],
+                        "visibility_rules": [
+                            "fates_per_zone:2"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #3",
                         "access_rules": [],
-                        "visibility_rules": ["fates_per_zone:3"],
+                        "visibility_rules": [
+                            "fates_per_zone:3"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #4",
                         "access_rules": [],
-                        "visibility_rules": ["fates_per_zone:4"],
+                        "visibility_rules": [
+                            "fates_per_zone:4"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #5",
                         "access_rules": [],
-                        "visibility_rules": ["fates_per_zone:5"],
+                        "visibility_rules": [
+                            "fates_per_zone:5"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #6",
                         "access_rules": [],
-                        "visibility_rules": ["fates_per_zone:6"],
+                        "visibility_rules": [
+                            "fates_per_zone:6"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #7",
                         "access_rules": [],
-                        "visibility_rules": ["fates_per_zone:7"],
+                        "visibility_rules": [
+                            "fates_per_zone:7"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #8",
                         "access_rules": [],
-                        "visibility_rules": ["fates_per_zone:8"],
+                        "visibility_rules": [
+                            "fates_per_zone:8"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #9",
                         "access_rules": [],
-                        "visibility_rules": ["fates_per_zone:9"],
+                        "visibility_rules": [
+                            "fates_per_zone:9"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #10",
                         "access_rules": [],
-                        "visibility_rules": ["fates_per_zone:10"],
+                        "visibility_rules": [
+                            "fates_per_zone:10"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Eastern Thanalan",
-                        "x": 500,
-                        "y": 1742,
-                        "size": 6
+                        "x": 711,
+                        "y": 112,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -250,17 +362,22 @@
                 "sections": [
                     {
                         "name": "License to Quill (FATE)",
-                        "access_rules": ["$leveling:15"],
-                        "visibility_rules": ["fatesanity"],
+                        "access_rules": [
+                            "$leveling:15"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Eastern Thanalan",
-                        "x": 1727,
-                        "y": 534,
-                        "size": 6
+                        "x": 571,
+                        "y": 1321,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -275,17 +392,22 @@
                 "sections": [
                     {
                         "name": "Almost Paradise (FATE)",
-                        "access_rules": ["$leveling:17"],
-                        "visibility_rules": ["fatesanity"],
+                        "access_rules": [
+                            "$leveling:17"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Eastern Thanalan",
-                        "x": 1692,
-                        "y": 434,
-                        "size": 6
+                        "x": 669,
+                        "y": 988,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -300,17 +422,22 @@
                 "sections": [
                     {
                         "name": "Bazaar Blood Triangle (FATE)",
-                        "access_rules": ["$leveling:17"],
-                        "visibility_rules": ["fatesanity"],
+                        "access_rules": [
+                            "$leveling:17"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Eastern Thanalan",
-                        "x": 927,
-                        "y": 1459,
-                        "size": 6
+                        "x": 496,
+                        "y": 792,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -325,17 +452,22 @@
                 "sections": [
                     {
                         "name": "Deep in the Heart of Sagolii (FATE)",
-                        "access_rules": ["$leveling:17"],
-                        "visibility_rules": ["fatesanity"],
+                        "access_rules": [
+                            "$leveling:17"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Eastern Thanalan",
-                        "x": 2237,
-                        "y": 1055,
-                        "size": 6
+                        "x": 854,
+                        "y": 1167,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -350,17 +482,22 @@
                 "sections": [
                     {
                         "name": "Grim Undertakings (FATE)",
-                        "access_rules": ["$leveling:17"],
-                        "visibility_rules": ["fatesanity"],
+                        "access_rules": [
+                            "$leveling:17"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Eastern Thanalan",
-                        "x": 116,
-                        "y": 1884,
-                        "size": 6
+                        "x": 670,
+                        "y": 824,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -375,17 +512,22 @@
                 "sections": [
                     {
                         "name": "Simple Minds (FATE)",
-                        "access_rules": ["$leveling:17"],
-                        "visibility_rules": ["fatesanity"],
+                        "access_rules": [
+                            "$leveling:17"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Eastern Thanalan",
-                        "x": 671,
-                        "y": 116,
-                        "size": 6
+                        "x": 554,
+                        "y": 907,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -400,17 +542,22 @@
                 "sections": [
                     {
                         "name": "Bad Camp (FATE)",
-                        "access_rules": ["$leveling:18"],
-                        "visibility_rules": ["fatesanity"],
+                        "access_rules": [
+                            "$leveling:18"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Eastern Thanalan",
-                        "x": 2082,
-                        "y": 2151,
-                        "size": 6
+                        "x": 938,
+                        "y": 1344,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -425,17 +572,22 @@
                 "sections": [
                     {
                         "name": "Westward Bound (FATE)",
-                        "access_rules": ["$leveling:18"],
-                        "visibility_rules": ["fatesanity"],
+                        "access_rules": [
+                            "$leveling:18"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Eastern Thanalan",
-                        "x": 41,
-                        "y": 1874,
-                        "size": 6
+                        "x": 779,
+                        "y": 1294,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -450,17 +602,22 @@
                 "sections": [
                     {
                         "name": "Men Who See Goats (FATE)",
-                        "access_rules": ["$leveling:19"],
-                        "visibility_rules": ["fatesanity"],
+                        "access_rules": [
+                            "$leveling:19"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Eastern Thanalan",
-                        "x": 1658,
-                        "y": 496,
-                        "size": 6
+                        "x": 809,
+                        "y": 1453,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -475,17 +632,22 @@
                 "sections": [
                     {
                         "name": "Attack on Highbridge Act I (FATE)",
-                        "access_rules": ["$leveling:26"],
-                        "visibility_rules": ["fatesanity"],
+                        "access_rules": [
+                            "$leveling:26"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Eastern Thanalan",
-                        "x": 658,
-                        "y": 1034,
-                        "size": 6
+                        "x": 985,
+                        "y": 985,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -500,17 +662,22 @@
                 "sections": [
                     {
                         "name": "Attack on Highbridge Act II (FATE)",
-                        "access_rules": ["$leveling:26"],
-                        "visibility_rules": ["fatesanity"],
+                        "access_rules": [
+                            "$leveling:26"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Eastern Thanalan",
-                        "x": 1280,
-                        "y": 312,
-                        "size": 6
+                        "x": 1034,
+                        "y": 988,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -525,17 +692,22 @@
                 "sections": [
                     {
                         "name": "Attack on Highbridge Act III (FATE)",
-                        "access_rules": ["$leveling:26"],
-                        "visibility_rules": ["fatesanity"],
+                        "access_rules": [
+                            "$leveling:26"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Eastern Thanalan",
-                        "x": 1313,
-                        "y": 574,
-                        "size": 6
+                        "x": 1118,
+                        "y": 1143,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -550,17 +722,22 @@
                 "sections": [
                     {
                         "name": "Attack on Highbridge Denouement (FATE)",
-                        "access_rules": ["$leveling:26"],
-                        "visibility_rules": ["fatesanity"],
+                        "access_rules": [
+                            "$leveling:26"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Eastern Thanalan",
-                        "x": 228,
-                        "y": 2209,
-                        "size": 6
+                        "x": 1162,
+                        "y": 1143,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -575,17 +752,22 @@
                 "sections": [
                     {
                         "name": "Attack on Highbridge Prelude (FATE)",
-                        "access_rules": ["$leveling:26"],
-                        "visibility_rules": ["fatesanity"],
+                        "access_rules": [
+                            "$leveling:26"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Eastern Thanalan",
-                        "x": 1054,
-                        "y": 69,
-                        "size": 6
+                        "x": 1013,
+                        "y": 943,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -600,17 +782,22 @@
                 "sections": [
                     {
                         "name": "Desert Rose (FATE)",
-                        "access_rules": ["$leveling:26"],
-                        "visibility_rules": ["fatesanity"],
+                        "access_rules": [
+                            "$leveling:26"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Eastern Thanalan",
-                        "x": 367,
-                        "y": 1291,
-                        "size": 6
+                        "x": 1336,
+                        "y": 807,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -625,17 +812,22 @@
                 "sections": [
                     {
                         "name": "Manifest Destiny (FATE)",
-                        "access_rules": ["$leveling:27"],
-                        "visibility_rules": ["fatesanity"],
+                        "access_rules": [
+                            "$leveling:27"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Eastern Thanalan",
-                        "x": 295,
-                        "y": 1397,
-                        "size": 6
+                        "x": 1213,
+                        "y": 980,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -650,17 +842,22 @@
                 "sections": [
                     {
                         "name": "Spare the Hair (FATE)",
-                        "access_rules": ["$leveling:26"],
-                        "visibility_rules": ["fatesanity"],
+                        "access_rules": [
+                            "$leveling:26"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Eastern Thanalan",
-                        "x": 2242,
-                        "y": 1844,
-                        "size": 6
+                        "x": 1277,
+                        "y": 1034,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -675,17 +872,22 @@
                 "sections": [
                     {
                         "name": "A Man Rides Through (FATE)",
-                        "access_rules": ["$leveling:40"],
-                        "visibility_rules": ["fatesanity, level_cap:40"],
+                        "access_rules": [
+                            "$leveling:40"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:40"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Eastern Thanalan",
-                        "x": 2480,
-                        "y": 941,
-                        "size": 6
+                        "x": 1403,
+                        "y": 1132,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -700,17 +902,22 @@
                 "sections": [
                     {
                         "name": "Bad Hair Day (FATE)",
-                        "access_rules": ["$leveling:42"],
-                        "visibility_rules": ["fatesanity, level_cap:42"],
+                        "access_rules": [
+                            "$leveling:42"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:42"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Eastern Thanalan",
-                        "x": 1298,
-                        "y": 1728,
-                        "size": 6
+                        "x": 1330,
+                        "y": 1162,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -725,17 +932,22 @@
                 "sections": [
                     {
                         "name": "Quartz Coupling (FATE)",
-                        "access_rules": ["$leveling:42"],
-                        "visibility_rules": ["fatesanity, level_cap:42"],
+                        "access_rules": [
+                            "$leveling:42"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:42"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Eastern Thanalan",
-                        "x": 108,
-                        "y": 252,
-                        "size": 6
+                        "x": 1260,
+                        "y": 1195,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -750,17 +962,22 @@
                 "sections": [
                     {
                         "name": "The Big Bagoly Theory (FATE)",
-                        "access_rules": ["$leveling:42"],
-                        "visibility_rules": ["fatesanity, level_cap:42"],
+                        "access_rules": [
+                            "$leveling:42"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:42"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Eastern Thanalan",
-                        "x": 222,
-                        "y": 2128,
-                        "size": 6
+                        "x": 1469,
+                        "y": 1232,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -772,57 +989,76 @@
                 "access_rules": [
                     "5fshlevels:15"
                 ],
-                "visibility_rules": ["fishsanity_normal"],
+                "visibility_rules": [
+                    "fishsanity_normal"
+                ],
                 "sections": [
                     {
                         "name": "Dusk Goby",
-                        "access_rules": ["crayfishball"],
+                        "access_rules": [
+                            "crayfishball"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Mudskipper",
-                        "access_rules": ["midgebasket"],
+                        "access_rules": [
+                            "midgebasket"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Faerie Bass",
-                        "access_rules": ["midgebasket"],
+                        "access_rules": [
+                            "midgebasket"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Acorn Snail",
-                        "access_rules": ["midgebasket"],
+                        "access_rules": [
+                            "midgebasket"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Mudcrab",
-                        "access_rules": ["honeyworm"],
+                        "access_rules": [
+                            "honeyworm"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Bone Cleaner",
-                        "access_rules": ["syrphidbasket"],
+                        "access_rules": [
+                            "syrphidbasket"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Marrow Sucker",
-                        "access_rules": ["syrphidbasket"],
-                        "visibility_rules": ["fishsanity_big"],
+                        "access_rules": [
+                            "syrphidbasket"
+                        ],
+                        "visibility_rules": [
+                            "fishsanity_big"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Eastern Thanalan",
-                        "x": 2114,
-                        "y": 452,
-                        "size": 6
+                        "x": 624,
+                        "y": 980,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -834,57 +1070,76 @@
                 "access_rules": [
                     "5fshlevels:15"
                 ],
-                "visibility_rules": ["fishsanity_normal"],
+                "visibility_rules": [
+                    "fishsanity_normal"
+                ],
                 "sections": [
                     {
                         "name": "Dusk Goby",
-                        "access_rules": ["crayfishball"],
+                        "access_rules": [
+                            "crayfishball"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Mudskipper",
-                        "access_rules": ["midgebasket"],
+                        "access_rules": [
+                            "midgebasket"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Faerie Bass",
-                        "access_rules": ["midgebasket"],
+                        "access_rules": [
+                            "midgebasket"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Acorn Snail",
-                        "access_rules": ["midgebasket"],
+                        "access_rules": [
+                            "midgebasket"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Mudcrab",
-                        "access_rules": ["honeyworm"],
+                        "access_rules": [
+                            "honeyworm"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Bone Cleaner",
-                        "access_rules": ["syrphidbasket"],
+                        "access_rules": [
+                            "syrphidbasket"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Mud Pilgrim",
-                        "access_rules": ["midgebasket"],
-                        "visibility_rules": ["fishsanity_big"],
+                        "access_rules": [
+                            "midgebasket"
+                        ],
+                        "visibility_rules": [
+                            "fishsanity_big"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Eastern Thanalan",
-                        "x": 1880,
-                        "y": 2291,
-                        "size": 6
+                        "x": 790,
+                        "y": 1207,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -896,57 +1151,80 @@
                 "access_rules": [
                     "5fshlevels:30"
                 ],
-                "visibility_rules": ["fishsanity_normal"],
+                "visibility_rules": [
+                    "fishsanity_normal"
+                ],
                 "sections": [
                     {
                         "name": "Warmwater Trout",
-                        "access_rules": ["crowfly"],
+                        "access_rules": [
+                            "crowfly"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Black Eel",
-                        "access_rules": ["butterworm"],
-                        "visibility_rules": ["fishsanity_timed"],
+                        "access_rules": [
+                            "butterworm"
+                        ],
+                        "visibility_rules": [
+                            "fishsanity_timed"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Dark Bass",
                         "access_rules": [],
-                        "visibility_rules": ["crowfly"],
+                        "visibility_rules": [
+                            "crowfly"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Yugram Salmon",
-                        "access_rules": ["bassball"],
+                        "access_rules": [
+                            "bassball"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Mitten Crab",
-                        "access_rules": ["honeyworm"],
+                        "access_rules": [
+                            "honeyworm"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Trader Eel",
-                        "access_rules": ["honeyworm"],
-                        "visibility_rules": ["fishsanity_timed"],
+                        "access_rules": [
+                            "honeyworm"
+                        ],
+                        "visibility_rules": [
+                            "fishsanity_timed"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "The Wardens Wand",
-                        "access_rules": ["honeyworm"],
-                        "visibility_rules": ["fishsanity_big"],
+                        "access_rules": [
+                            "honeyworm"
+                        ],
+                        "visibility_rules": [
+                            "fishsanity_big"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Eastern Thanalan",
-                        "x": 1365,
-                        "y": 629,
-                        "size": 6
+                        "x": 1215,
+                        "y": 1087,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -958,75 +1236,102 @@
                 "access_rules": [
                     "5fshlevels:40"
                 ],
-                "visibility_rules": ["fishsanity_normal, level_cap:40"],
+                "visibility_rules": [
+                    "fishsanity_normal, level_cap:40"
+                ],
                 "sections": [
                     {
                         "name": "Yugram Salmon",
-                        "access_rules": ["bassball"],
+                        "access_rules": [
+                            "bassball"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Bonytongue",
-                        "access_rules": ["streamer"],
+                        "access_rules": [
+                            "streamer"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Discus",
-                        "access_rules": ["honeyworm"],
+                        "access_rules": [
+                            "honeyworm"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Ignus Snail",
-                        "access_rules": ["stemborer"],
+                        "access_rules": [
+                            "stemborer"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Loyal Pleco",
-                        "access_rules": ["stemborer"],
+                        "access_rules": [
+                            "stemborer"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Knifefish",
-                        "access_rules": [ "glowworm"],
+                        "access_rules": [
+                            "glowworm"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Southern Pike",
-                        "access_rules": ["topwaterfrog"],
+                        "access_rules": [
+                            "topwaterfrog"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Sundisc",
-                        "access_rules": ["caddisflylarva"],
-                        "visibility_rules": ["fishsanity_timed"],
+                        "access_rules": [
+                            "caddisflylarva"
+                        ],
+                        "visibility_rules": [
+                            "fishsanity_timed"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Gigantpole",
-                        "access_rules": ["topwaterfrog"],
+                        "access_rules": [
+                            "topwaterfrog"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "The Thousand-year Itch",
-                        "access_rules": ["stemborer"],
-                        "visibility_rules": ["fishsanity_big"],
+                        "access_rules": [
+                            "stemborer"
+                        ],
+                        "visibility_rules": [
+                            "fishsanity_big"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Eastern Thanalan",
-                        "x": 697,
-                        "y": 402,
-                        "size": 6
+                        "x": 1414,
+                        "y": 1195,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             }
