@@ -2,14 +2,32 @@
 
 Very very very early work in progress. Will add as I go.
 
-Current Status(3/24/2026):
+Current Status(3/27/2026):
 
--La Noscea and Black Shroud should be fully mapped and has access logic. La Noscea has full visibility logic implemented and should be fully finished.
+-ARR and HW are basically 100%(I need to finalize a few things with regards to Dravanians and Churning Mist but they will be done by End of Day).
 
--Tomorrow I plan on completing visibility logic on Black Shroud, and hopefully starting on Thanalan.
+-Currently fish will only show if they are in logic. I plan to eventually add all the baits to every fish as a yellow out of logic check, but this will be probably a few months from now.
 
--Fish will ONLY show the bait required for logic. As well, visibility currently has all fish on for fishsanity. I plan to fix this after everything else is finished
+-I need testing for anything with a level cap of up to level 60. Need any and every possible combination, feel free to let me know if anything else wrong, missing, or needs adjusting. I'm very sure there are typos all over the place.
 
--Assets still need to be made. If anyone wants to help me with these, it would be greatly appreciated.
+______________
 
--Mapping has yet to be fully verified, and likewise I am down to move, merge, or unmerge locations. Any and all feedback is appreciated.
+TODO:
+
+-Make a proper readme(lol)
+
+-Start work on Stormblood
+
+-Get maps for ShB onward, and then also start work on them
+
+-Add items for bait etc for the layout
+
+-Clean up the placeholder images
+
+_____________
+
+Far future planned todo:
+
+-Add every bait to every fishing hole and ensure the fish are in the same order as the fishing log in game
+
+-Add images to every location representing what they are
