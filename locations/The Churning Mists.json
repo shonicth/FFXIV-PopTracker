@@ -1126,32 +1126,32 @@
                 "sections": [
                     {
                         "name": "Lamp Marimo",
-                        "access_rules": [],
+                        "access_rules": ["stoneflynymph"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Cloudfish",
-                        "access_rules": [],
+                        "access_rules": ["stoneflynymph"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Kissing Fish",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["bruteleech"],
+                        "visibility_rules": ["fishsanity_timed"],
                         "item_count": 1
                     },
                     {
                         "name": "Noontide Oscar",
-                        "access_rules": [],
+                        "access_rules": ["bruteleech"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Vidofnir",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["bruteleech"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
@@ -1175,43 +1175,43 @@
                 "sections": [
                     {
                         "name": "Cloudfish",
-                        "access_rules": [],
+                        "access_rules": ["stoneflynymph"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Dravanian Squeaker",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["stoneflynymph"],
+                        "visibility_rules": ["fishsanity_timed"],
                         "item_count": 1
                     },
                     {
                         "name": "Hundred Fin",
-                        "access_rules": [],
+                        "access_rules": ["goblinjig"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Weston Bowfin",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["goblinjig"],
+                        "visibility_rules": ["fishsanity_timed"],
                         "item_count": 1
                     },
                     {
                         "name": "Lovers Clam",
-                        "access_rules": [],
+                        "access_rules": ["metalspinner"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Thousand Fin",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["bruteleech"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     },
                     {
                         "name": "Illuminati Mask",
-                        "access_rules": [],
+                        "access_rules": ["metalspinner"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -1236,50 +1236,50 @@
                 "sections": [
                     {
                         "name": "Sky Faerie",
-                        "access_rules": [],
+                        "access_rules": ["metalspinner", "redballoon"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Cloud Rider",
-                        "access_rules": [],
+                        "access_rules": ["redballoon"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Blue Medusa",
-                        "access_rules": [],
+                        "access_rules": ["metalspinner"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Letter Puffer",
-                        "access_rules": [],
+                        "access_rules": ["giantcranefly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Gloaming Coral",
-                        "access_rules": [],
+                        "access_rules": ["redballoon"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Dragons Soul",
-                        "access_rules": [],
+                        "access_rules": ["versatilelure"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Sunsail",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["giantcranefly"],
+                        "visibility_rules": ["fishsanity_timed"],
                         "item_count": 1
                     },
                     {                    
                         "name": "The Soul of the Martyr",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["giantcranefly"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
@@ -1303,50 +1303,50 @@
                 "sections": [
                     {
                         "name": "Sky Faerie",
-                        "access_rules": [],
+                        "access_rules": ["metalspinner", "redballoon"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Cloud Rider",
-                        "access_rules": [],
+                        "access_rules": ["redballoon"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Gobbie Mask",
-                        "access_rules": [],
+                        "access_rules": ["giantcranefly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Star Faerie",
-                        "access_rules": [],
+                        "access_rules": ["giantcranefly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Gloaming Coral",
-                        "access_rules": [],
+                        "access_rules": ["redballoon"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Rudderfish",
-                        "access_rules": [],
+                        "access_rules": ["giantcranefly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Pteranodon",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["giantcranefly"],
+                        "visibility_rules": ["fishsanity_timed"],
                         "item_count": 1
                     },
                     {
                         "name": "Dimorphodon",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["giantcranefly"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
@@ -1370,62 +1370,62 @@
                 "sections": [
                     {
                         "name": "Sky Faerie",
-                        "access_rules": [],
+                        "access_rules": ["metalspinner", "redballoon"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Cloud Rider",
-                        "access_rules": [],
+                        "access_rules": ["redballoon"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Manasail",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["metalspinner"],
+                        "visibility_rules": ["fishsanity_timed"],
                         "item_count": 1
                     },
                     {
                         "name": "Brown Bolo",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["redballoon"],
+                        "visibility_rules": ["fishsanity_timed"],
                         "item_count": 1
                     },
                     {
                         "name": "Rudderfish",
-                        "access_rules": [],
+                        "access_rules": ["giantcranefly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Cobrafish",
-                        "access_rules": [],
+                        "access_rules": ["giantcranefly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Storm Chaser",
-                        "access_rules": [],
+                        "access_rules": ["giantcranefly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Nyctosaur",
-                        "access_rules": [],
+                        "access_rules": ["giantcranefly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Bloodchaser",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["giantcranefly"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     },
                     {
                         "name": "Raimdellopterus",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["giantcranefly"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
@@ -1449,19 +1449,19 @@
                 "sections": [
                     {
                         "name": "Mogpom",
-                        "access_rules": [],
+                        "access_rules": ["versatilelure"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Moggle Mogpom",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["bruteleech"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     },
                     {
                         "name": "Holier-than Mogpom",
-                        "access_rules": [],
+                        "access_rules": ["metalspinner"],
                         "visibility_rules": [],
                         "item_count": 1
                     }

@@ -1721,55 +1721,55 @@
                 "sections": [
                     {
                         "name": "Blueclaw Shrimp",
-                        "access_rules": [],
+                        "access_rules": ["stoneflynymph"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Bullfrog",
-                        "access_rules": [],
+                        "access_rules": ["bladedsteeljig"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Tigerfish",
-                        "access_rules": [],
+                        "access_rules": ["bladedsteeljig"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Hedgemole Cricket",
-                        "access_rules": [],
+                        "access_rules": ["stoneflynymph", "pursewebspider"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Orn Butterfly",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["bruteleech"],
+                        "visibility_rules": ["pursewebspider"],
                         "item_count": 1
                     },
                     {
                         "name": "Yalm Lobster",
-                        "access_rules": [],
+                        "access_rules": ["bladedsteeljig"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Gnomefish",
-                        "access_rules": [],
+                        "access_rules": ["pursewebspider"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Madam Butterfly",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["pursewebspider"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     },
                     {
                         "name": "Dravanian Scallop",
-                        "access_rules": [],
+                        "access_rules": ["metalspinner"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -1794,61 +1794,61 @@
                 "sections": [
                     {
                         "name": "Bullfrog",
-                        "access_rules": [],
+                        "access_rules": ["bladedsteeljig"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Scholar Sculpin",
-                        "access_rules": [],
+                        "access_rules": ["goblinjig", "pursewebspider"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Hedgemole Cricket",
-                        "access_rules": [],
+                        "access_rules": ["stoneflynymph", "pursewebspider"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Sweetfish",
-                        "access_rules": [],
+                        "access_rules": ["bladedsteeljig", "goblinjig"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Philosophers Stone",
-                        "access_rules": [],
+                        "access_rules": ["bladedsteeljig", "goblinjig"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Thaliak Caiman",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["bladedsteeljig"],
+                        "visibility_rules": ["fishsanity_timed"],
                         "item_count": 1
                     },
                     {
                         "name": "Berserker Betta",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["bruteleech"],
+                        "visibility_rules": ["fishsanity_timed"],
                         "item_count": 1
                     },
                     {
                         "name": "Goblin Bass",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["bruteleech"],
+                        "visibility_rules": ["fishsanity_timed"],
                         "item_count": 1
                     },
                     {
                         "name": "Bobgoblin Bass",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["goblinjig"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     },
                     {
                         "name": "Inkshell",
-                        "access_rules": [],
+                        "access_rules": ["metalspinner"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -1873,62 +1873,62 @@
                 "sections": [
                     {
                         "name": "Scholar Sculpin",
-                        "access_rules": [],
+                        "access_rules": ["goblinjig", "pursewebspider"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Shipworm",
-                        "access_rules": [],
+                        "access_rules": ["goblinjig"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Hedgemole Cricket",
-                        "access_rules": [],
+                        "access_rules": ["stoneflynymph", "pursewebspider"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Sweetfish",
-                        "access_rules": [],
+                        "access_rules": ["bladedsteeljig", "goblinjig"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Yalm Lobster",
-                        "access_rules": [],
+                        "access_rules": ["bladedsteeljig"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Loosetongue",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["bruteleech"],
+                        "visibility_rules": ["fishsanity_timed"],
                         "item_count": 1
                     },
                     {
                         "name": "Armored Catfish",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["bruteleech"],
+                        "visibility_rules": ["fishsanity_timed"],
                         "item_count": 1
                     },
                     {
                         "name": "Thavnairian Leaf",
-                        "access_rules": [],
+                        "access_rules": ["metalspinner"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "The Speaker",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["pursewebspider"],
+                        "visibility_rules": ["fishsanity_timed"],
                         "item_count": 1
                     },
                     {
                         "name": "Armor Fish",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["pursewebspider"],
+                        "visibility_rules": ["fishsanity_timed"],
                         "item_count": 1
                     }
                 ],
@@ -1952,55 +1952,55 @@
                 "sections": [
                     {
                         "name": "Shipworm",
-                        "access_rules": [],
+                        "access_rules": ["goblinjig"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Hedgemole Cricket",
-                        "access_rules": [],
+                        "access_rules": ["stoneflynymph", "pursewebspider"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Sweetfish",
-                        "access_rules": [],
+                        "access_rules": ["bladedsteeljig", "goblinjig"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Autumn Leaf",
-                        "access_rules": [],
+                        "access_rules": ["pursewebspider"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Philosophers Stone",
-                        "access_rules": [],
+                        "access_rules": ["bladedsteeljig", "goblinjig"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Illuminati Perch",
-                        "access_rules": [],
+                        "access_rules": ["stoneflynymph"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Hinterlands Perch",
-                        "access_rules": [],
+                        "access_rules": ["metalspinner"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "The Ewer King",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["bladedsteeljig"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     },
                     {
                         "name": "Thinkers Coral",
-                        "access_rules": [],
+                        "access_rules": ["signatureskyball"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
