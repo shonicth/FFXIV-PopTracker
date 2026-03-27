@@ -19,212 +19,131 @@
                 "sections": [
                     {
                         "name": "The Great Gubal Library",
-                        "access_rules": [
-                            "$leveling:59"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:59, duty_difficulty_normal, $duty_visibility|The Great Gubal Library"
-                        ],
+                        "access_rules": ["$leveling:59"],
+                        "visibility_rules": ["level_cap:59, duty_difficulty_normal, $duty_visibility|The Great Gubal Library"],
                         "item_count": 1
                     },
                     {
                         "name": "The Great Gubal Library (Hard)",
-                        "access_rules": [
-                            "$leveling:60"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:60, duty_difficulty_normal, $duty_visibility|The Great Gubal Library (Hard)"
-                        ],
+                        "access_rules": ["$leveling:60"],
+                        "visibility_rules": ["level_cap:60, duty_difficulty_normal, $duty_visibility|The Great Gubal Library (Hard)"],
                         "item_count": 1
                     },
                     {
                         "name": "The Great Gubal Library 2",
-                        "access_rules": [
-                            "$leveling:59"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:59, duty_difficulty_normal, $duty_visibility|The Great Gubal Library, extra_dungeon_check:1"
-                        ],
+                        "access_rules": ["$leveling:59"],
+                        "visibility_rules": ["level_cap:59, duty_difficulty_normal, $duty_visibility|The Great Gubal Library, extra_dungeon_check:1"],
                         "item_count": 1
                     },
                     {
                         "name": "The Great Gubal Library 3",
-                        "access_rules": [
-                            "$leveling:59"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:59, duty_difficulty_normal, $duty_visibility|The Great Gubal Library, extra_dungeon_check:2"
-                        ],
+                        "access_rules": ["$leveling:59"],
+                        "visibility_rules": ["level_cap:59, duty_difficulty_normal, $duty_visibility|The Great Gubal Library, extra_dungeon_check:2"],
                         "item_count": 1
                     },
                     {
                         "name": "The Great Gubal Library 4",
-                        "access_rules": [
-                            "$leveling:59"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:59, duty_difficulty_normal, $duty_visibility|The Great Gubal Library, extra_dungeon_check:3"
-                        ],
+                        "access_rules": ["$leveling:59"],
+                        "visibility_rules": ["level_cap:59, duty_difficulty_normal, $duty_visibility|The Great Gubal Library, extra_dungeon_check:3"],
                         "item_count": 1
                     },
                     {
                         "name": "The Great Gubal Library 5",
-                        "access_rules": [
-                            "$leveling:59"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:59, duty_difficulty_normal, $duty_visibility|The Great Gubal Library, extra_dungeon_check:4"
-                        ],
+                        "access_rules": ["$leveling:59"],
+                        "visibility_rules": ["level_cap:59, duty_difficulty_normal, $duty_visibility|The Great Gubal Library, extra_dungeon_check:4"],
                         "item_count": 1
                     },
                     {
                         "name": "The Great Gubal Library 6",
-                        "access_rules": [
-                            "$leveling:59"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:59, duty_difficulty_normal, $duty_visibility|The Great Gubal Library, extra_dungeon_check:5"
-                        ],
+                        "access_rules": ["$leveling:59"],
+                        "visibility_rules": ["level_cap:59, duty_difficulty_normal, $duty_visibility|The Great Gubal Library, extra_dungeon_check:5"],
                         "item_count": 1
                     },
                     {
                         "name": "The Great Gubal Library 7",
-                        "access_rules": [
-                            "$leveling:59"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:59, duty_difficulty_normal, $duty_visibility|The Great Gubal Library, extra_dungeon_check:6"
-                        ],
+                        "access_rules": ["$leveling:59"],
+                        "visibility_rules": ["level_cap:59, duty_difficulty_normal, $duty_visibility|The Great Gubal Library, extra_dungeon_check:6"],
                         "item_count": 1
                     },
                     {
                         "name": "The Great Gubal Library 8",
-                        "access_rules": [
-                            "$leveling:59"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:59, duty_difficulty_normal, $duty_visibility|The Great Gubal Library, extra_dungeon_check:7"
-                        ],
+                        "access_rules": ["$leveling:59"],
+                        "visibility_rules": ["level_cap:59, duty_difficulty_normal, $duty_visibility|The Great Gubal Library, extra_dungeon_check:7"],
                         "item_count": 1
                     },
                     {
                         "name": "The Great Gubal Library 9",
-                        "access_rules": [
-                            "$leveling:59"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:59, duty_difficulty_normal, $duty_visibility|The Great Gubal Library, extra_dungeon_check:8"
-                        ],
+                        "access_rules": ["$leveling:59"],
+                        "visibility_rules": ["level_cap:59, duty_difficulty_normal, $duty_visibility|The Great Gubal Library, extra_dungeon_check:8"],
                         "item_count": 1
                     },
                     {
                         "name": "The Great Gubal Library 10",
-                        "access_rules": [
-                            "$leveling:59"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:59, duty_difficulty_normal, $duty_visibility|The Great Gubal Library, extra_dungeon_check:9"
-                        ],
+                        "access_rules": ["$leveling:59"],
+                        "visibility_rules": ["level_cap:59, duty_difficulty_normal, $duty_visibility|The Great Gubal Library, extra_dungeon_check:9"],
                         "item_count": 1
                     },
                     {
                         "name": "The Great Gubal Library (Hard) 2",
-                        "access_rules": [
-                            "$leveling:60"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:60, duty_difficulty_normal, $duty_visibility|The Great Gubal Library (Hard), extra_dungeon_check:1"
-                        ],
+                        "access_rules": ["$leveling:60"],
+                        "visibility_rules": ["level_cap:60, duty_difficulty_normal, $duty_visibility|The Great Gubal Library (Hard), extra_dungeon_check:1"],
                         "item_count": 1
                     },
                     {
                         "name": "The Great Gubal Library (Hard) 3",
-                        "access_rules": [
-                            "$leveling:60"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:60, duty_difficulty_normal, $duty_visibility|The Great Gubal Library (Hard), extra_dungeon_check:2"
-                        ],
+                        "access_rules": ["$leveling:60"],
+                        "visibility_rules": ["level_cap:60, duty_difficulty_normal, $duty_visibility|The Great Gubal Library (Hard), extra_dungeon_check:2"],
                         "item_count": 1
                     },
                     {
                         "name": "The Great Gubal Library (Hard) 4",
-                        "access_rules": [
-                            "$leveling:60"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:60, duty_difficulty_normal, $duty_visibility|The Great Gubal Library (Hard), extra_dungeon_check:3"
-                        ],
+                        "access_rules": ["$leveling:60"],
+                        "visibility_rules": ["level_cap:60, duty_difficulty_normal, $duty_visibility|The Great Gubal Library (Hard), extra_dungeon_check:3"],
                         "item_count": 1
                     },
                     {
                         "name": "The Great Gubal Library (Hard) 5",
-                        "access_rules": [
-                            "$leveling:60"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:60, duty_difficulty_normal, $duty_visibility|The Great Gubal Library (Hard), extra_dungeon_check:4"
-                        ],
+                        "access_rules": ["$leveling:60"],
+                        "visibility_rules": ["level_cap:60, duty_difficulty_normal, $duty_visibility|The Great Gubal Library (Hard), extra_dungeon_check:4"],
                         "item_count": 1
                     },
                     {
                         "name": "The Great Gubal Library (Hard) 6",
-                        "access_rules": [
-                            "$leveling:60"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:60, duty_difficulty_normal, $duty_visibility|The Great Gubal Library (Hard), extra_dungeon_check:5"
-                        ],
+                        "access_rules": ["$leveling:60"],
+                        "visibility_rules": ["level_cap:60, duty_difficulty_normal, $duty_visibility|The Great Gubal Library (Hard), extra_dungeon_check:5"],
                         "item_count": 1
                     },
                     {
                         "name": "The Great Gubal Library (Hard) 7",
-                        "access_rules": [
-                            "$leveling:60"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:60, duty_difficulty_normal, $duty_visibility|The Great Gubal Library (Hard), extra_dungeon_check:6"
-                        ],
+                        "access_rules": ["$leveling:60"],
+                        "visibility_rules": ["level_cap:60, duty_difficulty_normal, $duty_visibility|The Great Gubal Library (Hard), extra_dungeon_check:6"],
                         "item_count": 1
                     },
                     {
                         "name": "The Great Gubal Library (Hard) 8",
-                        "access_rules": [
-                            "$leveling:60"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:60, duty_difficulty_normal, $duty_visibility|The Great Gubal Library (Hard), extra_dungeon_check:7"
-                        ],
+                        "access_rules": ["$leveling:60"],
+                        "visibility_rules": ["level_cap:60, duty_difficulty_normal, $duty_visibility|The Great Gubal Library (Hard), extra_dungeon_check:7"],
                         "item_count": 1
                     },
                     {
                         "name": "The Great Gubal Library (Hard) 9",
-                        "access_rules": [
-                            "$leveling:60"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:60, duty_difficulty_normal, $duty_visibility|The Great Gubal Library (Hard), extra_dungeon_check:8"
-                        ],
+                        "access_rules": ["$leveling:60"],
+                        "visibility_rules": ["level_cap:60, duty_difficulty_normal, $duty_visibility|The Great Gubal Library (Hard), extra_dungeon_check:8"],
                         "item_count": 1
                     },
                     {
                         "name": "The Great Gubal Library (Hard) 10",
-                        "access_rules": [
-                            "$leveling:60"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:60, duty_difficulty_normal, $duty_visibility|The Great Gubal Library (Hard), extra_dungeon_check:9"
-                        ],
+                        "access_rules": ["$leveling:60"],
+                        "visibility_rules": ["level_cap:60, duty_difficulty_normal, $duty_visibility|The Great Gubal Library (Hard), extra_dungeon_check:9"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "The Dravanian Hinterlands",
-                        "x": 1407,
-                        "y": 1769,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 2474,
+                        "y": 1249,
+                        "size": 6
                     }
                 ]
             },
@@ -239,212 +158,131 @@
                 "sections": [
                     {
                         "name": "Saint Mociannes Arboretum",
-                        "access_rules": [
-                            "$leveling:60"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:60, duty_difficulty_normal, $duty_visibility|Saint Mocianne's Arboretum"
-                        ],
+                        "access_rules": ["$leveling:60"],
+                        "visibility_rules": ["level_cap:60, duty_difficulty_normal, $duty_visibility|Saint Mocianne's Arboretum"],
                         "item_count": 1
                     },
                     {
                         "name": "Saint Mociannes Arboretum (Hard)",
-                        "access_rules": [
-                            "$leveling:70"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:70, duty_difficulty_normal, $duty_visibility|Saint Mocianne's Arboretum (Hard)"
-                        ],
+                        "access_rules": ["$leveling:70"],
+                        "visibility_rules": ["level_cap:70, duty_difficulty_normal, $duty_visibility|Saint Mocianne's Arboretum (Hard)"],
                         "item_count": 1
                     },
                     {
                         "name": "Saint Mociannes Arboretum 2",
-                        "access_rules": [
-                            "$leveling:60"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:60, duty_difficulty_normal, $duty_visibility|Saint Mocianne's Arboretum, extra_dungeon_check:1"
-                        ],
+                        "access_rules": ["$leveling:60"],
+                        "visibility_rules": ["level_cap:60, duty_difficulty_normal, $duty_visibility|Saint Mocianne's Arboretum, extra_dungeon_check:1"],
                         "item_count": 1
                     },
                     {
                         "name": "Saint Mociannes Arboretum 3",
-                        "access_rules": [
-                            "$leveling:60"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:60, duty_difficulty_normal, $duty_visibility|Saint Mocianne's Arboretum, extra_dungeon_check:2"
-                        ],
+                        "access_rules": ["$leveling:60"],
+                        "visibility_rules": ["level_cap:60, duty_difficulty_normal, $duty_visibility|Saint Mocianne's Arboretum, extra_dungeon_check:2"],
                         "item_count": 1
                     },
                     {
                         "name": "Saint Mociannes Arboretum 4",
-                        "access_rules": [
-                            "$leveling:60"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:60, duty_difficulty_normal, $duty_visibility|Saint Mocianne's Arboretum, extra_dungeon_check:3"
-                        ],
+                        "access_rules": ["$leveling:60"],
+                        "visibility_rules": ["level_cap:60, duty_difficulty_normal, $duty_visibility|Saint Mocianne's Arboretum, extra_dungeon_check:3"],
                         "item_count": 1
                     },
                     {
                         "name": "Saint Mociannes Arboretum 5",
-                        "access_rules": [
-                            "$leveling:60"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:60, duty_difficulty_normal, $duty_visibility|Saint Mocianne's Arboretum, extra_dungeon_check:4"
-                        ],
+                        "access_rules": ["$leveling:60"],
+                        "visibility_rules": ["level_cap:60, duty_difficulty_normal, $duty_visibility|Saint Mocianne's Arboretum, extra_dungeon_check:4"],
                         "item_count": 1
                     },
                     {
                         "name": "Saint Mociannes Arboretum 6",
-                        "access_rules": [
-                            "$leveling:60"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:60, duty_difficulty_normal, $duty_visibility|Saint Mocianne's Arboretum, extra_dungeon_check:5"
-                        ],
+                        "access_rules": ["$leveling:60"],
+                        "visibility_rules": ["level_cap:60, duty_difficulty_normal, $duty_visibility|Saint Mocianne's Arboretum, extra_dungeon_check:5"],
                         "item_count": 1
                     },
                     {
                         "name": "Saint Mociannes Arboretum 7",
-                        "access_rules": [
-                            "$leveling:60"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:60, duty_difficulty_normal, $duty_visibility|Saint Mocianne's Arboretum, extra_dungeon_check:6"
-                        ],
+                        "access_rules": ["$leveling:60"],
+                        "visibility_rules": ["level_cap:60, duty_difficulty_normal, $duty_visibility|Saint Mocianne's Arboretum, extra_dungeon_check:6"],
                         "item_count": 1
                     },
                     {
                         "name": "Saint Mociannes Arboretum 8",
-                        "access_rules": [
-                            "$leveling:60"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:60, duty_difficulty_normal, $duty_visibility|Saint Mocianne's Arboretum, extra_dungeon_check:7"
-                        ],
+                        "access_rules": ["$leveling:60"],
+                        "visibility_rules": ["level_cap:60, duty_difficulty_normal, $duty_visibility|Saint Mocianne's Arboretum, extra_dungeon_check:7"],
                         "item_count": 1
                     },
                     {
                         "name": "Saint Mociannes Arboretum 9",
-                        "access_rules": [
-                            "$leveling:60"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:60, duty_difficulty_normal, $duty_visibility|Saint Mocianne's Arboretum, extra_dungeon_check:8"
-                        ],
+                        "access_rules": ["$leveling:60"],
+                        "visibility_rules": ["level_cap:60, duty_difficulty_normal, $duty_visibility|Saint Mocianne's Arboretum, extra_dungeon_check:8"],
                         "item_count": 1
                     },
                     {
                         "name": "Saint Mociannes Arboretum 10",
-                        "access_rules": [
-                            "$leveling:60"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:60, duty_difficulty_normal, $duty_visibility|Saint Mocianne's Arboretum, extra_dungeon_check:9"
-                        ],
+                        "access_rules": ["$leveling:60"],
+                        "visibility_rules": ["level_cap:60, duty_difficulty_normal, $duty_visibility|Saint Mocianne's Arboretum, extra_dungeon_check:9"],
                         "item_count": 1
                     },
                     {
                         "name": "Saint Mociannes Arboretum (Hard) 2",
-                        "access_rules": [
-                            "$leveling:70"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:70, duty_difficulty_normal, $duty_visibility|Saint Mocianne's Arboretum (Hard), extra_dungeon_check:1"
-                        ],
+                        "access_rules": ["$leveling:70"],
+                        "visibility_rules": ["level_cap:70, duty_difficulty_normal, $duty_visibility|Saint Mocianne's Arboretum (Hard), extra_dungeon_check:1"],
                         "item_count": 1
                     },
                     {
                         "name": "Saint Mociannes Arboretum (Hard) 3",
-                        "access_rules": [
-                            "$leveling:70"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:70, duty_difficulty_normal, $duty_visibility|Saint Mocianne's Arboretum (Hard), extra_dungeon_check:2"
-                        ],
+                        "access_rules": ["$leveling:70"],
+                        "visibility_rules": ["level_cap:70, duty_difficulty_normal, $duty_visibility|Saint Mocianne's Arboretum (Hard), extra_dungeon_check:2"],
                         "item_count": 1
                     },
                     {
                         "name": "Saint Mociannes Arboretum (Hard) 4",
-                        "access_rules": [
-                            "$leveling:70"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:70, duty_difficulty_normal, $duty_visibility|Saint Mocianne's Arboretum (Hard), extra_dungeon_check:3"
-                        ],
+                        "access_rules": ["$leveling:70"],
+                        "visibility_rules": ["level_cap:70, duty_difficulty_normal, $duty_visibility|Saint Mocianne's Arboretum (Hard), extra_dungeon_check:3"],
                         "item_count": 1
                     },
                     {
                         "name": "Saint Mociannes Arboretum (Hard) 5",
-                        "access_rules": [
-                            "$leveling:70"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:70, duty_difficulty_normal, $duty_visibility|Saint Mocianne's Arboretum (Hard), extra_dungeon_check:4"
-                        ],
+                        "access_rules": ["$leveling:70"],
+                        "visibility_rules": ["level_cap:70, duty_difficulty_normal, $duty_visibility|Saint Mocianne's Arboretum (Hard), extra_dungeon_check:4"],
                         "item_count": 1
                     },
                     {
                         "name": "Saint Mociannes Arboretum (Hard) 6",
-                        "access_rules": [
-                            "$leveling:70"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:70, duty_difficulty_normal, $duty_visibility|Saint Mocianne's Arboretum (Hard), extra_dungeon_check:5"
-                        ],
+                        "access_rules": ["$leveling:70"],
+                        "visibility_rules": ["level_cap:70, duty_difficulty_normal, $duty_visibility|Saint Mocianne's Arboretum (Hard), extra_dungeon_check:5"],
                         "item_count": 1
                     },
                     {
                         "name": "Saint Mociannes Arboretum (Hard) 7",
-                        "access_rules": [
-                            "$leveling:70"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:70, duty_difficulty_normal, $duty_visibility|Saint Mocianne's Arboretum (Hard), extra_dungeon_check:6"
-                        ],
+                        "access_rules": ["$leveling:70"],
+                        "visibility_rules": ["level_cap:70, duty_difficulty_normal, $duty_visibility|Saint Mocianne's Arboretum (Hard), extra_dungeon_check:6"],
                         "item_count": 1
                     },
                     {
                         "name": "Saint Mociannes Arboretum (Hard) 8",
-                        "access_rules": [
-                            "$leveling:70"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:70, duty_difficulty_normal, $duty_visibility|Saint Mocianne's Arboretum (Hard), extra_dungeon_check:7"
-                        ],
+                        "access_rules": ["$leveling:70"],
+                        "visibility_rules": ["level_cap:70, duty_difficulty_normal, $duty_visibility|Saint Mocianne's Arboretum (Hard), extra_dungeon_check:7"],
                         "item_count": 1
                     },
                     {
                         "name": "Saint Mociannes Arboretum (Hard) 9",
-                        "access_rules": [
-                            "$leveling:70"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:70, duty_difficulty_normal, $duty_visibility|Saint Mocianne's Arboretum (Hard), extra_dungeon_check:8"
-                        ],
+                        "access_rules": ["$leveling:70"],
+                        "visibility_rules": ["level_cap:70, duty_difficulty_normal, $duty_visibility|Saint Mocianne's Arboretum (Hard), extra_dungeon_check:8"],
                         "item_count": 1
                     },
                     {
                         "name": "Saint Mociannes Arboretum (Hard) 10",
-                        "access_rules": [
-                            "$leveling:70"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:70, duty_difficulty_normal, $duty_visibility|Saint Mocianne's Arboretum (Hard), extra_dungeon_check:9"
-                        ],
+                        "access_rules": ["$leveling:70"],
+                        "visibility_rules": ["level_cap:70, duty_difficulty_normal, $duty_visibility|Saint Mocianne's Arboretum (Hard), extra_dungeon_check:9"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "The Dravanian Hinterlands",
-                        "x": 430,
-                        "y": 1083,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 465,
+                        "y": 163,
+                        "size": 6
                     }
                 ]
             },
@@ -544,10 +382,9 @@
                 "map_locations": [
                     {
                         "map": "The Dravanian Hinterlands",
-                        "x": 561,
-                        "y": 1733,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 2238,
+                        "y": 1414,
+                        "size": 6
                     }
                 ]
             },
@@ -644,10 +481,9 @@
                 "map_locations": [
                     {
                         "map": "The Dravanian Hinterlands",
-                        "x": 1092,
-                        "y": 1206,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 975,
+                        "y": 135,
+                        "size": 6
                     }
                 ]
             },
@@ -744,10 +580,9 @@
                 "map_locations": [
                     {
                         "map": "The Dravanian Hinterlands",
-                        "x": 935,
-                        "y": 1187,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1995,
+                        "y": 165,
+                        "size": 6
                     }
                 ]
             },
@@ -844,10 +679,9 @@
                 "map_locations": [
                     {
                         "map": "The Dravanian Hinterlands",
-                        "x": 1072,
-                        "y": 1058,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1710,
+                        "y": 1302,
+                        "size": 6
                     }
                 ]
             },
@@ -872,83 +706,64 @@
                     {
                         "name": "Matoyas Relict 2",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:1"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:1"],
                         "item_count": 1
                     },
                     {
                         "name": "Matoyas Relict 3",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:2"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:2"],
                         "item_count": 1
                     },
                     {
                         "name": "Matoyas Relict 4",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:3"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:3"],
                         "item_count": 1
                     },
                     {
                         "name": "Matoyas Relict 5",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:4"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:4"],
                         "item_count": 1
                     },
                     {
                         "name": "Matoyas Relict 6",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:5"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:5"],
                         "item_count": 1
                     },
                     {
                         "name": "Matoyas Relict 7",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:6"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:6"],
                         "item_count": 1
                     },
                     {
                         "name": "Matoyas Relict 8",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:7"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:7"],
                         "item_count": 1
                     },
                     {
                         "name": "Matoyas Relict 9",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:8"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:8"],
                         "item_count": 1
                     },
                     {
                         "name": "Matoyas Relict 10",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:9"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:9"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "The Dravanian Hinterlands",
-                        "x": 1396,
-                        "y": 810,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 2276,
+                        "y": 381,
+                        "size": 6
                     }
                 ]
             },
@@ -1048,10 +863,9 @@
                 "map_locations": [
                     {
                         "map": "The Dravanian Hinterlands",
-                        "x": 715,
-                        "y": 97,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 144,
+                        "y": 1055,
+                        "size": 6
                     }
                 ]
             },
@@ -1078,10 +892,9 @@
                 "map_locations": [
                     {
                         "map": "The Dravanian Hinterlands",
-                        "x": 1325,
-                        "y": 1214,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1176,
+                        "y": 367,
+                        "size": 6
                     }
                 ]
             },
@@ -1108,10 +921,9 @@
                 "map_locations": [
                     {
                         "map": "The Dravanian Hinterlands",
-                        "x": 1686,
-                        "y": 1128,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 334,
+                        "y": 939,
+                        "size": 6
                     }
                 ]
             },
@@ -1138,10 +950,9 @@
                 "map_locations": [
                     {
                         "map": "The Dravanian Hinterlands",
-                        "x": 1736,
-                        "y": 1020,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 2443,
+                        "y": 1354,
+                        "size": 6
                     }
                 ]
             },
@@ -1168,10 +979,9 @@
                 "map_locations": [
                     {
                         "map": "The Dravanian Hinterlands",
-                        "x": 1206,
-                        "y": 1077,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1904,
+                        "y": 1206,
+                        "size": 6
                     }
                 ]
             },
@@ -1198,10 +1008,9 @@
                 "map_locations": [
                     {
                         "map": "The Dravanian Hinterlands",
-                        "x": 1528,
-                        "y": 1023,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1490,
+                        "y": 358,
+                        "size": 6
                     }
                 ]
             },
@@ -1228,10 +1037,9 @@
                 "map_locations": [
                     {
                         "map": "The Dravanian Hinterlands",
-                        "x": 1458,
-                        "y": 1024,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 849,
+                        "y": 808,
+                        "size": 6
                     }
                 ]
             },
@@ -1258,10 +1066,9 @@
                 "map_locations": [
                     {
                         "map": "The Dravanian Hinterlands",
-                        "x": 1470,
-                        "y": 1122,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1408,
+                        "y": 2050,
+                        "size": 6
                     }
                 ]
             },
@@ -1288,10 +1095,9 @@
                 "map_locations": [
                     {
                         "map": "The Dravanian Hinterlands",
-                        "x": 1070,
-                        "y": 1160,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 646,
+                        "y": 1737,
+                        "size": 6
                     }
                 ]
             },
@@ -1318,10 +1124,9 @@
                 "map_locations": [
                     {
                         "map": "The Dravanian Hinterlands",
-                        "x": 488,
-                        "y": 1107,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1251,
+                        "y": 1887,
+                        "size": 6
                     }
                 ]
             },
@@ -1348,10 +1153,9 @@
                 "map_locations": [
                     {
                         "map": "The Dravanian Hinterlands",
-                        "x": 460,
-                        "y": 1159,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 798,
+                        "y": 1743,
+                        "size": 6
                     }
                 ]
             },
@@ -1378,10 +1182,9 @@
                 "map_locations": [
                     {
                         "map": "The Dravanian Hinterlands",
-                        "x": 991,
-                        "y": 803,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1914,
+                        "y": 1990,
+                        "size": 6
                     }
                 ]
             },
@@ -1408,10 +1211,9 @@
                 "map_locations": [
                     {
                         "map": "The Dravanian Hinterlands",
-                        "x": 1765,
-                        "y": 1190,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 2078,
+                        "y": 1268,
+                        "size": 6
                     }
                 ]
             },
@@ -1438,10 +1240,9 @@
                 "map_locations": [
                     {
                         "map": "The Dravanian Hinterlands",
-                        "x": 1044,
-                        "y": 803,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 373,
+                        "y": 1374,
+                        "size": 6
                     }
                 ]
             },
@@ -1468,10 +1269,9 @@
                 "map_locations": [
                     {
                         "map": "The Dravanian Hinterlands",
-                        "x": 675,
-                        "y": 888,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 2088,
+                        "y": 353,
+                        "size": 6
                     }
                 ]
             },
@@ -1498,10 +1298,9 @@
                 "map_locations": [
                     {
                         "map": "The Dravanian Hinterlands",
-                        "x": 741,
-                        "y": 1021,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 519,
+                        "y": 355,
+                        "size": 6
                     }
                 ]
             },
@@ -1528,10 +1327,9 @@
                 "map_locations": [
                     {
                         "map": "The Dravanian Hinterlands",
-                        "x": 1594,
-                        "y": 1425,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 240,
+                        "y": 131,
+                        "size": 6
                     }
                 ]
             },
@@ -1558,10 +1356,9 @@
                 "map_locations": [
                     {
                         "map": "The Dravanian Hinterlands",
-                        "x": 291,
-                        "y": 926,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1695,
+                        "y": 2351,
+                        "size": 6
                     }
                 ]
             },
@@ -1588,10 +1385,9 @@
                 "map_locations": [
                     {
                         "map": "The Dravanian Hinterlands",
-                        "x": 654,
-                        "y": 1385,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 953,
+                        "y": 1680,
+                        "size": 6
                     }
                 ]
             },
@@ -1618,10 +1414,9 @@
                 "map_locations": [
                     {
                         "map": "The Dravanian Hinterlands",
-                        "x": 586,
-                        "y": 1109,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 2058,
+                        "y": 1745,
+                        "size": 6
                     }
                 ]
             },
@@ -1648,10 +1443,9 @@
                 "map_locations": [
                     {
                         "map": "The Dravanian Hinterlands",
-                        "x": 506,
-                        "y": 1473,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 879,
+                        "y": 835,
+                        "size": 6
                     }
                 ]
             },
@@ -1678,10 +1472,9 @@
                 "map_locations": [
                     {
                         "map": "The Dravanian Hinterlands",
-                        "x": 1544,
-                        "y": 1258,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 101,
+                        "y": 422,
+                        "size": 6
                     }
                 ]
             },
@@ -1708,10 +1501,9 @@
                 "map_locations": [
                     {
                         "map": "The Dravanian Hinterlands",
-                        "x": 1233,
-                        "y": 1863,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 835,
+                        "y": 1095,
+                        "size": 6
                     }
                 ]
             },
@@ -1738,10 +1530,9 @@
                 "map_locations": [
                     {
                         "map": "The Dravanian Hinterlands",
-                        "x": 710,
-                        "y": 1581,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 2199,
+                        "y": 716,
+                        "size": 6
                     }
                 ]
             },
@@ -1768,10 +1559,9 @@
                 "map_locations": [
                     {
                         "map": "The Dravanian Hinterlands",
-                        "x": 928,
-                        "y": 1791,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 2389,
+                        "y": 973,
+                        "size": 6
                     }
                 ]
             },
@@ -1798,10 +1588,9 @@
                 "map_locations": [
                     {
                         "map": "The Dravanian Hinterlands",
-                        "x": 695,
-                        "y": 1765,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 667,
+                        "y": 2115,
+                        "size": 6
                     }
                 ]
             },
@@ -1828,10 +1617,9 @@
                 "map_locations": [
                     {
                         "map": "The Dravanian Hinterlands",
-                        "x": 1215,
-                        "y": 1682,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1745,
+                        "y": 2171,
+                        "size": 6
                     }
                 ]
             },
@@ -1858,10 +1646,9 @@
                 "map_locations": [
                     {
                         "map": "The Dravanian Hinterlands",
-                        "x": 615,
-                        "y": 1467,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1053,
+                        "y": 2089,
+                        "size": 6
                     }
                 ]
             },
@@ -1888,10 +1675,9 @@
                 "map_locations": [
                     {
                         "map": "The Dravanian Hinterlands",
-                        "x": 463,
-                        "y": 1473,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 887,
+                        "y": 2048,
+                        "size": 6
                     }
                 ]
             },
@@ -1918,10 +1704,9 @@
                 "map_locations": [
                     {
                         "map": "The Dravanian Hinterlands",
-                        "x": 528,
-                        "y": 1625,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 874,
+                        "y": 1430,
+                        "size": 6
                     }
                 ]
             },
@@ -1939,78 +1724,55 @@
                 "sections": [
                     {
                         "name": "Blueclaw Shrimp",
-                        "access_rules": [
-                            "stoneflynymph"
-                        ],
+                        "access_rules": ["stoneflynymph"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Bullfrog",
-                        "access_rules": [
-                            "bladedsteeljig"
-                        ],
+                        "access_rules": ["bladedsteeljig"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Tigerfish",
-                        "access_rules": [
-                            "bladedsteeljig"
-                        ],
+                        "access_rules": ["bladedsteeljig"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Hedgemole Cricket",
-                        "access_rules": [
-                            "stoneflynymph",
-                            "pursewebspider"
-                        ],
+                        "access_rules": ["stoneflynymph", "pursewebspider"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Orn Butterfly",
-                        "access_rules": [
-                            "bruteleech"
-                        ],
-                        "visibility_rules": [
-                            "pursewebspider"
-                        ],
+                        "access_rules": ["bruteleech"],
+                        "visibility_rules": ["pursewebspider"],
                         "item_count": 1
                     },
                     {
                         "name": "Yalm Lobster",
-                        "access_rules": [
-                            "bladedsteeljig"
-                        ],
+                        "access_rules": ["bladedsteeljig"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Gnomefish",
-                        "access_rules": [
-                            "pursewebspider"
-                        ],
+                        "access_rules": ["pursewebspider"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Madam Butterfly",
-                        "access_rules": [
-                            "pursewebspider"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_big"
-                        ],
+                        "access_rules": ["pursewebspider"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     },
                     {
                         "name": "Dravanian Scallop",
-                        "access_rules": [
-                            "metalspinner"
-                        ],
+                        "access_rules": ["metalspinner"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -2018,10 +1780,9 @@
                 "map_locations": [
                     {
                         "map": "The Dravanian Hinterlands",
-                        "x": 513,
-                        "y": 1236,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 24,
+                        "y": 2092,
+                        "size": 6
                     }
                 ]
             },
@@ -2039,93 +1800,61 @@
                 "sections": [
                     {
                         "name": "Bullfrog",
-                        "access_rules": [
-                            "bladedsteeljig"
-                        ],
+                        "access_rules": ["bladedsteeljig"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Scholar Sculpin",
-                        "access_rules": [
-                            "goblinjig",
-                            "pursewebspider"
-                        ],
+                        "access_rules": ["goblinjig", "pursewebspider"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Hedgemole Cricket",
-                        "access_rules": [
-                            "stoneflynymph",
-                            "pursewebspider"
-                        ],
+                        "access_rules": ["stoneflynymph", "pursewebspider"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Sweetfish",
-                        "access_rules": [
-                            "bladedsteeljig",
-                            "goblinjig"
-                        ],
+                        "access_rules": ["bladedsteeljig", "goblinjig"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Philosophers Stone",
-                        "access_rules": [
-                            "bladedsteeljig",
-                            "goblinjig"
-                        ],
+                        "access_rules": ["bladedsteeljig", "goblinjig"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Thaliak Caiman",
-                        "access_rules": [
-                            "bladedsteeljig"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_timed"
-                        ],
+                        "access_rules": ["bladedsteeljig"],
+                        "visibility_rules": ["fishsanity_timed"],
                         "item_count": 1
                     },
                     {
                         "name": "Berserker Betta",
-                        "access_rules": [
-                            "bruteleech"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_timed"
-                        ],
+                        "access_rules": ["bruteleech"],
+                        "visibility_rules": ["fishsanity_timed"],
                         "item_count": 1
                     },
                     {
                         "name": "Goblin Bass",
-                        "access_rules": [
-                            "bruteleech"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_timed"
-                        ],
+                        "access_rules": ["bruteleech"],
+                        "visibility_rules": ["fishsanity_timed"],
                         "item_count": 1
                     },
                     {
                         "name": "Bobgoblin Bass",
-                        "access_rules": [
-                            "goblinjig"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_big"
-                        ],
+                        "access_rules": ["goblinjig"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     },
                     {
                         "name": "Inkshell",
-                        "access_rules": [
-                            "metalspinner"
-                        ],
+                        "access_rules": ["metalspinner"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -2133,10 +1862,9 @@
                 "map_locations": [
                     {
                         "map": "The Dravanian Hinterlands",
-                        "x": 938,
-                        "y": 1131,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1419,
+                        "y": 233,
+                        "size": 6
                     }
                 ]
             },
@@ -2154,103 +1882,71 @@
                 "sections": [
                     {
                         "name": "Scholar Sculpin",
-                        "access_rules": [
-                            "goblinjig",
-                            "pursewebspider"
-                        ],
+                        "access_rules": ["goblinjig", "pursewebspider"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Shipworm",
-                        "access_rules": [
-                            "goblinjig"
-                        ],
+                        "access_rules": ["goblinjig"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Hedgemole Cricket",
-                        "access_rules": [
-                            "stoneflynymph",
-                            "pursewebspider"
-                        ],
+                        "access_rules": ["stoneflynymph", "pursewebspider"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Sweetfish",
-                        "access_rules": [
-                            "bladedsteeljig",
-                            "goblinjig"
-                        ],
+                        "access_rules": ["bladedsteeljig", "goblinjig"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Yalm Lobster",
-                        "access_rules": [
-                            "bladedsteeljig"
-                        ],
+                        "access_rules": ["bladedsteeljig"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Loosetongue",
-                        "access_rules": [
-                            "bruteleech"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_timed"
-                        ],
+                        "access_rules": ["bruteleech"],
+                        "visibility_rules": ["fishsanity_timed"],
                         "item_count": 1
                     },
                     {
                         "name": "Armored Catfish",
-                        "access_rules": [
-                            "bruteleech"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_timed"
-                        ],
+                        "access_rules": ["bruteleech"],
+                        "visibility_rules": ["fishsanity_timed"],
                         "item_count": 1
                     },
                     {
                         "name": "Thavnairian Leaf",
-                        "access_rules": [
-                            "metalspinner"
-                        ],
+                        "access_rules": ["metalspinner"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "The Speaker",
-                        "access_rules": [
-                            "pursewebspider"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_timed"
-                        ],
+                        "access_rules": ["pursewebspider"],
+                        "visibility_rules": ["fishsanity_timed"],
                         "item_count": 1
                     },
                     {
                         "name": "Armor Fish",
-                        "access_rules": [
-                            "pursewebspider"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_timed"
-                        ],
+                        "access_rules": ["pursewebspider"],
+                        "visibility_rules": ["fishsanity_timed"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "The Dravanian Hinterlands",
-                        "x": 1051,
-                        "y": 1730,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 537,
+                        "y": 37,
+                        "size": 6
                     }
                 ]
             },
@@ -2268,78 +1964,55 @@
                 "sections": [
                     {
                         "name": "Shipworm",
-                        "access_rules": [
-                            "goblinjig"
-                        ],
+                        "access_rules": ["goblinjig"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Hedgemole Cricket",
-                        "access_rules": [
-                            "stoneflynymph",
-                            "pursewebspider"
-                        ],
+                        "access_rules": ["stoneflynymph", "pursewebspider"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Sweetfish",
-                        "access_rules": [
-                            "bladedsteeljig",
-                            "goblinjig"
-                        ],
+                        "access_rules": ["bladedsteeljig", "goblinjig"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Autumn Leaf",
-                        "access_rules": [
-                            "pursewebspider"
-                        ],
+                        "access_rules": ["pursewebspider"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Philosophers Stone",
-                        "access_rules": [
-                            "bladedsteeljig",
-                            "goblinjig"
-                        ],
+                        "access_rules": ["bladedsteeljig", "goblinjig"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Illuminati Perch",
-                        "access_rules": [
-                            "stoneflynymph"
-                        ],
+                        "access_rules": ["stoneflynymph"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Hinterlands Perch",
-                        "access_rules": [
-                            "metalspinner"
-                        ],
+                        "access_rules": ["metalspinner"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "The Ewer King",
-                        "access_rules": [
-                            "bladedsteeljig"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_big"
-                        ],
+                        "access_rules": ["bladedsteeljig"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     },
                     {
                         "name": "Thinkers Coral",
-                        "access_rules": [
-                            "signatureskyball"
-                        ],
+                        "access_rules": ["signatureskyball"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -2347,10 +2020,9 @@
                 "map_locations": [
                     {
                         "map": "The Dravanian Hinterlands",
-                        "x": 1060,
-                        "y": 1014,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 847,
+                        "y": 1877,
+                        "size": 6
                     }
                 ]
             }
