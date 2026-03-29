@@ -19,132 +19,83 @@
                 "sections": [
                     {
                         "name": "Bardams Mettle",
-                        "access_rules": [
-                            "$leveling:65"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:65, duty_difficulty_normal, $duty_visibility|Bardam's Mettle"
-                        ],
+                        "access_rules": ["$leveling:65"],
+                        "visibility_rules": ["level_cap:65, duty_difficulty_normal, $duty_visibility|Bardam's Mettle"],
                         "item_count": 1
                     },
                     {
                         "name": "The Great Hunt",
-                        "access_rules": [
-                            "$leveling:70"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:70, duty_difficulty_normal, $duty_visibility|The Great Hunt"
-                        ],
+                        "access_rules": ["$leveling:70"],
+                        "visibility_rules": ["level_cap:70, duty_difficulty_normal, $duty_visibility|The Great Hunt"],
                         "item_count": 1
                     },
                     {
                         "name": "The Great Hunt (Extreme)",
-                        "access_rules": [
-                            "$leveling:70"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:70, duty_difficulty_ex, $duty_visibility|The Great Hunt (Extreme)"
-                        ],
+                        "access_rules": ["$leveling:70"],
+                        "visibility_rules": ["level_cap:70, duty_difficulty_ex, $duty_visibility|The Great Hunt (Extreme)"],
                         "item_count": 1
                     },
                     {
                         "name": "Bardams Mettle 2",
-                        "access_rules": [
-                            "$leveling:65"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:65, duty_difficulty_normal, $duty_visibility|Bardam's Mettle, extra_dungeon_checks:1"
-                        ],
+                        "access_rules": ["$leveling:65"],
+                        "visibility_rules": ["level_cap:65, duty_difficulty_normal, $duty_visibility|Bardam's Mettle, extra_dungeon_checks:1"],
                         "item_count": 1
                     },
                     {
                         "name": "Bardams Mettle 3",
-                        "access_rules": [
-                            "$leveling:65"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:65, duty_difficulty_normal, $duty_visibility|Bardam's Mettle, extra_dungeon_checks:2"
-                        ],
+                        "access_rules": ["$leveling:65"],
+                        "visibility_rules": ["level_cap:65, duty_difficulty_normal, $duty_visibility|Bardam's Mettle, extra_dungeon_checks:2"],
                         "item_count": 1
                     },
                     {
                         "name": "Bardams Mettle 4",
-                        "access_rules": [
-                            "$leveling:65"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:65, duty_difficulty_normal, $duty_visibility|Bardam's Mettle, extra_dungeon_checks:3"
-                        ],
+                        "access_rules": ["$leveling:65"],
+                        "visibility_rules": ["level_cap:65, duty_difficulty_normal, $duty_visibility|Bardam's Mettle, extra_dungeon_checks:3"],
                         "item_count": 1
                     },
                     {
                         "name": "Bardams Mettle 5",
-                        "access_rules": [
-                            "$leveling:65"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:65, duty_difficulty_normal, $duty_visibility|Bardam's Mettle, extra_dungeon_checks:4"
-                        ],
+                        "access_rules": ["$leveling:65"],
+                        "visibility_rules": ["level_cap:65, duty_difficulty_normal, $duty_visibility|Bardam's Mettle, extra_dungeon_checks:4"],
                         "item_count": 1
                     },
                     {
                         "name": "Bardams Mettle 6",
-                        "access_rules": [
-                            "$leveling:65"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:65, duty_difficulty_normal, $duty_visibility|Bardam's Mettle, extra_dungeon_checks:5"
-                        ],
+                        "access_rules": ["$leveling:65"],
+                        "visibility_rules": ["level_cap:65, duty_difficulty_normal, $duty_visibility|Bardam's Mettle, extra_dungeon_checks:5"],
                         "item_count": 1
                     },
                     {
                         "name": "Bardams Mettle 7",
-                        "access_rules": [
-                            "$leveling:65"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:65, duty_difficulty_normal, $duty_visibility|Bardam's Mettle, extra_dungeon_checks:6"
-                        ],
+                        "access_rules": ["$leveling:65"],
+                        "visibility_rules": ["level_cap:65, duty_difficulty_normal, $duty_visibility|Bardam's Mettle, extra_dungeon_checks:6"],
                         "item_count": 1
                     },
                     {
                         "name": "Bardams Mettle 8",
-                        "access_rules": [
-                            "$leveling:65"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:65, duty_difficulty_normal, $duty_visibility|Bardam's Mettle, extra_dungeon_checks:7"
-                        ],
+                        "access_rules": ["$leveling:65"],
+                        "visibility_rules": ["level_cap:65, duty_difficulty_normal, $duty_visibility|Bardam's Mettle, extra_dungeon_checks:7"],
                         "item_count": 1
                     },
                     {
                         "name": "Bardams Mettle 9",
-                        "access_rules": [
-                            "$leveling:65"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:65, duty_difficulty_normal, $duty_visibility|Bardam's Mettle, extra_dungeon_checks:8"
-                        ],
+                        "access_rules": ["$leveling:65"],
+                        "visibility_rules": ["level_cap:65, duty_difficulty_normal, $duty_visibility|Bardam's Mettle, extra_dungeon_checks:8"],
                         "item_count": 1
                     },
                     {
                         "name": "Bardams Mettle 10",
-                        "access_rules": [
-                            "$leveling:65"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:65, duty_difficulty_normal, $duty_visibility|Bardam's Mettle, extra_dungeon_checks:9"
-                        ],
+                        "access_rules": ["$leveling:65"],
+                        "visibility_rules": ["level_cap:65, duty_difficulty_normal, $duty_visibility|Bardam's Mettle, extra_dungeon_checks:9"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "The Azim Steppe",
-                        "x": 518,
-                        "y": 504,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 764,
+                        "y": 767,
+                        "size": 6
                     }
                 ]
             },
@@ -244,10 +195,9 @@
                 "map_locations": [
                     {
                         "map": "The Azim Steppe",
-                        "x": 712,
-                        "y": 85,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1302,
+                        "y": 851,
+                        "size": 6
                     }
                 ]
             },
@@ -274,10 +224,9 @@
                 "map_locations": [
                     {
                         "map": "The Azim Steppe",
-                        "x": 1506,
-                        "y": 947,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 2276,
+                        "y": 1972,
+                        "size": 6
                     }
                 ]
             },
@@ -304,10 +253,9 @@
                 "map_locations": [
                     {
                         "map": "The Azim Steppe",
-                        "x": 973,
-                        "y": 735,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1071,
+                        "y": 1475,
+                        "size": 6
                     }
                 ]
             },
@@ -334,10 +282,9 @@
                 "map_locations": [
                     {
                         "map": "The Azim Steppe",
-                        "x": 1210,
-                        "y": 703,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1537,
+                        "y": 573,
+                        "size": 6
                     }
                 ]
             },
@@ -364,10 +311,9 @@
                 "map_locations": [
                     {
                         "map": "The Azim Steppe",
-                        "x": 1729,
-                        "y": 817,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1776,
+                        "y": 835,
+                        "size": 6
                     }
                 ]
             },
@@ -394,10 +340,9 @@
                 "map_locations": [
                     {
                         "map": "The Azim Steppe",
-                        "x": 1385,
-                        "y": 1377,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 738,
+                        "y": 1247,
+                        "size": 6
                     }
                 ]
             },
@@ -424,10 +369,9 @@
                 "map_locations": [
                     {
                         "map": "The Azim Steppe",
-                        "x": 1341,
-                        "y": 813,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 2259,
+                        "y": 1460,
+                        "size": 6
                     }
                 ]
             },
@@ -454,10 +398,9 @@
                 "map_locations": [
                     {
                         "map": "The Azim Steppe",
-                        "x": 1092,
-                        "y": 645,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 2474,
+                        "y": 723,
+                        "size": 6
                     }
                 ]
             },
@@ -484,10 +427,9 @@
                 "map_locations": [
                     {
                         "map": "The Azim Steppe",
-                        "x": 1476,
-                        "y": 1635,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1049,
+                        "y": 84,
+                        "size": 6
                     }
                 ]
             },
@@ -514,10 +456,9 @@
                 "map_locations": [
                     {
                         "map": "The Azim Steppe",
-                        "x": 652,
-                        "y": 726,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 781,
+                        "y": 1634,
+                        "size": 6
                     }
                 ]
             },
@@ -544,10 +485,9 @@
                 "map_locations": [
                     {
                         "map": "The Azim Steppe",
-                        "x": 1542,
-                        "y": 1564,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1496,
+                        "y": 1306,
+                        "size": 6
                     }
                 ]
             },
@@ -574,10 +514,9 @@
                 "map_locations": [
                     {
                         "map": "The Azim Steppe",
-                        "x": 1690,
-                        "y": 1130,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 398,
+                        "y": 2324,
+                        "size": 6
                     }
                 ]
             },
@@ -604,10 +543,9 @@
                 "map_locations": [
                     {
                         "map": "The Azim Steppe",
-                        "x": 581,
-                        "y": 704,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 52,
+                        "y": 2041,
+                        "size": 6
                     }
                 ]
             },
@@ -634,10 +572,9 @@
                 "map_locations": [
                     {
                         "map": "The Azim Steppe",
-                        "x": 1470,
-                        "y": 762,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 2381,
+                        "y": 1438,
+                        "size": 6
                     }
                 ]
             },
@@ -664,10 +601,9 @@
                 "map_locations": [
                     {
                         "map": "The Azim Steppe",
-                        "x": 812,
-                        "y": 489,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 2004,
+                        "y": 2486,
+                        "size": 6
                     }
                 ]
             },
@@ -694,10 +630,9 @@
                 "map_locations": [
                     {
                         "map": "The Azim Steppe",
-                        "x": 1048,
-                        "y": 880,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 960,
+                        "y": 1134,
+                        "size": 6
                     }
                 ]
             },
@@ -724,10 +659,9 @@
                 "map_locations": [
                     {
                         "map": "The Azim Steppe",
-                        "x": 493,
-                        "y": 820,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 2397,
+                        "y": 2491,
+                        "size": 6
                     }
                 ]
             },
@@ -754,10 +688,9 @@
                 "map_locations": [
                     {
                         "map": "The Azim Steppe",
-                        "x": 1310,
-                        "y": 1480,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 2230,
+                        "y": 224,
+                        "size": 6
                     }
                 ]
             },
@@ -784,10 +717,9 @@
                 "map_locations": [
                     {
                         "map": "The Azim Steppe",
-                        "x": 1280,
-                        "y": 1282,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 344,
+                        "y": 1485,
+                        "size": 6
                     }
                 ]
             },
@@ -814,10 +746,9 @@
                 "map_locations": [
                     {
                         "map": "The Azim Steppe",
-                        "x": 1542,
-                        "y": 1019,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 207,
+                        "y": 2173,
+                        "size": 6
                     }
                 ]
             },
@@ -844,10 +775,9 @@
                 "map_locations": [
                     {
                         "map": "The Azim Steppe",
-                        "x": 1287,
-                        "y": 1226,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 2117,
+                        "y": 701,
+                        "size": 6
                     }
                 ]
             },
@@ -874,10 +804,9 @@
                 "map_locations": [
                     {
                         "map": "The Azim Steppe",
-                        "x": 1595,
-                        "y": 907,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 172,
+                        "y": 156,
+                        "size": 6
                     }
                 ]
             },
@@ -904,10 +833,9 @@
                 "map_locations": [
                     {
                         "map": "The Azim Steppe",
-                        "x": 1706,
-                        "y": 943,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1367,
+                        "y": 2248,
+                        "size": 6
                     }
                 ]
             },
@@ -934,10 +862,9 @@
                 "map_locations": [
                     {
                         "map": "The Azim Steppe",
-                        "x": 1244,
-                        "y": 1214,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 412,
+                        "y": 996,
+                        "size": 6
                     }
                 ]
             },
@@ -964,10 +891,9 @@
                 "map_locations": [
                     {
                         "map": "The Azim Steppe",
-                        "x": 1645,
-                        "y": 909,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 295,
+                        "y": 414,
+                        "size": 6
                     }
                 ]
             },
@@ -994,10 +920,9 @@
                 "map_locations": [
                     {
                         "map": "The Azim Steppe",
-                        "x": 509,
-                        "y": 785,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1756,
+                        "y": 326,
+                        "size": 6
                     }
                 ]
             },
@@ -1024,10 +949,9 @@
                 "map_locations": [
                     {
                         "map": "The Azim Steppe",
-                        "x": 531,
-                        "y": 819,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 952,
+                        "y": 1751,
+                        "size": 6
                     }
                 ]
             },
@@ -1054,10 +978,9 @@
                 "map_locations": [
                     {
                         "map": "The Azim Steppe",
-                        "x": 1268,
-                        "y": 1189,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 2427,
+                        "y": 2102,
+                        "size": 6
                     }
                 ]
             },
@@ -1084,10 +1007,9 @@
                 "map_locations": [
                     {
                         "map": "The Azim Steppe",
-                        "x": 1602,
-                        "y": 1175,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 418,
+                        "y": 1615,
+                        "size": 6
                     }
                 ]
             },
@@ -1114,10 +1036,9 @@
                 "map_locations": [
                     {
                         "map": "The Azim Steppe",
-                        "x": 1210,
-                        "y": 673,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 898,
+                        "y": 859,
+                        "size": 6
                     }
                 ]
             },
@@ -1144,10 +1065,9 @@
                 "map_locations": [
                     {
                         "map": "The Azim Steppe",
-                        "x": 1441,
-                        "y": 1117,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 559,
+                        "y": 397,
+                        "size": 6
                     }
                 ]
             },
@@ -1174,10 +1094,9 @@
                 "map_locations": [
                     {
                         "map": "The Azim Steppe",
-                        "x": 1468,
-                        "y": 947,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 670,
+                        "y": 2119,
+                        "size": 6
                     }
                 ]
             },
@@ -1204,10 +1123,9 @@
                 "map_locations": [
                     {
                         "map": "The Azim Steppe",
-                        "x": 507,
-                        "y": 1694,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1427,
+                        "y": 1117,
+                        "size": 6
                     }
                 ]
             },
@@ -1234,10 +1152,9 @@
                 "map_locations": [
                     {
                         "map": "The Azim Steppe",
-                        "x": 611,
-                        "y": 1366,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1878,
+                        "y": 34,
+                        "size": 6
                     }
                 ]
             },
@@ -1264,10 +1181,9 @@
                 "map_locations": [
                     {
                         "map": "The Azim Steppe",
-                        "x": 437,
-                        "y": 1479,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 2342,
+                        "y": 1076,
+                        "size": 6
                     }
                 ]
             },
@@ -1294,10 +1210,9 @@
                 "map_locations": [
                     {
                         "map": "The Azim Steppe",
-                        "x": 554,
-                        "y": 1108,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 52,
+                        "y": 1298,
+                        "size": 6
                     }
                 ]
             },
@@ -1324,10 +1239,9 @@
                 "map_locations": [
                     {
                         "map": "The Azim Steppe",
-                        "x": 798,
-                        "y": 1778,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1451,
+                        "y": 943,
+                        "size": 6
                     }
                 ]
             },
@@ -1354,10 +1268,9 @@
                 "map_locations": [
                     {
                         "map": "The Azim Steppe",
-                        "x": 1136,
-                        "y": 1548,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 879,
+                        "y": 562,
+                        "size": 6
                     }
                 ]
             },
@@ -1384,10 +1297,9 @@
                 "map_locations": [
                     {
                         "map": "The Azim Steppe",
-                        "x": 963,
-                        "y": 1444,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1126,
+                        "y": 2371,
+                        "size": 6
                     }
                 ]
             },
@@ -1414,10 +1326,9 @@
                 "map_locations": [
                     {
                         "map": "The Azim Steppe",
-                        "x": 949,
-                        "y": 1547,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 134,
+                        "y": 1542,
+                        "size": 6
                     }
                 ]
             },
@@ -1444,10 +1355,9 @@
                 "map_locations": [
                     {
                         "map": "The Azim Steppe",
-                        "x": 863,
-                        "y": 1358,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 2167,
+                        "y": 796,
+                        "size": 6
                     }
                 ]
             },
@@ -1474,10 +1384,9 @@
                 "map_locations": [
                     {
                         "map": "The Azim Steppe",
-                        "x": 715,
-                        "y": 1525,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1854,
+                        "y": 854,
+                        "size": 6
                     }
                 ]
             },
@@ -1504,10 +1413,9 @@
                 "map_locations": [
                     {
                         "map": "The Azim Steppe",
-                        "x": 821,
-                        "y": 1585,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 2101,
+                        "y": 299,
+                        "size": 6
                     }
                 ]
             },
@@ -1534,10 +1442,9 @@
                 "map_locations": [
                     {
                         "map": "The Azim Steppe",
-                        "x": 564,
-                        "y": 1440,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1090,
+                        "y": 975,
+                        "size": 6
                     }
                 ]
             },
@@ -1555,63 +1462,47 @@
                 "sections": [
                     {
                         "name": "Tail Mountains Minnow",
-                        "access_rules": [
-                            "nightcrawler"
-                        ],
+                        "access_rules": ["nightcrawler"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Zagas Khaal",
-                        "access_rules": [
-                            "nightcrawler"
-                        ],
+                        "access_rules": ["nightcrawler"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Dry Steppe Skipper",
-                        "access_rules": [
-                            "midgelarva"
-                        ],
+                        "access_rules": ["midgelarva"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Skytear",
-                        "access_rules": [
-                            "versatilelure"
-                        ],
+                        "access_rules": ["versatilelure"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Dusk Crayfish",
-                        "access_rules": [
-                            "salmonroe",
-                            "nightcrawler"
-                        ],
+                        "access_rules": ["salmonroe", "nightcrawler"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Blade Skipper",
-                        "access_rules": [
-                            "suspendingminnow"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_big"
-                        ],
+                        "access_rules": ["suspendingminnow"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "The Azim Steppe",
-                        "x": 860,
-                        "y": 873,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1264,
+                        "y": 387,
+                        "size": 6
                     }
                 ]
             },
@@ -1629,73 +1520,53 @@
                 "sections": [
                     {
                         "name": "Sweatfish",
-                        "access_rules": [
-                            "stoneflylarva"
-                        ],
+                        "access_rules": ["stoneflylarva"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Othardian Trout",
-                        "access_rules": [
-                            "salmonroe",
-                            "nightcrawler"
-                        ],
+                        "access_rules": ["salmonroe", "nightcrawler"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Zagas Khaal",
-                        "access_rules": [
-                            "nightcrawler"
-                        ],
+                        "access_rules": ["nightcrawler"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Sun Bass",
-                        "access_rules": [
-                            "suspendingminnow"
-                        ],
+                        "access_rules": ["suspendingminnow"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Hardscale",
-                        "access_rules": [
-                            "suspendingminnow"
-                        ],
+                        "access_rules": ["suspendingminnow"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Guppy",
-                        "access_rules": [
-                            "stoneflylarva"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_timed"
-                        ],
+                        "access_rules": ["stoneflylarva"],
+                        "visibility_rules": ["fishsanity_timed"],
                         "item_count": 1
                     },
                     {
                         "name": "Duskfish",
-                        "access_rules": [
-                            "nightcrawler"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_big"
-                        ],
+                        "access_rules": ["nightcrawler"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "The Azim Steppe",
-                        "x": 1033,
-                        "y": 1065,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 142,
+                        "y": 134,
+                        "size": 6
                     }
                 ]
             },
@@ -1713,65 +1584,47 @@
                 "sections": [
                     {
                         "name": "Hak Bitterling",
-                        "access_rules": [
-                            "stoneflylarva"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_timed"
-                        ],
+                        "access_rules": ["stoneflylarva"],
+                        "visibility_rules": ["fishsanity_timed"],
                         "item_count": 1
                     },
                     {
                         "name": "Zagas Khaal",
-                        "access_rules": [
-                            "nightcrawler"
-                        ],
+                        "access_rules": ["nightcrawler"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Dry Steppe Skipper",
-                        "access_rules": [
-                            "midgelarva"
-                        ],
+                        "access_rules": ["midgelarva"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Dusk Crayfish",
-                        "access_rules": [
-                            "salmonroe",
-                            "nightcrawler"
-                        ],
+                        "access_rules": ["salmonroe", "nightcrawler"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Curtain Pleco",
-                        "access_rules": [
-                            "suspendingminnow"
-                        ],
+                        "access_rules": ["suspendingminnow"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Banderole",
-                        "access_rules": [
-                            "nightcrawler"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_big"
-                        ],
+                        "access_rules": ["nightcrawler"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "The Azim Steppe",
-                        "x": 1404,
-                        "y": 959,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 2255,
+                        "y": 1746,
+                        "size": 6
                     }
                 ]
             },
@@ -1789,61 +1642,43 @@
                 "sections": [
                     {
                         "name": "Yat Goby",
-                        "access_rules": [
-                            "metalspinner"
-                        ],
+                        "access_rules": ["metalspinner"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Othardian Trout",
-                        "access_rules": [
-                            "salmonroe",
-                            "nightcrawler"
-                        ],
+                        "access_rules": ["salmonroe", "nightcrawler"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Steppe Skipper",
-                        "access_rules": [
-                            "midgelarva"
-                        ],
+                        "access_rules": ["midgelarva"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Dawn Crayfish",
-                        "access_rules": [
-                            "nightcrawler",
-                            "suspendingminnow"
-                        ],
+                        "access_rules": ["nightcrawler", "suspendingminnow"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Jade Sculpin",
-                        "access_rules": [
-                            "suspendingminnow"
-                        ],
+                        "access_rules": ["suspendingminnow"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Yat Khan",
-                        "access_rules": [
-                            "stoneflylarva"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_big"
-                        ],
+                        "access_rules": ["stoneflylarva"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     },
                     {
                         "name": "Fragrant Sweetfish",
-                        "access_rules": [
-                            "metalspinner"
-                        ],
+                        "access_rules": ["metalspinner"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -1851,10 +1686,9 @@
                 "map_locations": [
                     {
                         "map": "The Azim Steppe",
-                        "x": 1074,
-                        "y": 1362,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 495,
+                        "y": 834,
+                        "size": 6
                     }
                 ]
             },
@@ -1872,66 +1706,47 @@
                 "sections": [
                     {
                         "name": "Killifish",
-                        "access_rules": [
-                            "midgelarva"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_timed"
-                        ],
+                        "access_rules": ["midgelarva"],
+                        "visibility_rules": ["fishsanity_timed"],
                         "item_count": 1
                     },
                     {
                         "name": "Othardian Trout",
-                        "access_rules": [
-                            "salmonroe",
-                            "nightcrawler"
-                        ],
+                        "access_rules": ["salmonroe", "nightcrawler"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Zagas Khaal",
-                        "access_rules": [
-                            "nightcrawler"
-                        ],
+                        "access_rules": ["nightcrawler"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Steppe Skipper",
-                        "access_rules": [
-                            "midgelarva"
-                        ],
+                        "access_rules": ["midgelarva"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Dawn Crayfish",
-                        "access_rules": [
-                            "nightcrawler",
-                            "suspendingminnow"
-                        ],
+                        "access_rules": ["nightcrawler", "suspendingminnow"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Garden Skipper",
-                        "access_rules": [
-                            "midgelarva"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_big"
-                        ],
+                        "access_rules": ["midgelarva"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "The Azim Steppe",
-                        "x": 1569,
-                        "y": 1465,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 604,
+                        "y": 133,
+                        "size": 6
                     }
                 ]
             },
@@ -1949,73 +1764,53 @@
                 "sections": [
                     {
                         "name": "Tao Bitterling",
-                        "access_rules": [
-                            "versatilelure"
-                        ],
+                        "access_rules": ["versatilelure"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Zagas Khaal",
-                        "access_rules": [
-                            "nightcrawler"
-                        ],
+                        "access_rules": ["nightcrawler"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Dry Steppe Skipper",
-                        "access_rules": [
-                            "midgelarva"
-                        ],
+                        "access_rules": ["midgelarva"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Dusk Crayfish",
-                        "access_rules": [
-                            "salmonroe",
-                            "nightcrawler"
-                        ],
+                        "access_rules": ["salmonroe", "nightcrawler"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Bowfish",
-                        "access_rules": [
-                            "versatilelure"
-                        ],
+                        "access_rules": ["versatilelure"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Elder Gourami",
-                        "access_rules": [
-                            "nightcrawler"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_timed"
-                        ],
+                        "access_rules": ["nightcrawler"],
+                        "visibility_rules": ["fishsanity_timed"],
                         "item_count": 1
                     },
                     {
                         "name": "The Word of God",
-                        "access_rules": [
-                            "stoneflylarva"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_big"
-                        ],
+                        "access_rules": ["stoneflylarva"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "The Azim Steppe",
-                        "x": 774,
-                        "y": 671,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 530,
+                        "y": 51,
+                        "size": 6
                     }
                 ]
             },
@@ -2033,48 +1828,35 @@
                 "sections": [
                     {
                         "name": "Nhaamas Boon",
-                        "access_rules": [
-                            "midgelarva"
-                        ],
+                        "access_rules": ["midgelarva"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Brassfish",
-                        "access_rules": [
-                            "salmonroe"
-                        ],
+                        "access_rules": ["salmonroe"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Nhaamas Treasure",
-                        "access_rules": [
-                            "suspendingminnow"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_big"
-                        ],
+                        "access_rules": ["suspendingminnow"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     },
                     {
                         "name": "The Unconditional",
-                        "access_rules": [
-                            "stoneflylarva"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_big"
-                        ],
+                        "access_rules": ["stoneflylarva"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "The Azim Steppe",
-                        "x": 570,
-                        "y": 1608,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 2454,
+                        "y": 1088,
+                        "size": 6
                     }
                 ]
             }

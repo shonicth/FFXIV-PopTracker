@@ -29,83 +29,64 @@
                     {
                         "name": "Shisui of the Violet Tides 2",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:1"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:1"],
                         "item_count": 1
                     },
                     {
                         "name": "Shisui of the Violet Tides 3",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:2"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:2"],
                         "item_count": 1
                     },
                     {
                         "name": "Shisui of the Violet Tides 4",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:3"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:3"],
                         "item_count": 1
                     },
                     {
                         "name": "Shisui of the Violet Tides 5",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:4"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:4"],
                         "item_count": 1
                     },
                     {
                         "name": "Shisui of the Violet Tides 6",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:5"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:5"],
                         "item_count": 1
                     },
                     {
                         "name": "Shisui of the Violet Tides 7",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:6"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:6"],
                         "item_count": 1
                     },
                     {
                         "name": "Shisui of the Violet Tides 8",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:7"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:7"],
                         "item_count": 1
                     },
                     {
                         "name": "Shisui of the Violet Tides 9",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:8"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:8"],
                         "item_count": 1
                     },
                     {
                         "name": "Shisui of the Violet Tides 10",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:9"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:9"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "The Ruby Sea",
-                        "x": 71,
-                        "y": 1776,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1046,
+                        "y": 2420,
+                        "size": 6
                     }
                 ]
             },
@@ -123,224 +104,137 @@
                 "sections": [
                     {
                         "name": "Hells Lid",
-                        "access_rules": [
-                            "$leveling:70"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:70, duty_difficulty_normal, $duty_visibility|Hells' Lid"
-                        ],
+                        "access_rules": ["$leveling:70"],
+                        "visibility_rules": ["level_cap:70, duty_difficulty_normal, $duty_visibility|Hells' Lid"],
                         "item_count": 1
                     },
                     {
                         "name": "Hells Kier",
-                        "access_rules": [
-                            "$leveling:70"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:70, duty_difficulty_normal, $duty_visibility|Hells' Kier"
-                        ],
+                        "access_rules": ["$leveling:70"],
+                        "visibility_rules": ["level_cap:70, duty_difficulty_normal, $duty_visibility|Hells' Kier"],
                         "item_count": 1
                     },
                     {
                         "name": "Hells Kier (Extreme)",
-                        "access_rules": [
-                            "$leveling:70"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:70, duty_difficulty_ex, $duty_visibility|Hells' Kier (Extreme)"
-                        ],
+                        "access_rules": ["$leveling:70"],
+                        "visibility_rules": ["level_cap:70, duty_difficulty_ex, $duty_visibility|Hells' Kier (Extreme)"],
                         "item_count": 1
                     },
                     {
                         "name": "Liopleurodon",
-                        "access_rules": [
-                            "5fshlevels:62, liveshrimp"
-                        ],
-                        "visibility_rules": [
-                            "levelcap:62, fishsanity_timed"
-                        ],
+                        "access_rules": ["5fshlevels:62, liveshrimp"],
+                        "visibility_rules": ["levelcap:62, fishsanity_timed"],
                         "item_count": 1
                     },
                     {
                         "name": "Grinning Anchovy",
-                        "access_rules": [
-                            "5fshlevels:62, liveshrimp",
-                            "5fshlevels:62, metalspinner"
-                        ],
-                        "visibility_rules": [
-                            "levelcap:62, fishsanity_normal"
-                        ],
+                        "access_rules": ["5fshlevels:62, liveshrimp", "5fshlevels:62, metalspinner"],
+                        "visibility_rules": ["levelcap:62, fishsanity_normal"],
                         "item_count": 1
                     },
                     {
                         "name": "Hellyfish",
-                        "access_rules": [
-                            "5fshlevels:62, liveshrimp"
-                        ],
-                        "visibility_rules": [
-                            "levelcap:62, fishsanity_normal"
-                        ],
+                        "access_rules": ["5fshlevels:62, liveshrimp"],
+                        "visibility_rules": ["levelcap:62, fishsanity_normal"],
                         "item_count": 1
                     },
                     {
                         "name": "Blockhead",
-                        "access_rules": [
-                            "5fshlevels:62, liveshrimp"
-                        ],
-                        "visibility_rules": [
-                            "levelcap:62, fishsanity_normal"
-                        ],
+                        "access_rules": ["5fshlevels:62, liveshrimp"],
+                        "visibility_rules": ["levelcap:62, fishsanity_normal"],
                         "item_count": 1
                     },
                     {
                         "name": "Ruby Shrimp",
-                        "access_rules": [
-                            "5fshlevels:62, liveshrimp",
-                            "5fshlevels:62, metalspinner"
-                        ],
-                        "visibility_rules": [
-                            "levelcap:62, fishsanity_normal"
-                        ],
+                        "access_rules": ["5fshlevels:62, liveshrimp", "5fshlevels:62, metalspinner"],
+                        "visibility_rules": ["levelcap:62, fishsanity_normal"],
                         "item_count": 1
                     },
                     {
                         "name": "Ukiki",
-                        "access_rules": [
-                            "5fshlevels:62, bluebobbit"
-                        ],
-                        "visibility_rules": [
-                            "levelcap:62, fishsanity_timed"
-                        ],
+                        "access_rules": ["5fshlevels:62, bluebobbit"],
+                        "visibility_rules": ["levelcap:62, fishsanity_timed"],
                         "item_count": 1
                     },
                     {
                         "name": "Shrieker",
-                        "access_rules": [
-                            "5fshlevels:62, liveshrimp"
-                        ],
-                        "visibility_rules": [
-                            "levelcap:62, fishsanity_normal"
-                        ],
+                        "access_rules": ["5fshlevels:62, liveshrimp"],
+                        "visibility_rules": ["levelcap:62, fishsanity_normal"],
                         "item_count": 1
                     },
                     {
                         "name": "Wicked Wartfish",
-                        "access_rules": [
-                            "5fshlevels:62, metalspinner"
-                        ],
-                        "visibility_rules": [
-                            "levelcap:62, fishsanity_normal"
-                        ],
+                        "access_rules": ["5fshlevels:62, metalspinner"],
+                        "visibility_rules": ["levelcap:62, fishsanity_normal"],
                         "item_count": 1
                     },
                     {
                         "name": "The Vegetarian",
-                        "access_rules": [
-                            "5fshlevels:62, liveshrimp"
-                        ],
-                        "visibility_rules": [
-                            "levelcap:62, fishsanity_big"
-                        ],
+                        "access_rules": ["5fshlevels:62, liveshrimp"],
+                        "visibility_rules": ["levelcap:62, fishsanity_big"],
                         "item_count": 1
                     },
                     {
                         "name": "Hells Lid 2",
-                        "access_rules": [
-                            "$leveling:70"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:70, duty_difficulty_normal, $duty_visibility|Hells' Lid, extra_dungeon_checks:1"
-                        ],
+                        "access_rules": ["$leveling:70"],
+                        "visibility_rules": ["level_cap:70, duty_difficulty_normal, $duty_visibility|Hells' Lid, extra_dungeon_checks:1"],
                         "item_count": 1
                     },
                     {
                         "name": "Hells Lid 3",
-                        "access_rules": [
-                            "$leveling:70"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:70, duty_difficulty_normal, $duty_visibility|Hells' Lid, extra_dungeon_checks:2"
-                        ],
+                        "access_rules": ["$leveling:70"],
+                        "visibility_rules": ["level_cap:70, duty_difficulty_normal, $duty_visibility|Hells' Lid, extra_dungeon_checks:2"],
                         "item_count": 1
                     },
                     {
                         "name": "Hells Lid 4",
-                        "access_rules": [
-                            "$leveling:70"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:70, duty_difficulty_normal, $duty_visibility|Hells' Lid, extra_dungeon_checks:3"
-                        ],
+                        "access_rules": ["$leveling:70"],
+                        "visibility_rules": ["level_cap:70, duty_difficulty_normal, $duty_visibility|Hells' Lid, extra_dungeon_checks:3"],
                         "item_count": 1
                     },
                     {
                         "name": "Hells Lid 5",
-                        "access_rules": [
-                            "$leveling:70"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:70, duty_difficulty_normal, $duty_visibility|Hells' Lid, extra_dungeon_checks:4"
-                        ],
+                        "access_rules": ["$leveling:70"],
+                        "visibility_rules": ["level_cap:70, duty_difficulty_normal, $duty_visibility|Hells' Lid, extra_dungeon_checks:4"],
                         "item_count": 1
                     },
                     {
                         "name": "Hells Lid 6",
-                        "access_rules": [
-                            "$leveling:70"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:70, duty_difficulty_normal, $duty_visibility|Hells' Lid, extra_dungeon_checks:5"
-                        ],
+                        "access_rules": ["$leveling:70"],
+                        "visibility_rules": ["level_cap:70, duty_difficulty_normal, $duty_visibility|Hells' Lid, extra_dungeon_checks:5"],
                         "item_count": 1
                     },
                     {
                         "name": "Hells Lid 7",
-                        "access_rules": [
-                            "$leveling:70"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:70, duty_difficulty_normal, $duty_visibility|Hells' Lid, extra_dungeon_checks:6"
-                        ],
+                        "access_rules": ["$leveling:70"],
+                        "visibility_rules": ["level_cap:70, duty_difficulty_normal, $duty_visibility|Hells' Lid, extra_dungeon_checks:6"],
                         "item_count": 1
                     },
                     {
                         "name": "Hells Lid 8",
-                        "access_rules": [
-                            "$leveling:70"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:70, duty_difficulty_normal, $duty_visibility|Hells' Lid, extra_dungeon_checks:7"
-                        ],
+                        "access_rules": ["$leveling:70"],
+                        "visibility_rules": ["level_cap:70, duty_difficulty_normal, $duty_visibility|Hells' Lid, extra_dungeon_checks:7"],
                         "item_count": 1
                     },
                     {
                         "name": "Hells Lid 9",
-                        "access_rules": [
-                            "$leveling:70"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:70, duty_difficulty_normal, $duty_visibility|Hells' Lid, extra_dungeon_checks:8"
-                        ],
+                        "access_rules": ["$leveling:70"],
+                        "visibility_rules": ["level_cap:70, duty_difficulty_normal, $duty_visibility|Hells' Lid, extra_dungeon_checks:8"],
                         "item_count": 1
                     },
                     {
                         "name": "Hells Lid 10",
-                        "access_rules": [
-                            "$leveling:70"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:70, duty_difficulty_normal, $duty_visibility|Hells' Lid, extra_dungeon_checks:9"
-                        ],
+                        "access_rules": ["$leveling:70"],
+                        "visibility_rules": ["level_cap:70, duty_difficulty_normal, $duty_visibility|Hells' Lid, extra_dungeon_checks:9"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "The Ruby Sea",
-                        "x": 1292,
-                        "y": 1867,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 2020,
+                        "y": 1252,
+                        "size": 6
                     }
                 ]
             },
@@ -355,22 +249,14 @@
                 "sections": [
                     {
                         "name": "The Pool of Tribute",
-                        "access_rules": [
-                            "$leveling:63"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:63, duty_difficulty_normal, $duty_visibility|The Pool of Tribute"
-                        ],
+                        "access_rules": ["$leveling:63"],
+                        "visibility_rules": ["level_cap:63, duty_difficulty_normal, $duty_visibility|The Pool of Tribute"],
                         "item_count": 1
                     },
                     {
                         "name": "The Pool of Tribute (Extreme)",
-                        "access_rules": [
-                            "$leveling:70"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:70, duty_difficulty_ex, $duty_visibility|The Pool of Tribute (Extreme)"
-                        ],
+                        "access_rules": ["$leveling:70"],
+                        "visibility_rules": ["level_cap:70, duty_difficulty_ex, $duty_visibility|The Pool of Tribute (Extreme)"],
                         "item_count": 1
                     }
                 ],
@@ -378,9 +264,8 @@
                     {
                         "map": "The Ruby Sea",
                         "x": 181,
-                        "y": 1062,
-                        "size": 40,
-                        "shape": "rect"
+                        "y": 1916,
+                        "size": 6
                     }
                 ]
             },
@@ -395,32 +280,23 @@
                 "sections": [
                     {
                         "name": "The Wreath of Snakes",
-                        "access_rules": [
-                            "$leveling:70"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:70, duty_difficulty_normal, $duty_visibility|The Wreath of Snakes"
-                        ],
+                        "access_rules": ["$leveling:70"],
+                        "visibility_rules": ["level_cap:70, duty_difficulty_normal, $duty_visibility|The Wreath of Snakes"],
                         "item_count": 1
                     },
                     {
                         "name": "The Wreath of Snakes (Extreme)",
-                        "access_rules": [
-                            "$leveling:70"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:70, duty_difficulty_ex, $duty_visibility|The Wreath of Snakes (Extreme)"
-                        ],
+                        "access_rules": ["$leveling:70"],
+                        "visibility_rules": ["level_cap:70, duty_difficulty_ex, $duty_visibility|The Wreath of Snakes (Extreme)"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "The Ruby Sea",
-                        "x": 1838,
-                        "y": 725,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1086,
+                        "y": 491,
+                        "size": 6
                     }
                 ]
             },
@@ -520,10 +396,9 @@
                 "map_locations": [
                     {
                         "map": "The Ruby Sea",
-                        "x": 747,
-                        "y": 1935,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1324,
+                        "y": 2288,
+                        "size": 6
                     }
                 ]
             },
@@ -550,10 +425,9 @@
                 "map_locations": [
                     {
                         "map": "The Ruby Sea",
-                        "x": 1149,
-                        "y": 1745,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 924,
+                        "y": 1786,
+                        "size": 6
                     }
                 ]
             },
@@ -580,10 +454,9 @@
                 "map_locations": [
                     {
                         "map": "The Ruby Sea",
-                        "x": 707,
-                        "y": 225,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1835,
+                        "y": 905,
+                        "size": 6
                     }
                 ]
             },
@@ -610,10 +483,9 @@
                 "map_locations": [
                     {
                         "map": "The Ruby Sea",
-                        "x": 841,
-                        "y": 302,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 439,
+                        "y": 886,
+                        "size": 6
                     }
                 ]
             },
@@ -640,10 +512,9 @@
                 "map_locations": [
                     {
                         "map": "The Ruby Sea",
-                        "x": 1381,
-                        "y": 1461,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 242,
+                        "y": 1135,
+                        "size": 6
                     }
                 ]
             },
@@ -670,10 +541,9 @@
                 "map_locations": [
                     {
                         "map": "The Ruby Sea",
-                        "x": 1451,
-                        "y": 1688,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1131,
+                        "y": 700,
+                        "size": 6
                     }
                 ]
             },
@@ -700,10 +570,9 @@
                 "map_locations": [
                     {
                         "map": "The Ruby Sea",
-                        "x": 885,
-                        "y": 303,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 820,
+                        "y": 245,
+                        "size": 6
                     }
                 ]
             },
@@ -730,10 +599,9 @@
                 "map_locations": [
                     {
                         "map": "The Ruby Sea",
-                        "x": 966,
-                        "y": 179,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 596,
+                        "y": 1148,
+                        "size": 6
                     }
                 ]
             },
@@ -760,10 +628,9 @@
                 "map_locations": [
                     {
                         "map": "The Ruby Sea",
-                        "x": 697,
-                        "y": 429,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1675,
+                        "y": 1232,
+                        "size": 6
                     }
                 ]
             },
@@ -790,10 +657,9 @@
                 "map_locations": [
                     {
                         "map": "The Ruby Sea",
-                        "x": 858,
-                        "y": 427,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1094,
+                        "y": 882,
+                        "size": 6
                     }
                 ]
             },
@@ -820,10 +686,9 @@
                 "map_locations": [
                     {
                         "map": "The Ruby Sea",
-                        "x": 1637,
-                        "y": 1229,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 862,
+                        "y": 2331,
+                        "size": 6
                     }
                 ]
             },
@@ -850,10 +715,9 @@
                 "map_locations": [
                     {
                         "map": "The Ruby Sea",
-                        "x": 1256,
-                        "y": 1433,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 2489,
+                        "y": 1980,
+                        "size": 6
                     }
                 ]
             },
@@ -880,10 +744,9 @@
                 "map_locations": [
                     {
                         "map": "The Ruby Sea",
-                        "x": 1360,
-                        "y": 1409,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 427,
+                        "y": 400,
+                        "size": 6
                     }
                 ]
             },
@@ -910,10 +773,9 @@
                 "map_locations": [
                     {
                         "map": "The Ruby Sea",
-                        "x": 1117,
-                        "y": 249,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 793,
+                        "y": 1872,
+                        "size": 6
                     }
                 ]
             },
@@ -940,10 +802,9 @@
                 "map_locations": [
                     {
                         "map": "The Ruby Sea",
-                        "x": 978,
-                        "y": 1544,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 202,
+                        "y": 2435,
+                        "size": 6
                     }
                 ]
             },
@@ -970,10 +831,9 @@
                 "map_locations": [
                     {
                         "map": "The Ruby Sea",
-                        "x": 1510,
-                        "y": 1251,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 2140,
+                        "y": 701,
+                        "size": 6
                     }
                 ]
             },
@@ -1000,10 +860,9 @@
                 "map_locations": [
                     {
                         "map": "The Ruby Sea",
-                        "x": 1624,
-                        "y": 237,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 11,
+                        "y": 154,
+                        "size": 6
                     }
                 ]
             },
@@ -1030,10 +889,9 @@
                 "map_locations": [
                     {
                         "map": "The Ruby Sea",
-                        "x": 1418,
-                        "y": 349,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1620,
+                        "y": 682,
+                        "size": 6
                     }
                 ]
             },
@@ -1060,10 +918,9 @@
                 "map_locations": [
                     {
                         "map": "The Ruby Sea",
-                        "x": 1416,
-                        "y": 1598,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1562,
+                        "y": 59,
+                        "size": 6
                     }
                 ]
             },
@@ -1090,10 +947,9 @@
                 "map_locations": [
                     {
                         "map": "The Ruby Sea",
-                        "x": 684,
-                        "y": 203,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 80,
+                        "y": 1489,
+                        "size": 6
                     }
                 ]
             },
@@ -1120,10 +976,9 @@
                 "map_locations": [
                     {
                         "map": "The Ruby Sea",
-                        "x": 1830,
-                        "y": 1024,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 398,
+                        "y": 2316,
+                        "size": 6
                     }
                 ]
             },
@@ -1150,10 +1005,9 @@
                 "map_locations": [
                     {
                         "map": "The Ruby Sea",
-                        "x": 1654,
-                        "y": 490,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 2378,
+                        "y": 2019,
+                        "size": 6
                     }
                 ]
             },
@@ -1180,10 +1034,9 @@
                 "map_locations": [
                     {
                         "map": "The Ruby Sea",
-                        "x": 1691,
-                        "y": 1225,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 393,
+                        "y": 1798,
+                        "size": 6
                     }
                 ]
             },
@@ -1210,10 +1063,9 @@
                 "map_locations": [
                     {
                         "map": "The Ruby Sea",
-                        "x": 1692,
-                        "y": 1139,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 2488,
+                        "y": 1810,
+                        "size": 6
                     }
                 ]
             },
@@ -1240,10 +1092,9 @@
                 "map_locations": [
                     {
                         "map": "The Ruby Sea",
-                        "x": 407,
-                        "y": 289,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1094,
+                        "y": 693,
+                        "size": 6
                     }
                 ]
             },
@@ -1270,10 +1121,9 @@
                 "map_locations": [
                     {
                         "map": "The Ruby Sea",
-                        "x": 483,
-                        "y": 323,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 2330,
+                        "y": 2012,
+                        "size": 6
                     }
                 ]
             },
@@ -1300,10 +1150,9 @@
                 "map_locations": [
                     {
                         "map": "The Ruby Sea",
-                        "x": 1562,
-                        "y": 976,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 2425,
+                        "y": 1799,
+                        "size": 6
                     }
                 ]
             },
@@ -1330,10 +1179,9 @@
                 "map_locations": [
                     {
                         "map": "The Ruby Sea",
-                        "x": 1270,
-                        "y": 255,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 253,
+                        "y": 1749,
+                        "size": 6
                     }
                 ]
             },
@@ -1360,10 +1208,9 @@
                 "map_locations": [
                     {
                         "map": "The Ruby Sea",
-                        "x": 1701,
-                        "y": 722,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 699,
+                        "y": 507,
+                        "size": 6
                     }
                 ]
             },
@@ -1390,10 +1237,9 @@
                 "map_locations": [
                     {
                         "map": "The Ruby Sea",
-                        "x": 1681,
-                        "y": 876,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 206,
+                        "y": 1253,
+                        "size": 6
                     }
                 ]
             },
@@ -1420,10 +1266,9 @@
                 "map_locations": [
                     {
                         "map": "The Ruby Sea",
-                        "x": 371,
-                        "y": 1462,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1914,
+                        "y": 204,
+                        "size": 6
                     }
                 ]
             },
@@ -1441,52 +1286,37 @@
                 "sections": [
                     {
                         "name": "Blackfin Snake Eel",
-                        "access_rules": [
-                            "bluebobbit"
-                        ],
+                        "access_rules": ["bluebobbit"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Leaf Tatsunoko",
-                        "access_rules": [
-                            "metalspinner"
-                        ],
+                        "access_rules": ["metalspinner"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Glass Flounder",
-                        "access_rules": [
-                            "breamlure"
-                        ],
+                        "access_rules": ["breamlure"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Ruby Shrimp",
-                        "access_rules": [
-                            "liveshrimp",
-                            "metalspinner"
-                        ],
+                        "access_rules": ["liveshrimp", "metalspinner"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Argonautica",
-                        "access_rules": [
-                            "liveshrimp"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_big"
-                        ],
+                        "access_rules": ["liveshrimp"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     },
                     {
                         "name": "Hook Fish",
-                        "access_rules": [
-                            "metalspinner"
-                        ],
+                        "access_rules": ["metalspinner"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -1494,10 +1324,9 @@
                 "map_locations": [
                     {
                         "map": "The Ruby Sea",
-                        "x": 1080,
-                        "y": 497,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 510,
+                        "y": 2272,
+                        "size": 6
                     }
                 ]
             },
@@ -1515,81 +1344,59 @@
                 "sections": [
                     {
                         "name": "Ruby Meagre",
-                        "access_rules": [
-                            "bluebobbit"
-                        ],
+                        "access_rules": ["bluebobbit"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Glass Herring",
-                        "access_rules": [
-                            "breamlure",
-                            "metalspinner"
-                        ],
+                        "access_rules": ["breamlure", "metalspinner"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Gliding Fish",
-                        "access_rules": [
-                            "breamlure"
-                        ],
+                        "access_rules": ["breamlure"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Globefish",
-                        "access_rules": [
-                            "metalspinner"
-                        ],
+                        "access_rules": ["metalspinner"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Fan Clam",
-                        "access_rules": [
-                            "liveshrimp"
-                        ],
+                        "access_rules": ["liveshrimp"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Triplespine",
-                        "access_rules": [
-                            "bluebobbit"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_timed"
-                        ],
+                        "access_rules": ["bluebobbit"],
+                        "visibility_rules": ["fishsanity_timed"],
                         "item_count": 1
                     },
                     {
                         "name": "Shirogane Clam",
-                        "access_rules": [
-                            "metalspinner"
-                        ],
+                        "access_rules": ["metalspinner"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Pinhead",
-                        "access_rules": [
-                            "liveshrimp"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_big"
-                        ],
+                        "access_rules": ["liveshrimp"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "The Ruby Sea",
-                        "x": 379,
-                        "y": 547,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 781,
+                        "y": 1373,
+                        "size": 6
                     }
                 ]
             },
@@ -1607,87 +1414,61 @@
                 "sections": [
                     {
                         "name": "Tawny Wench Shark",
-                        "access_rules": [
-                            "bluebobbit"
-                        ],
+                        "access_rules": ["bluebobbit"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Grinning Anchovy",
-                        "access_rules": [
-                            "liveshrimp",
-                            "metalspinner"
-                        ],
+                        "access_rules": ["liveshrimp", "metalspinner"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Hellyfish",
-                        "access_rules": [
-                            "liveshrimp"
-                        ],
+                        "access_rules": ["liveshrimp"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Dafu",
-                        "access_rules": [
-                            "breamlure"
-                        ],
+                        "access_rules": ["breamlure"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Swordfish",
-                        "access_rules": [
-                            "bluebobbit"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_timed"
-                        ],
+                        "access_rules": ["bluebobbit"],
+                        "visibility_rules": ["fishsanity_timed"],
                         "item_count": 1
                     },
                     {
                         "name": "Glass Tuna",
-                        "access_rules": [
-                            "liveshrimp"
-                        ],
+                        "access_rules": ["liveshrimp"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Ruby Shrimp",
-                        "access_rules": [
-                            "liveshrimp",
-                            "metalspinner"
-                        ],
+                        "access_rules": ["liveshrimp", "metalspinner"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Usuginu Octopus",
-                        "access_rules": [
-                            "liveshrimp"
-                        ],
+                        "access_rules": ["liveshrimp"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Seven Stars",
-                        "access_rules": [
-                            "liveshrimp"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_big"
-                        ],
+                        "access_rules": ["liveshrimp"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     },
                     {
                         "name": "Fatty Herring",
-                        "access_rules": [
-                            "metalspinner"
-                        ],
+                        "access_rules": ["metalspinner"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -1695,10 +1476,9 @@
                 "map_locations": [
                     {
                         "map": "The Ruby Sea",
-                        "x": 1683,
-                        "y": 935,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 591,
+                        "y": 1753,
+                        "size": 6
                     }
                 ]
             },
@@ -1716,66 +1496,47 @@
                 "sections": [
                     {
                         "name": "Coeurl Snake Eel",
-                        "access_rules": [
-                            "breamlure"
-                        ],
+                        "access_rules": ["breamlure"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Grinning Anchovy",
-                        "access_rules": [
-                            "liveshrimp",
-                            "metalspinner"
-                        ],
+                        "access_rules": ["liveshrimp", "metalspinner"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Glass Herring",
-                        "access_rules": [
-                            "breamlure",
-                            "metalspinner"
-                        ],
+                        "access_rules": ["breamlure", "metalspinner"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Coral Horse",
-                        "access_rules": [
-                            "metalspinner"
-                        ],
+                        "access_rules": ["metalspinner"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Kuer",
-                        "access_rules": [
-                            "bluebobbit"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_big"
-                        ],
+                        "access_rules": ["bluebobbit"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     },
                     {
                         "name": "The Ruby Dragon",
-                        "access_rules": [
-                            "bluebobbit"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_big"
-                        ],
+                        "access_rules": ["bluebobbit"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "The Ruby Sea",
-                        "x": 1846,
-                        "y": 1842,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 983,
+                        "y": 1904,
+                        "size": 6
                     }
                 ]
             },
@@ -1793,68 +1554,49 @@
                 "sections": [
                     {
                         "name": "Harutsuge",
-                        "access_rules": [
-                            "bluebobbit"
-                        ],
+                        "access_rules": ["bluebobbit"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Grinning Anchovy",
-                        "access_rules": [
-                            "liveshrimp",
-                            "metalspinner"
-                        ],
+                        "access_rules": ["liveshrimp", "metalspinner"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Ruby Coral",
-                        "access_rules": [
-                            "breamlure"
-                        ],
+                        "access_rules": ["breamlure"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Sapphire Coral",
-                        "access_rules": [
-                            "breamlure"
-                        ],
+                        "access_rules": ["breamlure"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Bone Coral",
-                        "access_rules": [
-                            "breamlure"
-                        ],
+                        "access_rules": ["breamlure"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Butterfly Fish",
-                        "access_rules": [
-                            "breamlure"
-                        ],
+                        "access_rules": ["breamlure"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "The Winter Queen",
-                        "access_rules": [
-                            "bluebobbit"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_big"
-                        ],
+                        "access_rules": ["bluebobbit"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     },
                     {
                         "name": "Ruby Laver",
-                        "access_rules": [
-                            "metalspinner"
-                        ],
+                        "access_rules": ["metalspinner"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -1862,10 +1604,9 @@
                 "map_locations": [
                     {
                         "map": "The Ruby Sea",
-                        "x": 1564,
-                        "y": 380,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 112,
+                        "y": 951,
+                        "size": 6
                     }
                 ]
             },
@@ -1883,65 +1624,47 @@
                 "sections": [
                     {
                         "name": "Zekki Gator",
-                        "access_rules": [
-                            "metalspinner"
-                        ],
+                        "access_rules": ["metalspinner"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Daio Squid",
-                        "access_rules": [
-                            "breamlure"
-                        ],
+                        "access_rules": ["breamlure"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Koromo Octopus",
-                        "access_rules": [
-                            "breamlure"
-                        ],
+                        "access_rules": ["breamlure"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Ruby Shrimp",
-                        "access_rules": [
-                            "liveshrimp",
-                            "metalspinner"
-                        ],
+                        "access_rules": ["liveshrimp", "metalspinner"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Rakshasa",
-                        "access_rules": [
-                            "metalspinner"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_big"
-                        ],
+                        "access_rules": ["metalspinner"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     },
                     {
                         "name": "Zekki Grouper",
-                        "access_rules": [
-                            "bluebobbit"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_big"
-                        ],
+                        "access_rules": ["bluebobbit"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "The Ruby Sea",
-                        "x": 367,
-                        "y": 1281,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1484,
+                        "y": 489,
+                        "size": 6
                     }
                 ]
             }

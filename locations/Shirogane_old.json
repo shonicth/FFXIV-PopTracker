@@ -22,64 +22,47 @@
                 "sections": [
                     {
                         "name": "Killifish",
-                        "access_rules": [
-                            "midgelarva"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_timed"
-                        ],
+                        "access_rules": ["midgelarva"],
+                        "visibility_rules": ["fishsanity_timed"],
                         "item_count": 1
                     },
                     {
                         "name": "Doman Trout",
-                        "access_rules": [
-                            "metalspinner"
-                        ],
+                        "access_rules": ["metalspinner"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Brassfish",
-                        "access_rules": [
-                            "midgelarva"
-                        ],
+                        "access_rules": ["midgelarva"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Nogoi",
-                        "access_rules": [
-                            "stoneflylarva"
-                        ],
+                        "access_rules": ["stoneflylarva"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Bonsai Fish",
-                        "access_rules": [
-                            "nightcrawler"
-                        ],
+                        "access_rules": ["nightcrawler"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Princess Killifish",
-                        "access_rules": [
-                            "nightcrawler"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_big"
-                        ],
+                        "access_rules": ["nightcrawler"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Shirogane",
-                        "x": 955,
-                        "y": 1077,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1439,
+                        "y": 1958,
+                        "size": 6
                     }
                 ]
             },
@@ -97,54 +80,41 @@
                 "sections": [
                     {
                         "name": "Grinning Anchovy",
-                        "access_rules": [
-                            "liveshrimp"
-                        ],
+                        "access_rules": ["liveshrimp"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Glass Tuna",
-                        "access_rules": [
-                            "liveshrimp"
-                        ],
+                        "access_rules": ["liveshrimp"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Ruby Shrimp",
-                        "access_rules": [
-                            "liveshrimp"
-                        ],
+                        "access_rules": ["liveshrimp"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Striped Fugu",
-                        "access_rules": [
-                            "liveshrimp"
-                        ],
+                        "access_rules": ["liveshrimp"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "The Gambler",
-                        "access_rules": [
-                            "bluebobbit"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_big"
-                        ],
+                        "access_rules": ["bluebobbit"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Shirogane",
-                        "x": 810,
-                        "y": 1287,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 2342,
+                        "y": 1594,
+                        "size": 6
                     }
                 ]
             }

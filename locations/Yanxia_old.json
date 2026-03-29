@@ -19,175 +19,107 @@
                 "sections": [
                     {
                         "name": "Doma Castle",
-                        "access_rules": [
-                            "$leveling:67"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:67, duty_difficulty_normal, $duty_visibility|Doma Castle"
-                        ],
+                        "access_rules": ["$leveling:67"],
+                        "visibility_rules": ["level_cap:67, duty_difficulty_normal, $duty_visibility|Doma Castle"],
                         "item_count": 1
                     },
                     {
                         "name": "Samurai Fish",
-                        "access_rules": [
-                            "5fshlevels:67, versatilelure"
-                        ],
-                        "visibility_rules": [
-                            "levelcap:67, fishsanity_normal"
-                        ],
+                        "access_rules": ["5fshlevels:67, versatilelure"],
+                        "visibility_rules": ["levelcap:67, fishsanity_normal"],
                         "item_count": 1
                     },
                     {
                         "name": "Raitonfish",
-                        "access_rules": [
-                            "5fshlevels:67, suspendingminnow"
-                        ],
-                        "visibility_rules": [
-                            "levelcap:67, fishsanity_timed"
-                        ],
+                        "access_rules": ["5fshlevels:67, suspendingminnow"],
+                        "visibility_rules": ["levelcap:67, fishsanity_timed"],
                         "item_count": 1
                     },
                     {
                         "name": "Blank Oscar",
-                        "access_rules": [
-                            "5fshlevels:67, midgelarva"
-                        ],
-                        "visibility_rules": [
-                            "levelcap:67, fishsanity_timed"
-                        ],
+                        "access_rules": ["5fshlevels:67, midgelarva"],
+                        "visibility_rules": ["levelcap:67, fishsanity_timed"],
                         "item_count": 1
                     },
                     {
                         "name": "Dragonfish",
-                        "access_rules": [
-                            "5fshlevels:67, midgelarva"
-                        ],
-                        "visibility_rules": [
-                            "levelcap:67, fishsanity_timed"
-                        ],
+                        "access_rules": ["5fshlevels:67, midgelarva"],
+                        "visibility_rules": ["levelcap:67, fishsanity_timed"],
                         "item_count": 1
                     },
                     {
                         "name": "Doman Trout",
-                        "access_rules": [
-                            "5fshlevels:67, suspendingminnow",
-                            "nightcrawler, 5fshlevels:67",
-                            "5fshlevels:67, midgelarva",
-                            "5fshlevels:67, metalspinner"
-                        ],
-                        "visibility_rules": [
-                            "levelcap:67, fishsanity_timed"
-                        ],
+                        "access_rules": ["5fshlevels:67, suspendingminnow", "nightcrawler, 5fshlevels:67", "5fshlevels:67, midgelarva", "5fshlevels:67, metalspinner"],
+                        "visibility_rules": ["levelcap:67, fishsanity_timed"],
                         "item_count": 1
                     },
                     {
                         "name": "Bokuden",
-                        "access_rules": [
-                            "5fshlevels:67, stoneflylarva"
-                        ],
-                        "visibility_rules": [
-                            "levelcap:67, fishsanity_timed"
-                        ],
+                        "access_rules": ["5fshlevels:67, stoneflylarva"],
+                        "visibility_rules": ["levelcap:67, fishsanity_timed"],
                         "item_count": 1
                     },
                     {
                         "name": "Doma Castle 2",
-                        "access_rules": [
-                            "$leveling:67"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:67, duty_difficulty_normal, $duty_visibility|Doma Castle, extra_dungeon_checks:1"
-                        ],
+                        "access_rules": ["$leveling:67"],
+                        "visibility_rules": ["level_cap:67, duty_difficulty_normal, $duty_visibility|Doma Castle, extra_dungeon_checks:1"],
                         "item_count": 1
                     },
                     {
                         "name": "Doma Castle 3",
-                        "access_rules": [
-                            "$leveling:67"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:67, duty_difficulty_normal, $duty_visibility|Doma Castle, extra_dungeon_checks:2"
-                        ],
+                        "access_rules": ["$leveling:67"],
+                        "visibility_rules": ["level_cap:67, duty_difficulty_normal, $duty_visibility|Doma Castle, extra_dungeon_checks:2"],
                         "item_count": 1
                     },
                     {
                         "name": "Doma Castle 4",
-                        "access_rules": [
-                            "$leveling:67"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:67, duty_difficulty_normal, $duty_visibility|Doma Castle, extra_dungeon_checks:3"
-                        ],
+                        "access_rules": ["$leveling:67"],
+                        "visibility_rules": ["level_cap:67, duty_difficulty_normal, $duty_visibility|Doma Castle, extra_dungeon_checks:3"],
                         "item_count": 1
                     },
                     {
                         "name": "Doma Castle 5",
-                        "access_rules": [
-                            "$leveling:67"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:67, duty_difficulty_normal, $duty_visibility|Doma Castle, extra_dungeon_checks:4"
-                        ],
+                        "access_rules": ["$leveling:67"],
+                        "visibility_rules": ["level_cap:67, duty_difficulty_normal, $duty_visibility|Doma Castle, extra_dungeon_checks:4"],
                         "item_count": 1
                     },
                     {
                         "name": "Doma Castle 6",
-                        "access_rules": [
-                            "$leveling:67"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:67, duty_difficulty_normal, $duty_visibility|Doma Castle, extra_dungeon_checks:5"
-                        ],
+                        "access_rules": ["$leveling:67"],
+                        "visibility_rules": ["level_cap:67, duty_difficulty_normal, $duty_visibility|Doma Castle, extra_dungeon_checks:5"],
                         "item_count": 1
                     },
                     {
                         "name": "Doma Castle 7",
-                        "access_rules": [
-                            "$leveling:67"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:67, duty_difficulty_normal, $duty_visibility|Doma Castle, extra_dungeon_checks:6"
-                        ],
+                        "access_rules": ["$leveling:67"],
+                        "visibility_rules": ["level_cap:67, duty_difficulty_normal, $duty_visibility|Doma Castle, extra_dungeon_checks:6"],
                         "item_count": 1
                     },
                     {
                         "name": "Doma Castle 8",
-                        "access_rules": [
-                            "$leveling:67"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:67, duty_difficulty_normal, $duty_visibility|Doma Castle, extra_dungeon_checks:7"
-                        ],
+                        "access_rules": ["$leveling:67"],
+                        "visibility_rules": ["level_cap:67, duty_difficulty_normal, $duty_visibility|Doma Castle, extra_dungeon_checks:7"],
                         "item_count": 1
                     },
                     {
                         "name": "Doma Castle 9",
-                        "access_rules": [
-                            "$leveling:67"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:67, duty_difficulty_normal, $duty_visibility|Doma Castle, extra_dungeon_checks:8"
-                        ],
+                        "access_rules": ["$leveling:67"],
+                        "visibility_rules": ["level_cap:67, duty_difficulty_normal, $duty_visibility|Doma Castle, extra_dungeon_checks:8"],
                         "item_count": 1
                     },
                     {
                         "name": "Doma Castle 10",
-                        "access_rules": [
-                            "$leveling:67"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:67, duty_difficulty_normal, $duty_visibility|Doma Castle, extra_dungeon_checks:9"
-                        ],
+                        "access_rules": ["$leveling:67"],
+                        "visibility_rules": ["level_cap:67, duty_difficulty_normal, $duty_visibility|Doma Castle, extra_dungeon_checks:9"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Yanxia",
-                        "x": 645,
-                        "y": 659,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1037,
+                        "y": 906,
+                        "size": 6
                     }
                 ]
             },
@@ -212,83 +144,64 @@
                     {
                         "name": "The Swallows Compass 2",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:1"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:1"],
                         "item_count": 1
                     },
                     {
                         "name": "The Swallows Compass 3",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:2"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:2"],
                         "item_count": 1
                     },
                     {
                         "name": "The Swallows Compass 4",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:3"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:3"],
                         "item_count": 1
                     },
                     {
                         "name": "The Swallows Compass 5",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:4"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:4"],
                         "item_count": 1
                     },
                     {
                         "name": "The Swallows Compass 6",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:5"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:5"],
                         "item_count": 1
                     },
                     {
                         "name": "The Swallows Compass 7",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:6"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:6"],
                         "item_count": 1
                     },
                     {
                         "name": "The Swallows Compass 8",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:7"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:7"],
                         "item_count": 1
                     },
                     {
                         "name": "The Swallows Compass 9",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:8"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:8"],
                         "item_count": 1
                     },
                     {
                         "name": "The Swallows Compass 10",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:9"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:9"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Yanxia",
-                        "x": 539,
-                        "y": 1291,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 388,
+                        "y": 51,
+                        "size": 6
                     }
                 ]
             },
@@ -313,83 +226,64 @@
                     {
                         "name": "The Burn 2",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:1"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:1"],
                         "item_count": 1
                     },
                     {
                         "name": "The Burn 3",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:2"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:2"],
                         "item_count": 1
                     },
                     {
                         "name": "The Burn 4",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:3"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:3"],
                         "item_count": 1
                     },
                     {
                         "name": "The Burn 5",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:4"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:4"],
                         "item_count": 1
                     },
                     {
                         "name": "The Burn 6",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:5"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:5"],
                         "item_count": 1
                     },
                     {
                         "name": "The Burn 7",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:6"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:6"],
                         "item_count": 1
                     },
                     {
                         "name": "The Burn 8",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:7"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:7"],
                         "item_count": 1
                     },
                     {
                         "name": "The Burn 9",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:8"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:8"],
                         "item_count": 1
                     },
                     {
                         "name": "The Burn 10",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:9"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:9"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Yanxia",
-                        "x": 1364,
-                        "y": 484,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 268,
+                        "y": 956,
+                        "size": 6
                     }
                 ]
             },
@@ -404,32 +298,23 @@
                 "sections": [
                     {
                         "name": "The Jade Stoa",
-                        "access_rules": [
-                            "$leveling:70"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:70, duty_difficulty_normal, $duty_visibility|The Jade Stoa"
-                        ],
+                        "access_rules": ["$leveling:70"],
+                        "visibility_rules": ["level_cap:70, duty_difficulty_normal, $duty_visibility|The Jade Stoa"],
                         "item_count": 1
                     },
                     {
                         "name": "The Jade Stoa (Extreme)",
-                        "access_rules": [
-                            "$leveling:70"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:70, duty_difficulty_ex, $duty_visibility|The Jade Stoa (Extreme)"
-                        ],
+                        "access_rules": ["$leveling:70"],
+                        "visibility_rules": ["level_cap:70, duty_difficulty_ex, $duty_visibility|The Jade Stoa (Extreme)"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Yanxia",
-                        "x": 1519,
-                        "y": 247,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1944,
+                        "y": 489,
+                        "size": 6
                     }
                 ]
             },
@@ -444,32 +329,23 @@
                 "sections": [
                     {
                         "name": "Castrum Fluminis",
-                        "access_rules": [
-                            "$leveling:70"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:70, duty_difficulty_normal, $duty_visibility|Castrum Fluminis"
-                        ],
+                        "access_rules": ["$leveling:70"],
+                        "visibility_rules": ["level_cap:70, duty_difficulty_normal, $duty_visibility|Castrum Fluminis"],
                         "item_count": 1
                     },
                     {
                         "name": "The Minstrels Ballad Tsukuyomis Pain",
-                        "access_rules": [
-                            "$leveling:70"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:70, duty_difficulty_ex, $duty_visibility|The Minstrel's Ballad: Tsukuyomi's Pain"
-                        ],
+                        "access_rules": ["$leveling:70"],
+                        "visibility_rules": ["level_cap:70, duty_difficulty_ex, $duty_visibility|The Minstrel's Ballad: Tsukuyomi's Pain"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Yanxia",
-                        "x": 1262,
-                        "y": 1778,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 227,
+                        "y": 113,
+                        "size": 6
                     }
                 ]
             },
@@ -484,77 +360,47 @@
                 "sections": [
                     {
                         "name": "Memoria Misera (Extreme)",
-                        "access_rules": [
-                            "$leveling:80"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:80, duty_difficulty_ex, $duty_visibility|Memoria Misera (Extreme)"
-                        ],
+                        "access_rules": ["$leveling:80"],
+                        "visibility_rules": ["level_cap:80, duty_difficulty_ex, $duty_visibility|Memoria Misera (Extreme)"],
                         "item_count": 1
                     },
                     {
                         "name": "Castrum Lacus Litore",
-                        "access_rules": [
-                            "$leveling:80, gangosaccess"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:70, duty_difficulty_normal, $duty_visibility|Castrum Fluminis, include_bozja"
-                        ],
+                        "access_rules": ["$leveling:80, gangosaccess"],
+                        "visibility_rules": ["level_cap:70, duty_difficulty_normal, $duty_visibility|Castrum Fluminis, include_bozja"],
                         "item_count": 1
                     },
                     {
                         "name": "Delubrum Reginae",
-                        "access_rules": [
-                            "$leveling:80, gangosaccess"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:80, duty_difficulty_normal, $duty_visibility|Castrum Fluminis, include_bozja"
-                        ],
+                        "access_rules": ["$leveling:80, gangosaccess"],
+                        "visibility_rules": ["level_cap:80, duty_difficulty_normal, $duty_visibility|Castrum Fluminis, include_bozja"],
                         "item_count": 1
                     },
                     {
                         "name": "The Dalriada",
-                        "access_rules": [
-                            "$leveling:80, gangosaccess"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:80, duty_difficulty_normal, $duty_visibility|Castrum Fluminis, include_bozja"
-                        ],
+                        "access_rules": ["$leveling:80, gangosaccess"],
+                        "visibility_rules": ["level_cap:80, duty_difficulty_normal, $duty_visibility|Castrum Fluminis, include_bozja"],
                         "item_count": 1
                     },
                     {
                         "name": "Kotsu Zetsu",
-                        "access_rules": [
-                            "5fshlevels:70, suspendingminnow",
-                            "5fshlevels:70, stoneflylarva",
-                            "5fshlevels:70, metalspinner"
-                        ],
-                        "visibility_rules": [
-                            "levelcap:70, fishsanity_normal"
-                        ],
+                        "access_rules": ["5fshlevels:70, suspendingminnow", "5fshlevels:70, stoneflylarva", "5fshlevels:70, metalspinner"],
+                        "visibility_rules": ["levelcap:70, fishsanity_normal"],
                         "item_count": 1
                     },
                     {
                         "name": "Doman Trout",
-                        "access_rules": [
-                            "5fshlevels:70, suspendingminnow",
-                            "5fshlevels:70, nightcrawler",
-                            "5fshlevels:70, midgelarva",
-                            "5fshlevels:70, metalspinner"
-                        ],
-                        "visibility_rules": [
-                            "levelcap:70, fishsanity_normal"
-                        ],
+                        "access_rules": ["5fshlevels:70, suspendingminnow", "5fshlevels:70, nightcrawler", "5fshlevels:70, midgelarva", "5fshlevels:70, metalspinner"],
+                        "visibility_rules": ["levelcap:70, fishsanity_normal"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Yanxia",
-                        "x": 533,
-                        "y": 1572,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1973,
+                        "y": 2002,
+                        "size": 6
                     }
                 ]
             },
@@ -654,10 +500,9 @@
                 "map_locations": [
                     {
                         "map": "Yanxia",
-                        "x": 75,
-                        "y": 89,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 498,
+                        "y": 460,
+                        "size": 6
                     }
                 ]
             },
@@ -684,10 +529,9 @@
                 "map_locations": [
                     {
                         "map": "Yanxia",
-                        "x": 829,
-                        "y": 1535,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1065,
+                        "y": 435,
+                        "size": 6
                     }
                 ]
             },
@@ -714,10 +558,9 @@
                 "map_locations": [
                     {
                         "map": "Yanxia",
-                        "x": 852,
-                        "y": 1495,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 63,
+                        "y": 787,
+                        "size": 6
                     }
                 ]
             },
@@ -744,10 +587,9 @@
                 "map_locations": [
                     {
                         "map": "Yanxia",
-                        "x": 1249,
-                        "y": 1423,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 2282,
+                        "y": 551,
+                        "size": 6
                     }
                 ]
             },
@@ -774,10 +616,9 @@
                 "map_locations": [
                     {
                         "map": "Yanxia",
-                        "x": 885,
-                        "y": 1648,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1200,
+                        "y": 324,
+                        "size": 6
                     }
                 ]
             },
@@ -804,10 +645,9 @@
                 "map_locations": [
                     {
                         "map": "Yanxia",
-                        "x": 1592,
-                        "y": 1456,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 2375,
+                        "y": 1966,
+                        "size": 6
                     }
                 ]
             },
@@ -834,10 +674,9 @@
                 "map_locations": [
                     {
                         "map": "Yanxia",
-                        "x": 872,
-                        "y": 1534,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1860,
+                        "y": 153,
+                        "size": 6
                     }
                 ]
             },
@@ -864,10 +703,9 @@
                 "map_locations": [
                     {
                         "map": "Yanxia",
-                        "x": 1866,
-                        "y": 752,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1993,
+                        "y": 1987,
+                        "size": 6
                     }
                 ]
             },
@@ -894,10 +732,9 @@
                 "map_locations": [
                     {
                         "map": "Yanxia",
-                        "x": 592,
-                        "y": 1456,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 218,
+                        "y": 1788,
+                        "size": 6
                     }
                 ]
             },
@@ -924,10 +761,9 @@
                 "map_locations": [
                     {
                         "map": "Yanxia",
-                        "x": 1209,
-                        "y": 1221,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 278,
+                        "y": 889,
+                        "size": 6
                     }
                 ]
             },
@@ -954,10 +790,9 @@
                 "map_locations": [
                     {
                         "map": "Yanxia",
-                        "x": 1450,
-                        "y": 1092,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1565,
+                        "y": 796,
+                        "size": 6
                     }
                 ]
             },
@@ -984,10 +819,9 @@
                 "map_locations": [
                     {
                         "map": "Yanxia",
-                        "x": 844,
-                        "y": 1335,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1540,
+                        "y": 836,
+                        "size": 6
                     }
                 ]
             },
@@ -1014,10 +848,9 @@
                 "map_locations": [
                     {
                         "map": "Yanxia",
-                        "x": 1588,
-                        "y": 817,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 337,
+                        "y": 2280,
+                        "size": 6
                     }
                 ]
             },
@@ -1044,10 +877,9 @@
                 "map_locations": [
                     {
                         "map": "Yanxia",
-                        "x": 1387,
-                        "y": 1524,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1827,
+                        "y": 190,
+                        "size": 6
                     }
                 ]
             },
@@ -1074,10 +906,9 @@
                 "map_locations": [
                     {
                         "map": "Yanxia",
-                        "x": 1094,
-                        "y": 1594,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 2192,
+                        "y": 1984,
+                        "size": 6
                     }
                 ]
             },
@@ -1104,10 +935,9 @@
                 "map_locations": [
                     {
                         "map": "Yanxia",
-                        "x": 1315,
-                        "y": 1189,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1568,
+                        "y": 1714,
+                        "size": 6
                     }
                 ]
             },
@@ -1134,10 +964,9 @@
                 "map_locations": [
                     {
                         "map": "Yanxia",
-                        "x": 650,
-                        "y": 1383,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 584,
+                        "y": 795,
+                        "size": 6
                     }
                 ]
             },
@@ -1164,10 +993,9 @@
                 "map_locations": [
                     {
                         "map": "Yanxia",
-                        "x": 1276,
-                        "y": 1583,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 854,
+                        "y": 989,
+                        "size": 6
                     }
                 ]
             },
@@ -1194,10 +1022,9 @@
                 "map_locations": [
                     {
                         "map": "Yanxia",
-                        "x": 1244,
-                        "y": 1125,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 2436,
+                        "y": 1793,
+                        "size": 6
                     }
                 ]
             },
@@ -1224,10 +1051,9 @@
                 "map_locations": [
                     {
                         "map": "Yanxia",
-                        "x": 1168,
-                        "y": 1221,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 61,
+                        "y": 2101,
+                        "size": 6
                     }
                 ]
             },
@@ -1254,10 +1080,9 @@
                 "map_locations": [
                     {
                         "map": "Yanxia",
-                        "x": 1529,
-                        "y": 1293,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 2152,
+                        "y": 942,
+                        "size": 6
                     }
                 ]
             },
@@ -1284,10 +1109,9 @@
                 "map_locations": [
                     {
                         "map": "Yanxia",
-                        "x": 1595,
-                        "y": 1108,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1637,
+                        "y": 2046,
+                        "size": 6
                     }
                 ]
             },
@@ -1314,10 +1138,9 @@
                 "map_locations": [
                     {
                         "map": "Yanxia",
-                        "x": 716,
-                        "y": 1654,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 289,
+                        "y": 2012,
+                        "size": 6
                     }
                 ]
             },
@@ -1344,10 +1167,9 @@
                 "map_locations": [
                     {
                         "map": "Yanxia",
-                        "x": 1882,
-                        "y": 1006,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 810,
+                        "y": 1011,
+                        "size": 6
                     }
                 ]
             },
@@ -1374,10 +1196,9 @@
                 "map_locations": [
                     {
                         "map": "Yanxia",
-                        "x": 1643,
-                        "y": 1445,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1333,
+                        "y": 905,
+                        "size": 6
                     }
                 ]
             },
@@ -1404,10 +1225,9 @@
                 "map_locations": [
                     {
                         "map": "Yanxia",
-                        "x": 1695,
-                        "y": 739,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1628,
+                        "y": 1267,
+                        "size": 6
                     }
                 ]
             },
@@ -1434,10 +1254,9 @@
                 "map_locations": [
                     {
                         "map": "Yanxia",
-                        "x": 1011,
-                        "y": 471,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 978,
+                        "y": 1071,
+                        "size": 6
                     }
                 ]
             },
@@ -1464,10 +1283,9 @@
                 "map_locations": [
                     {
                         "map": "Yanxia",
-                        "x": 750,
-                        "y": 487,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 525,
+                        "y": 2136,
+                        "size": 6
                     }
                 ]
             },
@@ -1494,10 +1312,9 @@
                 "map_locations": [
                     {
                         "map": "Yanxia",
-                        "x": 1296,
-                        "y": 412,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 297,
+                        "y": 2353,
+                        "size": 6
                     }
                 ]
             },
@@ -1524,10 +1341,9 @@
                 "map_locations": [
                     {
                         "map": "Yanxia",
-                        "x": 1454,
-                        "y": 295,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1897,
+                        "y": 554,
+                        "size": 6
                     }
                 ]
             },
@@ -1554,10 +1370,9 @@
                 "map_locations": [
                     {
                         "map": "Yanxia",
-                        "x": 1548,
-                        "y": 339,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1277,
+                        "y": 1461,
+                        "size": 6
                     }
                 ]
             },
@@ -1584,10 +1399,9 @@
                 "map_locations": [
                     {
                         "map": "Yanxia",
-                        "x": 962,
-                        "y": 299,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1611,
+                        "y": 2083,
+                        "size": 6
                     }
                 ]
             },
@@ -1614,10 +1428,9 @@
                 "map_locations": [
                     {
                         "map": "Yanxia",
-                        "x": 1519,
-                        "y": 399,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1995,
+                        "y": 414,
+                        "size": 6
                     }
                 ]
             },
@@ -1644,10 +1457,9 @@
                 "map_locations": [
                     {
                         "map": "Yanxia",
-                        "x": 862,
-                        "y": 360,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1290,
+                        "y": 969,
+                        "size": 6
                     }
                 ]
             },
@@ -1674,10 +1486,9 @@
                 "map_locations": [
                     {
                         "map": "Yanxia",
-                        "x": 1275,
-                        "y": 373,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1295,
+                        "y": 348,
+                        "size": 6
                     }
                 ]
             },
@@ -1704,10 +1515,9 @@
                 "map_locations": [
                     {
                         "map": "Yanxia",
-                        "x": 1370,
-                        "y": 336,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1027,
+                        "y": 1254,
+                        "size": 6
                     }
                 ]
             },
@@ -1734,10 +1544,9 @@
                 "map_locations": [
                     {
                         "map": "Yanxia",
-                        "x": 1002,
-                        "y": 581,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1786,
+                        "y": 1599,
+                        "size": 6
                     }
                 ]
             },
@@ -1764,10 +1573,9 @@
                 "map_locations": [
                     {
                         "map": "Yanxia",
-                        "x": 1257,
-                        "y": 413,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 794,
+                        "y": 793,
+                        "size": 6
                     }
                 ]
             },
@@ -1794,10 +1602,9 @@
                 "map_locations": [
                     {
                         "map": "Yanxia",
-                        "x": 715,
-                        "y": 95,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1931,
+                        "y": 335,
+                        "size": 6
                     }
                 ]
             },
@@ -1815,76 +1622,53 @@
                 "sections": [
                     {
                         "name": "Yanxian Barramundi",
-                        "access_rules": [
-                            "stoneflylarva"
-                        ],
+                        "access_rules": ["stoneflylarva"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Yanxian Koi",
-                        "access_rules": [
-                            "stoneflylarva"
-                        ],
+                        "access_rules": ["stoneflylarva"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Kotsu Zetsu",
-                        "access_rules": [
-                            "suspendingminnow",
-                            "stoneflylarva",
-                            "metalspinner"
-                        ],
+                        "access_rules": ["suspendingminnow", "stoneflylarva", "metalspinner"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Longhair Catfish",
-                        "access_rules": [
-                            "suspendingminnow",
-                            "stoneflylarva"
-                        ],
+                        "access_rules": ["suspendingminnow", "stoneflylarva"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Doman Trout",
-                        "access_rules": [
-                            "suspendingminnow",
-                            "nightcrawler",
-                            "midgelarva",
-                            "metalspinner"
-                        ],
+                        "access_rules": ["suspendingminnow", "nightcrawler", "midgelarva", "metalspinner"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Othardian Salmon",
-                        "access_rules": [
-                            "metalspinner"
-                        ],
+                        "access_rules": ["metalspinner"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Axelrod",
-                        "access_rules": [
-                            "stoneflylarva"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_big"
-                        ],
+                        "access_rules": ["stoneflylarva"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Yanxia",
-                        "x": 1052,
-                        "y": 1083,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 2173,
+                        "y": 1224,
+                        "size": 6
                     }
                 ]
             },
@@ -1902,62 +1686,41 @@
                 "sections": [
                     {
                         "name": "Seraphim",
-                        "access_rules": [
-                            "stoneflylarva"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_timed"
-                        ],
+                        "access_rules": ["stoneflylarva"],
+                        "visibility_rules": ["fishsanity_timed"],
                         "item_count": 1
                     },
                     {
                         "name": "Longhair Catfish",
-                        "access_rules": [
-                            "suspendingminnow",
-                            "stoneflylarva"
-                        ],
+                        "access_rules": ["suspendingminnow", "stoneflylarva"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Doman Trout",
-                        "access_rules": [
-                            "suspendingminnow",
-                            "nightcrawler",
-                            "midgelarva",
-                            "metalspinner"
-                        ],
+                        "access_rules": ["suspendingminnow", "nightcrawler", "midgelarva", "metalspinner"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Kotsu Zetsu",
-                        "access_rules": [
-                            "suspendingminnow",
-                            "stoneflylarva",
-                            "metalspinner"
-                        ],
+                        "access_rules": ["suspendingminnow", "stoneflylarva", "metalspinner"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Hagoromo Bijin",
-                        "access_rules": [
-                            "stoneflylarva"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_big"
-                        ],
+                        "access_rules": ["stoneflylarva"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Yanxia",
-                        "x": 564,
-                        "y": 1622,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 527,
+                        "y": 1610,
+                        "size": 6
                     }
                 ]
             },
@@ -1975,58 +1738,37 @@
                 "sections": [
                     {
                         "name": "Doman Grass Carp",
-                        "access_rules": [
-                            "midgelarva"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_timed"
-                        ],
+                        "access_rules": ["midgelarva"],
+                        "visibility_rules": ["fishsanity_timed"],
                         "item_count": 1
                     },
                     {
                         "name": "Lordly Salmon",
-                        "access_rules": [
-                            "versatilelure"
-                        ],
+                        "access_rules": ["versatilelure"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Kotsu Zetsu",
-                        "access_rules": [
-                            "suspendingminnow",
-                            "stoneflylarva",
-                            "metalspinner"
-                        ],
+                        "access_rules": ["suspendingminnow", "stoneflylarva", "metalspinner"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Doman Trout",
-                        "access_rules": [
-                            "suspendingminnow",
-                            "nightcrawler",
-                            "midgelarva",
-                            "metalspinner"
-                        ],
+                        "access_rules": ["suspendingminnow", "nightcrawler", "midgelarva", "metalspinner"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Suiten Ippeki",
-                        "access_rules": [
-                            "stoneflylarva"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_big"
-                        ],
+                        "access_rules": ["stoneflylarva"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     },
                     {
                         "name": "White Clam",
-                        "access_rules": [
-                            "metalspinner"
-                        ],
+                        "access_rules": ["metalspinner"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -2034,10 +1776,9 @@
                 "map_locations": [
                     {
                         "map": "Yanxia",
-                        "x": 571,
-                        "y": 728,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1509,
+                        "y": 159,
+                        "size": 6
                     }
                 ]
             },
@@ -2055,50 +1796,35 @@
                 "sections": [
                     {
                         "name": "River Barramundi",
-                        "access_rules": [
-                            "versatilelure"
-                        ],
+                        "access_rules": ["versatilelure"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Doman Crayfish",
-                        "access_rules": [
-                            "stoneflylarva",
-                            "nightcrawler"
-                        ],
+                        "access_rules": ["stoneflylarva", "nightcrawler"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Doman Trout",
-                        "access_rules": [
-                            "suspendingminnow",
-                            "nightcrawler",
-                            "midgelarva",
-                            "metalspinner"
-                        ],
+                        "access_rules": ["suspendingminnow", "nightcrawler", "midgelarva", "metalspinner"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Glarramundi",
-                        "access_rules": [
-                            "suspendingminnow"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_big"
-                        ],
+                        "access_rules": ["suspendingminnow"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Yanxia",
-                        "x": 1744,
-                        "y": 787,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 2336,
+                        "y": 1869,
+                        "size": 6
                     }
                 ]
             },
@@ -2116,71 +1842,47 @@
                 "sections": [
                     {
                         "name": "Silken Koi",
-                        "access_rules": [
-                            "stoneflylarva"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_timed"
-                        ],
+                        "access_rules": ["stoneflylarva"],
+                        "visibility_rules": ["fishsanity_timed"],
                         "item_count": 1
                     },
                     {
                         "name": "Kotsu Zetsu",
-                        "access_rules": [
-                            "suspendingminnow",
-                            "stoneflylarva",
-                            "metalspinner"
-                        ],
+                        "access_rules": ["suspendingminnow", "stoneflylarva", "metalspinner"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Plum Gazer",
-                        "access_rules": [
-                            "midgelarva"
-                        ],
+                        "access_rules": ["midgelarva"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Pandamoth",
-                        "access_rules": [
-                            "midgelarva"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_timed"
-                        ],
+                        "access_rules": ["midgelarva"],
+                        "visibility_rules": ["fishsanity_timed"],
                         "item_count": 1
                     },
                     {
                         "name": "Doman Trout",
-                        "access_rules": [
-                            "suspendingminnow",
-                            "nightcrawler",
-                            "midgelarva",
-                            "metalspinner"
-                        ],
+                        "access_rules": ["suspendingminnow", "nightcrawler", "midgelarva", "metalspinner"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Hagoromo Koi",
-                        "access_rules": [
-                            "stoneflylarva"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_big"
-                        ],
+                        "access_rules": ["stoneflylarva"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Yanxia",
-                        "x": 1749,
-                        "y": 1135,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1970,
+                        "y": 1070,
+                        "size": 6
                     }
                 ]
             },
@@ -2198,92 +1900,65 @@
                 "sections": [
                     {
                         "name": "Yellow Prismfish",
-                        "access_rules": [
-                            "suspendingminnow"
-                        ],
+                        "access_rules": ["suspendingminnow"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Blue Prismfish",
-                        "access_rules": [
-                            "suspendingminnow"
-                        ],
+                        "access_rules": ["suspendingminnow"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Violet Prismfish",
-                        "access_rules": [
-                            "stoneflylarva"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_timed"
-                        ],
+                        "access_rules": ["stoneflylarva"],
+                        "visibility_rules": ["fishsanity_timed"],
                         "item_count": 1
                     },
                     {
                         "name": "Red Prismfish",
-                        "access_rules": [
-                            "stoneflylarva"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_timed"
-                        ],
+                        "access_rules": ["stoneflylarva"],
+                        "visibility_rules": ["fishsanity_timed"],
                         "item_count": 1
                     },
                     {
                         "name": "White Goldfish",
-                        "access_rules": [
-                            "stoneflylarva"
-                        ],
+                        "access_rules": ["stoneflylarva"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Firelight Goldfish",
-                        "access_rules": [
-                            "stoneflylarva"
-                        ],
+                        "access_rules": ["stoneflylarva"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Indigo Prismfish",
-                        "access_rules": [
-                            "stoneflylarva"
-                        ],
+                        "access_rules": ["stoneflylarva"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Green Prismfish",
-                        "access_rules": [
-                            "stoneflylarva"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_timed"
-                        ],
+                        "access_rules": ["stoneflylarva"],
+                        "visibility_rules": ["fishsanity_timed"],
                         "item_count": 1
                     },
                     {
                         "name": "Warden of the Seven Hues",
-                        "access_rules": [
-                            "stoneflylarva"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_big"
-                        ],
+                        "access_rules": ["stoneflylarva"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Yanxia",
-                        "x": 1366,
-                        "y": 262,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 547,
+                        "y": 1290,
+                        "size": 6
                     }
                 ]
             },
@@ -2301,50 +1976,35 @@
                 "sections": [
                     {
                         "name": "Doman Crayfish",
-                        "access_rules": [
-                            "stoneflylarva",
-                            "nightcrawler"
-                        ],
+                        "access_rules": ["stoneflylarva", "nightcrawler"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Doman Trout",
-                        "access_rules": [
-                            "suspendingminnow",
-                            "nightcrawler",
-                            "midgelarva",
-                            "metalspinner"
-                        ],
+                        "access_rules": ["suspendingminnow", "nightcrawler", "midgelarva", "metalspinner"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Maidens Heart",
-                        "access_rules": [
-                            "nightcrawler"
-                        ],
+                        "access_rules": ["nightcrawler"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Pomegranate Trout",
-                        "access_rules": [
-                            "nightcrawler"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_big"
-                        ],
+                        "access_rules": ["nightcrawler"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Yanxia",
-                        "x": 1680,
-                        "y": 637,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 860,
+                        "y": 2016,
+                        "size": 6
                     }
                 ]
             },
@@ -2362,50 +2022,35 @@
                 "sections": [
                     {
                         "name": "Doman Crayfish",
-                        "access_rules": [
-                            "stoneflylarva",
-                            "nightcrawler"
-                        ],
+                        "access_rules": ["stoneflylarva", "nightcrawler"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Doman Trout",
-                        "access_rules": [
-                            "suspendingminnow",
-                            "nightcrawler",
-                            "midgelarva",
-                            "metalspinner"
-                        ],
+                        "access_rules": ["suspendingminnow", "nightcrawler", "midgelarva", "metalspinner"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Doman Eel",
-                        "access_rules": [
-                            "versatilelure"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_timed"
-                        ],
+                        "access_rules": ["versatilelure"],
+                        "visibility_rules": ["fishsanity_timed"],
                         "item_count": 1
                     },
                     {
                         "name": "The Unraveled Bow",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "fishsanity_big"
-                        ],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Yanxia",
-                        "x": 1527,
-                        "y": 296,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1094,
+                        "y": 2147,
+                        "size": 6
                     }
                 ]
             },
@@ -2423,28 +2068,23 @@
                 "sections": [
                     {
                         "name": "Nogoi",
-                        "access_rules": [
-                            "nightcrawler"
-                        ],
+                        "access_rules": ["nightcrawler"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Hermits End",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "fishsanity_big"
-                        ],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Yanxia",
-                        "x": 1424,
-                        "y": 730,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 381,
+                        "y": 2043,
+                        "size": 6
                     }
                 ]
             }
