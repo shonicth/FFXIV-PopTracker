@@ -179,41 +179,49 @@ end
       --Connected to East Shroud
       (has(thefringesaccess) and (eastshroudaccess()))
     )
+  end
   function rhalgrsreachaccess()
     return(
       --Connected to Fringes
       (has("rhalgrsreachaccess") and(thefringesaccess()))
     )
+    end
   function thepeaksaccess()
     return(
       --Connected to Fringes
       (has("thepeaksaccess") and(thefringesaccess()))
     )
+    end
   function thelochsaccess()
     return(
       --Connected to Fringes
       (has("thelochsaccess") and(thepeaksaccess()))
     )
+    end
   function kuganeaccess()
     return(
       --Connected to Fringes
       (has("kuganeaccess"))
     )
+    end
   function therubyseaaccess()
     return(
       --Connected to Fringes
       (has("therubyseaaccess") and(kuganeaccess()))
     )
+    end
   function theazimsteppeaccess()
     return(
       --Connected to Fringes
       (has("theazimsteppeaccess") and(therubyseaaccess()))
     )
+    end
   function yanxiaaccess()
     return(
       --Connected to Fringes
       (has("yanxiaaccess") and(therubyseaaccess()))
     )
+    end
 --ShB
 
 --EnW
