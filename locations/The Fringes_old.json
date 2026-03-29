@@ -41,10 +41,9 @@
                 "map_locations": [
                     {
                         "map": "The Fringes",
-                        "x": 1357,
-                        "y": 911,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 903,
+                        "y": 2482,
+                        "size": 6
                     }
                 ]
             },
@@ -54,212 +53,163 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "$leveling:70, omegakey"
-                ],
-                "visibility_rules": [
-                    "level_cap:70, duty_difficulty_normal"
-                ],
+                            "$leveling:70, omegakey"
+                        ],
+                        "visibility_rules": [
+                            "level_cap:70, duty_difficulty_normal"
+                        ],
                 "sections": [
                     {
                         "name": "Deltascape V1.0",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "$duty_visibility|Deltascape V1.0"
-                        ],
+                        "visibility_rules": ["$duty_visibility|Deltascape V1.0"],
                         "item_count": 1
                     },
                     {
                         "name": "Deltascape V2.0",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "$duty_visibility|Deltascape V2.0"
-                        ],
+                        "visibility_rules": ["$duty_visibility|Deltascape V2.0"],
                         "item_count": 1
                     },
                     {
                         "name": "Deltascape V3.0",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "$duty_visibility|Deltascape V3.0"
-                        ],
+                        "visibility_rules": ["$duty_visibility|Deltascape V3.0"],
                         "item_count": 1
                     },
                     {
                         "name": "Deltascape V4.0",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "$duty_visibility|Deltascape V4.0"
-                        ],
+                        "visibility_rules": ["$duty_visibility|Deltascape V4.0"],
                         "item_count": 1
                     },
                     {
                         "name": "Sigmascape V1.0",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "$duty_visibility|Sigmascape V1.0"
-                        ],
+                        "visibility_rules": ["$duty_visibility|Sigmascape V1.0"],
                         "item_count": 1
                     },
                     {
                         "name": "Sigmascape V2.0",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "$duty_visibility|Sigmascape V2.0"
-                        ],
+                        "visibility_rules": ["$duty_visibility|Sigmascape V2.0"],
                         "item_count": 1
                     },
                     {
                         "name": "Sigmascape V3.0",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "$duty_visibility|Sigmascape V3.0"
-                        ],
+                        "visibility_rules": ["$duty_visibility|Sigmascape V3.0"],
                         "item_count": 1
                     },
                     {
                         "name": "Sigmascape V4.0",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "$duty_visibility|Sigmascape V4.0"
-                        ],
+                        "visibility_rules": ["$duty_visibility|Sigmascape V4.0"],
                         "item_count": 1
                     },
                     {
                         "name": "Alphascape V1.0",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "$duty_visibility|Alphascape V1.0"
-                        ],
+                        "visibility_rules": ["$duty_visibility|Alphascape V1.0"],
                         "item_count": 1
                     },
                     {
                         "name": "Alphascape V2.0",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "$duty_visibility|Alphascape V2.0"
-                        ],
+                        "visibility_rules": ["$duty_visibility|Alphascape V2.0"],
                         "item_count": 1
                     },
                     {
                         "name": "Alphascape V3.0",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "$duty_visibility|Alphascape V3.0"
-                        ],
+                        "visibility_rules": ["$duty_visibility|Alphascape V3.0"],
                         "item_count": 1
                     },
                     {
                         "name": "Alphascape V4.0",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "$duty_visibility|Alphascape V4.0"
-                        ],
+                        "visibility_rules": ["$duty_visibility|Alphascape V4.0"],
                         "item_count": 1
                     },
                     {
                         "name": "Deltascape V1.0 (Savage)",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "duty_difficulty_savage, $duty_visibility|Deltascape V1.0 (Savage)"
-                        ],
+                        "visibility_rules": ["duty_difficulty_savage, $duty_visibility|Deltascape V1.0 (Savage)"],
                         "item_count": 1
                     },
                     {
                         "name": "Deltascape V2.0 (Savage)",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "duty_difficulty_savage, $duty_visibility|Deltascape V2.0 (Savage)"
-                        ],
+                        "visibility_rules": ["duty_difficulty_savage, $duty_visibility|Deltascape V2.0 (Savage)"],
                         "item_count": 1
                     },
                     {
                         "name": "Deltascape V3.0 (Savage)",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "duty_difficulty_savage, $duty_visibility|Deltascape V3.0 (Savage)"
-                        ],
+                        "visibility_rules": ["duty_difficulty_savage, $duty_visibility|Deltascape V3.0 (Savage)"],
                         "item_count": 1
                     },
                     {
                         "name": "Deltascape V4.0 (Savage)",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "duty_difficulty_savage, $duty_visibility|Deltascape V4.0 (Savage)"
-                        ],
+                        "visibility_rules": ["duty_difficulty_savage, $duty_visibility|Deltascape V4.0 (Savage)"],
                         "item_count": 1
                     },
                     {
                         "name": "Sigmascape V1.0 (Savage)",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "duty_difficulty_savage, $duty_visibility|Sigmascape V1.0 (Savage)"
-                        ],
+                        "visibility_rules": ["duty_difficulty_savage, $duty_visibility|Sigmascape V1.0 (Savage)"],
                         "item_count": 1
                     },
                     {
                         "name": "Sigmascape V2.0 (Savage)",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "duty_difficulty_savage, $duty_visibility|Sigmascape V2.0 (Savage)"
-                        ],
+                        "visibility_rules": ["duty_difficulty_savage, $duty_visibility|Sigmascape V2.0 (Savage)"],
                         "item_count": 1
                     },
                     {
                         "name": "Sigmascape V3.0 (Savage)",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "duty_difficulty_savage, $duty_visibility|Sigmascape V3.0 (Savage)"
-                        ],
+                        "visibility_rules": ["duty_difficulty_savage, $duty_visibility|Sigmascape V3.0 (Savage)"],
                         "item_count": 1
                     },
                     {
                         "name": "Sigmascape V4.0 (Savage)",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "duty_difficulty_savage, $duty_visibility|Sigmascape V4.0 (Savage)"
-                        ],
+                        "visibility_rules": ["duty_difficulty_savage, $duty_visibility|Sigmascape V4.0 (Savage)"],
                         "item_count": 1
                     },
                     {
                         "name": "Alphascape V1.0 (Savage)",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "duty_difficulty_savage, $duty_visibility|Sigmascape V4.0 (Savage)"
-                        ],
+                        "visibility_rules": ["duty_difficulty_savage, $duty_visibility|Sigmascape V4.0 (Savage)"],
                         "item_count": 1
                     },
                     {
                         "name": "Alphascape V2.0 (Savage)",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "duty_difficulty_savage, $duty_visibility|Sigmascape V4.0 (Savage)"
-                        ],
+                        "visibility_rules": ["duty_difficulty_savage, $duty_visibility|Sigmascape V4.0 (Savage)"],
                         "item_count": 1
                     },
                     {
                         "name": "Alphascape V3.0 (Savage)",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "duty_difficulty_savage, $duty_visibility|Sigmascape V4.0 (Savage)"
-                        ],
+                        "visibility_rules": ["duty_difficulty_savage, $duty_visibility|Sigmascape V4.0 (Savage)"],
                         "item_count": 1
                     },
                     {
                         "name": "Alphascape V4.0 (Savage)",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "duty_difficulty_savage, $duty_visibility|Sigmascape V4.0 (Savage)"
-                        ],
+                        "visibility_rules": ["duty_difficulty_savage, $duty_visibility|Sigmascape V4.0 (Savage)"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "The Fringes",
-                        "x": 1478,
-                        "y": 1650,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1205,
+                        "y": 1798,
+                        "size": 6
                     }
                 ]
             },
@@ -359,10 +309,9 @@
                 "map_locations": [
                     {
                         "map": "The Fringes",
-                        "x": 1471,
-                        "y": 1531,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1623,
+                        "y": 969,
+                        "size": 6
                     }
                 ]
             },
@@ -389,10 +338,9 @@
                 "map_locations": [
                     {
                         "map": "The Fringes",
-                        "x": 1343,
-                        "y": 462,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 990,
+                        "y": 53,
+                        "size": 6
                     }
                 ]
             },
@@ -419,10 +367,9 @@
                 "map_locations": [
                     {
                         "map": "The Fringes",
-                        "x": 584,
-                        "y": 499,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 812,
+                        "y": 359,
+                        "size": 6
                     }
                 ]
             },
@@ -449,10 +396,9 @@
                 "map_locations": [
                     {
                         "map": "The Fringes",
-                        "x": 557,
-                        "y": 772,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 185,
+                        "y": 125,
+                        "size": 6
                     }
                 ]
             },
@@ -479,10 +425,9 @@
                 "map_locations": [
                     {
                         "map": "The Fringes",
-                        "x": 1157,
-                        "y": 514,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1610,
+                        "y": 312,
+                        "size": 6
                     }
                 ]
             },
@@ -509,10 +454,9 @@
                 "map_locations": [
                     {
                         "map": "The Fringes",
-                        "x": 1396,
-                        "y": 554,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1795,
+                        "y": 1156,
+                        "size": 6
                     }
                 ]
             },
@@ -539,10 +483,9 @@
                 "map_locations": [
                     {
                         "map": "The Fringes",
-                        "x": 1137,
-                        "y": 668,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1713,
+                        "y": 1968,
+                        "size": 6
                     }
                 ]
             },
@@ -569,10 +512,9 @@
                 "map_locations": [
                     {
                         "map": "The Fringes",
-                        "x": 878,
-                        "y": 520,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 295,
+                        "y": 1724,
+                        "size": 6
                     }
                 ]
             },
@@ -599,10 +541,9 @@
                 "map_locations": [
                     {
                         "map": "The Fringes",
-                        "x": 398,
-                        "y": 742,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1584,
+                        "y": 1278,
+                        "size": 6
                     }
                 ]
             },
@@ -629,10 +570,9 @@
                 "map_locations": [
                     {
                         "map": "The Fringes",
-                        "x": 360,
-                        "y": 787,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1661,
+                        "y": 793,
+                        "size": 6
                     }
                 ]
             },
@@ -659,10 +599,9 @@
                 "map_locations": [
                     {
                         "map": "The Fringes",
-                        "x": 414,
-                        "y": 786,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 2215,
+                        "y": 1107,
+                        "size": 6
                     }
                 ]
             },
@@ -689,10 +628,9 @@
                 "map_locations": [
                     {
                         "map": "The Fringes",
-                        "x": 575,
-                        "y": 630,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1230,
+                        "y": 1602,
+                        "size": 6
                     }
                 ]
             },
@@ -719,10 +657,9 @@
                 "map_locations": [
                     {
                         "map": "The Fringes",
-                        "x": 470,
-                        "y": 593,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1813,
+                        "y": 1349,
+                        "size": 6
                     }
                 ]
             },
@@ -749,10 +686,9 @@
                 "map_locations": [
                     {
                         "map": "The Fringes",
-                        "x": 504,
-                        "y": 931,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 2200,
+                        "y": 240,
+                        "size": 6
                     }
                 ]
             },
@@ -779,10 +715,9 @@
                 "map_locations": [
                     {
                         "map": "The Fringes",
-                        "x": 697,
-                        "y": 1125,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 2323,
+                        "y": 1513,
+                        "size": 6
                     }
                 ]
             },
@@ -809,10 +744,9 @@
                 "map_locations": [
                     {
                         "map": "The Fringes",
-                        "x": 544,
-                        "y": 1066,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1117,
+                        "y": 1169,
+                        "size": 6
                     }
                 ]
             },
@@ -839,10 +773,9 @@
                 "map_locations": [
                     {
                         "map": "The Fringes",
-                        "x": 492,
-                        "y": 1410,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 2051,
+                        "y": 1982,
+                        "size": 6
                     }
                 ]
             },
@@ -869,10 +802,9 @@
                 "map_locations": [
                     {
                         "map": "The Fringes",
-                        "x": 541,
-                        "y": 1258,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 384,
+                        "y": 2034,
+                        "size": 6
                     }
                 ]
             },
@@ -899,10 +831,9 @@
                 "map_locations": [
                     {
                         "map": "The Fringes",
-                        "x": 853,
-                        "y": 839,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 404,
+                        "y": 238,
+                        "size": 6
                     }
                 ]
             },
@@ -929,10 +860,9 @@
                 "map_locations": [
                     {
                         "map": "The Fringes",
-                        "x": 630,
-                        "y": 980,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1658,
+                        "y": 1363,
+                        "size": 6
                     }
                 ]
             },
@@ -959,10 +889,9 @@
                 "map_locations": [
                     {
                         "map": "The Fringes",
-                        "x": 1707,
-                        "y": 1253,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 257,
+                        "y": 861,
+                        "size": 6
                     }
                 ]
             },
@@ -989,10 +918,9 @@
                 "map_locations": [
                     {
                         "map": "The Fringes",
-                        "x": 1405,
-                        "y": 813,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 2364,
+                        "y": 265,
+                        "size": 6
                     }
                 ]
             },
@@ -1019,10 +947,9 @@
                 "map_locations": [
                     {
                         "map": "The Fringes",
-                        "x": 1359,
-                        "y": 1330,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 268,
+                        "y": 995,
+                        "size": 6
                     }
                 ]
             },
@@ -1049,10 +976,9 @@
                 "map_locations": [
                     {
                         "map": "The Fringes",
-                        "x": 1285,
-                        "y": 1231,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1966,
+                        "y": 465,
+                        "size": 6
                     }
                 ]
             },
@@ -1079,10 +1005,9 @@
                 "map_locations": [
                     {
                         "map": "The Fringes",
-                        "x": 1546,
-                        "y": 1248,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 2229,
+                        "y": 1767,
+                        "size": 6
                     }
                 ]
             },
@@ -1109,10 +1034,9 @@
                 "map_locations": [
                     {
                         "map": "The Fringes",
-                        "x": 1511,
-                        "y": 1045,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 2211,
+                        "y": 2345,
+                        "size": 6
                     }
                 ]
             },
@@ -1139,10 +1063,9 @@
                 "map_locations": [
                     {
                         "map": "The Fringes",
-                        "x": 1511,
-                        "y": 1004,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1930,
+                        "y": 557,
+                        "size": 6
                     }
                 ]
             },
@@ -1169,10 +1092,9 @@
                 "map_locations": [
                     {
                         "map": "The Fringes",
-                        "x": 1437,
-                        "y": 1153,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1011,
+                        "y": 604,
+                        "size": 6
                     }
                 ]
             },
@@ -1199,10 +1121,9 @@
                 "map_locations": [
                     {
                         "map": "The Fringes",
-                        "x": 1552,
-                        "y": 1441,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 656,
+                        "y": 2364,
+                        "size": 6
                     }
                 ]
             },
@@ -1229,10 +1150,9 @@
                 "map_locations": [
                     {
                         "map": "The Fringes",
-                        "x": 1744,
-                        "y": 1423,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1047,
+                        "y": 1545,
+                        "size": 6
                     }
                 ]
             },
@@ -1250,62 +1170,47 @@
                 "sections": [
                     {
                         "name": "Greenstream Loach",
-                        "access_rules": [
-                            "nightcrawler"
-                        ],
+                        "access_rules": ["nightcrawler"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Bloodsipper",
-                        "access_rules": [
-                            "salmonroe"
-                        ],
+                        "access_rules": ["salmonroe"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Velodyna Grass Carp",
-                        "access_rules": [
-                            "suspendingminnow"
-                        ],
+                        "access_rules": ["suspendingminnow"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Black Velodyna Carp",
-                        "access_rules": [
-                            "suspendingminnow"
-                        ],
+                        "access_rules": ["suspendingminnow"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Velodyna Salmon",
-                        "access_rules": [
-                            "metalspinner"
-                        ],
+                        "access_rules": ["metalspinner"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Downstream Loach",
-                        "access_rules": [
-                            "stoneflylarva"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_big"
-                        ],
+                        "access_rules": ["stoneflylarva"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "The Fringes",
-                        "x": 841,
-                        "y": 414,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 2046,
+                        "y": 565,
+                        "size": 6
                     }
                 ]
             },
@@ -1323,61 +1228,43 @@
                 "sections": [
                     {
                         "name": "Mirage Chub",
-                        "access_rules": [
-                            "salmonroe"
-                        ],
+                        "access_rules": ["salmonroe"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Rhalgrs Bolt",
-                        "access_rules": [
-                            "salmonroe"
-                        ],
+                        "access_rules": ["salmonroe"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Highland Perch",
-                        "access_rules": [
-                            "salmonroe"
-                        ],
+                        "access_rules": ["salmonroe"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Gravel Gudgeon",
-                        "access_rules": [
-                            "salmonroe"
-                        ],
+                        "access_rules": ["salmonroe"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Mirage Mahi",
-                        "access_rules": [
-                            "stoneflylarva"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_timed"
-                        ],
+                        "access_rules": ["stoneflylarva"],
+                        "visibility_rules": ["fishsanity_timed"],
                         "item_count": 1
                     },
                     {
                         "name": "Corpse Chub",
-                        "access_rules": [
-                            "suspendingminnow"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_big"
-                        ],
+                        "access_rules": ["suspendingminnow"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     },
                     {
                         "name": "Scarlet Frog",
-                        "access_rules": [
-                            "metalspinner"
-                        ],
+                        "access_rules": ["metalspinner"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -1385,10 +1272,9 @@
                 "map_locations": [
                     {
                         "map": "The Fringes",
-                        "x": 1312,
-                        "y": 774,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 188,
+                        "y": 1169,
+                        "size": 6
                     }
                 ]
             },
@@ -1406,75 +1292,53 @@
                 "sections": [
                     {
                         "name": "Steelhead Trout",
-                        "access_rules": [
-                            "suspendingminnow"
-                        ],
+                        "access_rules": ["suspendingminnow"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Miounnefish",
-                        "access_rules": [
-                            "nightcrawler",
-                            "stoneflylarva"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_timed"
-                        ],
+                        "access_rules": ["nightcrawler", "stoneflylarva"],
+                        "visibility_rules": ["fishsanity_timed"],
                         "item_count": 1
                     },
                     {
                         "name": "Balloon Frog",
-                        "access_rules": [
-                            "nightcrawler"
-                        ],
+                        "access_rules": ["nightcrawler"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Death Loach",
-                        "access_rules": [
-                            "salmonroe"
-                        ],
+                        "access_rules": ["salmonroe"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Gyr Abanian Chub",
-                        "access_rules": [
-                            "metalspinner"
-                        ],
+                        "access_rules": ["metalspinner"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Hardhead Trout",
-                        "access_rules": [
-                            "stoneflylarva"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_big"
-                        ],
+                        "access_rules": ["stoneflylarva"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     },
                     {
                         "name": "Xenacanthus",
-                        "access_rules": [
-                            "stoneflylarva"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_big"
-                        ],
+                        "access_rules": ["stoneflylarva"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "The Fringes",
-                        "x": 522,
-                        "y": 863,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1294,
+                        "y": 146,
+                        "size": 6
                     }
                 ]
             },
@@ -1492,85 +1356,59 @@
                 "sections": [
                     {
                         "name": "Miounnefish",
-                        "access_rules": [
-                            "nightcrawler",
-                            "stoneflylarva"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_timed"
-                        ],
+                        "access_rules": ["nightcrawler", "stoneflylarva"],
+                        "visibility_rules": ["fishsanity_timed"],
                         "item_count": 1
                     },
                     {
                         "name": "Cave Killifish",
-                        "access_rules": [
-                            "suspendingminnow"
-                        ],
+                        "access_rules": ["suspendingminnow"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Bone Melter",
-                        "access_rules": [
-                            "salmonroe"
-                        ],
+                        "access_rules": ["salmonroe"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Fallen Leaf",
-                        "access_rules": [
-                            "suspendingminnow"
-                        ],
+                        "access_rules": ["suspendingminnow"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Padjali Loach",
-                        "access_rules": [
-                            "stoneflylarva"
-                        ],
+                        "access_rules": ["stoneflylarva"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Wraithfish",
-                        "access_rules": [
-                            "stoneflylarva"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_timed"
-                        ],
+                        "access_rules": ["stoneflylarva"],
+                        "visibility_rules": ["fishsanity_timed"],
                         "item_count": 1
                     },
                     {
                         "name": "Sapphire Fan",
-                        "access_rules": [
-                            "stoneflylarva"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_big"
-                        ],
+                        "access_rules": ["stoneflylarva"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     },
                     {
                         "name": "Chakrafish",
-                        "access_rules": [
-                            "metalspinner"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_big"
-                        ],
+                        "access_rules": ["metalspinner"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "The Fringes",
-                        "x": 383,
-                        "y": 1405,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1475,
+                        "y": 157,
+                        "size": 6
                     }
                 ]
             },
@@ -1588,78 +1426,53 @@
                 "sections": [
                     {
                         "name": "Bone Melter",
-                        "access_rules": [
-                            "salmonroe"
-                        ],
+                        "access_rules": ["salmonroe"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Falling Star",
-                        "access_rules": [
-                            "metalspinner"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_timed"
-                        ],
+                        "access_rules": ["metalspinner"],
+                        "visibility_rules": ["fishsanity_timed"],
                         "item_count": 1
                     },
                     {
                         "name": "Capsized Squeaker",
-                        "access_rules": [
-                            "salmonroe"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_timed"
-                        ],
+                        "access_rules": ["salmonroe"],
+                        "visibility_rules": ["fishsanity_timed"],
                         "item_count": 1
                     },
                     {
                         "name": "Nirvana Crab",
-                        "access_rules": [
-                            "suspendingminnow"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_timed"
-                        ],
+                        "access_rules": ["suspendingminnow"],
+                        "visibility_rules": ["fishsanity_timed"],
                         "item_count": 1
                     },
                     {
                         "name": "Cardinalfish",
-                        "access_rules": [
-                            "suspendingminnow"
-                        ],
+                        "access_rules": ["suspendingminnow"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "The Archbishop",
-                        "access_rules": [
-                            "suspendingminnow"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_big"
-                        ],
+                        "access_rules": ["suspendingminnow"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     },
                     {
                         "name": "Lake Sphairai",
-                        "access_rules": [
-                            "metalspinner"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_big"
-                        ],
+                        "access_rules": ["metalspinner"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "The Fringes",
-                        "x": 644,
-                        "y": 1506,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 986,
+                        "y": 2456,
+                        "size": 6
                     }
                 ]
             }

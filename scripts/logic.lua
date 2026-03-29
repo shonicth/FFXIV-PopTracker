@@ -174,7 +174,46 @@ end
 end
 
 --StB
-
+  function thefringesaccess()
+    return(
+      --Connected to East Shroud
+      (has(thefringesaccess) and (eastshroudaccess()))
+    )
+  function rhalgrsreachaccess()
+    return(
+      --Connected to Fringes
+      (has("rhalgrsreachaccess") and(thefringesaccess()))
+    )
+  function thepeaksaccess()
+    return(
+      --Connected to Fringes
+      (has("thepeaksaccess") and(thefringesaccess()))
+    )
+  function thelochsaccess()
+    return(
+      --Connected to Fringes
+      (has("thelochsaccess") and(thepeaksaccess()))
+    )
+  function kuganeaccess()
+    return(
+      --Connected to Fringes
+      (has("kuganeaccess"))
+    )
+  function therubyseaaccess()
+    return(
+      --Connected to Fringes
+      (has("therubyseaaccess") and(kuganeaccess()))
+    )
+  function theazimsteppeaccess()
+    return(
+      --Connected to Fringes
+      (has("theazimsteppeaccess") and(therubyseaaccess()))
+    )
+  function yanxiaaccess()
+    return(
+      --Connected to Fringes
+      (has("yanxiaaccess") and(therubyseaaccess()))
+    )
 --ShB
 
 --EnW

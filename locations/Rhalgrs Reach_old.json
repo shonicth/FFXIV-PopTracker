@@ -29,83 +29,64 @@
                     {
                         "name": "The Temple of the Fist 2",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:1"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:1"],
                         "item_count": 1
                     },
                     {
                         "name": "The Temple of the Fist 3",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:2"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:2"],
                         "item_count": 1
                     },
                     {
                         "name": "The Temple of the Fist 4",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:3"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:3"],
                         "item_count": 1
                     },
                     {
                         "name": "The Temple of the Fist 5",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:4"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:4"],
                         "item_count": 1
                     },
                     {
                         "name": "The Temple of the Fist 6",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:5"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:5"],
                         "item_count": 1
                     },
                     {
                         "name": "The Temple of the Fist 7",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:6"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:6"],
                         "item_count": 1
                     },
                     {
                         "name": "The Temple of the Fist 8",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:7"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:7"],
                         "item_count": 1
                     },
                     {
                         "name": "The Temple of the Fist 9",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:8"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:8"],
                         "item_count": 1
                     },
                     {
                         "name": "The Temple of the Fist 10",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:9"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:9"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Rhalgrs Reach",
-                        "x": 1140,
-                        "y": 458,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 269,
+                        "y": 370,
+                        "size": 6
                     }
                 ]
             },
@@ -123,73 +104,53 @@
                 "sections": [
                     {
                         "name": "Comet Minnow",
-                        "access_rules": [
-                            "nightcrawler"
-                        ],
+                        "access_rules": ["nightcrawler"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Bloodsipper",
-                        "access_rules": [
-                            "midgelarva",
-                            "salmonroe"
-                        ],
+                        "access_rules": ["midgelarva", "salmonroe"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Gilfish",
-                        "access_rules": [
-                            "nightcrawler"
-                        ],
+                        "access_rules": ["nightcrawler"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Balloon Frog",
-                        "access_rules": [
-                            "salmonroe"
-                        ],
+                        "access_rules": ["salmonroe"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Lantern Marimo",
-                        "access_rules": [
-                            "suspendingminnow"
-                        ],
+                        "access_rules": ["suspendingminnow"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Redtail",
-                        "access_rules": [
-                            "salmonroe"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_timed"
-                        ],
+                        "access_rules": ["salmonroe"],
+                        "visibility_rules": ["fishsanity_timed"],
                         "item_count": 1
                     },
                     {
                         "name": "Bloodtail Zombie",
-                        "access_rules": [
-                            "salmonroe"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_big"
-                        ],
+                        "access_rules": ["salmonroe"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Rhalgrs Reach",
-                        "x": 1122,
-                        "y": 533,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 2250,
+                        "y": 2188,
+                        "size": 6
                     }
                 ]
             },
@@ -207,70 +168,53 @@
                 "sections": [
                     {
                         "name": "Golden Cichlid",
-                        "access_rules": [
-                            "versatilelure"
-                        ],
+                        "access_rules": ["versatilelure"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Gyr Abanian Trout",
-                        "access_rules": [
-                            "midgelarva"
-                        ],
+                        "access_rules": ["midgelarva"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Monk Betta",
-                        "access_rules": [
-                            "midgelarva"
-                        ],
+                        "access_rules": ["midgelarva"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Electric Catfish",
-                        "access_rules": [
-                            "nightcrawler"
-                        ],
+                        "access_rules": ["nightcrawler"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Pagan Pirarucu",
-                        "access_rules": [
-                            "midgelarva"
-                        ],
+                        "access_rules": ["midgelarva"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Temple Carp",
-                        "access_rules": [
-                            "salmonroe"
-                        ],
+                        "access_rules": ["salmonroe"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Watcher Catfish",
-                        "access_rules": [
-                            "midgelarva"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_big"
-                        ],
+                        "access_rules": ["midgelarva"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Rhalgrs Reach",
-                        "x": 1022,
-                        "y": 945,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1657,
+                        "y": 344,
+                        "size": 6
                     }
                 ]
             },
@@ -288,65 +232,47 @@
                 "sections": [
                     {
                         "name": "Abalathian Bitterling",
-                        "access_rules": [
-                            "nightcrawler"
-                        ],
+                        "access_rules": ["nightcrawler"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Broken Crab",
-                        "access_rules": [
-                            "salmonroe"
-                        ],
+                        "access_rules": ["salmonroe"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Gyr Abanian Trout",
-                        "access_rules": [
-                            "midgelarva"
-                        ],
+                        "access_rules": ["midgelarva"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Bloodsipper",
-                        "access_rules": [
-                            "midgelarva",
-                            "salmonroe"
-                        ],
+                        "access_rules": ["midgelarva", "salmonroe"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Miounnefish",
-                        "access_rules": [
-                            "midgelarva"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_timed"
-                        ],
+                        "access_rules": ["midgelarva"],
+                        "visibility_rules": ["fishsanity_timed"],
                         "item_count": 1
                     },
                     {
                         "name": "Hookstealer",
-                        "access_rules": [
-                            "midgelarva"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_big"
-                        ],
+                        "access_rules": ["midgelarva"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Rhalgrs Reach",
-                        "x": 1010,
-                        "y": 1354,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 144,
+                        "y": 1564,
+                        "size": 6
                     }
                 ]
             }
