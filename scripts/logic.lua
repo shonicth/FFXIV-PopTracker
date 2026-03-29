@@ -57,7 +57,7 @@ end
 function outerlanosceaaccess()
     return(
     --Connected to Upper
-    (has("outerlanosceaaccess") and upperlanoaccess())
+    (has("outerlanosceaaccess") and upperlanosceaaccess())
   )
 end
 function mistaccess()
