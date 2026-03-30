@@ -29,83 +29,64 @@
                     {
                         "name": "The Aetherfont 2",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:1"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:1"],
                         "item_count": 1
                     },
                     {
                         "name": "The Aetherfont 3",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:2"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:2"],
                         "item_count": 1
                     },
                     {
                         "name": "The Aetherfont 4",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:3"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:3"],
                         "item_count": 1
                     },
                     {
                         "name": "The Aetherfont 5",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:4"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:4"],
                         "item_count": 1
                     },
                     {
                         "name": "The Aetherfont 6",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:5"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:5"],
                         "item_count": 1
                     },
                     {
                         "name": "The Aetherfont 7",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:6"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:6"],
                         "item_count": 1
                     },
                     {
                         "name": "The Aetherfont 8",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:7"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:7"],
                         "item_count": 1
                     },
                     {
                         "name": "The Aetherfont 9",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:8"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:8"],
                         "item_count": 1
                     },
                     {
                         "name": "The Aetherfont 10",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:9"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:9"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Old Sharlayan",
-                        "x": 1305,
-                        "y": 1491,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1728,
+                        "y": 402,
+                        "size": 6
                     }
                 ]
             },
@@ -123,67 +104,47 @@
                 "sections": [
                     {
                         "name": "Pecten",
-                        "access_rules": [
-                            "shrimpball",
-                            "mackerelstrip"
-                        ],
+                        "access_rules": ["shrimpball", "mackerelstrip"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Northern Herring",
-                        "access_rules": [
-                            "shrimpball",
-                            "mackerelstrip"
-                        ],
+                        "access_rules": ["shrimpball", "mackerelstrip"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Dog-faced Puffer",
-                        "access_rules": [
-                            "shrimpball",
-                            "mackerelstrip"
-                        ],
+                        "access_rules": ["shrimpball", "mackerelstrip"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Cobalt Chromis",
-                        "access_rules": [
-                            "shrimpball",
-                            "mackerelstrip"
-                        ],
+                        "access_rules": ["shrimpball", "mackerelstrip"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Guitarfish",
-                        "access_rules": [
-                            "shrimpball",
-                            "mackerelstrip"
-                        ],
+                        "access_rules": ["shrimpball", "mackerelstrip"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Aetherolectric Guitarfish",
-                        "access_rules": [
-                            "mackerelstrip"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_big"
-                        ],
+                        "access_rules": ["mackerelstrip"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Old Sharlayan",
-                        "x": 1053,
-                        "y": 1326,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1834,
+                        "y": 2053,
+                        "size": 6
                     }
                 ]
             },
@@ -201,55 +162,35 @@
                 "sections": [
                     {
                         "name": "Peacock Bass",
-                        "access_rules": [
-                            "goldsalmonroe",
-                            "leech",
-                            "skyspoonlure",
-                            "mayfly"
-                        ],
+                        "access_rules": ["goldsalmonroe", "leech", "skyspoonlure", "mayfly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Academician",
-                        "access_rules": [
-                            "goldsalmonroe",
-                            "leech",
-                            "skyspoonlure",
-                            "mayfly"
-                        ],
+                        "access_rules": ["goldsalmonroe", "leech", "skyspoonlure", "mayfly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Swordspine Snook",
-                        "access_rules": [
-                            "goldsalmonroe",
-                            "leech",
-                            "skyspoonlure",
-                            "mayfly"
-                        ],
+                        "access_rules": ["goldsalmonroe", "leech", "skyspoonlure", "mayfly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Greatsword Snook",
-                        "access_rules": [
-                            "mayfly"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_big"
-                        ],
+                        "access_rules": ["mayfly"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Old Sharlayan",
-                        "x": 1025,
-                        "y": 692,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 737,
+                        "y": 2401,
+                        "size": 6
                     }
                 ]
             },
@@ -267,44 +208,29 @@
                 "sections": [
                     {
                         "name": "Ponderer",
-                        "access_rules": [
-                            "goldsalmonroe",
-                            "leech",
-                            "skyspoonlure",
-                            "mayfly"
-                        ],
+                        "access_rules": ["goldsalmonroe", "leech", "skyspoonlure", "mayfly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Tidal Dahlia",
-                        "access_rules": [
-                            "goldsalmonroe",
-                            "leech",
-                            "skyspoonlure",
-                            "mayfly"
-                        ],
+                        "access_rules": ["goldsalmonroe", "leech", "skyspoonlure", "mayfly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Catastrophizer",
-                        "access_rules": [
-                            "mayfly"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_big"
-                        ],
+                        "access_rules": ["mayfly"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Old Sharlayan",
-                        "x": 667,
-                        "y": 1003,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1479,
+                        "y": 708,
+                        "size": 6
                     }
                 ]
             }
