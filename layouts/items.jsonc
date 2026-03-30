@@ -441,6 +441,17 @@
             // }
         ]
     },
+    //test, might need to change the names
+    "shared_item_grid_horizontal_fish": {
+        "type": "array",
+        "orientation": "horizontal",
+        "margin": "0,0",
+        "content": [{
+                "type": "layout",
+                "key": "bait"
+            }
+        ]
+    },
     "shared_item_grid_vertical": {
         "type": "array",
         "orientation": "vertical",
