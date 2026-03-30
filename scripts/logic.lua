@@ -302,6 +302,11 @@ function thavnairaccess()
     (has("thavnairaccess") and (oldsharlayanaccess() or radzathanaccess()))
   )
 end
+function elpisaccess()
+  return(
+    (has("elpisaccess") and (thecrystariumaccess()))
+  )
+end
 
 
 --DT
