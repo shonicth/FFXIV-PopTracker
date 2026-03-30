@@ -14,7 +14,10 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "$leveling:91"
+                ],
+                "visibility_rules": [
+                    "level_cap:91, duty_difficulty_normal, $duty_visibility|Ihuykatumu"
                 ],
                 "sections": [
                     {
@@ -26,64 +29,83 @@
                     {
                         "name": "Ihuykatumu 2",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "extra_dungeon_checks:1"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Ihuykatumu 3",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "extra_dungeon_checks:2"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Ihuykatumu 4",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "extra_dungeon_checks:3"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Ihuykatumu 5",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "extra_dungeon_checks:4"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Ihuykatumu 6",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "extra_dungeon_checks:5"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Ihuykatumu 7",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "extra_dungeon_checks:6"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Ihuykatumu 8",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "extra_dungeon_checks:7"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Ihuykatumu 9",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "extra_dungeon_checks:8"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Ihuykatumu 10",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "extra_dungeon_checks:9"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Tuliyollal",
-                        "x": 1444,
-                        "y": 1830,
-                        "size": 6
+                        "x": 1430,
+                        "y": 1178,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -93,40 +115,54 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "5fshlevels:90"
+                ],
+                "visibility_rules": [
+                    "level_cap:90, fishsanity_normal"
                 ],
                 "sections": [
                     {
                         "name": "Mosquito Fish",
-                        "access_rules": [],
+                        "access_rules": [
+                            "popperlure"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Pel Frog",
-                        "access_rules": [],
+                        "access_rules": [
+                            "goldenstoneflynymph"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Petticoat Tetra",
-                        "access_rules": [],
+                        "access_rules": [
+                            "honeybee"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Icuvlos Barter",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "crimsonlugworm"
+                        ],
+                        "visibility_rules": [
+                            "fishsanity_big"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Tuliyollal",
-                        "x": 991,
-                        "y": 2085,
-                        "size": 6
+                        "x": 739,
+                        "y": 859,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -136,42 +172,58 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "5fshlevels:90"
+                ],
+                "visibility_rules": [
+                    "level_cap:90, fishsanity_normal"
                 ],
                 "sections": [
                     {
                         "name": "Reasonscale Silverside",
-                        "access_rules": [],
+                        "access_rules": [
+                            "crimsonlugworm",
+                            "shuckedclam"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Stardust Shrimp",
-                        "access_rules": [],
+                        "access_rules": [
+                            "shuckedclam"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Shallows Sot",
-                        "access_rules": [],
+                        "access_rules": [
+                            "metalspinner"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Ghostfish",
-                        "access_rules": [],
+                        "access_rules": [
+                            "metalspinner"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Permit",
-                        "access_rules": [],
+                        "access_rules": [
+                            "metalspinner"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Inktopus",
-                        "access_rules": [],
+                        "access_rules": [
+                            "metalspinner"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -179,9 +231,10 @@
                 "map_locations": [
                     {
                         "map": "Tuliyollal",
-                        "x": 1783,
-                        "y": 908,
-                        "size": 6
+                        "x": 834,
+                        "y": 1358,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -191,30 +244,42 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "5fshlevels:91"
+                ],
+                "visibility_rules": [
+                    "level_cap:91, fishsanity_normal"
                 ],
                 "sections": [
                     {
                         "name": "Reasonscale Silverside",
-                        "access_rules": [],
+                        "access_rules": [
+                            "crimsonlugworm",
+                            "shuckedclam"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Floating Fife",
-                        "access_rules": [],
+                        "access_rules": [
+                            "versatilelure"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Blue Purse",
-                        "access_rules": [],
+                        "access_rules": [
+                            "versatilelure"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Goldfin Cavalli",
-                        "access_rules": [],
+                        "access_rules": [
+                            "versatilelure"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -222,9 +287,10 @@
                 "map_locations": [
                     {
                         "map": "Tuliyollal",
-                        "x": 635,
-                        "y": 2312,
-                        "size": 6
+                        "x": 1271,
+                        "y": 1114,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             }

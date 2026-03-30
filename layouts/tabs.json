@@ -558,7 +558,68 @@
                         }
                     ]
                 }
-            }            
+            },
+            {
+                            "title": "Shadowbringers",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+
+                                    {
+                                                     "title": "The Crystarium",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": [
+                                                            "The Crystarium"
+
+                                            ]
+                                            
+                                        }   
+                                    }
+                    ]
+                }
+            },
+            {
+            "title": "Endwalker",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+
+                                    {
+                                                     "title": "Old Sharlayan",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": [
+                                                            "Old Sharlayan"
+
+                                            ]
+                                            
+                                        }   
+                                    }
+                    ]
+                }
+            },
+            {
+                                            "title": "Dawntrail",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+
+                                    {
+                                                     "title": "Tuliyollal",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": [
+                                                            "Tuliyollal"
+
+                                            ]
+                                            
+                                        }   
+                                    }
+                                    
+                    ]
+                }
+            }        
         ]
     },
     "tabbed_maps_vertical": {
