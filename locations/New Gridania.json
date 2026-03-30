@@ -20,7 +20,7 @@
                     {
                         "name": "The Howling Eye",
                         "access_rules": [],
-                        "visibility_rules": ["max_party_size_4, duty_difficulty_normal, level_cap:44, include_TheHowlingEye"],
+                        "visibility_rules": ["max_party_size_4, duty_difficulty_normal, level_cap:44, $duty_visibility|The Howling Eye"],
                         "item_count": 1
                     }
                 ],

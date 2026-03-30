@@ -17,7 +17,7 @@
                     " "
                 ],
                 "visibility_rules": [
-                    "include_dungeons, max_party_size_4, duty_difficulty_normal"
+                    "max_party_size_4, duty_difficulty_normal"
                 ],
                 "sections": [
                     {
@@ -256,7 +256,7 @@
                             "$leveling:50"
                         ],
                         "visibility_rules": [
-                            "max_party_size_8, duty_difficulty_normal, includeTheBowlofEmbersHard"
+                            "max_party_size_8, duty_difficulty_normal, $duty_visibility|The Bowl of Embers (Hard)"
                         ],
                         "item_count": 1
                     },
@@ -266,7 +266,7 @@
                             "$leveling:50"
                         ],
                         "visibility_rules": [
-                            "max_party_size_8, duty_difficulty_ex, includeTheBowlofEmbersExtreme"
+                            "max_party_size_8, duty_difficulty_ex, $duty_visibility|The Bowl of Embers (Extreme)"
                         ],
                         "item_count": 1
                     }

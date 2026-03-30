@@ -17,7 +17,7 @@
                     "$leveling:50"
                 ],
                 "visibility_rules": [
-                    "include_dungeons, max_party_size_4, duty_difficulty_normal, $duty_visibility|Castrum Meridianum, level_cap:50, allow_main_scenario_duties"
+                    "max_party_size_4, duty_difficulty_normal, $duty_visibility|Castrum Meridianum, level_cap:50, allow_main_scenario_duties"
                 ],
                 "sections": [
                     {
@@ -125,7 +125,7 @@
                         "name": "The Praetorium",
                         "access_rules": [],
                         "visibility_rules": [
-                            "include_dungeons, $duty_visibility|The Praetorium"
+                            "$duty_visibility|The Praetorium"
                         ],
                         "item_count": 1
                     },
@@ -133,7 +133,7 @@
                         "name": "The Porta Decumana",
                         "access_rules": [],
                         "visibility_rules": [
-                            "include_ThePortaDecumana, max_party_size_8"
+                            "$duty_visibility|The Porta Decumana, max_party_size_8"
                         ],
                         "item_count": 1
                     },
@@ -141,7 +141,7 @@
                         "name": "The Minstrels Ballad Ultimas Bane",
                         "access_rules": [],
                         "visibility_rules": [
-                            "include_TheMinstrelsBalladUltimasBane, max_party_size_8, duty_difficulty_ex"
+                            "incl$duty_visibility|The Minstrel'ss Ballad: Ultimas Bane, max_party_size_8, duty_difficulty_ex"
                         ],
                         "item_count": 1
                     },
@@ -149,7 +149,7 @@
                         "name": "The Praetorium 2",
                         "access_rules": [],
                         "visibility_rules": [
-                            "include_dungeons, $duty_visibility|The Praetorium, level_cap:50, extra_dungeon_checks:1"
+                            "$duty_visibility|The Praetorium, level_cap:50, extra_dungeon_checks:1"
                         ],
                         "item_count": 1
                     },
@@ -157,7 +157,7 @@
                         "name": "The Praetorium 3",
                         "access_rules": [],
                         "visibility_rules": [
-                            "include_dungeons, $duty_visibility|The Praetorium, level_cap:50, extra_dungeon_checks:2"
+                            "$duty_visibility|The Praetorium, level_cap:50, extra_dungeon_checks:2"
                         ],
                         "item_count": 1
                     },
@@ -165,7 +165,7 @@
                         "name": "The Praetorium 4",
                         "access_rules": [],
                         "visibility_rules": [
-                            "include_dungeons, $duty_visibility|The Praetorium, level_cap:50, extra_dungeon_checks:3"
+                            "$duty_visibility|The Praetorium, level_cap:50, extra_dungeon_checks:3"
                         ],
                         "item_count": 1
                     },
@@ -173,7 +173,7 @@
                         "name": "The Praetorium 5",
                         "access_rules": [],
                         "visibility_rules": [
-                            "include_dungeons, $duty_visibility|The Praetorium, level_cap:50, extra_dungeon_checks:4"
+                            "$duty_visibility|The Praetorium, level_cap:50, extra_dungeon_checks:4"
                         ],
                         "item_count": 1
                     },
@@ -181,7 +181,7 @@
                         "name": "The Praetorium 6",
                         "access_rules": [],
                         "visibility_rules": [
-                            "include_dungeons, $duty_visibility|The Praetorium, level_cap:50, extra_dungeon_checks:5"
+                            "$duty_visibility|The Praetorium, level_cap:50, extra_dungeon_checks:5"
                         ],
                         "item_count": 1
                     },
@@ -189,7 +189,7 @@
                         "name": "The Praetorium 7",
                         "access_rules": [],
                         "visibility_rules": [
-                            "include_dungeons, $duty_visibility|The Praetorium, level_cap:50, extra_dungeon_checks:6"
+                            "$duty_visibility|The Praetorium, level_cap:50, extra_dungeon_checks:6"
                         ],
                         "item_count": 1
                     },
@@ -197,7 +197,7 @@
                         "name": "The Praetorium 8",
                         "access_rules": [],
                         "visibility_rules": [
-                            "include_dungeons, $duty_visibility|The Praetorium, level_cap:50, extra_dungeon_checks:7"
+                            "$duty_visibility|The Praetorium, level_cap:50, extra_dungeon_checks:7"
                         ],
                         "item_count": 1
                     },
@@ -205,7 +205,7 @@
                         "name": "The Praetorium 9",
                         "access_rules": [],
                         "visibility_rules": [
-                            "include_dungeons, $duty_visibility|The Praetorium, level_cap:50, extra_dungeon_checks:8"
+                            "$duty_visibility|The Praetorium, level_cap:50, extra_dungeon_checks:8"
                         ],
                         "item_count": 1
                     },
@@ -213,7 +213,7 @@
                         "name": "The Praetorium 10",
                         "access_rules": [],
                         "visibility_rules": [
-                            "include_dungeons, $duty_visibility|The Praetorium, level_cap:50, extra_dungeon_checks:9"
+                            "$duty_visibility|The Praetorium, level_cap:50, extra_dungeon_checks:9"
                         ],
                         "item_count": 1
                     }
@@ -244,7 +244,7 @@
                         "name": "The Final Coil of Bahamut Turn 1",
                         "access_rules": [],
                         "visibility_rules": [
-                            "include_TheFinalCoilofBahamutTurn1"
+                            "$duty_visibility|The Final Coil of Bahamut - Turn 1"
                         ],
                         "item_count": 1
                     },
@@ -252,7 +252,7 @@
                         "name": "The Final Coil of Bahamut Turn 2",
                         "access_rules": [],
                         "visibility_rules": [
-                            "include_TheFinalCoilofBahamutTurn2"
+                            "$duty_visibility|The Final Coil of Bahamut - Turn 2"
                         ],
                         "item_count": 1
                     },
@@ -260,7 +260,7 @@
                         "name": "The Final Coil of Bahamut Turn 3",
                         "access_rules": [],
                         "visibility_rules": [
-                            "include_TheFinalCoilofBahamutTurn3"
+                            "$duty_visibility|The Final Coil of Bahamut - Turn 3"
                         ],
                         "item_count": 1
                     },
@@ -268,7 +268,7 @@
                         "name": "The Final Coil of Bahamut Turn 4",
                         "access_rules": [],
                         "visibility_rules": [
-                            "include_TheFinalCoilofBahamutTurn4"
+                            "$duty_visibility|The Final Coil of Bahamut - Turn 4"
                         ],
                         "item_count": 1
                     }

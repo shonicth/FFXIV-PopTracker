@@ -22,7 +22,7 @@
                         "access_rules": [
                             "$leveling:50"
                         ],
-                        "visibility_rules": ["level_cap:50, include_ThornmarchHard, max_party_size_8, duty_difficulty_normal"],
+                        "visibility_rules": ["level_cap:50, $duty_visibility|Thornmarch (Hard), max_party_size_8, duty_difficulty_normal"],
                         "item_count": 1
                     },
                     {
@@ -30,7 +30,7 @@
                         "access_rules": [
                             "$leveling:50"
                         ],
-                        "visibility_rules": ["level_cap:50, include_TheWhorleaterExtreme, max_party_size_8, duty_difficulty_ex"],
+                        "visibility_rules": ["level_cap:50, $duty_visibility|Thornmarch (Extreme), max_party_size_8, duty_difficulty_ex"],
                         "item_count": 1
                     }
                 ],
@@ -58,7 +58,7 @@
                         "access_rules": [
                             "$leveling:50"
                         ],
-                        "visibility_rules": ["level_cap:50, include_TheStrikingTreeHard, max_party_size_8, duty_difficulty_normal"],
+                        "visibility_rules": ["level_cap:50, $duty_visibility|The Striking Tree (Hard), max_party_size_8, duty_difficulty_normal"],
                         "item_count": 1
                     },
                     {
@@ -66,7 +66,7 @@
                         "access_rules": [
                             "$leveling:50"
                         ],
-                        "visibility_rules": ["level_cap:50, include_TheStrikingTreeExtreme, max_party_size_8, duty_difficulty_ex"],
+                        "visibility_rules": ["level_cap:50, $duty_visibility|The Striking Tree (Extreme), max_party_size_8, duty_difficulty_ex"],
                         "item_count": 1
                     }
                 ],
@@ -94,7 +94,7 @@
                         "access_rules": [
                             "$leveling:20"
                         ],
-                        "visibility_rules": ["include_guildhests, max_party_size_4, duty_difficulty_normal, include_ThePoisonPosies"],
+                        "visibility_rules": ["include_guildhests, max_party_size_4, duty_difficulty_normal, $duty_visibility|Pulling Poison Posies"],
                         "item_count": 1
                     }
                 ],
@@ -117,7 +117,7 @@
                     "$leveling:60"
                 ],
                 "visibility_rules":[
-                    "include_dungeons, max_party_size_4, duty_difficulty_normal, includeBaelsarsWall, level_cap:60"
+                    "max_party_size_4, duty_difficulty_normal, $duty_visibility|Baelsar's Wall, level_cap:60"
                 ],
                 "sections": [
                     {

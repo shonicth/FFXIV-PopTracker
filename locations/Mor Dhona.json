@@ -17,7 +17,7 @@
                     "$leveling:50"
                 ],
                 "visibility_rules": [
-                    "include_dungeons, max_party_size_4, duty_difficulty_normal, level_cap:50, include:TheKeeperoftheLake"
+                    "max_party_size_4, duty_difficulty_normal, level_cap:50, $duty_visibility|The Keeper of the Lake"
                 ],
                 "sections": [
                     {
@@ -124,7 +124,7 @@
                             "$leveling:50"
                         ],
                         "visibility_rules": [
-                            "include_dungeons, max_party_size_4, duty_difficulty_normal, level_cap:50, include:TheChrysalis"
+                            "max_party_size_4, duty_difficulty_normal, level_cap:50, $duty_visibility|The Chrysalis"
                         ],
                         "item_count": 1
                     }
@@ -155,7 +155,7 @@
                         "name": "The Labyrinth of the Ancients",
                         "access_rules": [],
                         "visibility_rules": [
-                            "include_TheLabyrinthoftheAncients"
+                            "$duty_visibility|The Labyrinth of the Ancients"
                         ],
                         "item_count": 1
                     },
@@ -163,7 +163,7 @@
                         "name": "Syrcus Tower",
                         "access_rules": [],
                         "visibility_rules": [
-                            "include_SyrcusTower"
+                            "$duty_visibility|Syrcus Tower"
                         ],
                         "item_count": 1
                     },
@@ -171,7 +171,7 @@
                         "name": "The World of Darkness",
                         "access_rules": [],
                         "visibility_rules": [
-                            "include_TheWorldofDarkness"
+                            "$duty_visibility|The World of Darkness"
                         ],
                         "item_count": 1
                     }
@@ -201,7 +201,7 @@
                             "$leveling:40"
                         ],
                         "visibility_rules": [
-                            "include_guildhests, max_party_size_4, duty_difficulty_normal, include_WardUp, level_cap:40"
+                            "include_guildhests, max_party_size_4, duty_difficulty_normal, $duty_visibility|Ward Up, level_cap:40"
                         ],
                         "item_count": 1
                     }
@@ -231,7 +231,7 @@
                             "$leveling:40"
                         ],
                         "visibility_rules": [
-                            "include_guildhests, max_party_size_8, duty_difficulty_normal, include_SolemnTrinity, level_cap:40"
+                            "include_guildhests, max_party_size_8, duty_difficulty_normal, $duty_visibility|Solemn Trinity, level_cap:40"
                         ],
                         "item_count": 1
                     }
@@ -262,7 +262,7 @@
                         "name": "Aglaia",
                         "access_rules": [],
                         "visibility_rules": [
-                            "include_Aglaia"
+                            "$duty_visibility|Aglaia"
                         ],
                         "item_count": 1
                     },
@@ -270,7 +270,7 @@
                         "name": "Euphrosyne",
                         "access_rules": [],
                         "visibility_rules": [
-                            "include_Euphrosyne"
+                            "$duty_visibility|Euphrosyne"
                         ],
                         "item_count": 1
                     },
@@ -278,7 +278,7 @@
                         "name": "Thaleia",
                         "access_rules": [],
                         "visibility_rules": [
-                            "include_Thaleia"
+                            "$duty_visibility|Thaleia"
                         ],
                         "item_count": 1
                     }
