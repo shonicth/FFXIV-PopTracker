@@ -177,7 +177,7 @@ end
   function thefringesaccess()
     return(
       --Connected to East Shroud
-      (has(thefringesaccess) and (eastshroudaccess()))
+      (has("thefringesaccess") and (eastshroudaccess()))
     )
   end
   function rhalgrsreachaccess()
