@@ -183,19 +183,19 @@ end
   function rhalgrsreachaccess()
     return(
       --Connected to Fringes
-      (has("rhalgrsreachaccess") and(thefringesaccess()))
+      (has("rhalgrsreachaccess") and (thefringesaccess()))
     )
     end
   function thepeaksaccess()
     return(
       --Connected to Fringes
-      (has("thepeaksaccess") and(thefringesaccess()))
+      (has("thepeaksaccess") and (thefringesaccess()))
     )
     end
   function thelochsaccess()
     return(
       --Connected to Fringes
-      (has("thelochsaccess") and(thepeaksaccess()))
+      (has("thelochsaccess") and (thepeaksaccess()))
     )
     end
   function kuganeaccess()
@@ -207,26 +207,144 @@ end
   function therubyseaaccess()
     return(
       --Connected to Fringes
-      (has("therubyseaaccess") and(kuganeaccess()))
+      (has("therubyseaaccess") and (kuganeaccess()))
     )
     end
   function theazimsteppeaccess()
     return(
       --Connected to Fringes
-      (has("theazimsteppeaccess") and(therubyseaaccess()))
+      (has("theazimsteppeaccess") and (therubyseaaccess()))
     )
     end
   function yanxiaaccess()
     return(
       --Connected to Fringes
-      (has("yanxiaaccess") and(therubyseaaccess()))
+      (has("yanxiaaccess") and (therubyseaaccess()))
     )
     end
 --ShB
+function thecrystariumaccess()
+  return(
+    (has("thecrystariumaccess") and (mordhonaaccess()))
+  )
+end
+function eulmoreaccess()
+  return(
+    (has("eulmoreaccess") and (thecrystariumaccess()))
+  )
+end
+function lakelandaccess()
+  return(
+    (has("lakelandaccess") and (thecrystariumaccess()))
+  )
+end
+function kholusiaaccess()
+  return(
+
+    (has("kholusiaaccess") and (thecrystariumaccess()))
+  )
+end
+function amharaengaccess()
+  return(
+    (has("amharaengaccess") and (thecrystariumaccess()))
+  )
+end
+function ilmhegaccess()
+  return(
+    (has("ilmhegaccess") and (lakelandaccess()))
+  )
+end
+function theraktikagreatwoodaccess()
+  return(
+    (has("theraktikagreatwoodaccess") and (lakelandaccess()))
+  )
+end
+function thetempestaccess()
+  return(
+    (has("thetempestaccess") and (kholusiaaccess()))
+  )
+end
 
 --EnW
+function oldsharlayanaccess()
+  return(
+    (has("oldsharlayanaccess"))
+  )
+end
+function labyrinthosaccess()
+  return(
+    (has("labyrinthosaccess") and (oldsharlayanaccess()))
+  )
+end
+function ultimathuleaccess()
+  return(
+    (has("ultimathuleaccess") and (labyrinthosaccess()))
+  )
+end
+function garlemaldaccess()
+  return(
+    (has("garlemaldaccess") and (thelochsaccess()))
+  )
+end
+function marelamentorumaccess()
+  return(
+    (has("marelamentorumaccess") and (garlemaldaccess()))
+  )
+end
+function radzathanaccess()
+  return(
+    --should this be directly connected to limsa etc?
+    (has("radzathanaccess") and (thavnairaccess()))
+  )
+end
+function thavnairaccess()
+  return(
+    (has("thavnairaccess") and (oldsharlayanaccess() or radzathanaccess()))
+  )
+end
+
 
 --DT
+function tuliyollalaccess()
+  return(
+    (has("tuliyollalaccess") and (tuliyollalaccess()))
+  )
+end
+function urqopachaaccess()
+  return(
+    (has("urqopachaaccess") and (tuliyollalaccess()))
+  )
+end
+function kozamaukaaccess()
+  return(
+    (has("kozamaukaaccess") and (tuliyollalaccess()))
+  )
+end
+function yaktelaccess()
+  return(
+    (has("yaktelaccess") and (tuliyollalaccess()))
+  )
+end
+function shaaloaniaccess()
+  return(
+    (has("shaaloaniaccess") and (tuliyollalaccess()))
+  )
+end
+function heritagefoundaccess()
+  return(
+    (has("heritagefoundaccess") and (shaaloaniaccess()))
+  )
+end
+function livingmemoryaccess()
+  return(
+    (has("livingmemoryaccess") and (yaktelaccess()))
+  )
+end
+function solutionnineaccess()
+  return(
+    (has("solutionnineaccess") and (heritagefoundaccess()))
+  )
+end
 
 --levels
 function leveling()
