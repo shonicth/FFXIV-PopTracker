@@ -17,7 +17,7 @@
                     "$leveling:50"
                 ],
                 "visibility_rules": [
-                    "max_party_size_4, duty_difficulty_normal, level_cap:50, $duty_visibility|The Keeper of the Lake"
+                    "duty_difficulty_normal, level_cap:50, $duty_visibility|The Keeper of the Lake"
                 ],
                 "sections": [
                     {
@@ -124,7 +124,7 @@
                             "$leveling:50"
                         ],
                         "visibility_rules": [
-                            "max_party_size_4, duty_difficulty_normal, level_cap:50, $duty_visibility|The Chrysalis"
+                            "duty_difficulty_normal, level_cap:50, $duty_visibility|The Chrysalis"
                         ],
                         "item_count": 1
                     }
@@ -148,7 +148,7 @@
                     "$leveling:50"
                 ],
                 "visibility_rules": [
-                    "max_party_size_24, duty_difficulty_normal, level_cap:50"
+                    "duty_difficulty_normal, level_cap:50"
                 ],
                 "sections": [
                     {
@@ -201,7 +201,7 @@
                             "$leveling:40"
                         ],
                         "visibility_rules": [
-                            "include_guildhests, max_party_size_4, duty_difficulty_normal, $duty_visibility|Ward Up, level_cap:40"
+                            "include_guildhests, duty_difficulty_normal, $duty_visibility|Ward Up, level_cap:40"
                         ],
                         "item_count": 1
                     }
@@ -231,7 +231,7 @@
                             "$leveling:40"
                         ],
                         "visibility_rules": [
-                            "include_guildhests, max_party_size_8, duty_difficulty_normal, $duty_visibility|Solemn Trinity, level_cap:40"
+                            "include_guildhests, duty_difficulty_normal, $duty_visibility|Solemn Trinity, level_cap:40"
                         ],
                         "item_count": 1
                     }
@@ -255,7 +255,7 @@
                     "$leveling:90"
                 ],
                 "visibility_rules": [
-                    "max_party_size_24, duty_difficulty_normal, level_cap:90"
+                    "duty_difficulty_normal, level_cap:90"
                 ],
                 "sections": [
                     {

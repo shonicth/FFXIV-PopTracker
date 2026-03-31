@@ -17,7 +17,7 @@
                     ""
                 ],
                 "visibility_rules":[
-                    "max_party_size_4, duty_difficulty_normal"
+                    "duty_difficulty_normal"
                 ],
                 "sections": [
                     {
@@ -159,7 +159,7 @@
                 "access_rules": [
                     "$leveling:50, bahamutkey"
                 ],
-                "visibility_rules": ["level_cap:50, max_party_size_8, duty_difficulty_normal"],
+                "visibility_rules": ["level_cap:50, duty_difficulty_normal"],
                 "sections": [
                     {
                         "name": "The Binding Coil of Bahamut Turn 1",

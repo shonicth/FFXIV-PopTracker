@@ -17,7 +17,7 @@
                     "$leveling:38"
                 ],
                 "visibility_rules": [
-                    "max_party_size_4, duty_difficulty_normal, $duty_visibility|Cutter's Cry, level_cap:38"
+                    "duty_difficulty_normal, $duty_visibility|Cutter's Cry, level_cap:38"
                 ],
                 "sections": [
                     {
@@ -124,7 +124,7 @@
                             "$leveling:15"
                         ],
                         "visibility_rules": [
-                            "include_guildhests, max_party_size_4, duty_difficulty_normal, $duty_visibility|Hero on the Half Shell"
+                            "include_guildhests, duty_difficulty_normal, $duty_visibility|Hero on the Half Shell"
                         ],
                         "item_count": 1
                     }
@@ -148,7 +148,7 @@
                     "$leveling:90"
                 ],
                 "visibility_rules": [
-                    "max_party_size_4, duty_difficulty_normal, $duty_visibility|The Sildihn Subterrane, level_cap:90"
+                    "duty_difficulty_normal, $duty_visibility|The Sildihn Subterrane, level_cap:90"
                 ],
                 "sections": [
                     {

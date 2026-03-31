@@ -17,7 +17,7 @@
                     "$leveling:50"
                 ],
                 "visibility_rules": [
-                    "level_cap:50, max_party_size_4, duty_difficulty_normal"
+                    "level_cap:50, duty_difficulty_normal"
                 ],
                 "sections": [
                     {
@@ -204,7 +204,7 @@
                             "$leveling:34"
                         ],
                         "visibility_rules": [
-                            "max_party_size_4, duty_difficulty_normal, level_cap:34, $duty_visibility|The Navel"
+                            "duty_difficulty_normal, level_cap:34, $duty_visibility|The Navel"
                         ],
                         "item_count": 1
                     }
@@ -232,7 +232,7 @@
                         "name": "More than a Feeler",
                         "access_rules": [],
                         "visibility_rules": [
-                            "include_guildhests, max_party_size_4, duty_difficulty_normal, $duty_visibility|More than a Feeler"
+                            "include_guildhests, duty_difficulty_normal, $duty_visibility|More than a Feeler"
                         ],
                         "item_count": 1
                     }

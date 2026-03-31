@@ -21,34 +21,6 @@
         "overlay_background": "#000000",
         "codes": "level_cap"
     },
-{
-    "name": "Max Party Size",
-    "type": "progressive",
-    "allow_disabled": false,
-    "initial_stage_idx": 2,
-    "stages": [
-            {
-        "img": "images/items/placeholder.png",
-        "codes": "max_party_size",
-        "inherit_codes": false
-      },
-    {
-        "img": "images/items/placeholder.png",
-        "codes": "max_party_size_4",
-        "inherit_codes": true
-      },
-      {
-        "img": "images/items/placeholder.png",
-        "codes": "max_party_size_8",
-        "inherit_codes": true
-      },
-      {
-        "img": "images/items/placeholder.png",
-        "codes": "max_party_size_24",
-        "inherit_codes": true
-      }
-    ]
-  },
       {
         "name": "Include Bozja",
         "type": "toggle",

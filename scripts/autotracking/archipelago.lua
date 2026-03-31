@@ -174,10 +174,8 @@ function processYaml(slot_data)
     --Add Sanity
         Tracker:FindObjectForCode("fatesanity").Active = slot_data["fatesanity"] == 1
         Tracker:FindObjectForCode("level_cap").AcquiredCount = slot_data["level_cap"]
-        Tracker:FindObjectForCode("max_party_size").CurrentStage = slot_data["max_party_size"]
         Tracker:FindObjectForCode("include_bozja").Active = slot_data["include_bozja"] == 1
-        Tracker:FindObjectForCode("include_ocean_fishing").Active = slot_data["include_bozja"] == 1
-        Tracker:FindObjectForCode("include_dungeons").Active = slot_data["include_dungeons"] == 1
+        Tracker:FindObjectForCode("include_ocean_fishing").Active = slot_data["include_ocean_fishing"] == 1
         Tracker:FindObjectForCode("fishsanity").CurrentStage = slot_data["fishsanity"]
         Tracker:FindObjectForCode("include_unreasonable_fates").Active = slot_data["include_unreasonable_fates"] == 1
         Tracker:FindObjectForCode("allow_main_scenario_duties").Active = slot_data["allow_main_scenario_duties"] == 1

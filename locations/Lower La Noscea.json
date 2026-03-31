@@ -17,7 +17,7 @@
                     ""
                 ],
                 "visibility_rules":[
-                    "max_party_size_4, duty_difficulty_normal"
+                    "duty_difficulty_normal"
                 ],
                 "sections": [
                     {
@@ -163,13 +163,13 @@
                     {
                         "name": "The Whorleater (Hard)",
                         "access_rules": ["$leveling:50"],
-                        "visibility_rules": ["level_cap:50, $duty_visibility|The Whorleater (Hard), max_party_size_8, duty_difficulty_normal"],
+                        "visibility_rules": ["level_cap:50, $duty_visibility|The Whorleater (Hard), duty_difficulty_normal"],
                         "item_count": 1
                     },
                     {
                         "name": "The Whorleater (Extreme)",
                         "access_rules": ["$leveling:50"],
-                        "visibility_rules": ["level_cap:50, $duty_visibility|The Whorleater (Extreme), max_party_size_8, duty_difficulty_ex"],
+                        "visibility_rules": ["level_cap:50, $duty_visibility|The Whorleater (Extreme), duty_difficulty_ex"],
                         "item_count": 1
                     }
                 ],
@@ -195,7 +195,7 @@
                     {
                         "name": "Annoy the Void",
                         "access_rules": ["$leveling:30"],
-                        "visibility_rules": ["include_guildhests, max_party_size_4, duty_difficulty_normal, $duty_visibility|Annoy the Void"],
+                        "visibility_rules": ["include_guildhests, duty_difficulty_normal, $duty_visibility|Annoy the Void"],
                         "item_count": 1
                     }
                 ],

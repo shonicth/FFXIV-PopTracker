@@ -43,7 +43,7 @@
                     " "
                 ],
                 "visibility_rules": [
-                    "max_party_size_4, duty_difficulty_normal"
+                    "duty_difficulty_normal"
                 ],
                 "sections": [
                     {
@@ -272,7 +272,7 @@
                             "$leveling:15"
                         ],
                         "visibility_rules": [
-                            "include_guildhests, max_party_size_4, duty_difficulty_normal, $duty_visibility|Basic Training: Enemy Strongholds"
+                            "include_guildhests, duty_difficulty_normal, $duty_visibility|Basic Training: Enemy Strongholds"
                         ],
                         "item_count": 1
                     }
@@ -302,14 +302,14 @@
                             "$leveling:80"
                         ],
                         "visibility_rules": [
-                            "max_party_size_8, duty_difficulty_normal, $duty_visibility|Castrum Marinum, level_cap:80"
+                            "duty_difficulty_normal, $duty_visibility|Castrum Marinum, level_cap:80"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Castrum Marinum (Extreme)",
                         "access_rules": [
-                            "max_party_size_8, duty_difficulty_ex, $duty_visibility|Castrum Marinum (Extreme), level_cap:80"
+                            "duty_difficulty_ex, $duty_visibility|Castrum Marinum (Extreme), level_cap:80"
                         ],
                         "visibility_rules": [],
                         "item_count": 1
