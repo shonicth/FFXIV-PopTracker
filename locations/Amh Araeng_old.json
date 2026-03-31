@@ -29,83 +29,64 @@
                     {
                         "name": "Malikahs Well 2",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:1"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:1"],
                         "item_count": 1
                     },
                     {
                         "name": "Malikahs Well 3",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:2"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:2"],
                         "item_count": 1
                     },
                     {
                         "name": "Malikahs Well 4",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:3"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:3"],
                         "item_count": 1
                     },
                     {
                         "name": "Malikahs Well 5",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:4"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:4"],
                         "item_count": 1
                     },
                     {
                         "name": "Malikahs Well 6",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:5"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:5"],
                         "item_count": 1
                     },
                     {
                         "name": "Malikahs Well 7",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:6"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:6"],
                         "item_count": 1
                     },
                     {
                         "name": "Malikahs Well 8",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:7"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:7"],
                         "item_count": 1
                     },
                     {
                         "name": "Malikahs Well 9",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:8"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:8"],
                         "item_count": 1
                     },
                     {
                         "name": "Malikahs Well 10",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:9"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:9"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Amh Araeng",
-                        "x": 507,
-                        "y": 1524,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1596,
+                        "y": 2144,
+                        "size": 6
                     }
                 ]
             },
@@ -124,203 +105,154 @@
                     {
                         "name": "Edens Gate Resurrection",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "$duty_visibility|Eden's Gate: Resurrection"
-                        ],
+                        "visibility_rules": ["$duty_visibility|Eden's Gate: Resurrection"],
                         "item_count": 1
                     },
                     {
                         "name": "Edens Gate Descent",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "$duty_visibility|Eden's Gate: Descent"
-                        ],
+                        "visibility_rules": ["$duty_visibility|Eden's Gate: Descent"],
                         "item_count": 1
                     },
                     {
                         "name": "Edens Gate Inundation",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "$duty_visibility|Eden's Gate: Inundation"
-                        ],
+                        "visibility_rules": ["$duty_visibility|Eden's Gate: Inundation"],
                         "item_count": 1
                     },
                     {
                         "name": "Edens Gate Sepulture",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "$duty_visibility|Eden's Gate: Sepulture"
-                        ],
+                        "visibility_rules": ["$duty_visibility|Eden's Gate: Sepulture"],
                         "item_count": 1
                     },
                     {
                         "name": "Edens Verse Fulmination",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "$duty_visibility|Eden's Verse: Fulmination"
-                        ],
+                        "visibility_rules": ["$duty_visibility|Eden's Verse: Fulmination"],
                         "item_count": 1
                     },
                     {
                         "name": "Edens Verse Furor",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "$duty_visibility|Eden's Verse: Furor"
-                        ],
+                        "visibility_rules": ["$duty_visibility|Eden's Verse: Furor"],
                         "item_count": 1
                     },
                     {
                         "name": "Edens Verse Iconoclasm",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "$duty_visibility|Eden's Verse: Iconoclasm"
-                        ],
+                        "visibility_rules": ["$duty_visibility|Eden's Verse: Iconoclasm"],
                         "item_count": 1
                     },
                     {
                         "name": "Edens Verse Refulgence",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "$duty_visibility|Eden's Verse: Refulgence"
-                        ],
+                        "visibility_rules": ["$duty_visibility|Eden's Verse: Refulgence"],
                         "item_count": 1
                     },
                     {
                         "name": "Edens Promise Umbra",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "$duty_visibility|Eden's Promise: Umbra"
-                        ],
+                        "visibility_rules": ["$duty_visibility|Eden's Promise: Umbra"],
                         "item_count": 1
                     },
                     {
                         "name": "Edens Promise Litany",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "$duty_visibility|Eden's Promise: Litany"
-                        ],
+                        "visibility_rules": ["$duty_visibility|Eden's Promise: Litany"],
                         "item_count": 1
                     },
                     {
                         "name": "Edens Promise Anamorphosis",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "$duty_visibility|Eden's Promise: Anamorphosis"
-                        ],
+                        "visibility_rules": ["$duty_visibility|Eden's Promise: Anamorphosis"],
                         "item_count": 1
                     },
                     {
                         "name": "Edens Promise Eternity",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "$duty_visibility|Eden's Promise: Eternity"
-                        ],
+                        "visibility_rules": ["$duty_visibility|Eden's Promise: Eternity"],
                         "item_count": 1
                     },
                     {
                         "name": "Edens Gate Resurrection (Savage)",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "duty_difficulty_savage, $duty_visibility|Eden's Gate: Resurrection (Savage)"
-                        ],
+                        "visibility_rules": ["duty_difficulty_savage, $duty_visibility|Eden's Gate: Resurrection (Savage)"],
                         "item_count": 1
                     },
                     {
                         "name": "Edens Gate Descent (Savage)",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "duty_difficulty_savage, $duty_visibility|Eden's Gate: Descent (Savage)"
-                        ],
+                        "visibility_rules": ["duty_difficulty_savage, $duty_visibility|Eden's Gate: Descent (Savage)"],
                         "item_count": 1
                     },
                     {
                         "name": "Edens Gate Inundation (Savage)",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "duty_difficulty_savage, $duty_visibility|Eden's Gate: Inundation (Savage)"
-                        ],
+                        "visibility_rules": ["duty_difficulty_savage, $duty_visibility|Eden's Gate: Inundation (Savage)"],
                         "item_count": 1
                     },
                     {
                         "name": "Edens Gate Sepulture (Savage)",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "duty_difficulty_savage, $duty_visibility|Eden's Gate: Sepulture (Savage)"
-                        ],
+                        "visibility_rules": ["duty_difficulty_savage, $duty_visibility|Eden's Gate: Sepulture (Savage)"],
                         "item_count": 1
                     },
                     {
                         "name": "Edens Verse Fulmination (Savage)",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "duty_difficulty_savage, $duty_visibility|Eden's Verse: Fulmination (Savage)"
-                        ],
+                        "visibility_rules": ["duty_difficulty_savage, $duty_visibility|Eden's Verse: Fulmination (Savage)"],
                         "item_count": 1
                     },
                     {
                         "name": "Edens Verse Furor (Savage)",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "duty_difficulty_savage, $duty_visibility|Eden's Verse: Furor (Savage)"
-                        ],
+                        "visibility_rules": ["duty_difficulty_savage, $duty_visibility|Eden's Verse: Furor (Savage)"],
                         "item_count": 1
                     },
                     {
                         "name": "Edens Verse Iconoclasm (Savage)",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "duty_difficulty_savage, $duty_visibility|Eden's Verse: Iconoclasm (Savage)"
-                        ],
+                        "visibility_rules": ["duty_difficulty_savage, $duty_visibility|Eden's Verse: Iconoclasm (Savage)"],
                         "item_count": 1
                     },
                     {
                         "name": "Edens Verse Refulgence (Savage)",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "duty_difficulty_savage, $duty_visibility|Eden's Verse: Refulgence (Savage)"
-                        ],
+                        "visibility_rules": ["duty_difficulty_savage, $duty_visibility|Eden's Verse: Refulgence (Savage)"],
                         "item_count": 1
                     },
                     {
                         "name": "Edens Promise Umbra (Savage)",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "duty_difficulty_savage, $duty_visibility|Eden's Promise: Umbra (Savage)"
-                        ],
+                        "visibility_rules": ["duty_difficulty_savage, $duty_visibility|Eden's Promise: Umbra (Savage)"],
                         "item_count": 1
                     },
                     {
                         "name": "Edens Promise Litany (Savage)",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "duty_difficulty_savage, $duty_visibility|Eden's Promise: Litany (Savage)"
-                        ],
+                        "visibility_rules": ["duty_difficulty_savage, $duty_visibility|Eden's Promise: Litany (Savage)"],
                         "item_count": 1
                     },
                     {
                         "name": "Edens Promise Anamorphosis (Savage)",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "duty_difficulty_savage, $duty_visibility|Eden's Promise: Anamorphosis (Savage)"
-                        ],
+                        "visibility_rules": ["duty_difficulty_savage, $duty_visibility|Eden's Promise: Anamorphosis (Savage)"],
                         "item_count": 1
                     },
                     {
                         "name": "Edens Promise Eternity (Savage)",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "duty_difficulty_savage, $duty_visibility|Eden's Promise: Eternity (Savage)"
-                        ],
+                        "visibility_rules": ["duty_difficulty_savage, $duty_visibility|Eden's Promise: Eternity (Savage)"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Amh Araeng",
-                        "x": 1398,
-                        "y": 1549,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 2071,
+                        "y": 877,
+                        "size": 6
                     }
                 ]
             },
@@ -420,10 +352,9 @@
                 "map_locations": [
                     {
                         "map": "Amh Araeng",
-                        "x": 707,
-                        "y": 129,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1960,
+                        "y": 25,
+                        "size": 6
                     }
                 ]
             },
@@ -446,10 +377,9 @@
                 "map_locations": [
                     {
                         "map": "Amh Araeng",
-                        "x": 1582,
-                        "y": 668,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1950,
+                        "y": 237,
+                        "size": 6
                     }
                 ]
             },
@@ -476,10 +406,9 @@
                 "map_locations": [
                     {
                         "map": "Amh Araeng",
-                        "x": 1742,
-                        "y": 1189,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1486,
+                        "y": 240,
+                        "size": 6
                     }
                 ]
             },
@@ -506,10 +435,9 @@
                 "map_locations": [
                     {
                         "map": "Amh Araeng",
-                        "x": 1641,
-                        "y": 507,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1138,
+                        "y": 2263,
+                        "size": 6
                     }
                 ]
             },
@@ -536,10 +464,9 @@
                 "map_locations": [
                     {
                         "map": "Amh Araeng",
-                        "x": 1368,
-                        "y": 644,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 165,
+                        "y": 2310,
+                        "size": 6
                     }
                 ]
             },
@@ -566,10 +493,9 @@
                 "map_locations": [
                     {
                         "map": "Amh Araeng",
-                        "x": 1625,
-                        "y": 1207,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 795,
+                        "y": 695,
+                        "size": 6
                     }
                 ]
             },
@@ -596,10 +522,9 @@
                 "map_locations": [
                     {
                         "map": "Amh Araeng",
-                        "x": 1535,
-                        "y": 956,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 536,
+                        "y": 2459,
+                        "size": 6
                     }
                 ]
             },
@@ -626,10 +551,9 @@
                 "map_locations": [
                     {
                         "map": "Amh Araeng",
-                        "x": 1714,
-                        "y": 1341,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 2304,
+                        "y": 2165,
+                        "size": 6
                     }
                 ]
             },
@@ -656,10 +580,9 @@
                 "map_locations": [
                     {
                         "map": "Amh Araeng",
-                        "x": 1547,
-                        "y": 817,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 2448,
+                        "y": 801,
+                        "size": 6
                     }
                 ]
             },
@@ -686,10 +609,9 @@
                 "map_locations": [
                     {
                         "map": "Amh Araeng",
-                        "x": 998,
-                        "y": 1010,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 978,
+                        "y": 591,
+                        "size": 6
                     }
                 ]
             },
@@ -716,10 +638,9 @@
                 "map_locations": [
                     {
                         "map": "Amh Araeng",
-                        "x": 1026,
-                        "y": 598,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 208,
+                        "y": 1598,
+                        "size": 6
                     }
                 ]
             },
@@ -746,10 +667,9 @@
                 "map_locations": [
                     {
                         "map": "Amh Araeng",
-                        "x": 685,
-                        "y": 636,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1627,
+                        "y": 2480,
+                        "size": 6
                     }
                 ]
             },
@@ -776,10 +696,9 @@
                 "map_locations": [
                     {
                         "map": "Amh Araeng",
-                        "x": 726,
-                        "y": 974,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 83,
+                        "y": 326,
+                        "size": 6
                     }
                 ]
             },
@@ -806,10 +725,9 @@
                 "map_locations": [
                     {
                         "map": "Amh Araeng",
-                        "x": 838,
-                        "y": 771,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1109,
+                        "y": 1278,
+                        "size": 6
                     }
                 ]
             },
@@ -836,10 +754,9 @@
                 "map_locations": [
                     {
                         "map": "Amh Araeng",
-                        "x": 1074,
-                        "y": 1263,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 983,
+                        "y": 2180,
+                        "size": 6
                     }
                 ]
             },
@@ -866,10 +783,9 @@
                 "map_locations": [
                     {
                         "map": "Amh Araeng",
-                        "x": 667,
-                        "y": 842,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 420,
+                        "y": 115,
+                        "size": 6
                     }
                 ]
             },
@@ -896,10 +812,9 @@
                 "map_locations": [
                     {
                         "map": "Amh Araeng",
-                        "x": 433,
-                        "y": 1564,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 89,
+                        "y": 1588,
+                        "size": 6
                     }
                 ]
             },
@@ -926,10 +841,9 @@
                 "map_locations": [
                     {
                         "map": "Amh Araeng",
-                        "x": 808,
-                        "y": 1609,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1234,
+                        "y": 2391,
+                        "size": 6
                     }
                 ]
             },
@@ -947,73 +861,53 @@
                 "sections": [
                     {
                         "name": "Amber Monkfish",
-                        "access_rules": [
-                            "desertdessertfrog"
-                        ],
+                        "access_rules": ["desertdessertfrog"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Desert Dustfish",
-                        "access_rules": [
-                            "metalspinner",
-                            "desertdessertfrog"
-                        ],
+                        "access_rules": ["metalspinner", "desertdessertfrog"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Web-footed Sand Gecko",
-                        "access_rules": [
-                            "desertdessertfrog"
-                        ],
+                        "access_rules": ["desertdessertfrog"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Garik Crab",
-                        "access_rules": [
-                            "metalspinner"
-                        ],
+                        "access_rules": ["metalspinner"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Nabaath Manta",
-                        "access_rules": [
-                            "desertdessertfrog"
-                        ],
+                        "access_rules": ["desertdessertfrog"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Thorned Lizard",
-                        "access_rules": [
-                            "desertdessertfrog"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_timed"
-                        ],
+                        "access_rules": ["desertdessertfrog"],
+                        "visibility_rules": ["fishsanity_timed"],
                         "item_count": 1
                     },
                     {
                         "name": "Ambling Caltrop",
-                        "access_rules": [
-                            "desertdessertfrog"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_big"
-                        ],
+                        "access_rules": ["desertdessertfrog"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Amh Araeng",
-                        "x": 758,
-                        "y": 672,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1309,
+                        "y": 760,
+                        "size": 6
                     }
                 ]
             },
@@ -1031,74 +925,53 @@
                 "sections": [
                     {
                         "name": "Shadow Crab",
-                        "access_rules": [
-                            "metalspinner",
-                            "desertdessertfrog"
-                        ],
+                        "access_rules": ["metalspinner", "desertdessertfrog"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Desert Dustfish",
-                        "access_rules": [
-                            "metalspinner",
-                            "desertdessertfrog"
-                        ],
+                        "access_rules": ["metalspinner", "desertdessertfrog"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Hornhelm",
-                        "access_rules": [
-                            "jerkedovim"
-                        ],
+                        "access_rules": ["jerkedovim"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Web-footed Sand Gecko",
-                        "access_rules": [
-                            "desertdessertfrog"
-                        ],
+                        "access_rules": ["desertdessertfrog"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Sand Egg",
-                        "access_rules": [
-                            "desertdessertfrog"
-                        ],
+                        "access_rules": ["desertdessertfrog"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "The Horned King",
-                        "access_rules": [
-                            "jerkedovim"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_big"
-                        ],
+                        "access_rules": ["jerkedovim"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     },
                     {
                         "name": "Cinder Surprise",
-                        "access_rules": [
-                            "desertdessertfrog"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_big"
-                        ],
+                        "access_rules": ["desertdessertfrog"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Amh Araeng",
-                        "x": 1484,
-                        "y": 541,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 735,
+                        "y": 2163,
+                        "size": 6
                     }
                 ]
             },
@@ -1116,64 +989,47 @@
                 "sections": [
                     {
                         "name": "Shadow Crab",
-                        "access_rules": [
-                            "metalspinner",
-                            "desertdessertfrog"
-                        ],
+                        "access_rules": ["metalspinner", "desertdessertfrog"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Desert Dustfish",
-                        "access_rules": [
-                            "metalspinner",
-                            "desertdessertfrog"
-                        ],
+                        "access_rules": ["metalspinner", "desertdessertfrog"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Amber Lamprey",
-                        "access_rules": [
-                            "desertdessertfrog"
-                        ],
+                        "access_rules": ["desertdessertfrog"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Desert Saw",
-                        "access_rules": [
-                            "jerkedovim"
-                        ],
+                        "access_rules": ["jerkedovim"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Areng Dire",
-                        "access_rules": [
-                            "metalspinner"
-                        ],
+                        "access_rules": ["metalspinner"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Nabaath Saw",
-                        "access_rules": [
-                            "jerkedovim"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_big"
-                        ],
+                        "access_rules": ["jerkedovim"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Amh Araeng",
-                        "x": 1538,
-                        "y": 1490,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 826,
+                        "y": 668,
+                        "size": 6
                     }
                 ]
             }

@@ -17,7 +17,7 @@
                     "$leveling:79"
                 ],
                 "visibility_rules": [
-                    "level_cap:79, duty_difficulty_normal, $duty_visibility|Mt. Gulg"
+                    "level_cap:79, duty_difficulty_normal"
                 ],
                 "sections": [
                     {
@@ -29,64 +29,103 @@
                     {
                         "name": "Mt. Gulg 2",
                         "access_rules": [],
-                        "visibility_rules": ["extra_dungeon_checks:1"],
+                        "visibility_rules": [
+                            "extra_dungeon_checks:1, $duty_visibility|Mt. Gulg"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Mt. Gulg 3",
                         "access_rules": [],
-                        "visibility_rules": ["extra_dungeon_checks:2"],
+                        "visibility_rules": [
+                            "extra_dungeon_checks:2, $duty_visibility|Mt. Gulg"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Mt. Gulg 4",
                         "access_rules": [],
-                        "visibility_rules": ["extra_dungeon_checks:3"],
+                        "visibility_rules": [
+                            "extra_dungeon_checks:3, $duty_visibility|Mt. Gulg"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Mt. Gulg 5",
                         "access_rules": [],
-                        "visibility_rules": ["extra_dungeon_checks:4"],
+                        "visibility_rules": [
+                            "extra_dungeon_checks:4, $duty_visibility|Mt. Gulg"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Mt. Gulg 6",
                         "access_rules": [],
-                        "visibility_rules": ["extra_dungeon_checks:5"],
+                        "visibility_rules": [
+                            "extra_dungeon_checks:5, $duty_visibility|Mt. Gulg"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Mt. Gulg 7",
                         "access_rules": [],
-                        "visibility_rules": ["extra_dungeon_checks:6"],
+                        "visibility_rules": [
+                            "extra_dungeon_checks:6, $duty_visibility|Mt. Gulg"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Mt. Gulg 8",
                         "access_rules": [],
-                        "visibility_rules": ["extra_dungeon_checks:7"],
+                        "visibility_rules": [
+                            "extra_dungeon_checks:7, $duty_visibility|Mt. Gulg"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Mt. Gulg 9",
                         "access_rules": [],
-                        "visibility_rules": ["extra_dungeon_checks:8"],
+                        "visibility_rules": [
+                            "extra_dungeon_checks:8, $duty_visibility|Mt. Gulg"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Mt. Gulg 10",
                         "access_rules": [],
-                        "visibility_rules": ["extra_dungeon_checks:9"],
+                        "visibility_rules": [
+                            "extra_dungeon_checks:9, $duty_visibility|Mt. Gulg"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "The Crown of the Immaculate",
+                        "access_rules": [
+                            "$leveling:79"
+                        ],
+                        "visibility_rules": [
+                            "level_cap:79, duty_difficulty_normal, $duty_visibility|The Crown of the Immaculate"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "The Crown of the Immaculate (Extreme)",
+                        "access_rules": [
+                            "$leveling:80"
+                        ],
+                        "visibility_rules": [
+                            "level_cap:80, duty_difficulty_ex, $duty_visibility|The Crown of the Immaculate (Extreme)"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Kholusia",
-                        "x": 1438,
-                        "y": 1694,
-                        "size": 6
+                        "x": 851,
+                        "y": 210,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -111,95 +150,83 @@
                     {
                         "name": "Anamnesis Anyder 2",
                         "access_rules": [],
-                        "visibility_rules": ["extra_dungeon_checks:1"],
+                        "visibility_rules": [
+                            "extra_dungeon_checks:1"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Anamnesis Anyder 3",
                         "access_rules": [],
-                        "visibility_rules": ["extra_dungeon_checks:2"],
+                        "visibility_rules": [
+                            "extra_dungeon_checks:2"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Anamnesis Anyder 4",
                         "access_rules": [],
-                        "visibility_rules": ["extra_dungeon_checks:3"],
+                        "visibility_rules": [
+                            "extra_dungeon_checks:3"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Anamnesis Anyder 5",
                         "access_rules": [],
-                        "visibility_rules": ["extra_dungeon_checks:4"],
+                        "visibility_rules": [
+                            "extra_dungeon_checks:4"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Anamnesis Anyder 6",
                         "access_rules": [],
-                        "visibility_rules": ["extra_dungeon_checks:5"],
+                        "visibility_rules": [
+                            "extra_dungeon_checks:5"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Anamnesis Anyder 7",
                         "access_rules": [],
-                        "visibility_rules": ["extra_dungeon_checks:6"],
+                        "visibility_rules": [
+                            "extra_dungeon_checks:6"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Anamnesis Anyder 8",
                         "access_rules": [],
-                        "visibility_rules": ["extra_dungeon_checks:7"],
+                        "visibility_rules": [
+                            "extra_dungeon_checks:7"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Anamnesis Anyder 9",
                         "access_rules": [],
-                        "visibility_rules": ["extra_dungeon_checks:8"],
+                        "visibility_rules": [
+                            "extra_dungeon_checks:8"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Anamnesis Anyder 10",
                         "access_rules": [],
-                        "visibility_rules": ["extra_dungeon_checks:9"],
+                        "visibility_rules": [
+                            "extra_dungeon_checks:9"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Kholusia",
-                        "x": 1022,
-                        "y": 1774,
-                        "size": 6
-                    }
-                ]
-            },
-            {
-                "name": "The Crown of the Immaculate",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
-                "sections": [
-                    {
-                        "name": "The Crown of the Immaculate",
-                        "access_rules": ["$leveling:79"],
-                        "visibility_rules": ["level_cap:79, duty_difficulty_normal, $duty_visibility|The Crown of the Immaculate"],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Crown of the Immaculate (Extreme)",
-                        "access_rules": ["$leveling:80"],
-                        "visibility_rules": ["level_cap:80, duty_difficulty_ex, $duty_visibility|The Crown of the Immaculate (Extreme)"],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Kholusia",
-                        "x": 1358,
-                        "y": 532,
-                        "size": 6
+                        "x": 493,
+                        "y": 1753,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -218,28 +245,35 @@
                     {
                         "name": "The Copied Factory",
                         "access_rules": [],
-                        "visibility_rules": ["$duty_visibility|The Copied Factory"],
+                        "visibility_rules": [
+                            "$duty_visibility|The Copied Factory"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "The Puppets Bunker",
                         "access_rules": [],
-                        "visibility_rules": ["$duty_visibility|The Puppets' Bunker"],
+                        "visibility_rules": [
+                            "$duty_visibility|The Puppets' Bunker"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "The Tower at Paradigms Breach",
                         "access_rules": [],
-                        "visibility_rules": ["$duty_visibility|The Tower at Paradigm's Breach"],
+                        "visibility_rules": [
+                            "$duty_visibility|The Tower at Paradigm's Breach"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Kholusia",
-                        "x": 797,
-                        "y": 1607,
-                        "size": 6
+                        "x": 1732,
+                        "y": 919,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -339,9 +373,10 @@
                 "map_locations": [
                     {
                         "map": "Kholusia",
-                        "x": 853,
-                        "y": 216,
-                        "size": 6
+                        "x": 66,
+                        "y": 113,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -368,9 +403,10 @@
                 "map_locations": [
                     {
                         "map": "Kholusia",
-                        "x": 1818,
-                        "y": 841,
-                        "size": 6
+                        "x": 877,
+                        "y": 1491,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -397,9 +433,10 @@
                 "map_locations": [
                     {
                         "map": "Kholusia",
-                        "x": 2023,
-                        "y": 1549,
-                        "size": 6
+                        "x": 1540,
+                        "y": 1618,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -426,9 +463,10 @@
                 "map_locations": [
                     {
                         "map": "Kholusia",
-                        "x": 1753,
-                        "y": 207,
-                        "size": 6
+                        "x": 373,
+                        "y": 1489,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -455,9 +493,10 @@
                 "map_locations": [
                     {
                         "map": "Kholusia",
-                        "x": 2470,
-                        "y": 444,
-                        "size": 6
+                        "x": 1225,
+                        "y": 1307,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -484,9 +523,10 @@
                 "map_locations": [
                     {
                         "map": "Kholusia",
-                        "x": 631,
-                        "y": 378,
-                        "size": 6
+                        "x": 1541,
+                        "y": 1195,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -513,9 +553,10 @@
                 "map_locations": [
                     {
                         "map": "Kholusia",
-                        "x": 1066,
-                        "y": 1487,
-                        "size": 6
+                        "x": 596,
+                        "y": 1332,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -542,9 +583,10 @@
                 "map_locations": [
                     {
                         "map": "Kholusia",
-                        "x": 1638,
-                        "y": 492,
-                        "size": 6
+                        "x": 1263,
+                        "y": 967,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -571,9 +613,10 @@
                 "map_locations": [
                     {
                         "map": "Kholusia",
-                        "x": 2372,
-                        "y": 368,
-                        "size": 6
+                        "x": 1104,
+                        "y": 647,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -600,9 +643,10 @@
                 "map_locations": [
                     {
                         "map": "Kholusia",
-                        "x": 1683,
-                        "y": 2471,
-                        "size": 6
+                        "x": 1248,
+                        "y": 799,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -629,9 +673,10 @@
                 "map_locations": [
                     {
                         "map": "Kholusia",
-                        "x": 1644,
-                        "y": 2287,
-                        "size": 6
+                        "x": 858,
+                        "y": 697,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -658,9 +703,10 @@
                 "map_locations": [
                     {
                         "map": "Kholusia",
-                        "x": 810,
-                        "y": 902,
-                        "size": 6
+                        "x": 774,
+                        "y": 992,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -687,9 +733,10 @@
                 "map_locations": [
                     {
                         "map": "Kholusia",
-                        "x": 146,
-                        "y": 676,
-                        "size": 6
+                        "x": 1131,
+                        "y": 405,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -716,9 +763,10 @@
                 "map_locations": [
                     {
                         "map": "Kholusia",
-                        "x": 1694,
-                        "y": 1527,
-                        "size": 6
+                        "x": 515,
+                        "y": 701,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -745,9 +793,10 @@
                 "map_locations": [
                     {
                         "map": "Kholusia",
-                        "x": 831,
-                        "y": 1394,
-                        "size": 6
+                        "x": 693,
+                        "y": 449,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -774,9 +823,10 @@
                 "map_locations": [
                     {
                         "map": "Kholusia",
-                        "x": 2471,
-                        "y": 1562,
-                        "size": 6
+                        "x": 899,
+                        "y": 925,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -795,7 +845,7 @@
                             "$leveling:80"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:80, include_unreasonable_fates" 
+                            "fatesanity, level_cap:80, include_unreasonable_fates"
                         ],
                         "item_count": 1
                     }
@@ -803,9 +853,10 @@
                 "map_locations": [
                     {
                         "map": "Kholusia",
-                        "x": 1514,
-                        "y": 1496,
-                        "size": 6
+                        "x": 1638,
+                        "y": 1034,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -823,65 +874,89 @@
                 "sections": [
                     {
                         "name": "Creamy Oyster",
-                        "access_rules": ["moyebishrimp"],
+                        "access_rules": [
+                            "moyebishrimp"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Shellfracture Kelp",
-                        "access_rules": ["moyebishrimp", "metalspinner"],
+                        "access_rules": [
+                            "moyebishrimp",
+                            "metalspinner"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Kholusian Flounder",
-                        "access_rules": ["shortbillminnow", "metalspinner"],
+                        "access_rules": [
+                            "shortbillminnow",
+                            "metalspinner"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "South Kholusian Cod",
-                        "access_rules": ["shortbillminnow", "metalspinner"],
+                        "access_rules": [
+                            "shortbillminnow",
+                            "metalspinner"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Razorfish",
-                        "access_rules": ["shortbillminnow"],
+                        "access_rules": [
+                            "shortbillminnow"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Rose Shrimp",
-                        "access_rules": ["shortbillminnow"],
+                        "access_rules": [
+                            "shortbillminnow"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Kholusian King Crab",
-                        "access_rules": ["metalspinner"],
+                        "access_rules": [
+                            "metalspinner"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Blue Crab",
-                        "access_rules": ["squidstrip"],
+                        "access_rules": [
+                            "squidstrip"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Steel Razor",
-                        "access_rules": ["moyebishrimp"],
-                        "visibility_rules": ["fishsanity_big"],
+                        "access_rules": [
+                            "moyebishrimp"
+                        ],
+                        "visibility_rules": [
+                            "fishsanity_big"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Kholusia",
-                        "x": 1715,
-                        "y": 133,
-                        "size": 6
+                        "x": 393,
+                        "y": 1652,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -899,47 +974,64 @@
                 "sections": [
                     {
                         "name": "Skulleater",
-                        "access_rules": ["metalspinner", "fruitworm"],
+                        "access_rules": [
+                            "metalspinner",
+                            "fruitworm"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Toffee Snail",
-                        "access_rules": ["metalspinner"],
+                        "access_rules": [
+                            "metalspinner"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Watts Trout",
-                        "access_rules": ["metalspinner", "fruitworm"],
+                        "access_rules": [
+                            "metalspinner",
+                            "fruitworm"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Hucho Taimen",
-                        "access_rules": ["baitbugs"],
+                        "access_rules": [
+                            "baitbugs"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Winged Hatchetfish",
-                        "access_rules": ["robberball"],
+                        "access_rules": [
+                            "robberball"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Giant Taimen",
-                        "access_rules": ["baitbugs"],
-                        "visibility_rules": ["fishsanity_big"],
+                        "access_rules": [
+                            "baitbugs"
+                        ],
+                        "visibility_rules": [
+                            "fishsanity_big"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Kholusia",
-                        "x": 477,
-                        "y": 630,
-                        "size": 6
+                        "x": 1273,
+                        "y": 645,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -957,41 +1049,56 @@
                 "sections": [
                     {
                         "name": "Skulleater",
-                        "access_rules": ["metalspinner", "fruitworm"],
+                        "access_rules": [
+                            "metalspinner",
+                            "fruitworm"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Watts Trout",
-                        "access_rules": ["metalspinner", "fruitworm"],
+                        "access_rules": [
+                            "metalspinner",
+                            "fruitworm"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Nobles Fan",
-                        "access_rules": ["marblenymph"],
+                        "access_rules": [
+                            "marblenymph"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "White Oil Perch",
-                        "access_rules": ["metalspinner"],
+                        "access_rules": [
+                            "metalspinner"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Steel Fan",
-                        "access_rules": ["marblenymph"],
-                        "visibility_rules": ["fishsanity_big"],
+                        "access_rules": [
+                            "marblenymph"
+                        ],
+                        "visibility_rules": [
+                            "fishsanity_big"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Kholusia",
-                        "x": 2334,
-                        "y": 336,
-                        "size": 6
+                        "x": 1409,
+                        "y": 984,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -1009,41 +1116,56 @@
                 "sections": [
                     {
                         "name": "Skulleater",
-                        "access_rules": ["metalspinner", "fruitworm"],
+                        "access_rules": [
+                            "metalspinner",
+                            "fruitworm"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Toffee Snail",
-                        "access_rules": ["metalspinner"],
+                        "access_rules": [
+                            "metalspinner"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Watts Trout",
-                        "access_rules": ["metalspinner", "fruitworm"],
+                        "access_rules": [
+                            "metalspinner",
+                            "fruitworm"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Zebra Catfish",
-                        "access_rules": ["marblenymph"],
+                        "access_rules": [
+                            "marblenymph"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "White Ronso",
-                        "access_rules": ["baitbugs"],
-                        "visibility_rules": ["fishsanity_big"],
+                        "access_rules": [
+                            "baitbugs"
+                        ],
+                        "visibility_rules": [
+                            "fishsanity_big"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Kholusia",
-                        "x": 1006,
-                        "y": 1756,
-                        "size": 6
+                        "x": 1449,
+                        "y": 1192,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -1061,35 +1183,47 @@
                 "sections": [
                     {
                         "name": "Skulleater",
-                        "access_rules": ["metalspinner", "fruitworm"],
+                        "access_rules": [
+                            "metalspinner",
+                            "fruitworm"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Toffee Snail",
-                        "access_rules": ["metalspinner"],
+                        "access_rules": [
+                            "metalspinner"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Sepia Sole",
-                        "access_rules": ["marblenymph"],
+                        "access_rules": [
+                            "marblenymph"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Bronze Sole",
-                        "access_rules": ["marblenymph"],
-                        "visibility_rules": ["fishsanity_big"],
+                        "access_rules": [
+                            "marblenymph"
+                        ],
+                        "visibility_rules": [
+                            "fishsanity_big"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Kholusia",
-                        "x": 1004,
-                        "y": 1641,
-                        "size": 6
+                        "x": 1020,
+                        "y": 1277,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -1107,50 +1241,72 @@
                 "sections": [
                     {
                         "name": "Shellfracture Kelp",
-                        "access_rules": ["moyebishrimp", "metalspinner"],
+                        "access_rules": [
+                            "moyebishrimp",
+                            "metalspinner"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Blood Cloud",
-                        "access_rules": ["moyebishrimp"],
+                        "access_rules": [
+                            "moyebishrimp"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "South Kholusian Cod",
-                        "access_rules": ["shortbillminnow", "metalspinner"],
+                        "access_rules": [
+                            "shortbillminnow",
+                            "metalspinner"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Kholusian Wrasse",
-                        "access_rules": ["shortbillminnow"],
+                        "access_rules": [
+                            "shortbillminnow"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Weedy Seadragon",
-                        "access_rules": ["shortbillminnow"],
+                        "access_rules": [
+                            "shortbillminnow"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Henodus",
-                        "access_rules": ["shortbillminnow"],
-                        "visibility_rules": ["fishsanity_timed"],
+                        "access_rules": [
+                            "shortbillminnow"
+                        ],
+                        "visibility_rules": [
+                            "fishsanity_timed"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Spearhead Squid",
-                        "access_rules": ["shortbillminnow"],
+                        "access_rules": [
+                            "shortbillminnow"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Henodus Grandis",
-                        "access_rules": ["shortbillminnow"],
-                        "visibility_rules": ["fishsanity_big"],
+                        "access_rules": [
+                            "shortbillminnow"
+                        ],
+                        "visibility_rules": [
+                            "fishsanity_big"
+                        ],
                         "item_count": 1
                     },
                     {
@@ -1163,9 +1319,10 @@
                 "map_locations": [
                     {
                         "map": "Kholusia",
-                        "x": 2390,
-                        "y": 119,
-                        "size": 6
+                        "x": 1788,
+                        "y": 1525,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -1183,53 +1340,72 @@
                 "sections": [
                     {
                         "name": "Blood Cloud",
-                        "access_rules": ["moyebishrimp"],
+                        "access_rules": [
+                            "moyebishrimp"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Kholusian Flounder",
-                        "access_rules": ["shortbillminnow", "metalspinner"],
+                        "access_rules": [
+                            "shortbillminnow",
+                            "metalspinner"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "South Kholusian Cod",
-                        "access_rules": ["shortbillminnow", "metalspinner"],
+                        "access_rules": [
+                            "shortbillminnow",
+                            "metalspinner"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Shapeshifter",
-                        "access_rules": ["moyebishrimp"],
+                        "access_rules": [
+                            "moyebishrimp"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Minstrelfish",
-                        "access_rules": ["shortbillminnow"],
+                        "access_rules": [
+                            "shortbillminnow"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Aquamaton",
-                        "access_rules": ["shortbillminnow"],
+                        "access_rules": [
+                            "shortbillminnow"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Shadeshifter",
-                        "access_rules": ["squidstrip"],
-                        "visibility_rules": ["fishsanity_big"],
+                        "access_rules": [
+                            "squidstrip"
+                        ],
+                        "visibility_rules": [
+                            "fishsanity_big"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Kholusia",
-                        "x": 2046,
-                        "y": 165,
-                        "size": 6
+                        "x": 784,
+                        "y": 1746,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             }

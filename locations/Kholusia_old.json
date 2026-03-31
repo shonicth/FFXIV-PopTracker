@@ -1,326 +1,245 @@
 [
     {
-        "name": "Amh Araeng",
+        "name": "Kholusia",
         "chest_unopened_img": "/images/items/close.png",
         "chest_opened_img": "/images/items/open.png",
         "overlay_background": "#000000",
         "access_rules": [
-            "$amharaengaccess"
+            "$kholusiaaccess"
         ],
         "children": [
             {
-                "name": "Malikahs Well",
+                "name": "Mt. Gulg",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "$leveling:77"
+                    "$leveling:79"
                 ],
                 "visibility_rules": [
-                    "level_cap:77, duty_difficulty_normal, $duty_visibility|Malikah's Well"
+                    "level_cap:79, duty_difficulty_normal, $duty_visibility|Mt. Gulg"
                 ],
                 "sections": [
                     {
-                        "name": "Malikahs Well",
+                        "name": "Mt. Gulg",
                         "access_rules": [],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Malikahs Well 2",
+                        "name": "Mt. Gulg 2",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:1"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:1"],
                         "item_count": 1
                     },
                     {
-                        "name": "Malikahs Well 3",
+                        "name": "Mt. Gulg 3",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:2"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:2"],
                         "item_count": 1
                     },
                     {
-                        "name": "Malikahs Well 4",
+                        "name": "Mt. Gulg 4",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:3"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:3"],
                         "item_count": 1
                     },
                     {
-                        "name": "Malikahs Well 5",
+                        "name": "Mt. Gulg 5",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:4"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:4"],
                         "item_count": 1
                     },
                     {
-                        "name": "Malikahs Well 6",
+                        "name": "Mt. Gulg 6",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:5"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:5"],
                         "item_count": 1
                     },
                     {
-                        "name": "Malikahs Well 7",
+                        "name": "Mt. Gulg 7",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:6"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:6"],
                         "item_count": 1
                     },
                     {
-                        "name": "Malikahs Well 8",
+                        "name": "Mt. Gulg 8",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:7"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:7"],
                         "item_count": 1
                     },
                     {
-                        "name": "Malikahs Well 9",
+                        "name": "Mt. Gulg 9",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:8"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:8"],
                         "item_count": 1
                     },
                     {
-                        "name": "Malikahs Well 10",
+                        "name": "Mt. Gulg 10",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:9"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:9"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "Amh Araeng",
-                        "x": 507,
-                        "y": 1524,
-                        "size": 40,
-                        "shape": "rect"
+                        "map": "Kholusia",
+                        "x": 1438,
+                        "y": 1694,
+                        "size": 6
                     }
                 ]
             },
             {
-                "name": "Eden",
+                "name": "Anamnesis Anyder",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "$leveling:80, edenkey"
+                    "$leveling:80"
+                ],
+                "visibility_rules": [
+                    "level_cap:80, duty_difficulty_normal, $duty_visibility|Anamnesis Anyder"
+                ],
+                "sections": [
+                    {
+                        "name": "Anamnesis Anyder",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Anamnesis Anyder 2",
+                        "access_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:1"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Anamnesis Anyder 3",
+                        "access_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:2"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Anamnesis Anyder 4",
+                        "access_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:3"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Anamnesis Anyder 5",
+                        "access_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:4"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Anamnesis Anyder 6",
+                        "access_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:5"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Anamnesis Anyder 7",
+                        "access_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:6"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Anamnesis Anyder 8",
+                        "access_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:7"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Anamnesis Anyder 9",
+                        "access_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:8"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Anamnesis Anyder 10",
+                        "access_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:9"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Kholusia",
+                        "x": 1022,
+                        "y": 1774,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "The Crown of the Immaculate",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "The Crown of the Immaculate",
+                        "access_rules": ["$leveling:79"],
+                        "visibility_rules": ["level_cap:79, duty_difficulty_normal, $duty_visibility|The Crown of the Immaculate"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "The Crown of the Immaculate (Extreme)",
+                        "access_rules": ["$leveling:80"],
+                        "visibility_rules": ["level_cap:80, duty_difficulty_ex, $duty_visibility|The Crown of the Immaculate (Extreme)"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Kholusia",
+                        "x": 1358,
+                        "y": 532,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Nier",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$leveling:80"
                 ],
                 "visibility_rules": [
                     "level_cap:80, duty_difficulty_normal"
                 ],
                 "sections": [
                     {
-                        "name": "Edens Gate Resurrection",
+                        "name": "The Copied Factory",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "$duty_visibility|Eden's Gate: Resurrection"
-                        ],
+                        "visibility_rules": ["$duty_visibility|The Copied Factory"],
                         "item_count": 1
                     },
                     {
-                        "name": "Edens Gate Descent",
+                        "name": "The Puppets Bunker",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "$duty_visibility|Eden's Gate: Descent"
-                        ],
+                        "visibility_rules": ["$duty_visibility|The Puppets' Bunker"],
                         "item_count": 1
                     },
                     {
-                        "name": "Edens Gate Inundation",
+                        "name": "The Tower at Paradigms Breach",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "$duty_visibility|Eden's Gate: Inundation"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Edens Gate Sepulture",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "$duty_visibility|Eden's Gate: Sepulture"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Edens Verse Fulmination",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "$duty_visibility|Eden's Verse: Fulmination"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Edens Verse Furor",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "$duty_visibility|Eden's Verse: Furor"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Edens Verse Iconoclasm",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "$duty_visibility|Eden's Verse: Iconoclasm"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Edens Verse Refulgence",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "$duty_visibility|Eden's Verse: Refulgence"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Edens Promise Umbra",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "$duty_visibility|Eden's Promise: Umbra"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Edens Promise Litany",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "$duty_visibility|Eden's Promise: Litany"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Edens Promise Anamorphosis",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "$duty_visibility|Eden's Promise: Anamorphosis"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Edens Promise Eternity",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "$duty_visibility|Eden's Promise: Eternity"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Edens Gate Resurrection (Savage)",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "duty_difficulty_savage, $duty_visibility|Eden's Gate: Resurrection (Savage)"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Edens Gate Descent (Savage)",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "duty_difficulty_savage, $duty_visibility|Eden's Gate: Descent (Savage)"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Edens Gate Inundation (Savage)",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "duty_difficulty_savage, $duty_visibility|Eden's Gate: Inundation (Savage)"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Edens Gate Sepulture (Savage)",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "duty_difficulty_savage, $duty_visibility|Eden's Gate: Sepulture (Savage)"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Edens Verse Fulmination (Savage)",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "duty_difficulty_savage, $duty_visibility|Eden's Verse: Fulmination (Savage)"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Edens Verse Furor (Savage)",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "duty_difficulty_savage, $duty_visibility|Eden's Verse: Furor (Savage)"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Edens Verse Iconoclasm (Savage)",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "duty_difficulty_savage, $duty_visibility|Eden's Verse: Iconoclasm (Savage)"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Edens Verse Refulgence (Savage)",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "duty_difficulty_savage, $duty_visibility|Eden's Verse: Refulgence (Savage)"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Edens Promise Umbra (Savage)",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "duty_difficulty_savage, $duty_visibility|Eden's Promise: Umbra (Savage)"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Edens Promise Litany (Savage)",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "duty_difficulty_savage, $duty_visibility|Eden's Promise: Litany (Savage)"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Edens Promise Anamorphosis (Savage)",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "duty_difficulty_savage, $duty_visibility|Eden's Promise: Anamorphosis (Savage)"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Edens Promise Eternity (Savage)",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "duty_difficulty_savage, $duty_visibility|Eden's Promise: Eternity (Savage)"
-                        ],
+                        "visibility_rules": ["$duty_visibility|The Tower at Paradigm's Breach"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "Amh Araeng",
-                        "x": 1398,
-                        "y": 1549,
-                        "size": 40,
-                        "shape": "rect"
+                        "map": "Kholusia",
+                        "x": 797,
+                        "y": 1607,
+                        "size": 6
                     }
                 ]
             },
@@ -419,16 +338,15 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "Amh Araeng",
-                        "x": 707,
-                        "y": 129,
-                        "size": 40,
-                        "shape": "rect"
+                        "map": "Kholusia",
+                        "x": 853,
+                        "y": 216,
+                        "size": 6
                     }
                 ]
             },
             {
-                "name": "Bayawak Attack (FATE)",
+                "name": "Bitter Barley (FATE)",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -437,33 +355,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Bayawak Attack (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Amh Araeng",
-                        "x": 1582,
-                        "y": 668,
-                        "size": 40,
-                        "shape": "rect"
-                    }
-                ]
-            },
-            {
-                "name": "Cactus Makes Perfect (FATE)",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
-                "sections": [
-                    {
-                        "name": "Cactus Makes Perfect (FATE)",
+                        "name": "Bitter Barley (FATE)",
                         "access_rules": [
                             "$leveling:70"
                         ],
@@ -475,16 +367,15 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "Amh Araeng",
-                        "x": 1742,
-                        "y": 1189,
-                        "size": 40,
-                        "shape": "rect"
+                        "map": "Kholusia",
+                        "x": 1818,
+                        "y": 841,
+                        "size": 6
                     }
                 ]
             },
             {
-                "name": "Harbingers of Bloom (FATE)",
+                "name": "JELL-NO (FATE)",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -493,7 +384,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Harbingers of Bloom (FATE)",
+                        "name": "JELL-NO (FATE)",
                         "access_rules": [
                             "$leveling:70"
                         ],
@@ -505,16 +396,15 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "Amh Araeng",
-                        "x": 1641,
-                        "y": 507,
-                        "size": 40,
-                        "shape": "rect"
+                        "map": "Kholusia",
+                        "x": 2023,
+                        "y": 1549,
+                        "size": 6
                     }
                 ]
             },
             {
-                "name": "Pray Destroy the Waking Sands (FATE)",
+                "name": "One-punch Mantis (FATE)",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -523,7 +413,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Pray Destroy the Waking Sands (FATE)",
+                        "name": "One-punch Mantis (FATE)",
                         "access_rules": [
                             "$leveling:70"
                         ],
@@ -535,16 +425,15 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "Amh Araeng",
-                        "x": 1368,
-                        "y": 644,
-                        "size": 40,
-                        "shape": "rect"
+                        "map": "Kholusia",
+                        "x": 1753,
+                        "y": 207,
+                        "size": 6
                     }
                 ]
             },
             {
-                "name": "Reptilian Roadblock (FATE)",
+                "name": "Roadside Dinner (FATE)",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -553,7 +442,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Reptilian Roadblock (FATE)",
+                        "name": "Roadside Dinner (FATE)",
                         "access_rules": [
                             "$leveling:70"
                         ],
@@ -565,16 +454,15 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "Amh Araeng",
-                        "x": 1625,
-                        "y": 1207,
-                        "size": 40,
-                        "shape": "rect"
+                        "map": "Kholusia",
+                        "x": 2470,
+                        "y": 444,
+                        "size": 6
                     }
                 ]
             },
             {
-                "name": "Scavengers Hunted (FATE)",
+                "name": "Shadow Over Stilltide (FATE)",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -583,7 +471,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Scavengers Hunted (FATE)",
+                        "name": "Shadow Over Stilltide (FATE)",
                         "access_rules": [
                             "$leveling:70"
                         ],
@@ -595,16 +483,15 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "Amh Araeng",
-                        "x": 1535,
-                        "y": 956,
-                        "size": 40,
-                        "shape": "rect"
+                        "map": "Kholusia",
+                        "x": 631,
+                        "y": 378,
+                        "size": 6
                     }
                 ]
             },
             {
-                "name": "Theft from Above (FATE)",
+                "name": "The Wright Stuff (FATE)",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -613,7 +500,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Theft from Above (FATE)",
+                        "name": "The Wright Stuff (FATE)",
                         "access_rules": [
                             "$leveling:70"
                         ],
@@ -625,16 +512,15 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "Amh Araeng",
-                        "x": 1714,
-                        "y": 1341,
-                        "size": 40,
-                        "shape": "rect"
+                        "map": "Kholusia",
+                        "x": 1066,
+                        "y": 1487,
+                        "size": 6
                     }
                 ]
             },
             {
-                "name": "Tolba No. 1 (FATE)",
+                "name": "A Family Most Formidable (FATE)",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -643,28 +529,27 @@
                 ],
                 "sections": [
                     {
-                        "name": "Tolba No. 1 (FATE)",
+                        "name": "A Family Most Formidable (FATE)",
                         "access_rules": [
-                            "$leveling:70"
+                            "$leveling:78"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:70"
+                            "fatesanity, level_cap:78"
                         ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "Amh Araeng",
-                        "x": 1547,
-                        "y": 817,
-                        "size": 40,
-                        "shape": "rect"
+                        "map": "Kholusia",
+                        "x": 1638,
+                        "y": 492,
+                        "size": 6
                     }
                 ]
             },
             {
-                "name": "Armadillo Peccadillo (FATE)",
+                "name": "Foes Most Formidable (FATE)",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -673,28 +558,27 @@
                 ],
                 "sections": [
                     {
-                        "name": "Armadillo Peccadillo (FATE)",
+                        "name": "Foes Most Formidable (FATE)",
                         "access_rules": [
-                            "$leveling:76"
+                            "$leveling:78"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:76"
+                            "fatesanity, level_cap:78"
                         ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "Amh Araeng",
-                        "x": 998,
-                        "y": 1010,
-                        "size": 40,
-                        "shape": "rect"
+                        "map": "Kholusia",
+                        "x": 2372,
+                        "y": 368,
+                        "size": 6
                     }
                 ]
             },
             {
-                "name": "Baddie Longlegs (FATE)",
+                "name": "Ironbeard Builders Rebuilt (FATE)",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -703,28 +587,27 @@
                 ],
                 "sections": [
                     {
-                        "name": "Baddie Longlegs (FATE)",
+                        "name": "Ironbeard Builders Rebuilt (FATE)",
                         "access_rules": [
-                            "$leveling:76"
+                            "$leveling:78"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:76"
+                            "fatesanity, level_cap:78"
                         ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "Amh Araeng",
-                        "x": 1026,
-                        "y": 598,
-                        "size": 40,
-                        "shape": "rect"
+                        "map": "Kholusia",
+                        "x": 1683,
+                        "y": 2471,
+                        "size": 6
                     }
                 ]
             },
             {
-                "name": "Bloody Simple (FATE)",
+                "name": "Ironbeard Builders Resist (FATE)",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -733,28 +616,27 @@
                 ],
                 "sections": [
                     {
-                        "name": "Bloody Simple (FATE)",
+                        "name": "Ironbeard Builders Resist (FATE)",
                         "access_rules": [
-                            "$leveling:76"
+                            "$leveling:78"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:76"
+                            "fatesanity, level_cap:78"
                         ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "Amh Araeng",
-                        "x": 685,
-                        "y": 636,
-                        "size": 40,
-                        "shape": "rect"
+                        "map": "Kholusia",
+                        "x": 1644,
+                        "y": 2287,
+                        "size": 6
                     }
                 ]
             },
             {
-                "name": "Lets Dance (with Swords) (FATE)",
+                "name": "Ironbeard Builders Revolt (FATE)",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -763,28 +645,27 @@
                 ],
                 "sections": [
                     {
-                        "name": "Lets Dance (with Swords) (FATE)",
+                        "name": "Ironbeard Builders Revolt (FATE)",
                         "access_rules": [
-                            "$leveling:76"
+                            "$leveling:78"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:76"
+                            "fatesanity, level_cap:78"
                         ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "Amh Araeng",
-                        "x": 726,
-                        "y": 974,
-                        "size": 40,
-                        "shape": "rect"
+                        "map": "Kholusia",
+                        "x": 810,
+                        "y": 902,
+                        "size": 6
                     }
                 ]
             },
             {
-                "name": "Sand and Deliver (FATE)",
+                "name": "Knockout (FATE)",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -793,28 +674,27 @@
                 ],
                 "sections": [
                     {
-                        "name": "Sand and Deliver (FATE)",
+                        "name": "Knockout (FATE)",
                         "access_rules": [
-                            "$leveling:76"
+                            "$leveling:78"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:76"
+                            "fatesanity, level_cap:78"
                         ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "Amh Araeng",
-                        "x": 838,
-                        "y": 771,
-                        "size": 40,
-                        "shape": "rect"
+                        "map": "Kholusia",
+                        "x": 146,
+                        "y": 676,
+                        "size": 6
                     }
                 ]
             },
             {
-                "name": "The Elderblade (FATE)",
+                "name": "Not Today (FATE)",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -823,28 +703,27 @@
                 ],
                 "sections": [
                     {
-                        "name": "The Elderblade (FATE)",
+                        "name": "Not Today (FATE)",
                         "access_rules": [
-                            "$leveling:76"
+                            "$leveling:78"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:76"
+                            "fatesanity, level_cap:78"
                         ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "Amh Araeng",
-                        "x": 1074,
-                        "y": 1263,
-                        "size": 40,
-                        "shape": "rect"
+                        "map": "Kholusia",
+                        "x": 1694,
+                        "y": 1527,
+                        "size": 6
                     }
                 ]
             },
             {
-                "name": "This Time Its Personal (FATE)",
+                "name": "Season of Our Discord (FATE)",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -853,28 +732,27 @@
                 ],
                 "sections": [
                     {
-                        "name": "This Time Its Personal (FATE)",
+                        "name": "Season of Our Discord (FATE)",
                         "access_rules": [
-                            "$leveling:76"
+                            "$leveling:78"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:76"
+                            "fatesanity, level_cap:78"
                         ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "Amh Araeng",
-                        "x": 667,
-                        "y": 842,
-                        "size": 40,
-                        "shape": "rect"
+                        "map": "Kholusia",
+                        "x": 831,
+                        "y": 1394,
+                        "size": 6
                     }
                 ]
             },
             {
-                "name": "Anti-eruption Measures (FATE)",
+                "name": "The Amity Village Horror (FATE)",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -883,28 +761,27 @@
                 ],
                 "sections": [
                     {
-                        "name": "Anti-eruption Measures (FATE)",
+                        "name": "The Amity Village Horror (FATE)",
                         "access_rules": [
-                            "$leveling:77"
+                            "$leveling:78"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:77"
+                            "fatesanity, level_cap:78"
                         ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "Amh Araeng",
-                        "x": 433,
-                        "y": 1564,
-                        "size": 40,
-                        "shape": "rect"
+                        "map": "Kholusia",
+                        "x": 2471,
+                        "y": 1562,
+                        "size": 6
                     }
                 ]
             },
             {
-                "name": "The Odd Couple (FATE)",
+                "name": "A Finale Most Formidable (FATE)",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -913,197 +790,27 @@
                 ],
                 "sections": [
                     {
-                        "name": "The Odd Couple (FATE)",
+                        "name": "A Finale Most Formidable (FATE)",
                         "access_rules": [
-                            "$leveling:77"
+                            "$leveling:80"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:77"
+                            "fatesanity, level_cap:80, include_unreasonable_fates" 
                         ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "Amh Araeng",
-                        "x": 808,
-                        "y": 1609,
-                        "size": 40,
-                        "shape": "rect"
+                        "map": "Kholusia",
+                        "x": 1514,
+                        "y": 1496,
+                        "size": 6
                     }
                 ]
             },
             {
-                "name": "The Hills of Amber",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    "$leveling:77"
-                ],
-                "visibility_rules": [
-                    "fishsanity_normal, level_cap:77"
-                ],
-                "sections": [
-                    {
-                        "name": "Amber Monkfish",
-                        "access_rules": [
-                            "desertdessertfrog"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Desert Dustfish",
-                        "access_rules": [
-                            "metalspinner",
-                            "desertdessertfrog"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Web-footed Sand Gecko",
-                        "access_rules": [
-                            "desertdessertfrog"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Garik Crab",
-                        "access_rules": [
-                            "metalspinner"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Nabaath Manta",
-                        "access_rules": [
-                            "desertdessertfrog"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Thorned Lizard",
-                        "access_rules": [
-                            "desertdessertfrog"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_timed"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Ambling Caltrop",
-                        "access_rules": [
-                            "desertdessertfrog"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_big"
-                        ],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Amh Araeng",
-                        "x": 758,
-                        "y": 672,
-                        "size": 40,
-                        "shape": "rect"
-                    }
-                ]
-            },
-            {
-                "name": "The River of Sand",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    "$leveling:71"
-                ],
-                "visibility_rules": [
-                    "fishsanity_normal, level_cap:71"
-                ],
-                "sections": [
-                    {
-                        "name": "Shadow Crab",
-                        "access_rules": [
-                            "metalspinner",
-                            "desertdessertfrog"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Desert Dustfish",
-                        "access_rules": [
-                            "metalspinner",
-                            "desertdessertfrog"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Hornhelm",
-                        "access_rules": [
-                            "jerkedovim"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Web-footed Sand Gecko",
-                        "access_rules": [
-                            "desertdessertfrog"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Sand Egg",
-                        "access_rules": [
-                            "desertdessertfrog"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Horned King",
-                        "access_rules": [
-                            "jerkedovim"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_big"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Cinder Surprise",
-                        "access_rules": [
-                            "desertdessertfrog"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_big"
-                        ],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Amh Araeng",
-                        "x": 1484,
-                        "y": 541,
-                        "size": 40,
-                        "shape": "rect"
-                    }
-                ]
-            },
-            {
-                "name": "The Nabaath Severance",
+                "name": "The Western Kholusian Coast",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -1115,65 +822,414 @@
                 ],
                 "sections": [
                     {
-                        "name": "Shadow Crab",
-                        "access_rules": [
-                            "metalspinner",
-                            "desertdessertfrog"
-                        ],
+                        "name": "Creamy Oyster",
+                        "access_rules": ["moyebishrimp"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Desert Dustfish",
-                        "access_rules": [
-                            "metalspinner",
-                            "desertdessertfrog"
-                        ],
+                        "name": "Shellfracture Kelp",
+                        "access_rules": ["moyebishrimp", "metalspinner"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Amber Lamprey",
-                        "access_rules": [
-                            "desertdessertfrog"
-                        ],
+                        "name": "Kholusian Flounder",
+                        "access_rules": ["shortbillminnow", "metalspinner"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Desert Saw",
-                        "access_rules": [
-                            "jerkedovim"
-                        ],
+                        "name": "South Kholusian Cod",
+                        "access_rules": ["shortbillminnow", "metalspinner"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Areng Dire",
-                        "access_rules": [
-                            "metalspinner"
-                        ],
+                        "name": "Razorfish",
+                        "access_rules": ["shortbillminnow"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Nabaath Saw",
-                        "access_rules": [
-                            "jerkedovim"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_big"
-                        ],
+                        "name": "Rose Shrimp",
+                        "access_rules": ["shortbillminnow"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kholusian King Crab",
+                        "access_rules": ["metalspinner"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Blue Crab",
+                        "access_rules": ["squidstrip"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Steel Razor",
+                        "access_rules": ["moyebishrimp"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "Amh Araeng",
-                        "x": 1538,
-                        "y": 1490,
-                        "size": 40,
-                        "shape": "rect"
+                        "map": "Kholusia",
+                        "x": 1715,
+                        "y": 133,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Upper Watts River",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$leveling:78"
+                ],
+                "visibility_rules": [
+                    "fishsanity_normal, level_cap:78"
+                ],
+                "sections": [
+                    {
+                        "name": "Skulleater",
+                        "access_rules": ["metalspinner", "fruitworm"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Toffee Snail",
+                        "access_rules": ["metalspinner"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Watts Trout",
+                        "access_rules": ["metalspinner", "fruitworm"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Hucho Taimen",
+                        "access_rules": ["baitbugs"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Winged Hatchetfish",
+                        "access_rules": ["robberball"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Giant Taimen",
+                        "access_rules": ["baitbugs"],
+                        "visibility_rules": ["fishsanity_big"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Kholusia",
+                        "x": 477,
+                        "y": 630,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "White Oil Falls",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$leveling:71"
+                ],
+                "visibility_rules": [
+                    "fishsanity_normal, level_cap:71"
+                ],
+                "sections": [
+                    {
+                        "name": "Skulleater",
+                        "access_rules": ["metalspinner", "fruitworm"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Watts Trout",
+                        "access_rules": ["metalspinner", "fruitworm"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Nobles Fan",
+                        "access_rules": ["marblenymph"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "White Oil Perch",
+                        "access_rules": ["metalspinner"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Steel Fan",
+                        "access_rules": ["marblenymph"],
+                        "visibility_rules": ["fishsanity_big"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Kholusia",
+                        "x": 2334,
+                        "y": 336,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Lower Watts River",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$leveling:71"
+                ],
+                "visibility_rules": [
+                    "fishsanity_normal, level_cap:71"
+                ],
+                "sections": [
+                    {
+                        "name": "Skulleater",
+                        "access_rules": ["metalspinner", "fruitworm"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Toffee Snail",
+                        "access_rules": ["metalspinner"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Watts Trout",
+                        "access_rules": ["metalspinner", "fruitworm"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Zebra Catfish",
+                        "access_rules": ["marblenymph"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "White Ronso",
+                        "access_rules": ["baitbugs"],
+                        "visibility_rules": ["fishsanity_big"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Kholusia",
+                        "x": 1006,
+                        "y": 1756,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Sharptongue Drip",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$leveling:71"
+                ],
+                "visibility_rules": [
+                    "fishsanity_normal, level_cap:71"
+                ],
+                "sections": [
+                    {
+                        "name": "Skulleater",
+                        "access_rules": ["metalspinner", "fruitworm"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Toffee Snail",
+                        "access_rules": ["metalspinner"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Sepia Sole",
+                        "access_rules": ["marblenymph"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bronze Sole",
+                        "access_rules": ["marblenymph"],
+                        "visibility_rules": ["fishsanity_big"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Kholusia",
+                        "x": 1004,
+                        "y": 1641,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "The Eastern Kholusian Coast",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$leveling:72"
+                ],
+                "visibility_rules": [
+                    "fishsanity_normal, level_cap:72"
+                ],
+                "sections": [
+                    {
+                        "name": "Shellfracture Kelp",
+                        "access_rules": ["moyebishrimp", "metalspinner"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Blood Cloud",
+                        "access_rules": ["moyebishrimp"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "South Kholusian Cod",
+                        "access_rules": ["shortbillminnow", "metalspinner"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kholusian Wrasse",
+                        "access_rules": ["shortbillminnow"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Weedy Seadragon",
+                        "access_rules": ["shortbillminnow"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Henodus",
+                        "access_rules": ["shortbillminnow"],
+                        "visibility_rules": ["fishsanity_timed"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Spearhead Squid",
+                        "access_rules": ["shortbillminnow"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Henodus Grandis",
+                        "access_rules": ["shortbillminnow"],
+                        "visibility_rules": ["fishsanity_big"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Ondo Kelp",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Kholusia",
+                        "x": 2390,
+                        "y": 119,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Seagazer Shoals",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$leveling:75"
+                ],
+                "visibility_rules": [
+                    "fishsanity_normal, level_cap:75"
+                ],
+                "sections": [
+                    {
+                        "name": "Blood Cloud",
+                        "access_rules": ["moyebishrimp"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kholusian Flounder",
+                        "access_rules": ["shortbillminnow", "metalspinner"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "South Kholusian Cod",
+                        "access_rules": ["shortbillminnow", "metalspinner"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Shapeshifter",
+                        "access_rules": ["moyebishrimp"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Minstrelfish",
+                        "access_rules": ["shortbillminnow"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Aquamaton",
+                        "access_rules": ["shortbillminnow"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Shadeshifter",
+                        "access_rules": ["squidstrip"],
+                        "visibility_rules": ["fishsanity_big"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Kholusia",
+                        "x": 2046,
+                        "y": 165,
+                        "size": 6
                     }
                 ]
             }
