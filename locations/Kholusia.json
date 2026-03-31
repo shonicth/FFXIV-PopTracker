@@ -184,13 +184,13 @@
                     {
                         "name": "The Crown of the Immaculate",
                         "access_rules": ["$leveling:79"],
-                        "visibility_rules": ["level_cap:79, duty_difficulty_normal, $duty_visibility|Anamnesis Anyder"],
+                        "visibility_rules": ["level_cap:79, duty_difficulty_normal, $duty_visibility|The Crown of the Immaculate"],
                         "item_count": 1
                     },
                     {
                         "name": "The Crown of the Immaculate (Extreme)",
-                        "access_rules": ["$leveling:79"],
-                        "visibility_rules": ["level_cap:79, duty_difficulty_ex, $duty_visibility|The Crown of the Immaculate (Extreme)"],
+                        "access_rules": ["$leveling:80"],
+                        "visibility_rules": ["level_cap:80, duty_difficulty_ex, $duty_visibility|The Crown of the Immaculate (Extreme)"],
                         "item_count": 1
                     }
                 ],
@@ -795,7 +795,7 @@
                             "$leveling:80"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:80"
+                            "fatesanity, level_cap:80, include_unreasonable_fates" 
                         ],
                         "item_count": 1
                     }

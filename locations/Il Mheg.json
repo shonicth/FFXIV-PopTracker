@@ -101,14 +101,14 @@
                 "sections": [
                     {
                         "name": "The Dancing Plague",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["$leveling:73"],
+                        "visibility_rules": ["level_cap:73, duty_difficulty_normal, $duty_visibility|The Dancing Plague"],
                         "item_count": 1
                     },
                     {
                         "name": "The Dancing Plague (Extreme)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["$leveling:80"],
+                        "visibility_rules": ["level_cap:80 duty_difficulty_ex, $duty_visibility|The Dancing Plague (Extreme)"],
                         "item_count": 1
                     }
                 ],
@@ -127,67 +127,90 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "$leveling:70"
+                ],
+                "visibility_rules": [
+                    "$fatesanity_disabled, level_cap:70"
                 ],
                 "sections": [
                     {
                         "name": "FATE #1",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "fates_per_zone:1"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #2",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "fates_per_zone:2"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #3",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "fates_per_zone:3"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #4",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "fates_per_zone:4"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #5",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "fates_per_zone:5"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #6",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "fates_per_zone:6"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #7",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "fates_per_zone:7"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #8",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "fates_per_zone:8"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #9",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "fates_per_zone:9"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #10",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "fates_per_zone:10"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -211,8 +234,12 @@
                 "sections": [
                     {
                         "name": "Bear Necessities (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "$leveling:72"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:72"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -236,8 +263,12 @@
                 "sections": [
                     {
                         "name": "Hedge Mazed (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "$leveling:72"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:72"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -261,8 +292,12 @@
                 "sections": [
                     {
                         "name": "Locus Terribilis (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "$leveling:72"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:72"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -286,8 +321,12 @@
                 "sections": [
                     {
                         "name": "Mad Magic (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "$leveling:72"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:72"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -311,8 +350,12 @@
                 "sections": [
                     {
                         "name": "Once Upon a Time (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "$leveling:72"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:72"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -336,8 +379,12 @@
                 "sections": [
                     {
                         "name": "Thrice Upon a Time (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "$leveling:72"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:72"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -361,8 +408,12 @@
                 "sections": [
                     {
                         "name": "Twice Upon a Time (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "$leveling:72"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:72"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -386,8 +437,12 @@
                 "sections": [
                     {
                         "name": "Weave Em and Weep (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "$leveling:72"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:72"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -411,8 +466,12 @@
                 "sections": [
                     {
                         "name": "Back and Fuath (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "$leveling:73"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:73"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -436,8 +495,12 @@
                 "sections": [
                     {
                         "name": "Breaking the Fuath Wall (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "$leveling:73"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:73"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -461,8 +524,12 @@
                 "sections": [
                     {
                         "name": "Brute Fuath (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "$leveling:73"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:73"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -486,8 +553,12 @@
                 "sections": [
                     {
                         "name": "Frog Standard (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "$leveling:73"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:73"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -511,8 +582,12 @@
                 "sections": [
                     {
                         "name": "Fuath of Habit (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "$leveling:73"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:73"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -536,8 +611,12 @@
                 "sections": [
                     {
                         "name": "Fuath to Be Reckoned With (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "$leveling:73"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:73"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -561,8 +640,12 @@
                 "sections": [
                     {
                         "name": "Go Fuath a Conqueror (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "$leveling:73"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:73"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -586,8 +669,12 @@
                 "sections": [
                     {
                         "name": "Great Daens (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "$leveling:73"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:73"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -606,37 +693,40 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "$leveling:74"
+                ],
+                "visibility_rules": [
+                    "fishsanity_normal, level_cap:74"
                 ],
                 "sections": [
                     {
                         "name": "Brightmirror Clam",
-                        "access_rules": [],
+                        "access_rules": ["fruitworm"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Grey Skipper",
-                        "access_rules": [],
+                        "access_rules": ["fruitworm", "metalspinner"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Cherry Herring",
-                        "access_rules": [],
+                        "access_rules": ["marblenymph"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Cerulean Loach",
-                        "access_rules": [],
+                        "access_rules": ["fruitworm", "metalspinner"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Dammroen Herring",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["baitbugs"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
@@ -655,61 +745,64 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "$leveling:73"
+                ],
+                "visibility_rules": [
+                    "fishsanity_normal, level_cap:73"
                 ],
                 "sections": [
                     {
                         "name": "Calico Trout",
-                        "access_rules": [],
+                        "access_rules": ["fruitworm"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Official Ball",
-                        "access_rules": [],
+                        "access_rules": ["marblenymph"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Grey Skipper",
-                        "access_rules": [],
+                        "access_rules": ["fruitworm", "metalspinner"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Rebel",
-                        "access_rules": [],
+                        "access_rules": ["marblenymph"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Wild Red Betta",
-                        "access_rules": [],
+                        "access_rules": ["baitbugs"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Cerulean Loach",
-                        "access_rules": [],
+                        "access_rules": ["fruitworm", "metalspinner"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "The Sound of Fury",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["baitbugs"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     },
                     {
                         "name": "Fuchsia Bloom",
-                        "access_rules": [],
+                        "access_rules": ["robberball"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Ealad Skaan",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["baitbugs"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
@@ -728,37 +821,40 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "$leveling:74"
+                ],
+                "visibility_rules": [
+                    "fishsanity_normal, level_cap:74"
                 ],
                 "sections": [
                     {
                         "name": "Spotted Blue-eye",
-                        "access_rules": [],
+                        "access_rules": ["marblenymph"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Grey Skipper",
-                        "access_rules": [],
+                        "access_rules": ["fruitworm", "metalspinner"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Blood-eyed Frog",
-                        "access_rules": [],
+                        "access_rules": ["metalspinner"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Cerulean Loach",
-                        "access_rules": [],
+                        "access_rules": ["fruitworm", "metalspinner"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Fae Rainbow",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["marblenymph"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
@@ -777,43 +873,46 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "$leveling:74"
+                ],
+                "visibility_rules": [
+                    "fishsanity_normal, level_cap:74"
                 ],
                 "sections": [
                     {
                         "name": "Official Ball",
-                        "access_rules": [],
+                        "access_rules": ["marblenymph"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Grey Skipper",
-                        "access_rules": [],
+                        "access_rules": ["fruitworm", "metalspinner"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Blood-eyed Frog",
-                        "access_rules": [],
+                        "access_rules": ["metalspinner"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Spotted Ctenopoma",
-                        "access_rules": [],
+                        "access_rules": ["marblenymph"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Cerulean Loach",
-                        "access_rules": [],
+                        "access_rules": ["fruitworm", "metalspinner"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Sunken Tome",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["marblenymph"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
@@ -832,37 +931,40 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "$leveling:75"
+                ],
+                "visibility_rules": [
+                    "fishsanity_normal, level_cap:75"
                 ],
                 "sections": [
                     {
                         "name": "Official Ball",
-                        "access_rules": [],
+                        "access_rules": ["marblenymph"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Grey Skipper",
-                        "access_rules": [],
+                        "access_rules": ["fruitworm", "metalspinner"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Pixie Fish",
-                        "access_rules": [],
+                        "access_rules": ["marblenymph", "fruitworm"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Toadhead",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["baitbugs"],
+                        "visibility_rules": ["fishsanity_timed"],
                         "item_count": 1
                     },
                     {
                         "name": "Celestial",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["baitbugs"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
@@ -881,43 +983,46 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "$leveling:73"
+                ],
+                "visibility_rules": [
+                    "fishsanity_normal, level_cap:73"
                 ],
                 "sections": [
                     {
                         "name": "Grey Skipper",
-                        "access_rules": [],
+                        "access_rules": ["fruitworm", "metalspinner"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Pixie Fish",
-                        "access_rules": [],
+                        "access_rules": ["marblenymph", "fruitworm"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Wimple Carp",
-                        "access_rules": [],
+                        "access_rules": ["baitbugs"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Lemonfish",
-                        "access_rules": [],
+                        "access_rules": ["marblenymph"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Faeshine Clam",
-                        "access_rules": [],
+                        "access_rules": ["metalspinner"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Leannisg",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["marblenymph"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
@@ -936,37 +1041,40 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "$leveling:74"
+                ],
+                "visibility_rules": [
+                    "fishsanity_normal, level_cap:74"
                 ],
                 "sections": [
                     {
                         "name": "Grey Skipper",
-                        "access_rules": [],
+                        "access_rules": ["fruitworm", "metalspinner"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Blood-eyed Frog",
-                        "access_rules": [],
+                        "access_rules": ["metalspinner"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Cerulean Loach",
-                        "access_rules": [],
+                        "access_rules": ["fruitworm", "metalspinner"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Golden Lobster",
-                        "access_rules": [],
+                        "access_rules": ["marblenymph"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Gold Hammer",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["baitbugs"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
