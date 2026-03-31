@@ -183,14 +183,14 @@
                 "sections": [
                     {
                         "name": "The Dying Gasp",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["$leveling:80"],
+                        "visibility_rules": ["level_cap:80, duty_difficulty_normal, $duty_visibility|The Dying Gasp"],
                         "item_count": 1
                     },
                     {
                         "name": "The Minstrels Ballad Hadess Elegy",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["$leveling:80"],
+                        "visibility_rules": ["level_cap:80, duty_difficulty_normal, $duty_visibility|The Minstrel's Ballad: Hades's Elegy"],
                         "item_count": 1
                     }
                 ],
@@ -209,67 +209,90 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "$leveling:79"
+                ],
+                "visibility_rules": [
+                    "$fatesanity_disabled, level_cap:79"
                 ],
                 "sections": [
                     {
                         "name": "FATE #1",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "fates_per_zone:1"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #2",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "fates_per_zone:2"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #3",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "fates_per_zone:3"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #4",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "fates_per_zone:4"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #5",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "fates_per_zone:5"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #6",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "fates_per_zone:6"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #7",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "fates_per_zone:7"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #8",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "fates_per_zone:8"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #9",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "fates_per_zone:9"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #10",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "fates_per_zone:10"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -293,8 +316,12 @@
                 "sections": [
                     {
                         "name": "A Lot to Swallow (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "$leveling:79"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:79"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -318,8 +345,12 @@
                 "sections": [
                     {
                         "name": "Coral Support (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "$leveling:79"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:79"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -343,8 +374,12 @@
                 "sections": [
                     {
                         "name": "Hydrozoan of the Enders (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "$leveling:79"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:79"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -368,8 +403,12 @@
                 "sections": [
                     {
                         "name": "Lookin Back on the Track (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "$leveling:79"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:79"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -393,8 +432,12 @@
                 "sections": [
                     {
                         "name": "Low Coral Fiber (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "$leveling:79"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:79"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -418,8 +461,12 @@
                 "sections": [
                     {
                         "name": "My Friends Enemy is Anemone of Mine (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "$leveling:79"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:79"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -443,8 +490,12 @@
                 "sections": [
                     {
                         "name": "Natural Prawn Killers (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "$leveling:79"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:79"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -468,8 +519,12 @@
                 "sections": [
                     {
                         "name": "Nothing Like a Trappin Life (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "$leveling:79"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:79"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -493,8 +548,12 @@
                 "sections": [
                     {
                         "name": "Ondo of Blood (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "$leveling:79"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:79"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -518,8 +577,12 @@
                 "sections": [
                     {
                         "name": "Pearls Apart (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "$leveling:79"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:79"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -543,8 +606,12 @@
                 "sections": [
                     {
                         "name": "The Devil in the Deep Blue Sea (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "$leveling:79"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:79"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -568,8 +635,12 @@
                 "sections": [
                     {
                         "name": "The Nets Best Thing (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "$leveling:79"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:79"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -593,8 +664,12 @@
                 "sections": [
                     {
                         "name": "The Seashells He Sells (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "$leveling:79"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:79"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -618,8 +693,12 @@
                 "sections": [
                     {
                         "name": "Where Has the Dagon (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "$leveling:79"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:79"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -643,8 +722,12 @@
                 "sections": [
                     {
                         "name": "The Head the Tail the Whole Damned Thing (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "$leveling:80"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:80, include_unreasonable_fates" 
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -663,61 +746,64 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "$leveling:80"
+                ],
+                "visibility_rules": [
+                    "fishsanity_normal, level_cap:80"
                 ],
                 "sections": [
                     {
                         "name": "Prospero Eel",
-                        "access_rules": [],
+                        "access_rules": ["moyebishrimp"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Sycorax",
-                        "access_rules": [],
+                        "access_rules": ["shortbillminnow", "moyebishrimp"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Stormfish",
-                        "access_rules": [],
+                        "access_rules": ["moyebishrimp"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Azure Sea Spider",
-                        "access_rules": [],
+                        "access_rules": ["squidstrip", "shortbillminnow"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Sweetflesh Oyster",
-                        "access_rules": [],
+                        "access_rules": ["shortbillminnow"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Rainbow Shrimp",
-                        "access_rules": [],
+                        "access_rules": ["shortbillminnow"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Predator",
-                        "access_rules": [],
+                        "access_rules": ["squidstrip"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Opal Shrimp",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["squidstrip"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     },
                     {
                         "name": "Il Lydha",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["metalspinner"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
@@ -736,49 +822,52 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "$leveling:80"
+                ],
+                "visibility_rules": [
+                    "fishsanity_normal, level_cap:80"
                 ],
                 "sections": [
                     {
                         "name": "Darkdweller",
-                        "access_rules": [],
+                        "access_rules": ["baitbugs"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Deep Purple Coral",
-                        "access_rules": [],
+                        "access_rules": ["shortbillminnow", "squidstrip"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Stormfish",
-                        "access_rules": [],
+                        "access_rules": ["moyebishrimp"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Caliban",
-                        "access_rules": [],
+                        "access_rules": ["moyebishrimp"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Bubble Angler",
-                        "access_rules": [],
+                        "access_rules": ["squidstrip"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Ondo Harpoon",
-                        "access_rules": [],
+                        "access_rules": ["squidstrip"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Ondo Sigh",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["squidstrip"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
@@ -797,43 +886,46 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "$leveling:79"
+                ],
+                "visibility_rules": [
+                    "fishsanity_normal, level_cap:79"
                 ],
                 "sections": [
                     {
                         "name": "Darkdweller",
-                        "access_rules": [],
+                        "access_rules": ["baitbugs"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Stormfish",
-                        "access_rules": [],
+                        "access_rules": ["moyebishrimp"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Caliban",
-                        "access_rules": [],
+                        "access_rules": ["moyebishrimp"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Ondobane",
-                        "access_rules": [],
+                        "access_rules": ["squidstrip"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Stippled Eel",
-                        "access_rules": [],
+                        "access_rules": ["shortbillminnow"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "The Ondotaker",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["squidstrip"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
@@ -852,55 +944,58 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "$leveling:79"
+                ],
+                "visibility_rules": [
+                    "fishsanity_normal, level_cap:79"
                 ],
                 "sections": [
                     {
                         "name": "Sycorax",
-                        "access_rules": [],
+                        "access_rules": ["shortbillminnow", "moyebishrimp"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Stormfish",
-                        "access_rules": [],
+                        "access_rules": ["moyebishrimp"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Caliban",
-                        "access_rules": [],
+                        "access_rules": ["moyebishrimp"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Hoodwinker",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["shortbillminnow"],
+                        "visibility_rules": ["fishsanity_timed"],
                         "item_count": 1
                     },
                     {
                         "name": "Seatrap",
-                        "access_rules": [],
+                        "access_rules": ["squidstrip"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Sweetmeat Mussel",
-                        "access_rules": [],
+                        "access_rules": ["squidstrip"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Lancetfish",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["squidstrip, @The Tempest/Northwest Caliban Gorge/Mora Tecta"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     },
                     {
                         "name": "Mora Tecta",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["shortbillminnow"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
@@ -919,43 +1014,46 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "$leveling:80"
+                ],
+                "visibility_rules": [
+                    "fishsanity_normal, level_cap:80"
                 ],
                 "sections": [
                     {
                         "name": "Sycorax",
-                        "access_rules": [],
+                        "access_rules": ["shortbillminnow", "moyebishrimp"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Stormfish",
-                        "access_rules": [],
+                        "access_rules": ["moyebishrimp"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Ancient Shrimp",
-                        "access_rules": [],
+                        "access_rules": ["shortbillminnow"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Yeti Crab",
-                        "access_rules": [],
+                        "access_rules": ["shortbillminnow"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Aapoak",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["shortbillminnow"],
+                        "visibility_rules": ["fishsanity_timed"],
                         "item_count": 1
                     },
                     {
                         "name": "Maru Crab",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["shortbillminnow"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
@@ -974,43 +1072,46 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "$leveling:80"
+                ],
+                "visibility_rules": [
+                    "fishsanity_normal, level_cap:80"
                 ],
                 "sections": [
                     {
                         "name": "Sycorax",
-                        "access_rules": [],
+                        "access_rules": ["shortbillminnow", "moyebishrimp"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Stormfish",
-                        "access_rules": [],
+                        "access_rules": ["moyebishrimp"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Hoodwinker",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["shortbillminnow"],
+                        "visibility_rules": ["fishsanity_timed"],
                         "item_count": 1
                     },
                     {
                         "name": "Cyan Sea Devil",
-                        "access_rules": [],
+                        "access_rules": ["shortbillminnow"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Pancake Octopus",
-                        "access_rules": [],
+                        "access_rules": ["squidstrip"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "The Mother of All Pancakes",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["squidstrip"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
@@ -1029,48 +1130,51 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "$leveling:79"
+                ],
+                "visibility_rules": [
+                    "fishsanity_normal, level_cap:79"
                 ],
                 "sections": [
                     {
                         "name": "Sycorax",
-                        "access_rules": [],
+                        "access_rules": ["shortbillminnow", "moyebishrimp"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Stormfish",
-                        "access_rules": [],
+                        "access_rules": ["moyebishrimp"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Azure Sea Spider",
-                        "access_rules": [],
+                        "access_rules": ["squidstrip", "shortbillminnow"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Maneater Clam",
-                        "access_rules": [],
+                        "access_rules": ["shortbillminnow"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Stargazer",
-                        "access_rules": [],
+                        "access_rules": ["squidstrip"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Starchaser",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["squidstrip"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     },
                     {
                         "name": "Purpure Cod",
-                        "access_rules": [],
+                        "access_rules": ["metalspinner"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
