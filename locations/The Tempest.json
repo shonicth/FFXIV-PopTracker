@@ -14,7 +14,10 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "$leveling:80"
+                ],
+                "visibility_rules": [
+                    "level_cap:80, duty_difficulty_normal, $duty_visibility|Amaurot"
                 ],
                 "sections": [
                     {
@@ -26,55 +29,55 @@
                     {
                         "name": "Amaurot 2",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:1"],
                         "item_count": 1
                     },
                     {
                         "name": "Amaurot 3",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:2"],
                         "item_count": 1
                     },
                     {
                         "name": "Amaurot 4",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:3"],
                         "item_count": 1
                     },
                     {
                         "name": "Amaurot 5",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:4"],
                         "item_count": 1
                     },
                     {
                         "name": "Amaurot 6",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:5"],
                         "item_count": 1
                     },
                     {
                         "name": "Amaurot 7",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:6"],
                         "item_count": 1
                     },
                     {
                         "name": "Amaurot 8",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:7"],
                         "item_count": 1
                     },
                     {
                         "name": "Amaurot 9",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:8"],
                         "item_count": 1
                     },
                     {
                         "name": "Amaurot 10",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:9"],
                         "item_count": 1
                     }
                 ],
@@ -93,7 +96,10 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "$leveling:80"
+                ],
+                "visibility_rules": [
+                    "level_cap:80, duty_difficulty_normal, $duty_visibility|Akadaemia Anyder"
                 ],
                 "sections": [
                     {
@@ -105,55 +111,55 @@
                     {
                         "name": "Akadaemia Anyder 2",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:1"],
                         "item_count": 1
                     },
                     {
                         "name": "Akadaemia Anyder 3",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:2"],
                         "item_count": 1
                     },
                     {
                         "name": "Akadaemia Anyder 4",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:3"],
                         "item_count": 1
                     },
                     {
                         "name": "Akadaemia Anyder 5",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:4"],
                         "item_count": 1
                     },
                     {
                         "name": "Akadaemia Anyder 6",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:5"],
                         "item_count": 1
                     },
                     {
                         "name": "Akadaemia Anyder 7",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:6"],
                         "item_count": 1
                     },
                     {
                         "name": "Akadaemia Anyder 8",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:7"],
                         "item_count": 1
                     },
                     {
                         "name": "Akadaemia Anyder 9",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:8"],
                         "item_count": 1
                     },
                     {
                         "name": "Akadaemia Anyder 10",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:9"],
                         "item_count": 1
                     }
                 ],
@@ -182,7 +188,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "The Minstrels BalladHadess Elegy",
+                        "name": "The Minstrels Ballad Hadess Elegy",
                         "access_rules": [],
                         "visibility_rules": [],
                         "item_count": 1

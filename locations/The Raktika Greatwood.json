@@ -14,7 +14,10 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "$leveling:75"
+                ],
+                "visibility_rules": [
+                    "level_cap:75, duty_difficulty_normal, $duty_visibility|The Qitana Ravel"
                 ],
                 "sections": [
                     {
@@ -24,57 +27,57 @@
                         "item_count": 1
                     },
                     {
-                        "name": " Ravel 2",
+                        "name": "The Qitana Ravel 2",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:1"],
                         "item_count": 1
                     },
                     {
-                        "name": " Ravel 3",
+                        "name": "The Qitana Ravel 3",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:2"],
                         "item_count": 1
                     },
                     {
-                        "name": " Ravel 4",
+                        "name": "The Qitana Ravel 4",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:3"],
                         "item_count": 1
                     },
                     {
-                        "name": " Ravel 5",
+                        "name": "The Qitana Ravel 5",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:4"],
                         "item_count": 1
                     },
                     {
-                        "name": " Ravel 6",
+                        "name": "The Qitana Ravel 6",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:5"],
                         "item_count": 1
                     },
                     {
-                        "name": " Ravel 7",
+                        "name": "The Qitana Ravel 7",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:6"],
                         "item_count": 1
                     },
                     {
-                        "name": " Ravel 8",
+                        "name": "The Qitana Ravel 8",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:7"],
                         "item_count": 1
                     },
                     {
-                        "name": " Ravel 9",
+                        "name": "The Qitana Ravel 9",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:8"],
                         "item_count": 1
                     },
                     {
-                        "name": " Ravel 10",
+                        "name": "The Qitana Ravel 10",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:9"],
                         "item_count": 1
                     }
                 ],

@@ -14,7 +14,10 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "$leveling:77"
+                ],
+                "visibility_rules": [
+                    "level_cap:77, duty_difficulty_normal, $duty_visibility|Malikah's Well"
                 ],
                 "sections": [
                     {
@@ -26,55 +29,55 @@
                     {
                         "name": "Malikahs Well 2",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:1"],
                         "item_count": 1
                     },
                     {
                         "name": "Malikahs Well 3",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:2"],
                         "item_count": 1
                     },
                     {
                         "name": "Malikahs Well 4",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:3"],
                         "item_count": 1
                     },
                     {
                         "name": "Malikahs Well 5",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:4"],
                         "item_count": 1
                     },
                     {
                         "name": "Malikahs Well 6",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:5"],
                         "item_count": 1
                     },
                     {
                         "name": "Malikahs Well 7",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:6"],
                         "item_count": 1
                     },
                     {
                         "name": "Malikahs Well 8",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:7"],
                         "item_count": 1
                     },
                     {
                         "name": "Malikahs Well 9",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:8"],
                         "item_count": 1
                     },
                     {
                         "name": "Malikahs Well 10",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:9"],
                         "item_count": 1
                     }
                 ],
@@ -93,151 +96,154 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "$leveling:80, edenkey"
+                ],
+                "visibility_rules": [
+                    "level_cap:80, duty_difficulty_normal"
                 ],
                 "sections": [
                     {
                         "name": "Edens Gate Resurrection",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["$duty_visibility|Eden's Gate: Resurrection"],
                         "item_count": 1
                     },
                     {
                         "name": "Edens Gate Descent",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["$duty_visibility|Eden's Gate: Descent"],
                         "item_count": 1
                     },
                     {
                         "name": "Edens Gate Inundation",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["$duty_visibility|Eden's Gate: Inundation"],
                         "item_count": 1
                     },
                     {
                         "name": "Edens Gate Sepulture",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["$duty_visibility|Eden's Gate: Sepulture"],
                         "item_count": 1
                     },
                     {
                         "name": "Edens Verse Fulmination",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["$duty_visibility|Eden's Verse: Fulmination"],
                         "item_count": 1
                     },
                     {
                         "name": "Edens Verse Furor",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["$duty_visibility|Eden's Verse: Furor"],
                         "item_count": 1
                     },
                     {
                         "name": "Edens Verse Iconoclasm",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["$duty_visibility|Eden's Verse: Iconoclasm"],
                         "item_count": 1
                     },
                     {
                         "name": "Edens Verse Refulgence",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["$duty_visibility|Eden's Verse: Refulgence"],
                         "item_count": 1
                     },
                     {
                         "name": "Edens Promise Umbra",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["$duty_visibility|Eden's Promise: Umbra"],
                         "item_count": 1
                     },
                     {
                         "name": "Edens Promise Litany",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["$duty_visibility|Eden's Promise: Litany"],
                         "item_count": 1
                     },
                     {
                         "name": "Edens Promise Anamorphosis",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["$duty_visibility|Eden's Promise: Anamorphosis"],
                         "item_count": 1
                     },
                     {
                         "name": "Edens Promise Eternity",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["$duty_visibility|Eden's Promise: Eternity"],
                         "item_count": 1
                     },
                     {
                         "name": "Edens Gate Resurrection (Savage)",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["duty_difficulty_savage, $duty_visibility|Eden's Gate: Resurrection (Savage)"],
                         "item_count": 1
                     },
                     {
                         "name": "Edens Gate Descent (Savage)",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["duty_difficulty_savage, $duty_visibility|Eden's Gate: Descent (Savage)"],
                         "item_count": 1
                     },
                     {
                         "name": "Edens Gate Inundation (Savage)",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["duty_difficulty_savage, $duty_visibility|Eden's Gate: Inundation (Savage)"],
                         "item_count": 1
                     },
                     {
                         "name": "Edens Gate Sepulture (Savage)",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["duty_difficulty_savage, $duty_visibility|Eden's Gate: Sepulture (Savage)"],
                         "item_count": 1
                     },
                     {
                         "name": "Edens Verse Fulmination (Savage)",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["duty_difficulty_savage, $duty_visibility|Eden's Verse: Fulmination (Savage)"],
                         "item_count": 1
                     },
                     {
                         "name": "Edens Verse Furor (Savage)",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["duty_difficulty_savage, $duty_visibility|Eden's Verse: Furor (Savage)"],
                         "item_count": 1
                     },
                     {
                         "name": "Edens Verse Iconoclasm (Savage)",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["duty_difficulty_savage, $duty_visibility|Eden's Verse: Iconoclasm (Savage)"],
                         "item_count": 1
                     },
                     {
                         "name": "Edens Verse Refulgence (Savage)",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["duty_difficulty_savage, $duty_visibility|Eden's Verse: Refulgence (Savage)"],
                         "item_count": 1
                     },
                     {
                         "name": "Edens Promise Umbra (Savage)",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["duty_difficulty_savage, $duty_visibility|Eden's Promise: Umbra (Savage)"],
                         "item_count": 1
                     },
                     {
                         "name": "Edens Promise Litany (Savage)",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["duty_difficulty_savage, $duty_visibility|Eden's Promise: Litany (Savage)"],
                         "item_count": 1
                     },
                     {
                         "name": "Edens Promise Anamorphosis (Savage)",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["duty_difficulty_savage, $duty_visibility|Eden's Promise: Anamorphosis (Savage)"],
                         "item_count": 1
                     },
                     {
                         "name": "Edens Promise Eternity (Savage)",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["duty_difficulty_savage, $duty_visibility|Eden's Promise: Eternity (Savage)"],
                         "item_count": 1
                     }
                 ],
@@ -256,67 +262,90 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "$leveling:70"
+                ],
+                "visibility_rules": [
+                    "$fatesanity_disabled, level_cap:70"
                 ],
                 "sections": [
                     {
                         "name": "FATE #1",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "fates_per_zone:1"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #2",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "fates_per_zone:2"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #3",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "fates_per_zone:3"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #4",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "fates_per_zone:4"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #5",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "fates_per_zone:5"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #6",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "fates_per_zone:6"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #7",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "fates_per_zone:7"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #8",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "fates_per_zone:8"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #9",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "fates_per_zone:9"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #10",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "fates_per_zone:10"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -365,8 +394,12 @@
                 "sections": [
                     {
                         "name": "Cactus Makes Perfect (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "$leveling:70"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:70"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -390,8 +423,12 @@
                 "sections": [
                     {
                         "name": "Harbingers of Bloom (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "$leveling:70"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:70"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -415,8 +452,12 @@
                 "sections": [
                     {
                         "name": "Pray Destroy the Waking Sands (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "$leveling:70"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:70"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -440,8 +481,12 @@
                 "sections": [
                     {
                         "name": "Reptilian Roadblock (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "$leveling:70"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:70"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -465,8 +510,12 @@
                 "sections": [
                     {
                         "name": "Scavengers Hunted (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "$leveling:70"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:70"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -490,8 +539,12 @@
                 "sections": [
                     {
                         "name": "Theft from Above (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "$leveling:70"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:70"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -515,8 +568,12 @@
                 "sections": [
                     {
                         "name": "Tolba No. 1 (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "$leveling:70"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:70"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -540,8 +597,12 @@
                 "sections": [
                     {
                         "name": "Armadillo Peccadillo (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "$leveling:76"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:76"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -565,8 +626,12 @@
                 "sections": [
                     {
                         "name": "Baddie Longlegs (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "$leveling:76"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:76"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -590,8 +655,12 @@
                 "sections": [
                     {
                         "name": "Bloody Simple (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "$leveling:76"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:76"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -615,8 +684,12 @@
                 "sections": [
                     {
                         "name": "Lets Dance (with Swords) (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "$leveling:76"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:76"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -640,8 +713,12 @@
                 "sections": [
                     {
                         "name": "Sand and Deliver (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "$leveling:76"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:76"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -665,8 +742,12 @@
                 "sections": [
                     {
                         "name": "The Elderblade (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "$leveling:76"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:76"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -690,8 +771,12 @@
                 "sections": [
                     {
                         "name": "This Time Its Personal (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "$leveling:76"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:76"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -715,8 +800,12 @@
                 "sections": [
                     {
                         "name": "Anti-eruption Measures (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "$leveling:77"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:77"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -740,8 +829,12 @@
                 "sections": [
                     {
                         "name": "The Odd Couple (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "$leveling:77"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:77"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -760,49 +853,52 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "$leveling:77"
+                ],
+                "visibility_rules": [
+                    "fishsanity_normal, level_cap:77"
                 ],
                 "sections": [
                     {
                         "name": "Amber Monkfish",
-                        "access_rules": [],
+                        "access_rules": ["desertdessertfrog"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Desert Dustfish",
-                        "access_rules": [],
+                        "access_rules": ["metalspinner", "desertdessertfrog"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Web-footed Sand Gecko",
-                        "access_rules": [],
+                        "access_rules": ["desertdessertfrog"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Garik Crab",
-                        "access_rules": [],
+                        "access_rules": ["metalspinner"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Nabaath Manta",
-                        "access_rules": [],
+                        "access_rules": ["desertdessertfrog"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Thorned Lizard",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["desertdessertfrog"],
+                        "visibility_rules": ["fishsanity_timed"],
                         "item_count": 1
                     },
                     {
                         "name": "Ambling Caltrop",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["desertdessertfrog"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
@@ -821,49 +917,52 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "$leveling:71"
+                ],
+                "visibility_rules": [
+                    "fishsanity_normal, level_cap:71"
                 ],
                 "sections": [
                     {
                         "name": "Shadow Crab",
-                        "access_rules": [],
+                        "access_rules": ["metalspinner", "desertdessertfrog"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Desert Dustfish",
-                        "access_rules": [],
+                        "access_rules": ["metalspinner", "desertdessertfrog"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Hornhelm",
-                        "access_rules": [],
+                        "access_rules": ["jerkedovim"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Web-footed Sand Gecko",
-                        "access_rules": [],
+                        "access_rules": ["desertdessertfrog"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Sand Egg",
-                        "access_rules": [],
+                        "access_rules": ["desertdessertfrog"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "The Horned King",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["jerkedovim"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     },
                     {
                         "name": "Cinder Surprise",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["desertdessertfrog"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
@@ -882,43 +981,46 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "$leveling:72"
+                ],
+                "visibility_rules": [
+                    "fishsanity_normal, level_cap:72"
                 ],
                 "sections": [
                     {
                         "name": "Shadow Crab",
-                        "access_rules": [],
+                        "access_rules": ["metalspinner", "desertdessertfrog"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Desert Dustfish",
-                        "access_rules": [],
+                        "access_rules": ["metalspinner", "desertdessertfrog"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Amber Lamprey",
-                        "access_rules": [],
+                        "access_rules": ["desertdessertfrog"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Desert Saw",
-                        "access_rules": [],
+                        "access_rules": ["jerkedovim"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Areng Dire",
-                        "access_rules": [],
+                        "access_rules": ["metalspinner"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Nabaath Saw",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["jerkedovim"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
