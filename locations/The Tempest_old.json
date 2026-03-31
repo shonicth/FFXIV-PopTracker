@@ -1,116 +1,179 @@
 [
     {
-        "name": "Il Mheg",
+        "name": "The Tempest",
         "chest_unopened_img": "/images/items/close.png",
         "chest_opened_img": "/images/items/open.png",
         "overlay_background": "#000000",
         "access_rules": [
-            "$ilmhegaccess"
+            "$thetempestaccess"
         ],
         "children": [
             {
-                "name": "Dohn Mheg",
+                "name": "Amaurot",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "$leveling:73"
+                    "$leveling:80"
                 ],
                 "visibility_rules": [
-                    "level_cap:73, duty_difficulty_normal, $duty_visibility|Dohn Mheg"
+                    "level_cap:80, duty_difficulty_normal, $duty_visibility|Amaurot"
                 ],
                 "sections": [
                     {
-                        "name": "Dohn Mheg",
+                        "name": "Amaurot",
                         "access_rules": [],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Dohn Mheg 2",
+                        "name": "Amaurot 2",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:1"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:1"],
                         "item_count": 1
                     },
                     {
-                        "name": "Dohn Mheg 3",
+                        "name": "Amaurot 3",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:2"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:2"],
                         "item_count": 1
                     },
                     {
-                        "name": "Dohn Mheg 4",
+                        "name": "Amaurot 4",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:3"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:3"],
                         "item_count": 1
                     },
                     {
-                        "name": "Dohn Mheg 5",
+                        "name": "Amaurot 5",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:4"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:4"],
                         "item_count": 1
                     },
                     {
-                        "name": "Dohn Mheg 6",
+                        "name": "Amaurot 6",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:5"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:5"],
                         "item_count": 1
                     },
                     {
-                        "name": "Dohn Mheg 7",
+                        "name": "Amaurot 7",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:6"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:6"],
                         "item_count": 1
                     },
                     {
-                        "name": "Dohn Mheg 8",
+                        "name": "Amaurot 8",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:7"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:7"],
                         "item_count": 1
                     },
                     {
-                        "name": "Dohn Mheg 9",
+                        "name": "Amaurot 9",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:8"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:8"],
                         "item_count": 1
                     },
                     {
-                        "name": "Dohn Mheg 10",
+                        "name": "Amaurot 10",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:9"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:9"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "Il Mheg",
-                        "x": 1145,
-                        "y": 1456,
-                        "size": 40,
-                        "shape": "rect"
+                        "map": "The Tempest",
+                        "x": 776,
+                        "y": 1489,
+                        "size": 6
                     }
                 ]
             },
             {
-                "name": "The Dancing Plague",
+                "name": "Akadaemia Anyder",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$leveling:80"
+                ],
+                "visibility_rules": [
+                    "level_cap:80, duty_difficulty_normal, $duty_visibility|Akadaemia Anyder"
+                ],
+                "sections": [
+                    {
+                        "name": "Akadaemia Anyder",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Akadaemia Anyder 2",
+                        "access_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:1"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Akadaemia Anyder 3",
+                        "access_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:2"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Akadaemia Anyder 4",
+                        "access_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:3"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Akadaemia Anyder 5",
+                        "access_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:4"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Akadaemia Anyder 6",
+                        "access_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:5"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Akadaemia Anyder 7",
+                        "access_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:6"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Akadaemia Anyder 8",
+                        "access_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:7"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Akadaemia Anyder 9",
+                        "access_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:8"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Akadaemia Anyder 10",
+                        "access_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:9"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "The Tempest",
+                        "x": 1135,
+                        "y": 2397,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "The Dying Gasp",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -119,33 +182,24 @@
                 ],
                 "sections": [
                     {
-                        "name": "The Dancing Plague",
-                        "access_rules": [
-                            "$leveling:73"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:73, duty_difficulty_normal, $duty_visibility|The Dancing Plague"
-                        ],
+                        "name": "The Dying Gasp",
+                        "access_rules": ["$leveling:80"],
+                        "visibility_rules": ["level_cap:80, duty_difficulty_normal, $duty_visibility|The Dying Gasp"],
                         "item_count": 1
                     },
                     {
-                        "name": "The Dancing Plague (Extreme)",
-                        "access_rules": [
-                            "$leveling:80"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:80 duty_difficulty_ex, $duty_visibility|The Dancing Plague (Extreme)"
-                        ],
+                        "name": "The Minstrels Ballad Hadess Elegy",
+                        "access_rules": ["$leveling:80"],
+                        "visibility_rules": ["level_cap:80, duty_difficulty_normal, $duty_visibility|The Minstrel's Ballad: Hades's Elegy"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "Il Mheg",
-                        "x": 882,
-                        "y": 752,
-                        "size": 40,
-                        "shape": "rect"
+                        "map": "The Tempest",
+                        "x": 1067,
+                        "y": 2350,
+                        "size": 6
                     }
                 ]
             },
@@ -155,10 +209,10 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "$leveling:70"
+                    "$leveling:79"
                 ],
                 "visibility_rules": [
-                    "$fatesanity_disabled, level_cap:70"
+                    "$fatesanity_disabled, level_cap:79"
                 ],
                 "sections": [
                     {
@@ -244,16 +298,15 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "Il Mheg",
-                        "x": 68,
-                        "y": 102,
-                        "size": 40,
-                        "shape": "rect"
+                        "map": "The Tempest",
+                        "x": 1867,
+                        "y": 1274,
+                        "size": 6
                     }
                 ]
             },
             {
-                "name": "Bear Necessities (FATE)",
+                "name": "A Lot to Swallow (FATE)",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -262,28 +315,27 @@
                 ],
                 "sections": [
                     {
-                        "name": "Bear Necessities (FATE)",
+                        "name": "A Lot to Swallow (FATE)",
                         "access_rules": [
-                            "$leveling:72"
+                            "$leveling:79"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:72"
+                            "fatesanity, level_cap:79"
                         ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "Il Mheg",
-                        "x": 825,
-                        "y": 1733,
-                        "size": 40,
-                        "shape": "rect"
+                        "map": "The Tempest",
+                        "x": 1819,
+                        "y": 1916,
+                        "size": 6
                     }
                 ]
             },
             {
-                "name": "Hedge Mazed (FATE)",
+                "name": "Coral Support (FATE)",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -292,28 +344,27 @@
                 ],
                 "sections": [
                     {
-                        "name": "Hedge Mazed (FATE)",
+                        "name": "Coral Support (FATE)",
                         "access_rules": [
-                            "$leveling:72"
+                            "$leveling:79"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:72"
+                            "fatesanity, level_cap:79"
                         ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "Il Mheg",
-                        "x": 294,
-                        "y": 1315,
-                        "size": 40,
-                        "shape": "rect"
+                        "map": "The Tempest",
+                        "x": 1561,
+                        "y": 1825,
+                        "size": 6
                     }
                 ]
             },
             {
-                "name": "Locus Terribilis (FATE)",
+                "name": "Hydrozoan of the Enders (FATE)",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -322,28 +373,27 @@
                 ],
                 "sections": [
                     {
-                        "name": "Locus Terribilis (FATE)",
+                        "name": "Hydrozoan of the Enders (FATE)",
                         "access_rules": [
-                            "$leveling:72"
+                            "$leveling:79"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:72"
+                            "fatesanity, level_cap:79"
                         ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "Il Mheg",
-                        "x": 496,
-                        "y": 1415,
-                        "size": 40,
-                        "shape": "rect"
+                        "map": "The Tempest",
+                        "x": 2375,
+                        "y": 233,
+                        "size": 6
                     }
                 ]
             },
             {
-                "name": "Mad Magic (FATE)",
+                "name": "Lookin Back on the Track (FATE)",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -352,28 +402,27 @@
                 ],
                 "sections": [
                     {
-                        "name": "Mad Magic (FATE)",
+                        "name": "Lookin Back on the Track (FATE)",
                         "access_rules": [
-                            "$leveling:72"
+                            "$leveling:79"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:72"
+                            "fatesanity, level_cap:79"
                         ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "Il Mheg",
-                        "x": 481,
-                        "y": 1742,
-                        "size": 40,
-                        "shape": "rect"
+                        "map": "The Tempest",
+                        "x": 2308,
+                        "y": 1964,
+                        "size": 6
                     }
                 ]
             },
             {
-                "name": "Once Upon a Time (FATE)",
+                "name": "Low Coral Fiber (FATE)",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -382,28 +431,27 @@
                 ],
                 "sections": [
                     {
-                        "name": "Once Upon a Time (FATE)",
+                        "name": "Low Coral Fiber (FATE)",
                         "access_rules": [
-                            "$leveling:72"
+                            "$leveling:79"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:72"
+                            "fatesanity, level_cap:79"
                         ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "Il Mheg",
-                        "x": 479,
-                        "y": 1108,
-                        "size": 40,
-                        "shape": "rect"
+                        "map": "The Tempest",
+                        "x": 1391,
+                        "y": 2094,
+                        "size": 6
                     }
                 ]
             },
             {
-                "name": "Thrice Upon a Time (FATE)",
+                "name": "My Friends Enemy is Anemone of Mine (FATE)",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -412,28 +460,27 @@
                 ],
                 "sections": [
                     {
-                        "name": "Thrice Upon a Time (FATE)",
+                        "name": "My Friends Enemy is Anemone of Mine (FATE)",
                         "access_rules": [
-                            "$leveling:72"
+                            "$leveling:79"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:72"
+                            "fatesanity, level_cap:79"
                         ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "Il Mheg",
-                        "x": 635,
-                        "y": 1151,
-                        "size": 40,
-                        "shape": "rect"
+                        "map": "The Tempest",
+                        "x": 1420,
+                        "y": 779,
+                        "size": 6
                     }
                 ]
             },
             {
-                "name": "Twice Upon a Time (FATE)",
+                "name": "Natural Prawn Killers (FATE)",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -442,28 +489,27 @@
                 ],
                 "sections": [
                     {
-                        "name": "Twice Upon a Time (FATE)",
+                        "name": "Natural Prawn Killers (FATE)",
                         "access_rules": [
-                            "$leveling:72"
+                            "$leveling:79"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:72"
+                            "fatesanity, level_cap:79"
                         ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "Il Mheg",
-                        "x": 326,
-                        "y": 910,
-                        "size": 40,
-                        "shape": "rect"
+                        "map": "The Tempest",
+                        "x": 163,
+                        "y": 1473,
+                        "size": 6
                     }
                 ]
             },
             {
-                "name": "Weave Em and Weep (FATE)",
+                "name": "Nothing Like a Trappin Life (FATE)",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -472,28 +518,27 @@
                 ],
                 "sections": [
                     {
-                        "name": "Weave Em and Weep (FATE)",
+                        "name": "Nothing Like a Trappin Life (FATE)",
                         "access_rules": [
-                            "$leveling:72"
+                            "$leveling:79"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:72"
+                            "fatesanity, level_cap:79"
                         ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "Il Mheg",
-                        "x": 356,
-                        "y": 1558,
-                        "size": 40,
-                        "shape": "rect"
+                        "map": "The Tempest",
+                        "x": 1119,
+                        "y": 2317,
+                        "size": 6
                     }
                 ]
             },
             {
-                "name": "Back and Fuath (FATE)",
+                "name": "Ondo of Blood (FATE)",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -502,28 +547,27 @@
                 ],
                 "sections": [
                     {
-                        "name": "Back and Fuath (FATE)",
+                        "name": "Ondo of Blood (FATE)",
                         "access_rules": [
-                            "$leveling:73"
+                            "$leveling:79"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:73"
+                            "fatesanity, level_cap:79"
                         ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "Il Mheg",
-                        "x": 1171,
-                        "y": 844,
-                        "size": 40,
-                        "shape": "rect"
+                        "map": "The Tempest",
+                        "x": 1485,
+                        "y": 370,
+                        "size": 6
                     }
                 ]
             },
             {
-                "name": "Breaking the Fuath Wall (FATE)",
+                "name": "Pearls Apart (FATE)",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -532,28 +576,27 @@
                 ],
                 "sections": [
                     {
-                        "name": "Breaking the Fuath Wall (FATE)",
+                        "name": "Pearls Apart (FATE)",
                         "access_rules": [
-                            "$leveling:73"
+                            "$leveling:79"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:73"
+                            "fatesanity, level_cap:79"
                         ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "Il Mheg",
-                        "x": 377,
-                        "y": 682,
-                        "size": 40,
-                        "shape": "rect"
+                        "map": "The Tempest",
+                        "x": 2156,
+                        "y": 770,
+                        "size": 6
                     }
                 ]
             },
             {
-                "name": "Brute Fuath (FATE)",
+                "name": "The Devil in the Deep Blue Sea (FATE)",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -562,28 +605,27 @@
                 ],
                 "sections": [
                     {
-                        "name": "Brute Fuath (FATE)",
+                        "name": "The Devil in the Deep Blue Sea (FATE)",
                         "access_rules": [
-                            "$leveling:73"
+                            "$leveling:79"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:73"
+                            "fatesanity, level_cap:79"
                         ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "Il Mheg",
-                        "x": 1230,
-                        "y": 1036,
-                        "size": 40,
-                        "shape": "rect"
+                        "map": "The Tempest",
+                        "x": 1282,
+                        "y": 1532,
+                        "size": 6
                     }
                 ]
             },
             {
-                "name": "Frog Standard (FATE)",
+                "name": "The Nets Best Thing (FATE)",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -592,28 +634,27 @@
                 ],
                 "sections": [
                     {
-                        "name": "Frog Standard (FATE)",
+                        "name": "The Nets Best Thing (FATE)",
                         "access_rules": [
-                            "$leveling:73"
+                            "$leveling:79"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:73"
+                            "fatesanity, level_cap:79"
                         ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "Il Mheg",
-                        "x": 1132,
-                        "y": 496,
-                        "size": 40,
-                        "shape": "rect"
+                        "map": "The Tempest",
+                        "x": 1657,
+                        "y": 1040,
+                        "size": 6
                     }
                 ]
             },
             {
-                "name": "Fuath of Habit (FATE)",
+                "name": "The Seashells He Sells (FATE)",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -622,28 +663,27 @@
                 ],
                 "sections": [
                     {
-                        "name": "Fuath of Habit (FATE)",
+                        "name": "The Seashells He Sells (FATE)",
                         "access_rules": [
-                            "$leveling:73"
+                            "$leveling:79"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:73"
+                            "fatesanity, level_cap:79"
                         ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "Il Mheg",
-                        "x": 1501,
-                        "y": 620,
-                        "size": 40,
-                        "shape": "rect"
+                        "map": "The Tempest",
+                        "x": 2033,
+                        "y": 1331,
+                        "size": 6
                     }
                 ]
             },
             {
-                "name": "Fuath to Be Reckoned With (FATE)",
+                "name": "Where Has the Dagon (FATE)",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -652,28 +692,27 @@
                 ],
                 "sections": [
                     {
-                        "name": "Fuath to Be Reckoned With (FATE)",
+                        "name": "Where Has the Dagon (FATE)",
                         "access_rules": [
-                            "$leveling:73"
+                            "$leveling:79"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:73"
+                            "fatesanity, level_cap:79"
                         ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "Il Mheg",
-                        "x": 1619,
-                        "y": 242,
-                        "size": 40,
-                        "shape": "rect"
+                        "map": "The Tempest",
+                        "x": 2155,
+                        "y": 315,
+                        "size": 6
                     }
                 ]
             },
             {
-                "name": "Go Fuath a Conqueror (FATE)",
+                "name": "The Head the Tail the Whole Damned Thing (FATE)",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -682,574 +721,470 @@
                 ],
                 "sections": [
                     {
-                        "name": "Go Fuath a Conqueror (FATE)",
+                        "name": "The Head the Tail the Whole Damned Thing (FATE)",
                         "access_rules": [
-                            "$leveling:73"
+                            "$leveling:80"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:73"
+                            "fatesanity, level_cap:80, include_unreasonable_fates" 
                         ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "Il Mheg",
-                        "x": 997,
-                        "y": 484,
-                        "size": 40,
-                        "shape": "rect"
+                        "map": "The Tempest",
+                        "x": 1511,
+                        "y": 260,
+                        "size": 6
                     }
                 ]
             },
             {
-                "name": "Great Daens (FATE)",
+                "name": "The Norvrandt Slope",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
-                ],
-                "sections": [
-                    {
-                        "name": "Great Daens (FATE)",
-                        "access_rules": [
-                            "$leveling:73"
-                        ],
-                        "visibility_rules": [
-                            "fatesanity, level_cap:73"
-                        ],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Il Mheg",
-                        "x": 1323,
-                        "y": 436,
-                        "size": 40,
-                        "shape": "rect"
-                    }
-                ]
-            },
-            {
-                "name": "The Spoiled One",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    "$leveling:74"
+                    "$leveling:80"
                 ],
                 "visibility_rules": [
-                    "fishsanity_normal, level_cap:74"
+                    "fishsanity_normal, level_cap:80"
                 ],
                 "sections": [
                     {
-                        "name": "Brightmirror Clam",
-                        "access_rules": [
-                            "fruitworm"
-                        ],
+                        "name": "Prospero Eel",
+                        "access_rules": ["moyebishrimp"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Grey Skipper",
-                        "access_rules": [
-                            "fruitworm",
-                            "metalspinner"
-                        ],
+                        "name": "Sycorax",
+                        "access_rules": ["shortbillminnow", "moyebishrimp"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Cherry Herring",
-                        "access_rules": [
-                            "marblenymph"
-                        ],
+                        "name": "Stormfish",
+                        "access_rules": ["moyebishrimp"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Cerulean Loach",
-                        "access_rules": [
-                            "fruitworm",
-                            "metalspinner"
-                        ],
+                        "name": "Azure Sea Spider",
+                        "access_rules": ["squidstrip", "shortbillminnow"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Dammroen Herring",
-                        "access_rules": [
-                            "baitbugs"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_big"
-                        ],
+                        "name": "Sweetflesh Oyster",
+                        "access_rules": ["shortbillminnow"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Rainbow Shrimp",
+                        "access_rules": ["shortbillminnow"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Predator",
+                        "access_rules": ["squidstrip"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Opal Shrimp",
+                        "access_rules": ["squidstrip"],
+                        "visibility_rules": ["fishsanity_big"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Il Lydha",
+                        "access_rules": ["metalspinner"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "Il Mheg",
-                        "x": 1260,
-                        "y": 613,
-                        "size": 40,
-                        "shape": "rect"
+                        "map": "The Tempest",
+                        "x": 1048,
+                        "y": 1967,
+                        "size": 6
                     }
                 ]
             },
             {
-                "name": "Longmirror Lake",
+                "name": "The Flounders Floor",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "$leveling:73"
+                    "$leveling:80"
                 ],
                 "visibility_rules": [
-                    "fishsanity_normal, level_cap:73"
+                    "fishsanity_normal, level_cap:80"
                 ],
                 "sections": [
                     {
-                        "name": "Calico Trout",
-                        "access_rules": [
-                            "fruitworm"
-                        ],
+                        "name": "Darkdweller",
+                        "access_rules": ["baitbugs"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Official Ball",
-                        "access_rules": [
-                            "marblenymph"
-                        ],
+                        "name": "Deep Purple Coral",
+                        "access_rules": ["shortbillminnow", "squidstrip"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Grey Skipper",
-                        "access_rules": [
-                            "fruitworm",
-                            "metalspinner"
-                        ],
+                        "name": "Stormfish",
+                        "access_rules": ["moyebishrimp"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Rebel",
-                        "access_rules": [
-                            "marblenymph"
-                        ],
+                        "name": "Caliban",
+                        "access_rules": ["moyebishrimp"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Wild Red Betta",
-                        "access_rules": [
-                            "baitbugs"
-                        ],
+                        "name": "Bubble Angler",
+                        "access_rules": ["squidstrip"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Cerulean Loach",
-                        "access_rules": [
-                            "fruitworm",
-                            "metalspinner"
-                        ],
+                        "name": "Ondo Harpoon",
+                        "access_rules": ["squidstrip"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "The Sound of Fury",
-                        "access_rules": [
-                            "baitbugs"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_big"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Fuchsia Bloom",
-                        "access_rules": [
-                            "robberball"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Ealad Skaan",
-                        "access_rules": [
-                            "baitbugs"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_big"
-                        ],
+                        "name": "Ondo Sigh",
+                        "access_rules": ["squidstrip"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "Il Mheg",
-                        "x": 968,
-                        "y": 1093,
-                        "size": 40,
-                        "shape": "rect"
+                        "map": "The Tempest",
+                        "x": 1954,
+                        "y": 238,
+                        "size": 6
                     }
                 ]
             },
             {
-                "name": "The Jealous One",
+                "name": "Where the Dry Return",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "$leveling:74"
+                    "$leveling:79"
                 ],
                 "visibility_rules": [
-                    "fishsanity_normal, level_cap:74"
+                    "fishsanity_normal, level_cap:79"
                 ],
                 "sections": [
                     {
-                        "name": "Spotted Blue-eye",
-                        "access_rules": [
-                            "marblenymph"
-                        ],
+                        "name": "Darkdweller",
+                        "access_rules": ["baitbugs"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Grey Skipper",
-                        "access_rules": [
-                            "fruitworm",
-                            "metalspinner"
-                        ],
+                        "name": "Stormfish",
+                        "access_rules": ["moyebishrimp"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Blood-eyed Frog",
-                        "access_rules": [
-                            "metalspinner"
-                        ],
+                        "name": "Caliban",
+                        "access_rules": ["moyebishrimp"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Cerulean Loach",
-                        "access_rules": [
-                            "fruitworm",
-                            "metalspinner"
-                        ],
+                        "name": "Ondobane",
+                        "access_rules": ["squidstrip"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Fae Rainbow",
-                        "access_rules": [
-                            "marblenymph"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_big"
-                        ],
+                        "name": "Stippled Eel",
+                        "access_rules": ["shortbillminnow"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "The Ondotaker",
+                        "access_rules": ["squidstrip"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "Il Mheg",
-                        "x": 1227,
-                        "y": 390,
-                        "size": 40,
-                        "shape": "rect"
+                        "map": "The Tempest",
+                        "x": 975,
+                        "y": 828,
+                        "size": 6
                     }
                 ]
             },
             {
-                "name": "The Haughty One",
+                "name": "Northwest Caliban Gorge",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "$leveling:74"
+                    "$leveling:79"
                 ],
                 "visibility_rules": [
-                    "fishsanity_normal, level_cap:74"
+                    "fishsanity_normal, level_cap:79"
                 ],
                 "sections": [
                     {
-                        "name": "Official Ball",
-                        "access_rules": [
-                            "marblenymph"
-                        ],
+                        "name": "Sycorax",
+                        "access_rules": ["shortbillminnow", "moyebishrimp"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Grey Skipper",
-                        "access_rules": [
-                            "fruitworm",
-                            "metalspinner"
-                        ],
+                        "name": "Stormfish",
+                        "access_rules": ["moyebishrimp"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Blood-eyed Frog",
-                        "access_rules": [
-                            "metalspinner"
-                        ],
+                        "name": "Caliban",
+                        "access_rules": ["moyebishrimp"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Spotted Ctenopoma",
-                        "access_rules": [
-                            "marblenymph"
-                        ],
+                        "name": "Hoodwinker",
+                        "access_rules": ["shortbillminnow"],
+                        "visibility_rules": ["fishsanity_timed"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Seatrap",
+                        "access_rules": ["squidstrip"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Cerulean Loach",
-                        "access_rules": [
-                            "fruitworm",
-                            "metalspinner"
-                        ],
+                        "name": "Sweetmeat Mussel",
+                        "access_rules": ["squidstrip"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Sunken Tome",
-                        "access_rules": [
-                            "marblenymph"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_big"
-                        ],
+                        "name": "Lancetfish",
+                        "access_rules": ["squidstrip, @The Tempest/Northwest Caliban Gorge/Mora Tecta"],
+                        "visibility_rules": ["fishsanity_big"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Mora Tecta",
+                        "access_rules": ["shortbillminnow"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "Il Mheg",
-                        "x": 1066,
-                        "y": 405,
-                        "size": 40,
-                        "shape": "rect"
+                        "map": "The Tempest",
+                        "x": 1394,
+                        "y": 963,
+                        "size": 6
                     }
                 ]
             },
             {
-                "name": "Father Collards Failings",
+                "name": "West Caliban Gap",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "$leveling:75"
+                    "$leveling:80"
                 ],
                 "visibility_rules": [
-                    "fishsanity_normal, level_cap:75"
+                    "fishsanity_normal, level_cap:80"
                 ],
                 "sections": [
                     {
-                        "name": "Official Ball",
-                        "access_rules": [
-                            "marblenymph"
-                        ],
+                        "name": "Sycorax",
+                        "access_rules": ["shortbillminnow", "moyebishrimp"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Grey Skipper",
-                        "access_rules": [
-                            "fruitworm",
-                            "metalspinner"
-                        ],
+                        "name": "Stormfish",
+                        "access_rules": ["moyebishrimp"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Pixie Fish",
-                        "access_rules": [
-                            "marblenymph",
-                            "fruitworm"
-                        ],
+                        "name": "Ancient Shrimp",
+                        "access_rules": ["shortbillminnow"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Toadhead",
-                        "access_rules": [
-                            "baitbugs"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_timed"
-                        ],
+                        "name": "Yeti Crab",
+                        "access_rules": ["shortbillminnow"],
+                        "visibility_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Celestial",
-                        "access_rules": [
-                            "baitbugs"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_big"
-                        ],
+                        "name": "Aapoak",
+                        "access_rules": ["shortbillminnow"],
+                        "visibility_rules": ["fishsanity_timed"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Maru Crab",
+                        "access_rules": ["shortbillminnow"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "Il Mheg",
-                        "x": 1537,
-                        "y": 1064,
-                        "size": 40,
-                        "shape": "rect"
+                        "map": "The Tempest",
+                        "x": 1009,
+                        "y": 480,
+                        "size": 6
                     }
                 ]
             },
             {
-                "name": "Handmirror Lake",
+                "name": "East Caliban Gap",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "$leveling:73"
+                    "$leveling:80"
                 ],
                 "visibility_rules": [
-                    "fishsanity_normal, level_cap:73"
+                    "fishsanity_normal, level_cap:80"
                 ],
                 "sections": [
                     {
-                        "name": "Grey Skipper",
-                        "access_rules": [
-                            "fruitworm",
-                            "metalspinner"
-                        ],
+                        "name": "Sycorax",
+                        "access_rules": ["shortbillminnow", "moyebishrimp"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Pixie Fish",
-                        "access_rules": [
-                            "marblenymph",
-                            "fruitworm"
-                        ],
+                        "name": "Stormfish",
+                        "access_rules": ["moyebishrimp"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Wimple Carp",
-                        "access_rules": [
-                            "baitbugs"
-                        ],
+                        "name": "Hoodwinker",
+                        "access_rules": ["shortbillminnow"],
+                        "visibility_rules": ["fishsanity_timed"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cyan Sea Devil",
+                        "access_rules": ["shortbillminnow"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Lemonfish",
-                        "access_rules": [
-                            "marblenymph"
-                        ],
+                        "name": "Pancake Octopus",
+                        "access_rules": ["squidstrip"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Faeshine Clam",
-                        "access_rules": [
-                            "metalspinner"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Leannisg",
-                        "access_rules": [
-                            "marblenymph"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_big"
-                        ],
+                        "name": "The Mother of All Pancakes",
+                        "access_rules": ["squidstrip"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "Il Mheg",
-                        "x": 113,
-                        "y": 1059,
-                        "size": 40,
-                        "shape": "rect"
+                        "map": "The Tempest",
+                        "x": 1080,
+                        "y": 64,
+                        "size": 6
                     }
                 ]
             },
             {
-                "name": "Saint Fathrics Temple",
+                "name": "Purpure",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "$leveling:74"
+                    "$leveling:79"
                 ],
                 "visibility_rules": [
-                    "fishsanity_normal, level_cap:74"
+                    "fishsanity_normal, level_cap:79"
                 ],
                 "sections": [
                     {
-                        "name": "Grey Skipper",
-                        "access_rules": [
-                            "fruitworm",
-                            "metalspinner"
-                        ],
+                        "name": "Sycorax",
+                        "access_rules": ["shortbillminnow", "moyebishrimp"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Blood-eyed Frog",
-                        "access_rules": [
-                            "metalspinner"
-                        ],
+                        "name": "Stormfish",
+                        "access_rules": ["moyebishrimp"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Cerulean Loach",
-                        "access_rules": [
-                            "fruitworm",
-                            "metalspinner"
-                        ],
+                        "name": "Azure Sea Spider",
+                        "access_rules": ["squidstrip", "shortbillminnow"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Golden Lobster",
-                        "access_rules": [
-                            "marblenymph"
-                        ],
+                        "name": "Maneater Clam",
+                        "access_rules": ["shortbillminnow"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Gold Hammer",
-                        "access_rules": [
-                            "baitbugs"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_big"
-                        ],
+                        "name": "Stargazer",
+                        "access_rules": ["squidstrip"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Starchaser",
+                        "access_rules": ["squidstrip"],
+                        "visibility_rules": ["fishsanity_big"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Purpure Cod",
+                        "access_rules": ["metalspinner"],
+                        "visibility_rules": [],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "Il Mheg",
-                        "x": 1708,
-                        "y": 1260,
-                        "size": 40,
-                        "shape": "rect"
+                        "map": "The Tempest",
+                        "x": 45,
+                        "y": 611,
+                        "size": 6
                     }
                 ]
             }

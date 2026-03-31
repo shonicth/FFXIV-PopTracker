@@ -1,151 +1,92 @@
 [
     {
-        "name": "Il Mheg",
+        "name": "The Raktika Greatwood",
         "chest_unopened_img": "/images/items/close.png",
         "chest_opened_img": "/images/items/open.png",
         "overlay_background": "#000000",
         "access_rules": [
-            "$ilmhegaccess"
+            " "
         ],
         "children": [
             {
-                "name": "Dohn Mheg",
+                "name": "The Qitana Ravel",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "$leveling:73"
+                    "$leveling:75"
                 ],
                 "visibility_rules": [
-                    "level_cap:73, duty_difficulty_normal, $duty_visibility|Dohn Mheg"
+                    "level_cap:75, duty_difficulty_normal, $duty_visibility|The Qitana Ravel"
                 ],
                 "sections": [
                     {
-                        "name": "Dohn Mheg",
+                        "name": "The Qitana Ravel",
                         "access_rules": [],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Dohn Mheg 2",
+                        "name": "The Qitana Ravel 2",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:1"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:1"],
                         "item_count": 1
                     },
                     {
-                        "name": "Dohn Mheg 3",
+                        "name": "The Qitana Ravel 3",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:2"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:2"],
                         "item_count": 1
                     },
                     {
-                        "name": "Dohn Mheg 4",
+                        "name": "The Qitana Ravel 4",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:3"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:3"],
                         "item_count": 1
                     },
                     {
-                        "name": "Dohn Mheg 5",
+                        "name": "The Qitana Ravel 5",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:4"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:4"],
                         "item_count": 1
                     },
                     {
-                        "name": "Dohn Mheg 6",
+                        "name": "The Qitana Ravel 6",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:5"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:5"],
                         "item_count": 1
                     },
                     {
-                        "name": "Dohn Mheg 7",
+                        "name": "The Qitana Ravel 7",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:6"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:6"],
                         "item_count": 1
                     },
                     {
-                        "name": "Dohn Mheg 8",
+                        "name": "The Qitana Ravel 8",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:7"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:7"],
                         "item_count": 1
                     },
                     {
-                        "name": "Dohn Mheg 9",
+                        "name": "The Qitana Ravel 9",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:8"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:8"],
                         "item_count": 1
                     },
                     {
-                        "name": "Dohn Mheg 10",
+                        "name": "The Qitana Ravel 10",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:9"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:9"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "Il Mheg",
-                        "x": 1145,
-                        "y": 1456,
-                        "size": 40,
-                        "shape": "rect"
-                    }
-                ]
-            },
-            {
-                "name": "The Dancing Plague",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
-                "sections": [
-                    {
-                        "name": "The Dancing Plague",
-                        "access_rules": [
-                            "$leveling:73"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:73, duty_difficulty_normal, $duty_visibility|The Dancing Plague"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Dancing Plague (Extreme)",
-                        "access_rules": [
-                            "$leveling:80"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:80 duty_difficulty_ex, $duty_visibility|The Dancing Plague (Extreme)"
-                        ],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Il Mheg",
-                        "x": 882,
-                        "y": 752,
-                        "size": 40,
-                        "shape": "rect"
+                        "map": "The Raktika Greatwood",
+                        "x": 502,
+                        "y": 326,
+                        "size": 6
                     }
                 ]
             },
@@ -155,10 +96,10 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "$leveling:70"
+                    "$leveling:74"
                 ],
                 "visibility_rules": [
-                    "$fatesanity_disabled, level_cap:70"
+                    "$fatesanity_disabled, level_cap:74"
                 ],
                 "sections": [
                     {
@@ -244,16 +185,15 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "Il Mheg",
-                        "x": 68,
-                        "y": 102,
-                        "size": 40,
-                        "shape": "rect"
+                        "map": "The Raktika Greatwood",
+                        "x": 297,
+                        "y": 98,
+                        "size": 6
                     }
                 ]
             },
             {
-                "name": "Bear Necessities (FATE)",
+                "name": "Attack of the Killer Tomatl (FATE)",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -262,28 +202,27 @@
                 ],
                 "sections": [
                     {
-                        "name": "Bear Necessities (FATE)",
+                        "name": "Attack of the Killer Tomatl (FATE)",
                         "access_rules": [
-                            "$leveling:72"
+                            "$leveling:74"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:72"
+                            "fatesanity, level_cap:74"
                         ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "Il Mheg",
-                        "x": 825,
-                        "y": 1733,
-                        "size": 40,
-                        "shape": "rect"
+                        "map": "The Raktika Greatwood",
+                        "x": 89,
+                        "y": 1203,
+                        "size": 6
                     }
                 ]
             },
             {
-                "name": "Hedge Mazed (FATE)",
+                "name": "Dark Matters (FATE)",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -292,28 +231,27 @@
                 ],
                 "sections": [
                     {
-                        "name": "Hedge Mazed (FATE)",
+                        "name": "Dark Matters (FATE)",
                         "access_rules": [
-                            "$leveling:72"
+                            "$leveling:74"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:72"
+                            "fatesanity, level_cap:74"
                         ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "Il Mheg",
-                        "x": 294,
-                        "y": 1315,
-                        "size": 40,
-                        "shape": "rect"
+                        "map": "The Raktika Greatwood",
+                        "x": 1814,
+                        "y": 1189,
+                        "size": 6
                     }
                 ]
             },
             {
-                "name": "Locus Terribilis (FATE)",
+                "name": "Ill Be Bark (FATE)",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -322,28 +260,27 @@
                 ],
                 "sections": [
                     {
-                        "name": "Locus Terribilis (FATE)",
+                        "name": "Ill Be Bark (FATE)",
                         "access_rules": [
-                            "$leveling:72"
+                            "$leveling:74"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:72"
+                            "fatesanity, level_cap:74"
                         ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "Il Mheg",
-                        "x": 496,
-                        "y": 1415,
-                        "size": 40,
-                        "shape": "rect"
+                        "map": "The Raktika Greatwood",
+                        "x": 1296,
+                        "y": 1840,
+                        "size": 6
                     }
                 ]
             },
             {
-                "name": "Mad Magic (FATE)",
+                "name": "Picking up the Pieces (FATE)",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -352,28 +289,27 @@
                 ],
                 "sections": [
                     {
-                        "name": "Mad Magic (FATE)",
+                        "name": "Picking up the Pieces (FATE)",
                         "access_rules": [
-                            "$leveling:72"
+                            "$leveling:74"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:72"
+                            "fatesanity, level_cap:74"
                         ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "Il Mheg",
-                        "x": 481,
-                        "y": 1742,
-                        "size": 40,
-                        "shape": "rect"
+                        "map": "The Raktika Greatwood",
+                        "x": 1910,
+                        "y": 109,
+                        "size": 6
                     }
                 ]
             },
             {
-                "name": "Once Upon a Time (FATE)",
+                "name": "Six Fulm Turkeys (FATE)",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -382,28 +318,27 @@
                 ],
                 "sections": [
                     {
-                        "name": "Once Upon a Time (FATE)",
+                        "name": "Six Fulm Turkeys (FATE)",
                         "access_rules": [
-                            "$leveling:72"
+                            "$leveling:74"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:72"
+                            "fatesanity, level_cap:74"
                         ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "Il Mheg",
-                        "x": 479,
-                        "y": 1108,
-                        "size": 40,
-                        "shape": "rect"
+                        "map": "The Raktika Greatwood",
+                        "x": 1280,
+                        "y": 1520,
+                        "size": 6
                     }
                 ]
             },
             {
-                "name": "Thrice Upon a Time (FATE)",
+                "name": "We Are Venom (FATE)",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -412,28 +347,27 @@
                 ],
                 "sections": [
                     {
-                        "name": "Thrice Upon a Time (FATE)",
+                        "name": "We Are Venom (FATE)",
                         "access_rules": [
-                            "$leveling:72"
+                            "$leveling:74"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:72"
+                            "fatesanity, level_cap:74"
                         ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "Il Mheg",
-                        "x": 635,
-                        "y": 1151,
-                        "size": 40,
-                        "shape": "rect"
+                        "map": "The Raktika Greatwood",
+                        "x": 1744,
+                        "y": 2089,
+                        "size": 6
                     }
                 ]
             },
             {
-                "name": "Twice Upon a Time (FATE)",
+                "name": "Attack the Block (FATE)",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -442,28 +376,27 @@
                 ],
                 "sections": [
                     {
-                        "name": "Twice Upon a Time (FATE)",
+                        "name": "Attack the Block (FATE)",
                         "access_rules": [
-                            "$leveling:72"
+                            "$leveling:75"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:72"
+                            "fatesanity, level_cap:75"
                         ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "Il Mheg",
-                        "x": 326,
-                        "y": 910,
-                        "size": 40,
-                        "shape": "rect"
+                        "map": "The Raktika Greatwood",
+                        "x": 407,
+                        "y": 1340,
+                        "size": 6
                     }
                 ]
             },
             {
-                "name": "Weave Em and Weep (FATE)",
+                "name": "Barking Mad (FATE)",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -472,28 +405,27 @@
                 ],
                 "sections": [
                     {
-                        "name": "Weave Em and Weep (FATE)",
+                        "name": "Barking Mad (FATE)",
                         "access_rules": [
-                            "$leveling:72"
+                            "$leveling:75"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:72"
+                            "fatesanity, level_cap:75"
                         ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "Il Mheg",
-                        "x": 356,
-                        "y": 1558,
-                        "size": 40,
-                        "shape": "rect"
+                        "map": "The Raktika Greatwood",
+                        "x": 1764,
+                        "y": 2073,
+                        "size": 6
                     }
                 ]
             },
             {
-                "name": "Back and Fuath (FATE)",
+                "name": "Creepy Crawlers (FATE)",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -502,28 +434,27 @@
                 ],
                 "sections": [
                     {
-                        "name": "Back and Fuath (FATE)",
+                        "name": "Creepy Crawlers (FATE)",
                         "access_rules": [
-                            "$leveling:73"
+                            "$leveling:75"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:73"
+                            "fatesanity, level_cap:75"
                         ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "Il Mheg",
-                        "x": 1171,
-                        "y": 844,
-                        "size": 40,
-                        "shape": "rect"
+                        "map": "The Raktika Greatwood",
+                        "x": 697,
+                        "y": 1183,
+                        "size": 6
                     }
                 ]
             },
             {
-                "name": "Breaking the Fuath Wall (FATE)",
+                "name": "Monkeying Around (FATE)",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -532,28 +463,27 @@
                 ],
                 "sections": [
                     {
-                        "name": "Breaking the Fuath Wall (FATE)",
+                        "name": "Monkeying Around (FATE)",
                         "access_rules": [
-                            "$leveling:73"
+                            "$leveling:75"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:73"
+                            "fatesanity, level_cap:75"
                         ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "Il Mheg",
-                        "x": 377,
-                        "y": 682,
-                        "size": 40,
-                        "shape": "rect"
+                        "map": "The Raktika Greatwood",
+                        "x": 1348,
+                        "y": 940,
+                        "size": 6
                     }
                 ]
             },
             {
-                "name": "Brute Fuath (FATE)",
+                "name": "Nest of Kin (FATE)",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -562,28 +492,27 @@
                 ],
                 "sections": [
                     {
-                        "name": "Brute Fuath (FATE)",
+                        "name": "Nest of Kin (FATE)",
                         "access_rules": [
-                            "$leveling:73"
+                            "$leveling:75"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:73"
+                            "fatesanity, level_cap:75"
                         ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "Il Mheg",
-                        "x": 1230,
-                        "y": 1036,
-                        "size": 40,
-                        "shape": "rect"
+                        "map": "The Raktika Greatwood",
+                        "x": 2111,
+                        "y": 1493,
+                        "size": 6
                     }
                 ]
             },
             {
-                "name": "Frog Standard (FATE)",
+                "name": "Pluck of the Draw (FATE)",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -592,28 +521,27 @@
                 ],
                 "sections": [
                     {
-                        "name": "Frog Standard (FATE)",
+                        "name": "Pluck of the Draw (FATE)",
                         "access_rules": [
-                            "$leveling:73"
+                            "$leveling:75"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:73"
+                            "fatesanity, level_cap:75"
                         ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "Il Mheg",
-                        "x": 1132,
-                        "y": 496,
-                        "size": 40,
-                        "shape": "rect"
+                        "map": "The Raktika Greatwood",
+                        "x": 539,
+                        "y": 1166,
+                        "size": 6
                     }
                 ]
             },
             {
-                "name": "Fuath of Habit (FATE)",
+                "name": "Queen of the Harpies (FATE)",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -622,28 +550,27 @@
                 ],
                 "sections": [
                     {
-                        "name": "Fuath of Habit (FATE)",
+                        "name": "Queen of the Harpies (FATE)",
                         "access_rules": [
-                            "$leveling:73"
+                            "$leveling:75"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:73"
+                            "fatesanity, level_cap:75"
                         ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "Il Mheg",
-                        "x": 1501,
-                        "y": 620,
-                        "size": 40,
-                        "shape": "rect"
+                        "map": "The Raktika Greatwood",
+                        "x": 1094,
+                        "y": 1072,
+                        "size": 6
                     }
                 ]
             },
             {
-                "name": "Fuath to Be Reckoned With (FATE)",
+                "name": "Shot Through the Hart (FATE)",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -652,28 +579,27 @@
                 ],
                 "sections": [
                     {
-                        "name": "Fuath to Be Reckoned With (FATE)",
+                        "name": "Shot Through the Hart (FATE)",
                         "access_rules": [
-                            "$leveling:73"
+                            "$leveling:75"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:73"
+                            "fatesanity, level_cap:75"
                         ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "Il Mheg",
-                        "x": 1619,
-                        "y": 242,
-                        "size": 40,
-                        "shape": "rect"
+                        "map": "The Raktika Greatwood",
+                        "x": 1685,
+                        "y": 1027,
+                        "size": 6
                     }
                 ]
             },
             {
-                "name": "Go Fuath a Conqueror (FATE)",
+                "name": "The End of the Sentry (FATE)",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -682,28 +608,27 @@
                 ],
                 "sections": [
                     {
-                        "name": "Go Fuath a Conqueror (FATE)",
+                        "name": "The End of the Sentry (FATE)",
                         "access_rules": [
-                            "$leveling:73"
+                            "$leveling:75"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:73"
+                            "fatesanity, level_cap:75"
                         ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "Il Mheg",
-                        "x": 997,
-                        "y": 484,
-                        "size": 40,
-                        "shape": "rect"
+                        "map": "The Raktika Greatwood",
+                        "x": 1381,
+                        "y": 148,
+                        "size": 6
                     }
                 ]
             },
             {
-                "name": "Great Daens (FATE)",
+                "name": "Tojil Annihilation (FATE)",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -712,544 +637,439 @@
                 ],
                 "sections": [
                     {
-                        "name": "Great Daens (FATE)",
+                        "name": "Tojil Annihilation (FATE)",
                         "access_rules": [
-                            "$leveling:73"
+                            "$leveling:75"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:73"
+                            "fatesanity, level_cap:75"
                         ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "Il Mheg",
-                        "x": 1323,
-                        "y": 436,
-                        "size": 40,
-                        "shape": "rect"
+                        "map": "The Raktika Greatwood",
+                        "x": 1247,
+                        "y": 2430,
+                        "size": 6
                     }
                 ]
             },
             {
-                "name": "The Spoiled One",
+                "name": "Tojil Carnage (FATE)",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "$leveling:74"
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Tojil Carnage (FATE)",
+                        "access_rules": [
+                            "$leveling:75"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:75"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "The Raktika Greatwood",
+                        "x": 1396,
+                        "y": 760,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Tojil Eclipse (FATE)",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Tojil Eclipse (FATE)",
+                        "access_rules": [
+                            "$leveling:75"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:75"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "The Raktika Greatwood",
+                        "x": 489,
+                        "y": 706,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Tojil War (FATE)",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Tojil War (FATE)",
+                        "access_rules": [
+                            "$leveling:75"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:75"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "The Raktika Greatwood",
+                        "x": 2370,
+                        "y": 339,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Lake Tusi Mekta",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$leveling:70"
                 ],
                 "visibility_rules": [
-                    "fishsanity_normal, level_cap:74"
+                    "fishsanity_normal, level_cap:70"
                 ],
                 "sections": [
                     {
-                        "name": "Brightmirror Clam",
-                        "access_rules": [
-                            "fruitworm"
-                        ],
+                        "name": "Clawbow",
+                        "access_rules": ["fruitworm"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Grey Skipper",
-                        "access_rules": [
-                            "fruitworm",
-                            "metalspinner"
-                        ],
+                        "name": "Robber Crab",
+                        "access_rules": ["robberball", "baitbugs"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Cherry Herring",
-                        "access_rules": [
-                            "marblenymph"
-                        ],
+                        "name": "Yellow Pipira",
+                        "access_rules": ["fruitworm"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Cerulean Loach",
-                        "access_rules": [
-                            "fruitworm",
-                            "metalspinner"
-                        ],
+                        "name": "Clown Tetra",
+                        "access_rules": ["robberball"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Dammroen Herring",
-                        "access_rules": [
-                            "baitbugs"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_big"
-                        ],
+                        "name": "Eryops",
+                        "access_rules": ["robberball"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Priest of YxLokwa",
+                        "access_rules": ["robberball"],
+                        "visibility_rules": ["fishsanity_big"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Greater Serpent of Ronka",
+                        "access_rules": ["robberball"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "Il Mheg",
-                        "x": 1260,
-                        "y": 613,
-                        "size": 40,
-                        "shape": "rect"
+                        "map": "The Raktika Greatwood",
+                        "x": 1424,
+                        "y": 1612,
+                        "size": 6
                     }
                 ]
             },
             {
-                "name": "Longmirror Lake",
+                "name": "The Red Chalice",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "$leveling:73"
+                    "$leveling:70"
                 ],
                 "visibility_rules": [
-                    "fishsanity_normal, level_cap:73"
+                    "fishsanity_normal, level_cap:70"
                 ],
                 "sections": [
                     {
-                        "name": "Calico Trout",
-                        "access_rules": [
-                            "fruitworm"
-                        ],
+                        "name": "Clawbow",
+                        "access_rules": ["fruitworm"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Official Ball",
-                        "access_rules": [
-                            "marblenymph"
-                        ],
+                        "name": "Darkroot",
+                        "access_rules": ["robberball"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Grey Skipper",
-                        "access_rules": [
-                            "fruitworm",
-                            "metalspinner"
-                        ],
+                        "name": "Yellow Pipira",
+                        "access_rules": ["fruitworm"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Rebel",
-                        "access_rules": [
-                            "marblenymph"
-                        ],
+                        "name": "Oathfish",
+                        "access_rules": ["marblenymph"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Wild Red Betta",
-                        "access_rules": [
-                            "baitbugs"
-                        ],
-                        "visibility_rules": [],
+                        "name": "Diamond Pipira",
+                        "access_rules": ["robberball"],
+                        "visibility_rules": ["fishsanity_timed"],
                         "item_count": 1
                     },
                     {
-                        "name": "Cerulean Loach",
-                        "access_rules": [
-                            "fruitworm",
-                            "metalspinner"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Sound of Fury",
-                        "access_rules": [
-                            "baitbugs"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_big"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Fuchsia Bloom",
-                        "access_rules": [
-                            "robberball"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Ealad Skaan",
-                        "access_rules": [
-                            "baitbugs"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_big"
-                        ],
+                        "name": "Pearl Pipira",
+                        "access_rules": ["robberball"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "Il Mheg",
-                        "x": 968,
-                        "y": 1093,
-                        "size": 40,
-                        "shape": "rect"
+                        "map": "The Raktika Greatwood",
+                        "x": 1848,
+                        "y": 441,
+                        "size": 6
                     }
                 ]
             },
             {
-                "name": "The Jealous One",
+                "name": "The Lozatl",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "$leveling:74"
+                    "$leveling:70"
                 ],
                 "visibility_rules": [
-                    "fishsanity_normal, level_cap:74"
+                    "fishsanity_normal, level_cap:70"
                 ],
                 "sections": [
                     {
-                        "name": "Spotted Blue-eye",
-                        "access_rules": [
-                            "marblenymph"
-                        ],
+                        "name": "Clawbow",
+                        "access_rules": ["fruitworm"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Grey Skipper",
-                        "access_rules": [
-                            "fruitworm",
-                            "metalspinner"
-                        ],
+                        "name": "Black Tri-star",
+                        "access_rules": ["robberball"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Blood-eyed Frog",
-                        "access_rules": [
-                            "metalspinner"
-                        ],
+                        "name": "Yellow Pipira",
+                        "access_rules": ["fruitworm"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Cerulean Loach",
-                        "access_rules": [
-                            "fruitworm",
-                            "metalspinner"
-                        ],
+                        "name": "Nights Bass",
+                        "access_rules": ["robberball"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Fae Rainbow",
-                        "access_rules": [
-                            "marblenymph"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_big"
-                        ],
+                        "name": "Raktika Trout",
+                        "access_rules": ["robberball"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Black Jet",
+                        "access_rules": ["robberball"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "Il Mheg",
-                        "x": 1227,
-                        "y": 390,
-                        "size": 40,
-                        "shape": "rect"
+                        "map": "The Raktika Greatwood",
+                        "x": 840,
+                        "y": 228,
+                        "size": 6
                     }
                 ]
             },
             {
-                "name": "The Haughty One",
+                "name": "South Mjrls Regret",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "$leveling:74"
+                    "$leveling:70"
                 ],
                 "visibility_rules": [
-                    "fishsanity_normal, level_cap:74"
+                    "fishsanity_normal, level_cap:70"
                 ],
                 "sections": [
                     {
-                        "name": "Official Ball",
-                        "access_rules": [
-                            "marblenymph"
-                        ],
+                        "name": "Clawbow",
+                        "access_rules": ["fruitworm"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Grey Skipper",
-                        "access_rules": [
-                            "fruitworm",
-                            "metalspinner"
-                        ],
+                        "name": "Robber Crab",
+                        "access_rules": ["robberball", "baitbugs"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Blood-eyed Frog",
-                        "access_rules": [
-                            "metalspinner"
-                        ],
+                        "name": "Yellow Pipira",
+                        "access_rules": ["fruitworm"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Spotted Ctenopoma",
-                        "access_rules": [
-                            "marblenymph"
-                        ],
+                        "name": "Nights Bass",
+                        "access_rules": ["robberball"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Cerulean Loach",
-                        "access_rules": [
-                            "fruitworm",
-                            "metalspinner"
-                        ],
+                        "name": "Raktika Trout",
+                        "access_rules": ["robberball"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Sunken Tome",
-                        "access_rules": [
-                            "marblenymph"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_big"
-                        ],
+                        "name": "Silver Kitten",
+                        "access_rules": ["robberball"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Recordkiller",
+                        "access_rules": ["baitbugs"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "Il Mheg",
-                        "x": 1066,
-                        "y": 405,
-                        "size": 40,
-                        "shape": "rect"
+                        "map": "The Raktika Greatwood",
+                        "x": 2337,
+                        "y": 233,
+                        "size": 6
                     }
                 ]
             },
             {
-                "name": "Father Collards Failings",
+                "name": "Woven Oath",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "$leveling:75"
+                    "$leveling:80"
                 ],
                 "visibility_rules": [
-                    "fishsanity_normal, level_cap:75"
+                    "fishsanity_normal, level_cap:80"
                 ],
                 "sections": [
                     {
-                        "name": "Official Ball",
-                        "access_rules": [
-                            "marblenymph"
-                        ],
+                        "name": "Clawbow",
+                        "access_rules": ["fruitworm"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Grey Skipper",
-                        "access_rules": [
-                            "fruitworm",
-                            "metalspinner"
-                        ],
+                        "name": "Darkroot",
+                        "access_rules": ["robberball"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Pixie Fish",
-                        "access_rules": [
-                            "marblenymph",
-                            "fruitworm"
-                        ],
+                        "name": "Oathfish",
+                        "access_rules": ["marblenymph"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Toadhead",
-                        "access_rules": [
-                            "baitbugs"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_timed"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Celestial",
-                        "access_rules": [
-                            "baitbugs"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_big"
-                        ],
+                        "name": "Deephaunt",
+                        "access_rules": ["baitbugs"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "Il Mheg",
-                        "x": 1537,
-                        "y": 1064,
-                        "size": 40,
-                        "shape": "rect"
+                        "map": "The Raktika Greatwood",
+                        "x": 418,
+                        "y": 1704,
+                        "size": 6
                     }
                 ]
             },
             {
-                "name": "Handmirror Lake",
+                "name": "Mjrls Tears",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "$leveling:73"
+                    "$leveling:70"
                 ],
                 "visibility_rules": [
-                    "fishsanity_normal, level_cap:73"
+                    "fishsanity_normal, level_cap:70"
                 ],
                 "sections": [
                     {
-                        "name": "Grey Skipper",
-                        "access_rules": [
-                            "fruitworm",
-                            "metalspinner"
-                        ],
+                        "name": "Clawbow",
+                        "access_rules": ["fruitworm"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Pixie Fish",
-                        "access_rules": [
-                            "marblenymph",
-                            "fruitworm"
-                        ],
+                        "name": "Yellow Pipira",
+                        "access_rules": ["fruitworm"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Wimple Carp",
-                        "access_rules": [
-                            "baitbugs"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Lemonfish",
-                        "access_rules": [
-                            "marblenymph"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Faeshine Clam",
-                        "access_rules": [
-                            "metalspinner"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Leannisg",
-                        "access_rules": [
-                            "marblenymph"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_big"
-                        ],
+                        "name": "Golden Pipira",
+                        "access_rules": ["robberball"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "Il Mheg",
-                        "x": 113,
-                        "y": 1059,
-                        "size": 40,
-                        "shape": "rect"
-                    }
-                ]
-            },
-            {
-                "name": "Saint Fathrics Temple",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    "$leveling:74"
-                ],
-                "visibility_rules": [
-                    "fishsanity_normal, level_cap:74"
-                ],
-                "sections": [
-                    {
-                        "name": "Grey Skipper",
-                        "access_rules": [
-                            "fruitworm",
-                            "metalspinner"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Blood-eyed Frog",
-                        "access_rules": [
-                            "metalspinner"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Cerulean Loach",
-                        "access_rules": [
-                            "fruitworm",
-                            "metalspinner"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Golden Lobster",
-                        "access_rules": [
-                            "marblenymph"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Gold Hammer",
-                        "access_rules": [
-                            "baitbugs"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_big"
-                        ],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Il Mheg",
-                        "x": 1708,
-                        "y": 1260,
-                        "size": 40,
-                        "shape": "rect"
+                        "map": "The Raktika Greatwood",
+                        "x": 179,
+                        "y": 459,
+                        "size": 6
                     }
                 ]
             }

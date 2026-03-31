@@ -29,83 +29,64 @@
                     {
                         "name": "Dohn Mheg 2",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:1"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:1"],
                         "item_count": 1
                     },
                     {
                         "name": "Dohn Mheg 3",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:2"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:2"],
                         "item_count": 1
                     },
                     {
                         "name": "Dohn Mheg 4",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:3"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:3"],
                         "item_count": 1
                     },
                     {
                         "name": "Dohn Mheg 5",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:4"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:4"],
                         "item_count": 1
                     },
                     {
                         "name": "Dohn Mheg 6",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:5"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:5"],
                         "item_count": 1
                     },
                     {
                         "name": "Dohn Mheg 7",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:6"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:6"],
                         "item_count": 1
                     },
                     {
                         "name": "Dohn Mheg 8",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:7"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:7"],
                         "item_count": 1
                     },
                     {
                         "name": "Dohn Mheg 9",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:8"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:8"],
                         "item_count": 1
                     },
                     {
                         "name": "Dohn Mheg 10",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:9"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:9"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Il Mheg",
-                        "x": 1145,
-                        "y": 1456,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 2412,
+                        "y": 402,
+                        "size": 6
                     }
                 ]
             },
@@ -120,32 +101,23 @@
                 "sections": [
                     {
                         "name": "The Dancing Plague",
-                        "access_rules": [
-                            "$leveling:73"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:73, duty_difficulty_normal, $duty_visibility|The Dancing Plague"
-                        ],
+                        "access_rules": ["$leveling:73"],
+                        "visibility_rules": ["level_cap:73, duty_difficulty_normal, $duty_visibility|The Dancing Plague"],
                         "item_count": 1
                     },
                     {
                         "name": "The Dancing Plague (Extreme)",
-                        "access_rules": [
-                            "$leveling:80"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:80 duty_difficulty_ex, $duty_visibility|The Dancing Plague (Extreme)"
-                        ],
+                        "access_rules": ["$leveling:80"],
+                        "visibility_rules": ["level_cap:80 duty_difficulty_ex, $duty_visibility|The Dancing Plague (Extreme)"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Il Mheg",
-                        "x": 882,
-                        "y": 752,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 897,
+                        "y": 1238,
+                        "size": 6
                     }
                 ]
             },
@@ -245,10 +217,9 @@
                 "map_locations": [
                     {
                         "map": "Il Mheg",
-                        "x": 68,
-                        "y": 102,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1402,
+                        "y": 279,
+                        "size": 6
                     }
                 ]
             },
@@ -275,10 +246,9 @@
                 "map_locations": [
                     {
                         "map": "Il Mheg",
-                        "x": 825,
-                        "y": 1733,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 645,
+                        "y": 1742,
+                        "size": 6
                     }
                 ]
             },
@@ -305,10 +275,9 @@
                 "map_locations": [
                     {
                         "map": "Il Mheg",
-                        "x": 294,
-                        "y": 1315,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 198,
+                        "y": 649,
+                        "size": 6
                     }
                 ]
             },
@@ -335,10 +304,9 @@
                 "map_locations": [
                     {
                         "map": "Il Mheg",
-                        "x": 496,
-                        "y": 1415,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 2352,
+                        "y": 1245,
+                        "size": 6
                     }
                 ]
             },
@@ -365,10 +333,9 @@
                 "map_locations": [
                     {
                         "map": "Il Mheg",
-                        "x": 481,
-                        "y": 1742,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 83,
+                        "y": 81,
+                        "size": 6
                     }
                 ]
             },
@@ -395,10 +362,9 @@
                 "map_locations": [
                     {
                         "map": "Il Mheg",
-                        "x": 479,
-                        "y": 1108,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 286,
+                        "y": 414,
+                        "size": 6
                     }
                 ]
             },
@@ -425,10 +391,9 @@
                 "map_locations": [
                     {
                         "map": "Il Mheg",
-                        "x": 635,
-                        "y": 1151,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1698,
+                        "y": 1521,
+                        "size": 6
                     }
                 ]
             },
@@ -455,10 +420,9 @@
                 "map_locations": [
                     {
                         "map": "Il Mheg",
-                        "x": 326,
-                        "y": 910,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 80,
+                        "y": 185,
+                        "size": 6
                     }
                 ]
             },
@@ -485,10 +449,9 @@
                 "map_locations": [
                     {
                         "map": "Il Mheg",
-                        "x": 356,
-                        "y": 1558,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 623,
+                        "y": 111,
+                        "size": 6
                     }
                 ]
             },
@@ -515,10 +478,9 @@
                 "map_locations": [
                     {
                         "map": "Il Mheg",
-                        "x": 1171,
-                        "y": 844,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 2156,
+                        "y": 2335,
+                        "size": 6
                     }
                 ]
             },
@@ -545,10 +507,9 @@
                 "map_locations": [
                     {
                         "map": "Il Mheg",
-                        "x": 377,
-                        "y": 682,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1665,
+                        "y": 1884,
+                        "size": 6
                     }
                 ]
             },
@@ -575,10 +536,9 @@
                 "map_locations": [
                     {
                         "map": "Il Mheg",
-                        "x": 1230,
-                        "y": 1036,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 2412,
+                        "y": 1221,
+                        "size": 6
                     }
                 ]
             },
@@ -605,10 +565,9 @@
                 "map_locations": [
                     {
                         "map": "Il Mheg",
-                        "x": 1132,
-                        "y": 496,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1010,
+                        "y": 1684,
+                        "size": 6
                     }
                 ]
             },
@@ -635,10 +594,9 @@
                 "map_locations": [
                     {
                         "map": "Il Mheg",
-                        "x": 1501,
-                        "y": 620,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 17,
+                        "y": 2261,
+                        "size": 6
                     }
                 ]
             },
@@ -665,10 +623,9 @@
                 "map_locations": [
                     {
                         "map": "Il Mheg",
-                        "x": 1619,
-                        "y": 242,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1886,
+                        "y": 2238,
+                        "size": 6
                     }
                 ]
             },
@@ -695,10 +652,9 @@
                 "map_locations": [
                     {
                         "map": "Il Mheg",
-                        "x": 997,
-                        "y": 484,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 248,
+                        "y": 964,
+                        "size": 6
                     }
                 ]
             },
@@ -725,10 +681,9 @@
                 "map_locations": [
                     {
                         "map": "Il Mheg",
-                        "x": 1323,
-                        "y": 436,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 2407,
+                        "y": 1763,
+                        "size": 6
                     }
                 ]
             },
@@ -746,56 +701,41 @@
                 "sections": [
                     {
                         "name": "Brightmirror Clam",
-                        "access_rules": [
-                            "fruitworm"
-                        ],
+                        "access_rules": ["fruitworm"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Grey Skipper",
-                        "access_rules": [
-                            "fruitworm",
-                            "metalspinner"
-                        ],
+                        "access_rules": ["fruitworm", "metalspinner"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Cherry Herring",
-                        "access_rules": [
-                            "marblenymph"
-                        ],
+                        "access_rules": ["marblenymph"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Cerulean Loach",
-                        "access_rules": [
-                            "fruitworm",
-                            "metalspinner"
-                        ],
+                        "access_rules": ["fruitworm", "metalspinner"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Dammroen Herring",
-                        "access_rules": [
-                            "baitbugs"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_big"
-                        ],
+                        "access_rules": ["baitbugs"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Il Mheg",
-                        "x": 1260,
-                        "y": 613,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1008,
+                        "y": 1090,
+                        "size": 6
                     }
                 ]
             },
@@ -813,90 +753,65 @@
                 "sections": [
                     {
                         "name": "Calico Trout",
-                        "access_rules": [
-                            "fruitworm"
-                        ],
+                        "access_rules": ["fruitworm"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Official Ball",
-                        "access_rules": [
-                            "marblenymph"
-                        ],
+                        "access_rules": ["marblenymph"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Grey Skipper",
-                        "access_rules": [
-                            "fruitworm",
-                            "metalspinner"
-                        ],
+                        "access_rules": ["fruitworm", "metalspinner"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Rebel",
-                        "access_rules": [
-                            "marblenymph"
-                        ],
+                        "access_rules": ["marblenymph"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Wild Red Betta",
-                        "access_rules": [
-                            "baitbugs"
-                        ],
+                        "access_rules": ["baitbugs"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Cerulean Loach",
-                        "access_rules": [
-                            "fruitworm",
-                            "metalspinner"
-                        ],
+                        "access_rules": ["fruitworm", "metalspinner"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "The Sound of Fury",
-                        "access_rules": [
-                            "baitbugs"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_big"
-                        ],
+                        "access_rules": ["baitbugs"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     },
                     {
                         "name": "Fuchsia Bloom",
-                        "access_rules": [
-                            "robberball"
-                        ],
+                        "access_rules": ["robberball"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Ealad Skaan",
-                        "access_rules": [
-                            "baitbugs"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_big"
-                        ],
+                        "access_rules": ["baitbugs"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Il Mheg",
-                        "x": 968,
-                        "y": 1093,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 664,
+                        "y": 2040,
+                        "size": 6
                     }
                 ]
             },
@@ -914,56 +829,41 @@
                 "sections": [
                     {
                         "name": "Spotted Blue-eye",
-                        "access_rules": [
-                            "marblenymph"
-                        ],
+                        "access_rules": ["marblenymph"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Grey Skipper",
-                        "access_rules": [
-                            "fruitworm",
-                            "metalspinner"
-                        ],
+                        "access_rules": ["fruitworm", "metalspinner"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Blood-eyed Frog",
-                        "access_rules": [
-                            "metalspinner"
-                        ],
+                        "access_rules": ["metalspinner"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Cerulean Loach",
-                        "access_rules": [
-                            "fruitworm",
-                            "metalspinner"
-                        ],
+                        "access_rules": ["fruitworm", "metalspinner"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Fae Rainbow",
-                        "access_rules": [
-                            "marblenymph"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_big"
-                        ],
+                        "access_rules": ["marblenymph"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Il Mheg",
-                        "x": 1227,
-                        "y": 390,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1347,
+                        "y": 28,
+                        "size": 6
                     }
                 ]
             },
@@ -981,64 +881,47 @@
                 "sections": [
                     {
                         "name": "Official Ball",
-                        "access_rules": [
-                            "marblenymph"
-                        ],
+                        "access_rules": ["marblenymph"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Grey Skipper",
-                        "access_rules": [
-                            "fruitworm",
-                            "metalspinner"
-                        ],
+                        "access_rules": ["fruitworm", "metalspinner"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Blood-eyed Frog",
-                        "access_rules": [
-                            "metalspinner"
-                        ],
+                        "access_rules": ["metalspinner"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Spotted Ctenopoma",
-                        "access_rules": [
-                            "marblenymph"
-                        ],
+                        "access_rules": ["marblenymph"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Cerulean Loach",
-                        "access_rules": [
-                            "fruitworm",
-                            "metalspinner"
-                        ],
+                        "access_rules": ["fruitworm", "metalspinner"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Sunken Tome",
-                        "access_rules": [
-                            "marblenymph"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_big"
-                        ],
+                        "access_rules": ["marblenymph"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Il Mheg",
-                        "x": 1066,
-                        "y": 405,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1745,
+                        "y": 380,
+                        "size": 6
                     }
                 ]
             },
@@ -1056,58 +939,41 @@
                 "sections": [
                     {
                         "name": "Official Ball",
-                        "access_rules": [
-                            "marblenymph"
-                        ],
+                        "access_rules": ["marblenymph"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Grey Skipper",
-                        "access_rules": [
-                            "fruitworm",
-                            "metalspinner"
-                        ],
+                        "access_rules": ["fruitworm", "metalspinner"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Pixie Fish",
-                        "access_rules": [
-                            "marblenymph",
-                            "fruitworm"
-                        ],
+                        "access_rules": ["marblenymph", "fruitworm"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Toadhead",
-                        "access_rules": [
-                            "baitbugs"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_timed"
-                        ],
+                        "access_rules": ["baitbugs"],
+                        "visibility_rules": ["fishsanity_timed"],
                         "item_count": 1
                     },
                     {
                         "name": "Celestial",
-                        "access_rules": [
-                            "baitbugs"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_big"
-                        ],
+                        "access_rules": ["baitbugs"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Il Mheg",
-                        "x": 1537,
-                        "y": 1064,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1182,
+                        "y": 1592,
+                        "size": 6
                     }
                 ]
             },
@@ -1125,64 +991,47 @@
                 "sections": [
                     {
                         "name": "Grey Skipper",
-                        "access_rules": [
-                            "fruitworm",
-                            "metalspinner"
-                        ],
+                        "access_rules": ["fruitworm", "metalspinner"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Pixie Fish",
-                        "access_rules": [
-                            "marblenymph",
-                            "fruitworm"
-                        ],
+                        "access_rules": ["marblenymph", "fruitworm"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Wimple Carp",
-                        "access_rules": [
-                            "baitbugs"
-                        ],
+                        "access_rules": ["baitbugs"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Lemonfish",
-                        "access_rules": [
-                            "marblenymph"
-                        ],
+                        "access_rules": ["marblenymph"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Faeshine Clam",
-                        "access_rules": [
-                            "metalspinner"
-                        ],
+                        "access_rules": ["metalspinner"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Leannisg",
-                        "access_rules": [
-                            "marblenymph"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_big"
-                        ],
+                        "access_rules": ["marblenymph"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Il Mheg",
-                        "x": 113,
-                        "y": 1059,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 500,
+                        "y": 1152,
+                        "size": 6
                     }
                 ]
             },
@@ -1200,56 +1049,41 @@
                 "sections": [
                     {
                         "name": "Grey Skipper",
-                        "access_rules": [
-                            "fruitworm",
-                            "metalspinner"
-                        ],
+                        "access_rules": ["fruitworm", "metalspinner"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Blood-eyed Frog",
-                        "access_rules": [
-                            "metalspinner"
-                        ],
+                        "access_rules": ["metalspinner"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Cerulean Loach",
-                        "access_rules": [
-                            "fruitworm",
-                            "metalspinner"
-                        ],
+                        "access_rules": ["fruitworm", "metalspinner"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Golden Lobster",
-                        "access_rules": [
-                            "marblenymph"
-                        ],
+                        "access_rules": ["marblenymph"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Gold Hammer",
-                        "access_rules": [
-                            "baitbugs"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_big"
-                        ],
+                        "access_rules": ["baitbugs"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Il Mheg",
-                        "x": 1708,
-                        "y": 1260,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 778,
+                        "y": 2169,
+                        "size": 6
                     }
                 ]
             }
