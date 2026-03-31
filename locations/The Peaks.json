@@ -124,61 +124,81 @@
                     {
                         "name": "FATE #1",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "fates_per_zone:1"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #2",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "fates_per_zone:2"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #3",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "fates_per_zone:3"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #4",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "fates_per_zone:4"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #5",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "fates_per_zone:5"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #6",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "fates_per_zone:6"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #7",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "fates_per_zone:7"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #8",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "fates_per_zone:8"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #9",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "fates_per_zone:9"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #10",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "fates_per_zone:10"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -1161,7 +1181,7 @@
                     "$leveling:70"
                 ],
                 "visibility_rules": [
-                    "fatesanity, level_cap:70"
+                    "fishsanity_normal, level_cap:70"
                 ],
                 "sections": [
                     {
@@ -1246,7 +1266,7 @@
                     "$leveling:65"
                 ],
                 "visibility_rules": [
-                    "fatesanity, level_cap:65"
+                    "fishsanity_normal, level_cap:65"
                 ],
                 "sections": [
                     {
@@ -1322,7 +1342,7 @@
                     "$leveling:61"
                 ],
                 "visibility_rules": [
-                    "fatesanity, level_cap:61"
+                    "fishsanity_normal, level_cap:61"
                 ],
                 "sections": [
                     {
@@ -1406,7 +1426,7 @@
                     "$leveling:70"
                 ],
                 "visibility_rules": [
-                    "fatesanity, level_cap:70"
+                    "fishsanity_normal, level_cap:70"
                 ],
                 "sections": [
                     {
@@ -1476,7 +1496,7 @@
                     "$leveling:61"
                 ],
                 "visibility_rules": [
-                    "fatesanity, level_cap:61"
+                    "fishsanity_normal, level_cap:61"
                 ],
                 "sections": [
                     {
@@ -1552,7 +1572,7 @@
                     "$leveling:68"
                 ],
                 "visibility_rules": [
-                    "fatesanity, level_cap:68"
+                    "fishsanity_normal, level_cap:68"
                 ],
                 "sections": [
                     {

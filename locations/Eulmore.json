@@ -5,7 +5,7 @@
         "chest_opened_img": "/images/items/open.png",
         "overlay_background": "#000000",
         "access_rules": [
-            "$elpisaccess"
+            "$eulmoreaccess"
         ],
         "children": [
             {
@@ -14,7 +14,10 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "$leveling:80"
+                ],
+                "visibility_rules": [
+                    "level_cap:80, duty_difficulty_normal, $duty_visibility|The Heroes's Gauntlet"
                 ],
                 "sections": [
                     {
@@ -26,55 +29,55 @@
                     {
                         "name": "The Heroes Gauntlet 2",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:1"],
                         "item_count": 1
                     },
                     {
                         "name": "The Heroes Gauntlet 3",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:2"],
                         "item_count": 1
                     },
                     {
                         "name": "The Heroes Gauntlet 4",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:3"],
                         "item_count": 1
                     },
                     {
                         "name": "The Heroes Gauntlet 5",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:4"],
                         "item_count": 1
                     },
                     {
                         "name": "The Heroes Gauntlet 6",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:5"],
                         "item_count": 1
                     },
                     {
                         "name": "The Heroes Gauntlet 7",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:6"],
                         "item_count": 1
                     },
                     {
                         "name": "The Heroes Gauntlet 8",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:7"],
                         "item_count": 1
                     },
                     {
                         "name": "The Heroes Gauntlet 9",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:8"],
                         "item_count": 1
                     },
                     {
                         "name": "The Heroes Gauntlet 10",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:9"],
                         "item_count": 1
                     }
                 ],
@@ -93,49 +96,52 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "5fshlevels:72"
+                ],
+                "visibility_rules": [
+                    "level_cap:72, fishsanity_normal"
                 ],
                 "sections": [
                     {
                         "name": "Milky Coral",
-                        "access_rules": [],
+                        "access_rules": ["moyebishrimp"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Gravel Mussel",
-                        "access_rules": [],
+                        "access_rules": ["moyebishrimp"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Crimson Sea Spider",
-                        "access_rules": [],
+                        "access_rules": ["moyebishrimp"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Bonefish",
-                        "access_rules": [],
+                        "access_rules": ["moyebishrimp"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Eulmore Butterfly",
-                        "access_rules": [],
+                        "access_rules": ["moyebishrimp"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Red Hammerhead",
-                        "access_rules": [],
+                        "access_rules": ["squidstrip"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Winged Dame",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["squidstrip"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
