@@ -21,10 +21,14 @@ if Highlight then
         [20] = Highlight.Avoid,
         [30] = Highlight.Priority,
         [40] = Highlight.None,
-        [100] = Highlight.None, --Filler
-        [101] = Highlight.Priority, --Progression
-        [102] = Highlight.NoPriority, --Useful
-        [104] = Highlight.Avoid, --Trap
+        [100] = Highlight.Unspecified, --100 filler
+        [101] = Highlight.Priority, --101 prog
+        [102] = Highlight.NoPriority, --102 useful
+        [103] = Highlight.Priority, --103 prog+useful
+        [104] = Highlight.Avoid, --104 trap
+        [105] = Highlight.Priority, --105 prog+trap
+        [106] = Highlight.NoPriority, --106 useful+trap
+        [107] = Highlight.Priority --107 prog+useful+trap
     }
 end
 
@@ -416,7 +420,7 @@ end
 
 function UpdateHints(locationID, status) -->
     if Highlight then
-        -- print(locationID, status)
+         print(locationID, status)
         local location_table = LOCATION_MAPPING[locationID]
         for _, location in ipairs(location_table) do
             if location:sub(1, 1) == "@" then
