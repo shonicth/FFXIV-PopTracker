@@ -19,8 +19,12 @@
                 "sections": [
                     {
                         "name": "The Gilded Araya",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "$leveling:90"
+                        ],
+                        "visibility_rules": [
+                            "level_cap:90, duty_difficulty_normal, $duty_visibility|The Gilded Araya"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -39,37 +43,40 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "$leveling:82"
+                ],
+                "visibility_rules": [
+                    "fishsanity_normal, level_cap:82"
                 ],
                 "sections": [
                     {
                         "name": "Trunkblessed",
-                        "access_rules": [],
+                        "access_rules": ["goldsalmonroe", "leech", "skyspoonlure", "mayfly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Seema Duta",
-                        "access_rules": [],
+                        "access_rules": ["goldsalmonroe", "leech", "skyspoonlure", "mayfly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Longear Sunfish",
-                        "access_rules": [],
+                        "access_rules": ["goldsalmonroe", "leech", "skyspoonlure", "mayfly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Silver Characin",
-                        "access_rules": [],
+                        "access_rules": ["goldsalmonroe", "leech", "skyspoonlure", "mayfly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Earful",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["mayfly"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
