@@ -14,7 +14,10 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "$leveling:81"
+                ],
+                "visibility_rules": [
+                    "level_cap:81, duty_difficulty_normal, $duty_visibility|The Tower of Zot"
                 ],
                 "sections": [
                     {
@@ -26,55 +29,55 @@
                     {
                         "name": "The Tower of Zot 2",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:1"],
                         "item_count": 1
                     },
                     {
                         "name": "The Tower of Zot 3",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:2"],
                         "item_count": 1
                     },
                     {
                         "name": "The Tower of Zot 4",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:3"],
                         "item_count": 1
                     },
                     {
                         "name": "The Tower of Zot 5",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:4"],
                         "item_count": 1
                     },
                     {
                         "name": "The Tower of Zot 6",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:5"],
                         "item_count": 1
                     },
                     {
                         "name": "The Tower of Zot 7",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:6"],
                         "item_count": 1
                     },
                     {
                         "name": "The Tower of Zot 8",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:7"],
                         "item_count": 1
                     },
                     {
                         "name": "The Tower of Zot 9",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:8"],
                         "item_count": 1
                     },
                     {
                         "name": "The Tower of Zot 10",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:9"],
                         "item_count": 1
                     }
                 ],
@@ -93,7 +96,10 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "$leveling:85"
+                ],
+                "visibility_rules": [
+                    "level_cap:85, duty_difficulty_normal, $duty_visibility|Vanaspati"
                 ],
                 "sections": [
                     {
@@ -105,55 +111,55 @@
                     {
                         "name": "Vanaspati 2",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:1"],
                         "item_count": 1
                     },
                     {
                         "name": "Vanaspati 3",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:2"],
                         "item_count": 1
                     },
                     {
                         "name": "Vanaspati 4",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:3"],
                         "item_count": 1
                     },
                     {
                         "name": "Vanaspati 5",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:4"],
                         "item_count": 1
                     },
                     {
                         "name": "Vanaspati 6",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:5"],
                         "item_count": 1
                     },
                     {
                         "name": "Vanaspati 7",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:6"],
                         "item_count": 1
                     },
                     {
                         "name": "Vanaspati 8",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:7"],
                         "item_count": 1
                     },
                     {
                         "name": "Vanaspati 9",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:8"],
                         "item_count": 1
                     },
                     {
                         "name": "Vanaspati 10",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:9"],
                         "item_count": 1
                     }
                 ],
@@ -172,7 +178,10 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "$leveling:90"
+                ],
+                "visibility_rules": [
+                    "level_cap:90, duty_difficulty_normal, $duty_visibility|Alzadaal's Legacy"
                 ],
                 "sections": [
                     {
@@ -182,57 +191,57 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Alzadaals Legacy Legacy 2",
+                        "name": "Alzadaals Legacy 2",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:1"],
                         "item_count": 1
                     },
                     {
-                        "name": "Alzadaals Legacy Legacy 3",
+                        "name": "Alzadaals Legacy 3",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:2"],
                         "item_count": 1
                     },
                     {
-                        "name": "Alzadaals Legacy Legacy 4",
+                        "name": "Alzadaals Legacy 4",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:3"],
                         "item_count": 1
                     },
                     {
-                        "name": "Alzadaals Legacy Legacy 5",
+                        "name": "Alzadaals Legacy 5",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:4"],
                         "item_count": 1
                     },
                     {
-                        "name": "Alzadaals Legacy Legacy 6",
+                        "name": "Alzadaals Legacy 6",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:5"],
                         "item_count": 1
                     },
                     {
-                        "name": "Alzadaals Legacy Legacy 7",
+                        "name": "Alzadaals Legacy 7",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:6"],
                         "item_count": 1
                     },
                     {
-                        "name": "Alzadaals Legacy Legacy 8",
+                        "name": "Alzadaals Legacy 8",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:7"],
                         "item_count": 1
                     },
                     {
-                        "name": "Alzadaals Legacy Legacy 9",
+                        "name": "Alzadaals Legacy 9",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:8"],
                         "item_count": 1
                     },
                     {
-                        "name": "Alzadaals Legacy Legacy 10",
+                        "name": "Alzadaals Legacy 10",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:9"],
                         "item_count": 1
                     }
                 ],
@@ -251,7 +260,10 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "$leveling:90"
+                ],
+                "visibility_rules": [
+                    "level_cap:90, duty_difficulty_normal, $duty_visibility|The Fell Court of Troia"
                 ],
                 "sections": [
                     {
@@ -263,55 +275,55 @@
                     {
                         "name": "The Fell Court of Troia 2",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:1"],
                         "item_count": 1
                     },
                     {
                         "name": "The Fell Court of Troia 3",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:2"],
                         "item_count": 1
                     },
                     {
                         "name": "The Fell Court of Troia 4",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:3"],
                         "item_count": 1
                     },
                     {
                         "name": "The Fell Court of Troia 5",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:4"],
                         "item_count": 1
                     },
                     {
                         "name": "The Fell Court of Troia 6",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:5"],
                         "item_count": 1
                     },
                     {
                         "name": "The Fell Court of Troia 7",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:6"],
                         "item_count": 1
                     },
                     {
                         "name": "The Fell Court of Troia 8",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:7"],
                         "item_count": 1
                     },
                     {
                         "name": "The Fell Court of Troia 9",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:8"],
                         "item_count": 1
                     },
                     {
                         "name": "The Fell Court of Troia 10",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:9"],
                         "item_count": 1
                     }
                 ],
@@ -335,14 +347,22 @@
                 "sections": [
                     {
                         "name": "Storms Crown",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "$leveling:90"
+                        ],
+                        "visibility_rules": [
+                            "level_cap:90, duty_difficulty_normal, $duty_visibility|Storm's Crown"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Storms Crown (Extreme)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "$leveling:90"
+                        ],
+                        "visibility_rules": [
+                            "level_cap:90, duty_difficulty_ex, $duty_visibility|Storm's Crown (Extreme)"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -366,14 +386,22 @@
                 "sections": [
                     {
                         "name": "Mount Ordeals",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "$leveling:90"
+                        ],
+                        "visibility_rules": [
+                            "level_cap:90, duty_difficulty_normal, $duty_visibility|Mount Ordeals"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Mount Ordeals (Extreme)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "$leveling:90"
+                        ],
+                        "visibility_rules": [
+                            "level_cap:90, duty_difficulty_ex, $duty_visibility|Mount Ordeals (Extreme)"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -392,7 +420,10 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "$leveling:90"
+                ],
+                "visibility_rules": [
+                    "level_cap:90, duty_difficulty_normal, $duty_visibility|Aloalo Island"
                 ],
                 "sections": [
                     {
@@ -404,55 +435,55 @@
                     {
                         "name": "Aloalo Island 2",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:1"],
                         "item_count": 1
                     },
                     {
                         "name": "Aloalo Island 3",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:2"],
                         "item_count": 1
                     },
                     {
                         "name": "Aloalo Island 4",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:3"],
                         "item_count": 1
                     },
                     {
                         "name": "Aloalo Island 5",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:4"],
                         "item_count": 1
                     },
                     {
                         "name": "Aloalo Island 6",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:5"],
                         "item_count": 1
                     },
                     {
                         "name": "Aloalo Island 7",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:6"],
                         "item_count": 1
                     },
                     {
                         "name": "Aloalo Island 8",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:7"],
                         "item_count": 1
                     },
                     {
                         "name": "Aloalo Island 9",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:8"],
                         "item_count": 1
                     },
                     {
                         "name": "Aloalo Island 10",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:9"],
                         "item_count": 1
                     }
                 ],
@@ -471,67 +502,90 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "$leveling:80"
+                ],
+                "visibility_rules": [
+                    "$fatesanity_disabled, level_cap:80"
                 ],
                 "sections": [
                     {
                         "name": "FATE #1",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "fates_per_zone:1"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #2",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "fates_per_zone:2"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #3",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "fates_per_zone:3"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #4",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "fates_per_zone:4"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #5",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "fates_per_zone:5"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #6",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "fates_per_zone:6"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #7",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "fates_per_zone:7"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #8",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "fates_per_zone:8"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #9",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "fates_per_zone:9"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #10",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "fates_per_zone:10"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -555,8 +609,12 @@
                 "sections": [
                     {
                         "name": "Full Petal Alchemist Perilous Pickings (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "$leveling:80"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:80"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -580,8 +638,12 @@
                 "sections": [
                     {
                         "name": "Full Petal Alchemist Risky Return (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "$leveling:80"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:80"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -605,8 +667,12 @@
                 "sections": [
                     {
                         "name": "Shiver and Shock (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "$leveling:80"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:80"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -630,8 +696,12 @@
                 "sections": [
                     {
                         "name": "The Accursed Kanabhuti (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "$leveling:80"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:80"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -655,8 +725,12 @@
                 "sections": [
                     {
                         "name": "When Gaja Go Gaga (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "$leveling:80"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:80"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -680,8 +754,12 @@
                 "sections": [
                     {
                         "name": "I Am the Valras (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "$leveling:81"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:81"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -705,8 +783,12 @@
                 "sections": [
                     {
                         "name": "Of Claws and Gall (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "$leveling:81"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:81"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -730,8 +812,12 @@
                 "sections": [
                     {
                         "name": "The Little Nanka That Could (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "$leveling:81"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:81"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -755,8 +841,12 @@
                 "sections": [
                     {
                         "name": "Devout Pilgrims vs. the Apalala (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "$leveling:85"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:85"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -780,8 +870,12 @@
                 "sections": [
                     {
                         "name": "Devout Pilgrims vs. the Jungle Lizards (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "$leveling:85"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:85"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -805,8 +899,12 @@
                 "sections": [
                     {
                         "name": "Mesmerizing Moths (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "$leveling:85"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:85"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -830,8 +928,12 @@
                 "sections": [
                     {
                         "name": "Monkeys on Your Back (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "$leveling:85"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:85"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -855,8 +957,12 @@
                 "sections": [
                     {
                         "name": "Peek-a-Bhujamga (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "$leveling:85"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:85"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -880,8 +986,12 @@
                 "sections": [
                     {
                         "name": "Return of the Tyrant (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "$leveling:85"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:85"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -905,8 +1015,12 @@
                 "sections": [
                     {
                         "name": "Stalkers in the Shroud (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "$leveling:85"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:85"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -930,8 +1044,12 @@
                 "sections": [
                     {
                         "name": "Swipe Eft (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "$leveling:85"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:85"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -955,8 +1073,12 @@
                 "sections": [
                     {
                         "name": "Devout Pilgrims vs. Daivadipa (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "$leveling:90"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:90, include_unreasonable_fates" 
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -985,7 +1107,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "\tThavnairian Goby",
+                        "name": "Thavnairian Goby",
                         "access_rules": [],
                         "visibility_rules": [],
                         "item_count": 1
