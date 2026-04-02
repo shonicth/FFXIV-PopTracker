@@ -1097,42 +1097,45 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "5fshlevels:82"
+                ],
+                "visibility_rules": [
+                    "level_cap:82, fishsanity_normal"
                 ],
                 "sections": [
                     {
                         "name": "Garjana Wrasse",
-                        "access_rules": [],
+                        "access_rules": ["shrimpball", "mackerelstrip"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Thavnairian Goby",
-                        "access_rules": [],
+                        "access_rules": ["shrimpball", "mackerelstrip"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Qeyiq Sole",
-                        "access_rules": [],
+                        "access_rules": ["shrimpball", "mackerelstrip"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Golden Barramundi",
-                        "access_rules": [],
+                        "access_rules": ["shrimpball", "mackerelstrip"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Vidyutvat Wrasse",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["shrimpball"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     },
                     {
                         "name": "Sarikuyruk",
-                        "access_rules": [],
+                        "access_rules": ["metalspinner"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -1152,49 +1155,52 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "5fshlevels:85"
+                ],
+                "visibility_rules": [
+                    "level_cap:85, fishsanity_normal"
                 ],
                 "sections": [
                     {
                         "name": "Alnairan Salmon",
-                        "access_rules": [],
+                        "access_rules": ["leech"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Green Swordtail",
-                        "access_rules": [],
+                        "access_rules": ["goldsalmonroe", "leech", "skyspoonlure"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Ksirapayin",
-                        "access_rules": [],
+                        "access_rules": ["leech", "skyspoonlure", "mayfly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Forgeflame",
-                        "access_rules": [],
+                        "access_rules": ["leech", "skyspoonlure", "mayfly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Bicuda",
-                        "access_rules": [],
+                        "access_rules": ["leech", "skyspoonlure", "mayfly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Seedtoad",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["leech", "skyspoonlure", "mayfly"],
+                        "visibility_rules": ["metalspinner"],
                         "item_count": 1
                     },
                     {
                         "name": "Bigcuda",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["skyspoonlure"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
@@ -1213,37 +1219,40 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "5fshlevels:81"
+                ],
+                "visibility_rules": [
+                    "level_cap:81, fishsanity_normal"
                 ],
                 "sections": [
                     {
                         "name": "Thavnairian Goby",
-                        "access_rules": [],
+                        "access_rules": ["shrimpball", "mackerelstrip"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Qeyiq Sole",
-                        "access_rules": [],
+                        "access_rules": ["shrimpball", "mackerelstrip"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Gwl Crab",
-                        "access_rules": [],
+                        "access_rules": ["shrimpball", "mackerelstrip"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Pantherscale Grouper",
-                        "access_rules": [],
+                        "access_rules": ["shrimpball", "mackerelstrip"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Lale Crab",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["shrimpball"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
@@ -1262,55 +1271,58 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "5fshlevels:81"
+                ],
+                "visibility_rules": [
+                    "level_cap:81, fishsanity_normal"
                 ],
                 "sections": [
                     {
                         "name": "Thavnairian Goby",
-                        "access_rules": [],
+                        "access_rules": ["shrimpball", "mackerelstrip"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Qeyiq Sole",
-                        "access_rules": [],
+                        "access_rules": ["shrimpball", "mackerelstrip"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Fates Design",
-                        "access_rules": [],
+                        "access_rules": ["shrimpball", "mackerelstrip"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Shadowdart Sardine",
-                        "access_rules": [],
+                        "access_rules": ["shrimpball", "mackerelstrip"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Paksa Fish",
-                        "access_rules": [],
+                        "access_rules": ["shrimpball", "mackerelstrip"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Chalky Coral",
-                        "access_rules": [],
+                        "access_rules": ["metalspinner"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Jhinga",
-                        "access_rules": [],
+                        "access_rules": ["mackerelstrip"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Durdina Fish",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["shrimpball"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
@@ -1329,37 +1341,40 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "5fshlevels:82"
+                ],
+                "visibility_rules": [
+                    "level_cap:82, fishsanity_normal"
                 ],
                 "sections": [
                     {
                         "name": "Kadjayas Castaway",
-                        "access_rules": [],
+                        "access_rules": ["goldsalmonroe", "leech", "skyspoonlure", "mayfly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Marid Frog",
-                        "access_rules": [],
+                        "access_rules": ["goldsalmonroe", "leech", "skyspoonlure", "mayfly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Bluegill",
-                        "access_rules": [],
+                        "access_rules": ["goldsalmonroe", "leech", "skyspoonlure", "mayfly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Bronze Pipira",
-                        "access_rules": [],
+                        "access_rules": ["goldsalmonroe", "leech", "skyspoonlure", "mayfly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Hippo Frog",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["mayfly"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
@@ -1378,37 +1393,40 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "5fshlevels:85"
+                ],
+                "visibility_rules": [
+                    "level_cap:85, fishsanity_normal"
                 ],
                 "sections": [
                     {
                         "name": "Green Swordtail",
-                        "access_rules": [],
+                        "access_rules": ["goldsalmonroe", "leech", "skyspoonlure"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Ksirapayin",
-                        "access_rules": [],
+                        "access_rules": ["leech", "skyspoonlure", "mayfly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Wakeful Watcher",
-                        "access_rules": [],
+                        "access_rules": ["leech", "skyspoonlure", "mayfly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Red Drum",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["leech", "skyspoonlure", "mayfly"],
+                        "visibility_rules": ["fishsanity_timed"],
                         "item_count": 1
                     },
                     {
                         "name": "Wakeful Warden",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["leech"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
@@ -1427,31 +1445,34 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "5fshlevels:85"
+                ],
+                "visibility_rules": [
+                    "level_cap:85, fishsanity_normal"
                 ],
                 "sections": [
                     {
                         "name": "Green Swordtail",
-                        "access_rules": [],
+                        "access_rules": ["goldsalmonroe", "leech", "skyspoonlure"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Radzbalik",
-                        "access_rules": [],
+                        "access_rules": ["goldsalmonroe", "leech", "skyspoonlure"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Half-moon Betta",
-                        "access_rules": [],
+                        "access_rules": ["leech", "skyspoonlure", "mayfly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Browned Banana Eel",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["fishsanity_big"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
@@ -1470,49 +1491,58 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "5fshlevels:85"
+                ],
+                "visibility_rules": [
+                    "level_cap:85, fishsanity_normal"
                 ],
                 "sections": [
                     {
                         "name": "Green Swordtail",
-                        "access_rules": [],
+                        "access_rules": ["goldsalmonroe", "leech", "skyspoonlure"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Radzbalik",
-                        "access_rules": [],
+                        "access_rules": ["goldsalmonroe", "leech", "skyspoonlure"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Banana Eel",
-                        "access_rules": [],
+                        "access_rules": ["leech", "skyspoonlure", "mayfly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Handy Hamsa",
-                        "access_rules": [],
+                        "access_rules": ["leech", "skyspoonlure", "mayfly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Flowerhorn",
-                        "access_rules": [],
+                        "access_rules": ["leech", "skyspoonlure", "mayfly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Thavnairian Caiman",
-                        "access_rules": [],
+                        "access_rules": ["leech", "skyspoonlure", "mayfly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Mayashell",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["mayfly"],
+                        "visibility_rules": ["fishsanity_timed"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Mayaman",
+                        "access_rules": ["mayfly"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
@@ -1531,55 +1561,58 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "5fshlevels:85"
+                ],
+                "visibility_rules": [
+                    "level_cap:85, fishsanity_normal"
                 ],
                 "sections": [
                     {
                         "name": "Fiery Goby",
-                        "access_rules": [],
+                        "access_rules": ["shrimpball", "mackerelstrip"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Puff-paya",
-                        "access_rules": [],
+                        "access_rules": ["mackerelstrip"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Narunnairian Octopus",
-                        "access_rules": [],
+                        "access_rules": ["shrimpball", "mackerelstrip"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Roosterfish",
-                        "access_rules": [],
+                        "access_rules": ["mackerelstrip"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Basilosaurus",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["mackerelstrip"],
+                        "visibility_rules": ["fishsanity_timed"],
                         "item_count": 1
                     },
                     {
                         "name": "Thavnairian Calamari",
-                        "access_rules": [],
+                        "access_rules": ["mackerelstrip"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Basilosaurus Rex",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["mackerelstrip"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     },
                     {
                         "name": "Gharlichthys",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["mackerelstrip"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],

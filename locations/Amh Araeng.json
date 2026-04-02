@@ -438,8 +438,12 @@
                 "sections": [
                     {
                         "name": "Bayawak Attack (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "$leveling:70"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:70"
+                        ],
                         "item_count": 1
                     }
                 ],

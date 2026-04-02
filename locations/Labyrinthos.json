@@ -779,43 +779,46 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "5fshlevels:81"
+                ],
+                "visibility_rules": [
+                    "level_cap:81, fishsanity_normal"
                 ],
                 "sections": [
                     {
                         "name": "Giant Aetherlouse",
-                        "access_rules": [],
+                        "access_rules": ["goldsalmonroe", "leech", "skyspoonlure", "mayfly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Butterfly Fry",
-                        "access_rules": [],
+                        "access_rules": ["goldsalmonroe", "leech", "skyspoonlure", "mayfly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Topminnow",
-                        "access_rules": [],
+                        "access_rules": ["goldsalmonroe", "leech", "skyspoonlure", "mayfly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Tessera",
-                        "access_rules": [],
+                        "access_rules": ["goldsalmonroe", "leech", "skyspoonlure", "mayfly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Fat Snook",
-                        "access_rules": [],
+                        "access_rules": ["goldsalmonroe", "leech", "skyspoonlure", "mayfly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Jumbo Snook",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["mayfly"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
@@ -829,98 +832,51 @@
                 ]
             },
             {
-                "name": "Oinops",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
-                "sections": [
-                    {
-                        "name": "Astacus",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Labyrinthos",
-                        "x": 1429,
-                        "y": 1468,
-                        "size": 6
-                    }
-                ]
-            },
-            {
-                "name": "Reflecting Pool",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
-                "sections": [
-                    {
-                        "name": "Astacus",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Labyrinthos",
-                        "x": 428,
-                        "y": 2290,
-                        "size": 6
-                    }
-                ]
-            },
-            {
                 "name": "The Mover Alpha",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "5fshlevels:81"
+                ],
+                "visibility_rules": [
+                    "level_cap:81, fishsanity_normal"
                 ],
                 "sections": [
                     {
                         "name": "Butterfly Fry",
-                        "access_rules": [],
+                        "access_rules": ["goldsalmonroe", "leech", "skyspoonlure", "mayfly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Xenocypris",
-                        "access_rules": [],
+                        "access_rules": ["goldsalmonroe", "leech", "skyspoonlure", "mayfly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Prochilodus Luminosus",
-                        "access_rules": [],
+                        "access_rules": ["goldsalmonroe", "leech", "skyspoonlure", "mayfly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Mesonauta",
-                        "access_rules": [],
+                        "access_rules": ["goldsalmonroe", "leech", "skyspoonlure", "mayfly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Greengill Salmon",
-                        "access_rules": [],
+                        "access_rules": ["goldsalmonroe", "leech", "skyspoonlure", "mayfly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Mossgill Salmon",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["skyspoonlure"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
@@ -939,31 +895,34 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "5fshlevels:82"
+                ],
+                "visibility_rules": [
+                    "level_cap:82, fishsanity_normal"
                 ],
                 "sections": [
                     {
                         "name": "Butterfly Fry",
-                        "access_rules": [],
+                        "access_rules": ["goldsalmonroe", "leech", "skyspoonlure", "mayfly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Xenocypris",
-                        "access_rules": [],
+                        "access_rules": ["goldsalmonroe", "leech", "skyspoonlure", "mayfly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Red Bowfin",
-                        "access_rules": [],
+                        "access_rules": ["skyspoonlure", "mayfly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Swampsucker Bowfin",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["skyspoonlure"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
@@ -977,73 +936,51 @@
                 ]
             },
             {
-                "name": "UThe Mover Beta",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
-                "sections": [
-                    {
-                        "name": "Butterfly Fry",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Labyrinthos",
-                        "x": 2159,
-                        "y": 97,
-                        "size": 6
-                    }
-                ]
-            },
-            {
                 "name": "Deepmoat",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "5fshlevels:82"
+                ],
+                "visibility_rules": [
+                    "level_cap:82, fishsanity_normal"
                 ],
                 "sections": [
                     {
                         "name": "Butterfly Fry",
-                        "access_rules": [],
+                        "access_rules": ["goldsalmonroe", "leech", "skyspoonlure", "mayfly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Xenocypris",
-                        "access_rules": [],
+                        "access_rules": ["goldsalmonroe", "leech", "skyspoonlure", "mayfly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Astacus Aetherius",
-                        "access_rules": [],
+                        "access_rules": ["goldsalmonroe", "leech", "skyspoonlure", "mayfly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Labyrinthos Tilapia",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["leech"],
+                        "visibility_rules": ["fishsanity_timed"],
                         "item_count": 1
                     },
                     {
                         "name": "Circuit Tilapia",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["leech"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     },
                     {
                         "name": "Hyphalosaurus",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["leech"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
@@ -1062,49 +999,58 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    " "
+                    "5fshlevels:82"
+                ],
+                "visibility_rules": [
+                    "level_cap:82, fishsanity_normal"
                 ],
                 "sections": [
                     {
                         "name": "Xenocypris",
-                        "access_rules": [],
+                        "access_rules": ["goldsalmonroe", "leech", "skyspoonlure", "mayfly"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Butterfly Fry",
+                        "access_rules": ["goldsalmonroe", "leech", "skyspoonlure", "mayfly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Raiamas",
-                        "access_rules": [],
+                        "access_rules": ["goldsalmonroe", "leech", "skyspoonlure", "mayfly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Macrobrachium Lar",
-                        "access_rules": [],
+                        "access_rules": ["goldsalmonroe", "leech", "skyspoonlure", "mayfly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Blowgun",
-                        "access_rules": [],
+                        "access_rules": ["goldsalmonroe", "leech", "skyspoonlure", "mayfly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Darksteel Knifefish",
-                        "access_rules": [],
+                        "access_rules": ["goldsalmonroe", "leech", "skyspoonlure", "mayfly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Onyx Knifefish",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["mayfly"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     },
                     {
                         "name": "The Furys Aegis",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["goldsalmonroe", "leech", "skyspoonlure", "mayfly"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
