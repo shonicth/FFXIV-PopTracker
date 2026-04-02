@@ -120,7 +120,7 @@
                 "sections": [
                     {
                         "name": "The Final Steps of Faith",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:60"],
                         "visibility_rules": [
                             "level_cap:60, duty_difficulty_normal, $duty_visibility|The Final Steps of Faith"
                         ],
@@ -128,7 +128,7 @@
                     },
                     {
                         "name": "The Minstrels Ballad Nidhoggs Rage",
-                        "access_rules": [],
+                        "access_rules": ["$leveling:60"],
                         "visibility_rules": [
                             "level_cap:60, duty_difficulty_ex, $duty_visibility|The Minstrel's Ballad: Nidhoggs Rage"
                         ],
