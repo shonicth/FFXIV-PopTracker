@@ -31,10 +31,9 @@
                 "map_locations": [
                     {
                         "map": "Radz-at-Han",
-                        "x": 1036,
-                        "y": 1064,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1296,
+                        "y": 1032,
+                        "size": 6
                     }
                 ]
             },
@@ -52,66 +51,41 @@
                 "sections": [
                     {
                         "name": "Trunkblessed",
-                        "access_rules": [
-                            "goldsalmonroe",
-                            "leech",
-                            "skyspoonlure",
-                            "mayfly"
-                        ],
+                        "access_rules": ["goldsalmonroe", "leech", "skyspoonlure", "mayfly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Seema Duta",
-                        "access_rules": [
-                            "goldsalmonroe",
-                            "leech",
-                            "skyspoonlure",
-                            "mayfly"
-                        ],
+                        "access_rules": ["goldsalmonroe", "leech", "skyspoonlure", "mayfly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Longear Sunfish",
-                        "access_rules": [
-                            "goldsalmonroe",
-                            "leech",
-                            "skyspoonlure",
-                            "mayfly"
-                        ],
+                        "access_rules": ["goldsalmonroe", "leech", "skyspoonlure", "mayfly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Silver Characin",
-                        "access_rules": [
-                            "goldsalmonroe",
-                            "leech",
-                            "skyspoonlure",
-                            "mayfly"
-                        ],
+                        "access_rules": ["goldsalmonroe", "leech", "skyspoonlure", "mayfly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Earful",
-                        "access_rules": [
-                            "mayfly"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_big"
-                        ],
+                        "access_rules": ["mayfly"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Radz-at-Han",
-                        "x": 459,
-                        "y": 986,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1495,
+                        "y": 28,
+                        "size": 6
                     }
                 ]
             }

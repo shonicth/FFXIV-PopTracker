@@ -29,83 +29,64 @@
                     {
                         "name": "The Aitiascope 2",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:1"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:1"],
                         "item_count": 1
                     },
                     {
                         "name": "The Aitiascope 3",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:2"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:2"],
                         "item_count": 1
                     },
                     {
                         "name": "The Aitiascope 4",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:3"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:3"],
                         "item_count": 1
                     },
                     {
                         "name": "The Aitiascope 5",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:4"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:4"],
                         "item_count": 1
                     },
                     {
                         "name": "The Aitiascope 6",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:5"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:5"],
                         "item_count": 1
                     },
                     {
                         "name": "The Aitiascope 7",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:6"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:6"],
                         "item_count": 1
                     },
                     {
                         "name": "The Aitiascope 8",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:7"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:7"],
                         "item_count": 1
                     },
                     {
                         "name": "The Aitiascope 9",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:8"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:8"],
                         "item_count": 1
                     },
                     {
                         "name": "The Aitiascope 10",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:9"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:9"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Labyrinthos",
-                        "x": 793,
-                        "y": 1369,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1938,
+                        "y": 306,
+                        "size": 6
                     }
                 ]
             },
@@ -142,10 +123,9 @@
                 "map_locations": [
                     {
                         "map": "Labyrinthos",
-                        "x": 834,
-                        "y": 1369,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 326,
+                        "y": 252,
+                        "size": 6
                     }
                 ]
             },
@@ -155,7 +135,7 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "$leveling:80, pandaemoniumkey"
+                    "$leveling:80, pandaemoniumkey" 
                 ],
                 "visibility_rules": [
                     "level_cap:80, duty_difficulty_normal"
@@ -164,33 +144,25 @@
                     {
                         "name": "Anabaseios The Ninth Circle",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "$duty_visibility|Anabaseios: The Ninth Circle"
-                        ],
+                        "visibility_rules": ["$duty_visibility|Anabaseios: The Ninth Circle"],
                         "item_count": 1
                     },
                     {
                         "name": "Anabaseios The Tenth Circle",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "$duty_visibility|Anabaseios: The Tenth Circle"
-                        ],
+                        "visibility_rules": ["$duty_visibility|Anabaseios: The Tenth Circle"],
                         "item_count": 1
                     },
                     {
                         "name": "Anabaseios The Eleventh Circle",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "$duty_visibility|Anabaseios: The Eleventh Circle"
-                        ],
+                        "visibility_rules": ["$duty_visibility|Anabaseios: The Eleventh Circle"],
                         "item_count": 1
                     },
                     {
                         "name": "Anabaseios The Twelfth Circle",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "$duty_visibility|Anabaseios: The Twelfth Circle"
-                        ],
+                        "visibility_rules": ["$duty_visibility|Anabaseios: The Twelfth Circle"],
                         "item_count": 1
                     },
                     {
@@ -229,10 +201,9 @@
                 "map_locations": [
                     {
                         "map": "Labyrinthos",
-                        "x": 751,
-                        "y": 1372,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1010,
+                        "y": 290,
+                        "size": 6
                     }
                 ]
             },
@@ -332,10 +303,9 @@
                 "map_locations": [
                     {
                         "map": "Labyrinthos",
-                        "x": 1378,
-                        "y": 1923,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 934,
+                        "y": 1131,
+                        "size": 6
                     }
                 ]
             },
@@ -362,10 +332,9 @@
                 "map_locations": [
                     {
                         "map": "Labyrinthos",
-                        "x": 1112,
-                        "y": 541,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1843,
+                        "y": 95,
+                        "size": 6
                     }
                 ]
             },
@@ -392,10 +361,9 @@
                 "map_locations": [
                     {
                         "map": "Labyrinthos",
-                        "x": 768,
-                        "y": 297,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1937,
+                        "y": 1895,
+                        "size": 6
                     }
                 ]
             },
@@ -422,10 +390,9 @@
                 "map_locations": [
                     {
                         "map": "Labyrinthos",
-                        "x": 1649,
-                        "y": 706,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1481,
+                        "y": 2224,
+                        "size": 6
                     }
                 ]
             },
@@ -452,10 +419,9 @@
                 "map_locations": [
                     {
                         "map": "Labyrinthos",
-                        "x": 1539,
-                        "y": 376,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 43,
+                        "y": 2154,
+                        "size": 6
                     }
                 ]
             },
@@ -482,10 +448,9 @@
                 "map_locations": [
                     {
                         "map": "Labyrinthos",
-                        "x": 687,
-                        "y": 427,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1743,
+                        "y": 122,
+                        "size": 6
                     }
                 ]
             },
@@ -512,10 +477,9 @@
                 "map_locations": [
                     {
                         "map": "Labyrinthos",
-                        "x": 1469,
-                        "y": 1028,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 2390,
+                        "y": 1925,
+                        "size": 6
                     }
                 ]
             },
@@ -542,10 +506,9 @@
                 "map_locations": [
                     {
                         "map": "Labyrinthos",
-                        "x": 1439,
-                        "y": 1198,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 920,
+                        "y": 1173,
+                        "size": 6
                     }
                 ]
             },
@@ -572,10 +535,9 @@
                 "map_locations": [
                     {
                         "map": "Labyrinthos",
-                        "x": 1389,
-                        "y": 348,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 789,
+                        "y": 1145,
+                        "size": 6
                     }
                 ]
             },
@@ -602,10 +564,9 @@
                 "map_locations": [
                     {
                         "map": "Labyrinthos",
-                        "x": 1140,
-                        "y": 1539,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 2004,
+                        "y": 596,
+                        "size": 6
                     }
                 ]
             },
@@ -632,10 +593,9 @@
                 "map_locations": [
                     {
                         "map": "Labyrinthos",
-                        "x": 862,
-                        "y": 1873,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 2487,
+                        "y": 489,
+                        "size": 6
                     }
                 ]
             },
@@ -662,10 +622,9 @@
                 "map_locations": [
                     {
                         "map": "Labyrinthos",
-                        "x": 1159,
-                        "y": 1111,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 2226,
+                        "y": 1769,
+                        "size": 6
                     }
                 ]
             },
@@ -692,10 +651,9 @@
                 "map_locations": [
                     {
                         "map": "Labyrinthos",
-                        "x": 1100,
-                        "y": 1744,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 646,
+                        "y": 2221,
+                        "size": 6
                     }
                 ]
             },
@@ -722,10 +680,9 @@
                 "map_locations": [
                     {
                         "map": "Labyrinthos",
-                        "x": 266,
-                        "y": 1543,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 69,
+                        "y": 1618,
+                        "size": 6
                     }
                 ]
             },
@@ -752,10 +709,9 @@
                 "map_locations": [
                     {
                         "map": "Labyrinthos",
-                        "x": 365,
-                        "y": 1165,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 2034,
+                        "y": 1860,
+                        "size": 6
                     }
                 ]
             },
@@ -782,10 +738,9 @@
                 "map_locations": [
                     {
                         "map": "Labyrinthos",
-                        "x": 557,
-                        "y": 949,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1458,
+                        "y": 1651,
+                        "size": 6
                     }
                 ]
             },
@@ -812,10 +767,9 @@
                 "map_locations": [
                     {
                         "map": "Labyrinthos",
-                        "x": 426,
-                        "y": 1752,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1098,
+                        "y": 1628,
+                        "size": 6
                     }
                 ]
             },
@@ -833,77 +787,47 @@
                 "sections": [
                     {
                         "name": "Giant Aetherlouse",
-                        "access_rules": [
-                            "goldsalmonroe",
-                            "leech",
-                            "skyspoonlure",
-                            "mayfly"
-                        ],
+                        "access_rules": ["goldsalmonroe", "leech", "skyspoonlure", "mayfly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Butterfly Fry",
-                        "access_rules": [
-                            "goldsalmonroe",
-                            "leech",
-                            "skyspoonlure",
-                            "mayfly"
-                        ],
+                        "access_rules": ["goldsalmonroe", "leech", "skyspoonlure", "mayfly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Topminnow",
-                        "access_rules": [
-                            "goldsalmonroe",
-                            "leech",
-                            "skyspoonlure",
-                            "mayfly"
-                        ],
+                        "access_rules": ["goldsalmonroe", "leech", "skyspoonlure", "mayfly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Tessera",
-                        "access_rules": [
-                            "goldsalmonroe",
-                            "leech",
-                            "skyspoonlure",
-                            "mayfly"
-                        ],
+                        "access_rules": ["goldsalmonroe", "leech", "skyspoonlure", "mayfly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Fat Snook",
-                        "access_rules": [
-                            "goldsalmonroe",
-                            "leech",
-                            "skyspoonlure",
-                            "mayfly"
-                        ],
+                        "access_rules": ["goldsalmonroe", "leech", "skyspoonlure", "mayfly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Jumbo Snook",
-                        "access_rules": [
-                            "mayfly"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_big"
-                        ],
+                        "access_rules": ["mayfly"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Labyrinthos",
-                        "x": 827,
-                        "y": 200,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1892,
+                        "y": 1993,
+                        "size": 6
                     }
                 ]
             },
@@ -921,77 +845,47 @@
                 "sections": [
                     {
                         "name": "Butterfly Fry",
-                        "access_rules": [
-                            "goldsalmonroe",
-                            "leech",
-                            "skyspoonlure",
-                            "mayfly"
-                        ],
+                        "access_rules": ["goldsalmonroe", "leech", "skyspoonlure", "mayfly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Xenocypris",
-                        "access_rules": [
-                            "goldsalmonroe",
-                            "leech",
-                            "skyspoonlure",
-                            "mayfly"
-                        ],
+                        "access_rules": ["goldsalmonroe", "leech", "skyspoonlure", "mayfly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Prochilodus Luminosus",
-                        "access_rules": [
-                            "goldsalmonroe",
-                            "leech",
-                            "skyspoonlure",
-                            "mayfly"
-                        ],
+                        "access_rules": ["goldsalmonroe", "leech", "skyspoonlure", "mayfly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Mesonauta",
-                        "access_rules": [
-                            "goldsalmonroe",
-                            "leech",
-                            "skyspoonlure",
-                            "mayfly"
-                        ],
+                        "access_rules": ["goldsalmonroe", "leech", "skyspoonlure", "mayfly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Greengill Salmon",
-                        "access_rules": [
-                            "goldsalmonroe",
-                            "leech",
-                            "skyspoonlure",
-                            "mayfly"
-                        ],
+                        "access_rules": ["goldsalmonroe", "leech", "skyspoonlure", "mayfly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Mossgill Salmon",
-                        "access_rules": [
-                            "skyspoonlure"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_big"
-                        ],
+                        "access_rules": ["skyspoonlure"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Labyrinthos",
-                        "x": 877,
-                        "y": 477,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 2055,
+                        "y": 2342,
+                        "size": 6
                     }
                 ]
             },
@@ -1009,53 +903,35 @@
                 "sections": [
                     {
                         "name": "Butterfly Fry",
-                        "access_rules": [
-                            "goldsalmonroe",
-                            "leech",
-                            "skyspoonlure",
-                            "mayfly"
-                        ],
+                        "access_rules": ["goldsalmonroe", "leech", "skyspoonlure", "mayfly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Xenocypris",
-                        "access_rules": [
-                            "goldsalmonroe",
-                            "leech",
-                            "skyspoonlure",
-                            "mayfly"
-                        ],
+                        "access_rules": ["goldsalmonroe", "leech", "skyspoonlure", "mayfly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Red Bowfin",
-                        "access_rules": [
-                            "skyspoonlure",
-                            "mayfly"
-                        ],
+                        "access_rules": ["skyspoonlure", "mayfly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Swampsucker Bowfin",
-                        "access_rules": [
-                            "skyspoonlure"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_big"
-                        ],
+                        "access_rules": ["skyspoonlure"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Labyrinthos",
-                        "x": 1598,
-                        "y": 403,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 253,
+                        "y": 2125,
+                        "size": 6
                     }
                 ]
             },
@@ -1073,75 +949,47 @@
                 "sections": [
                     {
                         "name": "Butterfly Fry",
-                        "access_rules": [
-                            "goldsalmonroe",
-                            "leech",
-                            "skyspoonlure",
-                            "mayfly"
-                        ],
+                        "access_rules": ["goldsalmonroe", "leech", "skyspoonlure", "mayfly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Xenocypris",
-                        "access_rules": [
-                            "goldsalmonroe",
-                            "leech",
-                            "skyspoonlure",
-                            "mayfly"
-                        ],
+                        "access_rules": ["goldsalmonroe", "leech", "skyspoonlure", "mayfly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Astacus Aetherius",
-                        "access_rules": [
-                            "goldsalmonroe",
-                            "leech",
-                            "skyspoonlure",
-                            "mayfly"
-                        ],
+                        "access_rules": ["goldsalmonroe", "leech", "skyspoonlure", "mayfly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Labyrinthos Tilapia",
-                        "access_rules": [
-                            "leech"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_timed"
-                        ],
+                        "access_rules": ["leech"],
+                        "visibility_rules": ["fishsanity_timed"],
                         "item_count": 1
                     },
                     {
                         "name": "Circuit Tilapia",
-                        "access_rules": [
-                            "leech"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_big"
-                        ],
+                        "access_rules": ["leech"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     },
                     {
                         "name": "Hyphalosaurus",
-                        "access_rules": [
-                            "leech"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_big"
-                        ],
+                        "access_rules": ["leech"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Labyrinthos",
-                        "x": 960,
-                        "y": 756,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 2210,
+                        "y": 243,
+                        "size": 6
                     }
                 ]
             },
@@ -1159,101 +1007,59 @@
                 "sections": [
                     {
                         "name": "Xenocypris",
-                        "access_rules": [
-                            "goldsalmonroe",
-                            "leech",
-                            "skyspoonlure",
-                            "mayfly"
-                        ],
+                        "access_rules": ["goldsalmonroe", "leech", "skyspoonlure", "mayfly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Butterfly Fry",
-                        "access_rules": [
-                            "goldsalmonroe",
-                            "leech",
-                            "skyspoonlure",
-                            "mayfly"
-                        ],
+                        "access_rules": ["goldsalmonroe", "leech", "skyspoonlure", "mayfly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Raiamas",
-                        "access_rules": [
-                            "goldsalmonroe",
-                            "leech",
-                            "skyspoonlure",
-                            "mayfly"
-                        ],
+                        "access_rules": ["goldsalmonroe", "leech", "skyspoonlure", "mayfly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Macrobrachium Lar",
-                        "access_rules": [
-                            "goldsalmonroe",
-                            "leech",
-                            "skyspoonlure",
-                            "mayfly"
-                        ],
+                        "access_rules": ["goldsalmonroe", "leech", "skyspoonlure", "mayfly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Blowgun",
-                        "access_rules": [
-                            "goldsalmonroe",
-                            "leech",
-                            "skyspoonlure",
-                            "mayfly"
-                        ],
+                        "access_rules": ["goldsalmonroe", "leech", "skyspoonlure", "mayfly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Darksteel Knifefish",
-                        "access_rules": [
-                            "goldsalmonroe",
-                            "leech",
-                            "skyspoonlure",
-                            "mayfly"
-                        ],
+                        "access_rules": ["goldsalmonroe", "leech", "skyspoonlure", "mayfly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Onyx Knifefish",
-                        "access_rules": [
-                            "mayfly"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_big"
-                        ],
+                        "access_rules": ["mayfly"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     },
                     {
                         "name": "The Furys Aegis",
-                        "access_rules": [
-                            "goldsalmonroe",
-                            "leech",
-                            "skyspoonlure",
-                            "mayfly"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_big"
-                        ],
+                        "access_rules": ["goldsalmonroe", "leech", "skyspoonlure", "mayfly"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Labyrinthos",
-                        "x": 1367,
-                        "y": 638,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 620,
+                        "y": 209,
+                        "size": 6
                     }
                 ]
             }
