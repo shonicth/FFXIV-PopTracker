@@ -312,7 +312,7 @@ end
 --DT
 function tuliyollalaccess()
   return(
-    (has("tuliyollalaccess") and (tuliyollalaccess()))
+    (has("tuliyollalaccess") and (oldsharlayanaccess()))
   )
 end
 function urqopachaaccess()
