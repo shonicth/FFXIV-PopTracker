@@ -420,7 +420,7 @@ end
 
 function UpdateHints(locationID, status) -->
     if Highlight then
-         print(locationID, status)
+         --print(locationID, status)
         local location_table = LOCATION_MAPPING[locationID]
         for _, location in ipairs(location_table) do
             if location:sub(1, 1) == "@" then
