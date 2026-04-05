@@ -1,116 +1,15 @@
 [
     {
-        "name": "Garlemald",
+        "name": "Mare Lamentorum",
         "chest_unopened_img": "/images/items/close.png",
         "chest_opened_img": "/images/items/open.png",
         "overlay_background": "#000000",
         "access_rules": [
-            "$garlemaldaccess"
+            "$marelamentorumaccess"
         ],
         "children": [
             {
-                "name": "The Tower of Babil",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    "$leveling:83"
-                ],
-                "visibility_rules": [
-                    "level_cap:83, duty_difficulty_normal, $duty_visibility|The Tower of Babil"
-                ],
-                "sections": [
-                    {
-                        "name": "The Tower of Babil",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Tower of Babil 2",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:1"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Tower of Babil 3",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Tower of Babil 4",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:3"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Tower of Babil 5",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:4"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Tower of Babil 6",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:5"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Tower of Babil 7",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:6"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Tower of Babil 8",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:7"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Tower of Babil 9",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:8"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Tower of Babil 10",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:9"
-                        ],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Garlemald",
-                        "x": 501,
-                        "y": 356,
-                        "size": 40,
-                        "shape": "rect"
-                    }
-                ]
-            },
-            {
-                "name": "Lapis Manalis",
+                "name": "Smileton",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -118,95 +17,275 @@
                     "$leveling:90"
                 ],
                 "visibility_rules": [
-                    "level_cap:90, duty_difficulty_normal, $duty_visibility|Lapis Manalis"
+                    "level_cap:90, duty_difficulty_normal, $duty_visibility|Smileton"
                 ],
                 "sections": [
                     {
-                        "name": "Lapis Manalis",
+                        "name": "Smileton",
                         "access_rules": [],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Lapis Manalis 2",
+                        "name": "Smileton 2",
                         "access_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:1"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Smileton 3",
+                        "access_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:2"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Smileton 4",
+                        "access_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:3"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Smileton 5",
+                        "access_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:4"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Smileton 6",
+                        "access_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:5"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Smileton 7",
+                        "access_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:6"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Smileton 8",
+                        "access_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:7"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Smileton 9",
+                        "access_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:8"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Smileton 10",
+                        "access_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:9"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mare Lamentorum",
+                        "x": 1948,
+                        "y": 1882,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "The Lunar Subterrane",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$leveling:90"
+                ],
+                "visibility_rules": [
+                    "level_cap:90, duty_difficulty_normal, $duty_visibility|The Lunar Subterrane"
+                ],
+                "sections": [
+                    {
+                        "name": "The Lunar Subterrane",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "The Lunar Subterrane 2",
+                        "access_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:1"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "The Lunar Subterrane 3",
+                        "access_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:2"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "The Lunar Subterrane 4",
+                        "access_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:3"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "The Lunar Subterrane 5",
+                        "access_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:4"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "The Lunar Subterrane 6",
+                        "access_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:5"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "The Lunar Subterrane 7",
+                        "access_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:6"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "The Lunar Subterrane 8",
+                        "access_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:7"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "The Lunar Subterrane 9",
+                        "access_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:8"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "The Lunar Subterrane 10",
+                        "access_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:9"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mare Lamentorum",
+                        "x": 873,
+                        "y": 1731,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "The Dark Inside",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "The Dark Inside",
+                        "access_rules": [
+                            "$leveling:83"
+                        ],
                         "visibility_rules": [
-                            "extra_dungeon_checks:1"
+                            "level_cap:83, duty_difficulty_normal, $duty_visibility|The Dark Inside"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Lapis Manalis 3",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:2"
+                        "name": "The Minstrels Ballad Zodiarks Fall",
+                        "access_rules": [
+                            "$leveling:90"
                         ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Lapis Manalis 4",
-                        "access_rules": [],
                         "visibility_rules": [
-                            "extra_dungeon_checks:3"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Lapis Manalis 5",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:4"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Lapis Manalis 6",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:5"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Lapis Manalis 7",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:6"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Lapis Manalis 8",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:7"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Lapis Manalis 9",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:8"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Lapis Manalis 10",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:9"
+                            "level_cap:90, duty_difficulty_ex, $duty_visibility|The Minstrel's Ballad: Zodiark's Fall"
                         ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "Garlemald",
-                        "x": 1494,
-                        "y": 1739,
-                        "size": 40,
-                        "shape": "rect"
+                        "map": "Mare Lamentorum",
+                        "x": 472,
+                        "y": 1049,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "The Voidcast Dais",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "The Voidcast Dais",
+                        "access_rules": [
+                            "$leveling:90"
+                        ],
+                        "visibility_rules": [
+                            "level_cap:90, duty_difficulty_normal, $duty_visibility|The Voidcast Dais"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "The Voidcast Dais (Extreme)",
+                        "access_rules": [
+                            "$leveling:90"
+                        ],
+                        "visibility_rules": [
+                            "level_cap:90, duty_difficulty_ex, $duty_visibility|The Voidcast Dais (Extreme)"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mare Lamentorum",
+                        "x": 1415,
+                        "y": 2171,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "The Abyssal Fracture",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "The Abyssal Fracture",
+                        "access_rules": [
+                            "$leveling:90"
+                        ],
+                        "visibility_rules": [
+                            "level_cap:90, duty_difficulty_normal, $duty_visibility|The Abyssal Fracture"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "The Abyssal Fracture (Extreme)",
+                        "access_rules": [
+                            "$leveling:90"
+                        ],
+                        "visibility_rules": [
+                            "level_cap:90, duty_difficulty_ex, $duty_visibility|The Abyssal Fracture (Extreme)"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mare Lamentorum",
+                        "x": 261,
+                        "y": 2155,
+                        "size": 6
                     }
                 ]
             },
@@ -216,10 +295,10 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "$leveling:82"
+                    "$leveling:83"
                 ],
                 "visibility_rules": [
-                    "$fatesanity_disabled, level_cap:82"
+                    "$fatesanity_disabled, level_cap:83"
                 ],
                 "sections": [
                     {
@@ -305,16 +384,15 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "Garlemald",
-                        "x": 718,
-                        "y": 1940,
-                        "size": 40,
-                        "shape": "rect"
+                        "map": "Mare Lamentorum",
+                        "x": 134,
+                        "y": 2231,
+                        "size": 6
                     }
                 ]
             },
             {
-                "name": "A Snowballs Chance (FATE)",
+                "name": "Cactus What You Preach (FATE)",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -323,247 +401,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "A Snowballs Chance (FATE)",
-                        "access_rules": [
-                            "$leveling:82"
-                        ],
-                        "visibility_rules": [
-                            "fatesanity, level_cap:82"
-                        ],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Garlemald",
-                        "x": 1370,
-                        "y": 1531,
-                        "size": 40,
-                        "shape": "rect"
-                    }
-                ]
-            },
-            {
-                "name": "Amazing Crates (FATE)",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
-                "sections": [
-                    {
-                        "name": "Amazing Crates (FATE)",
-                        "access_rules": [
-                            "$leveling:82"
-                        ],
-                        "visibility_rules": [
-                            "fatesanity, level_cap:82"
-                        ],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Garlemald",
-                        "x": 773,
-                        "y": 1255,
-                        "size": 40,
-                        "shape": "rect"
-                    }
-                ]
-            },
-            {
-                "name": "Artificial Malevolence 15 Minutes to Comply (FATE)",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
-                "sections": [
-                    {
-                        "name": "Artificial Malevolence 15 Minutes to Comply (FATE)",
-                        "access_rules": [
-                            "$leveling:82"
-                        ],
-                        "visibility_rules": [
-                            "fatesanity, level_cap:82"
-                        ],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Garlemald",
-                        "x": 824,
-                        "y": 1127,
-                        "size": 40,
-                        "shape": "rect"
-                    }
-                ]
-            },
-            {
-                "name": "Artificial Malevolence The Drone Army (FATE)",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
-                "sections": [
-                    {
-                        "name": "Artificial Malevolence The Drone Army (FATE)",
-                        "access_rules": [
-                            "$leveling:82"
-                        ],
-                        "visibility_rules": [
-                            "fatesanity, level_cap:82"
-                        ],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Garlemald",
-                        "x": 1263,
-                        "y": 922,
-                        "size": 40,
-                        "shape": "rect"
-                    }
-                ]
-            },
-            {
-                "name": "Nettle Gear Solid (FATE)",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
-                "sections": [
-                    {
-                        "name": "Nettle Gear Solid (FATE)",
-                        "access_rules": [
-                            "$leveling:82"
-                        ],
-                        "visibility_rules": [
-                            "fatesanity, level_cap:82"
-                        ],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Garlemald",
-                        "x": 1177,
-                        "y": 1002,
-                        "size": 40,
-                        "shape": "rect"
-                    }
-                ]
-            },
-            {
-                "name": "Not Yeti (FATE)",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
-                "sections": [
-                    {
-                        "name": "Not Yeti (FATE)",
-                        "access_rules": [
-                            "$leveling:82"
-                        ],
-                        "visibility_rules": [
-                            "fatesanity, level_cap:82"
-                        ],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Garlemald",
-                        "x": 1485,
-                        "y": 1343,
-                        "size": 40,
-                        "shape": "rect"
-                    }
-                ]
-            },
-            {
-                "name": "Roses Are Red Violence Is Due (FATE)",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
-                "sections": [
-                    {
-                        "name": "Roses Are Red Violence Is Due (FATE)",
-                        "access_rules": [
-                            "$leveling:82"
-                        ],
-                        "visibility_rules": [
-                            "fatesanity, level_cap:82"
-                        ],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Garlemald",
-                        "x": 1170,
-                        "y": 1333,
-                        "size": 40,
-                        "shape": "rect"
-                    }
-                ]
-            },
-            {
-                "name": "Trespassers Will Be Eaten (FATE)",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
-                "sections": [
-                    {
-                        "name": "Trespassers Will Be Eaten (FATE)",
-                        "access_rules": [
-                            "$leveling:82"
-                        ],
-                        "visibility_rules": [
-                            "fatesanity, level_cap:82"
-                        ],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Garlemald",
-                        "x": 593,
-                        "y": 1301,
-                        "size": 40,
-                        "shape": "rect"
-                    }
-                ]
-            },
-            {
-                "name": "A Bit of a Problem (FATE)",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
-                "sections": [
-                    {
-                        "name": "A Bit of a Problem (FATE)",
+                        "name": "Cactus What You Preach (FATE)",
                         "access_rules": [
                             "$leveling:83"
                         ],
@@ -575,16 +413,15 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "Garlemald",
-                        "x": 1371,
-                        "y": 666,
-                        "size": 40,
-                        "shape": "rect"
+                        "map": "Mare Lamentorum",
+                        "x": 320,
+                        "y": 2042,
+                        "size": 6
                     }
                 ]
             },
             {
-                "name": "Artificial Malevolence Mighty Metatron (FATE)",
+                "name": "Droids Gone Wild (FATE)",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -593,7 +430,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Artificial Malevolence Mighty Metatron (FATE)",
+                        "name": "Droids Gone Wild (FATE)",
                         "access_rules": [
                             "$leveling:83"
                         ],
@@ -605,16 +442,15 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "Garlemald",
-                        "x": 536,
-                        "y": 521,
-                        "size": 40,
-                        "shape": "rect"
+                        "map": "Mare Lamentorum",
+                        "x": 542,
+                        "y": 1552,
+                        "size": 6
                     }
                 ]
             },
             {
-                "name": "Artificial Malevolence Unmanned Aerial Villains (FATE)",
+                "name": "Mantids on the Moon (FATE)",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -623,7 +459,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Artificial Malevolence Unmanned Aerial Villains (FATE)",
+                        "name": "Mantids on the Moon (FATE)",
                         "access_rules": [
                             "$leveling:83"
                         ],
@@ -635,16 +471,15 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "Garlemald",
-                        "x": 576,
-                        "y": 521,
-                        "size": 40,
-                        "shape": "rect"
+                        "map": "Mare Lamentorum",
+                        "x": 1623,
+                        "y": 2008,
+                        "size": 6
                     }
                 ]
             },
             {
-                "name": "Exterminate Exterminate (FATE)",
+                "name": "One Giant Weep (FATE)",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -653,7 +488,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Exterminate Exterminate (FATE)",
+                        "name": "One Giant Weep (FATE)",
                         "access_rules": [
                             "$leveling:83"
                         ],
@@ -665,16 +500,15 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "Garlemald",
-                        "x": 691,
-                        "y": 578,
-                        "size": 40,
-                        "shape": "rect"
+                        "map": "Mare Lamentorum",
+                        "x": 2067,
+                        "y": 2163,
+                        "size": 6
                     }
                 ]
             },
             {
-                "name": "Parts Unknown (FATE)",
+                "name": "The Stones of Silence (FATE)",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -683,7 +517,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Parts Unknown (FATE)",
+                        "name": "The Stones of Silence (FATE)",
                         "access_rules": [
                             "$leveling:83"
                         ],
@@ -695,16 +529,15 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "Garlemald",
-                        "x": 994,
-                        "y": 719,
-                        "size": 40,
-                        "shape": "rect"
+                        "map": "Mare Lamentorum",
+                        "x": 1829,
+                        "y": 51,
+                        "size": 6
                     }
                 ]
             },
             {
-                "name": "Rocker Roller Out-of-controller (FATE)",
+                "name": "The Strolling Stones (FATE)",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -713,7 +546,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Rocker Roller Out-of-controller (FATE)",
+                        "name": "The Strolling Stones (FATE)",
                         "access_rules": [
                             "$leveling:83"
                         ],
@@ -725,16 +558,15 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "Garlemald",
-                        "x": 914,
-                        "y": 502,
-                        "size": 40,
-                        "shape": "rect"
+                        "map": "Mare Lamentorum",
+                        "x": 391,
+                        "y": 1909,
+                        "size": 6
                     }
                 ]
             },
             {
-                "name": "Stray Dog Strut (FATE)",
+                "name": "Head Empty Only Thoughts (FATE)",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -743,28 +575,27 @@
                 ],
                 "sections": [
                     {
-                        "name": "Stray Dog Strut (FATE)",
+                        "name": "Head Empty Only Thoughts (FATE)",
                         "access_rules": [
-                            "$leveling:83"
+                            "$leveling:84"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:83"
+                            "fatesanity, level_cap:84"
                         ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "Garlemald",
-                        "x": 694,
-                        "y": 773,
-                        "size": 40,
-                        "shape": "rect"
+                        "map": "Mare Lamentorum",
+                        "x": 1635,
+                        "y": 1819,
+                        "size": 6
                     }
                 ]
             },
             {
-                "name": "The Man with the Golden Son (FATE)",
+                "name": "Hunger Strikes (FATE)",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -773,217 +604,399 @@
                 ],
                 "sections": [
                     {
-                        "name": "The Man with the Golden Son (FATE)",
+                        "name": "Hunger Strikes (FATE)",
                         "access_rules": [
-                            "$leveling:83"
+                            "$leveling:84"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:83"
+                            "fatesanity, level_cap:84"
                         ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "Garlemald",
-                        "x": 1012,
-                        "y": 357,
-                        "size": 40,
-                        "shape": "rect"
+                        "map": "Mare Lamentorum",
+                        "x": 1241,
+                        "y": 1524,
+                        "size": 6
                     }
                 ]
             },
             {
-                "name": "The Eblan Thaw",
+                "name": "Lepus Lamentorum Cleaner Catastrophe (FATE)",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:83"
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Lepus Lamentorum Cleaner Catastrophe (FATE)",
+                        "access_rules": [
+                            "$leveling:84"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:84"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mare Lamentorum",
+                        "x": 1289,
+                        "y": 1119,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Lepus Lamentorum Crazy Contraption (FATE)",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Lepus Lamentorum Crazy Contraption (FATE)",
+                        "access_rules": [
+                            "$leveling:84"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:84"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mare Lamentorum",
+                        "x": 2246,
+                        "y": 157,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Lepus Lamentorum Dynamite Disaster (FATE)",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Lepus Lamentorum Dynamite Disaster (FATE)",
+                        "access_rules": [
+                            "$leveling:84"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:84"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mare Lamentorum",
+                        "x": 1982,
+                        "y": 2056,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Scrapping the Scrapers (FATE)",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Scrapping the Scrapers (FATE)",
+                        "access_rules": [
+                            "$leveling:84"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:84"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mare Lamentorum",
+                        "x": 1964,
+                        "y": 223,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Taking Care of the Caretakers (FATE)",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Taking Care of the Caretakers (FATE)",
+                        "access_rules": [
+                            "$leveling:84"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:84"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mare Lamentorum",
+                        "x": 2324,
+                        "y": 1190,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Tech Support Cull (FATE)",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Tech Support Cull (FATE)",
+                        "access_rules": [
+                            "$leveling:84"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:84"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mare Lamentorum",
+                        "x": 1621,
+                        "y": 754,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "What a Thrill (FATE)",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "What a Thrill (FATE)",
+                        "access_rules": [
+                            "$leveling:84"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:84"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mare Lamentorum",
+                        "x": 585,
+                        "y": 2033,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "The Frozen Fissure",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "5fshlevels:85"
                 ],
                 "visibility_rules": [
-                    "level_cap:83, fishsanity_normal"
+                    "level_cap:85, fishsanity_normal"
                 ],
                 "sections": [
                     {
-                        "name": "Garlean Clam",
-                        "access_rules": [
-                            "goldsalmonroe",
-                            "leech",
-                            "skyspoonlure",
-                            "mayfly"
-                        ],
+                        "name": "Lunar Lamenter",
+                        "access_rules": ["greyworm"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Eblan Trout",
-                        "access_rules": [
-                            "goldsalmonroe",
-                            "leech",
-                            "skyspoonlure",
-                            "mayfly"
-                        ],
+                        "name": "Feverfish",
+                        "access_rules": ["greyworm", "chimeraworm"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Animulus",
-                        "access_rules": [
-                            "goldsalmonroe",
-                            "leech",
-                            "skyspoonlure",
-                            "mayfly"
-                        ],
+                        "name": "Calicia",
+                        "access_rules": ["greyworm", "chimeraworm"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Cerule Core",
-                        "access_rules": [
-                            "goldsalmonroe",
-                            "leech",
-                            "skyspoonlure",
-                            "mayfly"
-                        ],
+                        "name": "Fleeting Brand",
+                        "access_rules": ["greyworm", "chimeraworm"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Icepike",
-                        "access_rules": [
-                            "goldsalmonroe",
-                            "leech",
-                            "skyspoonlure",
-                            "mayfly"
-                        ],
+                        "name": "Regotoise",
+                        "access_rules": ["greyworm", "chimeraworm"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Rimepike",
-                        "access_rules": [
-                            "goldsalmonroe"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_big"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Snowy Parexus",
-                        "access_rules": [
-                            "mayfly"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_big"
-                        ],
+                        "name": "Frozen Regotoise",
+                        "access_rules": ["chimeraworm"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "Garlemald",
-                        "x": 502,
-                        "y": 1488,
-                        "size": 40,
-                        "shape": "rect"
+                        "map": "Mare Lamentorum",
+                        "x": 590,
+                        "y": 1545,
+                        "size": 6
                     }
                 ]
             },
             {
-                "name": "The Stainless Course",
+                "name": "Greatest Endsvale",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:83"
+                    "5fshlevels:84"
                 ],
                 "visibility_rules": [
-                    "level_cap:83, fishsanity_normal"
+                    "level_cap:84, fishsanity_normal"
                 ],
                 "sections": [
                     {
-                        "name": "Garlean Clam",
-                        "access_rules": [
-                            "goldsalmonroe",
-                            "leech",
-                            "skyspoonlure",
-                            "mayfly"
-                        ],
+                        "name": "Star-blue Guppy",
+                        "access_rules": ["goldsalmonroe", "leech", "skyspoonlure", "mayfly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Eblan Trout",
-                        "access_rules": [
-                            "goldsalmonroe",
-                            "leech",
-                            "skyspoonlure",
-                            "mayfly"
-                        ],
+                        "name": "Lunar Cichlid",
+                        "access_rules": ["goldsalmonroe", "leech", "skyspoonlure", "mayfly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Dark Crown",
-                        "access_rules": [
-                            "goldsalmonroe",
-                            "leech",
-                            "skyspoonlure",
-                            "mayfly"
-                        ],
+                        "name": "Teareye",
+                        "access_rules": ["goldsalmonroe", "leech", "skyspoonlure", "mayfly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Imperial Pleco",
-                        "access_rules": [
-                            "goldsalmonroe",
-                            "leech",
-                            "skyspoonlure",
-                            "mayfly"
-                        ],
+                        "name": "Replipirarucu",
+                        "access_rules": ["goldsalmonroe", "leech", "skyspoonlure", "mayfly"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Bluetail",
-                        "access_rules": [
-                            "goldsalmonroe",
-                            "leech",
-                            "skyspoonlure",
-                            "mayfly"
-                        ],
-                        "visibility_rules": [],
+                        "name": "Disappirarucu",
+                        "access_rules": ["mayfly"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     },
                     {
-                        "name": "Sovereign Shadow",
-                        "access_rules": [
-                            "mayfly"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_big"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Kitty Herring",
-                        "access_rules": [
-                            "metalspinner"
-                        ],
+                        "name": "Ossicula",
+                        "access_rules": ["metalspinner"],
                         "visibility_rules": [],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "Garlemald",
-                        "x": 1107,
-                        "y": 435,
-                        "size": 40,
-                        "shape": "rect"
+                        "map": "Mare Lamentorum",
+                        "x": 1234,
+                        "y": 1470,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "The Chlorophospond",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "5fshlevels:85"
+                ],
+                "visibility_rules": [
+                    "level_cap:85, fishsanity_normal"
+                ],
+                "sections": [
+                    {
+                        "name": "Feverfish",
+                        "access_rules": ["greyworm", "chimeraworm"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Calicia",
+                        "access_rules": ["greyworm", "chimeraworm"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Protomyke 987",
+                        "access_rules": ["greyworm", "chimeraworm"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Lunar Deathworm",
+                        "access_rules": ["greyworm"],
+                        "visibility_rules": ["fishsanity_timed"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Chlorophos Deathworm",
+                        "access_rules": ["greyworm"],
+                        "visibility_rules": ["fishsanity_big"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Lopoceras Elegans",
+                        "access_rules": ["chimeraworm"],
+                        "visibility_rules": ["fishsanity_big"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mare Lamentorum",
+                        "x": 1972,
+                        "y": 638,
+                        "size": 6
                     }
                 ]
             }

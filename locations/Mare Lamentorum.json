@@ -29,64 +29,83 @@
                     {
                         "name": "Smileton 2",
                         "access_rules": [],
-                        "visibility_rules": ["extra_dungeon_checks:1"],
+                        "visibility_rules": [
+                            "extra_dungeon_checks:1"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Smileton 3",
                         "access_rules": [],
-                        "visibility_rules": ["extra_dungeon_checks:2"],
+                        "visibility_rules": [
+                            "extra_dungeon_checks:2"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Smileton 4",
                         "access_rules": [],
-                        "visibility_rules": ["extra_dungeon_checks:3"],
+                        "visibility_rules": [
+                            "extra_dungeon_checks:3"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Smileton 5",
                         "access_rules": [],
-                        "visibility_rules": ["extra_dungeon_checks:4"],
+                        "visibility_rules": [
+                            "extra_dungeon_checks:4"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Smileton 6",
                         "access_rules": [],
-                        "visibility_rules": ["extra_dungeon_checks:5"],
+                        "visibility_rules": [
+                            "extra_dungeon_checks:5"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Smileton 7",
                         "access_rules": [],
-                        "visibility_rules": ["extra_dungeon_checks:6"],
+                        "visibility_rules": [
+                            "extra_dungeon_checks:6"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Smileton 8",
                         "access_rules": [],
-                        "visibility_rules": ["extra_dungeon_checks:7"],
+                        "visibility_rules": [
+                            "extra_dungeon_checks:7"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Smileton 9",
                         "access_rules": [],
-                        "visibility_rules": ["extra_dungeon_checks:8"],
+                        "visibility_rules": [
+                            "extra_dungeon_checks:8"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Smileton 10",
                         "access_rules": [],
-                        "visibility_rules": ["extra_dungeon_checks:9"],
+                        "visibility_rules": [
+                            "extra_dungeon_checks:9"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Mare Lamentorum",
-                        "x": 1948,
-                        "y": 1882,
-                        "size": 6
+                        "x": 544,
+                        "y": 1091,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -111,64 +130,83 @@
                     {
                         "name": "The Lunar Subterrane 2",
                         "access_rules": [],
-                        "visibility_rules": ["extra_dungeon_checks:1"],
+                        "visibility_rules": [
+                            "extra_dungeon_checks:1"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "The Lunar Subterrane 3",
                         "access_rules": [],
-                        "visibility_rules": ["extra_dungeon_checks:2"],
+                        "visibility_rules": [
+                            "extra_dungeon_checks:2"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "The Lunar Subterrane 4",
                         "access_rules": [],
-                        "visibility_rules": ["extra_dungeon_checks:3"],
+                        "visibility_rules": [
+                            "extra_dungeon_checks:3"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "The Lunar Subterrane 5",
                         "access_rules": [],
-                        "visibility_rules": ["extra_dungeon_checks:4"],
+                        "visibility_rules": [
+                            "extra_dungeon_checks:4"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "The Lunar Subterrane 6",
                         "access_rules": [],
-                        "visibility_rules": ["extra_dungeon_checks:5"],
+                        "visibility_rules": [
+                            "extra_dungeon_checks:5"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "The Lunar Subterrane 7",
                         "access_rules": [],
-                        "visibility_rules": ["extra_dungeon_checks:6"],
+                        "visibility_rules": [
+                            "extra_dungeon_checks:6"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "The Lunar Subterrane 8",
                         "access_rules": [],
-                        "visibility_rules": ["extra_dungeon_checks:7"],
+                        "visibility_rules": [
+                            "extra_dungeon_checks:7"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "The Lunar Subterrane 9",
                         "access_rules": [],
-                        "visibility_rules": ["extra_dungeon_checks:8"],
+                        "visibility_rules": [
+                            "extra_dungeon_checks:8"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "The Lunar Subterrane 10",
                         "access_rules": [],
-                        "visibility_rules": ["extra_dungeon_checks:9"],
+                        "visibility_rules": [
+                            "extra_dungeon_checks:9"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Mare Lamentorum",
-                        "x": 873,
-                        "y": 1731,
-                        "size": 6
+                        "x": 911,
+                        "y": 1422,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -205,9 +243,10 @@
                 "map_locations": [
                     {
                         "map": "Mare Lamentorum",
-                        "x": 472,
-                        "y": 1049,
-                        "size": 6
+                        "x": 1203,
+                        "y": 1494,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -244,9 +283,10 @@
                 "map_locations": [
                     {
                         "map": "Mare Lamentorum",
-                        "x": 1415,
-                        "y": 2171,
-                        "size": 6
+                        "x": 890,
+                        "y": 1462,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -283,9 +323,10 @@
                 "map_locations": [
                     {
                         "map": "Mare Lamentorum",
-                        "x": 261,
-                        "y": 2155,
-                        "size": 6
+                        "x": 930,
+                        "y": 1461,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -385,9 +426,10 @@
                 "map_locations": [
                     {
                         "map": "Mare Lamentorum",
-                        "x": 134,
-                        "y": 2231,
-                        "size": 6
+                        "x": 722,
+                        "y": 111,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -414,9 +456,10 @@
                 "map_locations": [
                     {
                         "map": "Mare Lamentorum",
-                        "x": 320,
-                        "y": 2042,
-                        "size": 6
+                        "x": 294,
+                        "y": 1656,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -443,9 +486,10 @@
                 "map_locations": [
                     {
                         "map": "Mare Lamentorum",
-                        "x": 542,
-                        "y": 1552,
-                        "size": 6
+                        "x": 1609,
+                        "y": 1332,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -472,9 +516,10 @@
                 "map_locations": [
                     {
                         "map": "Mare Lamentorum",
-                        "x": 1623,
-                        "y": 2008,
-                        "size": 6
+                        "x": 860,
+                        "y": 1567,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -501,9 +546,10 @@
                 "map_locations": [
                     {
                         "map": "Mare Lamentorum",
-                        "x": 2067,
-                        "y": 2163,
-                        "size": 6
+                        "x": 1185,
+                        "y": 1716,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -530,9 +576,10 @@
                 "map_locations": [
                     {
                         "map": "Mare Lamentorum",
-                        "x": 1829,
-                        "y": 51,
-                        "size": 6
+                        "x": 482,
+                        "y": 1521,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -559,9 +606,10 @@
                 "map_locations": [
                     {
                         "map": "Mare Lamentorum",
-                        "x": 391,
-                        "y": 1909,
-                        "size": 6
+                        "x": 1313,
+                        "y": 1528,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -588,9 +636,10 @@
                 "map_locations": [
                     {
                         "map": "Mare Lamentorum",
-                        "x": 1635,
-                        "y": 1819,
-                        "size": 6
+                        "x": 720,
+                        "y": 1206,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -617,9 +666,10 @@
                 "map_locations": [
                     {
                         "map": "Mare Lamentorum",
-                        "x": 1241,
-                        "y": 1524,
-                        "size": 6
+                        "x": 1127,
+                        "y": 1058,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -646,9 +696,10 @@
                 "map_locations": [
                     {
                         "map": "Mare Lamentorum",
-                        "x": 1289,
-                        "y": 1119,
-                        "size": 6
+                        "x": 668,
+                        "y": 424,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -675,9 +726,10 @@
                 "map_locations": [
                     {
                         "map": "Mare Lamentorum",
-                        "x": 2246,
-                        "y": 157,
-                        "size": 6
+                        "x": 537,
+                        "y": 296,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -704,9 +756,10 @@
                 "map_locations": [
                     {
                         "map": "Mare Lamentorum",
-                        "x": 1982,
-                        "y": 2056,
-                        "size": 6
+                        "x": 1401,
+                        "y": 598,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -733,9 +786,10 @@
                 "map_locations": [
                     {
                         "map": "Mare Lamentorum",
-                        "x": 1964,
-                        "y": 223,
-                        "size": 6
+                        "x": 481,
+                        "y": 648,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -762,9 +816,10 @@
                 "map_locations": [
                     {
                         "map": "Mare Lamentorum",
-                        "x": 2324,
-                        "y": 1190,
-                        "size": 6
+                        "x": 1724,
+                        "y": 399,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -791,9 +846,10 @@
                 "map_locations": [
                     {
                         "map": "Mare Lamentorum",
-                        "x": 1621,
-                        "y": 754,
-                        "size": 6
+                        "x": 460,
+                        "y": 1017,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -820,9 +876,10 @@
                 "map_locations": [
                     {
                         "map": "Mare Lamentorum",
-                        "x": 585,
-                        "y": 2033,
-                        "size": 6
+                        "x": 911,
+                        "y": 1085,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -840,47 +897,66 @@
                 "sections": [
                     {
                         "name": "Lunar Lamenter",
-                        "access_rules": ["greyworm"],
+                        "access_rules": [
+                            "greyworm"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Feverfish",
-                        "access_rules": ["greyworm", "chimeraworm"],
+                        "access_rules": [
+                            "greyworm",
+                            "chimeraworm"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Calicia",
-                        "access_rules": ["greyworm", "chimeraworm"],
+                        "access_rules": [
+                            "greyworm",
+                            "chimeraworm"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Fleeting Brand",
-                        "access_rules": ["greyworm", "chimeraworm"],
+                        "access_rules": [
+                            "greyworm",
+                            "chimeraworm"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Regotoise",
-                        "access_rules": ["greyworm", "chimeraworm"],
+                        "access_rules": [
+                            "greyworm",
+                            "chimeraworm"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Frozen Regotoise",
-                        "access_rules": ["chimeraworm"],
-                        "visibility_rules": ["fishsanity_big"],
+                        "access_rules": [
+                            "chimeraworm"
+                        ],
+                        "visibility_rules": [
+                            "fishsanity_big"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Mare Lamentorum",
-                        "x": 590,
-                        "y": 1545,
-                        "size": 6
+                        "x": 1087,
+                        "y": 1533,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -898,37 +974,63 @@
                 "sections": [
                     {
                         "name": "Star-blue Guppy",
-                        "access_rules": ["goldsalmonroe", "leech", "skyspoonlure", "mayfly"],
+                        "access_rules": [
+                            "goldsalmonroe",
+                            "leech",
+                            "skyspoonlure",
+                            "mayfly"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Lunar Cichlid",
-                        "access_rules": ["goldsalmonroe", "leech", "skyspoonlure", "mayfly"],
+                        "access_rules": [
+                            "goldsalmonroe",
+                            "leech",
+                            "skyspoonlure",
+                            "mayfly"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Teareye",
-                        "access_rules": ["goldsalmonroe", "leech", "skyspoonlure", "mayfly"],
+                        "access_rules": [
+                            "goldsalmonroe",
+                            "leech",
+                            "skyspoonlure",
+                            "mayfly"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Replipirarucu",
-                        "access_rules": ["goldsalmonroe", "leech", "skyspoonlure", "mayfly"],
+                        "access_rules": [
+                            "goldsalmonroe",
+                            "leech",
+                            "skyspoonlure",
+                            "mayfly"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Disappirarucu",
-                        "access_rules": ["mayfly"],
-                        "visibility_rules": ["fishsanity_big"],
+                        "access_rules": [
+                            "mayfly"
+                        ],
+                        "visibility_rules": [
+                            "fishsanity_big"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Ossicula",
-                        "access_rules": ["metalspinner"],
+                        "access_rules": [
+                            "metalspinner"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     }
@@ -936,9 +1038,10 @@
                 "map_locations": [
                     {
                         "map": "Mare Lamentorum",
-                        "x": 1234,
-                        "y": 1470,
-                        "size": 6
+                        "x": 1539,
+                        "y": 454,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             },
@@ -956,47 +1059,69 @@
                 "sections": [
                     {
                         "name": "Feverfish",
-                        "access_rules": ["greyworm", "chimeraworm"],
+                        "access_rules": [
+                            "greyworm",
+                            "chimeraworm"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Calicia",
-                        "access_rules": ["greyworm", "chimeraworm"],
+                        "access_rules": [
+                            "greyworm",
+                            "chimeraworm"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Protomyke 987",
-                        "access_rules": ["greyworm", "chimeraworm"],
+                        "access_rules": [
+                            "greyworm",
+                            "chimeraworm"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Lunar Deathworm",
-                        "access_rules": ["greyworm"],
-                        "visibility_rules": ["fishsanity_timed"],
+                        "access_rules": [
+                            "greyworm"
+                        ],
+                        "visibility_rules": [
+                            "fishsanity_timed"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Chlorophos Deathworm",
-                        "access_rules": ["greyworm"],
-                        "visibility_rules": ["fishsanity_big"],
+                        "access_rules": [
+                            "greyworm"
+                        ],
+                        "visibility_rules": [
+                            "fishsanity_big"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Lopoceras Elegans",
-                        "access_rules": ["chimeraworm"],
-                        "visibility_rules": ["fishsanity_big"],
+                        "access_rules": [
+                            "chimeraworm"
+                        ],
+                        "visibility_rules": [
+                            "fishsanity_big"
+                        ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Mare Lamentorum",
-                        "x": 1972,
-                        "y": 638,
-                        "size": 6
+                        "x": 1504,
+                        "y": 1556,
+                        "size": 40,
+                        "shape": "rect"
                     }
                 ]
             }
