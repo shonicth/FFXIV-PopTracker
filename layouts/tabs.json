@@ -3,6 +3,17 @@
         "type": "tabbed",
         "tabs": [
             {
+                                                     "title": "Overworld",
+                                                    "content": {
+                                                        "type": "map",
+                                                        "maps": [
+                                                            "Overworld"
+
+                                            ]
+                                            
+                                        }   
+                                    },
+            {
                 "title": "A Realm Reborn",
                 "content": {
                     "type": "tabbed",
