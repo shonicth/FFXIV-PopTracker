@@ -1,6 +1,8 @@
 
 require("scripts/autotracking/item_mapping")
 require("scripts/autotracking/location_mapping")
+require("scripts/autotracking/item_name_mapping")
+require("scripts/autotracking/location_name_mapping")
 
 CUR_INDEX = -1
 --SLOT_DATA = nil
@@ -291,7 +293,13 @@ function onItem(index, item_id, item_name, player_number)
     CUR_INDEX = index;
     local item = ITEM_MAPPING[item_id]
     if not item or not item[1] then
-        --print(string.format("onItem: could not find item mapping for id %s", item_id))
+        new_id = ITEM_NAME_MAPPING[item_name]
+        if new_id then
+            item = ITEM_MAPPING[new_id]
+        end
+    end
+    if not item or not item[1] then
+        print(string.format("onItem: could not find item mapping for id %s", item_id))
         return
     end
     for _, item_pair in pairs(item) do
@@ -330,6 +338,12 @@ end
 function onLocation(location_id, location_name)
     MANUAL_CHECKED = false
     local location_array = LOCATION_MAPPING[location_id]
+    if not location_array or not location_array[1] then
+        new_id = LOCATION_NAME_MAPPING[location_name]
+        if new_id then
+            location_array = LOCATION_MAPPING[new_id]
+        end
+    end
     if not location_array or not location_array[1] then
         print(string.format("onLocation: could not find location mapping for id %s", location_id))
         return
