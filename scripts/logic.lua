@@ -104,10 +104,10 @@ function southernthanalanaccess()
     (has("southernthanalanaccess"))
   )
 end
-function northanthanalanaccess()
+function northernthanalanaccess()
     return(
     --Directly connected to Central
-    (has("northanthanalanaccess"))
+    (has("northernthanalanaccess"))
   )
 end
 function thegobletaccess()
@@ -126,7 +126,7 @@ end
 function mordhonaaccess()
     return(
     --Directly connected to Central
-    (has("mordhonaaccess") and (northanthanalanaccess() or coerthascentralhighlandsaccess()))
+    (has("mordhonaaccess") and (northernthanalanaccess() or coerthascentralhighlandsaccess()))
   )
 end
 --HW
