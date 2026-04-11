@@ -120,7 +120,7 @@ end
 function coerthascentralhighlandsaccess()
     return(
     --Connected to North Shroud, Mor Dhona, and Ishgard
-    (has("coerthascentralhighlandsaccess") and (northshroudaccess() or mordhonaaccess()))
+    (has("coerthascentralhighlandsaccess") and (northshroudaccess() or (has"mordhonaaccess" and has"northanthanalanaccess") or ishgardaccess()))
   )
 end
 function mordhonaaccess()
