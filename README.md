@@ -1,14 +1,20 @@
 # FFXIV-PopTracker
 
-Very very very early work in progress. Will add as I go.
+Early WIP
 
-Current Status(3/27/2026):
+Current Status(4/30/2026):
 
--ARR and HW should be 100% ready, though I imagine there will be things that need to be fixed while testing.
+-Everything up to EnW should be fully implemented. There almost certainly will be some bugs, typos, mistakes, etc, so feel free to let me know if you find any(or feel free to fix them yourself and send them a PR)
 
--Currently fish will only show if they are in logic. I plan to eventually add all the baits to every fish as a yellow out of logic check, but this will be probably a few months from now.
+-Fish are currently implemented based on the fishing hole level. This probably needs to be updated to the actual individual fish level
 
--I need testing for anything with a level cap of up to level 60. Need any and every possible combination, feel free to let me know if anything else wrong, missing, or needs adjusting. I'm very sure there are typos all over the place.
+-DT should be fully implemented logic wise, however I still need to map them(and get map images)
+
+-Assets need to be done, as well as clean up layouts. There are currently a lot of placeholders
+
+-I need testing, especially up to lv90. Need any and every possible combination, feel free to let me know if anything else wrong, missing, or needs adjusting. I'm very sure there are typos all over the place.
+
+-As well, I need feedback on location placements on the map. Please do not hesitate to ping me and let me know any thoughts etc 
 
 ______________
 
@@ -16,13 +22,11 @@ TODO:
 
 -Make a proper readme(lol)
 
--Start work on Stormblood
-
--Get maps for ShB onward, and then also start work on them
-
--Add items for bait etc for the layout
+-Map DT
 
 -Clean up the placeholder images
+
+-Start fish cleanup
 
 _____________
 
