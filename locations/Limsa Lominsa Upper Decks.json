@@ -97,62 +97,61 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:1"
                 ],
                 "visibility_rules":["fishsanity_normal"],
                 "sections": [
                     {
-                        "name": "Malm Kelp",
-                        "access_rules": ["pillbug"],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
                         "name": "Merlthor Goby",
-                        "access_rules": ["lugworm"],
+                        "access_rules": ["^$FishAccess|MerlthorGobyUpperDecks|3"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Lominsan Anchovy",
-                        "access_rules": ["lugworm"],
+                        "access_rules": ["^$FishAccess|LominsanAnchovyUpperDecks|3"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Malm Kelp",
+                        "access_rules": ["^$FishAccess|MalmKelpUpperDecks|4"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Finger Shrimp",
-                        "access_rules": ["lugworm"],
+                        "access_rules": ["^$FishAccess|FingerShrimpUpperDecks|4"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Ocean Cloud",
-                        "access_rules": ["pillbug"],
+                        "access_rules": ["^$FishAccess|OceanCloudUpperDecks|6"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Harbor Herring",
-                        "access_rules": ["pillbug"],
+                        "access_rules": ["^$FishAccess|HarborHerringUpperDecks|7"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Coral Butterfly",
-                        "access_rules": ["pillbug", "floatingminnow"],
+                        "access_rules": ["^$FishAccess|CoralButterflyUpperDecks|9"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Blue Octopus",
-                        "access_rules": ["Blue Octopus"],
+                        "access_rules": ["^$FishAccess|BlueOctopusUpperDecks|21"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Goldenfin",
-                        "access_rules": ["pillbug"],
-                        "visibility_rules": ["fishsanity_normal"],
+                        "access_rules": ["^$FishAccess|GoldenfinUpperDecks|50"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
