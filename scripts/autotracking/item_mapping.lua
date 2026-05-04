@@ -64,6 +64,7 @@ ITEM_MAPPING = {
 	[63] = {{"heritagefoundaccess", "toggle"}},
 	[64] = {{"livingmemoryaccess", "toggle"}},
 	[65] = {{"solutionnineaccess", "toggle"}},
+	[66] = {{"alexanderaccess", "toggle"}},
 	[1000] = {{"lugworm", "toggle"}},
 	[1001] = {{"pillbug", "toggle"}},
 	[1002] = {{"floatingminnow", "toggle"}},
