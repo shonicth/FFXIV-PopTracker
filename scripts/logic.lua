@@ -1,3 +1,5 @@
+logicFishList = {}
+outLogicFishList = {}
 function has(item, amount)
   local count = Tracker:ProviderCountForCode(item)
   amount = tonumber(amount)

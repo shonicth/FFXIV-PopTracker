@@ -9,7 +9,7 @@ require("scripts/logic/logic_helper")
 require("scripts/logic/base_logic")
 require("scripts/logic/graph_logic/logic_main")
 require("scripts/logic")
-require("scripts/fish_logic")
+require("scripts/fish_logic_arr")
 require("scripts/duties")
 require("scripts/logic_functions")
 

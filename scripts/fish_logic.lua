@@ -81,7 +81,7 @@ logicFishList = {
     ["CopperFishWoadWhisperCanyon"] = {"butterworm"},
     ["EunuchCrayfishWoadWhisperCanyon"] = {"butterworm"},
     ["GlassPerchWoadWhisperCanyon"] = {"chocobofly"},
-    ["CrystalPerchWoadWhisperCanyon"] = {"butterworml"}
+    ["CrystalPerchWoadWhisperCanyon"] = {"butterworm"}
 
     --Lower La Noscea
     --The Mourning Widow
