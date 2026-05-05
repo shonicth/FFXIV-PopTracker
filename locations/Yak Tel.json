@@ -118,6 +118,17 @@
                             "level_cap:100, duty_difficulty_normal, $duty_visibility|San d'Oria: The Second Walk"
                         ],
                         "item_count": 1
+                    },
+                    
+                    {
+                        "name": "Windurst The Third Walk",
+                        "access_rules": [
+                            "$leveling:100"
+                        ],
+                        "visibility_rules": [
+                            "level_cap:100, duty_difficulty_normal, $duty_visibility|Windurst: The Third Walk"
+                        ],
+                        "item_count": 1
                     }
                 ],
                 "map_locations": [
@@ -651,6 +662,18 @@
                         "access_rules": [],
                         "visibility_rules": [],
                         "item_count": 1
+                    },
+                    {
+                        "name": "Belonesox",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Xdaa Talat Cichlid",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
                     }
                 ],
                 "map_locations": [
@@ -740,6 +763,18 @@
                     },
                     {
                         "name": "Yak Awak Core",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Sharknose Goby",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Yak Tel Crab",
                         "access_rules": [],
                         "visibility_rules": [],
                         "item_count": 1
