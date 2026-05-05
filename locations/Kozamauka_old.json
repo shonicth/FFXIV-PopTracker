@@ -104,10 +104,9 @@
                 "map_locations": [
                     {
                         "map": "Kozamauka",
-                        "x": 63,
-                        "y": 131,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 2360,
+                        "y": 718,
+                        "size": 6
                     }
                 ]
             },
@@ -134,10 +133,9 @@
                 "map_locations": [
                     {
                         "map": "Kozamauka",
-                        "x": 1335,
-                        "y": 407,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 2092,
+                        "y": 1742,
+                        "size": 6
                     }
                 ]
             },
@@ -164,10 +162,9 @@
                 "map_locations": [
                     {
                         "map": "Kozamauka",
-                        "x": 1240,
-                        "y": 448,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 99,
+                        "y": 2060,
+                        "size": 6
                     }
                 ]
             },
@@ -194,10 +191,9 @@
                 "map_locations": [
                     {
                         "map": "Kozamauka",
-                        "x": 1002,
-                        "y": 272,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 2420,
+                        "y": 130,
+                        "size": 6
                     }
                 ]
             },
@@ -224,10 +220,9 @@
                 "map_locations": [
                     {
                         "map": "Kozamauka",
-                        "x": 868,
-                        "y": 868,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1576,
+                        "y": 543,
+                        "size": 6
                     }
                 ]
             },
@@ -254,10 +249,9 @@
                 "map_locations": [
                     {
                         "map": "Kozamauka",
-                        "x": 322,
-                        "y": 673,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1168,
+                        "y": 1405,
+                        "size": 6
                     }
                 ]
             },
@@ -284,10 +278,9 @@
                 "map_locations": [
                     {
                         "map": "Kozamauka",
-                        "x": 1613,
-                        "y": 795,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 2486,
+                        "y": 1883,
+                        "size": 6
                     }
                 ]
             },
@@ -314,10 +307,9 @@
                 "map_locations": [
                     {
                         "map": "Kozamauka",
-                        "x": 1801,
-                        "y": 629,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1978,
+                        "y": 636,
+                        "size": 6
                     }
                 ]
             },
@@ -344,10 +336,9 @@
                 "map_locations": [
                     {
                         "map": "Kozamauka",
-                        "x": 1566,
-                        "y": 509,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 203,
+                        "y": 59,
+                        "size": 6
                     }
                 ]
             },
@@ -374,10 +365,67 @@
                 "map_locations": [
                     {
                         "map": "Kozamauka",
-                        "x": 1680,
-                        "y": 1404,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 810,
+                        "y": 2275,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Borne on the Backs of Burrowers (FATE)",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Borne on the Backs of Burrowers (FATE)",
+                        "access_rules": [
+                            "$leveling:92"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:92"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Kozamauka",
+                        "x": 898,
+                        "y": 1843,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Caphunter Mushroom Muncher (FATE)",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Caphunter Mushroom Muncher (FATE)",
+                        "access_rules": [
+                            "$leveling:92"
+                        ],
+                        "visibility_rules": [
+                            "fatesanity, level_cap:92"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Kozamauka",
+                        "x": 435,
+                        "y": 1182,
+                        "size": 6
                     }
                 ]
             },
@@ -399,25 +447,14 @@
                             "fatesanity, level_cap:92"
                         ],
                         "item_count": 1
-                    },
-                    {
-                        "name": "Borne on the Backs of Burrowers (FATE)",
-                        "access_rules": [
-                            "$leveling:92"
-                        ],
-                        "visibility_rules": [
-                            "fatesanity, level_cap:92"
-                        ],
-                        "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Kozamauka",
-                        "x": 387,
-                        "y": 1092,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 896,
+                        "y": 1881,
+                        "size": 6
                     }
                 ]
             },
@@ -439,25 +476,14 @@
                             "fatesanity, level_cap:92"
                         ],
                         "item_count": 1
-                    },
-                    {
-                        "name": "Caphunter Mushroom Muncher (FATE)",
-                        "access_rules": [
-                            "$leveling:92"
-                        ],
-                        "visibility_rules": [
-                            "fatesanity, level_cap:92"
-                        ],
-                        "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Kozamauka",
-                        "x": 249,
-                        "y": 1615,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 253,
+                        "y": 2077,
+                        "size": 6
                     }
                 ]
             },
@@ -484,10 +510,9 @@
                 "map_locations": [
                     {
                         "map": "Kozamauka",
-                        "x": 1093,
-                        "y": 1171,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 106,
+                        "y": 1032,
+                        "size": 6
                     }
                 ]
             },
@@ -514,10 +539,9 @@
                 "map_locations": [
                     {
                         "map": "Kozamauka",
-                        "x": 1011,
-                        "y": 1454,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 437,
+                        "y": 2103,
+                        "size": 6
                     }
                 ]
             },
@@ -544,10 +568,9 @@
                 "map_locations": [
                     {
                         "map": "Kozamauka",
-                        "x": 204,
-                        "y": 1292,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1213,
+                        "y": 1176,
+                        "size": 6
                     }
                 ]
             },
@@ -574,10 +597,9 @@
                 "map_locations": [
                     {
                         "map": "Kozamauka",
-                        "x": 1319,
-                        "y": 1228,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 871,
+                        "y": 828,
+                        "size": 6
                     }
                 ]
             },
@@ -604,10 +626,9 @@
                 "map_locations": [
                     {
                         "map": "Kozamauka",
-                        "x": 1665,
-                        "y": 905,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 441,
+                        "y": 819,
+                        "size": 6
                     }
                 ]
             },
@@ -663,10 +684,9 @@
                 "map_locations": [
                     {
                         "map": "Kozamauka",
-                        "x": 473,
-                        "y": 640,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 2335,
+                        "y": 1228,
+                        "size": 6
                     }
                 ]
             },
@@ -710,10 +730,9 @@
                 "map_locations": [
                     {
                         "map": "Kozamauka",
-                        "x": 1033,
-                        "y": 535,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 833,
+                        "y": 1608,
+                        "size": 6
                     }
                 ]
             },
@@ -763,10 +782,9 @@
                 "map_locations": [
                     {
                         "map": "Kozamauka",
-                        "x": 1421,
-                        "y": 553,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 968,
+                        "y": 2012,
+                        "size": 6
                     }
                 ]
             },
@@ -804,10 +822,9 @@
                 "map_locations": [
                     {
                         "map": "Kozamauka",
-                        "x": 1848,
-                        "y": 1600,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 2371,
+                        "y": 1871,
+                        "size": 6
                     }
                 ]
             },
@@ -857,10 +874,9 @@
                 "map_locations": [
                     {
                         "map": "Kozamauka",
-                        "x": 1991,
-                        "y": 716,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1872,
+                        "y": 2281,
+                        "size": 6
                     }
                 ]
             },
@@ -904,10 +920,9 @@
                 "map_locations": [
                     {
                         "map": "Kozamauka",
-                        "x": 1090,
-                        "y": 974,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1395,
+                        "y": 1481,
+                        "size": 6
                     }
                 ]
             },
@@ -957,10 +972,9 @@
                 "map_locations": [
                     {
                         "map": "Kozamauka",
-                        "x": 841,
-                        "y": 1435,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 953,
+                        "y": 265,
+                        "size": 6
                     }
                 ]
             },
@@ -1010,10 +1024,9 @@
                 "map_locations": [
                     {
                         "map": "Kozamauka",
-                        "x": 1225,
-                        "y": 1536,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1681,
+                        "y": 2343,
+                        "size": 6
                     }
                 ]
             }
