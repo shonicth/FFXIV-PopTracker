@@ -1,8 +1,8 @@
     --Limsa Lower Decks
     logicFishList["MerlthorGobyLowerDecks"] = {"lugworm"}
     outLogicFishList["MerlthorGobyLowerDecks"] = {"crabball", "floatingminnow", "glowworm", "gobyball", "heavysteeljig", "herringball", "krillcagefeeder", "lugworm", "northernkrill", "pillbug", "rattail", "saltwaterboilie", "shrimpcagefeeder", "sinkingminnow", "spoonworm", "steeljig", "versatilelure", "yumizuno"}
-    logicFishList["LominsaAnchovyLowerDecks"] = {"lugworm"}
-    outLogicFishList["LominsaAnchovyLowerDecks"] = {"crabball", "floatingminnow", "glowworm", "gobyball", "heavysteeljig", "herringball", "krillcagefeeder", "lugworm", "northernkrill", "pillbug", "rattail", "saltwaterboilie", "shrimpcagefeeder", "sinkingminnow", "spoonworm", "steeljig", "versatilelure", "yumizuno"}
+    logicFishList["LominsanAnchovyLowerDecks"] = {"lugworm"}
+    outLogicFishList["LominsanAnchovyLowerDecks"] = {"crabball", "floatingminnow", "glowworm", "gobyball", "heavysteeljig", "herringball", "krillcagefeeder", "lugworm", "northernkrill", "pillbug", "rattail", "saltwaterboilie", "shrimpcagefeeder", "sinkingminnow", "spoonworm", "steeljig", "versatilelure", "yumizuno"}
     logicFishList["MalmKelpLowerDecks"] = {"lugworm", "pillbug"}
     outLogicFishList["MalmKelpLowerDecks"] = {"crabball", "floatingminnow", "glowworm", "gobyball", "heavysteeljig", "herringball", "krillcagefeeder", "lugworm", "northernkrill", "pillbug", "rattail", "saltwaterboilie", "shrimpcagefeeder", "sinkingminnow", "spoonworm", "steeljig", "versatilelure", "yumizuno"}
     logicFishList["FingerShrimpLowerDecks"] = {"lugworm"}

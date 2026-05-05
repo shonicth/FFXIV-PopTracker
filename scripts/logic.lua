@@ -361,8 +361,8 @@ function leveling()
 end
 
 function FishAccess(location, reqFshLevel)
-  local fshLevels = Tracker:ProviderCountForCode("fshlevels")
-  if fshLevels < reqFshLevel then
+  local fshLevels = Tracker:ProviderCountForCode("5fshlevels")
+  if fshLevels < ((reqFshLevel // 5) * 5)  then
     return AccessibilityLevel.None
   end
   logicFish = logicFishList[location]
@@ -382,4 +382,12 @@ function FishAccess(location, reqFshLevel)
     end
   end
   return AccessibilityLevel.None
+end
+
+function FATEAccess(reqLevel)
+  local leveling = leveling()
+  if leveling > math.max(reqLevel - 5, reqLevel // 10 * 10) then
+    return AccessibilityLevel.Normal else
+    return AccessibilityLevel.None
+  end
 end
