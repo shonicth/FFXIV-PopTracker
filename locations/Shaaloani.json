@@ -324,8 +324,8 @@
                 "sections": [
                     {
                         "name": "Claw and Order (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["^$fateAccess|Claw and Order"],
+                        "visibility_rules": ["$fateVisibility|Claw and Order"],
                         "item_count": 1
                     }
                 ],
@@ -349,8 +349,8 @@
                 "sections": [
                     {
                         "name": "Dhara Dared (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["^$fateAccess|Dhara Dared"],
+                        "visibility_rules": ["$fateVisibility|Dhara Dared"],
                         "item_count": 1
                     }
                 ],
@@ -374,8 +374,8 @@
                 "sections": [
                     {
                         "name": "Gonna Have Me Some Fur (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["^$fateAccess|Gonna Have Me Some Fur"],
+                        "visibility_rules": ["$fateVisibility|Gonna Have Me Some Fur"],
                         "item_count": 1
                     }
                 ],
@@ -399,8 +399,8 @@
                 "sections": [
                     {
                         "name": "Nopal Hunters (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["^$fateAccess|Nopal Hunters"],
+                        "visibility_rules": ["$fateVisibility|Nopal Hunters"],
                         "item_count": 1
                     }
                 ],
@@ -424,8 +424,8 @@
                 "sections": [
                     {
                         "name": "Thats Me and the Porter (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["^$fateAccess|That's Me and the Porter"],
+                        "visibility_rules": ["$fateVisibility|That's Me and the Porter"],
                         "item_count": 1
                     }
                 ],
@@ -449,8 +449,8 @@
                 "sections": [
                     {
                         "name": "The Dead Never Die (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["^$fateAccess|The Dead Never Die"],
+                        "visibility_rules": ["$fateVisibility|The Dead Never Die"],
                         "item_count": 1
                     }
                 ],
@@ -474,8 +474,8 @@
                 "sections": [
                     {
                         "name": "The Serpentlord Stirs (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["^$fateAccess|The Serpentlord Stirs"],
+                        "visibility_rules": ["$fateVisibility|The Serpentlord Stirs"],
                         "item_count": 1
                     }
                 ],
@@ -499,8 +499,8 @@
                 "sections": [
                     {
                         "name": "You Are What You Drink (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["^$fateAccess|You Are What You Drink"],
+                        "visibility_rules": ["$fateVisibility|You Are What You Drink"],
                         "item_count": 1
                     }
                 ],
@@ -524,8 +524,8 @@
                 "sections": [
                     {
                         "name": "A Raptor Runs Through It (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["^$fateAccess|A Raptor Runs Through It"],
+                        "visibility_rules": ["$fateVisibility|A Raptor Runs Through It"],
                         "item_count": 1
                     }
                 ],
@@ -549,8 +549,8 @@
                 "sections": [
                     {
                         "name": "A Tortoise of a Tale (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["^$fateAccess|A Tortoise of a Tale"],
+                        "visibility_rules": ["$fateVisibility|A Tortoise of a Tale"],
                         "item_count": 1
                     }
                 ],
@@ -574,8 +574,8 @@
                 "sections": [
                     {
                         "name": "Aint What I Herd (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["^$fateAccess|Ain't What I Herd"],
+                        "visibility_rules": ["$fateVisibility|Ain't What I Herd"],
                         "item_count": 1
                     }
                 ],
@@ -599,8 +599,8 @@
                 "sections": [
                     {
                         "name": "Breaking the Jaw (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["^$fateAccess|Breaking the Jaw"],
+                        "visibility_rules": ["$fateVisibility|Breaking the Jaw"],
                         "item_count": 1
                     }
                 ],
@@ -624,8 +624,8 @@
                 "sections": [
                     {
                         "name": "Helms off to the Bull (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["^$fateAccess|Helms off to the Bull"],
+                        "visibility_rules": ["$fateVisibility|Helms off to the Bull"],
                         "item_count": 1
                     }
                 ],
@@ -649,8 +649,8 @@
                 "sections": [
                     {
                         "name": "The Serpentlord Sires (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["^$fateAccess|The Serpentlord Sires"],
+                        "visibility_rules": ["$fateVisibility|The Serpentlord Sires"],
                         "item_count": 1
                     }
                 ],
@@ -674,8 +674,8 @@
                 "sections": [
                     {
                         "name": "The Serpentlord Speaks (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["^$fateAccess|The Serpentlord Speaks"],
+                        "visibility_rules": ["$fateVisibility|The Serpentlord Speaks"],
                         "item_count": 1
                     }
                 ],
@@ -699,8 +699,8 @@
                 "sections": [
                     {
                         "name": "The Serpentlord Suffers (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["^$fateAccess|The Serpentlord Seethes"],
+                        "visibility_rules": ["$fateVisibility|The Serpentlord Seethes"],
                         "item_count": 1
                     }
                 ],
@@ -724,8 +724,8 @@
                 "sections": [
                     {
                         "name": "The Serpentlord Seethes (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["^$fateAccess|The Serpentlord Seethes"],
+                        "visibility_rules": ["$fateVisibility|The Serpentlord Seethes"],
                         "item_count": 1
                     }
                 ],
