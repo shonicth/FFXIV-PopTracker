@@ -126,8 +126,8 @@
                 "sections": [
                     {
                         "name": "On the Lamb (FATE)",
-                        "access_rules": ["$leveling:3"],
-                        "visibility_rules": ["fatesanity"],
+                        "access_rules": ["^$fateAccess|On the Lamb"],
+                        "visibility_rules": ["$fateVisibility|On the Lamb"],
                         "item_count": 1
                     }
                 ],
@@ -152,8 +152,8 @@
                 "sections": [
                     {
                         "name": "Taking It to the Streams (FATE)",
-                        "access_rules": ["$leveling:4"],
-                        "visibility_rules": ["fatesanity"],
+                        "access_rules": ["^$fateAccess|Taking It to the Streams"],
+                        "visibility_rules": ["$fateVisibility|Taking It to the Streams"],
                         "item_count": 1
                     }
                 ],
@@ -178,8 +178,8 @@
                 "sections": [
                     {
                         "name": "Overnight Migration (FATE)",
-                        "access_rules": ["$leveling:5"],
-                        "visibility_rules": ["fatesanity"],
+                        "access_rules": ["^$fateAccess|Overnight Migration"],
+                        "visibility_rules": ["$fateVisibility|Overnight Migration"],
                         "item_count": 1
                     }
                 ],
@@ -204,8 +204,8 @@
                 "sections": [
                     {
                         "name": "Yellow-bellied Greenbacks (FATE)",
-                        "access_rules": ["$leveling:5"],
-                        "visibility_rules": ["fatesanity"],
+                        "access_rules": ["^$fateAccess|Yellow-bellied Greenbacks"],
+                        "visibility_rules": ["$fateVisibility|Yellow-bellied Greenbacks"],
                         "item_count": 1
                     }
                 ],
@@ -230,8 +230,8 @@
                 "sections": [
                     {
                         "name": "Thwack-a-Mole (FATE)",
-                        "access_rules": ["$leveling:6"],
-                        "visibility_rules": ["fatesanity"],
+                        "access_rules": ["^$fateAccess|Thwack-a-Mole"],
+                        "visibility_rules": ["$fateVisibility|Thwack-a-Mole"],
                         "item_count": 1
                     }
                 ],
@@ -256,8 +256,8 @@
                 "sections": [
                     {
                         "name": "Crying over Spilled Salt (FATE)",
-                        "access_rules": ["$leveling:7"],
-                        "visibility_rules": ["fatesanity"],
+                        "access_rules": ["^$fateAccess|Crying over Spilled Salt"],
+                        "visibility_rules": ["$fateVisibility|Crying over Spilled Salt"],
                         "item_count": 1
                     }
                 ],
@@ -282,8 +282,8 @@
                 "sections": [
                     {
                         "name": "Hello, Work (FATE)",
-                        "access_rules": ["$leveling:7"],
-                        "visibility_rules": ["fatesanity"],
+                        "access_rules": ["^$fateAccess|Hello, Work"],
+                        "visibility_rules": ["$fateVisibility|Hello, Work"],
                         "item_count": 1
                     }
                 ],
@@ -308,8 +308,8 @@
                 "sections": [
                     {
                         "name": "Menuis at Work (FATE)",
-                        "access_rules": ["$leveling:8"],
-                        "visibility_rules": ["fatesanity"],
+                        "access_rules": ["^$fateAccess|Menuis at Work"],
+                        "visibility_rules": ["$fateVisibility|Menuis at Work"],
                         "item_count": 1
                     }
                 ],
@@ -334,8 +334,8 @@
                 "sections": [
                     {
                         "name": "The Orange Boxes (FATE)",
-                        "access_rules": ["$leveling:9"],
-                        "visibility_rules": ["fatesanity"],
+                        "access_rules": ["^$fateAccess|The Orange Boxes"],
+                        "visibility_rules": ["$fateVisibility|The Orange Boxes"],
                         "item_count": 1
                     }
                 ],
@@ -360,8 +360,8 @@
                 "sections": [
                     {
                         "name": "Shearing is Caring (FATE)",
-                        "access_rules": ["$leveling:10"],
-                        "visibility_rules": ["fatesanity"],
+                        "access_rules": ["^$fateAccess|Shearing is Caring"],
+                        "visibility_rules": ["$fateVisibility|Shearing is Caring"],
                         "item_count": 1
                     }
                 ],
@@ -386,8 +386,8 @@
                 "sections": [
                     {
                         "name": "Sister Crustacean (FATE)",
-                        "access_rules": ["$leveling:12"],
-                        "visibility_rules": ["fatesanity"],
+                        "access_rules": ["^$fateAccess|Sister Crustacean"],
+                        "visibility_rules": ["$fateVisibility|Sister Crustacean"],
                         "item_count": 1
                     }
                 ],
@@ -412,8 +412,8 @@
                 "sections": [
                     {
                         "name": "Go Wespe (FATE)",
-                        "access_rules": ["$leveling:13"],
-                        "visibility_rules": ["fatesanity"],
+                        "access_rules": ["^$fateAccess|Go Wespe"],
+                        "visibility_rules": ["$fateVisibility|Go Wespe"],
                         "item_count": 1
                     }
                 ],
@@ -438,8 +438,8 @@
                 "sections": [
                     {
                         "name": "A Mad, Mad, Mad Sergeant (FATE)",
-                        "access_rules": ["$leveling:14"],
-                        "visibility_rules": ["fatesanity"],
+                        "access_rules": ["^$fateAccess|A Mad, Mad, Mad Sergeant"],
+                        "visibility_rules": ["$fateVisibility|A Mad, Mad, Mad Sergeant"],
                         "item_count": 1
                     }
                 ],
@@ -464,8 +464,8 @@
                 "sections": [
                     {
                         "name": "The Boy Who Cried Jackal (FATE)",
-                        "access_rules": ["$leveling:14"],
-                        "visibility_rules": ["fatesanity"],
+                        "access_rules": ["^$fateAccess|The Boy Who Cried Jackal"],
+                        "visibility_rules": ["$fateVisibility|The Boy Who Cried Jackal"],
                         "item_count": 1
                     }
                 ],
@@ -490,8 +490,8 @@
                 "sections": [
                     {
                         "name": "The Truth Is out There (FATE)",
-                        "access_rules": ["$leveling:14"],
-                        "visibility_rules": ["fatesanity"],
+                        "access_rules": ["^$fateAccess|The Truth Is out There"],
+                        "visibility_rules": ["$fateVisibility|The Truth Is out There"],
                         "item_count": 1
                     }
                 ],
@@ -517,61 +517,61 @@
                 "sections": [
                     {
                         "name": "Merlthor Goby",
-                        "access_rules": ["lugworm"],
+                        "access_rules": ["^$FishAccess|MerlthorGobyZephyrDrift|"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Lominsan Anchovy",
-                        "access_rules": ["lugworm"],
+                        "access_rules": ["^$FishAccess|LominsanAnchovyZephyrDrift|"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Finger Shrimp",
-                        "access_rules": ["lugworm"],
+                        "access_rules": ["^$FishAccess|FingerShrimpZephyrDrift|"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Ocean Cloud",
-                        "access_rules": ["pillbug"],
+                        "access_rules": ["^$FishAccess|OceanCloudZephyrDrift|"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Sea Cucumber",
-                        "access_rules": ["gobyball"],
+                        "access_rules": ["^$FishAccess|SeaCucumberZephyrDrift|"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Harbor Herring",
-                        "access_rules": ["pillbug", "floatingminnow"],
+                        "access_rules": ["^$FishAccess|HarborHerringZephyrDrift|"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Coral Butterfly",
-                        "access_rules": ["floatingminnow"],
+                        "access_rules": ["^$FishAccess|CoralButterflyZephyrDrift|"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Angelfish",
-                        "access_rules": ["steeljig"],
+                        "access_rules": ["^$FishAccess|AngelfishZephyrDrift|"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Blue Octopus",
-                        "access_rules": ["lugworm" ,"pillbug"],
+                        "access_rules": ["^$FishAccess|BlueOctopusZephyrDrift|"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Zalera",
-                        "access_rules": ["rattail"],
+                        "access_rules": ["^$FishAccess|ZaleraZephyrDrift|"],
                         "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
@@ -598,61 +598,61 @@
                 "sections": [
                     {
                         "name": "Merlthor Goby",
-                        "access_rules": ["lugworm"],
+                        "access_rules": ["^$FishAccess|MerlthorGobySummerford|"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Finger Shrimp",
-                        "access_rules": ["lugworm"],
+                        "access_rules": ["^$FishAccess|FingerShrimpSummerford|"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Ocean Cloud",
-                        "access_rules": ["pillbug"],
+                        "access_rules": ["^$FishAccess|OceanCloudSummerford|"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Harbor Herring",
-                        "access_rules": ["pillbug", "floatingminnow"],
+                        "access_rules": ["^$FishAccess|HarborHerringSummerford|"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Vongola Clam",
-                        "access_rules": ["northernkrill"],
+                        "access_rules": ["^$FishAccess|VongolaClamSummerford|"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Blue Octopus",
-                        "access_rules": ["lugworm" ,"pillbug"],
+                        "access_rules": ["^$FishAccess|BlueOctopusSummerford|"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Ogre Barracuda",
-                        "access_rules": ["floatingminnow"],
+                        "access_rules": ["^$FishAccess|OgreBarracudaSummerford|"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Silver Shark",
-                        "access_rules": ["lugworm"],
+                        "access_rules": ["^$FishAccess|SilverSharkSummerford|"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "White Coral",
-                        "access_rules": ["pillbug"],
+                        "access_rules": ["^$FishAccess|WhiteCoralSummerford|"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Gigantshark",
-                        "access_rules": ["floatingminnow"],
+                        "access_rules": ["^$FishAccess|GigantsharkSummerford|"],
                         "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
@@ -679,37 +679,37 @@
                 "sections": [
                     {
                         "name": "Crayfish",
-                        "access_rules": ["mothpupa"],
+                        "access_rules": ["^$FishAccess|CrayfishRogueRiver|"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Chub",
-                        "access_rules": ["mothpupa"],
+                        "access_rules": ["^$FishAccess|ChubRogueRiver|"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Dwarf Catfish",
-                        "access_rules": ["mothpupa"],
+                        "access_rules": ["^$FishAccess|DwarfCatfishRogueRiver|"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Princess Trout",
-                        "access_rules": ["crayfishball"],
+                        "access_rules": ["^$FishAccess|PrincessTroutRogueRiver|"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "La Noscean Perch",
-                        "access_rules": ["floatingminnow", "sinkingminnow"],
+                        "access_rules": ["^$FishAccess|LaNosceanPerchRogueRiver|"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Beguiler Chub",
-                        "access_rules": ["mothpupa"],
+                        "access_rules": ["^$FishAccess|BeguilerChubRogueRiver|"],
                         "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
@@ -736,43 +736,43 @@
                 "sections": [
                     {
                         "name": "Crayfish",
-                        "access_rules": ["mothpupa"],
+                        "access_rules": ["^$FishAccess|CrayfishWestAgelyssRiver|"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Chub",
-                        "access_rules": ["mothpupa"],
+                        "access_rules": ["^$FishAccess|ChubWestAgelyssRiver|"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Dwarf Catfish",
-                        "access_rules": ["mothpupa"],
+                        "access_rules": ["^$FishAccess|DwarfCatfishWestAgelyssRiver|"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Princess Trout",
-                        "access_rules": ["crayfishball"],
+                        "access_rules": ["^$FishAccess|PrincessTroutWestAgelyssRiver|"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Gudgeon",
-                        "access_rules": ["crayfishball"],
+                        "access_rules": ["^$FishAccess|GudgeonWestAgelyssRiver|"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "La Noscean Perch",
-                        "access_rules": ["floatingminnow", "sinkingminnow"],
+                        "access_rules": ["^$FishAccess|LaNosceanPerchWestAgelyssRiver|"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Great Gudgeon",
-                        "access_rules": ["crayfishball"],
+                        "access_rules": ["^$FishAccess|GreatGudgeonWestAgelyssRiver|"],
                         "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
@@ -799,49 +799,49 @@
                 "sections": [
                     {
                         "name": "Chub",
-                        "access_rules": ["mothpupa"],
+                        "access_rules": ["^$FishAccess|ChubNymRiver|"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Dwarf Catfish",
-                        "access_rules": ["mothpupa"],
+                        "access_rules": ["^$FishAccess|DwarfCatfishNymRiver|"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Princess Trout",
-                        "access_rules": ["crayfishball"],
+                        "access_rules": ["^$FishAccess|PrincessTroutNymRiver|"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Dusk Goby",
-                        "access_rules": ["crayfishball"],
+                        "access_rules": ["^$FishAccess|DuskGobyNymRiver|"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Gudgeon",
-                        "access_rules": ["crayfishball"],
+                        "access_rules": ["^$FishAccess|GudgeonNymRiver|"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Maiden Carp",
-                        "access_rules": ["bloodworm"],
+                        "access_rules": ["^$FishAccess|MaidenCarpNymRiver|"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "La Noscean Perch",
-                        "access_rules": ["floatingminnow", "sinkingminnow"],
+                        "access_rules": ["^$FishAccess|LaNosceanPerchNymRiver|"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "High Perch",
-                        "access_rules": ["sinkingminnow"],
+                        "access_rules": ["^$FishAccess|HighPerchNymRiver|"],
                         "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
@@ -868,49 +868,49 @@
                 "sections": [
                     {
                         "name": "Dwarf Catfish",
-                        "access_rules": ["mothpupa"],
+                        "access_rules": ["^$FishAccess|DwarfCatfishWoadWhisperCanyon|"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Dusk Goby",
-                        "access_rules": ["crayfishball"],
+                        "access_rules": ["^$FishAccess|DuskGobyWoadWhisperCanyon|"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "River Crab",
-                        "access_rules": ["butterworm"],
+                        "access_rules": ["^$FishAccess|RiverCrabWoadWhisperCanyon|"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "La Noscean Perch",
-                        "access_rules": ["floatingminnow", "sinkingminnow"],
+                        "access_rules": ["^$FishAccess|LaNosceanPerchWoadWhisperCanyon|"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Copperfish",
-                        "access_rules": ["butterworm"],
+                        "access_rules": ["^$FishAccess|CopperfishWoadWhisperCanyon|"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Eunuch Crayfish",
-                        "access_rules": ["butterworm"],
+                        "access_rules": ["^$FishAccess|EunuchCrayfishWoadWhisperCanyon|"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Glass Perch",
-                        "access_rules": ["chocobofly"],
+                        "access_rules": ["^$FishAccess|GlassPerchWoadWhisperCanyon|"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Crystal Perch",
-                        "access_rules": ["butterworm"],
+                        "access_rules": ["^$FishAccess|CrystalPerchWoadWhisperCanyon|"],
                         "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
