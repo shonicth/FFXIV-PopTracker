@@ -439,10 +439,10 @@
                     {
                         "name": "Bayawak Attack (FATE)",
                         "access_rules": [
-                            "$leveling:70"
+                            "^$fateAccess|Bayawak Attack"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:70"
+                            "$fateVisibility|Bayawak Attack"
                         ],
                         "item_count": 1
                     }
@@ -469,10 +469,10 @@
                     {
                         "name": "Cactus Makes Perfect (FATE)",
                         "access_rules": [
-                            "$leveling:70"
+                            "^$fateAccess|Cactus Makes Perfect"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:70"
+                            "$fateVisibility|Cactus Makes Perfect"
                         ],
                         "item_count": 1
                     }
@@ -499,10 +499,10 @@
                     {
                         "name": "Harbingers of Bloom (FATE)",
                         "access_rules": [
-                            "$leveling:70"
+                            "^$fateAccess|Harbingers of Bloom"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:70"
+                            "$fateVisibility|Harbingers of Bloom"
                         ],
                         "item_count": 1
                     }
@@ -529,10 +529,10 @@
                     {
                         "name": "Pray Destroy the Waking Sands (FATE)",
                         "access_rules": [
-                            "$leveling:70"
+                            "^$fateAccess|Pray Destroy the Waking Sands"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:70"
+                            "$fateVisibility|Pray Destroy the Waking Sands"
                         ],
                         "item_count": 1
                     }
@@ -559,10 +559,10 @@
                     {
                         "name": "Reptilian Roadblock (FATE)",
                         "access_rules": [
-                            "$leveling:70"
+                            "^$fateAccess|Reptilian Roadblock"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:70"
+                            "$fateVisibility|Reptilian Roadblock"
                         ],
                         "item_count": 1
                     }
@@ -589,10 +589,10 @@
                     {
                         "name": "Scavengers Hunted (FATE)",
                         "access_rules": [
-                            "$leveling:70"
+                            "^$fateAccess|Scavengers Hunted"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:70"
+                            "$fateVisibility|Scavengers Hunted"
                         ],
                         "item_count": 1
                     }
@@ -619,10 +619,10 @@
                     {
                         "name": "Theft from Above (FATE)",
                         "access_rules": [
-                            "$leveling:70"
+                            "^$fateAccess|Theft from Above"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:70"
+                            "$fateVisibility|Theft from Above"
                         ],
                         "item_count": 1
                     }
@@ -649,10 +649,10 @@
                     {
                         "name": "Tolba No. 1 (FATE)",
                         "access_rules": [
-                            "$leveling:70"
+                            "^$fateAccess|Tolba No. 1"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:70"
+                            "$fateVisibility|Tolba No. 1"
                         ],
                         "item_count": 1
                     }
@@ -679,10 +679,10 @@
                     {
                         "name": "Armadillo Peccadillo (FATE)",
                         "access_rules": [
-                            "$leveling:76"
+                            "^$fateAccess|Armadillo Peccadillo"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:76"
+                            "$fateVisibility|Armadillo Peccadillo"
                         ],
                         "item_count": 1
                     }
@@ -709,10 +709,10 @@
                     {
                         "name": "Baddie Longlegs (FATE)",
                         "access_rules": [
-                            "$leveling:76"
+                            "^$fateAccess|Baddie Longlegs"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:76"
+                            "$fateVisibility|Baddie Longlegs"
                         ],
                         "item_count": 1
                     }
@@ -739,10 +739,10 @@
                     {
                         "name": "Bloody Simple (FATE)",
                         "access_rules": [
-                            "$leveling:76"
+                            "^$fateAccess|Bloody Simple"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:76"
+                            "$fateVisibility|Bloody Simple"
                         ],
                         "item_count": 1
                     }
@@ -769,10 +769,10 @@
                     {
                         "name": "Lets Dance (with Swords) (FATE)",
                         "access_rules": [
-                            "$leveling:76"
+                            "^$fateAccess|Let's Dance (with Swords)"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:76"
+                            "$fateVisibility|Let's Dance (with Swords)"
                         ],
                         "item_count": 1
                     }
@@ -799,10 +799,10 @@
                     {
                         "name": "Sand and Deliver (FATE)",
                         "access_rules": [
-                            "$leveling:76"
+                            "^$fateAccess|Sand and Deliver"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:76"
+                            "$fateVisibility|Sand and Deliver"
                         ],
                         "item_count": 1
                     }
@@ -829,10 +829,10 @@
                     {
                         "name": "The Elderblade (FATE)",
                         "access_rules": [
-                            "$leveling:76"
+                            "^$fateAccess|The Elderblade"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:76"
+                            "$fateVisibility|The Elderblade"
                         ],
                         "item_count": 1
                     }
@@ -859,10 +859,10 @@
                     {
                         "name": "This Time Its Personal (FATE)",
                         "access_rules": [
-                            "$leveling:76"
+                            "^$fateAccess|This Time It's Personal"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:76"
+                            "$fateVisibility|This Time It's Personal"
                         ],
                         "item_count": 1
                     }
@@ -889,10 +889,10 @@
                     {
                         "name": "Anti-eruption Measures (FATE)",
                         "access_rules": [
-                            "$leveling:77"
+                            "^$fateAccess|Anti-eruption Measures"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:77"
+                            "$fateVisibility|Anti-eruption Measures"
                         ],
                         "item_count": 1
                     }
@@ -919,10 +919,10 @@
                     {
                         "name": "The Odd Couple (FATE)",
                         "access_rules": [
-                            "$leveling:77"
+                            "^$fateAccess|The Odd Couple"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:77"
+                            "$fateVisibility|The Odd Couple"
                         ],
                         "item_count": 1
                     }
