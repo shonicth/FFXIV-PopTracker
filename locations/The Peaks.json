@@ -224,10 +224,10 @@
                     {
                         "name": "A Bone to Pick (FATE)",
                         "access_rules": [
-                            "$leveling:60"
+                            "^$fateAccess|A Bone to Pick"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:60"
+                            "$fateVisibility|A Bone to Pick"
                         ],
                         "item_count": 1
                     }
@@ -254,10 +254,10 @@
                     {
                         "name": "A New Leaf (FATE)",
                         "access_rules": [
-                            "$leveling:60"
+                            "^$fateAccess|A New Leaf"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:60"
+                            "$fateVisibility|A New Leaf"
                         ],
                         "item_count": 1
                     }
@@ -284,10 +284,10 @@
                     {
                         "name": "And the Bandits Played On (FATE)",
                         "access_rules": [
-                            "$leveling:60"
+                            "^$fateAccess|And the Bandits Played On"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:60"
+                            "$fateVisibility|And the Bandits Played On"
                         ],
                         "item_count": 1
                     }
@@ -314,10 +314,10 @@
                     {
                         "name": "Attack of the Groans (FATE)",
                         "access_rules": [
-                            "$leveling:60"
+                            "^$fateAccess|Attack of the Groans"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:60"
+                            "$fateVisibility|Attack of the Groans"
                         ],
                         "item_count": 1
                     }
@@ -344,10 +344,10 @@
                     {
                         "name": "Beat Boxes (FATE)",
                         "access_rules": [
-                            "$leveling:60"
+                            "^$fateAccess|Beat Boxes"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:60"
+                            "$fateVisibility|Beat Boxes"
                         ],
                         "item_count": 1
                     }
@@ -374,10 +374,10 @@
                     {
                         "name": "Childs Plague (FATE)",
                         "access_rules": [
-                            "$leveling:60"
+                            "^$fateAccess|Child's Plague"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:60"
+                            "$fateVisibility|Child's Plague"
                         ],
                         "item_count": 1
                     }
@@ -404,10 +404,10 @@
                     {
                         "name": "Churlish Chapuli (FATE)",
                         "access_rules": [
-                            "$leveling:60"
+                            "^$fateAccess|Churlish Chapuli"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:60"
+                            "$fateVisibility|Churlish Chapuli"
                         ],
                         "item_count": 1
                     }
@@ -434,10 +434,10 @@
                     {
                         "name": "Das Bhoot (FATE)",
                         "access_rules": [
-                            "$leveling:60"
+                            "^$fateAccess|Das Bhoot"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:60"
+                            "$fateVisibility|Das Bhoot"
                         ],
                         "item_count": 1
                     }
@@ -464,10 +464,10 @@
                     {
                         "name": "Days of Fluturini Past (FATE)",
                         "access_rules": [
-                            "$leveling:60"
+                            "^$fateAccess|Days of Fluturini Past"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:60"
+                            "$fateVisibility|Days of Fluturini Past"
                         ],
                         "item_count": 1
                     }
@@ -494,10 +494,10 @@
                     {
                         "name": "Down with the Sickness (FATE)",
                         "access_rules": [
-                            "$leveling:60"
+                            "^$fateAccess|Down with the Sickness"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:60"
+                            "$fateVisibility|Down with the Sickness"
                         ],
                         "item_count": 1
                     }
@@ -524,10 +524,10 @@
                     {
                         "name": "Moth to a Flame (FATE)",
                         "access_rules": [
-                            "$leveling:60"
+                            "^$fateAccess|Moth to a Flame"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:60"
+                            "$fateVisibility|Moth to a Flame"
                         ],
                         "item_count": 1
                     }
@@ -554,10 +554,10 @@
                     {
                         "name": "Of Mice and Men (FATE)",
                         "access_rules": [
-                            "$leveling:60"
+                            "^$fateAccess|Of Mice and Men"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:60"
+                            "$fateVisibility|Of Mice and Men"
                         ],
                         "item_count": 1
                     }
@@ -584,10 +584,10 @@
                     {
                         "name": "Resist Die Repeat (FATE)",
                         "access_rules": [
-                            "$leveling:60"
+                            "^$fateAccess|Resist Die Repeat"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:60"
+                            "$fateVisibility|Resist Die Repeat"
                         ],
                         "item_count": 1
                     }
@@ -614,10 +614,10 @@
                     {
                         "name": "Salad Days (FATE)",
                         "access_rules": [
-                            "$leveling:60"
+                            "^$fateAccess|Salad Days"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:60"
+                            "$fateVisibility|Salad Days"
                         ],
                         "item_count": 1
                     }
@@ -644,10 +644,10 @@
                     {
                         "name": "Venting (FATE)",
                         "access_rules": [
-                            "$leveling:60"
+                            "^$fateAccess|Venting"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:60"
+                            "$fateVisibility|Venting"
                         ],
                         "item_count": 1
                     }
@@ -674,10 +674,10 @@
                     {
                         "name": "Winging It (FATE)",
                         "access_rules": [
-                            "$leveling:60"
+                            "^$fateAccess|Winging It"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:60"
+                            "$fateVisibility|Winging It"
                         ],
                         "item_count": 1
                     }
@@ -704,10 +704,10 @@
                     {
                         "name": "Barbershoppe (FATE)",
                         "access_rules": [
-                            "$leveling:61"
+                            "^$fateAccess|Barbershoppe"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:61"
+                            "$fateVisibility|Barbershoppe"
                         ],
                         "item_count": 1
                     }
@@ -734,10 +734,10 @@
                     {
                         "name": "Diceman Cometh (FATE)",
                         "access_rules": [
-                            "$leveling:61"
+                            "^$fateAccess|Diceman Cometh"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:61"
+                            "$fateVisibility|Diceman Cometh"
                         ],
                         "item_count": 1
                     }
@@ -764,10 +764,10 @@
                     {
                         "name": "Stuck in the Muud (FATE)",
                         "access_rules": [
-                            "$leveling:61"
+                            "^$fateAccess|Stuck in the Muud"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:61"
+                            "$fateVisibility|Stuck in the Muud"
                         ],
                         "item_count": 1
                     }
@@ -794,10 +794,10 @@
                     {
                         "name": "You Dont Know Jack (FATE)",
                         "access_rules": [
-                            "$leveling:61"
+                            "^$fateAccess|You Don't Know Jack"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:61"
+                            "$fateVisibility|You Don't Know Jack"
                         ],
                         "item_count": 1
                     }
@@ -824,10 +824,10 @@
                     {
                         "name": "5-year Energy (FATE)",
                         "access_rules": [
-                            "$leveling:68"
+                            "^$fateAccess|5-year Energy"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:68"
+                            "$fateVisibility|5-year Energy"
                         ],
                         "item_count": 1
                     }
@@ -854,10 +854,10 @@
                     {
                         "name": "Breakneck (FATE)",
                         "access_rules": [
-                            "$leveling:68"
+                            "^$fateAccess|Breakneck"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:68"
+                            "$fateVisibility|Breakneck"
                         ],
                         "item_count": 1
                     }
@@ -884,10 +884,10 @@
                     {
                         "name": "Eat Big or Go Home (FATE)",
                         "access_rules": [
-                            "$leveling:68"
+                            "^$fateAccess|Eat Big or Go Home"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:68"
+                            "$fateVisibility|Eat Big or Go Home"
                         ],
                         "item_count": 1
                     }
@@ -914,10 +914,10 @@
                     {
                         "name": "Fletching Returns (FATE)",
                         "access_rules": [
-                            "$leveling:68"
+                            "^$fateAccess|Fletching Returns"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:68"
+                            "$fateVisibility|Fletching Returns"
                         ],
                         "item_count": 1
                     }
@@ -944,10 +944,10 @@
                     {
                         "name": "Forget-me-not (FATE)",
                         "access_rules": [
-                            "$leveling:68"
+                            "^$fateAccess|Forget-me-not"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:68"
+                            "$fateVisibility|Forget-me-not"
                         ],
                         "item_count": 1
                     }
@@ -974,10 +974,10 @@
                     {
                         "name": "Home on the Range (FATE)",
                         "access_rules": [
-                            "$leveling:68"
+                            "^$fateAccess|Home on the Range"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:68"
+                            "$fateVisibility|Home on the Range"
                         ],
                         "item_count": 1
                     }
@@ -1004,10 +1004,10 @@
                     {
                         "name": "Love Me, Tindalos (FATE)",
                         "access_rules": [
-                            "$leveling:68"
+                            "^$fateAccess|Love Me Tindalos"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:68"
+                            "$fateVisibility|Love Me Tindalos"
                         ],
                         "item_count": 1
                     }
@@ -1034,10 +1034,10 @@
                     {
                         "name": "Mouth For Water (FATE)",
                         "access_rules": [
-                            "$leveling:68"
+                            "^$fateAccess|Mouth For Water"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:68"
+                            "$fateVisibility|Mouth For Water"
                         ],
                         "item_count": 1
                     }
@@ -1064,10 +1064,10 @@
                     {
                         "name": "Rattle and Humbaba (FATE)",
                         "access_rules": [
-                            "$leveling:68"
+                            "^$fateAccess|Rattle and Humbaba"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:68"
+                            "$fateVisibility|Rattle and Humbaba"
                         ],
                         "item_count": 1
                     }
@@ -1094,10 +1094,10 @@
                     {
                         "name": "Slaughterwife-five (FATE)",
                         "access_rules": [
-                            "$leveling:68"
+                            "^$fateAccess|Slaughterwife-five"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:68"
+                            "$fateVisibility|Slaughterwife-five"
                         ],
                         "item_count": 1
                     }
@@ -1124,10 +1124,10 @@
                     {
                         "name": "The Day of the Griffins (FATE)",
                         "access_rules": [
-                            "$leveling:68"
+                            "^$fateAccess|The Day of the Griffins"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:68"
+                            "$fateVisibility|The Day of the Griffins"
                         ],
                         "item_count": 1
                     }
@@ -1154,10 +1154,10 @@
                     {
                         "name": "The Magitek Is Back (FATE)",
                         "access_rules": [
-                            "$leveling:68"
+                            "^$fateAccess|The Magitek Is Back"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:68"
+                            "$fateVisibility|The Magitek Is Back"
                         ],
                         "item_count": 1
                     }

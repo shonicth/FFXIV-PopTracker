@@ -264,10 +264,10 @@
                     {
                         "name": "Bear Apparent (FATE)",
                         "access_rules": [
-                            "$leveling:52"
+                            "^$fateAccess|Bear Apparent"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:52"
+                            "$fateVisibility|Bear Apparent"
                         ],
                         "item_count": 1
                     }
@@ -294,10 +294,10 @@
                     {
                         "name": "Birds of a Feather (FATE)",
                         "access_rules": [
-                            "$leveling:52"
+                            "^$fateAccess|Birds of a Feather"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:52"
+                            "$fateVisibility|Birds of a Feather"
                         ],
                         "item_count": 1
                     }
@@ -324,10 +324,10 @@
                     {
                         "name": "By the Horns (FATE)",
                         "access_rules": [
-                            "$leveling:52"
+                            "^$fateAccess|By the Horns"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:52"
+                            "$fateVisibility|By the Horns"
                         ],
                         "item_count": 1
                     }
@@ -354,10 +354,10 @@
                     {
                         "name": "Dead Meat (FATE)",
                         "access_rules": [
-                            "$leveling:52"
+                            "^$fateAccess|Dead Meat"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:52"
+                            "$fateVisibility|Dead Meat"
                         ],
                         "item_count": 1
                     }
@@ -384,10 +384,10 @@
                     {
                         "name": "Drone Under (FATE)",
                         "access_rules": [
-                            "$leveling:52"
+                            "^$fateAccess|Drone Under"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:52"
+                            "$fateVisibility|Drone Under"
                         ],
                         "item_count": 1
                     }
@@ -414,10 +414,10 @@
                     {
                         "name": "Glawackus On Glawackus Off (FATE)",
                         "access_rules": [
-                            "$leveling:52"
+                            "^$fateAccess|Glawackus On Glawackus Off"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:52"
+                            "$fateVisibility|Glawackus On Glawackus Off"
                         ],
                         "item_count": 1
                     }
@@ -444,10 +444,10 @@
                     {
                         "name": "Ladies First (FATE)",
                         "access_rules": [
-                            "$leveling:52"
+                            "^$fateAccess|Ladies First"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:52"
+                            "$fateVisibility|Ladies First"
                         ],
                         "item_count": 1
                     }
@@ -474,10 +474,10 @@
                     {
                         "name": "Long Live the Coeurl (FATE)",
                         "access_rules": [
-                            "$leveling:52"
+                            "^$fateAccess|Long Live the Coeurl"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:52"
+                            "$fateVisibility|Long Live the Coeurl"
                         ],
                         "item_count": 1
                     }
@@ -504,10 +504,10 @@
                     {
                         "name": "Nothing but the Truth (FATE)",
                         "access_rules": [
-                            "$leveling:52"
+                            "^$fateAccess|Nothing but the Truth"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:52"
+                            "$fateVisibility|Nothing but the Truth"
                         ],
                         "item_count": 1
                     }
@@ -534,10 +534,10 @@
                     {
                         "name": "Run Run Away (FATE)",
                         "access_rules": [
-                            "$leveling:52"
+                            "^$fateAccess|Run Run Away"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:52"
+                            "$fateVisibility|Run Run Away"
                         ],
                         "item_count": 1
                     }
@@ -564,10 +564,10 @@
                     {
                         "name": "The Migas Touch (FATE)",
                         "access_rules": [
-                            "$leveling:52"
+                            "^$fateAccess|The Migas Touch"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:52"
+                            "$fateVisibility|The Migas Touch"
                         ],
                         "item_count": 1
                     }
@@ -594,10 +594,10 @@
                     {
                         "name": "The Rite Stuff (FATE)",
                         "access_rules": [
-                            "$leveling:52"
+                            "^$fateAccess|The Rite Stuff"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:52"
+                            "$fateVisibility|The Rite Stuff"
                         ],
                         "item_count": 1
                     }
@@ -624,10 +624,10 @@
                     {
                         "name": "The Whole Truth (FATE)",
                         "access_rules": [
-                            "$leveling:52"
+                            "^$fateAccess|The Whole Truth"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:52"
+                            "$fateVisibility|The Whole Truth"
                         ],
                         "item_count": 1
                     }
@@ -654,10 +654,10 @@
                     {
                         "name": "Whos the Moss (FATE)",
                         "access_rules": [
-                            "$leveling:52"
+                            "^$fateAccess|Who's the Moss"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:52"
+                            "$fateVisibility|Who's the Moss"
                         ],
                         "item_count": 1
                     }
@@ -684,10 +684,10 @@
                     {
                         "name": "Cerfs Up (FATE)",
                         "access_rules": [
-                            "$leveling:53"
+                            "^$fateAccess|Cerf's Up"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:53"
+                            "$fateVisibility|Cerf's Up"
                         ],
                         "item_count": 1
                     }
@@ -714,10 +714,10 @@
                     {
                         "name": "El Miacid (FATE)",
                         "access_rules": [
-                            "$leveling:53"
+                            "^$fateAccess|El Miacid"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:53"
+                            "$fateVisibility|El Miacid"
                         ],
                         "item_count": 1
                     }
@@ -744,10 +744,10 @@
                     {
                         "name": "Elephant in the Brume (FATE)",
                         "access_rules": [
-                            "$leveling:53"
+                            "^$fateAccess|Elephant in the Brume"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:53"
+                            "$fateVisibility|Elephant in the Brume"
                         ],
                         "item_count": 1
                     }
@@ -774,10 +774,10 @@
                     {
                         "name": "Hearing Voices (FATE)",
                         "access_rules": [
-                            "$leveling:53"
+                            "^$fateAccess|Hearing Voices"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:53"
+                            "$fateVisibility|Hearing Voices"
                         ],
                         "item_count": 1
                     }
@@ -804,10 +804,10 @@
                     {
                         "name": "Special Tarasque Force (FATE)",
                         "access_rules": [
-                            "$leveling:53"
+                            "^$fateAccess|Special Tarasque Force"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:53"
+                            "$fateVisibility|Special Tarasque Force"
                         ],
                         "item_count": 1
                     }
@@ -834,10 +834,10 @@
                     {
                         "name": "Stamp the Yard (FATE)",
                         "access_rules": [
-                            "$leveling:53"
+                            "^$fateAccess|Stamp the Yard"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:53"
+                            "$fateVisibility|Stamp the Yard"
                         ],
                         "item_count": 1
                     }
@@ -864,10 +864,10 @@
                     {
                         "name": "The Mourning After (FATE)",
                         "access_rules": [
-                            "$leveling:53"
+                            "^$fateAccess|The Mourning After"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:53"
+                            "$fateVisibility|The Mourning After"
                         ],
                         "item_count": 1
                     }
@@ -894,10 +894,10 @@
                     {
                         "name": "Coeurls Chase Boys (FATE)",
                         "access_rules": [
-                            "$leveling:57"
+                            "^$fateAccess|Coeurls Chase Boys"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:57"
+                            "$fateVisibility|Coeurls Chase Boys"
                         ],
                         "item_count": 1
                     }
@@ -924,10 +924,10 @@
                     {
                         "name": "Come to My Arms (FATE)",
                         "access_rules": [
-                            "$leveling:57"
+                            "^$fateAccess|Come to My Arms"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:57"
+                            "$fateVisibility|Come to My Arms"
                         ],
                         "item_count": 1
                     }
@@ -954,10 +954,10 @@
                     {
                         "name": "Ware the Maiden Fair (FATE)",
                         "access_rules": [
-                            "$leveling:57"
+                            "^$fateAccess|Ware the Maiden Fair"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:57"
+                            "$fateVisibility|Ware the Maiden Fair"
                         ],
                         "item_count": 1
                     }
@@ -984,10 +984,10 @@
                     {
                         "name": "Coeurls Chase Boys Chase Coeurls (FATE)",
                         "access_rules": [
-                            "$leveling:60"
+                            "^$fateAccess|Coeurls Chase Boys Chase Coeurls"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:60"
+                            "$fateVisibility|Coeurls Chase Boys Chase Coeurls"
                         ],
                         "item_count": 1
                     }

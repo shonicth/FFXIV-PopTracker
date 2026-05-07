@@ -325,10 +325,10 @@
                     {
                         "name": "Aevis Has Left the Building (FATE)",
                         "access_rules": [
-                            "$leveling:54"
+                            "^$fateAccess|Aevis Has Left the Building"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:54"
+                            "$fateVisibility|Aevis Has Left the Building"
                         ],
                         "item_count": 1
                     }
@@ -355,10 +355,10 @@
                     {
                         "name": "Aint Misbehaving (FATE)",
                         "access_rules": [
-                            "$leveling:54"
+                            "^$fateAccess|Ain't Misbehaving"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:54"
+                            "$fateVisibility|Ain't Misbehaving"
                         ],
                         "item_count": 1
                     }
@@ -385,10 +385,10 @@
                     {
                         "name": "Asah I Came I Conquered (FATE)",
                         "access_rules": [
-                            "$leveling:54"
+                            "^$fateAccess|Asah I Came I Conquered"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:54"
+                            "$fateVisibility|Asah I Came I Conquered"
                         ],
                         "item_count": 1
                     }
@@ -415,10 +415,10 @@
                     {
                         "name": "Corporal Pomishment (FATE)",
                         "access_rules": [
-                            "$leveling:54"
+                            "^$fateAccess|Corporal Pomishment"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:54"
+                            "$fateVisibility|Corporal Pomishment"
                         ],
                         "item_count": 1
                     }
@@ -445,10 +445,10 @@
                     {
                         "name": "End of the Rainbow (FATE)",
                         "access_rules": [
-                            "$leveling:54"
+                            "^$fateAccess|End of the Rainbow"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:54"
+                            "$fateVisibility|End of the Rainbow"
                         ],
                         "item_count": 1
                     }
@@ -475,10 +475,10 @@
                     {
                         "name": "Glycon Air (FATE)",
                         "access_rules": [
-                            "$leveling:54"
+                            "^$fateAccess|Glycon Air"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:54"
+                            "$fateVisibility|Glycon Air"
                         ],
                         "item_count": 1
                     }
@@ -505,10 +505,10 @@
                     {
                         "name": "How to Cane Your Dragon (FATE)",
                         "access_rules": [
-                            "$leveling:54"
+                            "^$fateAccess|How to Cane Your Dragon"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:54"
+                            "$fateVisibility|How to Cane Your Dragon"
                         ],
                         "item_count": 1
                     }
@@ -535,10 +535,10 @@
                     {
                         "name": "Its the Moogle Reinvented (FATE)",
                         "access_rules": [
-                            "$leveling:54"
+                            "^$fateAccessIt's the Moogle Reinvented"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:54"
+                            "$fateVisibility|It's the Moogle Reinvented"
                         ],
                         "item_count": 1
                     }
@@ -565,10 +565,10 @@
                     {
                         "name": "Mogicide (FATE)",
                         "access_rules": [
-                            "$leveling:54"
+                            "^$fateAccess|Mogicide"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:54"
+                            "$fateVisibility|Mogicide"
                         ],
                         "item_count": 1
                     }
@@ -595,10 +595,10 @@
                     {
                         "name": "Say it Tulihand (FATE)",
                         "access_rules": [
-                            "$leveling:54"
+                            "^$fateAccess|Say it Tulihand"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:54"
+                            "$fateVisibility|Say it Tulihand"
                         ],
                         "item_count": 1
                     }
@@ -625,10 +625,10 @@
                     {
                         "name": "Sprite Club (FATE)",
                         "access_rules": [
-                            "$leveling:54"
+                            "^$fateAccess|Sprite Club"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:54"
+                            "$fateVisibility|Sprite Club"
                         ],
                         "item_count": 1
                     }
@@ -655,10 +655,10 @@
                     {
                         "name": "Supper Time (FATE)",
                         "access_rules": [
-                            "$leveling:54"
+                            "^$fateAccess|Supper Time"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:54"
+                            "$fateVisibility|Supper Time"
                         ],
                         "item_count": 1
                     }
@@ -685,10 +685,10 @@
                     {
                         "name": "The Nuts (FATE)",
                         "access_rules": [
-                            "$leveling:54"
+                            "^$fateAccess|The Nuts"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:54"
+                            "$fateVisibility|The Nuts"
                         ],
                         "item_count": 1
                     }
@@ -715,10 +715,10 @@
                     {
                         "name": "Vouivre Believre (FATE)",
                         "access_rules": [
-                            "$leveling:54"
+                            "^$fateAccess|Vouivre Believre"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:54"
+                            "$fateVisibility|Vouivre Believre"
                         ],
                         "item_count": 1
                     }
@@ -745,10 +745,10 @@
                     {
                         "name": "Waugyl Waugyl Waugyl (FATE)",
                         "access_rules": [
-                            "$leveling:54"
+                            "^$fateAccess|Waugyl Waugyl Waugyl"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:54"
+                            "$fateVisibility|Waugyl Waugyl Waugyl"
                         ],
                         "item_count": 1
                     }
@@ -775,10 +775,10 @@
                     {
                         "name": "Wave Good-bye (FATE)",
                         "access_rules": [
-                            "$leveling:54"
+                            "^$fateAccess|Wave Good-bye"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:54"
+                            "$fateVisibility|Wave Good-bye"
                         ],
                         "item_count": 1
                     }
@@ -805,10 +805,10 @@
                     {
                         "name": "Whole Food (FATE)",
                         "access_rules": [
-                            "$leveling:54"
+                            "^$fateAccess|Whole Food"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:54"
+                            "$fateVisibility|Whole Food"
                         ],
                         "item_count": 1
                     }
@@ -835,10 +835,10 @@
                     {
                         "name": "Coin Toss (FATE)",
                         "access_rules": [
-                            "$leveling:55"
+                            "^$fateAccess|Coin Toss"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:55"
+                            "$fateVisibility|Coin Toss"
                         ],
                         "item_count": 1
                     }
@@ -865,10 +865,10 @@
                     {
                         "name": "Darkscale Descendeth (FATE)",
                         "access_rules": [
-                            "$leveling:55"
+                            "^$fateAccess|Darkscale Descendeth"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:55"
+                            "$fateVisibility|Darkscale Descendeth"
                         ],
                         "item_count": 1
                     }
@@ -895,10 +895,10 @@
                     {
                         "name": "Darkscale Devoureth (FATE)",
                         "access_rules": [
-                            "$leveling:55"
+                            "^$fateAccess|Darkscale Devoureth"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:55"
+                            "$fateVisibility|Darkscale Devoureth"
                         ],
                         "item_count": 1
                     }
@@ -925,10 +925,10 @@
                     {
                         "name": "Darkscale Disappeareth (FATE)",
                         "access_rules": [
-                            "$leveling:55"
+                            "^$fateAccess|Darkscale Disappeareth"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:55"
+                            "$fateVisibility|Darkscale Disappeareth"
                         ],
                         "item_count": 1
                     }
@@ -955,10 +955,10 @@
                     {
                         "name": "From Dusk Till Gone (FATE)",
                         "access_rules": [
-                            "$leveling:55"
+                            "^$fateAccess|From Dusk Till Gone"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:55"
+                            "$fateVisibility|From Dusk Till Gone"
                         ],
                         "item_count": 1
                     }
@@ -985,10 +985,10 @@
                     {
                         "name": "Infamous (FATE)",
                         "access_rules": [
-                            "$leveling:55"
+                            "^$fateAccess|Infamous"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:55"
+                            "$fateVisibility|Infamous"
                         ],
                         "item_count": 1
                     }
@@ -1015,10 +1015,10 @@
                     {
                         "name": "Rastaban Vibration (FATE)",
                         "access_rules": [
-                            "$leveling:55"
+                            "^$fateAccess|Rastaban Vibration"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:55"
+                            "$fateVisibility|Rastaban Vibration"
                         ],
                         "item_count": 1
                     }
@@ -1045,10 +1045,10 @@
                     {
                         "name": "Treehouse of the Spirits (FATE)",
                         "access_rules": [
-                            "$leveling:55"
+                            "^$fateAccess|Treehouse of the Spirits"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:55"
+                            "$fateVisibility|Treehouse of the Spirits"
                         ],
                         "item_count": 1
                     }
@@ -1075,10 +1075,10 @@
                     {
                         "name": "Waiting for Fjalar to Stall (FATE)",
                         "access_rules": [
-                            "$leveling:55"
+                            "^$fateAccess|Waiting for Fjalar to Stall"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:55"
+                            "$fateVisibility|Waiting for Fjalar to Stall"
                         ],
                         "item_count": 1
                     }
@@ -1105,10 +1105,10 @@
                     {
                         "name": "As the World Burns (FATE)",
                         "access_rules": [
-                            "$leveling:56"
+                            "^$fateAccess|As the World Burns"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:56"
+                            "$fateVisibility|As the World Burns"
                         ],
                         "item_count": 1
                     }
@@ -1135,10 +1135,10 @@
                     {
                         "name": "Dont Know Wyvern (FATE)",
                         "access_rules": [
-                            "$leveling:56"
+                            "^$fateAccess|Don't Know Wyvern"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:56"
+                            "$fateVisibility|Don't Know Wyvern"
                         ],
                         "item_count": 1
                     }
@@ -1165,10 +1165,10 @@
                     {
                         "name": "Vedrfolnir Devoteth (FATE)",
                         "access_rules": [
-                            "$leveling:56"
+                            "^$fateAccess|Vedrfolnir Devoteth"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:56"
+                            "$fateVisibility|Vedrfolnir Devoteth"
                         ],
                         "item_count": 1
                     }

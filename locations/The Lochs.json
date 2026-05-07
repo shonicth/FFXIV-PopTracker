@@ -503,10 +503,10 @@
                     {
                         "name": "About Face (FATE)",
                         "access_rules": [
-                            "$leveling:69"
+                            "^$fateAccess|About Face"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:69"
+                            "$fateVisibility|About Face"
                         ],
                         "item_count": 1
                     }
@@ -533,10 +533,10 @@
                     {
                         "name": "Ancelots Fear (FATE)",
                         "access_rules": [
-                            "$leveling:69"
+                            "^$fateAccess|Ancelot's Fear"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:69"
+                            "$fateVisibility|Ancelot's Fear"
                         ],
                         "item_count": 1
                     }
@@ -563,10 +563,10 @@
                     {
                         "name": "Ancelots Finale (FATE)",
                         "access_rules": [
-                            "$leveling:69"
+                            "^$fateAccess|Ancelot's Finale"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:69"
+                            "$fateVisibility|Ancelot's Finale"
                         ],
                         "item_count": 1
                     }
@@ -593,10 +593,10 @@
                     {
                         "name": "Ancelots Folly (FATE)",
                         "access_rules": [
-                            "$leveling:69"
+                            "^$fateAccess|Ancelot's Folly"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:69"
+                            "$fateVisibility|Ancelot's Folly"
                         ],
                         "item_count": 1
                     }
@@ -623,10 +623,10 @@
                     {
                         "name": "Dive In (FATE)",
                         "access_rules": [
-                            "$leveling:69"
+                            "^$fateAccess|Dive In"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:69"
+                            "$fateVisibility|Dive In"
                         ],
                         "item_count": 1
                     }
@@ -653,10 +653,10 @@
                     {
                         "name": "Dude, Wheres My Karya (FATE)",
                         "access_rules": [
-                            "$leveling:69"
+                            "^$fateAccess|Dude Where's My Karya"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:69"
+                            "$fateVisibility|Dude Where's My Karya"
                         ],
                         "item_count": 1
                     }
@@ -683,10 +683,10 @@
                     {
                         "name": "Dusk Till Abaddon (FATE)",
                         "access_rules": [
-                            "$leveling:69"
+                            "^$fateAccess|Dusk Till Abaddon"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:69"
+                            "$fateVisibility|Dusk Till Abaddon"
                         ],
                         "item_count": 1
                     }
@@ -713,10 +713,10 @@
                     {
                         "name": "Enemy Territory (FATE)",
                         "access_rules": [
-                            "$leveling:69"
+                            "^$fateAccess|Enemy Territory"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:69"
+                            "$fateVisibility|Enemy Territory"
                         ],
                         "item_count": 1
                     }
@@ -743,10 +743,10 @@
                     {
                         "name": "Fate No Morpho (FATE)",
                         "access_rules": [
-                            "$leveling:69"
+                            "^$fateAccess|Fate No Morpho"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:69"
+                            "$fateVisibility|Fate No Morpho"
                         ],
                         "item_count": 1
                     }
@@ -773,10 +773,10 @@
                     {
                         "name": "Foul Bachelor Frogamander (FATE)",
                         "access_rules": [
-                            "$leveling:69"
+                            "^$fateAccess|Foul Bachelor Frogamander"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:69"
+                            "$fateVisibility|Foul Bachelor Frogamander"
                         ],
                         "item_count": 1
                     }
@@ -803,10 +803,10 @@
                     {
                         "name": "Give Bees a Chance (FATE)",
                         "access_rules": [
-                            "$leveling:69"
+                            "^$fateAccess|Give Bees a Chance"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:69"
+                            "$fateVisibility|Give Bees a Chance"
                         ],
                         "item_count": 1
                     }
@@ -833,10 +833,10 @@
                     {
                         "name": "I Can Feel the Earth Move (FATE)",
                         "access_rules": [
-                            "$leveling:69"
+                            "^$fateAccess|I Can Feel the Earth Move"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:69"
+                            "$fateVisibility|I Can Feel the Earth Move"
                         ],
                         "item_count": 1
                     }
@@ -863,10 +863,10 @@
                     {
                         "name": "Kingsgrave (FATE)",
                         "access_rules": [
-                            "$leveling:69"
+                            "^$fateAccess|Kingsgrave"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:69"
+                            "$fateVisibility|Kingsgrave"
                         ],
                         "item_count": 1
                     }
@@ -893,10 +893,10 @@
                     {
                         "name": "Lalla Land (FATE)",
                         "access_rules": [
-                            "$leveling:69"
+                            "^$fateAccess|Lalla Land"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:69"
+                            "$fateVisibility|Lalla Land"
                         ],
                         "item_count": 1
                     }
@@ -923,10 +923,10 @@
                     {
                         "name": "Mazeless Runner (FATE)",
                         "access_rules": [
-                            "$leveling:69"
+                            "^$fateAccess|Mazeless Runner"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:69"
+                            "$fateVisibility|Mazeless Runner"
                         ],
                         "item_count": 1
                     }
@@ -953,10 +953,10 @@
                     {
                         "name": "Minotaurs on My Mind (FATE)",
                         "access_rules": [
-                            "$leveling:69"
+                            "^$fateAccess|Minotaurs on My Mind"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:69"
+                            "$fateVisibility|Minotaurs on My Mind"
                         ],
                         "item_count": 1
                     }
@@ -983,10 +983,10 @@
                     {
                         "name": "No Time Is a Good Time (FATE)",
                         "access_rules": [
-                            "$leveling:69"
+                            "^$fateAccess|No Time Is a Good Time"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:69"
+                            "$fateVisibility|No Time Is a Good Time"
                         ],
                         "item_count": 1
                     }
@@ -1013,10 +1013,10 @@
                     {
                         "name": "OK, Golem (FATE)",
                         "access_rules": [
-                            "$leveling:69"
+                            "^$fateAccess|OK Golem"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:69"
+                            "$fateVisibility|OK Golem"
                         ],
                         "item_count": 1
                     }
@@ -1043,10 +1043,10 @@
                     {
                         "name": "Off Their Yabby (FATE)",
                         "access_rules": [
-                            "$leveling:69"
+                            "^$fateAccess|Off Their Yabby"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:69"
+                            "$fateVisibility|Off Their Yabby"
                         ],
                         "item_count": 1
                     }
@@ -1073,10 +1073,10 @@
                     {
                         "name": "Old Bucket of Boruta (FATE)",
                         "access_rules": [
-                            "$leveling:69"
+                            "^$fateAccess|Old Bucket of Boruta"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:69"
+                            "$fateVisibility|Old Bucket of Boruta"
                         ],
                         "item_count": 1
                     }
@@ -1103,10 +1103,10 @@
                     {
                         "name": "One Bad Mother Chukwa (FATE)",
                         "access_rules": [
-                            "$leveling:69"
+                            "^$fateAccess|One Bad Mother Chukwa"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:69"
+                            "$fateVisibility|One Bad Mother Chukwa"
                         ],
                         "item_count": 1
                     }
@@ -1133,10 +1133,10 @@
                     {
                         "name": "Par for the Course (FATE)",
                         "access_rules": [
-                            "$leveling:69"
+                            "^$fateAccess|Par for the Course"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:69"
+                            "$fateVisibility|Par for the Course"
                         ],
                         "item_count": 1
                     }
@@ -1163,10 +1163,10 @@
                     {
                         "name": "Pounding Salt (FATE)",
                         "access_rules": [
-                            "$leveling:69"
+                            "^$fateAccess|Pounding Salt"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:69"
+                            "$fateVisibility|Pounding Salt"
                         ],
                         "item_count": 1
                     }
@@ -1193,10 +1193,10 @@
                     {
                         "name": "Sip When Im Dead (FATE)",
                         "access_rules": [
-                            "$leveling:69"
+                            "^$fateAccess|Sip When I'm Dead"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:69"
+                            "$fateVisibility|Sip When I'm Dead"
                         ],
                         "item_count": 1
                     }
@@ -1223,10 +1223,10 @@
                     {
                         "name": "Sisyphus Cooling (FATE)",
                         "access_rules": [
-                            "$leveling:69"
+                            "^$fateAccess|Sisyphus Cooling"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:69"
+                            "$fateVisibility|Sisyphus Cooling"
                         ],
                         "item_count": 1
                     }
@@ -1253,10 +1253,10 @@
                     {
                         "name": "Sob Story (FATE)",
                         "access_rules": [
-                            "$leveling:69"
+                            "^$fateAccess|Sob Story"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:69"
+                            "$fateVisibility|Sob Story"
                         ],
                         "item_count": 1
                     }
@@ -1283,10 +1283,10 @@
                     {
                         "name": "Taking Kurrea Business (FATE)",
                         "access_rules": [
-                            "$leveling:69"
+                            "^$fateAccess|Taking Kurrea Business"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:69"
+                            "$fateVisibility|Taking Kurrea Business"
                         ],
                         "item_count": 1
                     }
@@ -1313,10 +1313,10 @@
                     {
                         "name": "Tall Tale (FATE)",
                         "access_rules": [
-                            "$leveling:69"
+                            "^$fateAccess|Tall Tale"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:69"
+                            "$fateVisibility|Tall Tale"
                         ],
                         "item_count": 1
                     }
@@ -1343,10 +1343,10 @@
                     {
                         "name": "Tellus a Tale (FATE)",
                         "access_rules": [
-                            "$leveling:69"
+                            "^$fateAccess|Tellus a Tale"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:69"
+                            "$fateVisibility|Tellus a Tale"
                         ],
                         "item_count": 1
                     }
@@ -1373,10 +1373,10 @@
                     {
                         "name": "The Smell That Leeched Her Heart (FATE)",
                         "access_rules": [
-                            "$leveling:69"
+                            "^$fateAccess|The Smell That Leeched Her Heart"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:69"
+                            "$fateVisibility|The Smell That Leeched Her Heart"
                         ],
                         "item_count": 1
                     }
@@ -1403,10 +1403,10 @@
                     {
                         "name": "To Leech His Own (FATE)",
                         "access_rules": [
-                            "$leveling:69"
+                            "^$fateAccess|To Leech His Own"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:69"
+                            "$fateVisibility|To Leech His Own"
                         ],
                         "item_count": 1
                     }
@@ -1433,10 +1433,10 @@
                     {
                         "name": "When It Pains It Pours (FATE)",
                         "access_rules": [
-                            "$leveling:69"
+                            "^$fateAccess|When It Pains It Pours"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:69"
+                            "$fateVisibility|When It Pains It Pours"
                         ],
                         "item_count": 1
                     }
@@ -1463,10 +1463,10 @@
                     {
                         "name": "Whos Phoebad (FATE)",
                         "access_rules": [
-                            "$leveling:69"
+                            "^$fateAccess|Who's Phoebad"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:69"
+                            "$fateVisibility|Who's Phoebad"
                         ],
                         "item_count": 1
                     }
@@ -1493,10 +1493,10 @@
                     {
                         "name": "Yabby Hunters (FATE)",
                         "access_rules": [
-                            "$leveling:69"
+                            "^$fateAccess|Yabby Hunters"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:69"
+                            "$fateVisibility|Yabby Hunters"
                         ],
                         "item_count": 1
                     }
@@ -1523,10 +1523,10 @@
                     {
                         "name": "A Horse Outside (FATE)",
                         "access_rules": [
-                            "$leveling:70"
+                            "^$fateAccess|A Horse Outside"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:70, include_unreasonable_fates"
+                            "$fateVisibility|A Horse Outside, include_unreasonable_fates"
                         ],
                         "item_count": 1
                     }

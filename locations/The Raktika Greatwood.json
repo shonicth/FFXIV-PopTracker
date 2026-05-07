@@ -101,12 +101,6 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "The Raktika Greatwood",
-                        "x": 502,
-                        "y": 326,
-                        "size": 6
-                    },
-                    {
                         "map": "The Rak'tika Greatwood",
                         "x": 1874,
                         "y": 634,
@@ -210,12 +204,6 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "The Raktika Greatwood",
-                        "x": 297,
-                        "y": 98,
-                        "size": 6
-                    },
-                    {
                         "map": "The Rak'tika Greatwood",
                         "x": 72,
                         "y": 109,
@@ -236,21 +224,15 @@
                     {
                         "name": "Attack of the Killer Tomatl (FATE)",
                         "access_rules": [
-                            "$leveling:74"
+                            "^$fateAccess|Attack of the Killer Tomatl"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:74"
+                            "$fateVisibility|Attack of the Killer Tomatl"
                         ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
-                    {
-                        "map": "The Raktika Greatwood",
-                        "x": 89,
-                        "y": 1203,
-                        "size": 6
-                    },
                     {
                         "map": "The Rak'tika Greatwood",
                         "x": 439,
@@ -272,21 +254,15 @@
                     {
                         "name": "Dark Matters (FATE)",
                         "access_rules": [
-                            "$leveling:74"
+                            "^$fateAccess|Dark Matters"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:74"
+                            "$fateVisibility|Dark Matters"
                         ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
-                    {
-                        "map": "The Raktika Greatwood",
-                        "x": 1814,
-                        "y": 1189,
-                        "size": 6
-                    },
                     {
                         "map": "The Rak'tika Greatwood",
                         "x": 616,
@@ -308,21 +284,15 @@
                     {
                         "name": "Ill Be Bark (FATE)",
                         "access_rules": [
-                            "$leveling:74"
+                            "^$fateAccess|I'll Be Bark"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:74"
+                            "$fateVisibility|I'll Be Bark"
                         ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
-                    {
-                        "map": "The Raktika Greatwood",
-                        "x": 1296,
-                        "y": 1840,
-                        "size": 6
-                    },
                     {
                         "map": "The Rak'tika Greatwood",
                         "x": 676,
@@ -344,21 +314,15 @@
                     {
                         "name": "Picking up the Pieces (FATE)",
                         "access_rules": [
-                            "$leveling:74"
+                            "^$fateAccess|Picking up the Pieces"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:74"
+                            "$fateVisibility|Picking up the Pieces"
                         ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
-                    {
-                        "map": "The Raktika Greatwood",
-                        "x": 1910,
-                        "y": 109,
-                        "size": 6
-                    },
                     {
                         "map": "The Rak'tika Greatwood",
                         "x": 740,
@@ -380,21 +344,15 @@
                     {
                         "name": "Six Fulm Turkeys (FATE)",
                         "access_rules": [
-                            "$leveling:74"
+                            "^$fateAccess|Six Fulm Turkeys"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:74"
+                            "$fateVisibility|Six Fulm Turkeys"
                         ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
-                    {
-                        "map": "The Raktika Greatwood",
-                        "x": 1280,
-                        "y": 1520,
-                        "size": 6
-                    },
                     {
                         "map": "The Rak'tika Greatwood",
                         "x": 807,
@@ -416,21 +374,15 @@
                     {
                         "name": "We Are Venom (FATE)",
                         "access_rules": [
-                            "$leveling:74"
+                            "^$fateAccess|We Are Venom"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:74"
+                            "$fateVisibility|We Are Venom"
                         ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
-                    {
-                        "map": "The Raktika Greatwood",
-                        "x": 1744,
-                        "y": 2089,
-                        "size": 6
-                    },
                     {
                         "map": "The Rak'tika Greatwood",
                         "x": 600,
@@ -452,21 +404,15 @@
                     {
                         "name": "Attack the Block (FATE)",
                         "access_rules": [
-                            "$leveling:75"
+                            "^$fateAccess|Attack the Block"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:75"
+                            "$fateVisibility|Attack the Block"
                         ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
-                    {
-                        "map": "The Raktika Greatwood",
-                        "x": 407,
-                        "y": 1340,
-                        "size": 6
-                    },
                     {
                         "map": "The Rak'tika Greatwood",
                         "x": 987,
@@ -488,21 +434,15 @@
                     {
                         "name": "Barking Mad (FATE)",
                         "access_rules": [
-                            "$leveling:75"
+                            "^$fateAccess|Barking Mad"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:75"
+                            "$fateVisibility|Barking Mad"
                         ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
-                    {
-                        "map": "The Raktika Greatwood",
-                        "x": 1764,
-                        "y": 2073,
-                        "size": 6
-                    },
                     {
                         "map": "The Rak'tika Greatwood",
                         "x": 1546,
@@ -524,21 +464,15 @@
                     {
                         "name": "Creepy Crawlers (FATE)",
                         "access_rules": [
-                            "$leveling:75"
+                            "^$fateAccess|Creepy Crawlers"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:75"
+                            "$fateVisibility|Creepy Crawlers"
                         ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
-                    {
-                        "map": "The Raktika Greatwood",
-                        "x": 697,
-                        "y": 1183,
-                        "size": 6
-                    },
                     {
                         "map": "The Rak'tika Greatwood",
                         "x": 1564,
@@ -560,21 +494,15 @@
                     {
                         "name": "Monkeying Around (FATE)",
                         "access_rules": [
-                            "$leveling:75"
+                            "^$fateAccess|Monkeying Around"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:75"
+                            "$fateVisibility|Monkeying Around"
                         ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
-                    {
-                        "map": "The Raktika Greatwood",
-                        "x": 1348,
-                        "y": 940,
-                        "size": 6
-                    },
                     {
                         "map": "The Rak'tika Greatwood",
                         "x": 1104,
@@ -596,21 +524,15 @@
                     {
                         "name": "Nest of Kin (FATE)",
                         "access_rules": [
-                            "$leveling:75"
+                            "^$fateAccess|Nest of Kin"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:75"
+                            "$fateVisibility|Nest of Kin"
                         ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
-                    {
-                        "map": "The Raktika Greatwood",
-                        "x": 2111,
-                        "y": 1493,
-                        "size": 6
-                    },
                     {
                         "map": "The Rak'tika Greatwood",
                         "x": 1311,
@@ -632,21 +554,15 @@
                     {
                         "name": "Pluck of the Draw (FATE)",
                         "access_rules": [
-                            "$leveling:75"
+                            "^$fateAccess|Pluck of the Draw"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:75"
+                            "$fateVisibility|Pluck of the Draw"
                         ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
-                    {
-                        "map": "The Raktika Greatwood",
-                        "x": 539,
-                        "y": 1166,
-                        "size": 6
-                    },
                     {
                         "map": "The Rak'tika Greatwood",
                         "x": 1122,
@@ -668,21 +584,15 @@
                     {
                         "name": "Queen of the Harpies (FATE)",
                         "access_rules": [
-                            "$leveling:75"
+                            "^$fateAccess|Queen of the Harpies"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:75"
+                            "$fateVisibility|Queen of the Harpies"
                         ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
-                    {
-                        "map": "The Raktika Greatwood",
-                        "x": 1094,
-                        "y": 1072,
-                        "size": 6
-                    },
                     {
                         "map": "The Rak'tika Greatwood",
                         "x": 1080,
@@ -704,21 +614,15 @@
                     {
                         "name": "Shot Through the Hart (FATE)",
                         "access_rules": [
-                            "$leveling:75"
+                            "^$fateAccess|Shot Through the Hart"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:75"
+                            "$fateVisibility|Shot Through the Hart"
                         ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
-                    {
-                        "map": "The Raktika Greatwood",
-                        "x": 1685,
-                        "y": 1027,
-                        "size": 6
-                    },
                     {
                         "map": "The Rak'tika Greatwood",
                         "x": 1365,
@@ -740,21 +644,15 @@
                     {
                         "name": "The End of the Sentry (FATE)",
                         "access_rules": [
-                            "$leveling:75"
+                            "^$fateAccess|The End of the Sentry"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:75"
+                            "$fateVisibility|The End of the Sentry"
                         ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
-                    {
-                        "map": "The Raktika Greatwood",
-                        "x": 1381,
-                        "y": 148,
-                        "size": 6
-                    },
                     {
                         "map": "The Rak'tika Greatwood",
                         "x": 1245,
@@ -776,21 +674,15 @@
                     {
                         "name": "Tojil Annihilation (FATE)",
                         "access_rules": [
-                            "$leveling:75"
+                            "^$fateAccess|Tojil Annihilation"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:75"
+                            "$fateVisibility|Tojil Annihilation"
                         ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
-                    {
-                        "map": "The Raktika Greatwood",
-                        "x": 1247,
-                        "y": 2430,
-                        "size": 6
-                    },
                     {
                         "map": "The Rak'tika Greatwood",
                         "x": 1463,
@@ -812,21 +704,15 @@
                     {
                         "name": "Tojil Carnage (FATE)",
                         "access_rules": [
-                            "$leveling:75"
+                            "^$fateAccess|Tojil Carnage"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:75"
+                            "$fateVisibility|Tojil Carnage"
                         ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
-                    {
-                        "map": "The Raktika Greatwood",
-                        "x": 1396,
-                        "y": 760,
-                        "size": 6
-                    },
                     {
                         "map": "The Rak'tika Greatwood",
                         "x": 1249,
@@ -848,21 +734,15 @@
                     {
                         "name": "Tojil Eclipse (FATE)",
                         "access_rules": [
-                            "$leveling:75"
+                            "^$fateAccess|Tojil Eclipse"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:75"
+                            "$fateVisibility|Tojil Eclipse"
                         ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
-                    {
-                        "map": "The Raktika Greatwood",
-                        "x": 489,
-                        "y": 706,
-                        "size": 6
-                    },
                     {
                         "map": "The Rak'tika Greatwood",
                         "x": 1171,
@@ -884,21 +764,15 @@
                     {
                         "name": "Tojil War (FATE)",
                         "access_rules": [
-                            "$leveling:75"
+                            "^$fateAccess|Tojil War"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:75"
+                            "$fateVisibility|Tojil War"
                         ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
-                    {
-                        "map": "The Raktika Greatwood",
-                        "x": 2370,
-                        "y": 339,
-                        "size": 6
-                    },
                     {
                         "map": "The Rak'tika Greatwood",
                         "x": 1696,
@@ -984,12 +858,6 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "The Raktika Greatwood",
-                        "x": 1424,
-                        "y": 1612,
-                        "size": 6
-                    },
-                    {
                         "map": "The Rak'tika Greatwood",
                         "x": 330,
                         "y": 1361,
@@ -1065,12 +933,6 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "The Raktika Greatwood",
-                        "x": 1848,
-                        "y": 441,
-                        "size": 6
-                    },
-                    {
                         "map": "The Rak'tika Greatwood",
                         "x": 435,
                         "y": 994,
@@ -1143,12 +1005,6 @@
                     }
                 ],
                 "map_locations": [
-                    {
-                        "map": "The Raktika Greatwood",
-                        "x": 840,
-                        "y": 228,
-                        "size": 6
-                    },
                     {
                         "map": "The Rak'tika Greatwood",
                         "x": 741,
@@ -1232,12 +1088,6 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "The Raktika Greatwood",
-                        "x": 2337,
-                        "y": 233,
-                        "size": 6
-                    },
-                    {
                         "map": "The Rak'tika Greatwood",
                         "x": 1140,
                         "y": 1526,
@@ -1295,12 +1145,6 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "The Raktika Greatwood",
-                        "x": 418,
-                        "y": 1704,
-                        "size": 6
-                    },
-                    {
                         "map": "The Rak'tika Greatwood",
                         "x": 360,
                         "y": 768,
@@ -1349,12 +1193,6 @@
                     }
                 ],
                 "map_locations": [
-                    {
-                        "map": "The Raktika Greatwood",
-                        "x": 179,
-                        "y": 459,
-                        "size": 6
-                    },
                     {
                         "map": "The Rak'tika Greatwood",
                         "x": 1231,

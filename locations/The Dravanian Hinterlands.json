@@ -1067,10 +1067,10 @@
                     {
                         "name": "Dobharch Did It for the Best (FATE)",
                         "access_rules": [
-                            "$leveling:58"
+                            "^$fateAccess|Dobharch Did It for the Best"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:58"
+                            "$fateVisibility|Dobharch Did It for the Best"
                         ],
                         "item_count": 1
                     }
@@ -1097,10 +1097,10 @@
                     {
                         "name": "Feed Me, See More (FATE)",
                         "access_rules": [
-                            "$leveling:58"
+                            "^$fateAccess|Feed Me See More"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:58"
+                            "$fateVisibility|Feed Me See More"
                         ],
                         "item_count": 1
                     }
@@ -1127,10 +1127,10 @@
                     {
                         "name": "Gets the Red Out (FATE)",
                         "access_rules": [
-                            "$leveling:58"
+                            "^$fateAccess|Gets the Red Out"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:58"
+                            "$fateVisibility|Gets the Red Out"
                         ],
                         "item_count": 1
                     }
@@ -1157,10 +1157,10 @@
                     {
                         "name": "Infant Vangob (FATE)",
                         "access_rules": [
-                            "$leveling:58"
+                            "^$fateAccess|Infant Vangob"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:58"
+                            "$fateVisibility|Infant Vangob"
                         ],
                         "item_count": 1
                     }
@@ -1187,10 +1187,10 @@
                     {
                         "name": "Metal Gears Revengeance (FATE)",
                         "access_rules": [
-                            "$leveling:58"
+                            "^$fateAccess|Metal Gears Revengeance"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:58"
+                            "$fateVisibility|Metal Gears Revengeance"
                         ],
                         "item_count": 1
                     }
@@ -1217,10 +1217,10 @@
                     {
                         "name": "Metal Gears Revengeance 2 (FATE)",
                         "access_rules": [
-                            "$leveling:58"
+                            "^$fateAccess|Metal Gears Revengeance 2"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:58"
+                            "$fateVisibility|Metal Gears Revengeance 2"
                         ],
                         "item_count": 1
                     }
@@ -1247,10 +1247,10 @@
                     {
                         "name": "Metal Gears Rising (FATE)",
                         "access_rules": [
-                            "$leveling:58"
+                            "^$fateAccess|Metal Gears Rising"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:58"
+                            "$fateVisibility|Metal Gears Rising"
                         ],
                         "item_count": 1
                     }
@@ -1277,10 +1277,10 @@
                     {
                         "name": "Olympus Has Pollen (FATE)",
                         "access_rules": [
-                            "$leveling:58"
+                            "^$fateAccess|Olympus Has Pollen"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:58"
+                            "$fateVisibility|Olympus Has Pollen"
                         ],
                         "item_count": 1
                     }
@@ -1307,10 +1307,10 @@
                     {
                         "name": "On Melancholic Hill (FATE)",
                         "access_rules": [
-                            "$leveling:58"
+                            "^$fateAccess|On Melancholic Hill"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:58"
+                            "$fateVisibility|On Melancholic Hill"
                         ],
                         "item_count": 1
                     }
@@ -1337,10 +1337,10 @@
                     {
                         "name": "Out of the Woodwork (FATE)",
                         "access_rules": [
-                            "$leveling:58"
+                            "^$fateAccess|Out of the Woodwork"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:58"
+                            "$fateVisibility|Out of the Woodwork"
                         ],
                         "item_count": 1
                     }
@@ -1367,10 +1367,10 @@
                     {
                         "name": "Pop Goes the Whizzle (FATE)",
                         "access_rules": [
-                            "$leveling:58"
+                            "^$fateAccess|Pop Goes the Whizzle"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:58"
+                            "$fateVisibility|Pop Goes the Whizzle"
                         ],
                         "item_count": 1
                     }
@@ -1397,10 +1397,10 @@
                     {
                         "name": "Ratel and Hum (FATE)",
                         "access_rules": [
-                            "$leveling:58"
+                            "^$fateAccess|Ratel and Hum"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:58"
+                            "$fateVisibility|Ratel and Hum"
                         ],
                         "item_count": 1
                     }
@@ -1427,10 +1427,10 @@
                     {
                         "name": "Revenge of the Vengeful Revengeance (FATE)",
                         "access_rules": [
-                            "$leveling:58"
+                            "^$fateAccess|Revenge of the Vengeful Revengeance"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:58"
+                            "$fateVisibility|Revenge of the Vengeful Revengeance"
                         ],
                         "item_count": 1
                     }
@@ -1457,10 +1457,10 @@
                     {
                         "name": "Silkworm (FATE)",
                         "access_rules": [
-                            "$leveling:58"
+                            "^$fateAccess|Silkworm"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:58"
+                            "$fateVisibility|Silkworm"
                         ],
                         "item_count": 1
                     }
@@ -1487,10 +1487,10 @@
                     {
                         "name": "Sun Bear Sun Bear What Do You Eat (FATE)",
                         "access_rules": [
-                            "$leveling:58"
+                            "^$fateAccess|Sun Bear Sun Bear What Do You Eat"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:58"
+                            "$fateVisibility|Sun Bear Sun Bear What Do You Eat"
                         ],
                         "item_count": 1
                     }
@@ -1517,10 +1517,10 @@
                     {
                         "name": "Tarantula Hawk Pro Stinger (FATE)",
                         "access_rules": [
-                            "$leveling:58"
+                            "^$fateAccess|Tarantula Hawk Pro Stinger"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:58"
+                            "$fateVisibility|Tarantula Hawk Pro Stinger"
                         ],
                         "item_count": 1
                     }
@@ -1547,10 +1547,10 @@
                     {
                         "name": "The Bear Up There (FATE)",
                         "access_rules": [
-                            "$leveling:58"
+                            "^$fateAccess|The Bear Up There"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:58"
+                            "$fateVisibility|The Bear Up There"
                         ],
                         "item_count": 1
                     }
@@ -1577,10 +1577,10 @@
                     {
                         "name": "The Birds and the Bears (FATE)",
                         "access_rules": [
-                            "$leveling:58"
+                            "^$fateAccess|The Birds and the Bears"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:58"
+                            "$fateVisibility|The Birds and the Bears"
                         ],
                         "item_count": 1
                     }
@@ -1607,10 +1607,10 @@
                     {
                         "name": "Tome Raider (FATE)",
                         "access_rules": [
-                            "$leveling:58"
+                            "^$fateAccess|Tome Raider"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:58"
+                            "$fateVisibility|Tome Raider"
                         ],
                         "item_count": 1
                     }
@@ -1637,10 +1637,10 @@
                     {
                         "name": "Toss Em Back (FATE)",
                         "access_rules": [
-                            "$leveling:58"
+                            "^$fateAccess|Toss 'Em Back"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:58"
+                            "$fateVisibility|Toss 'Em Back"
                         ],
                         "item_count": 1
                     }
@@ -1667,10 +1667,10 @@
                     {
                         "name": "Wild Wilde Death (FATE)",
                         "access_rules": [
-                            "$leveling:58"
+                            "^$fateAccess|Wild Wilde Death"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:58"
+                            "$fateVisibility|Wild Wilde Death"
                         ],
                         "item_count": 1
                     }
@@ -1697,10 +1697,10 @@
                     {
                         "name": "Cockatrice Block (FATE)",
                         "access_rules": [
-                            "$leveling:59"
+                            "^$fateAccess|Cockatrice Block"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:59"
+                            "$fateVisibility|Cockatrice Block"
                         ],
                         "item_count": 1
                     }
@@ -1727,10 +1727,10 @@
                     {
                         "name": "Come Shells or High Water (FATE)",
                         "access_rules": [
-                            "$leveling:59"
+                            "^$fateAccess|Come Shells or High Water"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:59"
+                            "$fateVisibility|Come Shells or High Water"
                         ],
                         "item_count": 1
                     }
@@ -1757,10 +1757,10 @@
                     {
                         "name": "Frog Days of Summer (FATE)",
                         "access_rules": [
-                            "$leveling:59"
+                            "^$fateAccess|Frog Days of Summer"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:59"
+                            "$fateVisibility|Frog Days of Summer"
                         ],
                         "item_count": 1
                     }
@@ -1787,10 +1787,10 @@
                     {
                         "name": "How Do You Feed a Hungry Manlike Monster (FATE)",
                         "access_rules": [
-                            "$leveling:59"
+                            "^$fateAccess|How Do You Feed a Hungry Manlike Monster"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:59"
+                            "$fateVisibility|How Do You Feed a Hungry Manlike Monster"
                         ],
                         "item_count": 1
                     }
@@ -1817,10 +1817,10 @@
                     {
                         "name": "Makes the Very Best...Nests (FATE)",
                         "access_rules": [
-                            "$leveling:59"
+                            "^$fateAccess|Makes the Very Best...Nests"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:59"
+                            "$fateVisibility|Makes the Very Best...Nests"
                         ],
                         "item_count": 1
                     }
@@ -1847,10 +1847,10 @@
                     {
                         "name": "Morbol Man (FATE)",
                         "access_rules": [
-                            "$leveling:59"
+                            "^$fateAccess|Morbol Man"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:59"
+                            "$fateVisibility|Morbol Man"
                         ],
                         "item_count": 1
                     }
@@ -1877,10 +1877,10 @@
                     {
                         "name": "Poroggo Stuck (FATE)",
                         "access_rules": [
-                            "$leveling:59"
+                            "^$fateAccess|Poroggo Stuck"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:59"
+                            "$fateVisibility|Poroggo Stuck"
                         ],
                         "item_count": 1
                     }
@@ -1907,10 +1907,10 @@
                     {
                         "name": "Toad Alone (FATE)",
                         "access_rules": [
-                            "$leveling:59"
+                            "^$fateAccess|Toad Alone"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:59"
+                            "$fateVisibility|Toad Alone"
                         ],
                         "item_count": 1
                     }
