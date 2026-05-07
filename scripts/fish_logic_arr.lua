@@ -148,3 +148,121 @@
     outLogicFishList["GlassPerchWoadWhisperCanyon"] = {"bassball", "brassspoonlure", "butterworm", "caddisflylarva", "chocobofly", "crayfishball", "crowfly", "floatingminnow", "freshwaterboilie", "honeyworm", "mythrilspoonlure", "rainbowspoonlure", "silverspoonlure", "sinkingminnow", "snurblefly", "spinner", "spinnerbait", "stemborer", "streamer", "topwaterfrog", "versatilelure", "wildfowlfly"}
     logicFishList["CrystalPerchWoadWhisperCanyon"] = {"butterworm"}
     outLogicFishList["CrystalPerchWoadWhisperCanyon"] = {"butterworm"}
+
+    --Lower La Noscea
+    --The Mourning Widow
+
+    --Moraby Bay
+
+    --Cedarwood
+
+    --Oshon's Torch
+
+    --Candlekeep Quay
+
+    --Moraby Drydocks
+
+    --Empty Heart
+
+    --The Salt Strand
+
+    --Blind Iron Mines
+    
+    --Eastern La Noscea
+    --South Bloodshore
+
+    --Costa del Sol
+
+    --North Bloodshore
+
+    --Rhotano Sea(Forecastle)
+
+    --Rhotano Sea(Sterncastle)
+
+    --Hidden Falls
+
+    --East Agelyss River
+
+    --Raincaster Gully
+
+    --The Juggernaut
+
+    --Red Mantis Falls
+
+    --North Isle of Endless Summer
+
+    --Western La Noscea
+    --Swiftperch
+
+    --Skull Valley
+
+    --The Brewers Beacon
+
+    --Halfstone
+
+    --Isles of Umbra Northshore
+
+    --The Ship Graveyard
+
+    --Sapsa Spawning Grounds
+
+    --Isle of Umbra Southshore
+
+    --Reaver Hide
+
+    --Upper La Noscea
+    --Oakwood
+
+    --Fool falls
+
+    --Bronze Lake Shallows
+
+    --Northeast Bronze Lake
+
+    --Outer La Noscea
+    --The Long Climb
+
+    --Northwest Bronze Lake
+
+    --Mist
+
+    --New Gridania
+
+    --Old Gridania
+
+    --Central Shroud
+
+
+    --East Shroud
+
+
+    --South Shroud
+
+
+    --North Shroud
+
+
+    --The Lavender Beds
+
+    --West Thanalan
+
+
+    --Central Thanalan
+
+
+    --Eastern Thanalan
+
+
+    --Southern Thanalan
+
+
+    --Northern Thanalan
+
+
+    --The Goblet
+
+    --Coerthas Central Highlands
+
+
+    --Mor Dhona
+

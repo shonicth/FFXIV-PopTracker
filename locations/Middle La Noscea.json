@@ -282,8 +282,8 @@
                 "sections": [
                     {
                         "name": "Hello, Work (FATE)",
-                        "access_rules": ["^$fateAccess|Hello, Work"],
-                        "visibility_rules": ["$fateVisibility|Hello, Work"],
+                        "access_rules": ["^$fateAccess|Hello Work"],
+                        "visibility_rules": ["$fateVisibility|Hello Work"],
                         "item_count": 1
                     }
                 ],
@@ -438,8 +438,8 @@
                 "sections": [
                     {
                         "name": "A Mad, Mad, Mad Sergeant (FATE)",
-                        "access_rules": ["^$fateAccess|A Mad, Mad, Mad Sergeant"],
-                        "visibility_rules": ["$fateVisibility|A Mad, Mad, Mad Sergeant"],
+                        "access_rules": ["^$fateAccess|A Mad Mad Mad Sergeant"],
+                        "visibility_rules": ["$fateVisibility|A Mad Mad Mad Sergeant"],
                         "item_count": 1
                     }
                 ],

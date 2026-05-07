@@ -26,6 +26,22 @@ function FishAccess(location, reqFshLevel)
   return AccessibilityLevel.None
 end
 
+function fateMinLevelAccess(reqLevel)
+      local leveling = leveling() 
+    if leveling > math.max(reqLevel - 5, reqLevel // 10 * 10) then
+        return AccessibilityLevel.Normal
+    end
+    return AccessibilityLevel.None
+end
+
+function fateMinLevelVisibility(reqLevel)
+    local level_cap = Tracker:ProviderCountForCode("level_cap")
+    if level_cap > math.max(reqLevel - 5, reqLevel // 10 * 10) and Tracker:ProviderCountForCode('fatesanity') == 0 then
+        return AccessibilityLevel.Normal
+    end
+    return AccessibilityLevel.None
+end
+
 function fateAccess(fate)
     if fate ~= nil then
       local leveling = leveling() 

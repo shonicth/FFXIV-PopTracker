@@ -363,8 +363,12 @@
                 "sections": [
                     {
                         "name": "A Scythe to an Axe Fight (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fateAccess|A Scythe to an Axe Fight"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|A Scythe to an Axe Fight"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -388,8 +392,12 @@
                 "sections": [
                     {
                         "name": "Anger Issues (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fateAccess|Anger Issues"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|Anger Issues"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -413,8 +421,12 @@
                 "sections": [
                     {
                         "name": "Days of Thunder (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fateAccess|Days of Thunder"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|Days of Thunder"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -438,8 +450,12 @@
                 "sections": [
                     {
                         "name": "Hack the Planet (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fateAccess|Hack the Planet"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|Hack the Planet"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -463,8 +479,12 @@
                 "sections": [
                     {
                         "name": "Its Super Defective (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fateAccess|It's Super Defective"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|It's Super Defective"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -488,8 +508,12 @@
                 "sections": [
                     {
                         "name": "License to Dill (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fateAccess|License to Dill"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|License to Dill"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -513,8 +537,12 @@
                 "sections": [
                     {
                         "name": "Running of the Katobleps (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fateAccess|Running of the Katobleps"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|Running of the Katobleps"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -538,8 +566,12 @@
                 "sections": [
                     {
                         "name": "Ware the Wolves (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fateAccess|Ware the Wolves"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|Ware the Wolves"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -563,8 +595,12 @@
                 "sections": [
                     {
                         "name": "(Got My Eye) Set on You (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fateAccess|(Got My Eye) Set on You"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|(Got My Eye) Set on You"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -588,8 +624,12 @@
                 "sections": [
                     {
                         "name": "Domo Arigato (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fateAccess|Domo Arigato"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|Domo Arigato"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -613,8 +653,12 @@
                 "sections": [
                     {
                         "name": "Mi Casa Es Mi Casa (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fateAccess|Mi Casa Es Mi Casa"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|Mi Casa Es Mi Casa"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -638,8 +682,12 @@
                 "sections": [
                     {
                         "name": "Mr. Roboto (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fateAccess|Mr. Roboto"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|Mr. Roboto"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -663,8 +711,12 @@
                 "sections": [
                     {
                         "name": "Old Stampeding Grounds (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fateAccess|Old Stampeding Grounds"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|Old Stampeding Grounds"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -688,8 +740,12 @@
                 "sections": [
                     {
                         "name": "print(I hate snakes) (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fateAccess|print('I hate snakes')"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|print('I hate snakes')"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -713,8 +769,12 @@
                 "sections": [
                     {
                         "name": "Pulling the Wool (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fateAccess|Pulling the Wool"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|Pulling the Wool"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -738,8 +798,12 @@
                 "sections": [
                     {
                         "name": "To Each His Drone (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fateAccess|To Each His Drone"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|To Each His Drone"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -763,8 +827,12 @@
                 "sections": [
                     {
                         "name": "When Its So Salvage (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fateAccess|When It's So Salvage"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|When It's So Salvage"
+                        ],
                         "item_count": 1
                     }
                 ],

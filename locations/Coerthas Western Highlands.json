@@ -115,10 +115,10 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "$leveling:50"
+                    "^$fateMinLevelAccess|50"
                 ],
                 "visibility_rules": [
-                    "$fatesanity_disabled, level_cap:50"
+                    "$fateMinLevelVisibility|50"
                 ],
                 "sections": [
                     {
@@ -224,10 +224,10 @@
                     {
                         "name": "A Dung Deal (FATE)",
                         "access_rules": [
-                            "$leveling:50"
+                            "^$fateAccess|A Dung Deal"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:50"
+                            "$fateVisibility|A Dung Deal"
                         ],
                         "item_count": 1
                     }
@@ -254,10 +254,10 @@
                     {
                         "name": "Apparent Trap (FATE)",
                         "access_rules": [
-                            "$leveling:50"
+                            "^$fateAccess|Apparent Trap"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:50"
+                            "$fateVisibility|Apparent Trap"
                         ],
                         "item_count": 1
                     }
@@ -284,10 +284,10 @@
                     {
                         "name": "Dawn of the Mylodons (FATE)",
                         "access_rules": [
-                            "$leveling:50"
+                            "^$fateAccess|Dawn of the Mylodons"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:50"
+                            "$fateVisibility|Dawn of the Mylodons"
                         ],
                         "item_count": 1
                     }
@@ -314,10 +314,10 @@
                     {
                         "name": "Don of the Mylodons (FATE)",
                         "access_rules": [
-                            "$leveling:50"
+                            "^$fateAccess|Don of the Mylodons"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:50"
+                            "$fateVisibility|Don of the Mylodons"
                         ],
                         "item_count": 1
                     }
@@ -344,10 +344,10 @@
                     {
                         "name": "Eye in the Sky (FATE)",
                         "access_rules": [
-                            "$leveling:50"
+                            "^$fateAccess|Eye in the Sky"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:50"
+                            "$fateVisibility|Eye in the Sky"
                         ],
                         "item_count": 1
                     }
@@ -374,10 +374,10 @@
                     {
                         "name": "Follow the Sleet (FATE)",
                         "access_rules": [
-                            "$leveling:50"
+                            "^$fateAccess|Follow the Sleet"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:50"
+                            "$fateVisibility|Follow the Sleet"
                         ],
                         "item_count": 1
                     }
@@ -404,10 +404,10 @@
                     {
                         "name": "Land of the Freeze (FATE)",
                         "access_rules": [
-                            "$leveling:50"
+                            "^$fateAccess|Land of the Freeze"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:50"
+                            "$fateVisibility|Land of the Freeze"
                         ],
                         "item_count": 1
                     }
@@ -434,10 +434,10 @@
                     {
                         "name": "No Ifs, Ands, or Butts (FATE)",
                         "access_rules": [
-                            "$leveling:50"
+                            "^$fateAccess|No Ifs Ands or Butts"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:50"
+                            "$fateVisibility|No Ifs Ands or Butts"
                         ],
                         "item_count": 1
                     }
@@ -464,10 +464,10 @@
                     {
                         "name": "Null and Void (FATE)",
                         "access_rules": [
-                            "$leveling:50"
+                            "^$fateAccess|Null and Void"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:50"
+                            "$fateVisibility|Null and Void"
                         ],
                         "item_count": 1
                     }
@@ -494,10 +494,10 @@
                     {
                         "name": "One Whiskey, One Goat, One Spear (FATE)",
                         "access_rules": [
-                            "$leveling:50"
+                            "^$fateAccess|One Whiskey One Goat One Spear"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:50"
+                            "$fateVisibility|One Whiskey One Goat One Spear"
                         ],
                         "item_count": 1
                     }
@@ -524,10 +524,10 @@
                     {
                         "name": "Panic Rheum (FATE)",
                         "access_rules": [
-                            "$leveling:50"
+                            "^$fateAccess|Panic Rheum"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:50"
+                            "$fateVisibility|Panic Rheum"
                         ],
                         "item_count": 1
                     }
@@ -554,10 +554,10 @@
                     {
                         "name": "Run, Riders, Run (FATE)",
                         "access_rules": [
-                            "$leveling:50"
+                            "^$fateAccess|Run Riders Run"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:50"
+                            "$fateVisibility|Run Riders Run"
                         ],
                         "item_count": 1
                     }
@@ -584,10 +584,10 @@
                     {
                         "name": "Sugar, Sugar (FATE)",
                         "access_rules": [
-                            "$leveling:50"
+                            "^$fateAccess|Sugar Sugar"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:50"
+                            "$fateVisibility|Sugar Sugar"
                         ],
                         "item_count": 1
                     }
@@ -614,10 +614,10 @@
                     {
                         "name": "What You See Is What You Get (FATE)",
                         "access_rules": [
-                            "$leveling:50"
+                            "^$fateAccess|What You See Is What You Get"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:50"
+                            "$fateVisibility|What You See Is What You Get"
                         ],
                         "item_count": 1
                     }
@@ -644,10 +644,10 @@
                     {
                         "name": "Abominable Me (FATE)",
                         "access_rules": [
-                            "$leveling:51"
+                            "^$fateAccess|Abominable Me"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:51"
+                            "$fateVisibility|Abominable Me"
                         ],
                         "item_count": 1
                     }
@@ -674,10 +674,10 @@
                     {
                         "name": "Dishonored (FATE)",
                         "access_rules": [
-                            "$leveling:51"
+                            "^$fateAccess|Dishonored"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:51"
+                            "$fateVisibility|Dishonored"
                         ],
                         "item_count": 1
                     }
@@ -704,10 +704,10 @@
                     {
                         "name": "In Command (FATE)",
                         "access_rules": [
-                            "$leveling:51"
+                            "^$fateAccess|In Command"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:51"
+                            "$fateVisibility|In Command"
                         ],
                         "item_count": 1
                     }
@@ -734,10 +734,10 @@
                     {
                         "name": "Pico de Gallows (FATE)",
                         "access_rules": [
-                            "$leveling:51"
+                            "^$fateAccess|Pico de Gallows"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:51"
+                            "$fateVisibility|Pico de Gallows"
                         ],
                         "item_count": 1
                     }
@@ -764,10 +764,10 @@
                     {
                         "name": "Requiem for a Dragon (FATE)",
                         "access_rules": [
-                            "$leveling:51"
+                            "^$fateAccess|Requiem for a Dragon"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:51"
+                            "$fateVisibility|Requiem for a Dragon"
                         ],
                         "item_count": 1
                     }
@@ -794,10 +794,10 @@
                     {
                         "name": "Sick Pack (FATE)",
                         "access_rules": [
-                            "$leveling:51"
+                            "^$fateAccess|Sick Pack"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:51"
+                            "$fateVisibility|Sick Pack"
                         ],
                         "item_count": 1
                     }
@@ -824,10 +824,10 @@
                     {
                         "name": "The Polar Express (FATE)",
                         "access_rules": [
-                            "$leveling:51"
+                            "^$fateAccess|The Polar Express"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:51"
+                            "$fateVisibility|The Polar Express"
                         ],
                         "item_count": 1
                     }
@@ -854,10 +854,10 @@
                     {
                         "name": "True Convictions (FATE)",
                         "access_rules": [
-                            "$leveling:51"
+                            "^$fateAccess|True Convictions"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:51"
+                            "$fateVisibility|True Convictions"
                         ],
                         "item_count": 1
                     }
@@ -884,10 +884,10 @@
                     {
                         "name": "Unsilent Vigil (FATE)",
                         "access_rules": [
-                            "$leveling:51"
+                            "^$fateAccess|Unsilent Vigil"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:51"
+                            "$fateVisibility|Unsilent Vigil"
                         ],
                         "item_count": 1
                     }
@@ -914,10 +914,10 @@
                     {
                         "name": "We Fought a Dzu (FATE)",
                         "access_rules": [
-                            "$leveling:51"
+                            "^$fateAccess|We Fought a Dzu"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:51"
+                            "$fateVisibility|We Fought a Dzu"
                         ],
                         "item_count": 1
                     }
@@ -944,10 +944,10 @@
                     {
                         "name": "A Stihi Situation (FATE)",
                         "access_rules": [
-                            "$leveling:56"
+                            "^$fateAccess|A Stihi Situation"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:56"
+                            "$fateVisibility|A Stihi Situation"
                         ],
                         "item_count": 1
                     }
@@ -974,10 +974,10 @@
                     {
                         "name": "Sphenopalatine Ganglioneuralgia (FATE)",
                         "access_rules": [
-                            "$leveling:56"
+                            "^$fateAccess|Sphenopalatine Ganglioneuralgia"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:56"
+                            "$fateVisibility|Sphenopalatine Ganglioneuralgia"
                         ],
                         "item_count": 1
                     }

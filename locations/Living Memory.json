@@ -527,8 +527,12 @@
                 "sections": [
                     {
                         "name": "Canal Carnage (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fateAccess|Canal Carnage"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|Canal Carnage"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -552,8 +556,12 @@
                 "sections": [
                     {
                         "name": "Critical Corruption (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fateAccess|Critical Corruption"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|Critical Corruption"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -577,8 +585,12 @@
                 "sections": [
                     {
                         "name": "Feed Me Sentries (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fateAccess|Feed Me Sentries"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|Feed Me Sentries"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -602,8 +614,12 @@
                 "sections": [
                     {
                         "name": "Horse in the Round (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fateAccess|Horse in the Round"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|Horse in the Round"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -627,8 +643,12 @@
                 "sections": [
                     {
                         "name": "Invaders from Asyle (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fateAccess|Invaders from Asyle"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|Invaders from Asyle"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -652,8 +672,12 @@
                 "sections": [
                     {
                         "name": "Mascot March (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fateAccess|Mascot March"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|Mascot March"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -677,8 +701,12 @@
                 "sections": [
                     {
                         "name": "Mascot Mayhem (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fateAccess|Mascot Mayhem"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|Mascot Mayhem"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -702,8 +730,12 @@
                 "sections": [
                     {
                         "name": "No Loitering (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fateAccess|No Loitering"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|No Loitering"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -727,8 +759,12 @@
                 "sections": [
                     {
                         "name": "Plumbers Dont Fear Slimes (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fateAccess|Plumbers Don't Fear Slimes"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|Plumbers Don't Fear Slimes"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -752,8 +788,12 @@
                 "sections": [
                     {
                         "name": "Scattered Memories (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fateAccess|Scattered Memories"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|Scattered Memories"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -777,8 +817,12 @@
                 "sections": [
                     {
                         "name": "Seeds of Tomorrow (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fateAccess|Seeds of Tomorrow"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|Seeds of Tomorrow"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -802,8 +846,12 @@
                 "sections": [
                     {
                         "name": "Slime to Die (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fateAccess|Slime to Die"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|Slime to Die"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -827,8 +875,12 @@
                 "sections": [
                     {
                         "name": "Mascot Murder (FATE)",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fateAccess|Mascot Murder"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|Mascot Murder"
+                        ],
                         "item_count": 1
                     }
                 ],

@@ -421,10 +421,10 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "$leveling:59"
+                    "^$fateMinLevelAccess|59"
                 ],
                 "visibility_rules": [
-                    "$fatesanity_disabled, level_cap:59"
+                    "$fateMinLevelVisibility|59"
                 ],
                 "sections": [
                     {
@@ -530,10 +530,10 @@
                     {
                         "name": "A Bugs Death (FATE)",
                         "access_rules": [
-                            "$leveling:59"
+                            "^$fateAccess|A Bug's Death"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:59"
+                            "$fateVisibility|A Bug's Death"
                         ],
                         "item_count": 1
                     }
@@ -560,10 +560,10 @@
                     {
                         "name": "A Room Without Books (FATE)",
                         "access_rules": [
-                            "$leveling:59"
+                            "^$fateAccess|A Room Without Books"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:59"
+                            "$fateVisibility|A Room Without Books"
                         ],
                         "item_count": 1
                     }
@@ -590,10 +590,10 @@
                     {
                         "name": "Curiously Strong Things (FATE)",
                         "access_rules": [
-                            "$leveling:59"
+                            "^$fateAccess|Curiously Strong Things"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:59"
+                            "$fateVisibility|Curiously Strong Things"
                         ],
                         "item_count": 1
                     }
@@ -620,10 +620,10 @@
                     {
                         "name": "Do Spinners Dream of Electric Rooks (FATE)",
                         "access_rules": [
-                            "$leveling:59"
+                            "^$fateAccess|Do Spinners Dream of Electric Rooks"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:59"
+                            "$fateVisibility|Do Spinners Dream of Electric Rooks"
                         ],
                         "item_count": 1
                     }
@@ -650,10 +650,10 @@
                     {
                         "name": "Harvest Moon (FATE)",
                         "access_rules": [
-                            "$leveling:59"
+                            "^$fateAccess|Harvest Moon"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:59"
+                            "$fateVisibility|Harvest Moon"
                         ],
                         "item_count": 1
                     }
@@ -680,10 +680,10 @@
                     {
                         "name": "Life of Brain (FATE)",
                         "access_rules": [
-                            "$leveling:59"
+                            "^$fateAccess|Life of Brain"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:59"
+                            "$fateVisibility|Life of Brain"
                         ],
                         "item_count": 1
                     }
@@ -710,10 +710,10 @@
                     {
                         "name": "No Greater Goryshche (FATE)",
                         "access_rules": [
-                            "$leveling:59"
+                            "^$fateAccess|No Greater Goryshche"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:59"
+                            "$fateVisibility|No Greater Goryshche"
                         ],
                         "item_count": 1
                     }
@@ -740,10 +740,10 @@
                     {
                         "name": "Out of Sight Out of Mind (FATE)",
                         "access_rules": [
-                            "$leveling:59"
+                            "^$fateAccess|Out of Sight Out of Mind"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:59"
+                            "$fateVisibility|Out of Sight Out of Mind"
                         ],
                         "item_count": 1
                     }
@@ -770,10 +770,10 @@
                     {
                         "name": "Pet Smart (FATE)",
                         "access_rules": [
-                            "$leveling:59"
+                            "^$fateAccess|Pet Smart"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:59"
+                            "$fateVisibility|Pet Smart"
                         ],
                         "item_count": 1
                     }
@@ -800,10 +800,10 @@
                     {
                         "name": "Phi Slamma Gamma East (FATE)",
                         "access_rules": [
-                            "$leveling:59"
+                            "^$fateAccess|Phi Slamma Gamma East"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:59"
+                            "$fateVisibility|Phi Slamma Gamma East"
                         ],
                         "item_count": 1
                     }
@@ -830,10 +830,10 @@
                     {
                         "name": "Phi Slamma Gamma South (FATE)",
                         "access_rules": [
-                            "$leveling:59"
+                            "^$fateAccess|Phi Slamma Gamma South"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:59"
+                            "$fateVisibility|Phi Slamma Gamma South"
                         ],
                         "item_count": 1
                     }
@@ -860,10 +860,10 @@
                     {
                         "name": "Phi Slamma Gamma West (FATE)",
                         "access_rules": [
-                            "$leveling:59"
+                            "^$fateAccess|Phi Slamma Gamma West"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:59"
+                            "$fateVisibility|Phi Slamma Gamma West"
                         ],
                         "item_count": 1
                     }
@@ -890,10 +890,10 @@
                     {
                         "name": "Prey Online (FATE)",
                         "access_rules": [
-                            "$leveling:59"
+                            "^$fateAccess|Prey Online"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:59"
+                            "$fateVisibility|Prey Online"
                         ],
                         "item_count": 1
                     }
@@ -920,10 +920,10 @@
                     {
                         "name": "Put the Knives Down (FATE)",
                         "access_rules": [
-                            "$leveling:59"
+                            "^$fateAccess|Put the Knives Down"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:59"
+                            "$fateVisibility|Put the Knives Down"
                         ],
                         "item_count": 1
                     }
@@ -950,10 +950,10 @@
                     {
                         "name": "Rampant Speculation (FATE)",
                         "access_rules": [
-                            "$leveling:59"
+                            "^$fateAccess|Rampant Speculation"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:59"
+                            "$fateVisibility|Rampant Speculation"
                         ],
                         "item_count": 1
                     }
@@ -980,10 +980,10 @@
                     {
                         "name": "Scared Sylla (FATE)",
                         "access_rules": [
-                            "$leveling:59"
+                            "^$fateAccess|Scared Sylla"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:59"
+                            "$fateVisibility|Scared Sylla"
                         ],
                         "item_count": 1
                     }
@@ -1010,10 +1010,10 @@
                     {
                         "name": "Still Ticking (FATE)",
                         "access_rules": [
-                            "$leveling:59"
+                            "^$fateAccess|Still Ticking"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:59"
+                            "$fateVisibility|Still Ticking"
                         ],
                         "item_count": 1
                     }
@@ -1040,10 +1040,10 @@
                     {
                         "name": "The Late Escape (FATE)",
                         "access_rules": [
-                            "$leveling:59"
+                            "^$fateAccess|The Late Escape"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:59"
+                            "$fateVisibility|The Late Escape"
                         ],
                         "item_count": 1
                     }
@@ -1070,10 +1070,10 @@
                     {
                         "name": "The Monster Mass (FATE)",
                         "access_rules": [
-                            "$leveling:59"
+                            "^$fateAccess|The Monster Mass"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:59"
+                            "$fateVisibility|The Monster Mass"
                         ],
                         "item_count": 1
                     }
@@ -1100,10 +1100,10 @@
                     {
                         "name": "The Mystery Machine (FATE)",
                         "access_rules": [
-                            "$leveling:59"
+                            "^$fateAccess|The Mystery Machine"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:59"
+                            "$fateVisibility|The Mystery Machine"
                         ],
                         "item_count": 1
                     }
@@ -1130,10 +1130,10 @@
                     {
                         "name": "The Root of Evil (FATE)",
                         "access_rules": [
-                            "$leveling:59"
+                            "^$fateAccess|The Root of Evil"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:59"
+                            "$fateVisibility|The Root of Evil"
                         ],
                         "item_count": 1
                     }
@@ -1160,10 +1160,10 @@
                     {
                         "name": "Yak it Up (FATE)",
                         "access_rules": [
-                            "$leveling:59"
+                            "^$fateAccess|Yak it Up"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:59"
+                            "$fateVisibility|Yak it Up"
                         ],
                         "item_count": 1
                     }

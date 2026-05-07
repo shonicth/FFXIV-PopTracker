@@ -481,9 +481,11 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "$leveling:4"
+                    "^$fateMinLevelAccess|4"
                 ],
-                "visibility_rules": ["$fatesanity_disabled"],
+                "visibility_rules": [
+                    "$fateMinLevelVisibility|4"
+                ],
                 "sections": [
                     {
                         "name": "FATE #1",
@@ -568,9 +570,11 @@
                     {
                         "name": "One Enchanted Eve (FATE)",
                         "access_rules": [
-                            "$leveling:4"
+                            "^$fateAccess|One Enchanted Eve"
                         ],
-                        "visibility_rules": ["fatesanity"],
+                        "visibility_rules": [
+                            "$fateVisibility|One Enchanted Eve"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -596,9 +600,11 @@
                     {
                         "name": "Clever Girls (FATE)",
                         "access_rules": [
-                            "$leveling:5"
+                            "^$fateAccess|Clever Girls"
                         ],
-                        "visibility_rules": ["fatesanity"],
+                        "visibility_rules": [
+                            "$fateVisibility|Clever Girls"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -624,9 +630,11 @@
                     {
                         "name": "Training Day (FATE)",
                         "access_rules": [
-                            "$leveling:5"
+                            "^$fateAccess|Training Day"
                         ],
-                        "visibility_rules": ["fatesanity"],
+                        "visibility_rules": [
+                            "$fateVisibility|Training Day"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -652,9 +660,11 @@
                     {
                         "name": "Lady Killer (FATE)",
                         "access_rules": [
-                            "$leveling:7"
+                            "^$fateAccess|Lady Killer"
                         ],
-                        "visibility_rules": ["fatesanity"],
+                        "visibility_rules": [
+                            "$fateVisibility|Lady Killer"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -680,9 +690,11 @@
                     {
                         "name": "A Mother Scorned (FATE)",
                         "access_rules": [
-                            "$leveling:8"
+                            "^$fateAccess|A Mother Scorned"
                         ],
-                        "visibility_rules": ["fatesanity"],
+                        "visibility_rules": [
+                            "$fateVisibility|A Mother Scorned"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -708,9 +720,11 @@
                     {
                         "name": "Something in the Water (FATE)",
                         "access_rules": [
-                            "$leveling:8"
+                            "^$fateAccess|Something in the Water"
                         ],
-                        "visibility_rules": ["fatesanity"],
+                        "visibility_rules": [
+                            "$fateVisibility|Something in the Water"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -736,9 +750,11 @@
                     {
                         "name": "Alux of the Draw (FATE)",
                         "access_rules": [
-                            "$leveling:9"
+                            "^$fateAccess|Alux of the Draw"
                         ],
-                        "visibility_rules": ["fatesanity"],
+                        "visibility_rules": [
+                            "$fateVisibility|Alux of the Draw"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -764,9 +780,11 @@
                     {
                         "name": "Leader of the Pack (FATE)",
                         "access_rules": [
-                            "$leveling:9"
+                            "^$fateAccess|Leader of the Pack"
                         ],
-                        "visibility_rules": ["fatesanity"],
+                        "visibility_rules": [
+                            "$fateVisibility|Leader of the Pack"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -792,9 +810,11 @@
                     {
                         "name": "Lethe on My Mind (FATE)",
                         "access_rules": [
-                            "$leveling:10"
+                            "^$fateAccess|Lethe on My Mind"
                         ],
-                        "visibility_rules": ["fatesanity"],
+                        "visibility_rules": [
+                            "$fateVisibility|Lethe on My Mind"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -820,9 +840,11 @@
                     {
                         "name": "Spirithold Run (FATE)",
                         "access_rules": [
-                            "$leveling:10"
+                            "^$fateAccess|Spirithold Run"
                         ],
-                        "visibility_rules": ["fatesanity"],
+                        "visibility_rules": [
+                            "$fateVisibility|Spirithold Run"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -848,9 +870,11 @@
                     {
                         "name": "Love is in the Air (FATE)",
                         "access_rules": [
-                            "$leveling:11"
+                            "^$fateAccess|Love is in the Air"
                         ],
-                        "visibility_rules": ["fatesanity"],
+                        "visibility_rules": [
+                            "$fateVisibility|Love is in the Air"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -876,9 +900,11 @@
                     {
                         "name": "The Sting (FATE)",
                         "access_rules": [
-                            "$leveling:11"
+                            "^$fateAccess|The Sting"
                         ],
-                        "visibility_rules": ["fatesanity"],
+                        "visibility_rules": [
+                            "$fateVisibility|The Sting"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -904,9 +930,11 @@
                     {
                         "name": "Sleep Tight (FATE)",
                         "access_rules": [
-                            "$leveling:12"
+                            "^$fateAccess|Sleep Tight"
                         ],
-                        "visibility_rules": ["fatesanity"],
+                        "visibility_rules": [
+                            "$fateVisibility|Sleep Tight"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -932,9 +960,11 @@
                     {
                         "name": "Bleeding Green (FATE)",
                         "access_rules": [
-                            "$leveling:13"
+                            "^$fateAccess|Bleeding Green"
                         ],
-                        "visibility_rules": ["fatesanity"],
+                        "visibility_rules": [
+                            "$fateVisibility|Bleeding Green"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -960,9 +990,11 @@
                     {
                         "name": "Theres Something About Lou (FATE)",
                         "access_rules": [
-                            "$leveling:14"
+                            "^$fateAccess|There's Something About Lou"
                         ],
-                        "visibility_rules": ["fatesanity"],
+                        "visibility_rules": [
+                            "$fateVisibility|There's Something About Lou"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -988,9 +1020,11 @@
                     {
                         "name": "Whats Your Poison (FATE)",
                         "access_rules": [
-                            "$leveling:30"
+                            "^$fateAccess|What's Your Poison"
                         ],
-                        "visibility_rules": ["fatesanity"],
+                        "visibility_rules": [
+                            "$fateVisibility|What's Your Poison"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -1016,9 +1050,11 @@
                     {
                         "name": "My Baby Green (FATE)",
                         "access_rules": [
-                            "$leveling:31"
+                            "^$fateAccess|My Baby Green"
                         ],
-                        "visibility_rules": ["fatesanity, level_cap:31"],
+                        "visibility_rules": [
+                            "$fateVisibility|My Baby Green"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -1044,9 +1080,11 @@
                     {
                         "name": "Revenant Things (FATE)",
                         "access_rules": [
-                            "$leveling:31"
+                            "^$fateAccess|Revenant Things"
                         ],
-                        "visibility_rules": ["fatesanity, level_cap:31"],
+                        "visibility_rules": [
+                            "$fateVisibility|Revenant Things"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -1072,9 +1110,11 @@
                     {
                         "name": "The Lindwurm Has Turned (FATE)",
                         "access_rules": [
-                            "$leveling:31"
+                            "^$fateAccess|The Lindwurm Has Turned"
                         ],
-                        "visibility_rules": ["fatesanity, level_cap:31"],
+                        "visibility_rules": [
+                            "$fateVisibility|The Lindwurm Has Turned"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -1100,9 +1140,11 @@
                     {
                         "name": "If I Only Had a Soul (FATE)",
                         "access_rules": [
-                            "$leveling:33"
+                            "^$fateAccess|If I Only Had a Soul"
                         ],
-                        "visibility_rules": ["fatesanity, level_cap:33"],
+                        "visibility_rules": [
+                            "$fateVisibility|If I Only Had a Soul"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -1128,9 +1170,11 @@
                     {
                         "name": "Asipatra Attacks (FATE)",
                         "access_rules": [
-                            "$leveling:34"
+                            "^$fateAccess|Asipatra Attacks"
                         ],
-                        "visibility_rules": ["fatesanity, level_cap:34"],
+                        "visibility_rules": [
+                            "$fateVisibility|Asipatra Attacks"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -1156,9 +1200,11 @@
                     {
                         "name": "In Spite of It All (FATE)",
                         "access_rules": [
-                            "$leveling:43"
+                            "^$fateAccess|In Spite of It All"
                         ],
-                        "visibility_rules": ["fatesanity, level_cap:43"],
+                        "visibility_rules": [
+                            "$fateVisibility|In Spite of It All"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -1184,9 +1230,10 @@
                     {
                         "name": "Steel Reign (FATE)",
                         "access_rules": [
-                            "$leveling:50"
+                            "^$fateAccess|Steel Reign"
                         ],
-                        "visibility_rules": ["fatesanity, level_cap:50, include_unreasonable_fates"],
+                        "visibility_rules": [
+                            "$fateVisibility|Steel Reign, include_unreasonable_fates"],
                         "item_count": 1
                     }
                 ],
