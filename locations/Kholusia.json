@@ -392,10 +392,10 @@
                     {
                         "name": "Bitter Barley (FATE)",
                         "access_rules": [
-                            "$leveling:70"
+                            "^$fateAccess|Bitter Barley"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:70"
+                            "$fateVisibility|Bitter Barley"
                         ],
                         "item_count": 1
                     }
@@ -422,10 +422,10 @@
                     {
                         "name": "JELL-NO (FATE)",
                         "access_rules": [
-                            "$leveling:70"
+                            "^$fateAccess|JELL-NO"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:70"
+                            "$fateVisibility|JELL-NO"
                         ],
                         "item_count": 1
                     }
@@ -452,10 +452,10 @@
                     {
                         "name": "One-punch Mantis (FATE)",
                         "access_rules": [
-                            "$leveling:70"
+                            "^$fateAccess|One-punch Mantis"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:70"
+                            "$fateVisibility|One-punch Mantis"
                         ],
                         "item_count": 1
                     }
@@ -482,10 +482,10 @@
                     {
                         "name": "Roadside Dinner (FATE)",
                         "access_rules": [
-                            "$leveling:70"
+                            "^$fateAccess|Roadside Dinner"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:70"
+                            "$fateVisibility|Roadside Dinner"
                         ],
                         "item_count": 1
                     }
@@ -512,10 +512,10 @@
                     {
                         "name": "Shadow Over Stilltide (FATE)",
                         "access_rules": [
-                            "$leveling:70"
+                            "^$fateAccess|Shadow Over Stilltide"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:70"
+                            "$fateVisibility|Shadow Over Stilltide"
                         ],
                         "item_count": 1
                     }
@@ -542,10 +542,10 @@
                     {
                         "name": "The Wright Stuff (FATE)",
                         "access_rules": [
-                            "$leveling:70"
+                            "^$fateAccess|The Wright Stuff"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:70"
+                            "$fateVisibility|The Wright Stuff"
                         ],
                         "item_count": 1
                     }
@@ -572,10 +572,10 @@
                     {
                         "name": "A Family Most Formidable (FATE)",
                         "access_rules": [
-                            "$leveling:78"
+                            "^$fateAccess|A Family Most Formidable"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:78"
+                            "$fateVisibility|A Family Most Formidable"
                         ],
                         "item_count": 1
                     }
@@ -602,10 +602,10 @@
                     {
                         "name": "Foes Most Formidable (FATE)",
                         "access_rules": [
-                            "$leveling:78"
+                            "^$fateAccess|Foes Most Formidable"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:78"
+                            "$fateVisibility|Foes Most Formidable"
                         ],
                         "item_count": 1
                     }
@@ -632,10 +632,10 @@
                     {
                         "name": "Ironbeard Builders Rebuilt (FATE)",
                         "access_rules": [
-                            "$leveling:78"
+                            "^$fateAccess|Ironbeard Builders Rebuilt"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:78"
+                            "$fateVisibility|Ironbeard Builders Rebuilt"
                         ],
                         "item_count": 1
                     }
@@ -662,10 +662,10 @@
                     {
                         "name": "Ironbeard Builders Resist (FATE)",
                         "access_rules": [
-                            "$leveling:78"
+                            "^$fateAccess|Ironbeard Builders Resist"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:78"
+                            "$fateVisibility|Ironbeard Builders Resist"
                         ],
                         "item_count": 1
                     }
@@ -692,10 +692,10 @@
                     {
                         "name": "Ironbeard Builders Revolt (FATE)",
                         "access_rules": [
-                            "$leveling:78"
+                            "^$fateAccess|Ironbeard Builders Revolt"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:78"
+                            "$fateVisibility|Ironbeard Builders Revolt"
                         ],
                         "item_count": 1
                     }
@@ -722,10 +722,10 @@
                     {
                         "name": "Knockout (FATE)",
                         "access_rules": [
-                            "$leveling:78"
+                            "^$fateAccess|Knockout"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:78"
+                            "$fateVisibility|Knockout"
                         ],
                         "item_count": 1
                     }
@@ -752,10 +752,10 @@
                     {
                         "name": "Not Today (FATE)",
                         "access_rules": [
-                            "$leveling:78"
+                            "^$fateAccess|Not Today"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:78"
+                            "$fateVisibility|Not Today"
                         ],
                         "item_count": 1
                     }
@@ -782,10 +782,10 @@
                     {
                         "name": "Season of Our Discord (FATE)",
                         "access_rules": [
-                            "$leveling:78"
+                            "^$fateAccess|Season of Our Discord"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:78"
+                            "$fateVisibility|Season of Our Discord"
                         ],
                         "item_count": 1
                     }
@@ -812,10 +812,10 @@
                     {
                         "name": "The Amity Village Horror (FATE)",
                         "access_rules": [
-                            "$leveling:78"
+                            "^$fateAccess|The Amity Village Horror"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:78"
+                            "$fateVisibility|The Amity Village Horror"
                         ],
                         "item_count": 1
                     }
@@ -842,10 +842,10 @@
                     {
                         "name": "A Finale Most Formidable (FATE)",
                         "access_rules": [
-                            "$leveling:80"
+                            "^$fateAccess|A Finale Most Formidable"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:80, include_unreasonable_fates"
+                            "$fateVisibility|A Finale Most Formidable ,include_unreasonable_fates"
                         ],
                         "item_count": 1
                     }

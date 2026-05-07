@@ -325,10 +325,10 @@
                     {
                         "name": "A Beast among Men (FATE)",
                         "access_rules": [
-                            "$leveling:71"
+                            "^$fateAccess|A Beast among Men"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:71"
+                            "$fateVisibility|A Beast among Men"
                         ],
                         "item_count": 1
                     }
@@ -355,10 +355,10 @@
                     {
                         "name": "Behind Anemone Lines (FATE)",
                         "access_rules": [
-                            "$leveling:71"
+                            "^$fateAccess|Behind Anemone Lines"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:71"
+                            "$fateVisibility|Behind Anemone Lines"
                         ],
                         "item_count": 1
                     }
@@ -385,10 +385,10 @@
                     {
                         "name": "Calm a Chameleon (FATE)",
                         "access_rules": [
-                            "$leveling:71"
+                            "^$fateAccess|Calm a Chameleon"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:71"
+                            "$fateVisibility|Calm a Chameleon"
                         ],
                         "item_count": 1
                     }
@@ -415,10 +415,10 @@
                     {
                         "name": "Creeping Nightshade (FATE)",
                         "access_rules": [
-                            "$leveling:71"
+                            "^$fateAccess|Creeping Nightshade"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:71"
+                            "$fateVisibility|Creeping Nightshade"
                         ],
                         "item_count": 1
                     }
@@ -445,10 +445,10 @@
                     {
                         "name": "Cry Not Wolf (FATE)",
                         "access_rules": [
-                            "$leveling:71"
+                            "^$fateAccess|Cry Not Wolf"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:71"
+                            "$fateVisibility|Cry Not Wolf"
                         ],
                         "item_count": 1
                     }
@@ -475,10 +475,10 @@
                     {
                         "name": "Deadly Nightshade (FATE)",
                         "access_rules": [
-                            "$leveling:71"
+                            "^$fateAccess|Deadly Nightshade"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:71"
+                            "$fateVisibility|Deadly Nightshade"
                         ],
                         "item_count": 1
                     }
@@ -505,10 +505,10 @@
                     {
                         "name": "Dont Feed the Gremlins (FATE)",
                         "access_rules": [
-                            "$leveling:71"
+                            "^$fateAccess|Don't Feed the Gremlins"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:71"
+                            "$fateVisibility|Don't Feed the Gremlins"
                         ],
                         "item_count": 1
                     }
@@ -535,10 +535,10 @@
                     {
                         "name": "Draconian Measures (FATE)",
                         "access_rules": [
-                            "$leveling:71"
+                            "^$fateAccess|Draconian Measures"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:71"
+                            "$fateVisibility|Draconian Measures"
                         ],
                         "item_count": 1
                     }
@@ -565,10 +565,10 @@
                     {
                         "name": "Economic Peril (FATE)",
                         "access_rules": [
-                            "$leveling:71"
+                            "^$fateAccess|Economic Peril"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:71"
+                            "$fateVisibility|Economic Peril"
                         ],
                         "item_count": 1
                     }
@@ -595,10 +595,10 @@
                     {
                         "name": "Flowering Nightshade (FATE)",
                         "access_rules": [
-                            "$leveling:71"
+                            "^$fateAccess|Flowering Nightshade"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:71"
+                            "$fateVisibility|Flowering Nightshade"
                         ],
                         "item_count": 1
                     }
@@ -625,10 +625,10 @@
                     {
                         "name": "Little Gate of Horrors (FATE)",
                         "access_rules": [
-                            "$leveling:71"
+                            "^$fateAccess|Little Gate of Horrors"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:71"
+                            "$fateVisibility|Little Gate of Horrors"
                         ],
                         "item_count": 1
                     }
@@ -655,10 +655,10 @@
                     {
                         "name": "Looming Nightshade (FATE)",
                         "access_rules": [
-                            "$leveling:71"
+                            "^$fateAccess|Looming Nightshade"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:71"
+                            "$fateVisibility|Looming Nightshade"
                         ],
                         "item_count": 1
                     }
@@ -685,10 +685,10 @@
                     {
                         "name": "Pick-up Sticks (FATE)",
                         "access_rules": [
-                            "$leveling:71"
+                            "^$fateAccess|Pick-up Sticks"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:71"
+                            "$fateVisibility|Pick-up Sticks"
                         ],
                         "item_count": 1
                     }
@@ -715,10 +715,10 @@
                     {
                         "name": "Subtle Nightshade (FATE)",
                         "access_rules": [
-                            "$leveling:71"
+                            "^$fateAccess|Subtle Nightshade"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:71"
+                            "$fateVisibility|Subtle Nightshade"
                         ],
                         "item_count": 1
                     }
@@ -745,10 +745,10 @@
                     {
                         "name": "Toxic Nightshade (FATE)",
                         "access_rules": [
-                            "$leveling:71"
+                            "^$fateAccess|Toxic Nightshade"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:71"
+                            "$fateVisibility|Toxic Nightshade"
                         ],
                         "item_count": 1
                     }

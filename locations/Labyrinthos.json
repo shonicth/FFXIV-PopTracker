@@ -351,10 +351,10 @@
                     {
                         "name": "Bite the Pellet (FATE)",
                         "access_rules": [
-                            "$leveling:80"
+                            "^$fateAccess|Bite the Pellet"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:80"
+                            "$fateVisibility|Bite the Pellet"
                         ],
                         "item_count": 1
                     }
@@ -381,10 +381,10 @@
                     {
                         "name": "Homecrawling (FATE)",
                         "access_rules": [
-                            "$leveling:80"
+                            "^$fateAccess|Homecrawling"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:80"
+                            "$fateVisibility|Homecrawling"
                         ],
                         "item_count": 1
                     }
@@ -411,10 +411,10 @@
                     {
                         "name": "Incident Files Seeds of Chaos (FATE)",
                         "access_rules": [
-                            "$leveling:80"
+                            "^$fateAccess|Incident Files Seeds of Chaos"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:80"
+                            "$fateVisibility|Incident Files Seeds of Chaos"
                         ],
                         "item_count": 1
                     }
@@ -441,10 +441,10 @@
                     {
                         "name": "Let It Grow (FATE)",
                         "access_rules": [
-                            "$leveling:80"
+                            "^$fateAccess|Let It Grow"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:80"
+                            "$fateVisibility|Let It Grow"
                         ],
                         "item_count": 1
                     }
@@ -471,10 +471,10 @@
                     {
                         "name": "Acid in Flight Shepherds Fright (FATE)",
                         "access_rules": [
-                            "$leveling:81"
+                            "^$fateAccess|Acid in Flight Shepherd's Fright"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:81"
+                            "$fateVisibility|Acid in Flight Shepherd's Fright"
                         ],
                         "item_count": 1
                     }
@@ -501,10 +501,10 @@
                     {
                         "name": "Breakfast Lunch and Dinner (FATE)",
                         "access_rules": [
-                            "$leveling:81"
+                            "^$fateAccess|Breakfast Lunch and Dinner"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:81"
+                            "$fateVisibility|Breakfast Lunch and Dinner"
                         ],
                         "item_count": 1
                     }
@@ -531,10 +531,10 @@
                     {
                         "name": "Incident Files Steamed Vegetable (FATE)",
                         "access_rules": [
-                            "$leveling:81"
+                            "^$fateAccess|Incident Files Steamed Vegetable"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:81"
+                            "$fateVisibility|Incident Files Steamed Vegetable"
                         ],
                         "item_count": 1
                     }
@@ -561,10 +561,10 @@
                     {
                         "name": "The Hills Are Alive (FATE)",
                         "access_rules": [
-                            "$leveling:81"
+                            "^$fateAccess|The Hills Are Alive"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:81"
+                            "$fateVisibility|The Hills Are Alive"
                         ],
                         "item_count": 1
                     }
@@ -591,10 +591,10 @@
                     {
                         "name": "Incident Files Elemental Attraction (FATE)",
                         "access_rules": [
-                            "$leveling:85"
+                            "^$fateAccess|Incident Files Elemental Attraction"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:85"
+                            "$fateVisibility|Incident Files Elemental Attraction"
                         ],
                         "item_count": 1
                     }
@@ -621,10 +621,10 @@
                     {
                         "name": "Incident Files Ice of the Tiger (FATE)",
                         "access_rules": [
-                            "$leveling:85"
+                            "^$fateAccess|Incident Files Ice of the Tiger"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:85"
+                            "$fateVisibility|Incident Files Ice of the Tiger"
                         ],
                         "item_count": 1
                     }
@@ -651,10 +651,10 @@
                     {
                         "name": "Empty the Nest (FATE)",
                         "access_rules": [
-                            "$leveling:88"
+                            "^$fateAccess|Empty the Nest"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:88"
+                            "$fateVisibility|Empty the Nest"
                         ],
                         "item_count": 1
                     }
@@ -681,10 +681,10 @@
                     {
                         "name": "Moisture Farming (FATE)",
                         "access_rules": [
-                            "$leveling:88"
+                            "^$fateAccess|Moisture Farming"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:88"
+                            "$fateVisibility|Moisture Farming"
                         ],
                         "item_count": 1
                     }
@@ -711,10 +711,10 @@
                     {
                         "name": "Residual Complications (FATE)",
                         "access_rules": [
-                            "$leveling:88"
+                            "^$fateAccess|Residual Complications"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:88"
+                            "$fateVisibility|Residual Complications"
                         ],
                         "item_count": 1
                     }
@@ -741,10 +741,10 @@
                     {
                         "name": "Sheaves on the Wind (FATE)",
                         "access_rules": [
-                            "$leveling:88"
+                            "^$fateAccess|Sheaves on the Wind"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:88"
+                            "$fateVisibility|Sheaves on the Wind"
                         ],
                         "item_count": 1
                     }
@@ -771,10 +771,10 @@
                     {
                         "name": "The Frailty of Life (FATE)",
                         "access_rules": [
-                            "$leveling:88"
+                            "^$fateAccess|The Frailty of Life"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:88"
+                            "$fateVisibility|The Frailty of Life"
                         ],
                         "item_count": 1
                     }
@@ -801,10 +801,10 @@
                     {
                         "name": "Wasted XIV (FATE)",
                         "access_rules": [
-                            "$leveling:88"
+                            "^$fateAccess|Wasted XIV"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:88"
+                            "$fateVisibility|Wasted XIV"
                         ],
                         "item_count": 1
                     }

@@ -264,10 +264,10 @@
                     {
                         "name": "Bear Necessities (FATE)",
                         "access_rules": [
-                            "$leveling:72"
+                            "^$fateAccess|Bear Necessities"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:72"
+                            "$fateVisibility|Bear Necessities"
                         ],
                         "item_count": 1
                     }
@@ -294,10 +294,10 @@
                     {
                         "name": "Hedge Mazed (FATE)",
                         "access_rules": [
-                            "$leveling:72"
+                            "^$fateAccess|Hedge Mazed"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:72"
+                            "$fateVisibility|Hedge Mazed"
                         ],
                         "item_count": 1
                     }
@@ -324,10 +324,10 @@
                     {
                         "name": "Locus Terribilis (FATE)",
                         "access_rules": [
-                            "$leveling:72"
+                            "^$fateAccess|Locus Terribilis"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:72"
+                            "$fateVisibility|Locus Terribilis"
                         ],
                         "item_count": 1
                     }
@@ -354,10 +354,10 @@
                     {
                         "name": "Mad Magic (FATE)",
                         "access_rules": [
-                            "$leveling:72"
+                            "^$fateAccess|Mad Magic"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:72"
+                            "$fateVisibility|Mad Magic"
                         ],
                         "item_count": 1
                     }
@@ -384,10 +384,10 @@
                     {
                         "name": "Once Upon a Time (FATE)",
                         "access_rules": [
-                            "$leveling:72"
+                            "^$fateAccess|Once Upon a Time"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:72"
+                            "$fateVisibility|Once Upon a Time"
                         ],
                         "item_count": 1
                     }
@@ -414,10 +414,10 @@
                     {
                         "name": "Thrice Upon a Time (FATE)",
                         "access_rules": [
-                            "$leveling:72"
+                            "^$fateAccess|Thrice Upon a Time"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:72"
+                            "$fateVisibility|Thrice Upon a Time"
                         ],
                         "item_count": 1
                     }
@@ -444,10 +444,10 @@
                     {
                         "name": "Twice Upon a Time (FATE)",
                         "access_rules": [
-                            "$leveling:72"
+                            "^$fateAccess|Twice Upon a Time"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:72"
+                            "$fateVisibility|Twice Upon a Time"
                         ],
                         "item_count": 1
                     }
@@ -474,10 +474,10 @@
                     {
                         "name": "Weave Em and Weep (FATE)",
                         "access_rules": [
-                            "$leveling:72"
+                            "^$fateAccess|Weave 'Em and Weep"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:72"
+                            "$fateVisibility|Weave 'Em and Weep"
                         ],
                         "item_count": 1
                     }
@@ -504,10 +504,10 @@
                     {
                         "name": "Back and Fuath (FATE)",
                         "access_rules": [
-                            "$leveling:73"
+                            "^$fateAccess|Back and Fuath"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:73"
+                            "$fateVisibility|Back and Fuath"
                         ],
                         "item_count": 1
                     }
@@ -534,10 +534,10 @@
                     {
                         "name": "Breaking the Fuath Wall (FATE)",
                         "access_rules": [
-                            "$leveling:73"
+                            "^$fateAccess|Breaking the Fuath Wall"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:73"
+                            "$fateVisibility|Breaking the Fuath Wall"
                         ],
                         "item_count": 1
                     }
@@ -564,10 +564,10 @@
                     {
                         "name": "Brute Fuath (FATE)",
                         "access_rules": [
-                            "$leveling:73"
+                            "^$fateAccess|Brute Fuath"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:73"
+                            "$fateVisibility|Brute Fuath"
                         ],
                         "item_count": 1
                     }
@@ -594,10 +594,10 @@
                     {
                         "name": "Frog Standard (FATE)",
                         "access_rules": [
-                            "$leveling:73"
+                            "^$fateAccess|Frog Standard"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:73"
+                            "$fateVisibility|Frog Standard"
                         ],
                         "item_count": 1
                     }
@@ -624,10 +624,10 @@
                     {
                         "name": "Fuath of Habit (FATE)",
                         "access_rules": [
-                            "$leveling:73"
+                            "^$fateAccess|Fuath of Habit"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:73"
+                            "$fateVisibility|Fuath of Habit"
                         ],
                         "item_count": 1
                     }
@@ -654,10 +654,10 @@
                     {
                         "name": "Fuath to Be Reckoned With (FATE)",
                         "access_rules": [
-                            "$leveling:73"
+                            "^$fateAccess|Fuath to Be Reckoned With"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:73"
+                            "$fateVisibility|Fuath to Be Reckoned With"
                         ],
                         "item_count": 1
                     }
@@ -684,10 +684,10 @@
                     {
                         "name": "Go Fuath a Conqueror (FATE)",
                         "access_rules": [
-                            "$leveling:73"
+                            "^$fateAccess|Go Fuath a Conqueror"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:73"
+                            "$fateVisibility|Go Fuath a Conqueror"
                         ],
                         "item_count": 1
                     }
@@ -714,10 +714,10 @@
                     {
                         "name": "Great Daens (FATE)",
                         "access_rules": [
-                            "$leveling:73"
+                            "^$fateAccess|Great Daens"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:73"
+                            "$fateVisibility|Great Daens"
                         ],
                         "item_count": 1
                     }

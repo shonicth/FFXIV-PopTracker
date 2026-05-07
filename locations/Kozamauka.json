@@ -123,10 +123,10 @@
                     {
                         "name": "Combing the Area (FATE)",
                         "access_rules": [
-                            "$leveling:90"
+                            "^$fateAccess|Combing the Area"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:90"
+                            "$fateVisibility|Combing the Area"
                         ],
                         "item_count": 1
                     }
@@ -153,10 +153,10 @@
                     {
                         "name": "Crocs of the Creek (FATE)",
                         "access_rules": [
-                            "$leveling:90"
+                            "^$fateAccess|Crocs of the Creek"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:90"
+                            "$fateVisibility|Crocs of the Creek"
                         ],
                         "item_count": 1
                     }
@@ -183,10 +183,10 @@
                     {
                         "name": "Reeds in Need (FATE)",
                         "access_rules": [
-                            "$leveling:90"
+                            "^$fateAccess|Reeds in Need"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:90"
+                            "$fateVisibility|Reeds in Need"
                         ],
                         "item_count": 1
                     }
@@ -213,10 +213,10 @@
                     {
                         "name": "Theres Always a Bigger Beast (FATE)",
                         "access_rules": [
-                            "$leveling:90"
+                            "^$fateAccess|There's Always a Bigger Beast"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:90"
+                            "$fateVisibility|There's Always a Bigger Beast"
                         ],
                         "item_count": 1
                     }
@@ -243,10 +243,10 @@
                     {
                         "name": "This Kills the Craklaw (FATE)",
                         "access_rules": [
-                            "$leveling:90"
+                            "^$fateAccess|This Kills the Craklaw"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:90"
+                            "$fateVisibility|This Kills the Craklaw"
                         ],
                         "item_count": 1
                     }
@@ -273,10 +273,10 @@
                     {
                         "name": "Feathery Dustup (FATE)",
                         "access_rules": [
-                            "$leveling:91"
+                            "^$fateAccess|Feathery Dustup"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:91"
+                            "$fateVisibility|Feathery Dustup"
                         ],
                         "item_count": 1
                     }
@@ -303,10 +303,10 @@
                     {
                         "name": "The Pama-yawa Dilemma (FATE)",
                         "access_rules": [
-                            "$leveling:91"
+                            "^$fateAccess|The Pama-yawa Dilemma"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:91"
+                            "$fateVisibility|The Pama-yawa Dilemma"
                         ],
                         "item_count": 1
                     }
@@ -333,10 +333,10 @@
                     {
                         "name": "Toucalibri at That Game (FATE)",
                         "access_rules": [
-                            "$leveling:91"
+                            "^$fateAccess|Toucalibri at That Game"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:91"
+                            "$fateVisibility|Toucalibri at That Game"
                         ],
                         "item_count": 1
                     }
@@ -363,10 +363,10 @@
                     {
                         "name": "Bandit Tax Paid in Full (FATE)",
                         "access_rules": [
-                            "$leveling:92"
+                            "^$fateAccess|Bandit Tax Paid in Full"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:92"
+                            "$fateVisibility|Bandit Tax Paid in Full"
                         ],
                         "item_count": 1
                     }
@@ -393,20 +393,20 @@
                     {
                         "name": "Mole Patrol (FATE)",
                         "access_rules": [
-                            "$leveling:92"
+                            "^$fateAccess|Mole Patrol"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:92"
+                            "$fateVisibility|Mole Patrol"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Borne on the Backs of Burrowers (FATE)",
                         "access_rules": [
-                            "$leveling:92"
+                            "^$fateAccess|Borne on the Backs of Burrowers"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:92"
+                            "$fateVisibility|Borne on the Backs of Burrowers"
                         ],
                         "item_count": 1
                     }
@@ -433,20 +433,20 @@
                     {
                         "name": "Putting the Fun in Fungicide (FATE)",
                         "access_rules": [
-                            "$leveling:92"
+                            "^$fateAccess|Putting the Fun in Fungicide"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:92"
+                            "$fateVisibility|Putting the Fun in Fungicide"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Caphunter Mushroom Muncher (FATE)",
                         "access_rules": [
-                            "$leveling:92"
+                            "^$fateAccess|Caphunter Mushroom Muncher"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:92"
+                            "$fateVisibility|Caphunter Mushroom Muncher"
                         ],
                         "item_count": 1
                     }
@@ -473,10 +473,10 @@
                     {
                         "name": "Ruffling Feathers (FATE)",
                         "access_rules": [
-                            "$leveling:92"
+                            "^$fateAccess|Ruffling Feathers"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:92"
+                            "$fateVisibility|Ruffling Feathers"
                         ],
                         "item_count": 1
                     }
@@ -503,10 +503,10 @@
                     {
                         "name": "Sayona Your Prayers (FATE)",
                         "access_rules": [
-                            "$leveling:92"
+                            "^$fateAccess|Sayona Your Prayers"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:92"
+                            "$fateVisibility|Sayona Your Prayers"
                         ],
                         "item_count": 1
                     }
@@ -533,10 +533,10 @@
                     {
                         "name": "Sting Operation (FATE)",
                         "access_rules": [
-                            "$leveling:92"
+                            "^$fateAccess|Sting Operation"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:92"
+                            "$fateVisibility|Sting Operation"
                         ],
                         "item_count": 1
                     }
@@ -563,10 +563,10 @@
                     {
                         "name": "Tax Dodging (FATE)",
                         "access_rules": [
-                            "$leveling:92"
+                            "^$fateAccess|Tax Dodging"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:92"
+                            "$fateVisibility|Tax Dodging"
                         ],
                         "item_count": 1
                     }
@@ -593,10 +593,10 @@
                     {
                         "name": "Tegu or Not Tegu (FATE)",
                         "access_rules": [
-                            "$leveling:92"
+                            "^$fateAccess|Tegu or Not Tegu"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:92"
+                            "$fateVisibility|Tegu or Not Tegu"
                         ],
                         "item_count": 1
                     }
