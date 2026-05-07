@@ -375,10 +375,10 @@
                     {
                         "name": "Butterfly Kisses of Death (FATE)",
                         "access_rules": [
-                            "$leveling:86"
+                            "^$fateAccess|Butterfly Kisses of Death"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:86"
+                            "$fateVisibility|Butterfly Kisses of Death"
                         ],
                         "item_count": 1
                     }
@@ -405,10 +405,10 @@
                     {
                         "name": "Drawing the Thunderstroke (FATE)",
                         "access_rules": [
-                            "$leveling:86"
+                            "^$fateAccess|Drawing the Thunderstroke"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:86"
+                            "$fateVisibility|Drawing the Thunderstroke"
                         ],
                         "item_count": 1
                     }
@@ -435,10 +435,10 @@
                     {
                         "name": "Grand Designs Aigokeros (FATE)",
                         "access_rules": [
-                            "$leveling:86"
+                            "^$fateAccess|Grand Designs Aigokeros"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:86"
+                            "$fateVisibility|Grand Designs Aigokeros"
                         ],
                         "item_count": 1
                     }
@@ -465,10 +465,10 @@
                     {
                         "name": "Grand Designs Io (FATE)",
                         "access_rules": [
-                            "$leveling:86"
+                            "^$fateAccess|Grand Designs Io"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:86"
+                            "$fateVisibility|Grand Designs Io"
                         ],
                         "item_count": 1
                     }
@@ -495,10 +495,10 @@
                     {
                         "name": "Natures Staunch Protector (FATE)",
                         "access_rules": [
-                            "$leveling:86"
+                            "^$fateAccess|Nature's Staunch Protector"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:86"
+                            "$fateVisibility|Nature's Staunch Protector"
                         ],
                         "item_count": 1
                     }
@@ -525,10 +525,10 @@
                     {
                         "name": "Ophion-mania (FATE)",
                         "access_rules": [
-                            "$leveling:86"
+                            "^$fateAccess|Ophion-mania"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:86"
+                            "$fateVisibility|Ophion-mania"
                         ],
                         "item_count": 1
                     }
@@ -555,10 +555,10 @@
                     {
                         "name": "The Rustling of Murderous Leaves (FATE)",
                         "access_rules": [
-                            "$leveling:86"
+                            "^$fateAccess|The Rustling of Murderous Leaves"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:86"
+                            "$fateVisibility|The Rustling of Murderous Leaves"
                         ],
                         "item_count": 1
                     }
@@ -585,10 +585,10 @@
                     {
                         "name": "You Hurt My Researcher Prepare to Die (FATE)",
                         "access_rules": [
-                            "$leveling:86"
+                            "^$fateAccess|You Hurt My Researcher Prepare to Die"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:86"
+                            "$fateVisibility|You Hurt My Researcher Prepare to Die"
                         ],
                         "item_count": 1
                     }
@@ -615,10 +615,10 @@
                     {
                         "name": "Eurydike All Bark No Bite (FATE)",
                         "access_rules": [
-                            "$leveling:87"
+                            "^$fateAccess|Eurydike All Bark No Bite"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:87"
+                            "$fateVisibility|Eurydike All Bark No Bite"
                         ],
                         "item_count": 1
                     }
@@ -645,10 +645,10 @@
                     {
                         "name": "Grand Designs The Newest of New (FATE)",
                         "access_rules": [
-                            "$leveling:87"
+                            "^$fateAccess|Grand Designs The Newest of New"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:87"
+                            "$fateVisibility|Grand Designs The Newest of New"
                         ],
                         "item_count": 1
                     }
@@ -675,10 +675,10 @@
                     {
                         "name": "Grand Designs Unknown Execution (FATE)",
                         "access_rules": [
-                            "$leveling:87"
+                            "^$fateAccess|Grand Designs Unknown Execution"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:87"
+                            "$fateVisibility|Grand Designs Unknown Execution"
                         ],
                         "item_count": 1
                     }
@@ -705,10 +705,10 @@
                     {
                         "name": "King of the Hill (FATE)",
                         "access_rules": [
-                            "$leveling:87"
+                            "^$fateAccess|King of the Hill"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:87"
+                            "$fateVisibility|King of the Hill"
                         ],
                         "item_count": 1
                     }
@@ -735,10 +735,10 @@
                     {
                         "name": "So Sorry Sokles (FATE)",
                         "access_rules": [
-                            "$leveling:87"
+                            "^$fateAccess|So Sorry Sokles"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:87"
+                            "$fateVisibility|So Sorry Sokles"
                         ],
                         "item_count": 1
                     }
@@ -765,10 +765,10 @@
                     {
                         "name": "Theres a Snake in My Water Supply! (FATE)",
                         "access_rules": [
-                            "$leveling:87"
+                            "^$fateAccess|There's a Snake in My Water Supply!"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:87"
+                            "$fateVisibility|There's a Snake in My Water Supply!"
                         ],
                         "item_count": 1
                     }
@@ -795,10 +795,10 @@
                     {
                         "name": "Why Did It Have to Be Medusae (FATE)",
                         "access_rules": [
-                            "$leveling:87"
+                            "^$fateAccess|Why Did It Have to Be Medusae?"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:87"
+                            "$fateVisibility|Why Did It Have to Be Medusae?"
                         ],
                         "item_count": 1
                     }

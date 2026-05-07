@@ -296,8 +296,12 @@
                 "sections": [
                     {
                         "name": "Careless Whiskers (FATE)",
-                        "access_rules": ["$leveling:30"],
-                        "visibility_rules": ["fatesanity"],
+                        "access_rules": [
+                            "^$fateAccess|Careless Whiskers"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|Careless Whiskers"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -322,8 +326,12 @@
                 "sections": [
                     {
                         "name": "Crab and Go (FATE)",
-                        "access_rules": ["$leveling:30"],
-                        "visibility_rules": ["fatesanity"],
+                        "access_rules": [
+                            "^$fateAccess|Crab and Go"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|Crab and Go"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -348,8 +356,12 @@
                 "sections": [
                     {
                         "name": "Just a Matter of Rut (FATE)",
-                        "access_rules": ["$leveling:31"],
-                        "visibility_rules": ["fatesanity, level_cap:31"],
+                        "access_rules": [
+                            "^$fateAccess|Just a Matter of Rut"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|Just a Matter of Rut"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -374,8 +386,12 @@
                 "sections": [
                     {
                         "name": "9 to 5 (FATE)",
-                        "access_rules": ["$leveling:32"],
-                        "visibility_rules": ["fatesanity, level_cap:32"],
+                        "access_rules": [
+                            "^$fateAccess|9 to 5"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|9 to 5"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -400,8 +416,12 @@
                 "sections": [
                     {
                         "name": "Cliff Hanger (FATE)",
-                        "access_rules": ["$leveling:32"],
-                        "visibility_rules": ["fatesanity, level_cap:32"],
+                        "access_rules": [
+                            "^$fateAccess|Cliff Hanger"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|Cliff Hanger"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -426,8 +446,12 @@
                 "sections": [
                     {
                         "name": "Finding Wine (FATE)",
-                        "access_rules": ["$leveling:32"],
-                        "visibility_rules": ["fatesanity, level_cap:32"],
+                        "access_rules": [
+                            "^$fateAccess|Finding Wine"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|Finding Wine"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -452,8 +476,12 @@
                 "sections": [
                     {
                         "name": "Its Not Lupus (FATE)",
-                        "access_rules": ["$leveling:32"],
-                        "visibility_rules": ["fatesanity, level_cap:32"],
+                        "access_rules": [
+                            "^$fateAccess|It's Not Lupus"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|It's Not Lupus"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -478,8 +506,12 @@
                 "sections": [
                     {
                         "name": "Jewels of the Isle (FATE)",
-                        "access_rules": ["$leveling:32"],
-                        "visibility_rules": ["fatesanity, level_cap:32"],
+                        "access_rules": [
+                            "^$fateAccess|Jewels of the Isle"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|Jewels of the Isle"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -504,8 +536,12 @@
                 "sections": [
                     {
                         "name": "Say My Name (FATE)",
-                        "access_rules": ["$leveling:32"],
-                        "visibility_rules": ["fatesanity, level_cap:32"],
+                        "access_rules": [
+                            "^$fateAccess|Say My Name"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|Say My Name"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -530,8 +566,12 @@
                 "sections": [
                     {
                         "name": "The Pelican Briefing (FATE)",
-                        "access_rules": ["$leveling:32"],
-                        "visibility_rules": ["fatesanity, level_cap:32"],
+                        "access_rules": [
+                            "^$fateAccess|The Pelican Briefing"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|The Pelican Briefing"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -556,8 +596,12 @@
                 "sections": [
                     {
                         "name": "The Thirst (FATE)",
-                        "access_rules": ["$leveling:32"],
-                        "visibility_rules": ["fatesanity, level_cap:32"],
+                        "access_rules": [
+                            "^$fateAccess|The Thirst"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|The Thirst"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -582,8 +626,12 @@
                 "sections": [
                     {
                         "name": "Consigned, Sealed, and Undelivered (FATE)",
-                        "access_rules": ["$leveling:33"],
-                        "visibility_rules": ["fatesanity, level_cap:33"],
+                        "access_rules": [
+                            "^$fateAccess|Consigned Sealed and Undelivered"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|Consigned Sealed and Undelivered"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -608,8 +656,12 @@
                 "sections": [
                     {
                         "name": "Follow the Light (FATE)",
-                        "access_rules": ["$leveling:33"],
-                        "visibility_rules": ["fatesanity, level_cap:33"],
+                        "access_rules": [
+                            "^$fateAccess|Follow the Light"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|Follow the Light"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -634,8 +686,12 @@
                 "sections": [
                     {
                         "name": "Ho Ho Ho (FATE)",
-                        "access_rules": ["$leveling:33"],
-                        "visibility_rules": ["fatesanity, level_cap:33"],
+                        "access_rules": [
+                            "^$fateAccess|Ho Ho Ho"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|Ho Ho Ho"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -660,8 +716,12 @@
                 "sections": [
                     {
                         "name": "Long Way Home (FATE)",
-                        "access_rules": ["$leveling:33"],
-                        "visibility_rules": ["fatesanity, level_cap:33"],
+                        "access_rules": [
+                            "^$fateAccess|Long Way Home"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|Long Way Home"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -686,8 +746,12 @@
                 "sections": [
                     {
                         "name": "No Lip (FATE)",
-                        "access_rules": ["$leveling:33"],
-                        "visibility_rules": ["fatesanity, level_cap:33"],
+                        "access_rules": [
+                            "^$fateAccess|No Lip"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|No Lip"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -712,8 +776,12 @@
                 "sections": [
                     {
                         "name": "Sweeter than Honey (FATE)",
-                        "access_rules": ["$leveling:33"],
-                        "visibility_rules": ["fatesanity, level_cap:33"],
+                        "access_rules": [
+                            "^$fateAccess|Sweeter than Honey"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|Sweeter than Honey"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -738,8 +806,12 @@
                 "sections": [
                     {
                         "name": "Them (FATE)",
-                        "access_rules": ["$leveling:33"],
-                        "visibility_rules": ["fatesanity, level_cap:33"],
+                        "access_rules": [
+                            "^$fateAccess|Them"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|Them"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -764,8 +836,12 @@
                 "sections": [
                     {
                         "name": "Thrill of the Hunt (FATE)",
-                        "access_rules": ["$leveling:33"],
-                        "visibility_rules": ["fatesanity, level_cap:33"],
+                        "access_rules": [
+                            "^$fateAccess|Thrill of the Hunt"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|Thrill of the Hunt"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -790,8 +866,12 @@
                 "sections": [
                     {
                         "name": "Closing Time (FATE)",
-                        "access_rules": ["$leveling:34"],
-                        "visibility_rules": ["fatesanity, level_cap:34"],
+                        "access_rules": [
+                            "^$fateAccess|Closing Time"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|Closing Time"
+                        ],
                         "item_count": 1
                     }
                 ],

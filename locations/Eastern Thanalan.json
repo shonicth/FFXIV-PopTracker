@@ -363,10 +363,10 @@
                     {
                         "name": "License to Quill (FATE)",
                         "access_rules": [
-                            "$leveling:15"
+                            "^$fateAccess|License to Quill"
                         ],
                         "visibility_rules": [
-                            "fatesanity"
+                            "$fateVisibility|License to Quill"
                         ],
                         "item_count": 1
                     }
@@ -393,10 +393,10 @@
                     {
                         "name": "Almost Paradise (FATE)",
                         "access_rules": [
-                            "$leveling:17"
+                            "^$fateAccess|Almost Paradise"
                         ],
                         "visibility_rules": [
-                            "fatesanity"
+                            "$fateVisibility|Almost Paradise"
                         ],
                         "item_count": 1
                     }
@@ -423,10 +423,10 @@
                     {
                         "name": "Bazaar Blood Triangle (FATE)",
                         "access_rules": [
-                            "$leveling:17"
+                            "^$fateAccess|Bazaar Blood Triangle"
                         ],
                         "visibility_rules": [
-                            "fatesanity"
+                            "$fateVisibility|Bazaar Blood Triangle"
                         ],
                         "item_count": 1
                     }
@@ -453,10 +453,10 @@
                     {
                         "name": "Deep in the Heart of Sagolii (FATE)",
                         "access_rules": [
-                            "$leveling:17"
+                            "^$fateAccess|Deep in the Heart of Sagolii"
                         ],
                         "visibility_rules": [
-                            "fatesanity"
+                            "$fateVisibility|Deep in the Heart of Sagolii"
                         ],
                         "item_count": 1
                     }
@@ -483,10 +483,10 @@
                     {
                         "name": "Grim Undertakings (FATE)",
                         "access_rules": [
-                            "$leveling:17"
+                            "^$fateAccess|Grim Undertakings"
                         ],
                         "visibility_rules": [
-                            "fatesanity"
+                            "$fateVisibility|Grim Undertakings"
                         ],
                         "item_count": 1
                     }
@@ -513,10 +513,10 @@
                     {
                         "name": "Simple Minds (FATE)",
                         "access_rules": [
-                            "$leveling:17"
+                            "^$fateAccess|Simple Minds"
                         ],
                         "visibility_rules": [
-                            "fatesanity"
+                            "$fateVisibility|Simple Minds"
                         ],
                         "item_count": 1
                     }
@@ -543,10 +543,10 @@
                     {
                         "name": "Bad Camp (FATE)",
                         "access_rules": [
-                            "$leveling:18"
+                            "^$fateAccess|Bad Camp"
                         ],
                         "visibility_rules": [
-                            "fatesanity"
+                            "$fateVisibility|Bad Camp"
                         ],
                         "item_count": 1
                     }
@@ -573,10 +573,10 @@
                     {
                         "name": "Westward Bound (FATE)",
                         "access_rules": [
-                            "$leveling:18"
+                            "^$fateAccess|Westward Bound"
                         ],
                         "visibility_rules": [
-                            "fatesanity"
+                            "$fateVisibility|Westward Bound"
                         ],
                         "item_count": 1
                     }
@@ -603,10 +603,10 @@
                     {
                         "name": "Men Who See Goats (FATE)",
                         "access_rules": [
-                            "$leveling:19"
+                            "^$fateAccess|Men Who See Goats"
                         ],
                         "visibility_rules": [
-                            "fatesanity"
+                            "$fateVisibility|Men Who See Goats"
                         ],
                         "item_count": 1
                     }
@@ -633,10 +633,10 @@
                     {
                         "name": "Attack on Highbridge Act I (FATE)",
                         "access_rules": [
-                            "$leveling:26"
+                            "^$fateAccess|Attack on Highbridge Act I"
                         ],
                         "visibility_rules": [
-                            "fatesanity"
+                            "$fateVisibility|Attack on Highbridge Act I"
                         ],
                         "item_count": 1
                     }
@@ -663,10 +663,10 @@
                     {
                         "name": "Attack on Highbridge Act II (FATE)",
                         "access_rules": [
-                            "$leveling:26"
+                            "^$fateAccess|Attack on Highbridge Act II"
                         ],
                         "visibility_rules": [
-                            "fatesanity"
+                            "$fateVisibility|Attack on Highbridge Act II"
                         ],
                         "item_count": 1
                     }
@@ -693,10 +693,10 @@
                     {
                         "name": "Attack on Highbridge Act III (FATE)",
                         "access_rules": [
-                            "$leveling:26"
+                            "^$fateAccess|Attack on Highbridge Act III"
                         ],
                         "visibility_rules": [
-                            "fatesanity"
+                            "$fateVisibility|Attack on Highbridge Act III"
                         ],
                         "item_count": 1
                     }
@@ -723,10 +723,10 @@
                     {
                         "name": "Attack on Highbridge Denouement (FATE)",
                         "access_rules": [
-                            "$leveling:26"
+                            "^$fateAccess|Attack on Highbridge Denouement"
                         ],
                         "visibility_rules": [
-                            "fatesanity"
+                            "$fateVisibility|Attack on Highbridge Denouement"
                         ],
                         "item_count": 1
                     }
@@ -753,10 +753,10 @@
                     {
                         "name": "Attack on Highbridge Prelude (FATE)",
                         "access_rules": [
-                            "$leveling:26"
+                            "^$fateAccess|Attack on Highbridge Prelude"
                         ],
                         "visibility_rules": [
-                            "fatesanity"
+                            "$fateVisibility|Attack on Highbridge Prelude"
                         ],
                         "item_count": 1
                     }
@@ -783,10 +783,10 @@
                     {
                         "name": "Desert Rose (FATE)",
                         "access_rules": [
-                            "$leveling:26"
+                            "^$fateAccess|Desert Rose"
                         ],
                         "visibility_rules": [
-                            "fatesanity"
+                            "$fateVisibility|Desert Rose"
                         ],
                         "item_count": 1
                     }
@@ -813,10 +813,10 @@
                     {
                         "name": "Manifest Destiny (FATE)",
                         "access_rules": [
-                            "$leveling:27"
+                            "^$fateAccess|Manifest Destiny"
                         ],
                         "visibility_rules": [
-                            "fatesanity"
+                            "$fateVisibility|Manifest Destiny"
                         ],
                         "item_count": 1
                     }
@@ -843,10 +843,10 @@
                     {
                         "name": "Spare the Hair (FATE)",
                         "access_rules": [
-                            "$leveling:26"
+                            "^$fateAccess|Spare the Hair"
                         ],
                         "visibility_rules": [
-                            "fatesanity"
+                            "$fateVisibility|Spare the Hair"
                         ],
                         "item_count": 1
                     }
@@ -873,10 +873,10 @@
                     {
                         "name": "A Man Rides Through (FATE)",
                         "access_rules": [
-                            "$leveling:40"
+                            "^$fateAccess|A Man Rides Through"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:40"
+                            "$fateVisibility|A Man Rides Through"
                         ],
                         "item_count": 1
                     }
@@ -903,10 +903,10 @@
                     {
                         "name": "Bad Hair Day (FATE)",
                         "access_rules": [
-                            "$leveling:42"
+                            "^$fateAccess|Bad Hair Day"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:42"
+                            "$fateVisibility|Bad Hair Day"
                         ],
                         "item_count": 1
                     }
@@ -933,10 +933,10 @@
                     {
                         "name": "Quartz Coupling (FATE)",
                         "access_rules": [
-                            "$leveling:42"
+                            "^$fateAccess|Quartz Coupling"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:42"
+                            "$fateVisibility|Quartz Coupling"
                         ],
                         "item_count": 1
                     }
@@ -963,10 +963,10 @@
                     {
                         "name": "The Big Bagoly Theory (FATE)",
                         "access_rules": [
-                            "$leveling:42"
+                            "^$fateAccess|The Big Bagoly Theory"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:42"
+                            "$fateVisibility|The Big Bagoly Theory"
                         ],
                         "item_count": 1
                     }

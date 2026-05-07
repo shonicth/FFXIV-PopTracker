@@ -426,10 +426,10 @@
                     {
                         "name": "A Snowballs Chance (FATE)",
                         "access_rules": [
-                            "$leveling:82"
+                            "^$fateAccess|A Snowball's Chance"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:82"
+                            "$fateVisibility|A Snowball's Chance"
                         ],
                         "item_count": 1
                     }
@@ -456,10 +456,10 @@
                     {
                         "name": "Amazing Crates (FATE)",
                         "access_rules": [
-                            "$leveling:82"
+                            "^$fateAccess|Amazing Crates"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:82"
+                            "$fateVisibility|Amazing Crates"
                         ],
                         "item_count": 1
                     }
@@ -486,10 +486,10 @@
                     {
                         "name": "Artificial Malevolence 15 Minutes to Comply (FATE)",
                         "access_rules": [
-                            "$leveling:82"
+                            "^$fateAccess|Artificial Malevolence 15 Minutes to Comply"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:82"
+                            "$fateVisibility|Artificial Malevolence 15 Minutes to Comply"
                         ],
                         "item_count": 1
                     }
@@ -516,10 +516,10 @@
                     {
                         "name": "Artificial Malevolence The Drone Army (FATE)",
                         "access_rules": [
-                            "$leveling:82"
+                            "^$fateAccess|Artificial Malevolence The Drone Army"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:82"
+                            "$fateVisibility|Artificial Malevolence The Drone Army"
                         ],
                         "item_count": 1
                     }
@@ -546,10 +546,10 @@
                     {
                         "name": "Nettle Gear Solid (FATE)",
                         "access_rules": [
-                            "$leveling:82"
+                            "^$fateAccess|Nettle Gear Solid"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:82"
+                            "$fateVisibility|Nettle Gear Solid"
                         ],
                         "item_count": 1
                     }
@@ -576,10 +576,10 @@
                     {
                         "name": "Not Yeti (FATE)",
                         "access_rules": [
-                            "$leveling:82"
+                            "^$fateAccess|Not Yeti"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:82"
+                            "$fateVisibility|Not Yeti"
                         ],
                         "item_count": 1
                     }
@@ -606,10 +606,10 @@
                     {
                         "name": "Roses Are Red Violence Is Due (FATE)",
                         "access_rules": [
-                            "$leveling:82"
+                            "^$fateAccess|Roses Are Red Violence Is Due"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:82"
+                            "$fateVisibility|Roses Are Red Violence Is Due"
                         ],
                         "item_count": 1
                     }
@@ -636,10 +636,10 @@
                     {
                         "name": "Trespassers Will Be Eaten (FATE)",
                         "access_rules": [
-                            "$leveling:82"
+                            "^$fateAccess|Trespassers Will Be Eaten"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:82"
+                            "$fateVisibility|Trespassers Will Be Eaten"
                         ],
                         "item_count": 1
                     }
@@ -666,10 +666,10 @@
                     {
                         "name": "A Bit of a Problem (FATE)",
                         "access_rules": [
-                            "$leveling:83"
+                            "^$fateAccess|A Bit of a Problem"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:83"
+                            "$fateVisibility|A Bit of a Problem"
                         ],
                         "item_count": 1
                     }
@@ -696,10 +696,10 @@
                     {
                         "name": "Artificial Malevolence Mighty Metatron (FATE)",
                         "access_rules": [
-                            "$leveling:83"
+                            "^$fateAccess|Artificial Malevolence Mighty Metatron"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:83"
+                            "$fateVisibility|Artificial Malevolence Mighty Metatron"
                         ],
                         "item_count": 1
                     }
@@ -726,10 +726,10 @@
                     {
                         "name": "Artificial Malevolence Unmanned Aerial Villains (FATE)",
                         "access_rules": [
-                            "$leveling:83"
+                            "^$fateAccess|Artificial Malevolence Unmanned Aerial Villains"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:83"
+                            "$fateVisibility|Artificial Malevolence Unmanned Aerial Villains"
                         ],
                         "item_count": 1
                     }
@@ -756,10 +756,10 @@
                     {
                         "name": "Exterminate Exterminate (FATE)",
                         "access_rules": [
-                            "$leveling:83"
+                            "^$fateAccess|Exterminate Exterminate"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:83"
+                            "$fateVisibility|Exterminate Exterminate"
                         ],
                         "item_count": 1
                     }
@@ -786,10 +786,10 @@
                     {
                         "name": "Parts Unknown (FATE)",
                         "access_rules": [
-                            "$leveling:83"
+                            "^$fateAccess|Parts Unknown"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:83"
+                            "$fateVisibility|Parts Unknown"
                         ],
                         "item_count": 1
                     }
@@ -816,10 +816,10 @@
                     {
                         "name": "Rocker Roller Out-of-controller (FATE)",
                         "access_rules": [
-                            "$leveling:83"
+                            "^$fateAccess|Rocker Roller Out-of-controller"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:83"
+                            "$fateVisibility|Rocker Roller Out-of-controller"
                         ],
                         "item_count": 1
                     }
@@ -846,10 +846,10 @@
                     {
                         "name": "Stray Dog Strut (FATE)",
                         "access_rules": [
-                            "$leveling:83"
+                            "^$fateAccess|Stray Dog Strut"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:83"
+                            "$fateVisibility|Stray Dog Strut"
                         ],
                         "item_count": 1
                     }
@@ -876,10 +876,10 @@
                     {
                         "name": "The Man with the Golden Son (FATE)",
                         "access_rules": [
-                            "$leveling:83"
+                            "^$fateAccess|The Man with the Golden Son"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:83"
+                            "$fateVisibility|The Man with the Golden Son"
                         ],
                         "item_count": 1
                     }

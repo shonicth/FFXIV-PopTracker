@@ -286,9 +286,11 @@
                     {
                         "name": "Carrion Baggage (FATE)",
                         "access_rules": [
-                            "$leveling:11"
+                            "^$fateAccess|Carrion Baggage"
                         ],
-                        "visibility_rules": ["fatesanity"],
+                        "visibility_rules": [
+                            "$fateVisibility|Carrion Baggage"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -314,9 +316,11 @@
                     {
                         "name": "Now I See Bees I Won (FATE)",
                         "access_rules": [
-                            "$leveling:11"
+                            "^$fateAccess|Now I See Bees I Won"
                         ],
-                        "visibility_rules": ["fatesanity"],
+                        "visibility_rules": [
+                            "$fateVisibility|Now I See Bees I Won"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -342,9 +346,11 @@
                     {
                         "name": "Royal Rumble (FATE)",
                         "access_rules": [
-                            "$leveling:16"
+                            "^$fateAccess|Royal Rumble"
                         ],
-                        "visibility_rules": ["fatesanity"],
+                        "visibility_rules": [
+                            "$fateVisibility|Royal Rumble"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -370,9 +376,11 @@
                     {
                         "name": "Stopping the Spread (FATE)",
                         "access_rules": [
-                            "$leveling:17"
+                            "^$fateAccess|Stopping the Spread"
                         ],
-                        "visibility_rules": ["fatesanity"],
+                        "visibility_rules": [
+                            "$fateVisibility|Stopping the Spread"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -398,9 +406,11 @@
                     {
                         "name": "Ivy League (FATE)",
                         "access_rules": [
-                            "$leveling:19"
+                            "^$fateAccess|Ivy League"
                         ],
-                        "visibility_rules": ["fatesanity"],
+                        "visibility_rules": [
+                            "$fateVisibility|Ivy League"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -426,9 +436,11 @@
                     {
                         "name": "Jack of All Trades (FATE)",
                         "access_rules": [
-                            "$leveling:19"
+                            "^$fateAccess|Jack of All Trades"
                         ],
-                        "visibility_rules": ["fatesanity"],
+                        "visibility_rules": [
+                            "$fateVisibility|Jack of All Trades"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -454,9 +466,11 @@
                     {
                         "name": "Lazy for You (FATE)",
                         "access_rules": [
-                            "$leveling:20"
+                            "^$fateAccess|Lazy for You"
                         ],
-                        "visibility_rules": ["fatesanity"],
+                        "visibility_rules": [
+                            "$fateVisibility|Lazy for You"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -482,9 +496,11 @@
                     {
                         "name": "Protecting the Patch (FATE)",
                         "access_rules": [
-                            "$leveling:20"
+                            "^$fateAccess|Protecting the Patch"
                         ],
-                        "visibility_rules": ["fatesanity"],
+                        "visibility_rules": [
+                            "$fateVisibility|Protecting the Patch"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -510,9 +526,11 @@
                     {
                         "name": "What Have You Done for Mead Lately (FATE)",
                         "access_rules": [
-                            "$leveling:21"
+                            "^$fateAccess|What Have You Done for Mead Lately"
                         ],
-                        "visibility_rules": ["fatesanity"],
+                        "visibility_rules": [
+                            "$fateVisibility|What Have You Done for Mead Lately"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -538,9 +556,11 @@
                     {
                         "name": "Thunderstruck (FATE)",
                         "access_rules": [
-                            "$leveling:23"
+                            "^$fateAccess|Thunderstruck"
                         ],
-                        "visibility_rules": ["fatesanity"],
+                        "visibility_rules": [
+                            "$fateVisibility|Thunderstruck"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -566,9 +586,11 @@
                     {
                         "name": "All Vine and No Popotoes (FATE)",
                         "access_rules": [
-                            "$leveling:40"
+                            "^$fateAccess|All Vine and No Popotoes"
                         ],
-                        "visibility_rules": ["fatesanity, level_cap:40"],
+                        "visibility_rules": [
+                            "$fateVisibility|All Vine and No Popotoes"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -594,9 +616,11 @@
                     {
                         "name": "Collecting Keepsakes (FATE)",
                         "access_rules": [
-                            "$leveling:40"
+                            "^$fateAccess|Collecting Keepsakes"
                         ],
-                        "visibility_rules": ["fatesanity, level_cap:40"],
+                        "visibility_rules": [
+                            "$fateVisibility|Collecting Keepsakes"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -622,9 +646,11 @@
                     {
                         "name": "A Wrench in the Works (FATE)",
                         "access_rules": [
-                            "$leveling:42"
+                            "^$fateAccess|A Wrench in the Works"
                         ],
-                        "visibility_rules": ["fatesanity, level_cap:42"],
+                        "visibility_rules": [
+                            "$fateVisibility|A Wrench in the Works"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -650,9 +676,11 @@
                     {
                         "name": "The Enemy of My Enemy (FATE)",
                         "access_rules": [
-                            "$leveling:42"
+                            "^$fateAccess|The Enemy of My Enemy"
                         ],
-                        "visibility_rules": ["fatesanity, level_cap:42"],
+                        "visibility_rules": [
+                            "$fateVisibility|The Enemy of My Enemy"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -678,9 +706,11 @@
                     {
                         "name": "The Enmity of My Enemy (FATE)",
                         "access_rules": [
-                            "$leveling:42"
+                            "^$fateAccess|The Enmity of My Enemy"
                         ],
-                        "visibility_rules": ["fatesanity, level_cap:42"],
+                        "visibility_rules": [
+                            "$fateVisibility|The Enmity of My Enemy"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -706,9 +736,11 @@
                     {
                         "name": "The Squirrel Trappers Wife (FATE)",
                         "access_rules": [
-                            "$leveling:43"
+                            "^$fateAccess|The Squirrel Trapper's Wife"
                         ],
-                        "visibility_rules": ["fatesanity, level_cap:43"],
+                        "visibility_rules": [
+                            "$fateVisibility|The Squirrel Trapper's Wife"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -734,9 +766,11 @@
                     {
                         "name": "Below His Station (FATE)",
                         "access_rules": [
-                            "$leveling:44"
+                            "^$fateAccess|Below His Station"
                         ],
-                        "visibility_rules": ["fatesanity, level_cap:44"],
+                        "visibility_rules": [
+                            "$fateVisibility|Below His Station"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -762,9 +796,11 @@
                     {
                         "name": "Got Milkroot (FATE)",
                         "access_rules": [
-                            "$leveling:46"
+                            "^$fateAccess|Got Milkroot"
                         ],
-                        "visibility_rules": ["fatesanity, level_cap:46"],
+                        "visibility_rules": [
+                            "$fateVisibility|Got Milkroot"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -790,9 +826,11 @@
                     {
                         "name": "Breaking Dawn (FATE)",
                         "access_rules": [
-                            "$leveling:47"
+                            "^$fateAccess|Breaking Dawn"
                         ],
-                        "visibility_rules": ["fatesanity, level_cap:47"],
+                        "visibility_rules": [
+                            "$fateVisibility|Breaking Dawn"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -818,9 +856,11 @@
                     {
                         "name": "Bush Blade (FATE)",
                         "access_rules": [
-                            "$leveling:47"
+                            "^$fateAccess|Bush Blade"
                         ],
-                        "visibility_rules": ["fatesanity, level_cap:47"],
+                        "visibility_rules": [
+                            "$fateVisibility|Bush Blade"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -846,9 +886,11 @@
                     {
                         "name": "Everythings Better (FATE)",
                         "access_rules": [
-                            "$leveling:49"
+                            "^$fateAccess|Everything's Better"
                         ],
-                        "visibility_rules": ["fatesanity, level_cap:49"],
+                        "visibility_rules": [
+                            "$fateVisibility|Everything's Better"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -874,9 +916,11 @@
                     {
                         "name": "Handful of Dreams (FATE)",
                         "access_rules": [
-                            "$leveling:49"
+                            "^$fateAccess|Handful of Dreams"
                         ],
-                        "visibility_rules": ["fatesanity, level_cap:49"],
+                        "visibility_rules": [
+                            "$fateVisibility|Handful of Dreams"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -902,9 +946,11 @@
                     {
                         "name": "The Gale that Rocks the Cradle (FATE)",
                         "access_rules": [
-                            "$leveling:49"
+                            "^$fateAccess|The Gale that Rocks the Cradle"
                         ],
-                        "visibility_rules": ["fatesanity, level_cap:49"],
+                        "visibility_rules": [
+                            "$fateVisibility|The Gale that Rocks the Cradle"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -930,9 +976,11 @@
                     {
                         "name": "What a Boar (FATE)",
                         "access_rules": [
-                            "$leveling:49"
+                            "^$fateAccess|What a Boar"
                         ],
-                        "visibility_rules": ["fatesanity, level_cap:49"],
+                        "visibility_rules": [
+                            "$fateVisibility|What a Boar"
+                        ],
                         "item_count": 1
                     }
                 ],
