@@ -154,10 +154,10 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "$leveling:65"
+                    "^$fateMinLevelAccess|65"
                 ],
                 "visibility_rules": [
-                    "$fatesanity_disabled, level_cap:65"
+                    "$fateMinLevelVisibility|65"
                 ],
                 "sections": [
                     {

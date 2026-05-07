@@ -331,10 +331,10 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "$leveling:5"
+                    "^$fateMinLevelAccess|5"
                 ],
                 "visibility_rules": [
-                    "$fatesanity_disabled"
+                    "$fateMinLevelVisibility|5"
                 ],
                 "sections": [
                     {

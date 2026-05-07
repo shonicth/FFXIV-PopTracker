@@ -208,9 +208,11 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "$leveling:30"
+                    "^$fateMinLevelAccess|30"
                 ],
-                "visibility_rules": ["$fatesanity_disabled"],
+                "visibility_rules": [
+                    "$fateMinLevelVisibility|30"
+                ],
                 "sections": [
                     {
                         "name": "FATE #1",

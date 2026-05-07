@@ -600,9 +600,11 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:40"
+                    "^$fateMinLevelAccess|40"
                 ],
-                "visibility_rules": ["fishsanity_normal, level_cap:40"],
+                "visibility_rules": [
+                    "$fateMinLevelVisibility|40"
+                ],
                 "sections": [
                     {
                         "name": "Warmwater Trout",
