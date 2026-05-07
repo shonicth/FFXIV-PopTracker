@@ -425,10 +425,10 @@
                     {
                         "name": "Cactus What You Preach (FATE)",
                         "access_rules": [
-                            "$leveling:83"
+                            "^$fateAccess|Cactus What You Preach"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:83"
+                            "$fateVisibility|Cactus What You Preach"
                         ],
                         "item_count": 1
                     }
@@ -455,10 +455,10 @@
                     {
                         "name": "Droids Gone Wild (FATE)",
                         "access_rules": [
-                            "$leveling:83"
+                            "^$fateAccess|Droids Gone Wild"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:83"
+                            "$fateVisibility|Droids Gone Wild"
                         ],
                         "item_count": 1
                     }
@@ -485,10 +485,10 @@
                     {
                         "name": "Mantids on the Moon (FATE)",
                         "access_rules": [
-                            "$leveling:83"
+                            "^$fateAccess|Mantids on the Moon "
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:83"
+                            "$fateVisibility|Mantids on the Moon "
                         ],
                         "item_count": 1
                     }
@@ -515,10 +515,10 @@
                     {
                         "name": "One Giant Weep (FATE)",
                         "access_rules": [
-                            "$leveling:83"
+                            "^$fateAccess|One Giant Weep"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:83"
+                            "$fateVisibility|One Giant Weep"
                         ],
                         "item_count": 1
                     }
@@ -545,10 +545,10 @@
                     {
                         "name": "The Stones of Silence (FATE)",
                         "access_rules": [
-                            "$leveling:83"
+                            "^$fateAccess|The Stones of Silence"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:83"
+                            "$fateVisibility|The Stones of Silence"
                         ],
                         "item_count": 1
                     }
@@ -575,10 +575,10 @@
                     {
                         "name": "The Strolling Stones (FATE)",
                         "access_rules": [
-                            "$leveling:83"
+                            "^$fateAccess|The Strolling Stones"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:83"
+                            "$fateVisibility|The Strolling Stones"
                         ],
                         "item_count": 1
                     }
@@ -605,10 +605,10 @@
                     {
                         "name": "Head Empty Only Thoughts (FATE)",
                         "access_rules": [
-                            "$leveling:84"
+                            "^$fateAccess|Head Empty Only Thoughts"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:84"
+                            "$fateVisibility|Head Empty Only Thoughts"
                         ],
                         "item_count": 1
                     }
@@ -635,10 +635,10 @@
                     {
                         "name": "Hunger Strikes (FATE)",
                         "access_rules": [
-                            "$leveling:84"
+                            "^$fateAccess|Hunger Strikes"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:84"
+                            "$fateVisibility|Hunger Strikes"
                         ],
                         "item_count": 1
                     }
@@ -665,10 +665,10 @@
                     {
                         "name": "Lepus Lamentorum Cleaner Catastrophe (FATE)",
                         "access_rules": [
-                            "$leveling:84"
+                            "^$fateAccess|Lepus Lamentorum Cleaner Catastrophe"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:84"
+                            "$fateVisibility|Lepus Lamentorum Cleaner Catastrophe"
                         ],
                         "item_count": 1
                     }
@@ -695,10 +695,10 @@
                     {
                         "name": "Lepus Lamentorum Crazy Contraption (FATE)",
                         "access_rules": [
-                            "$leveling:84"
+                            "^$fateAccess|Lepus Lamentorum Crazy Contraption"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:84"
+                            "$fateVisibility|Lepus Lamentorum Crazy Contraption"
                         ],
                         "item_count": 1
                     }
@@ -725,10 +725,10 @@
                     {
                         "name": "Lepus Lamentorum Dynamite Disaster (FATE)",
                         "access_rules": [
-                            "$leveling:84"
+                            "^$fateAccess|Lepus Lamentorum Dynamite Disaster"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:84"
+                            "$fateVisibility|Lepus Lamentorum Dynamite Disaster"
                         ],
                         "item_count": 1
                     }
@@ -755,10 +755,10 @@
                     {
                         "name": "Scrapping the Scrapers (FATE)",
                         "access_rules": [
-                            "$leveling:84"
+                            "^$fateAccess|Scrapping the Scrapers"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:84"
+                            "$fateVisibility|Scrapping the Scrapers"
                         ],
                         "item_count": 1
                     }
@@ -785,10 +785,10 @@
                     {
                         "name": "Taking Care of the Caretakers (FATE)",
                         "access_rules": [
-                            "$leveling:84"
+                            "^$fateAccess|Taking Care of the Caretakers"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:84"
+                            "$fateVisibility|Taking Care of the Caretakers"
                         ],
                         "item_count": 1
                     }
@@ -815,10 +815,10 @@
                     {
                         "name": "Tech Support Cull (FATE)",
                         "access_rules": [
-                            "$leveling:84"
+                            "^$fateAccess|Tech Support Cull"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:84"
+                            "$fateVisibility|Tech Support Cull"
                         ],
                         "item_count": 1
                     }
@@ -845,10 +845,10 @@
                     {
                         "name": "What a Thrill (FATE)",
                         "access_rules": [
-                            "$leveling:84"
+                            "^$fateAccess|What a Thrill"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:84"
+                            "$fateVisibility|What a Thrill"
                         ],
                         "item_count": 1
                     }

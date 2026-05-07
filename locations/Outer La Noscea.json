@@ -135,9 +135,11 @@
                     {
                         "name": "Peryton Perhaps (FATE)",
                         "access_rules": [
-                            "$leveling:30"
+                            "^$fateAccess|Peryton Perhaps"
                         ],
-                        "visibility_rules": ["fatesanity"],
+                        "visibility_rules": [
+                            "$fateVisibility|Peryton Perhaps"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -163,9 +165,11 @@
                     {
                         "name": "By a Whisker (FATE)",
                         "access_rules": [
-                            "$leveling:34"
+                            "^$fateAccess|By a Whisker"
                         ],
-                        "visibility_rules": ["fatesanity, level_cap:34"],
+                        "visibility_rules": [
+                            "$fateVisibility|By a Whisker"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -191,9 +195,11 @@
                     {
                         "name": "Im a Rock Not a Number (FATE)",
                         "access_rules": [
-                            "$leveling:34"
+                            "^$fateAccess|I'm a Rock Not a Number"
                         ],
-                        "visibility_rules": ["fatesanity, level_cap:34"],
+                        "visibility_rules": [
+                            "$fateVisibility|I'm a Rock Not a Number"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -219,9 +225,11 @@
                     {
                         "name": "Overlooking the Obvious (FATE)",
                         "access_rules": [
-                            "$leveling:34"
+                            "^$fateAccess|Overlooking the Obvious"
                         ],
-                        "visibility_rules": ["fatesanity, level_cap:34"],
+                        "visibility_rules": [
+                            "$fateVisibility|Overlooking the Obvious"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -247,9 +255,11 @@
                     {
                         "name": "Restless in OGhomoro (FATE)",
                         "access_rules": [
-                            "$leveling:34"
+                            "^$fateAccess|Restless in O'Ghomoro"
                         ],
-                        "visibility_rules": ["fatesanity, level_cap:34"],
+                        "visibility_rules": [
+                            "$fateVisibility|Restless in O'Ghomoro"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -275,9 +285,11 @@
                     {
                         "name": "The Only Way Is Up (FATE)",
                         "access_rules": [
-                            "$leveling:34"
+                            "^$fateAccess|The Only Way Is Up"
                         ],
-                        "visibility_rules": ["fatesanity, level_cap:34"],
+                        "visibility_rules": [
+                            "$fateVisibility|The Only Way Is Up"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -303,9 +315,11 @@
                     {
                         "name": "When the Coeurls Away (FATE)",
                         "access_rules": [
-                            "$leveling:34"
+                            "^$fateAccess|When the Coeurl's Away"
                         ],
-                        "visibility_rules": ["fatesanity, level_cap:34"],
+                        "visibility_rules": [
+                            "$fateVisibility|When the Coeurl's Away"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -331,9 +345,11 @@
                     {
                         "name": "Fire in the Hole (FATE)",
                         "access_rules": [
-                            "$leveling:41"
+                            "^$fateAccess|Fire in the Hole"
                         ],
-                        "visibility_rules": ["fatesanity, level_cap:41"],
+                        "visibility_rules": [
+                            "$fateVisibility|Fire in the Hole"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -359,9 +375,11 @@
                     {
                         "name": "Make it Rain (FATE)",
                         "access_rules": [
-                            "$leveling:41"
+                            "^$fateAccess|Make it Rain"
                         ],
-                        "visibility_rules": ["fatesanity, level_cap:41"],
+                        "visibility_rules": [
+                            "$fateVisibility|Make it Rain"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -387,9 +405,11 @@
                     {
                         "name": "Schism (FATE)",
                         "access_rules": [
-                            "$leveling:41"
+                            "^$fateAccess|Schism"
                         ],
-                        "visibility_rules": ["fatesanity, level_cap:41"],
+                        "visibility_rules": [
+                            "$fateVisibility|Schism"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -415,9 +435,11 @@
                     {
                         "name": "The Miner in the Mirror (FATE)",
                         "access_rules": [
-                            "$leveling:44"
+                            "^$fateAccess|The Miner in the Mirror"
                         ],
-                        "visibility_rules": ["fatesanity, level_cap:44"],
+                        "visibility_rules": [
+                            "$fateVisibility|The Miner in the Mirror"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -443,9 +465,11 @@
                     {
                         "name": "Making the Rounds (FATE)",
                         "access_rules": [
-                            "$leveling:47"
+                            "^$fateAccess|Making the Rounds"
                         ],
-                        "visibility_rules": ["fatesanity, level_cap:47"],
+                        "visibility_rules": [
+                            "$fateVisibility|Making the Rounds"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -471,9 +495,11 @@
                     {
                         "name": "Stopping the Shakes (FATE)",
                         "access_rules": [
-                            "$leveling:47"
+                            "^$fateAccess|Stopping the Shakes"
                         ],
-                        "visibility_rules": ["fatesanity, level_cap:47"],
+                        "visibility_rules": [
+                            "$fateVisibility|Stopping the Shakes"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -499,9 +525,11 @@
                     {
                         "name": "Full Metal Alchemist (FATE)",
                         "access_rules": [
-                            "$leveling:49"
+                            "^$fateAccess|Full Metal Alchemist"
                         ],
-                        "visibility_rules": ["fatesanity, level_cap:49"],
+                        "visibility_rules": [
+                            "$fateVisibility|Full Metal Alchemist"
+                        ],
                         "item_count": 1
                     }
                 ],

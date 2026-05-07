@@ -408,10 +408,10 @@
                     {
                         "name": "Good to Be Bud (FATE)",
                         "access_rules": [
-                            "$leveling:44"
+                            "^$fateAccess|Good to Be Bud"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:40"
+                            "$fateVisibility|Good to Be Bud"
                         ],
                         "item_count": 1
                     }
@@ -438,10 +438,10 @@
                     {
                         "name": "Mud About You (FATE)",
                         "access_rules": [
-                            "$leveling:44"
+                            "^$fateAccess|Mud About You"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:44"
+                            "$fateVisibility|Mud About You"
                         ],
                         "item_count": 1
                     }
@@ -468,10 +468,10 @@
                     {
                         "name": "V for Vinedetta (FATE)",
                         "access_rules": [
-                            "$leveling:44"
+                            "^$fateAccess|Mud About You"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:44"
+                            "$fateVisibility|Mud About You"
                         ],
                         "item_count": 1
                     }
@@ -498,10 +498,10 @@
                     {
                         "name": "Among Giants (FATE)",
                         "access_rules": [
-                            "$leveling:45"
+                            "^$fateAccess|Among Giants"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:45"
+                            "$fateVisibility|Among Giants"
                         ],
                         "item_count": 1
                     }
@@ -528,10 +528,10 @@
                     {
                         "name": "Black and Nburu (FATE)",
                         "access_rules": [
-                            "$leveling:45"
+                            "^$fateAccess|Black and Nburu"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:45"
+                            "$fateVisibility|Black and Nburu"
                         ],
                         "item_count": 1
                     }
@@ -558,10 +558,10 @@
                     {
                         "name": "The Prodigal Son (FATE)",
                         "access_rules": [
-                            "$leveling:45"
+                            "^$fateAccess|The Prodigal Son"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:45"
+                            "$fateVisibility|The Prodigal Son"
                         ],
                         "item_count": 1
                     }
@@ -588,10 +588,10 @@
                     {
                         "name": "Toll Collector (FATE)",
                         "access_rules": [
-                            "$leveling:45"
+                            "^$fateAccess|Toll Collector"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:45"
+                            "$fateVisibility|Toll Collector"
                         ],
                         "item_count": 1
                     }
@@ -618,10 +618,10 @@
                     {
                         "name": "Another Day, Another Demon (FATE)",
                         "access_rules": [
-                            "$leveling:46"
+                            "^$fateAccess|Another Day Another Demon"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:46"
+                            "$fateVisibility|Another Day Another Demon"
                         ],
                         "item_count": 1
                     }
@@ -648,10 +648,10 @@
                     {
                         "name": "Gone with the Shadow (FATE)",
                         "access_rules": [
-                            "$leveling:46"
+                            "^$fateAccess|Gone with the Shadow"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:46"
+                            "$fateVisibility|Gone with the Shadow"
                         ],
                         "item_count": 1
                     }
@@ -678,10 +678,10 @@
                     {
                         "name": "Home Is Where the Horn Is (FATE)",
                         "access_rules": [
-                            "$leveling:46"
+                            "^$fateAccess|Home Is Where the Horn Is"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:46"
+                            "$fateVisibility|Home Is Where the Horn Is"
                         ],
                         "item_count": 1
                     }
@@ -708,10 +708,10 @@
                     {
                         "name": "One Giant Leap (FATE)",
                         "access_rules": [
-                            "$leveling:46"
+                            "^$fateAccess|One Giant Leap"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:46"
+                            "$fateVisibility|One Giant Leap"
                         ],
                         "item_count": 1
                     }
@@ -738,10 +738,10 @@
                     {
                         "name": "Standing Guard (FATE)",
                         "access_rules": [
-                            "$leveling:46"
+                            "^$fateAccess|Standing Guard"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:46"
+                            "$fateVisibility|Standing Guard"
                         ],
                         "item_count": 1
                     }
@@ -768,10 +768,10 @@
                     {
                         "name": "Thats What Adventurers Are For (FATE)",
                         "access_rules": [
-                            "$leveling:46"
+                            "^$fateAccess|That's What Adventurers Are For"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:46"
+                            "$fateVisibility|That's What Adventurers Are For"
                         ],
                         "item_count": 1
                     }
@@ -798,10 +798,10 @@
                     {
                         "name": "Another Notch on the Torch (FATE)",
                         "access_rules": [
-                            "$leveling:48"
+                            "^$fateAccess|Another Notch on the Torch"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:48"
+                            "$fateVisibility|Another Notch on the Torch"
                         ],
                         "item_count": 1
                     }

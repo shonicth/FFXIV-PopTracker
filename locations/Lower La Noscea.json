@@ -360,8 +360,12 @@
                 "sections": [
                     {
                         "name": "I Melt with You (FATE)",
-                        "access_rules": ["$leveling:3"],
-                        "visibility_rules": ["fatesanity"],
+                        "access_rules": [
+                            "^$fateAccess|I Melt with You"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|I Melt with You"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -386,8 +390,12 @@
                 "sections": [
                     {
                         "name": "You Call that a Toad (FATE)",
-                        "access_rules": ["$leveling:4"],
-                        "visibility_rules": ["fatesanity"],
+                        "access_rules": [
+                            "^$fateAccess|You Call that a Toad"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|You Call that a Toad"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -412,8 +420,12 @@
                 "sections": [
                     {
                         "name": "Fight the Flower (FATE)",
-                        "access_rules": ["$leveling:5"],
-                        "visibility_rules": ["fatesanity"],
+                        "access_rules": [
+                            "^$fateAccess|Fight the Flower"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|Fight the Flower"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -438,8 +450,12 @@
                 "sections": [
                     {
                         "name": "Caving In (FATE)",
-                        "access_rules": ["$leveling:7"],
-                        "visibility_rules": ["fatesanity"],
+                        "access_rules": [
+                            "^$fateAccess|Caving In"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|Caving In"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -464,8 +480,12 @@
                 "sections": [
                     {
                         "name": "Man of the Flour (FATE)",
-                        "access_rules": ["$leveling:8"],
-                        "visibility_rules": ["fatesanity"],
+                        "access_rules": [
+                            "^$fateAccess|Man of the Flour"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|Man of the Flour"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -490,8 +510,12 @@
                 "sections": [
                     {
                         "name": "Enter Beastman (FATE)",
-                        "access_rules": ["$leveling:9"],
-                        "visibility_rules": ["fatesanity"],
+                        "access_rules": [
+                            "^$fateAccess|Enter Beastman"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|Enter Beastman"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -516,8 +540,12 @@
                 "sections": [
                     {
                         "name": "One Pickman Enters (FATE)",
-                        "access_rules": ["$leveling:9"],
-                        "visibility_rules": ["fatesanity"],
+                        "access_rules": [
+                            "^$fateAccess|One Pickman Enters"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|One Pickman Enters"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -542,8 +570,12 @@
                 "sections": [
                     {
                         "name": "In the Name of Love (FATE)",
-                        "access_rules": ["$leveling:10"],
-                        "visibility_rules": ["fatesanity"],
+                        "access_rules": [
+                            "^$fateAccess|In the Name of Love"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|In the Name of Love"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -568,8 +600,12 @@
                 "sections": [
                     {
                         "name": "Under the Bridge (FATE)",
-                        "access_rules": ["$leveling:10"],
-                        "visibility_rules": ["fatesanity"],
+                        "access_rules": [
+                            "^$fateAccess|Under the Bridge"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|Under the Bridge"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -594,8 +630,12 @@
                 "sections": [
                     {
                         "name": "Away in a Bilge Hold (FATE)",
-                        "access_rules": ["$leveling:11"],
-                        "visibility_rules": ["fatesanity"],
+                        "access_rules": [
+                            "^$fateAccess|Away in a Bilge Hold"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|Away in a Bilge Hold"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -620,8 +660,12 @@
                 "sections": [
                     {
                         "name": "Dont Drink the Water (FATE)",
-                        "access_rules": ["$leveling:12"],
-                        "visibility_rules": ["fatesanity"],
+                        "access_rules": [
+                            "^$fateAccess|Don't Drink the Water"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|Don't Drink the Water"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -646,8 +690,12 @@
                 "sections": [
                     {
                         "name": "One Prince (FATE)",
-                        "access_rules": ["$leveling:13"],
-                        "visibility_rules": ["fatesanity"],
+                        "access_rules": [
+                            "^$fateAccess|One Prince"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|One Prince"
+                        ],
                         "item_count": 1
                     }
                 ],

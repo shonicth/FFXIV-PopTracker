@@ -173,9 +173,11 @@
                     {
                         "name": "Breaking Bud (FATE)",
                         "access_rules": [
-                            "$leveling:3"
+                            "^$fateAccess|Breaking Bud"
                         ],
-                        "visibility_rules": ["fatesanity"],
+                        "visibility_rules": [
+                            "$fateVisibility|Breaking Bud"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -201,9 +203,11 @@
                     {
                         "name": "Dschubba Snacks (FATE)",
                         "access_rules": [
-                            "$leveling:3"
+                            "^$fateAccess|Dschubba Snacks"
                         ],
-                        "visibility_rules": ["fatesanity"],
+                        "visibility_rules": [
+                            "$fateVisibility|Dschubba Snacks"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -229,9 +233,11 @@
                     {
                         "name": "No Birds Allowed (FATE)",
                         "access_rules": [
-                            "$leveling:5"
+                            "^$fateAccess|No Birds Allowed"
                         ],
-                        "visibility_rules": ["fatesanity"],
+                        "visibility_rules": [
+                            "$fateVisibility|No Birds Allowed"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -257,9 +263,11 @@
                     {
                         "name": "The Magical Fruit (FATE)",
                         "access_rules": [
-                            "$leveling:7"
+                            "^$fateAccess|The Magical Fruit"
                         ],
-                        "visibility_rules": ["fatesanity"],
+                        "visibility_rules": [
+                            "$fateVisibility|The Magical Fruit"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -285,9 +293,11 @@
                     {
                         "name": "Micromanaging (FATE)",
                         "access_rules": [
-                            "$leveling:8"
+                            "^$fateAccess|Micromanaging"
                         ],
-                        "visibility_rules": ["fatesanity"],
+                        "visibility_rules": [
+                            "$fateVisibility|Micromanaging"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -313,9 +323,11 @@
                     {
                         "name": "The Big Issue (FATE)",
                         "access_rules": [
-                            "$leveling:25"
+                            "^$fateAccess|The Big Issue"
                         ],
-                        "visibility_rules": ["fatesanity"],
+                        "visibility_rules": [
+                            "$fateVisibility|The Big Issue"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -341,9 +353,11 @@
                     {
                         "name": "Hare Today (FATE)",
                         "access_rules": [
-                            "$leveling:27"
+                            "^$fateAccess|Hare Today"
                         ],
-                        "visibility_rules": ["fatesanity"],
+                        "visibility_rules": [
+                            "$fateVisibility|Hare Today"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -369,9 +383,11 @@
                     {
                         "name": "It Ziz What It Is (FATE)",
                         "access_rules": [
-                            "$leveling:27"
+                            "^$fateAccess|It Ziz What It Is"
                         ],
-                        "visibility_rules": ["fatesanity"],
+                        "visibility_rules": [
+                            "$fateVisibility|It Ziz What It Is"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -397,9 +413,11 @@
                     {
                         "name": "That Which Binds Us (FATE)",
                         "access_rules": [
-                            "$leveling:28"
+                            "^$fateAccess|That Which Binds Us"
                         ],
-                        "visibility_rules": ["fatesanity"],
+                        "visibility_rules": [
+                            "$fateVisibility|That Which Binds Us"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -425,9 +443,11 @@
                     {
                         "name": "Waiting for a Moon to Fall (FATE)",
                         "access_rules": [
-                            "$leveling:28"
+                            "^$fateAccess|Waiting for a Moon to Fall"
                         ],
-                        "visibility_rules": ["fatesanity"],
+                        "visibility_rules": [
+                            "$fateVisibility|Waiting for a Moon to Fall"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -453,9 +473,11 @@
                     {
                         "name": "Dont Disturb This Grove (FATE)",
                         "access_rules": [
-                            "$leveling:37"
+                            "^$fateAccess|Don't Disturb This Grove"
                         ],
-                        "visibility_rules": ["fatesanity, level_cap:37"],
+                        "visibility_rules": [
+                            "$fateVisibility|Don't Disturb This Grove"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -481,9 +503,11 @@
                     {
                         "name": "Smells Like Tree Spirit (FATE)",
                         "access_rules": [
-                            "$leveling:37"
+                            "^$fateAccess|Smells Like Tree Spirit"
                         ],
-                        "visibility_rules": ["fatesanity, level_cap:37"],
+                        "visibility_rules": [
+                            "$fateVisibility|Smells Like Tree Spirit"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -509,9 +533,11 @@
                     {
                         "name": "Air Supply (FATE)",
                         "access_rules": [
-                            "$leveling:47"
+                            "^$fateAccess|Air Supply"
                         ],
-                        "visibility_rules": ["fatesanity, level_cap:47"],
+                        "visibility_rules": [
+                            "$fateVisibility|Air Supply"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -537,9 +563,11 @@
                     {
                         "name": "Rude Awakening (FATE)",
                         "access_rules": [
-                            "$leveling:48"
+                            "^$fateAccess|Rude Awakening"
                         ],
-                        "visibility_rules": ["fatesanity, level_cap:48"],
+                        "visibility_rules": [
+                            "$fateVisibility|Rude Awakening"
+                        ],
                         "item_count": 1
                     }
                 ],

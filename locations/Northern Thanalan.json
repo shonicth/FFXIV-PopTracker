@@ -398,10 +398,10 @@
                     {
                         "name": "Boom Goes the Ceruleum (FATE)",
                         "access_rules": [
-                            "$leveling:49"
+                            "^$fateAccess|Boom Goes the Ceruleum"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:49"
+                            "$fateVisibility|Boom Goes the Ceruleum"
                         ],
                         "item_count": 1
                     }
@@ -428,10 +428,10 @@
                     {
                         "name": "Core Blimey (FATE)",
                         "access_rules": [
-                            "$leveling:49"
+                            "^$fateAccess|Core Blimey"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:49"
+                            "$fateVisibility|Core Blimey"
                         ],
                         "item_count": 1
                     }
@@ -458,10 +458,10 @@
                     {
                         "name": "Dark Devices The Bait (FATE)",
                         "access_rules": [
-                            "$leveling:49"
+                            "^$fateAccess|Dark Devices The Bait"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:49"
+                            "$fateVisibility|Dark Devices The Bait"
                         ],
                         "item_count": 1
                     }
@@ -488,10 +488,10 @@
                     {
                         "name": "Dark Devices The End (FATE)",
                         "access_rules": [
-                            "$leveling:49"
+                            "^$fateAccess|Dark Devices The End"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:49"
+                            "$fateVisibility|Dark Devices The End"
                         ],
                         "item_count": 1
                     }
@@ -518,10 +518,10 @@
                     {
                         "name": "Dark Devices The Plea (FATE)",
                         "access_rules": [
-                            "$leveling:49"
+                            "^$fateAccess|Dark Devices The Plea"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:49"
+                            "$fateVisibility|Dark Devices The Plea"
                         ],
                         "item_count": 1
                     }
@@ -548,10 +548,10 @@
                     {
                         "name": "Dark Devices The Switch (FATE)",
                         "access_rules": [
-                            "$leveling:49"
+                            "^$fateAccess|Dark Devices The Switch"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:49"
+                            "$fateVisibility|Dark Devices The Switch"
                         ],
                         "item_count": 1
                     }
@@ -578,10 +578,10 @@
                     {
                         "name": "East Meets Worst (FATE)",
                         "access_rules": [
-                            "$leveling:49"
+                            "^$fateAccess|East Meets Worst"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:49"
+                            "$fateVisibility|East Meets Worst"
                         ],
                         "item_count": 1
                     }
@@ -608,10 +608,10 @@
                     {
                         "name": "Go, Go, Gorgimera (FATE)",
                         "access_rules": [
-                            "$leveling:49"
+                            "^$fateAccess|Go Go Gorgimera"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:49"
+                            "$fateVisibility|Go Go Gorgimera"
                         ],
                         "item_count": 1
                     }
@@ -638,10 +638,10 @@
                     {
                         "name": "Just a Sip (FATE)",
                         "access_rules": [
-                            "$leveling:49"
+                            "^$fateAccess|Just a Sip"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:49"
+                            "$fateVisibility|Just a Sip"
                         ],
                         "item_count": 1
                     }
@@ -668,10 +668,10 @@
                     {
                         "name": "Knock on Steel (FATE)",
                         "access_rules": [
-                            "$leveling:49"
+                            "^$fateAccess|Knock on Steel"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:49"
+                            "$fateVisibility|Knock on Steel"
                         ],
                         "item_count": 1
                     }
@@ -698,10 +698,10 @@
                     {
                         "name": "Reverse Engineering (FATE)",
                         "access_rules": [
-                            "$leveling:49"
+                            "^$fateAccess|Reverse Engineering"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:49"
+                            "$fateVisibility|Reverse Engineering"
                         ],
                         "item_count": 1
                     }
@@ -728,10 +728,10 @@
                     {
                         "name": "The Ceruleum Road (FATE)",
                         "access_rules": [
-                            "$leveling:49"
+                            "^$fateAccess|The Ceruleum Road"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:49"
+                            "$fateVisibility|The Ceruleum Road"
                         ],
                         "item_count": 1
                     }
@@ -758,10 +758,10 @@
                     {
                         "name": "The Red Baron (FATE)",
                         "access_rules": [
-                            "$leveling:49"
+                            "^$fateAccess|The Red Baron"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:49"
+                            "$fateVisibility|The Red Baron"
                         ],
                         "item_count": 1
                     }
@@ -788,10 +788,10 @@
                     {
                         "name": "Twinkle Twinkle Little Trap (FATE)",
                         "access_rules": [
-                            "$leveling:49"
+                            "^$fateAccess|Twinkle Twinkle Little Trap"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:49"
+                            "$fateVisibility|Twinkle Twinkle Little Trap"
                         ],
                         "item_count": 1
                     }
@@ -818,10 +818,10 @@
                     {
                         "name": "Under the Nails (FATE)",
                         "access_rules": [
-                            "$leveling:49"
+                            "^$fateAccess|Under the Nails"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:49"
+                            "$fateVisibility|Under the Nails"
                         ],
                         "item_count": 1
                     }
@@ -848,10 +848,10 @@
                     {
                         "name": "With One Eye Open (FATE)",
                         "access_rules": [
-                            "$leveling:49"
+                            "^$fateAccess|With One Eye Open"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:49"
+                            "$fateVisibility|With One Eye Open"
                         ],
                         "item_count": 1
                     }
