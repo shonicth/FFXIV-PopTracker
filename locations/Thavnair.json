@@ -708,10 +708,10 @@
                     {
                         "name": "Full Petal Alchemist Perilous Pickings (FATE)",
                         "access_rules": [
-                            "$leveling:80"
+                            "^$fateAccess|Full Petal Alchemist Perilous Pickings"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:80"
+                            "$fateVisibility|Full Petal Alchemist Perilous Pickings"
                         ],
                         "item_count": 1
                     }
@@ -738,10 +738,10 @@
                     {
                         "name": "Full Petal Alchemist Risky Return (FATE)",
                         "access_rules": [
-                            "$leveling:80"
+                            "^$fateAccess|Full Petal Alchemist Risky Return"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:80"
+                            "$fateVisibility|Full Petal Alchemist Risky Return"
                         ],
                         "item_count": 1
                     }
@@ -768,10 +768,10 @@
                     {
                         "name": "Shiver and Shock (FATE)",
                         "access_rules": [
-                            "$leveling:80"
+                            "^$fateAccess|Shiver and Shock"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:80"
+                            "$fateVisibility|Shiver and Shock"
                         ],
                         "item_count": 1
                     }
@@ -798,10 +798,10 @@
                     {
                         "name": "The Accursed Kanabhuti (FATE)",
                         "access_rules": [
-                            "$leveling:80"
+                            "^$fateAccess|The Accursed Kanabhuti"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:80"
+                            "$fateVisibility|The Accursed Kanabhuti"
                         ],
                         "item_count": 1
                     }
@@ -828,10 +828,10 @@
                     {
                         "name": "When Gaja Go Gaga (FATE)",
                         "access_rules": [
-                            "$leveling:80"
+                            "^$fateAccess|When Gaja Go Gaga"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:80"
+                            "$fateVisibility|When Gaja Go Gaga"
                         ],
                         "item_count": 1
                     }
@@ -858,10 +858,10 @@
                     {
                         "name": "I Am the Valras (FATE)",
                         "access_rules": [
-                            "$leveling:81"
+                            "^$fateAccess|I Am the Valras"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:81"
+                            "$fateVisibility|I Am the Valras"
                         ],
                         "item_count": 1
                     }
@@ -888,10 +888,10 @@
                     {
                         "name": "Of Claws and Gall (FATE)",
                         "access_rules": [
-                            "$leveling:81"
+                            "^$fateAccess|Of Claws and Gall"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:81"
+                            "$fateVisibility|Of Claws and Gall"
                         ],
                         "item_count": 1
                     }
@@ -918,10 +918,10 @@
                     {
                         "name": "The Little Nanka That Could (FATE)",
                         "access_rules": [
-                            "$leveling:81"
+                            "^$fateAccess|The Little Nanka That Could"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:81"
+                            "$fateVisibility|The Little Nanka That Could"
                         ],
                         "item_count": 1
                     }
@@ -948,10 +948,10 @@
                     {
                         "name": "Devout Pilgrims vs. the Apalala (FATE)",
                         "access_rules": [
-                            "$leveling:85"
+                            "^$fateAccess|Devout Pilgrims vs. the Apalala"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:85"
+                            "$fateVisibility|Devout Pilgrims vs. the Apalala"
                         ],
                         "item_count": 1
                     }
@@ -978,10 +978,10 @@
                     {
                         "name": "Devout Pilgrims vs. the Jungle Lizards (FATE)",
                         "access_rules": [
-                            "$leveling:85"
+                            "^$fateAccess|Devout Pilgrims vs. the Jungle Lizards"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:85"
+                            "$fateVisibility|Devout Pilgrims vs. the Jungle Lizards"
                         ],
                         "item_count": 1
                     }
@@ -1008,10 +1008,10 @@
                     {
                         "name": "Mesmerizing Moths (FATE)",
                         "access_rules": [
-                            "$leveling:85"
+                            "^$fateAccess|Mesmerizing Moths"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:85"
+                            "$fateVisibility|Mesmerizing Moths"
                         ],
                         "item_count": 1
                     }
@@ -1038,10 +1038,10 @@
                     {
                         "name": "Monkeys on Your Back (FATE)",
                         "access_rules": [
-                            "$leveling:85"
+                            "^$fateAccess|Monkeys on Your Back"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:85"
+                            "$fateVisibility|Monkeys on Your Back"
                         ],
                         "item_count": 1
                     }
@@ -1068,10 +1068,10 @@
                     {
                         "name": "Peek-a-Bhujamga (FATE)",
                         "access_rules": [
-                            "$leveling:85"
+                            "^$fateAccess|Peek-a-Bhujamga"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:85"
+                            "$fateVisibility|Peek-a-Bhujamga"
                         ],
                         "item_count": 1
                     }
@@ -1098,10 +1098,10 @@
                     {
                         "name": "Return of the Tyrant (FATE)",
                         "access_rules": [
-                            "$leveling:85"
+                            "^$fateAccess|Return of the Tyrant"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:85"
+                            "$fateVisibility|Return of the Tyrant"
                         ],
                         "item_count": 1
                     }
@@ -1128,10 +1128,10 @@
                     {
                         "name": "Stalkers in the Shroud (FATE)",
                         "access_rules": [
-                            "$leveling:85"
+                            "^$fateAccess|Stalkers in the Shroud"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:85"
+                            "$fateVisibility|Stalkers in the Shroud"
                         ],
                         "item_count": 1
                     }
@@ -1158,10 +1158,10 @@
                     {
                         "name": "Swipe Eft (FATE)",
                         "access_rules": [
-                            "$leveling:85"
+                            "^$fateAccess|Swipe Eft"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:85"
+                            "$fateVisibility|Swipe Eft"
                         ],
                         "item_count": 1
                     }
@@ -1188,10 +1188,10 @@
                     {
                         "name": "Devout Pilgrims vs. Daivadipa (FATE)",
                         "access_rules": [
-                            "$leveling:90"
+                            "^$fateAccess|Devout Pilgrims vs. Daivadipa"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:90, include_unreasonable_fates"
+                            "$fateVisibility|Devout Pilgrims vs. Daivadipa, include_unreasonable_fates"
                         ],
                         "item_count": 1
                     }

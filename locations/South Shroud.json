@@ -597,9 +597,11 @@
                     {
                         "name": "Stag Parting (FATE)",
                         "access_rules": [
-                            "$leveling:21"
+                            "^$fateAccess|Stag Parting"
                         ],
-                        "visibility_rules": ["fatesanity"],
+                        "visibility_rules": [
+                            "$fateVisibility|Stag Parting"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -625,9 +627,11 @@
                     {
                         "name": "Another Round (FATE)",
                         "access_rules": [
-                            "$leveling:22"
+                            "^$fateAccess|Another Round"
                         ],
-                        "visibility_rules": ["fatesanity"],
+                        "visibility_rules": [
+                            "$fateVisibility|Another Round"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -653,9 +657,11 @@
                     {
                         "name": "Kickin it with the Kedtraps (FATE)",
                         "access_rules": [
-                            "$leveling:22"
+                            "^$fateAccess|Kickin' it with the Kedtraps"
                         ],
-                        "visibility_rules": ["fatesanity"],
+                        "visibility_rules": [
+                            "$fateVisibility|Kickin' it with the Kedtraps"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -681,9 +687,11 @@
                     {
                         "name": "To Whom the Toll Goes (FATE)",
                         "access_rules": [
-                            "$leveling:22"
+                            "^$fateAccess|To Whom the Toll Goes"
                         ],
-                        "visibility_rules": ["fatesanity"],
+                        "visibility_rules": [
+                            "$fateVisibility|To Whom the Toll Goes"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -709,9 +717,11 @@
                     {
                         "name": "The Hunted (FATE)",
                         "access_rules": [
-                            "$leveling:23"
+                            "^$fateAccess|The Hunted"
                         ],
-                        "visibility_rules": ["fatesanity"],
+                        "visibility_rules": [
+                            "$fateVisibility|The Hunted"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -737,9 +747,11 @@
                     {
                         "name": "Conspiracy Theory (FATE)",
                         "access_rules": [
-                            "$leveling:24"
+                            "^$fateAccess|Conspiracy Theory"
                         ],
-                        "visibility_rules": ["fatesanity"],
+                        "visibility_rules": [
+                            "$fateVisibility|Conspiracy Theory"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -765,9 +777,11 @@
                     {
                         "name": "The Negotiators (FATE)",
                         "access_rules": [
-                            "$leveling:28"
+                            "^$fateAccess|The Negotiators"
                         ],
-                        "visibility_rules": ["fatesanity"],
+                        "visibility_rules": [
+                            "$fateVisibility|The Negotiators"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -793,9 +807,11 @@
                     {
                         "name": "Hide and Seek (FATE)",
                         "access_rules": [
-                            "$leveling:29"
+                            "^$fateAccess|Hide and Seek"
                         ],
-                        "visibility_rules": ["fatesanity"],
+                        "visibility_rules": [
+                            "$fateVisibility|Hide and Seek"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -821,9 +837,11 @@
                     {
                         "name": "Robbin Goblins (FATE)",
                         "access_rules": [
-                            "$leveling:29"
+                            "^$fateAccess|Robbin' Goblins"
                         ],
-                        "visibility_rules": ["fatesanity"],
+                        "visibility_rules": [
+                            "$fateVisibility|Robbin' Goblins"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -849,9 +867,11 @@
                     {
                         "name": "The Coeurl King (FATE)",
                         "access_rules": [
-                            "$leveling:29"
+                            "^$fateAccess|The Coeurl King"
                         ],
-                        "visibility_rules": ["fatesanity"],
+                        "visibility_rules": [
+                            "$fateVisibility|The Coeurl King"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -877,9 +897,11 @@
                     {
                         "name": "To Train a Tortoise (FATE)",
                         "access_rules": [
-                            "$leveling:30"
+                            "^$fateAccess|To Train a Tortoise"
                         ],
-                        "visibility_rules": ["fatesanity"],
+                        "visibility_rules": [
+                            "$fateVisibility|To Train a Tortoise"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -905,9 +927,11 @@
                     {
                         "name": "Fate is a Fecal Mistress (FATE)",
                         "access_rules": [
-                            "$leveling:31"
+                            "^$fateAccess|Fate is a Fecal Mistress"
                         ],
-                        "visibility_rules": ["fatesanity, level_cap:31"],
+                        "visibility_rules": [
+                            "$fateVisibility|Fate is a Fecal Mistress"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -933,9 +957,11 @@
                     {
                         "name": "A Tale of Two-tails (FATE)",
                         "access_rules": [
-                            "$leveling:32"
+                            "^$fateAccess|A Tale of Two-tails"
                         ],
-                        "visibility_rules": ["fatesanity, level_cap:32"],
+                        "visibility_rules": [
+                            "$fateVisibility|A Tale of Two-tails"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -961,9 +987,11 @@
                     {
                         "name": "Breaching the Hive (FATE)",
                         "access_rules": [
-                            "$leveling:32"
+                            "^$fateAccess|Breaching the Hive"
                         ],
-                        "visibility_rules": ["fatesanity, level_cap:32"],
+                        "visibility_rules": [
+                            "$fateVisibility|Breaching the Hive"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -989,9 +1017,11 @@
                     {
                         "name": "Clearing the Hive (FATE)",
                         "access_rules": [
-                            "$leveling:32"
+                            "^$fateAccess|Clearing the Hive"
                         ],
-                        "visibility_rules": ["fatesanity, level_cap:32"],
+                        "visibility_rules": [
+                            "$fateVisibility|Clearing the Hive"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -1017,9 +1047,11 @@
                     {
                         "name": "Defending the Hive (FATE)",
                         "access_rules": [
-                            "$leveling:32"
+                            "^$fateAccess|Defending the Hive"
                         ],
-                        "visibility_rules": ["fatesanity, level_cap:32"],
+                        "visibility_rules": [
+                            "$fateVisibility|Defending the Hive"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -1045,9 +1077,11 @@
                     {
                         "name": "Keeping the Hive (FATE)",
                         "access_rules": [
-                            "$leveling:32"
+                            "^$fateAccess|Keeping the Hive"
                         ],
-                        "visibility_rules": ["fatesanity, level_cap:32"],
+                        "visibility_rules": [
+                            "$fateVisibility|Keeping the Hive"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -1073,9 +1107,11 @@
                     {
                         "name": "Rogue on the Water (FATE)",
                         "access_rules": [
-                            "$leveling:33"
+                            "^$fateAccess|Rogue on the Water"
                         ],
-                        "visibility_rules": ["fatesanity, level_cap:33"],
+                        "visibility_rules": [
+                            "$fateVisibility|Rogue on the Water"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -1101,9 +1137,11 @@
                     {
                         "name": "Eft for Dead (FATE)",
                         "access_rules": [
-                            "$leveling:34"
+                            "^$fateAccess|Eft for Dead"
                         ],
-                        "visibility_rules": ["fatesanity, level_cap:34"],
+                        "visibility_rules": [
+                            "$fateVisibility|Eft for Dead"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -1129,9 +1167,11 @@
                     {
                         "name": "What Gored Before (FATE)",
                         "access_rules": [
-                            "$leveling:46"
+                            "^$fateAccess|What Gored Before"
                         ],
-                        "visibility_rules": ["fatesanity, level_cap:46"],
+                        "visibility_rules": [
+                            "$fateVisibility|What Gored Before"
+                        ],
                         "item_count": 1
                     }
                 ],

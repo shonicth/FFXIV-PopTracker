@@ -396,10 +396,10 @@
                     {
                         "name": "Downwind (FATE)",
                         "access_rules": [
-                            "$leveling:25"
+                            "^$fateAccess|Downwind"
                         ],
                         "visibility_rules": [
-                            "fatesanity"
+                            "$fateVisibility|Downwind"
                         ],
                         "item_count": 1
                     }
@@ -426,10 +426,10 @@
                     {
                         "name": "Run Like a Flame (FATE)",
                         "access_rules": [
-                            "$leveling:26"
+                            "^$fateAccess|Run Like a Flame"
                         ],
                         "visibility_rules": [
-                            "fatesanity"
+                            "$fateVisibility|Run Like a Flame"
                         ],
                         "item_count": 1
                     }
@@ -456,10 +456,10 @@
                     {
                         "name": "The Corpse Bribe (FATE)",
                         "access_rules": [
-                            "$leveling:27"
+                            "^$fateAccess|The Corpse Bribe"
                         ],
                         "visibility_rules": [
-                            "fatesanity"
+                            "$fateVisibility|The Corpse Bribe"
                         ],
                         "item_count": 1
                     }
@@ -486,10 +486,10 @@
                     {
                         "name": "Adventures in Throat Slitting (FATE)",
                         "access_rules": [
-                            "$leveling:28"
+                            "^$fateAccess|Adventures in Throat Slitting"
                         ],
                         "visibility_rules": [
-                            "fatesanity"
+                            "$fateVisibility|Adventures in Throat Slitting"
                         ],
                         "item_count": 1
                     }
@@ -516,10 +516,10 @@
                     {
                         "name": "Bump and Grind (FATE)",
                         "access_rules": [
-                            "$leveling:28"
+                            "^$fateAccess|Bump and Grind"
                         ],
                         "visibility_rules": [
-                            "fatesanity"
+                            "$fateVisibility|Bump and Grind"
                         ],
                         "item_count": 1
                     }
@@ -546,10 +546,10 @@
                     {
                         "name": "Harder, Bigger, Faster, Stronger (FATE)",
                         "access_rules": [
-                            "$leveling:28"
+                            "^$fateAccess|Harder Bigger Faster Stronger"
                         ],
                         "visibility_rules": [
-                            "fatesanity"
+                            "$fateVisibility|Harder Bigger Faster Stronger"
                         ],
                         "item_count": 1
                     }
@@ -576,10 +576,10 @@
                     {
                         "name": "Soul Man (FATE)",
                         "access_rules": [
-                            "$leveling:29"
+                            "^$fateAccess|Soul Man"
                         ],
                         "visibility_rules": [
-                            "fatesanity"
+                            "$fateVisibility|Soul Man"
                         ],
                         "item_count": 1
                     }
@@ -606,10 +606,10 @@
                     {
                         "name": "Children of the Sands (FATE)",
                         "access_rules": [
-                            "$leveling:31"
+                            "^$fateAccess|Children of the Sands"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:31"
+                            "$fateVisibility|Children of the Sands"
                         ],
                         "item_count": 1
                     }
@@ -636,10 +636,10 @@
                     {
                         "name": "Fish out of Water (FATE)",
                         "access_rules": [
-                            "$leveling:31"
+                            "^$fateAccess|Fish out of Water"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:31"
+                            "$fateVisibility|Fish out of Water"
                         ],
                         "item_count": 1
                     }
@@ -666,10 +666,10 @@
                     {
                         "name": "Blood, Augur, Hex, Magicks (FATE)",
                         "access_rules": [
-                            "$leveling:32"
+                            "^$fateAccess|Blood Augur Hex Magicks"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:32"
+                            "$fateVisibility|Blood Augur Hex Magicks"
                         ],
                         "item_count": 1
                     }
@@ -696,10 +696,10 @@
                     {
                         "name": "From Point A (FATE)",
                         "access_rules": [
-                            "$leveling:32"
+                            "^$fateAccess|From Point A"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:32"
+                            "$fateVisibility|From Point A"
                         ],
                         "item_count": 1
                     }
@@ -726,10 +726,10 @@
                     {
                         "name": "Revenge of the Worms (FATE)",
                         "access_rules": [
-                            "$leveling:32"
+                            "^$fateAccess|Revenge of the Worms"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:32"
+                            "$fateVisibility|Revenge of the Worms"
                         ],
                         "item_count": 1
                     }
@@ -756,10 +756,10 @@
                     {
                         "name": "Heroes of the 2nd (FATE)",
                         "access_rules": [
-                            "$leveling:45"
+                            "^$fateAccess|Heroes of the 2nd"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:45"
+                            "$fateVisibility|Heroes of the 2nd"
                         ],
                         "item_count": 1
                     }
@@ -786,10 +786,10 @@
                     {
                         "name": "Taken (FATE)",
                         "access_rules": [
-                            "$leveling:45"
+                            "^$fateAccess|Taken"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:45"
+                            "$fateVisibility|Taken"
                         ],
                         "item_count": 1
                     }
@@ -816,10 +816,10 @@
                     {
                         "name": "Bigger than Life (FATE)",
                         "access_rules": [
-                            "$leveling:46"
+                            "^$fateAccess|Bigger than Life"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:46"
+                            "$fateVisibility|Bigger than Life"
                         ],
                         "item_count": 1
                     }
@@ -846,10 +846,10 @@
                     {
                         "name": "Book of Pride (FATE)",
                         "access_rules": [
-                            "$leveling:46"
+                            "^$fateAccess|Book of Pride"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:46"
+                            "$fateVisibility|Book of Pride"
                         ],
                         "item_count": 1
                     }
@@ -876,10 +876,10 @@
                     {
                         "name": "Call Me Mayhaps (FATE)",
                         "access_rules": [
-                            "$leveling:46"
+                            "^$fateAccess|Call Me Mayhaps"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:46"
+                            "$fateVisibility|Call Me Mayhaps"
                         ],
                         "item_count": 1
                     }
@@ -906,10 +906,10 @@
                     {
                         "name": "Fallen Corpses Writhe in Style (FATE)",
                         "access_rules": [
-                            "$leveling:46"
+                            "^$fateAccess|Fallen Corpses Writhe in Style"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:46"
+                            "$fateVisibility|Fallen Corpses Writhe in Style"
                         ],
                         "item_count": 1
                     }
@@ -936,10 +936,10 @@
                     {
                         "name": "Full of Rigor Mortis (FATE)",
                         "access_rules": [
-                            "$leveling:46"
+                            "^$fateAccess|Full of Rigor Mortis"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:46"
+                            "$fateVisibility|Full of Rigor Mortis"
                         ],
                         "item_count": 1
                     }
@@ -966,10 +966,10 @@
                     {
                         "name": "Tempered, Tempered (FATE)",
                         "access_rules": [
-                            "$leveling:46"
+                            "^$fateAccess|Tempered Tempered"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:46"
+                            "$fateVisibility|Tempered Tempered"
                         ],
                         "item_count": 1
                     }
@@ -996,10 +996,10 @@
                     {
                         "name": "An Inconvenient Truth (FATE)",
                         "access_rules": [
-                            "$leveling:48"
+                            "^$fateAccess|An Inconvenient Truth"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:48"
+                            "$fateVisibility|An Inconvenient Truth"
                         ],
                         "item_count": 1
                     }
@@ -1026,10 +1026,10 @@
                     {
                         "name": "Diamond in the Rough (FATE)",
                         "access_rules": [
-                            "$leveling:48"
+                            "^$fateAccess|Diamond in the Rough"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:48"
+                            "$fateVisibility|Diamond in the Rough"
                         ],
                         "item_count": 1
                     }
@@ -1056,10 +1056,10 @@
                     {
                         "name": "Future Shock (FATE)",
                         "access_rules": [
-                            "$leveling:48"
+                            "^$fateAccess|Future Shock"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:48"
+                            "$fateVisibility|Future Shock"
                         ],
                         "item_count": 1
                     }
@@ -1086,10 +1086,10 @@
                     {
                         "name": "Hes a Firestarter (FATE)",
                         "access_rules": [
-                            "$leveling:48"
+                            "^$fateAccess|He's a Firestarter"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:48"
+                            "$fateVisibility|He's a Firestarter"
                         ],
                         "item_count": 1
                     }
@@ -1116,10 +1116,10 @@
                     {
                         "name": "Gyve Talk (FATE)",
                         "access_rules": [
-                            "$leveling:49"
+                            "^$fateAccess|Gyve Talk"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:49"
+                            "$fateVisibility|Gyve Talk"
                         ],
                         "item_count": 1
                     }
@@ -1146,10 +1146,10 @@
                     {
                         "name": "Hunters and the Hunted (FATE)",
                         "access_rules": [
-                            "$leveling:49"
+                            "^$fateAccess|Hunters and the Hunted"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:49"
+                            "$fateVisibility|Hunters and the Hunted"
                         ],
                         "item_count": 1
                     }
@@ -1176,10 +1176,10 @@
                     {
                         "name": "Quenching the Flame (FATE)",
                         "access_rules": [
-                            "$leveling:49"
+                            "^$fateAccess|Quenching the Flame"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:49"
+                            "$fateVisibility|Quenching the Flame"
                         ],
                         "item_count": 1
                     }
@@ -1206,10 +1206,10 @@
                     {
                         "name": "Return to Cinder (FATE)",
                         "access_rules": [
-                            "$leveling:49"
+                            "^$fateAccess|Return to Cinder"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:49"
+                            "$fateVisibility|Return to Cinder"
                         ],
                         "item_count": 1
                     }
@@ -1236,10 +1236,10 @@
                     {
                         "name": "Spark off the Bench (FATE)",
                         "access_rules": [
-                            "$leveling:49"
+                            "^$fateAccess|Spark off the Bench"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:49"
+                            "$fateVisibility|Spark off the Bench"
                         ],
                         "item_count": 1
                     }

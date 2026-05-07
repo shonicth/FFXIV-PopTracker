@@ -263,10 +263,10 @@
                     {
                         "name": "A Good Day To Die (FATE)",
                         "access_rules": [
-                            "$leveling:65"
+                            "^$fateAccess|A Good Day To Die"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:65"
+                            "$fateVisibility|A Good Day To Die"
                         ],
                         "item_count": 1
                     }
@@ -293,10 +293,10 @@
                     {
                         "name": "A Tall Order (FATE)",
                         "access_rules": [
-                            "$leveling:65"
+                            "^$fateAccess|A Tall Order"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:65"
+                            "$fateVisibility|A Tall Order"
                         ],
                         "item_count": 1
                     }
@@ -323,10 +323,10 @@
                     {
                         "name": "A Walk Through the Valley (FATE)",
                         "access_rules": [
-                            "$leveling:65"
+                            "^$fateAccess|A Walk Through the Valley"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:65"
+                            "$fateVisibility|A Walk Through the Valley"
                         ],
                         "item_count": 1
                     }
@@ -353,10 +353,10 @@
                     {
                         "name": "Duck and Cover (FATE)",
                         "access_rules": [
-                            "$leveling:65"
+                            "^$fateAccess|Duck and Cover"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:65"
+                            "$fateVisibility|Duck and Cover"
                         ],
                         "item_count": 1
                     }
@@ -383,10 +383,10 @@
                     {
                         "name": "Eat You Better (FATE)",
                         "access_rules": [
-                            "$leveling:65"
+                            "^$fateAccess|Eat You Better"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:65"
+                            "$fateVisibility|Eat You Better"
                         ],
                         "item_count": 1
                     }
@@ -413,10 +413,10 @@
                     {
                         "name": "Good Day to Mate (FATE)",
                         "access_rules": [
-                            "$leveling:65"
+                            "^$fateAccess|Good Day to Mate"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:65"
+                            "$fateVisibility|Good Day to Mate"
                         ],
                         "item_count": 1
                     }
@@ -443,10 +443,10 @@
                     {
                         "name": "Hook Line and Stinker (FATE)",
                         "access_rules": [
-                            "$leveling:65"
+                            "^$fateAccess|Hook Line and Stinker"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:65"
+                            "$fateVisibility|Hook Line and Stinker"
                         ],
                         "item_count": 1
                     }
@@ -473,10 +473,10 @@
                     {
                         "name": "Killing Dzo (FATE)",
                         "access_rules": [
-                            "$leveling:65"
+                            "^$fateAccess|Killing Dzo"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:65"
+                            "$fateVisibility|Killing Dzo"
                         ],
                         "item_count": 1
                     }
@@ -503,10 +503,10 @@
                     {
                         "name": "Live for the Mettle (FATE)",
                         "access_rules": [
-                            "$leveling:65"
+                            "^$fateAccess|Live for the Mettle"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:65"
+                            "$fateVisibility|Live for the Mettle"
                         ],
                         "item_count": 1
                     }
@@ -533,10 +533,10 @@
                     {
                         "name": "Man to Mangas (FATE)",
                         "access_rules": [
-                            "$leveling:65"
+                            "^$fateAccess|Man to Mangas"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:65"
+                            "$fateVisibility|Man to Mangas"
                         ],
                         "item_count": 1
                     }
@@ -563,10 +563,10 @@
                     {
                         "name": "More than You Chaochu (FATE)",
                         "access_rules": [
-                            "$leveling:65"
+                            "^$fateAccess|More than You Chaochu"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:65"
+                            "$fateVisibility|More than You Chaochu"
                         ],
                         "item_count": 1
                     }
@@ -593,10 +593,10 @@
                     {
                         "name": "Not Just a Tribute (FATE)",
                         "access_rules": [
-                            "$leveling:65"
+                            "^$fateAccess|Not Just a Tribute"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:65"
+                            "$fateVisibility|Not Just a Tribute"
                         ],
                         "item_count": 1
                     }
@@ -623,10 +623,10 @@
                     {
                         "name": "Purbol Reign (FATE)",
                         "access_rules": [
-                            "$leveling:65"
+                            "^$fateAccess|Purbol Reign"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:65"
+                            "$fateVisibility|Purbol Reign"
                         ],
                         "item_count": 1
                     }
@@ -653,10 +653,10 @@
                     {
                         "name": "Rock for Food (FATE)",
                         "access_rules": [
-                            "$leveling:65"
+                            "^$fateAccess|Rock for Food"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:65"
+                            "$fateVisibility|Rock for Food"
                         ],
                         "item_count": 1
                     }
@@ -683,10 +683,10 @@
                     {
                         "name": "The Dataqi Chronicles Decimation (FATE)",
                         "access_rules": [
-                            "$leveling:65"
+                            "^$fateAccess|The Dataqi Chronicles Decimation"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:65"
+                            "$fateVisibility|The Dataqi Chronicles Decimation"
                         ],
                         "item_count": 1
                     }
@@ -713,10 +713,10 @@
                     {
                         "name": "The Dataqi Chronicles Declarations (FATE)",
                         "access_rules": [
-                            "$leveling:65"
+                            "^$fateAccess|The Dataqi Chronicles Declarations"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:65"
+                            "$fateVisibility|The Dataqi Chronicles Declarations"
                         ],
                         "item_count": 1
                     }
@@ -743,10 +743,10 @@
                     {
                         "name": "The Dataqi Chronicles Departures (FATE)",
                         "access_rules": [
-                            "$leveling:65"
+                            "^$fateAccess|The Dataqi Chronicles Departures"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:65"
+                            "$fateVisibility|The Dataqi Chronicles Departures"
                         ],
                         "item_count": 1
                     }
@@ -773,10 +773,10 @@
                     {
                         "name": "The Dataqi Chronicles Deprivation (FATE)",
                         "access_rules": [
-                            "$leveling:65"
+                            "^$fateAccess|The Dataqi Chronicles Deprivation"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:65"
+                            "$fateVisibility|The Dataqi Chronicles Deprivation"
                         ],
                         "item_count": 1
                     }
@@ -803,10 +803,10 @@
                     {
                         "name": "The Dataqi Chronicles Desperation (FATE)",
                         "access_rules": [
-                            "$leveling:65"
+                            "^$fateAccess|The Dataqi Chronicles Desperation"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:65"
+                            "$fateVisibility|The Dataqi Chronicles Desperation"
                         ],
                         "item_count": 1
                     }
@@ -833,10 +833,10 @@
                     {
                         "name": "The Dataqi Chronicles Deterrence (FATE)",
                         "access_rules": [
-                            "$leveling:65"
+                            "^$fateAccess|The Dataqi Chronicles Deterrence"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:65"
+                            "$fateVisibility|The Dataqi Chronicles Deterrence"
                         ],
                         "item_count": 1
                     }
@@ -863,10 +863,10 @@
                     {
                         "name": "The Dataqi Chronicles Diplomacy (FATE)",
                         "access_rules": [
-                            "$leveling:65"
+                            "^$fateAccess|The Dataqi Chronicles Diplomacy"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:65"
+                            "$fateVisibility|The Dataqi Chronicles Diplomacy"
                         ],
                         "item_count": 1
                     }
@@ -893,10 +893,10 @@
                     {
                         "name": "The Dataqi Chronicles Displacement (FATE)",
                         "access_rules": [
-                            "$leveling:65"
+                            "^$fateAccess|The Dataqi Chronicles Displacement"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:65"
+                            "$fateVisibility|The Dataqi Chronicles Displacement"
                         ],
                         "item_count": 1
                     }
@@ -923,10 +923,10 @@
                     {
                         "name": "The Dataqi Chronicles Distractions (FATE)",
                         "access_rules": [
-                            "$leveling:65"
+                            "^$fateAccess|The Dataqi Chronicles Distractions"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:65"
+                            "$fateVisibility|The Dataqi Chronicles Distractions"
                         ],
                         "item_count": 1
                     }
@@ -953,10 +953,10 @@
                     {
                         "name": "The Dataqi Chronicles Distress (FATE)",
                         "access_rules": [
-                            "$leveling:65"
+                            "^$fateAccess|The Dataqi Chronicles Distress"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:65"
+                            "$fateVisibility|The Dataqi Chronicles Distress"
                         ],
                         "item_count": 1
                     }
@@ -983,10 +983,10 @@
                     {
                         "name": "The Dataqi Chronicles Divergence (FATE)",
                         "access_rules": [
-                            "$leveling:65"
+                            "^$fateAccess|The Dataqi Chronicles Divergence"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:65"
+                            "$fateVisibility|The Dataqi Chronicles Divergence"
                         ],
                         "item_count": 1
                     }
@@ -1013,10 +1013,10 @@
                     {
                         "name": "The Dataqi Chronicles Dominion (FATE)",
                         "access_rules": [
-                            "$leveling:65"
+                            "^$fateAccess|The Dataqi Chronicles Dominion"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:65"
+                            "$fateVisibility|The Dataqi Chronicles Dominion"
                         ],
                         "item_count": 1
                     }
@@ -1043,10 +1043,10 @@
                     {
                         "name": "The Dataqi Chronicles Duty (FATE)",
                         "access_rules": [
-                            "$leveling:65"
+                            "^$fateAccess|The Dataqi Chronicles Duty"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:65"
+                            "$fateVisibility|The Dataqi Chronicles Duty"
                         ],
                         "item_count": 1
                     }
@@ -1073,10 +1073,10 @@
                     {
                         "name": "The State of Reunion (FATE)",
                         "access_rules": [
-                            "$leveling:65"
+                            "^$fateAccess|The State of Reunion"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:65"
+                            "$fateVisibility|The State of Reunion"
                         ],
                         "item_count": 1
                     }
@@ -1103,10 +1103,10 @@
                     {
                         "name": "They Shall Not Want (FATE)",
                         "access_rules": [
-                            "$leveling:65"
+                            "^$fateAccess|They Shall Not Want"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:65"
+                            "$fateVisibility|They Shall Not Want"
                         ],
                         "item_count": 1
                     }
@@ -1133,10 +1133,10 @@
                     {
                         "name": "Wham, Bam, Thank You, Mammoth (FATE)",
                         "access_rules": [
-                            "$leveling:65"
+                            "^$fateAccess|Wham Bam Thank You Mammoth"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:65"
+                            "$fateVisibility|Wham Bam Thank You Mammoth"
                         ],
                         "item_count": 1
                     }
@@ -1163,10 +1163,10 @@
                     {
                         "name": "Wooly Boys (FATE)",
                         "access_rules": [
-                            "$leveling:65"
+                            "^$fateAccess|Wooly Boys"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:65"
+                            "$fateVisibility|Wooly Boys"
                         ],
                         "item_count": 1
                     }
@@ -1193,10 +1193,10 @@
                     {
                         "name": "Burn After Evening (FATE)",
                         "access_rules": [
-                            "$leveling:66"
+                            "^$fateAccess|Burn After Evening"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:66"
+                            "$fateVisibility|Burn After Evening"
                         ],
                         "item_count": 1
                     }
@@ -1223,10 +1223,10 @@
                     {
                         "name": "Buzzkill (FATE)",
                         "access_rules": [
-                            "$leveling:66"
+                            "^$fateAccess|Buzzkill"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:66"
+                            "$fateVisibility|Buzzkill"
                         ],
                         "item_count": 1
                     }
@@ -1253,10 +1253,10 @@
                     {
                         "name": "Cold Comes the Wind (FATE)",
                         "access_rules": [
-                            "$leveling:66"
+                            "^$fateAccess|Cold Comes the Wind"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:66"
+                            "$fateVisibility|Cold Comes the Wind"
                         ],
                         "item_count": 1
                     }
@@ -1283,10 +1283,10 @@
                     {
                         "name": "Dont You Mean Kirata (FATE)",
                         "access_rules": [
-                            "$leveling:66"
+                            "^$fateAccess|Don't You Mean Kirata"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:66"
+                            "$fateVisibility|Don't You Mean Kirata"
                         ],
                         "item_count": 1
                     }
@@ -1313,10 +1313,10 @@
                     {
                         "name": "Feel the Noise (FATE)",
                         "access_rules": [
-                            "$leveling:66"
+                            "^$fateAccess|Feel the Noise"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:66"
+                            "$fateVisibility|Feel the Noise"
                         ],
                         "item_count": 1
                     }
@@ -1343,10 +1343,10 @@
                     {
                         "name": "Fired (FATE)",
                         "access_rules": [
-                            "$leveling:66"
+                            "^$fateAccess|Fired"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:66"
+                            "$fateVisibility|Fired"
                         ],
                         "item_count": 1
                     }
@@ -1373,10 +1373,10 @@
                     {
                         "name": "Get Out The Vochu (FATE)",
                         "access_rules": [
-                            "$leveling:66"
+                            "^$fateAccess|Get Out The Vochu"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:66"
+                            "$fateVisibility|Get Out The Vochu"
                         ],
                         "item_count": 1
                     }
@@ -1403,10 +1403,10 @@
                     {
                         "name": "Hats Off (FATE)",
                         "access_rules": [
-                            "$leveling:66"
+                            "^$fateAccess|Hat's Off"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:66"
+                            "$fateVisibility|Hat's Off"
                         ],
                         "item_count": 1
                     }
@@ -1433,10 +1433,10 @@
                     {
                         "name": "Hey Manzasiri (FATE)",
                         "access_rules": [
-                            "$leveling:66"
+                            "^$fateAccess|Hey Manzasiri"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:66"
+                            "$fateVisibility|Hey Manzasiri"
                         ],
                         "item_count": 1
                     }
@@ -1463,10 +1463,10 @@
                     {
                         "name": "Khan Artist (FATE)",
                         "access_rules": [
-                            "$leveling:66"
+                            "^$fateAccess|Khan Artist"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:66"
+                            "$fateVisibility|Khan Artist"
                         ],
                         "item_count": 1
                     }
@@ -1493,10 +1493,10 @@
                     {
                         "name": "Razing the Baras (FATE)",
                         "access_rules": [
-                            "$leveling:66"
+                            "^$fateAccess|Razing the Baras"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:66"
+                            "$fateVisibility|Razing the Baras"
                         ],
                         "item_count": 1
                     }
@@ -1523,10 +1523,10 @@
                     {
                         "name": "The Fangover (FATE)",
                         "access_rules": [
-                            "$leveling:66"
+                            "^$fateAccess|The Fangover"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:66"
+                            "$fateVisibility|The Fangover"
                         ],
                         "item_count": 1
                     }
