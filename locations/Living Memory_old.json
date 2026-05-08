@@ -9,6 +9,88 @@
         ],
         "children": [
             {
+                "name": "Alexandria",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$leveling:100"
+                ],
+                "visibility_rules": [
+                    "level_cap:100, duty_difficulty_normal, $duty_visibility|Alexandria"
+                ],
+                "sections": [
+                    {
+                        "name": "Alexandria",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Alexandria 2",
+                        "access_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:1"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Alexandria 3",
+                        "access_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:2"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Alexandria 4",
+                        "access_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:3"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Alexandria 5",
+                        "access_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:4"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Alexandria 6",
+                        "access_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:5"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Alexandria 7",
+                        "access_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:6"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Alexandria 8",
+                        "access_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:7"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Alexandria 9",
+                        "access_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:8"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Alexandria 10",
+                        "access_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:9"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Living Memory",
+                        "x": 1565,
+                        "y": 422,
+                        "size": 6
+                    }
+                ]
+            },
+            {
                 "name": "The Strayborough Deadwalk",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
@@ -29,83 +111,146 @@
                     {
                         "name": "The Strayborough Deadwalk 2",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:1"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:1"],
                         "item_count": 1
                     },
                     {
                         "name": "The Strayborough Deadwalk 3",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:2"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:2"],
                         "item_count": 1
                     },
                     {
                         "name": "The Strayborough Deadwalk 4",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:3"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:3"],
                         "item_count": 1
                     },
                     {
                         "name": "The Strayborough Deadwalk 5",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:4"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:4"],
                         "item_count": 1
                     },
                     {
                         "name": "The Strayborough Deadwalk 6",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:5"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:5"],
                         "item_count": 1
                     },
                     {
                         "name": "The Strayborough Deadwalk 7",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:6"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:6"],
                         "item_count": 1
                     },
                     {
                         "name": "The Strayborough Deadwalk 8",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:7"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:7"],
                         "item_count": 1
                     },
                     {
                         "name": "The Strayborough Deadwalk 9",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:8"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:8"],
                         "item_count": 1
                     },
                     {
                         "name": "The Strayborough Deadwalk 10",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:9"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:9"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Living Memory",
-                        "x": 1641,
-                        "y": 1638,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 750,
+                        "y": 2476,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "The Meso Terminal",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$leveling:100"
+                ],
+                "visibility_rules": [
+                    "level_cap:100, duty_difficulty_normal, $duty_visibility|The Meso Terminal"
+                ],
+                "sections": [
+                    {
+                        "name": "The Meso Terminal",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "The Meso Terminal 2",
+                        "access_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:1"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "The Meso Terminal 3",
+                        "access_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:2"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "The Meso Terminal 4",
+                        "access_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:3"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "The Meso Terminal 5",
+                        "access_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:4"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "The Meso Terminal 6",
+                        "access_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:5"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "The Meso Terminal 7",
+                        "access_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:6"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "The Meso Terminal 8",
+                        "access_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:7"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "The Meso Terminal 9",
+                        "access_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:8"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "The Meso Terminal 10",
+                        "access_rules": [],
+                        "visibility_rules": ["extra_dungeon_checks:9"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Living Memory",
+                        "x": 2394,
+                        "y": 2096,
+                        "size": 6
                     }
                 ]
             },
@@ -130,255 +275,76 @@
                     {
                         "name": "Mistwake 2",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:1"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:1"],
                         "item_count": 1
                     },
                     {
                         "name": "Mistwake 3",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:2"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:2"],
                         "item_count": 1
                     },
                     {
                         "name": "Mistwake 4",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:3"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:3"],
                         "item_count": 1
                     },
                     {
                         "name": "Mistwake 5",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:4"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:4"],
                         "item_count": 1
                     },
                     {
                         "name": "Mistwake 6",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:5"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:5"],
                         "item_count": 1
                     },
                     {
                         "name": "Mistwake 7",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:6"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:6"],
                         "item_count": 1
                     },
                     {
                         "name": "Mistwake 8",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:7"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:7"],
                         "item_count": 1
                     },
                     {
                         "name": "Mistwake 9",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:8"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:8"],
                         "item_count": 1
                     },
                     {
                         "name": "Mistwake 10",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:9"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:9"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Living Memory",
-                        "x": 1037,
-                        "y": 1764,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 2498,
+                        "y": 426,
+                        "size": 6
                     }
                 ]
             },
             {
-                "name": "Meso Terminal",
+                "name": "The Interphos",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "$leveling:100"
-                ],
-                "visibility_rules": [
-                    "level_cap:100"
+                    " "
                 ],
                 "sections": [
-                    {
-                        "name": "Alexandria",
-                        "access_rules": [],
-                        "visibility_rules": ["duty_difficulty_normal, $duty_visibility|Alexandria"],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Alexandria 2",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "duty_difficulty_normal, $duty_visibility|Alexandria, extra_dungeon_checks:1"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Alexandria 3",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "duty_difficulty_normal, $duty_visibility|Alexandria, extra_dungeon_checks:2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Alexandria 4",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "duty_difficulty_normal, $duty_visibility|Alexandria, extra_dungeon_checks:3"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Alexandria 5",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "duty_difficulty_normal, $duty_visibility|Alexandria, extra_dungeon_checks:4"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Alexandria 6",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "duty_difficulty_normal, $duty_visibility|Alexandria, extra_dungeon_checks:5"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Alexandria 7",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "duty_difficulty_normal, $duty_visibility|Alexandria, extra_dungeon_checks:6"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Alexandria 8",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "duty_difficulty_normal, $duty_visibility|Alexandria, extra_dungeon_checks:7"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Alexandria 9",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "duty_difficulty_normal, $duty_visibility|Alexandria, extra_dungeon_checks:8"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Alexandria 10",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "duty_difficulty_normal, $duty_visibility|Alexandria, extra_dungeon_checks:9"
-                        ],
-                        "item_count": 1
-                    },
-                    
-                    {
-                        "name": "The Meso Terminal",
-                        "access_rules": [],
-                        "visibility_rules": ["duty_difficulty_normal, $duty_visibility|The Meso Terminal"],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Meso Terminal 2",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "duty_difficulty_normal, $duty_visibility|The Meso Terminal, extra_dungeon_checks:1"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Meso Terminal 3",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "duty_difficulty_normal, $duty_visibility|The Meso Terminal, extra_dungeon_checks:2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Meso Terminal 4",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "duty_difficulty_normal, $duty_visibility|The Meso Terminal, extra_dungeon_checks:3"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Meso Terminal 5",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "duty_difficulty_normal, $duty_visibility|The Meso Terminal, extra_dungeon_checks:4"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Meso Terminal 6",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "duty_difficulty_normal, $duty_visibility|The Meso Terminal, extra_dungeon_checks:5"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Meso Terminal 7",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "duty_difficulty_normal, $duty_visibility|The Meso Terminal, extra_dungeon_checks:6"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Meso Terminal 8",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "duty_difficulty_normal, $duty_visibility|The Meso Terminal, extra_dungeon_checks:7"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Meso Terminal 9",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "duty_difficulty_normal, $duty_visibility|The Meso Terminal, extra_dungeon_checks:8"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Meso Terminal 10",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "duty_difficulty_normal, $duty_visibility|The Meso Terminal, extra_dungeon_checks:9"
-                        ],
-                        "item_count": 1
-                    },
                     {
                         "name": "The Interphos",
                         "access_rules": [
@@ -398,7 +364,26 @@
                             "level_cap:100, duty_difficulty_ex, $duty_visibility|The Minstrel's Ballad: Sphene's Burden"
                         ],
                         "item_count": 1
-                    },
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Living Memory",
+                        "x": 2339,
+                        "y": 2380,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "The Ageless Necropolis",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
                     {
                         "name": "The Ageless Necropolis",
                         "access_rules": [
@@ -423,10 +408,9 @@
                 "map_locations": [
                     {
                         "map": "Living Memory",
-                        "x": 1032,
-                        "y": 1373,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 319,
+                        "y": 2251,
+                        "size": 6
                     }
                 ]
             },
@@ -526,10 +510,9 @@
                 "map_locations": [
                     {
                         "map": "Living Memory",
-                        "x": 1326,
-                        "y": 1936,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1307,
+                        "y": 376,
+                        "size": 6
                     }
                 ]
             },
@@ -556,10 +539,9 @@
                 "map_locations": [
                     {
                         "map": "Living Memory",
-                        "x": 534,
-                        "y": 1669,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1949,
+                        "y": 1249,
+                        "size": 6
                     }
                 ]
             },
@@ -586,10 +568,9 @@
                 "map_locations": [
                     {
                         "map": "Living Memory",
-                        "x": 1202,
-                        "y": 242,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 195,
+                        "y": 801,
+                        "size": 6
                     }
                 ]
             },
@@ -616,10 +597,9 @@
                 "map_locations": [
                     {
                         "map": "Living Memory",
-                        "x": 306,
-                        "y": 397,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 742,
+                        "y": 654,
+                        "size": 6
                     }
                 ]
             },
@@ -646,10 +626,9 @@
                 "map_locations": [
                     {
                         "map": "Living Memory",
-                        "x": 1283,
-                        "y": 731,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 127,
+                        "y": 1684,
+                        "size": 6
                     }
                 ]
             },
@@ -676,10 +655,9 @@
                 "map_locations": [
                     {
                         "map": "Living Memory",
-                        "x": 748,
-                        "y": 748,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1947,
+                        "y": 1170,
+                        "size": 6
                     }
                 ]
             },
@@ -700,10 +678,27 @@
                         "visibility_rules": [
                             "$fateVisibility|Mascot March"
                         ],
-                    
                         "item_count": 1
-                    },
-                    
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Living Memory",
+                        "x": 1878,
+                        "y": 1438,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Mascot Mayhem (FATE)",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
                     {
                         "name": "Mascot Mayhem (FATE)",
                         "access_rules": [
@@ -718,10 +713,9 @@
                 "map_locations": [
                     {
                         "map": "Living Memory",
-                        "x": 1753,
-                        "y": 1677,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1269,
+                        "y": 300,
+                        "size": 6
                     }
                 ]
             },
@@ -748,10 +742,9 @@
                 "map_locations": [
                     {
                         "map": "Living Memory",
-                        "x": 1516,
-                        "y": 1516,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1090,
+                        "y": 1946,
+                        "size": 6
                     }
                 ]
             },
@@ -773,25 +766,14 @@
                             "$fateVisibility|Plumbers Don't Fear Slimes"
                         ],
                         "item_count": 1
-                    },
-                    {
-                        "name": "Slime to Die (FATE)",
-                        "access_rules": [
-                            "^$fateAccess|Slime to Die"
-                        ],
-                        "visibility_rules": [
-                            "$fateVisibility|Slime to Die"
-                        ],
-                        "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Living Memory",
-                        "x": 368,
-                        "y": 1672,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 868,
+                        "y": 2327,
+                        "size": 6
                     }
                 ]
             },
@@ -818,10 +800,9 @@
                 "map_locations": [
                     {
                         "map": "Living Memory",
-                        "x": 1312,
-                        "y": 391,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 352,
+                        "y": 258,
+                        "size": 6
                     }
                 ]
             },
@@ -848,10 +829,38 @@
                 "map_locations": [
                     {
                         "map": "Living Memory",
-                        "x": 310,
-                        "y": 712,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 902,
+                        "y": 2254,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Slime to Die (FATE)",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Slime to Die (FATE)",
+                        "access_rules": [
+                            "^$fateAccess|Slime to Die"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|Slime to Die"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Living Memory",
+                        "x": 1098,
+                        "y": 150,
+                        "size": 6
                     }
                 ]
             },
@@ -878,10 +887,9 @@
                 "map_locations": [
                     {
                         "map": "Living Memory",
-                        "x": 1817,
-                        "y": 1617,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1433,
+                        "y": 1450,
+                        "size": 6
                     }
                 ]
             },
@@ -925,10 +933,9 @@
                 "map_locations": [
                     {
                         "map": "Living Memory",
-                        "x": 321,
-                        "y": 649,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 419,
+                        "y": 589,
+                        "size": 6
                     }
                 ]
             },
@@ -972,10 +979,9 @@
                 "map_locations": [
                     {
                         "map": "Living Memory",
-                        "x": 573,
-                        "y": 535,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 2161,
+                        "y": 1498,
+                        "size": 6
                     }
                 ]
             },
@@ -1019,10 +1025,9 @@
                 "map_locations": [
                     {
                         "map": "Living Memory",
-                        "x": 770,
-                        "y": 625,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1152,
+                        "y": 187,
+                        "size": 6
                     }
                 ]
             },
@@ -1072,10 +1077,9 @@
                 "map_locations": [
                     {
                         "map": "Living Memory",
-                        "x": 653,
-                        "y": 1663,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 398,
+                        "y": 1626,
+                        "size": 6
                     }
                 ]
             },
@@ -1125,10 +1129,9 @@
                 "map_locations": [
                     {
                         "map": "Living Memory",
-                        "x": 447,
-                        "y": 1388,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 1296,
+                        "y": 947,
+                        "size": 6
                     }
                 ]
             },
@@ -1172,10 +1175,9 @@
                 "map_locations": [
                     {
                         "map": "Living Memory",
-                        "x": 1874,
-                        "y": 1536,
-                        "size": 40,
-                        "shape": "rect"
+                        "x": 2147,
+                        "y": 767,
+                        "size": 6
                     }
                 ]
             }

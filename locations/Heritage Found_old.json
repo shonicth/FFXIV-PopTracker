@@ -1,116 +1,97 @@
 [
     {
-        "name": "Living Memory",
+        "name": "Heritage Found",
         "chest_unopened_img": "/images/items/close.png",
         "chest_opened_img": "/images/items/open.png",
         "overlay_background": "#000000",
         "access_rules": [
-            "$livingmemoryaccess"
+            "$heritagefoundaccess"
         ],
         "children": [
             {
-                "name": "The Strayborough Deadwalk",
+                "name": "Origenics",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "$leveling:100"
+                    "$leveling:99"
                 ],
                 "visibility_rules": [
-                    "level_cap:100, duty_difficulty_normal, $duty_visibility|The Strayborough Deadwalk"
+                    "level_cap:99, duty_difficulty_normal, $duty_visibility|Origenics"
                 ],
                 "sections": [
                     {
-                        "name": "The Strayborough Deadwalk",
+                        "name": "Origenics",
                         "access_rules": [],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "The Strayborough Deadwalk 2",
+                        "name": "Origenics 2",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:1"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:1"],
                         "item_count": 1
                     },
                     {
-                        "name": "The Strayborough Deadwalk 3",
+                        "name": "Origenics 3",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:2"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:2"],
                         "item_count": 1
                     },
                     {
-                        "name": "The Strayborough Deadwalk 4",
+                        "name": "Origenics 4",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:3"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:3"],
                         "item_count": 1
                     },
                     {
-                        "name": "The Strayborough Deadwalk 5",
+                        "name": "Origenics 5",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:4"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:4"],
                         "item_count": 1
                     },
                     {
-                        "name": "The Strayborough Deadwalk 6",
+                        "name": "Origenics 6",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:5"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:5"],
                         "item_count": 1
                     },
                     {
-                        "name": "The Strayborough Deadwalk 7",
+                        "name": "Origenics 7",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:6"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:6"],
                         "item_count": 1
                     },
                     {
-                        "name": "The Strayborough Deadwalk 8",
+                        "name": "Origenics 8",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:7"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:7"],
                         "item_count": 1
                     },
                     {
-                        "name": "The Strayborough Deadwalk 9",
+                        "name": "Origenics 9",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:8"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:8"],
                         "item_count": 1
                     },
                     {
-                        "name": "The Strayborough Deadwalk 10",
+                        "name": "Origenics 10",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:9"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:9"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "Living Memory",
-                        "x": 1641,
-                        "y": 1638,
-                        "size": 40,
-                        "shape": "rect"
+                        "map": "Heritage Found",
+                        "x": 462,
+                        "y": 1620,
+                        "size": 6
                     }
                 ]
             },
             {
-                "name": "Mistwake",
+                "name": "Yuweyawata Field Station",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -118,315 +99,154 @@
                     "$leveling:100"
                 ],
                 "visibility_rules": [
-                    "level_cap:100, duty_difficulty_normal, $duty_visibility|Mistwake"
+                    "level_cap:100, duty_difficulty_normal, $duty_visibility|Yuweyawata Field Station"
                 ],
                 "sections": [
                     {
-                        "name": "Mistwake",
+                        "name": "Yuweyawata Field Station",
                         "access_rules": [],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Mistwake 2",
+                        "name": "Yuweyawata Field Station 2",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:1"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:1"],
                         "item_count": 1
                     },
                     {
-                        "name": "Mistwake 3",
+                        "name": "Yuweyawata Field Station 3",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:2"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:2"],
                         "item_count": 1
                     },
                     {
-                        "name": "Mistwake 4",
+                        "name": "Yuweyawata Field Station 4",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:3"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:3"],
                         "item_count": 1
                     },
                     {
-                        "name": "Mistwake 5",
+                        "name": "Yuweyawata Field Station 5",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:4"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:4"],
                         "item_count": 1
                     },
                     {
-                        "name": "Mistwake 6",
+                        "name": "Yuweyawata Field Station 6",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:5"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:5"],
                         "item_count": 1
                     },
                     {
-                        "name": "Mistwake 7",
+                        "name": "Yuweyawata Field Station 7",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:6"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:6"],
                         "item_count": 1
                     },
                     {
-                        "name": "Mistwake 8",
+                        "name": "Yuweyawata Field Station 8",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:7"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:7"],
                         "item_count": 1
                     },
                     {
-                        "name": "Mistwake 9",
+                        "name": "Yuweyawata Field Station 9",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:8"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:8"],
                         "item_count": 1
                     },
                     {
-                        "name": "Mistwake 10",
+                        "name": "Yuweyawata Field Station 10",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:9"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:9"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "Living Memory",
-                        "x": 1037,
-                        "y": 1764,
-                        "size": 40,
-                        "shape": "rect"
+                        "map": "Heritage Found",
+                        "x": 981,
+                        "y": 1086,
+                        "size": 6
                     }
                 ]
             },
             {
-                "name": "Meso Terminal",
+                "name": "Everkeep",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "$leveling:100"
-                ],
-                "visibility_rules": [
-                    "level_cap:100"
+                    " "
                 ],
                 "sections": [
                     {
-                        "name": "Alexandria",
-                        "access_rules": [],
-                        "visibility_rules": ["duty_difficulty_normal, $duty_visibility|Alexandria"],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Alexandria 2",
-                        "access_rules": [],
+                        "name": "Everkeep",
+                        "access_rules": [
+                            "$leveling:99"
+                        ],
                         "visibility_rules": [
-                            "duty_difficulty_normal, $duty_visibility|Alexandria, extra_dungeon_checks:1"
+                            "level_cap:99, duty_difficulty_normal, $duty_visibility|Everkeep"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Alexandria 3",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "duty_difficulty_normal, $duty_visibility|Alexandria, extra_dungeon_checks:2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Alexandria 4",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "duty_difficulty_normal, $duty_visibility|Alexandria, extra_dungeon_checks:3"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Alexandria 5",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "duty_difficulty_normal, $duty_visibility|Alexandria, extra_dungeon_checks:4"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Alexandria 6",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "duty_difficulty_normal, $duty_visibility|Alexandria, extra_dungeon_checks:5"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Alexandria 7",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "duty_difficulty_normal, $duty_visibility|Alexandria, extra_dungeon_checks:6"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Alexandria 8",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "duty_difficulty_normal, $duty_visibility|Alexandria, extra_dungeon_checks:7"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Alexandria 9",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "duty_difficulty_normal, $duty_visibility|Alexandria, extra_dungeon_checks:8"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Alexandria 10",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "duty_difficulty_normal, $duty_visibility|Alexandria, extra_dungeon_checks:9"
-                        ],
-                        "item_count": 1
-                    },
-                    
-                    {
-                        "name": "The Meso Terminal",
-                        "access_rules": [],
-                        "visibility_rules": ["duty_difficulty_normal, $duty_visibility|The Meso Terminal"],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Meso Terminal 2",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "duty_difficulty_normal, $duty_visibility|The Meso Terminal, extra_dungeon_checks:1"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Meso Terminal 3",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "duty_difficulty_normal, $duty_visibility|The Meso Terminal, extra_dungeon_checks:2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Meso Terminal 4",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "duty_difficulty_normal, $duty_visibility|The Meso Terminal, extra_dungeon_checks:3"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Meso Terminal 5",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "duty_difficulty_normal, $duty_visibility|The Meso Terminal, extra_dungeon_checks:4"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Meso Terminal 6",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "duty_difficulty_normal, $duty_visibility|The Meso Terminal, extra_dungeon_checks:5"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Meso Terminal 7",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "duty_difficulty_normal, $duty_visibility|The Meso Terminal, extra_dungeon_checks:6"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Meso Terminal 8",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "duty_difficulty_normal, $duty_visibility|The Meso Terminal, extra_dungeon_checks:7"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Meso Terminal 9",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "duty_difficulty_normal, $duty_visibility|The Meso Terminal, extra_dungeon_checks:8"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Meso Terminal 10",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "duty_difficulty_normal, $duty_visibility|The Meso Terminal, extra_dungeon_checks:9"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Interphos",
+                        "name": "Everkeep (Extreme)",
                         "access_rules": [
                             "$leveling:100"
                         ],
                         "visibility_rules": [
-                            "level_cap:100, duty_difficulty_normal, $duty_visibility|The Interphos"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Minstrels Ballad Sphenes Burden",
-                        "access_rules": [
-                            "$leveling:100"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:100, duty_difficulty_ex, $duty_visibility|The Minstrel's Ballad: Sphene's Burden"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Ageless Necropolis",
-                        "access_rules": [
-                            "$leveling:100"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:100, duty_difficulty_normal, $duty_visibility|The Ageless Necropolis"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Minstrels Ballad Necrons Embrace",
-                        "access_rules": [
-                            "$leveling:100"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:100, duty_difficulty_ex, $duty_visibility|The Minstrel's Ballad: Necron's Embrace"
+                            "level_cap:100, duty_difficulty_ex, $duty_visibility|Everkeep (Extreme)"
                         ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "Living Memory",
-                        "x": 1032,
-                        "y": 1373,
-                        "size": 40,
-                        "shape": "rect"
+                        "map": "Heritage Found",
+                        "x": 991,
+                        "y": 220,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Hell on Rails",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Hell on Rails",
+                        "access_rules": [
+                            "$leveling:100"
+                        ],
+                        "visibility_rules": [
+                            "level_cap:100, duty_difficulty_normal, $duty_visibility|Hell on Rails"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Hell on Rails (Extreme)",
+                        "access_rules": [
+                            "$leveling:100"
+                        ],
+                        "visibility_rules": [
+                            "level_cap:100, duty_difficulty_ex, $duty_visibility|Hell on Rails (Extreme)"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Heritage Found",
+                        "x": 934,
+                        "y": 1318,
+                        "size": 6
                     }
                 ]
             },
@@ -436,10 +256,10 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "^$fateMinLevelAccess|99"
+                    "^$fateMinLevelAccess|97"
                 ],
                 "visibility_rules": [
-                    "$fateMinLevelVisibility|99"
+                    "$fateMinLevelVisibility|97"
                 ],
                 "sections": [
                     {
@@ -525,16 +345,15 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "Living Memory",
-                        "x": 1326,
-                        "y": 1936,
-                        "size": 40,
-                        "shape": "rect"
+                        "map": "Heritage Found",
+                        "x": 446,
+                        "y": 385,
+                        "size": 6
                     }
                 ]
             },
             {
-                "name": "Canal Carnage (FATE)",
+                "name": "A Scythe to an Axe Fight (FATE)",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -543,28 +362,143 @@
                 ],
                 "sections": [
                     {
-                        "name": "Canal Carnage (FATE)",
+                        "name": "A Scythe to an Axe Fight (FATE)",
                         "access_rules": [
-                            "^$fateAccess|Canal Carnage"
+                            "^$fateAccess|A Scythe to an Axe Fight"
                         ],
                         "visibility_rules": [
-                            "$fateVisibility|Canal Carnage"
+                            "$fateVisibility|A Scythe to an Axe Fight"
                         ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "Living Memory",
+                        "map": "Heritage Found",
+                        "x": 479,
+                        "y": 173,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Anger Issues (FATE)",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Anger Issues (FATE)",
+                        "access_rules": [
+                            "^$fateAccess|Anger Issues"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|Anger Issues"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Heritage Found",
+                        "x": 746,
+                        "y": 181,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Days of Thunder (FATE)",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Days of Thunder (FATE)",
+                        "access_rules": [
+                            "^$fateAccess|Days of Thunder"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|Days of Thunder"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Heritage Found",
+                        "x": 301,
+                        "y": 1219,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Hack the Planet (FATE)",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Hack the Planet (FATE)",
+                        "access_rules": [
+                            "^$fateAccess|Hack the Planet"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|Hack the Planet"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Heritage Found",
+                        "x": 1594,
+                        "y": 514,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Its Super Defective (FATE)",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Its Super Defective (FATE)",
+                        "access_rules": [
+                            "^$fateAccess|It's Super Defective"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|It's Super Defective"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Heritage Found",
                         "x": 534,
-                        "y": 1669,
-                        "size": 40,
-                        "shape": "rect"
+                        "y": 670,
+                        "size": 6
                     }
                 ]
             },
             {
-                "name": "Critical Corruption (FATE)",
+                "name": "License to Dill (FATE)",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -573,28 +507,27 @@
                 ],
                 "sections": [
                     {
-                        "name": "Critical Corruption (FATE)",
+                        "name": "License to Dill (FATE)",
                         "access_rules": [
-                            "^$fateAccess|Critical Corruption"
+                            "^$fateAccess|License to Dill"
                         ],
                         "visibility_rules": [
-                            "$fateVisibility|Critical Corruption"
+                            "$fateVisibility|License to Dill"
                         ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "Living Memory",
-                        "x": 1202,
-                        "y": 242,
-                        "size": 40,
-                        "shape": "rect"
+                        "map": "Heritage Found",
+                        "x": 1766,
+                        "y": 1616,
+                        "size": 6
                     }
                 ]
             },
             {
-                "name": "Feed Me Sentries (FATE)",
+                "name": "Running of the Katobleps (FATE)",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -603,28 +536,27 @@
                 ],
                 "sections": [
                     {
-                        "name": "Feed Me Sentries (FATE)",
+                        "name": "Running of the Katobleps (FATE)",
                         "access_rules": [
-                            "^$fateAccess|Feed Me Sentries"
+                            "^$fateAccess|Running of the Katobleps"
                         ],
                         "visibility_rules": [
-                            "$fateVisibility|Feed Me Sentries"
+                            "$fateVisibility|Running of the Katobleps"
                         ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "Living Memory",
-                        "x": 306,
-                        "y": 397,
-                        "size": 40,
-                        "shape": "rect"
+                        "map": "Heritage Found",
+                        "x": 1141,
+                        "y": 1239,
+                        "size": 6
                     }
                 ]
             },
             {
-                "name": "Horse in the Round (FATE)",
+                "name": "Ware the Wolves (FATE)",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -633,28 +565,27 @@
                 ],
                 "sections": [
                     {
-                        "name": "Horse in the Round (FATE)",
+                        "name": "Ware the Wolves (FATE)",
                         "access_rules": [
-                            "^$fateAccess|Horse in the Round"
+                            "^$fateAccess|Ware the Wolves"
                         ],
                         "visibility_rules": [
-                            "$fateVisibility|Horse in the Round"
+                            "$fateVisibility|Ware the Wolves"
                         ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "Living Memory",
-                        "x": 1283,
-                        "y": 731,
-                        "size": 40,
-                        "shape": "rect"
+                        "map": "Heritage Found",
+                        "x": 752,
+                        "y": 2386,
+                        "size": 6
                     }
                 ]
             },
             {
-                "name": "Invaders from Asyle (FATE)",
+                "name": "(Got My Eye) Set on You (FATE)",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -663,28 +594,27 @@
                 ],
                 "sections": [
                     {
-                        "name": "Invaders from Asyle (FATE)",
+                        "name": "(Got My Eye) Set on You (FATE)",
                         "access_rules": [
-                            "^$fateAccess|Invaders from Asyle"
+                            "^$fateAccess|(Got My Eye) Set on You"
                         ],
                         "visibility_rules": [
-                            "$fateVisibility|Invaders from Asyle"
+                            "$fateVisibility|(Got My Eye) Set on You"
                         ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "Living Memory",
-                        "x": 748,
-                        "y": 748,
-                        "size": 40,
-                        "shape": "rect"
+                        "map": "Heritage Found",
+                        "x": 1761,
+                        "y": 1420,
+                        "size": 6
                     }
                 ]
             },
             {
-                "name": "Mascot March (FATE)",
+                "name": "Domo Arigato (FATE)",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -693,40 +623,27 @@
                 ],
                 "sections": [
                     {
-                        "name": "Mascot March (FATE)",
+                        "name": "Domo Arigato (FATE)",
                         "access_rules": [
-                            "^$fateAccess|Mascot March"
+                            "^$fateAccess|Domo Arigato"
                         ],
                         "visibility_rules": [
-                            "$fateVisibility|Mascot March"
-                        ],
-                    
-                        "item_count": 1
-                    },
-                    
-                    {
-                        "name": "Mascot Mayhem (FATE)",
-                        "access_rules": [
-                            "^$fateAccess|Mascot Mayhem"
-                        ],
-                        "visibility_rules": [
-                            "$fateVisibility|Mascot Mayhem"
+                            "$fateVisibility|Domo Arigato"
                         ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "Living Memory",
-                        "x": 1753,
-                        "y": 1677,
-                        "size": 40,
-                        "shape": "rect"
+                        "map": "Heritage Found",
+                        "x": 602,
+                        "y": 1997,
+                        "size": 6
                     }
                 ]
             },
             {
-                "name": "No Loitering (FATE)",
+                "name": "Mi Casa Es Mi Casa (FATE)",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -735,28 +652,27 @@
                 ],
                 "sections": [
                     {
-                        "name": "No Loitering (FATE)",
+                        "name": "Mi Casa Es Mi Casa (FATE)",
                         "access_rules": [
-                            "^$fateAccess|No Loitering"
+                            "^$fateAccess|Mi Casa Es Mi Casa"
                         ],
                         "visibility_rules": [
-                            "$fateVisibility|No Loitering"
+                            "$fateVisibility|Mi Casa Es Mi Casa"
                         ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "Living Memory",
-                        "x": 1516,
-                        "y": 1516,
-                        "size": 40,
-                        "shape": "rect"
+                        "map": "Heritage Found",
+                        "x": 611,
+                        "y": 1741,
+                        "size": 6
                     }
                 ]
             },
             {
-                "name": "Plumbers Dont Fear Slimes (FATE)",
+                "name": "Mr. Roboto (FATE)",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -765,38 +681,27 @@
                 ],
                 "sections": [
                     {
-                        "name": "Plumbers Dont Fear Slimes (FATE)",
+                        "name": "Mr. Roboto (FATE)",
                         "access_rules": [
-                            "^$fateAccess|Plumbers Don't Fear Slimes"
+                            "^$fateAccess|Mr. Roboto"
                         ],
                         "visibility_rules": [
-                            "$fateVisibility|Plumbers Don't Fear Slimes"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Slime to Die (FATE)",
-                        "access_rules": [
-                            "^$fateAccess|Slime to Die"
-                        ],
-                        "visibility_rules": [
-                            "$fateVisibility|Slime to Die"
+                            "$fateVisibility|Mr. Roboto"
                         ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "Living Memory",
-                        "x": 368,
-                        "y": 1672,
-                        "size": 40,
-                        "shape": "rect"
+                        "map": "Heritage Found",
+                        "x": 1112,
+                        "y": 1978,
+                        "size": 6
                     }
                 ]
             },
             {
-                "name": "Scattered Memories (FATE)",
+                "name": "Old Stampeding Grounds (FATE)",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -805,28 +710,27 @@
                 ],
                 "sections": [
                     {
-                        "name": "Scattered Memories (FATE)",
+                        "name": "Old Stampeding Grounds (FATE)",
                         "access_rules": [
-                            "^$fateAccess|Scattered Memories"
+                            "^$fateAccess|Old Stampeding Grounds"
                         ],
                         "visibility_rules": [
-                            "$fateVisibility|Scattered Memories"
+                            "$fateVisibility|Old Stampeding Grounds"
                         ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "Living Memory",
-                        "x": 1312,
-                        "y": 391,
-                        "size": 40,
-                        "shape": "rect"
+                        "map": "Heritage Found",
+                        "x": 1166,
+                        "y": 670,
+                        "size": 6
                     }
                 ]
             },
             {
-                "name": "Seeds of Tomorrow (FATE)",
+                "name": "print(I hate snakes) (FATE)",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -835,28 +739,27 @@
                 ],
                 "sections": [
                     {
-                        "name": "Seeds of Tomorrow (FATE)",
+                        "name": "print(I hate snakes) (FATE)",
                         "access_rules": [
-                            "^$fateAccess|Seeds of Tomorrow"
+                            "^$fateAccess|print('I hate snakes')"
                         ],
                         "visibility_rules": [
-                            "$fateVisibility|Seeds of Tomorrow"
+                            "$fateVisibility|print('I hate snakes')"
                         ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "Living Memory",
-                        "x": 310,
-                        "y": 712,
-                        "size": 40,
-                        "shape": "rect"
+                        "map": "Heritage Found",
+                        "x": 2175,
+                        "y": 1761,
+                        "size": 6
                     }
                 ]
             },
             {
-                "name": "Mascot Murder (FATE)",
+                "name": "Pulling the Wool (FATE)",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -865,28 +768,85 @@
                 ],
                 "sections": [
                     {
-                        "name": "Mascot Murder (FATE)",
+                        "name": "Pulling the Wool (FATE)",
                         "access_rules": [
-                            "^$fateAccess|Mascot Murder"
+                            "^$fateAccess|Pulling the Wool"
                         ],
                         "visibility_rules": [
-                            "$fateVisibility|Mascot Murder"
+                            "$fateVisibility|Pulling the Wool"
                         ],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "Living Memory",
-                        "x": 1817,
-                        "y": 1617,
-                        "size": 40,
-                        "shape": "rect"
+                        "map": "Heritage Found",
+                        "x": 238,
+                        "y": 1379,
+                        "size": 6
                     }
                 ]
             },
             {
-                "name": "The Knowable",
+                "name": "To Each His Drone (FATE)",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "To Each His Drone (FATE)",
+                        "access_rules": [
+                            "^$fateAccess|To Each His Drone"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|To Each His Drone"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Heritage Found",
+                        "x": 592,
+                        "y": 1907,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "When Its So Salvage (FATE)",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "When Its So Salvage (FATE)",
+                        "access_rules": [
+                            "^$fateAccess|When It's So Salvage"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|When It's So Salvage"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Heritage Found",
+                        "x": 1186,
+                        "y": 237,
+                        "size": 6
+                    }
+                ]
+            },
+            {
+                "name": "Outskirts Shallows",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -898,25 +858,25 @@
                 ],
                 "sections": [
                     {
-                        "name": "Rosebud Frog",
+                        "name": "Heritage Loach",
                         "access_rules": [],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Knight Goby",
+                        "name": "Outskirts Sniffer",
                         "access_rules": [],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Windspath Eel",
+                        "name": "Pumpkin Perch",
                         "access_rules": [],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Harlequin Lancer",
+                        "name": "Tiger Muskellunge",
                         "access_rules": [],
                         "visibility_rules": [],
                         "item_count": 1
@@ -924,16 +884,15 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "Living Memory",
-                        "x": 321,
-                        "y": 649,
-                        "size": 40,
-                        "shape": "rect"
+                        "map": "Heritage Found",
+                        "x": 2470,
+                        "y": 577,
+                        "size": 6
                     }
                 ]
             },
             {
-                "name": "Mu Springs Eternal",
+                "name": "The Driftdowns",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -945,25 +904,31 @@
                 ],
                 "sections": [
                     {
-                        "name": "Rosebud Frog",
+                        "name": "Heritage Loach",
                         "access_rules": [],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Knight Goby",
+                        "name": "Outskirts Sniffer",
                         "access_rules": [],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Cleyran Carp",
+                        "name": "Moon Croppie",
                         "access_rules": [],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Giant Snakehead",
+                        "name": "Driftdowns Trout",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Thunderswift Trout",
                         "access_rules": [],
                         "visibility_rules": [],
                         "item_count": 1
@@ -971,16 +936,15 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "Living Memory",
-                        "x": 573,
-                        "y": 535,
-                        "size": 40,
-                        "shape": "rect"
+                        "map": "Heritage Found",
+                        "x": 897,
+                        "y": 2261,
+                        "size": 6
                     }
                 ]
             },
             {
-                "name": "Leynode Aero",
+                "name": "Crackling Canyons",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -992,25 +956,25 @@
                 ],
                 "sections": [
                     {
-                        "name": "Rosebud Frog",
+                        "name": "Electrobetta",
                         "access_rules": [],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Knight Goby",
+                        "name": "Thundering Redbelly",
                         "access_rules": [],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Datnioides",
+                        "name": "Yyasulani Bowfin",
                         "access_rules": [],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Neo Arowana",
+                        "name": "Crackling Flounder",
                         "access_rules": [],
                         "visibility_rules": [],
                         "item_count": 1
@@ -1018,16 +982,15 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "Living Memory",
-                        "x": 770,
-                        "y": 625,
-                        "size": 40,
-                        "shape": "rect"
+                        "map": "Heritage Found",
+                        "x": 1090,
+                        "y": 2035,
+                        "size": 6
                     }
                 ]
             },
             {
-                "name": "Canal Town South",
+                "name": "Alexandrian Ruins",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -1039,31 +1002,25 @@
                 ],
                 "sections": [
                     {
-                        "name": "Canal Bream",
+                        "name": "Electrobetta",
                         "access_rules": [],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Iris Wrasse",
+                        "name": "Thundering Redbelly",
                         "access_rules": [],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Canal Drum",
+                        "name": "Yyasulani Bowfin",
                         "access_rules": [],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
-                        "name": "Butterfly Ray",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Hydro Louvar",
+                        "name": "Goldgrouper",
                         "access_rules": [],
                         "visibility_rules": [],
                         "item_count": 1
@@ -1071,111 +1028,10 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "Living Memory",
-                        "x": 653,
-                        "y": 1663,
-                        "size": 40,
-                        "shape": "rect"
-                    }
-                ]
-            },
-            {
-                "name": "Canal Town North",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
-                "visibility_rules": [
-                    "fishsanity_normal"
-                ],
-                "sections": [
-                    {
-                        "name": "Canal Bream",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Iris Wrasse",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Devotion Clam",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Forgotten One",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Copper Shark",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Living Memory",
-                        "x": 447,
-                        "y": 1388,
-                        "size": 40,
-                        "shape": "rect"
-                    }
-                ]
-            },
-            {
-                "name": "Proto Alexandria",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
-                "visibility_rules": [
-                    "fishsanity_normal"
-                ],
-                "sections": [
-                    {
-                        "name": "Golden Day",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Starglass Gibel",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Scarlet Queen",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Ultimoat Carp",
-                        "access_rules": [],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Living Memory",
-                        "x": 1874,
-                        "y": 1536,
-                        "size": 40,
-                        "shape": "rect"
+                        "map": "Heritage Found",
+                        "x": 353,
+                        "y": 2068,
+                        "size": 6
                     }
                 ]
             }
