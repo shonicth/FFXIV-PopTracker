@@ -232,46 +232,6 @@
                 ]
             },
             {
-                "name": "Hell on Rails",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
-                "sections": [
-                    {
-                        "name": "Hell on Rails",
-                        "access_rules": [
-                            "$leveling:100"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:100, duty_difficulty_normal, $duty_visibility|Hell on Rails"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Hell on Rails (Extreme)",
-                        "access_rules": [
-                            "$leveling:100"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:100, duty_difficulty_ex, $duty_visibility|Hell on Rails (Extreme)"
-                        ],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Heritage Found",
-                        "x": 43,
-                        "y": 52,
-                        "size": 40,
-                        "shape": "rect"
-                    }
-                ]
-            },
-            {
                 "name": "FATEs",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",

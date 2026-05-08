@@ -118,20 +118,20 @@
                     "$leveling:100"
                 ],
                 "visibility_rules": [
-                    "level_cap:100, duty_difficulty_normal, $duty_visibility|Mistwake"
+                    "level_cap:100"
                 ],
                 "sections": [
                     {
                         "name": "Mistwake",
                         "access_rules": [],
-                        "visibility_rules": [],
+                        "visibility_rules": ["duty_difficulty_normal, $duty_visibility|Mistwake"],
                         "item_count": 1
                     },
                     {
                         "name": "Mistwake 2",
                         "access_rules": [],
                         "visibility_rules": [
-                            "extra_dungeon_checks:1"
+                            "extra_dungeon_checks:1, duty_difficulty_normal, $duty_visibility|Mistwake"
                         ],
                         "item_count": 1
                     },
@@ -139,7 +139,7 @@
                         "name": "Mistwake 3",
                         "access_rules": [],
                         "visibility_rules": [
-                            "extra_dungeon_checks:2"
+                            "extra_dungeon_checks:2, duty_difficulty_normal, $duty_visibility|Mistwake"
                         ],
                         "item_count": 1
                     },
@@ -147,7 +147,7 @@
                         "name": "Mistwake 4",
                         "access_rules": [],
                         "visibility_rules": [
-                            "extra_dungeon_checks:3"
+                            "extra_dungeon_checks:3, duty_difficulty_normal, $duty_visibility|Mistwake"
                         ],
                         "item_count": 1
                     },
@@ -155,7 +155,7 @@
                         "name": "Mistwake 5",
                         "access_rules": [],
                         "visibility_rules": [
-                            "extra_dungeon_checks:4"
+                            "extra_dungeon_checks:4, duty_difficulty_normal, $duty_visibility|Mistwake"
                         ],
                         "item_count": 1
                     },
@@ -171,7 +171,7 @@
                         "name": "Mistwake 7",
                         "access_rules": [],
                         "visibility_rules": [
-                            "extra_dungeon_checks:6"
+                            "extra_dungeon_checks:6, duty_difficulty_normal, $duty_visibility|Mistwake"
                         ],
                         "item_count": 1
                     },
@@ -179,7 +179,7 @@
                         "name": "Mistwake 8",
                         "access_rules": [],
                         "visibility_rules": [
-                            "extra_dungeon_checks:7"
+                            "extra_dungeon_checks:7, duty_difficulty_normal, $duty_visibility|Mistwake"
                         ],
                         "item_count": 1
                     },
@@ -187,7 +187,7 @@
                         "name": "Mistwake 9",
                         "access_rules": [],
                         "visibility_rules": [
-                            "extra_dungeon_checks:8"
+                            "extra_dungeon_checks:8, duty_difficulty_normal, $duty_visibility|Mistwake"
                         ],
                         "item_count": 1
                     },
@@ -195,7 +195,28 @@
                         "name": "Mistwake 10",
                         "access_rules": [],
                         "visibility_rules": [
-                            "extra_dungeon_checks:9"
+                            "extra_dungeon_checks:9, duty_difficulty_normal, $duty_visibility|Mistwake"
+                        ],
+                        "item_count": 1
+                    },
+                    
+                    {
+                        "name": "Hell on Rails",
+                        "access_rules": [
+                            "$leveling:100"
+                        ],
+                        "visibility_rules": [
+                            "level_cap:100, duty_difficulty_normal, $duty_visibility|Hell on Rails"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Hell on Rails (Extreme)",
+                        "access_rules": [
+                            "$leveling:100"
+                        ],
+                        "visibility_rules": [
+                            "level_cap:100, duty_difficulty_ex, $duty_visibility|Hell on Rails (Extreme)"
                         ],
                         "item_count": 1
                     }
