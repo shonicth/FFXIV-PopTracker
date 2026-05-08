@@ -539,10 +539,10 @@
                     {
                         "name": "Agnis Philosophy (FATE)",
                         "access_rules": [
-                            "$leveling:62"
+                            "^$fateAccess|Agni's Philosophy"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:62"
+                            "$fateVisibility|Agni's Philosophy"
                         ],
                         "item_count": 1
                     }
@@ -569,10 +569,10 @@
                     {
                         "name": "Another One Bites The Dust (FATE)",
                         "access_rules": [
-                            "$leveling:62"
+                            "^$fateAccess|Another One Bites The Dust"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:62"
+                            "$fateVisibility|Another One Bites The Dust"
                         ],
                         "item_count": 1
                     }
@@ -599,10 +599,10 @@
                     {
                         "name": "Bilge-hold Jin (FATE)",
                         "access_rules": [
-                            "$leveling:62"
+                            "^$fateAccess|Bilge-hold Jin"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:62"
+                            "$fateVisibility|Bilge-hold Jin"
                         ],
                         "item_count": 1
                     }
@@ -629,10 +629,10 @@
                     {
                         "name": "Clean Bill of Health (FATE)",
                         "access_rules": [
-                            "$leveling:62"
+                            "^$fateAccess|Clean Bill of Health"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:62"
+                            "$fateVisibility|Clean Bill of Health"
                         ],
                         "item_count": 1
                     }
@@ -659,10 +659,10 @@
                     {
                         "name": "Crab Mentality (FATE)",
                         "access_rules": [
-                            "$leveling:62"
+                            "^$fateAccess|Crab Mentality"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:62"
+                            "$fateVisibility|Crab Mentality"
                         ],
                         "item_count": 1
                     }
@@ -689,10 +689,10 @@
                     {
                         "name": "Days of Plunder (FATE)",
                         "access_rules": [
-                            "$leveling:62"
+                            "^$fateAccess|Days of Plunder"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:62"
+                            "$fateVisibility|Days of Plunder"
                         ],
                         "item_count": 1
                     }
@@ -719,10 +719,10 @@
                     {
                         "name": "Forever Younglier (FATE)",
                         "access_rules": [
-                            "$leveling:62"
+                            "^$fateAccess|Forever Younglier"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:62"
+                            "$fateVisibility|Forever Younglier"
                         ],
                         "item_count": 1
                     }
@@ -749,10 +749,10 @@
                     {
                         "name": "Jumping the Shark (FATE)",
                         "access_rules": [
-                            "$leveling:62"
+                            "^$fateAccess|Jumping the Shark"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:62"
+                            "$fateVisibility|Jumping the Shark"
                         ],
                         "item_count": 1
                     }
@@ -779,10 +779,10 @@
                     {
                         "name": "Never Say Daimyo (FATE)",
                         "access_rules": [
-                            "$leveling:62"
+                            "^$fateAccess|Never Say Daimyo"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:62"
+                            "$fateVisibility|Never Say Daimyo"
                         ],
                         "item_count": 1
                     }
@@ -809,10 +809,10 @@
                     {
                         "name": "Pool Party (FATE)",
                         "access_rules": [
-                            "$leveling:62"
+                            "^$fateAccess|Pool Party"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:62"
+                            "$fateVisibility|Pool Party"
                         ],
                         "item_count": 1
                     }
@@ -839,10 +839,10 @@
                     {
                         "name": "Princess Princess (FATE)",
                         "access_rules": [
-                            "$leveling:62"
+                            "^$fateAccess|Princess Princess"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:62"
+                            "$fateVisibility|Princess Princess"
                         ],
                         "item_count": 1
                     }
@@ -869,10 +869,10 @@
                     {
                         "name": "Raise the Red Flag (FATE)",
                         "access_rules": [
-                            "$leveling:62"
+                            "^$fateAccess|Raise the Red Flag"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:62"
+                            "$fateVisibility|Raise the Red Flag"
                         ],
                         "item_count": 1
                     }
@@ -899,10 +899,10 @@
                     {
                         "name": "Ranging Bull (FATE)",
                         "access_rules": [
-                            "$leveling:62"
+                            "^$fateAccess|Ranging Bull"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:62"
+                            "$fateVisibility|Ranging Bull"
                         ],
                         "item_count": 1
                     }
@@ -929,10 +929,10 @@
                     {
                         "name": "Ray Band (FATE)",
                         "access_rules": [
-                            "$leveling:62"
+                            "^$fateAccess|Ray Band"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:62"
+                            "$fateVisibility|Ray Band"
                         ],
                         "item_count": 1
                     }
@@ -959,10 +959,10 @@
                     {
                         "name": "Soak Up the Sun (FATE)",
                         "access_rules": [
-                            "$leveling:62"
+                            "^$fateAccess|Soak Up the Sun"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:62"
+                            "$fateVisibility|Soak Up the Sun"
                         ],
                         "item_count": 1
                     }
@@ -989,10 +989,10 @@
                     {
                         "name": "The Big Banquet Theory (FATE)",
                         "access_rules": [
-                            "$leveling:62"
+                            "^$fateAccess|The Big Banquet Theory"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:62"
+                            "$fateVisibility|The Big Banquet Theory"
                         ],
                         "item_count": 1
                     }
@@ -1019,10 +1019,10 @@
                     {
                         "name": "The Coral High Ground (FATE)",
                         "access_rules": [
-                            "$leveling:62"
+                            "^$fateAccess|The Coral High Ground"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:62"
+                            "$fateVisibility|The Coral High Ground"
                         ],
                         "item_count": 1
                     }
@@ -1049,10 +1049,10 @@
                     {
                         "name": "The F-bomb (FATE)",
                         "access_rules": [
-                            "$leveling:62"
+                            "^$fateAccess|The F-bomb"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:62"
+                            "$fateVisibility|The F-bomb"
                         ],
                         "item_count": 1
                     }
@@ -1079,10 +1079,10 @@
                     {
                         "name": "Turtle Power (FATE)",
                         "access_rules": [
-                            "$leveling:62"
+                            "^$fateAccess|Turtle Power"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:62"
+                            "$fateVisibility|Turtle Power"
                         ],
                         "item_count": 1
                     }
@@ -1109,10 +1109,10 @@
                     {
                         "name": "Uncivil Serpents (FATE)",
                         "access_rules": [
-                            "$leveling:62"
+                            "^$fateAccess|Uncivil Serpents"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:62"
+                            "$fateVisibility|Uncivil Serpents"
                         ],
                         "item_count": 1
                     }
@@ -1139,10 +1139,10 @@
                     {
                         "name": "Wet (FATE)",
                         "access_rules": [
-                            "$leveling:62"
+                            "^$fateAccess|Wet"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:62"
+                            "$fateVisibility|Wet"
                         ],
                         "item_count": 1
                     }
@@ -1169,10 +1169,10 @@
                     {
                         "name": "Double Dream Clams (FATE)",
                         "access_rules": [
-                            "$leveling:63"
+                            "^$fateAccess|Double Dream Clams"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:63"
+                            "$fateVisibility|Double Dream Clams"
                         ],
                         "item_count": 1
                     }
@@ -1199,10 +1199,10 @@
                     {
                         "name": "Independence Ray (FATE)",
                         "access_rules": [
-                            "$leveling:63"
+                            "^$fateAccess|Independence Ray"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:63"
+                            "$fateVisibility|Independence Ray"
                         ],
                         "item_count": 1
                     }
@@ -1229,10 +1229,10 @@
                     {
                         "name": "Kill the Messenger (FATE)",
                         "access_rules": [
-                            "$leveling:63"
+                            "^$fateAccess|Kill the Messenger"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:63"
+                            "$fateVisibility|Kill the Messenger"
                         ],
                         "item_count": 1
                     }
@@ -1259,10 +1259,10 @@
                     {
                         "name": "Lay of the Lang (FATE)",
                         "access_rules": [
-                            "$leveling:63"
+                            "^$fateAccessLay of the Lang"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:63"
+                            "$fateVisibility|Lay of the Lang"
                         ],
                         "item_count": 1
                     }
@@ -1289,10 +1289,10 @@
                     {
                         "name": "Quoth The Raven (FATE)",
                         "access_rules": [
-                            "$leveling:63"
+                            "^$fateAccess|Quoth The Raven"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:63"
+                            "$fateVisibility|Quoth The Raven"
                         ],
                         "item_count": 1
                     }
@@ -1319,10 +1319,10 @@
                     {
                         "name": "Red Cliff (FATE)",
                         "access_rules": [
-                            "$leveling:63"
+                            "^$fateAccess|Red Cliff"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:63"
+                            "$fateVisibility|Red Cliff"
                         ],
                         "item_count": 1
                     }
@@ -1349,10 +1349,10 @@
                     {
                         "name": "Sailor Marooned (FATE)",
                         "access_rules": [
-                            "$leveling:63"
+                            "^$fateAccess|Sailor Marooned"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:63"
+                            "$fateVisibility|Sailor Marooned"
                         ],
                         "item_count": 1
                     }
@@ -1379,10 +1379,10 @@
                     {
                         "name": "There Be Dragonflies (FATE)",
                         "access_rules": [
-                            "$leveling:63"
+                            "^$fateAccess|There Be Dragonflies"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:63"
+                            "$fateVisibility|There Be Dragonflies"
                         ],
                         "item_count": 1
                     }
@@ -1409,10 +1409,10 @@
                     {
                         "name": "Treasure Island (FATE)",
                         "access_rules": [
-                            "$leveling:63"
+                            "^$fateAccess|Treasure Island"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:63"
+                            "$fateVisibility|Treasure Island"
                         ],
                         "item_count": 1
                     }

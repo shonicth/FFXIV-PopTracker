@@ -345,10 +345,10 @@
                     {
                         "name": "A Lot to Swallow (FATE)",
                         "access_rules": [
-                            "$leveling:79"
+                            "^$fateAccess|A Lot to Swallow"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:79"
+                            "$fateVisibility|A Lot to Swallow"
                         ],
                         "item_count": 1
                     }
@@ -375,10 +375,10 @@
                     {
                         "name": "Coral Support (FATE)",
                         "access_rules": [
-                            "$leveling:79"
+                            "^$fateAccess|Coral Support"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:79"
+                            "$fateVisibility|Coral Support"
                         ],
                         "item_count": 1
                     }
@@ -405,10 +405,10 @@
                     {
                         "name": "Hydrozoan of the Enders (FATE)",
                         "access_rules": [
-                            "$leveling:79"
+                            "^$fateAccess|Hydrozoan of the Enders"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:79"
+                            "$fateVisibility|Hydrozoan of the Enders"
                         ],
                         "item_count": 1
                     }
@@ -435,10 +435,10 @@
                     {
                         "name": "Lookin Back on the Track (FATE)",
                         "access_rules": [
-                            "$leveling:79"
+                            "^$fateAccess|Lookin' Back on the Track"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:79"
+                            "$fateVisibility|Lookin' Back on the Track"
                         ],
                         "item_count": 1
                     }
@@ -465,10 +465,10 @@
                     {
                         "name": "Low Coral Fiber (FATE)",
                         "access_rules": [
-                            "$leveling:79"
+                            "^$fateAccess|Low Coral Fiber"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:79"
+                            "$fateVisibility|Low Coral Fiber"
                         ],
                         "item_count": 1
                     }
@@ -495,10 +495,10 @@
                     {
                         "name": "My Friends Enemy is Anemone of Mine (FATE)",
                         "access_rules": [
-                            "$leveling:79"
+                            "^$fateAccess|My Friend's Enemy is Anemone of Mine"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:79"
+                            "$fateVisibility|My Friend's Enemy is Anemone of Mine"
                         ],
                         "item_count": 1
                     }
@@ -525,10 +525,10 @@
                     {
                         "name": "Natural Prawn Killers (FATE)",
                         "access_rules": [
-                            "$leveling:79"
+                            "^$fateAccess|Natural Prawn Killers"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:79"
+                            "$fateVisibility|Natural Prawn Killers"
                         ],
                         "item_count": 1
                     }
@@ -555,10 +555,10 @@
                     {
                         "name": "Nothing Like a Trappin Life (FATE)",
                         "access_rules": [
-                            "$leveling:79"
+                            "^$fateAccess|Nothing Like a Trappin' Life"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:79"
+                            "$fateVisibility|Nothing Like a Trappin' Life"
                         ],
                         "item_count": 1
                     }
@@ -585,10 +585,10 @@
                     {
                         "name": "Ondo of Blood (FATE)",
                         "access_rules": [
-                            "$leveling:79"
+                            "^$fateAccess|Ondo of Blood"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:79"
+                            "$fateVisibility|Ondo of Blood"
                         ],
                         "item_count": 1
                     }
@@ -615,10 +615,10 @@
                     {
                         "name": "Pearls Apart (FATE)",
                         "access_rules": [
-                            "$leveling:79"
+                            "^$fateAccess|Pearls Apart"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:79"
+                            "$fateVisibility|Pearls Apart"
                         ],
                         "item_count": 1
                     }
@@ -645,10 +645,10 @@
                     {
                         "name": "The Devil in the Deep Blue Sea (FATE)",
                         "access_rules": [
-                            "$leveling:79"
+                            "^$fateAccess|The Devil in the Deep Blue Sea"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:79"
+                            "$fateVisibility|The Devil in the Deep Blue Sea"
                         ],
                         "item_count": 1
                     }
@@ -675,10 +675,10 @@
                     {
                         "name": "The Nets Best Thing (FATE)",
                         "access_rules": [
-                            "$leveling:79"
+                            "^$fateAccess|The Nets Best Thing"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:79"
+                            "$fateVisibility|The Nets Best Thing"
                         ],
                         "item_count": 1
                     }
@@ -705,10 +705,10 @@
                     {
                         "name": "The Seashells He Sells (FATE)",
                         "access_rules": [
-                            "$leveling:79"
+                            "^$fateAccess|The Seashells He Sells"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:79"
+                            "$fateVisibility|The Seashells He Sells"
                         ],
                         "item_count": 1
                     }
@@ -735,10 +735,10 @@
                     {
                         "name": "Where Has the Dagon (FATE)",
                         "access_rules": [
-                            "$leveling:79"
+                            "^$fateAccess|Where Has the Dagon"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:79"
+                            "$fateVisibility|Where Has the Dagon"
                         ],
                         "item_count": 1
                     }
@@ -765,10 +765,10 @@
                     {
                         "name": "The Head the Tail the Whole Damned Thing (FATE)",
                         "access_rules": [
-                            "$leveling:80"
+                            "^$fateAccess|The Head the Tail the Whole Damned Thing"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:80, include_unreasonable_fates"
+                            "$fateVisibility|The Head the Tail the Whole Damned Thing, include_unreasonable_fates"
                         ],
                         "item_count": 1
                     }

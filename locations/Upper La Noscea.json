@@ -362,10 +362,10 @@
                     {
                         "name": "Poor Maids Mess (FATE)",
                         "access_rules": [
-                            "$leveling:20"
+                            "^$fateAccess|Poor Maid's Mess"
                         ],
                         "visibility_rules": [
-                            "fatesanity"
+                            "$fateVisibility|Poor Maid's Mess"
                         ],
                         "item_count": 1
                     }
@@ -392,10 +392,10 @@
                     {
                         "name": "Poor Maids Misfortune (FATE)",
                         "access_rules": [
-                            "$leveling:20"
+                            "^$fateAccess|Poor Maid's Misfortune"
                         ],
                         "visibility_rules": [
-                            "fatesanity"
+                            "$fateVisibility|Poor Maid's Misfortune"
                         ],
                         "item_count": 1
                     }
@@ -422,10 +422,10 @@
                     {
                         "name": "Poor Maids Mishap (FATE)",
                         "access_rules": [
-                            "$leveling:20"
+                            "^$fateAccess|Poor Maid's Mishap"
                         ],
                         "visibility_rules": [
-                            "fatesanity"
+                            "$fateVisibility|Poor Maid's Mishap"
                         ],
                         "item_count": 1
                     }
@@ -452,10 +452,10 @@
                     {
                         "name": "Giant Enemy Crab (FATE)",
                         "access_rules": [
-                            "$leveling:21"
+                            "^$fateAccess|Giant Enemy Crab"
                         ],
                         "visibility_rules": [
-                            "fatesanity"
+                            "$fateVisibility|Giant Enemy Crab"
                         ],
                         "item_count": 1
                     }
@@ -482,10 +482,10 @@
                     {
                         "name": "Simurgh Is the Word (FATE)",
                         "access_rules": [
-                            "$leveling:23"
+                            "^$fateAccess|Simurgh Is the Word"
                         ],
                         "visibility_rules": [
-                            "fatesanity"
+                            "$fateVisibility|Simurgh Is the Word"
                         ],
                         "item_count": 1
                     }
@@ -512,10 +512,10 @@
                     {
                         "name": "The Road More Traveled (FATE)",
                         "access_rules": [
-                            "$leveling:30"
+                            "^$fateAccess|The Road More Traveled"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:30"
+                            "$fateVisibility|The Road More Traveled"
                         ],
                         "item_count": 1
                     }
@@ -542,10 +542,10 @@
                     {
                         "name": "Truth in Faerie Tales (FATE)",
                         "access_rules": [
-                            "$leveling:30"
+                            "^$fateAccess|Truth in Faerie Tales"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:30"
+                            "$fateVisibility|Truth in Faerie Tales"
                         ],
                         "item_count": 1
                     }
@@ -572,10 +572,10 @@
                     {
                         "name": "Nine-ilm Snails (FATE)",
                         "access_rules": [
-                            "$leveling:31"
+                            "^$fateAccess|Nine-ilm Snails"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:31"
+                            "$fateVisibility|Nine-ilm Snails"
                         ],
                         "item_count": 1
                     }
@@ -602,10 +602,10 @@
                     {
                         "name": "Shell Shocked (FATE)",
                         "access_rules": [
-                            "$leveling:31"
+                            "^$fateAccess|Shell Shocked"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:31"
+                            "$fateVisibility|Shell Shocked"
                         ],
                         "item_count": 1
                     }
@@ -632,10 +632,10 @@
                     {
                         "name": "Hop Skip and a Jump (FATE)",
                         "access_rules": [
-                            "$leveling:33"
+                            "^$fateAccess|Hop Skip and a Jump"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:33"
+                            "$fateVisibility|Hop Skip and a Jump"
                         ],
                         "item_count": 1
                     }
@@ -662,10 +662,10 @@
                     {
                         "name": "Peeping Ja (FATE)",
                         "access_rules": [
-                            "$leveling:33"
+                            "^$fateAccess|Peeping Ja"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:33"
+                            "$fateVisibility|Peeping Ja"
                         ],
                         "item_count": 1
                     }
@@ -692,10 +692,10 @@
                     {
                         "name": "Surprise (FATE)",
                         "access_rules": [
-                            "$leveling:34"
+                            "^$fateAccess|Surprise"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:34"
+                            "$fateVisibility|Surprise"
                         ],
                         "item_count": 1
                     }

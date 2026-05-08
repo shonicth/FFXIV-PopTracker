@@ -351,10 +351,10 @@
                     {
                         "name": "A Long Way Down (FATE)",
                         "access_rules": [
-                            "$leveling:50"
+                            "^$fateAccess|A Long Way Down"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:50"
+                            "$fateVisibility|A Long Way Down"
                         ],
                         "item_count": 1
                     }
@@ -381,10 +381,10 @@
                     {
                         "name": "Anzu Trois (FATE)",
                         "access_rules": [
-                            "$leveling:50"
+                            "^$fateAccess|Anzu Trois"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:50"
+                            "$fateVisibility|Anzu Trois"
                         ],
                         "item_count": 1
                     }
@@ -411,10 +411,10 @@
                     {
                         "name": "Food Fight (FATE)",
                         "access_rules": [
-                            "$leveling:50"
+                            "^$fateAccess|Food Fight"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:50"
+                            "$fateVisibility|Food Fight"
                         ],
                         "item_count": 1
                     }
@@ -441,10 +441,10 @@
                     {
                         "name": "Leech the Sky (FATE)",
                         "access_rules": [
-                            "$leveling:50"
+                            "^$fateAccess|Leech the Sky"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:50"
+                            "$fateVisibility|Leech the Sky"
                         ],
                         "item_count": 1
                     }
@@ -471,10 +471,10 @@
                     {
                         "name": "Mint Condition (FATE)",
                         "access_rules": [
-                            "$leveling:50"
+                            "^$fateAccess|Mint Condition"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:50"
+                            "$fateVisibility|Mint Condition"
                         ],
                         "item_count": 1
                     }
@@ -501,10 +501,10 @@
                     {
                         "name": "One Turned Over the Cloudkins Nest (FATE)",
                         "access_rules": [
-                            "$leveling:50"
+                            "^$fateAccess|One Turned Over the Cloudkin's Nest"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:50"
+                            "$fateVisibility|One Turned Over the Cloudkin's Nest"
                         ],
                         "item_count": 1
                     }
@@ -531,10 +531,10 @@
                     {
                         "name": "Saved the Nests for Last (FATE)",
                         "access_rules": [
-                            "$leveling:50"
+                            "^$fateAccess|Saved the Nests for Last"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:50"
+                            "$fateVisibility|Saved the Nests for Last"
                         ],
                         "item_count": 1
                     }
@@ -561,10 +561,10 @@
                     {
                         "name": "This Is How We Gundu (FATE)",
                         "access_rules": [
-                            "$leveling:50"
+                            "^$fateAccess|This Is How We Gundu"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:50"
+                            "$fateVisibility|This Is How We Gundu"
                         ],
                         "item_count": 1
                     }
@@ -591,10 +591,10 @@
                     {
                         "name": "Youth Must Be Severed (FATE)",
                         "access_rules": [
-                            "$leveling:50"
+                            "^$fateAccess|Youth Must Be Severed"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:50"
+                            "$fateVisibility|Youth Must Be Severed"
                         ],
                         "item_count": 1
                     }
@@ -621,10 +621,10 @@
                     {
                         "name": "Bones (FATE)",
                         "access_rules": [
-                            "$leveling:57"
+                            "^$fateAccess|Bones"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:57"
+                            "$fateVisibility|Bones"
                         ],
                         "item_count": 1
                     }
@@ -651,10 +651,10 @@
                     {
                         "name": "Come to My Window (FATE)",
                         "access_rules": [
-                            "$leveling:57"
+                            "^$fateAccess|Come to My Window"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:57"
+                            "$fateVisibility|Come to My Window"
                         ],
                         "item_count": 1
                     }
@@ -681,10 +681,10 @@
                     {
                         "name": "Hearts Like Steel Fists Like Thunder (FATE)",
                         "access_rules": [
-                            "$leveling:57"
+                            "^$fateAccess|Hearts Like Steel Fists Like Thunder"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:57"
+                            "$fateVisibility|Hearts Like Steel Fists Like Thunder"
                         ],
                         "item_count": 1
                     }
@@ -711,10 +711,10 @@
                     {
                         "name": "Leather and Mace (FATE)",
                         "access_rules": [
-                            "$leveling:57"
+                            "^$fateAccess|Leather and Mace"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:57"
+                            "$fateVisibility|Leather and Mace"
                         ],
                         "item_count": 1
                     }
@@ -741,10 +741,10 @@
                     {
                         "name": "Obey their Thirst (FATE)",
                         "access_rules": [
-                            "$leveling:57"
+                            "^$fateAccess|Obey their Thirst"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:57"
+                            "$fateVisibility|Obey their Thirst"
                         ],
                         "item_count": 1
                     }
@@ -771,10 +771,10 @@
                     {
                         "name": "On Dangerous Ground (FATE)",
                         "access_rules": [
-                            "$leveling:57"
+                            "^$fateAccess|On Dangerous Ground"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:57"
+                            "$fateVisibility|On Dangerous Ground"
                         ],
                         "item_count": 1
                     }
@@ -801,10 +801,10 @@
                     {
                         "name": "The Fugitive (FATE)",
                         "access_rules": [
-                            "$leveling:57"
+                            "^$fateAccess|The Fugitive"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:57"
+                            "$fateVisibility|The Fugitive"
                         ],
                         "item_count": 1
                     }
@@ -831,10 +831,10 @@
                     {
                         "name": "Zuns on the Run (FATE)",
                         "access_rules": [
-                            "$leveling:57"
+                            "^$fateAccess|Zuns on the Run"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:57"
+                            "$fateVisibility|Zuns on the Run"
                         ],
                         "item_count": 1
                     }
@@ -861,10 +861,10 @@
                     {
                         "name": "A Disturbing Lack of Faith (FATE)",
                         "access_rules": [
-                            "$leveling:59"
+                            "^$fateAccess|A Disturbing Lack of Faith"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:59"
+                            "$fateVisibility|A Disturbing Lack of Faith"
                         ],
                         "item_count": 1
                     }
@@ -891,10 +891,10 @@
                     {
                         "name": "A Dream Perchance to Eat (FATE)",
                         "access_rules": [
-                            "$leveling:59"
+                            "^$fateAccess|A Dream Perchance to Eat"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:59"
+                            "$fateVisibility|A Dream Perchance to Eat"
                         ],
                         "item_count": 1
                     }
@@ -921,10 +921,10 @@
                     {
                         "name": "Bismarcking Time (FATE)",
                         "access_rules": [
-                            "$leveling:59"
+                            "^$fateAccess|Bismarcking Time"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:59"
+                            "$fateVisibility|Bismarcking Time"
                         ],
                         "item_count": 1
                     }
@@ -951,10 +951,10 @@
                     {
                         "name": "Guano a Mano (FATE)",
                         "access_rules": [
-                            "$leveling:59"
+                            "^$fateAccess|Guano a Mano"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:59"
+                            "$fateVisibility|Guano a Mano"
                         ],
                         "item_count": 1
                     }
@@ -981,10 +981,10 @@
                     {
                         "name": "Let There Be Acolytes (FATE)",
                         "access_rules": [
-                            "$leveling:59"
+                            "^$fateAccess|Let There Be Acolytes"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:59"
+                            "$fateVisibility|Let There Be Acolytes"
                         ],
                         "item_count": 1
                     }
@@ -1011,10 +1011,10 @@
                     {
                         "name": "Rebel Yehl (FATE)",
                         "access_rules": [
-                            "$leveling:59"
+                            "^$fateAccess|Rebel Yehl"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:59"
+                            "$fateVisibility|Rebel Yehl"
                         ],
                         "item_count": 1
                     }
@@ -1041,10 +1041,10 @@
                     {
                         "name": "The Sound of Madness (FATE)",
                         "access_rules": [
-                            "$leveling:59"
+                            "^$fateAccess|The Sound of Madness"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:59"
+                            "$fateVisibility|The Sound of Madness"
                         ],
                         "item_count": 1
                     }
@@ -1071,10 +1071,10 @@
                     {
                         "name": "You Eat What You Arent (FATE)",
                         "access_rules": [
-                            "$leveling:59"
+                            "^$fateAccess|You Eat What You Aren't"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:59"
+                            "$fateVisibility|You Eat What You Aren't"
                         ],
                         "item_count": 1
                     }

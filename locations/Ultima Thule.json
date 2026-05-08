@@ -365,10 +365,10 @@
                     {
                         "name": "(No) Wind beneath Our Wings (FATE)",
                         "access_rules": [
-                            "$leveling:89"
+                            "^$fateAccess|(No) Wind beneath Our Wings"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:89"
+                            "$fateVisibility|(No) Wind beneath Our Wings"
                         ],
                         "item_count": 1
                     }
@@ -395,10 +395,10 @@
                     {
                         "name": "Beacons of Lost Hope (FATE)",
                         "access_rules": [
-                            "$leveling:89"
+                            "^$fateAccess|Beacons of Lost Hope"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:89"
+                            "$fateVisibility|Beacons of Lost Hope"
                         ],
                         "item_count": 1
                     }
@@ -425,10 +425,10 @@
                     {
                         "name": "Dead Inside (FATE)",
                         "access_rules": [
-                            "$leveling:89"
+                            "^$fateAccess|Dead Inside"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:89"
+                            "$fateVisibility|Dead Inside"
                         ],
                         "item_count": 1
                     }
@@ -455,10 +455,10 @@
                     {
                         "name": "Fallen from Grace (FATE)",
                         "access_rules": [
-                            "$leveling:89"
+                            "^$fateAccess|Fallen from Grace"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:89"
+                            "$fateVisibility|Fallen from Grace"
                         ],
                         "item_count": 1
                     }
@@ -485,10 +485,10 @@
                     {
                         "name": "Far from the Madding Horde (FATE)",
                         "access_rules": [
-                            "$leveling:89"
+                            "^$fateAccess|Far from the Madding Horde"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:89"
+                            "$fateVisibility|Far from the Madding Horde"
                         ],
                         "item_count": 1
                     }
@@ -515,10 +515,10 @@
                     {
                         "name": "Nevermore (FATE)",
                         "access_rules": [
-                            "$leveling:89"
+                            "^$fateAccess|Nevermore"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:89"
+                            "$fateVisibility|Nevermore"
                         ],
                         "item_count": 1
                     }
@@ -545,10 +545,10 @@
                     {
                         "name": "Omicron Recall Comms Expansion (FATE)",
                         "access_rules": [
-                            "$leveling:89"
+                            "^$fateAccess|Omicron Recall Comms Expansion"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:89"
+                            "$fateVisibility|Omicron Recall Comms Expansion"
                         ],
                         "item_count": 1
                     }
@@ -575,10 +575,10 @@
                     {
                         "name": "Omicron Recall Secure Connection (FATE)",
                         "access_rules": [
-                            "$leveling:89"
+                            "^$fateAccess|Omicron Recall Secure Connection"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:89"
+                            "$fateVisibility|Omicron Recall Secure Connection"
                         ],
                         "item_count": 1
                     }
@@ -605,10 +605,10 @@
                     {
                         "name": "Only Just Begun (FATE)",
                         "access_rules": [
-                            "$leveling:89"
+                            "^$fateAccess|Only Just Begun"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:89"
+                            "$fateVisibility|Only Just Begun"
                         ],
                         "item_count": 1
                     }
@@ -635,10 +635,10 @@
                     {
                         "name": "Sound and Fury (FATE)",
                         "access_rules": [
-                            "$leveling:89"
+                            "^$fateAccess|Sound and Fury"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:89"
+                            "$fateVisibility|Sound and Fury"
                         ],
                         "item_count": 1
                     }
@@ -665,10 +665,10 @@
                     {
                         "name": "Staring into the Void (FATE)",
                         "access_rules": [
-                            "$leveling:89"
+                            "^$fateAccess|Staring into the Void"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:89"
+                            "$fateVisibility|Staring into the Void"
                         ],
                         "item_count": 1
                     }
@@ -695,10 +695,10 @@
                     {
                         "name": "Wings of Glory (FATE)",
                         "access_rules": [
-                            "$leveling:89"
+                            "^$fateAccess|Wings of Glory"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:89"
+                            "$fateVisibility|Wings of Glory"
                         ],
                         "item_count": 1
                     }
@@ -725,10 +725,10 @@
                     {
                         "name": "Omicron Recall Killing Order (FATE)",
                         "access_rules": [
-                            "$leveling:90"
+                            "^$fateAccess|Omicron Recall Killing Order"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:90, include_unreasonable_fates"
+                            "$fateVisibility|Omicron Recall Killing Order, include_unreasonable_fates"
                         ],
                         "item_count": 1
                     }

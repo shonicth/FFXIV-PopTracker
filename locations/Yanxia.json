@@ -673,10 +673,10 @@
                     {
                         "name": "A Fish to Fry (FATE)",
                         "access_rules": [
-                            "$leveling:64"
+                            "^$fateAccess|A Fish to Fry"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:64"
+                            "$fateVisibility|A Fish to Fry"
                         ],
                         "item_count": 1
                     }
@@ -703,10 +703,10 @@
                     {
                         "name": "A Tisket, A Tasket (FATE)",
                         "access_rules": [
-                            "$leveling:64"
+                            "^$fateAccess|A Tisket A Tasket"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:64"
+                            "$fateVisibility|A Tisket A Tasket"
                         ],
                         "item_count": 1
                     }
@@ -733,10 +733,10 @@
                     {
                         "name": "Dead To Rites Kiyofusa (FATE)",
                         "access_rules": [
-                            "$leveling:64"
+                            "^$fateAccess|Dead To Rites Kiyofusa"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:64"
+                            "$fateVisibility|Dead To Rites Kiyofusa"
                         ],
                         "item_count": 1
                     }
@@ -763,10 +763,10 @@
                     {
                         "name": "Dead To Rites Koja (FATE)",
                         "access_rules": [
-                            "$leveling:64"
+                            "^$fateAccess|Dead To Rites Koja"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:64"
+                            "$fateVisibility|Dead To Rites Koja"
                         ],
                         "item_count": 1
                     }
@@ -793,10 +793,10 @@
                     {
                         "name": "Deep Red Sea (FATE)",
                         "access_rules": [
-                            "$leveling:64"
+                            "^$fateAccess|Deep Red Sea"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:64"
+                            "$fateVisibility|Deep Red Sea"
                         ],
                         "item_count": 1
                     }
@@ -823,10 +823,10 @@
                     {
                         "name": "Falling Drown (FATE)",
                         "access_rules": [
-                            "$leveling:64"
+                            "^$fateAccess|Falling Drown"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:64"
+                            "$fateVisibility|Falling Drown"
                         ],
                         "item_count": 1
                     }
@@ -853,10 +853,10 @@
                     {
                         "name": "Footing the Bills (FATE)",
                         "access_rules": [
-                            "$leveling:64"
+                            "^$fateAccess|Footing the Bills"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:64"
+                            "$fateVisibility|Footing the Bills"
                         ],
                         "item_count": 1
                     }
@@ -883,10 +883,10 @@
                     {
                         "name": "Freedom Flies (FATE)",
                         "access_rules": [
-                            "$leveling:64"
+                            "^$fateAccess|Freedom Flies"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:64"
+                            "$fateVisibility|Freedom Flies"
                         ],
                         "item_count": 1
                     }
@@ -913,10 +913,10 @@
                     {
                         "name": "Get Ready For a Nu Wave (FATE)",
                         "access_rules": [
-                            "$leveling:64"
+                            "^$fateAccess|Get Ready For a Nu Wave"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:64"
+                            "$fateVisibility|Get Ready For a Nu Wave"
                         ],
                         "item_count": 1
                     }
@@ -943,10 +943,10 @@
                     {
                         "name": "In One Basket (FATE)",
                         "access_rules": [
-                            "$leveling:64"
+                            "^$fateAccess|In One Basket"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:64"
+                            "$fateVisibility|In One Basket"
                         ],
                         "item_count": 1
                     }
@@ -973,10 +973,10 @@
                     {
                         "name": "Killer Apsaras (FATE)",
                         "access_rules": [
-                            "$leveling:64"
+                            "^$fateAccess|Killer Apsaras"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:64"
+                            "$fateVisibility|Killer Apsaras"
                         ],
                         "item_count": 1
                     }
@@ -1003,10 +1003,10 @@
                     {
                         "name": "Leave the Meters Running (FATE)",
                         "access_rules": [
-                            "$leveling:64"
+                            "^$fateAccess|Leave the Meters Running"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:64"
+                            "$fateVisibility|Leave the Meters Running"
                         ],
                         "item_count": 1
                     }
@@ -1033,10 +1033,10 @@
                     {
                         "name": "Linquan Continental (FATE)",
                         "access_rules": [
-                            "$leveling:64"
+                            "^$fateAccess|Linquan Continental"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:64"
+                            "$fateVisibility|Linquan Continental"
                         ],
                         "item_count": 1
                     }
@@ -1063,10 +1063,10 @@
                     {
                         "name": "Long Hands, Long Fingers (FATE)",
                         "access_rules": [
-                            "$leveling:64"
+                            "^$fateAccess|Long Hands Long Fingers"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:64"
+                            "$fateVisibility|Long Hands Long Fingers"
                         ],
                         "item_count": 1
                     }
@@ -1093,10 +1093,10 @@
                     {
                         "name": "Motherly Love (FATE)",
                         "access_rules": [
-                            "$leveling:64"
+                            "^$fateAccess|Motherly Love"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:64"
+                            "$fateVisibility|Motherly Love"
                         ],
                         "item_count": 1
                     }
@@ -1123,10 +1123,10 @@
                     {
                         "name": "Oneblade Wonder (FATE)",
                         "access_rules": [
-                            "$leveling:64"
+                            "^$fateAccess|Oneblade Wonder"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:64"
+                            "$fateVisibility|Oneblade Wonder"
                         ],
                         "item_count": 1
                     }
@@ -1153,10 +1153,10 @@
                     {
                         "name": "Raze the Red Lantern (FATE)",
                         "access_rules": [
-                            "$leveling:64"
+                            "^$fateAccess|Raze the Red Lantern"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:64"
+                            "$fateVisibility|Raze the Red Lantern"
                         ],
                         "item_count": 1
                     }
@@ -1183,10 +1183,10 @@
                     {
                         "name": "Rice and Shine (FATE)",
                         "access_rules": [
-                            "$leveling:64"
+                            "^$fateAccess|Rice and Shine"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:64"
+                            "$fateVisibility|Rice and Shine"
                         ],
                         "item_count": 1
                     }
@@ -1213,10 +1213,10 @@
                     {
                         "name": "Stay of Eggsecution (FATE)",
                         "access_rules": [
-                            "$leveling:64"
+                            "^$fateAccess|Stay of Eggsecution"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:64"
+                            "$fateVisibility|Stay of Eggsecution"
                         ],
                         "item_count": 1
                     }
@@ -1243,10 +1243,10 @@
                     {
                         "name": "The Long and Rhino Road (FATE)",
                         "access_rules": [
-                            "$leveling:64"
+                            "^$fateAccess|The Long and Rhino Road"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:64"
+                            "$fateVisibility|The Long and Rhino Road"
                         ],
                         "item_count": 1
                     }
@@ -1273,10 +1273,10 @@
                     {
                         "name": "The Virgin Homicides (FATE)",
                         "access_rules": [
-                            "$leveling:64"
+                            "^$fateAccess|The Virgin Homicides"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:64"
+                            "$fateVisibility|The Virgin Homicides"
                         ],
                         "item_count": 1
                     }
@@ -1303,10 +1303,10 @@
                     {
                         "name": "This Is a Da, This Is a Peng (FATE)",
                         "access_rules": [
-                            "$leveling:64"
+                            "^$fateAccess|This Is a Da This Is a Peng"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:64"
+                            "$fateVisibility|This Is a Da This Is a Peng"
                         ],
                         "item_count": 1
                     }
@@ -1333,10 +1333,10 @@
                     {
                         "name": "Tiger Need (FATE)",
                         "access_rules": [
-                            "$leveling:64"
+                            "^$fateAccess|Tiger Need"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:64"
+                            "$fateVisibility|Tiger Need"
                         ],
                         "item_count": 1
                     }
@@ -1363,10 +1363,10 @@
                     {
                         "name": "To Catch a Weasel (FATE)",
                         "access_rules": [
-                            "$leveling:64"
+                            "^$fateAccess|To Catch a Weasel"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:64"
+                            "$fateVisibility|To Catch a Weasel"
                         ],
                         "item_count": 1
                     }
@@ -1393,10 +1393,10 @@
                     {
                         "name": "Tsurubebi Snugly (FATE)",
                         "access_rules": [
-                            "$leveling:64"
+                            "^$fateAccess|Tsurubebi Snugly"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:64"
+                            "$fateVisibility|Tsurubebi Snugly"
                         ],
                         "item_count": 1
                     }
@@ -1423,10 +1423,10 @@
                     {
                         "name": "Crying Wolves (FATE)",
                         "access_rules": [
-                            "$leveling:67"
+                            "^$fateAccess|Crying Wolves"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:67"
+                            "$fateVisibility|Crying Wolves"
                         ],
                         "item_count": 1
                     }
@@ -1453,10 +1453,10 @@
                     {
                         "name": "Curiosity Killed the Catfish (FATE)",
                         "access_rules": [
-                            "$leveling:67"
+                            "^$fateAccess|Curiosity Killed the Catfish"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:67"
+                            "$fateVisibility|Curiosity Killed the Catfish"
                         ],
                         "item_count": 1
                     }
@@ -1483,10 +1483,10 @@
                     {
                         "name": "Goodwill Hunterling (FATE)",
                         "access_rules": [
-                            "$leveling:67"
+                            "^$fateAccess|Goodwill Hunterling"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:67"
+                            "$fateVisibility|Goodwill Hunterling"
                         ],
                         "item_count": 1
                     }
@@ -1513,10 +1513,10 @@
                     {
                         "name": "Madas Ilk (FATE)",
                         "access_rules": [
-                            "$leveling:67"
+                            "^$fateAccess|Mada's Ilk"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:67"
+                            "$fateVisibility|Mada's Ilk"
                         ],
                         "item_count": 1
                     }
@@ -1543,10 +1543,10 @@
                     {
                         "name": "Mister Whiskers (FATE)",
                         "access_rules": [
-                            "$leveling:67"
+                            "^$fateAccess|Mister Whiskers"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:67"
+                            "$fateVisibility|Mister Whiskers"
                         ],
                         "item_count": 1
                     }
@@ -1573,10 +1573,10 @@
                     {
                         "name": "More to Offer (FATE)",
                         "access_rules": [
-                            "$leveling:67"
+                            "^$fateAccess|More to Offer"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:67"
+                            "$fateVisibility|More to Offer"
                         ],
                         "item_count": 1
                     }
@@ -1603,10 +1603,10 @@
                     {
                         "name": "Outfoxed (FATE)",
                         "access_rules": [
-                            "$leveling:67"
+                            "^$fateAccess|Outfoxed"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:67"
+                            "$fateVisibility|Outfoxed"
                         ],
                         "item_count": 1
                     }
@@ -1633,10 +1633,10 @@
                     {
                         "name": "Ragoh To Extremes (FATE)",
                         "access_rules": [
-                            "$leveling:67"
+                            "^$fateAccess|Ragoh To Extremes"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:67"
+                            "$fateVisibility|Ragoh To Extremes"
                         ],
                         "item_count": 1
                     }
@@ -1663,10 +1663,10 @@
                     {
                         "name": "Scared Straightheart (FATE)",
                         "access_rules": [
-                            "$leveling:67"
+                            "^$fateAccess|Scared Straightheart"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:67"
+                            "$fateVisibility|Scared Straightheart"
                         ],
                         "item_count": 1
                     }
@@ -1693,10 +1693,10 @@
                     {
                         "name": "Tora Tora Tora (FATE)",
                         "access_rules": [
-                            "$leveling:67"
+                            "^$fateAccess|Tora Tora Tora"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:67"
+                            "$fateVisibility|Tora Tora Tora"
                         ],
                         "item_count": 1
                     }
@@ -1723,10 +1723,10 @@
                     {
                         "name": "Tres Bian (FATE)",
                         "access_rules": [
-                            "$leveling:67"
+                            "^$fateAccess|Très Bian"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:67"
+                            "$fateVisibility|Très Bian"
                         ],
                         "item_count": 1
                     }
@@ -1753,10 +1753,10 @@
                     {
                         "name": "Wolves of a Feather (FATE)",
                         "access_rules": [
-                            "$leveling:67"
+                            "^$fateAccess|Wolves of a Feather"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:67"
+                            "$fateVisibility|Wolves of a Feather"
                         ],
                         "item_count": 1
                     }
@@ -1783,10 +1783,10 @@
                     {
                         "name": "Foxy Lady (FATE)",
                         "access_rules": [
-                            "$leveling:70"
+                            "^$fateAccess|Foxy Lady"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:70, include_unreasonable_fates"
+                            "$fateVisibility|Foxy Lady"
                         ],
                         "item_count": 1
                     }

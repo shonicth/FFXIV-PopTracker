@@ -264,10 +264,10 @@
                     {
                         "name": "Fire Suppression (FATE)",
                         "access_rules": [
-                            "$leveling:90"
+                            "^$fateAccess|Fire Suppression"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:90"
+                            "$fateVisibility|Fire Suppression"
                         ],
                         "item_count": 1
                     }
@@ -294,10 +294,10 @@
                     {
                         "name": "Panaq Attack (FATE)",
                         "access_rules": [
-                            "$leveling:90"
+                            "^$fateAccess|Panaq Attack"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:90"
+                            "$fateVisibility|Panaq Attack"
                         ],
                         "item_count": 1
                     }
@@ -324,10 +324,10 @@
                     {
                         "name": "Ratels So Ravenous (FATE)",
                         "access_rules": [
-                            "$leveling:90"
+                            "^$fateAccess|Ratels So Ravenous"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:90"
+                            "$fateVisibility|Ratels So Ravenous"
                         ],
                         "item_count": 1
                     }
@@ -354,10 +354,10 @@
                     {
                         "name": "Birds Up (FATE)",
                         "access_rules": [
-                            "$leveling:91"
+                            "^$fateAccess|Birds Up"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:91"
+                            "$fateVisibility|Birds Up"
                         ],
                         "item_count": 1
                     }
@@ -384,10 +384,10 @@
                     {
                         "name": "Megamaguey Mayhem (FATE)",
                         "access_rules": [
-                            "$leveling:91"
+                            "^$fateAccess|Megamaguey Mayhem"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:91"
+                            "$fateVisibility|Megamaguey Mayhem"
                         ],
                         "item_count": 1
                     }
@@ -414,10 +414,10 @@
                     {
                         "name": "Pasture Expiration Date (FATE)",
                         "access_rules": [
-                            "$leveling:91"
+                            "^$fateAccess|Pasture Expiration Date"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:91"
+                            "$fateVisibility|Pasture Expiration Date"
                         ],
                         "item_count": 1
                     }
@@ -444,10 +444,10 @@
                     {
                         "name": "Too Irate to Migrate (FATE)",
                         "access_rules": [
-                            "$leveling:91"
+                            "^$fateAccess|Too Irate to Migrate"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:91"
+                            "$fateVisibility|Too Irate to Migrate"
                         ],
                         "item_count": 1
                     }
@@ -474,10 +474,10 @@
                     {
                         "name": "Weeding the Garden (FATE)",
                         "access_rules": [
-                            "$leveling:91"
+                            "^$fateAccess|Weeding the Garden"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:91"
+                            "$fateVisibility|Weeding the Garden"
                         ],
                         "item_count": 1
                     }
@@ -504,10 +504,10 @@
                     {
                         "name": "Wolf Parade (FATE)",
                         "access_rules": [
-                            "$leveling:91"
+                            "^$fateAccess|Wolf Parade"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:91"
+                            "$fateVisibility|Wolf Parade"
                         ],
                         "item_count": 1
                     }
@@ -534,10 +534,10 @@
                     {
                         "name": "By Your Powers Combined (FATE)",
                         "access_rules": [
-                            "$leveling:93"
+                            "^$fateAccess|By Your Powers Combined"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:93"
+                            "$fateVisibility|By Your Powers Combined"
                         ],
                         "item_count": 1
                     }
@@ -564,10 +564,10 @@
                     {
                         "name": "Claws and Effect (FATE)",
                         "access_rules": [
-                            "$leveling:93"
+                            "^$fateAccess|Claws and Effect"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:93"
+                            "$fateVisibility|Claws and Effect"
                         ],
                         "item_count": 1
                     }
@@ -594,20 +594,20 @@
                     {
                         "name": "Gust Stop Already (FATE)",
                         "access_rules": [
-                            "$leveling:93"
+                            "^$fateAccess|Gust Stop Already"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:93"
+                            "$fateVisibility|Gust Stop Already"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Big Storm Coming (FATE)",
                         "access_rules": [
-                            "$leveling:93"
+                            "^$fateAccess|Big Storm Coming"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:93"
+                            "$fateVisibility|Big Storm Coming"
                         ],
                         "item_count": 1
                     }
@@ -634,10 +634,10 @@
                     {
                         "name": "Lay Off the Horns (FATE)",
                         "access_rules": [
-                            "$leveling:93"
+                            "^$fateAccess|Lay Off the Horns"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:93"
+                            "$fateVisibility|Lay Off the Horns"
                         ],
                         "item_count": 1
                     }
@@ -664,20 +664,20 @@
                     {
                         "name": "Salty Showdown (FATE)",
                         "access_rules": [
-                            "$leveling:93"
+                            "^$fateAccess|Salty Showdown"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:93"
+                            "$fateVisibility|Salty Showdown"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "A Valiant Duel (FATE)",
                         "access_rules": [
-                            "$leveling:93"
+                            "^$fateAccess|A Valiant Duel"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:93"
+                            "$fateVisibility|A Valiant Duel"
                         ],
                         "item_count": 1
                     }
@@ -704,10 +704,10 @@
                     {
                         "name": "So Long Suckers (FATE)",
                         "access_rules": [
-                            "$leveling:93"
+                            "^$fateAccess|So Long Suckers"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:93"
+                            "$fateVisibility|So Long Suckers"
                         ],
                         "item_count": 1
                     }
@@ -734,10 +734,10 @@
                     {
                         "name": "Young Volcanoes (FATE)",
                         "access_rules": [
-                            "$leveling:93"
+                            "^$fateAccess|Young Volcanoes"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:93"
+                            "$fateVisibility|Young Volcanoes"
                         ],
                         "item_count": 1
                     }

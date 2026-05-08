@@ -274,10 +274,10 @@
                     {
                         "name": "Couldve Found Something Bigger (FATE)",
                         "access_rules": [
-                            "$leveling:94"
+                            "^$fateAccess|Could've Found Something Bigger"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:94"
+                            "$fateVisibility|Could've Found Something Bigger"
                         ],
                         "item_count": 1
                     }
@@ -304,10 +304,10 @@
                     {
                         "name": "Escape Shroom (FATE)",
                         "access_rules": [
-                            "$leveling:94"
+                            "^$fateAccess|Escape Shroom"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:94"
+                            "$fateVisibility|Escape Shroom"
                         ],
                         "item_count": 1
                     }
@@ -334,10 +334,10 @@
                     {
                         "name": "Fright or Flight (FATE)",
                         "access_rules": [
-                            "$leveling:94"
+                            "^$fateAccess|Fright or Flight"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:94"
+                            "$fateVisibility|Fright or Flight"
                         ],
                         "item_count": 1
                     }
@@ -364,10 +364,10 @@
                     {
                         "name": "I Aint Afraid of No Ghost (FATE)",
                         "access_rules": [
-                            "$leveling:94"
+                            "^$fateAccess|I Ain't Afraid of No Ghost"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:94"
+                            "$fateVisibility|I Ain't Afraid of No Ghost"
                         ],
                         "item_count": 1
                     }
@@ -394,10 +394,10 @@
                     {
                         "name": "La Selva se lo Llevo (FATE)",
                         "access_rules": [
-                            "$leveling:94"
+                            "^$fateAccess|La Selva se lo Llevó"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:94"
+                            "$fateVisibility|La Selva se lo Llevó"
                         ],
                         "item_count": 1
                     }
@@ -424,10 +424,10 @@
                     {
                         "name": "Moths Are Tough (FATE)",
                         "access_rules": [
-                            "$leveling:94"
+                            "^$fateAccess|Moths Are Tough"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:94"
+                            "$fateVisibility|Moths Are Tough"
                         ],
                         "item_count": 1
                     }
@@ -454,10 +454,10 @@
                     {
                         "name": "My Star (FATE)",
                         "access_rules": [
-                            "$leveling:94"
+                            "^$fateAccess|My Star"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:94"
+                            "$fateVisibility|My Star"
                         ],
                         "item_count": 1
                     }
@@ -484,10 +484,10 @@
                     {
                         "name": "Najool of Denial (FATE)",
                         "access_rules": [
-                            "$leveling:94"
+                            "^$fateAccess|Najool of Denial"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:94"
+                            "$fateVisibility|Najool of Denial"
                         ],
                         "item_count": 1
                     }
@@ -514,10 +514,10 @@
                     {
                         "name": "Porting Is Such Sweet Sorrow (FATE)",
                         "access_rules": [
-                            "$leveling:94"
+                            "^$fateAccess|Porting Is Such Sweet Sorrow"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:94"
+                            "$fateVisibility|Porting Is Such Sweet Sorrow"
                         ],
                         "item_count": 1
                     }
@@ -544,10 +544,10 @@
                     {
                         "name": "Sick Ornery Wivres (FATE)",
                         "access_rules": [
-                            "$leveling:94"
+                            "^$fateAccess|Sick Ornery Wivres"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:94"
+                            "$fateVisibility|Sick Ornery Wivres"
                         ],
                         "item_count": 1
                     }
@@ -574,20 +574,20 @@
                     {
                         "name": "Stabbing Gutward (FATE)",
                         "access_rules": [
-                            "$leveling:94"
+                            "^$fateAccess|Stabbing Gutward"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:94"
+                            "$fateVisibility|Stabbing Gutward"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Trial by Firedance (FATE)",
                         "access_rules": [
-                            "$leveling:94"
+                            "^$fateAccess|Trial by Firedance"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:94"
+                            "$fateVisibility|Trial by Firedance"
                         ],
                         "item_count": 1
                     }
@@ -614,10 +614,10 @@
                     {
                         "name": "Stick it to the Mantis (FATE)",
                         "access_rules": [
-                            "$leveling:94"
+                            "^$fateAccess|Stick it to the Mantis"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:94"
+                            "$fateVisibility|Stick it to the Mantis"
                         ],
                         "item_count": 1
                     }
@@ -644,10 +644,10 @@
                     {
                         "name": "The Departed (FATE)",
                         "access_rules": [
-                            "$leveling:94"
+                            "^$fateAccess|The Departed"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:94"
+                            "$fateVisibility|The Departed"
                         ],
                         "item_count": 1
                     }
@@ -674,10 +674,10 @@
                     {
                         "name": "The Fruit of the Problem (FATE)",
                         "access_rules": [
-                            "$leveling:94"
+                            "^$fateAccess|The Fruit of the Problem"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:94"
+                            "$fateVisibility|The Fruit of the Problem"
                         ],
                         "item_count": 1
                     }
@@ -704,10 +704,10 @@
                     {
                         "name": "The Spawning (FATE)",
                         "access_rules": [
-                            "$leveling:94"
+                            "^$fateAccess|The Spawning"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:94"
+                            "$fateVisibility|The Spawning"
                         ],
                         "item_count": 1
                     }

@@ -444,10 +444,10 @@
                     {
                         "name": "Barometz Soup (FATE)",
                         "access_rules": [
-                            "$leveling:10"
+                            "^$fateAccess|Barometz Soup"
                         ],
                         "visibility_rules": [
-                            "fatesanity"
+                            "$fateVisibility|Barometz Soup"
                         ],
                         "item_count": 1
                     }
@@ -474,10 +474,10 @@
                     {
                         "name": "Shredding Wheat (FATE)",
                         "access_rules": [
-                            "$leveling:10"
+                            "^$fateAccess|Shredding Wheat"
                         ],
                         "visibility_rules": [
-                            "fatesanity"
+                            "$fateVisibility|Shredding Wheat"
                         ],
                         "item_count": 1
                     }
@@ -504,10 +504,10 @@
                     {
                         "name": "Tender Buttons (FATE)",
                         "access_rules": [
-                            "$leveling:12"
+                            "^$fateAccess|Tender Buttons"
                         ],
                         "visibility_rules": [
-                            "fatesanity"
+                            "$fateVisibility|Tender Buttons"
                         ],
                         "item_count": 1
                     }
@@ -534,10 +534,10 @@
                     {
                         "name": "The Last Straw (FATE)",
                         "access_rules": [
-                            "$leveling:12"
+                            "^$fateAccess|The Last Straw"
                         ],
                         "visibility_rules": [
-                            "fatesanity"
+                            "$fateVisibility|The Last Straw"
                         ],
                         "item_count": 1
                     }
@@ -564,10 +564,10 @@
                     {
                         "name": "(I Just) Died in Six Arms Tonight (FATE)",
                         "access_rules": [
-                            "$leveling:13"
+                            "^$fateAccess|(I Just) Died in Six Arms Tonight"
                         ],
                         "visibility_rules": [
-                            "fatesanity"
+                            "$fateVisibility|(I Just) Died in Six Arms Tonight"
                         ],
                         "item_count": 1
                     }
@@ -594,10 +594,10 @@
                     {
                         "name": "Between Aurochs (FATE)",
                         "access_rules": [
-                            "$leveling:15"
+                            "^$fateAccess|Between Aurochs"
                         ],
                         "visibility_rules": [
-                            "fatesanity"
+                            "$fateVisibility|Between Aurochs"
                         ],
                         "item_count": 1
                     }
@@ -624,10 +624,10 @@
                     {
                         "name": "Goblin Chain (FATE)",
                         "access_rules": [
-                            "$leveling:15"
+                            "^$fateAccess|Goblin Chain"
                         ],
                         "visibility_rules": [
-                            "fatesanity"
+                            "$fateVisibility|Goblin Chain"
                         ],
                         "item_count": 1
                     }
@@ -654,10 +654,10 @@
                     {
                         "name": "Absolutely Positively (FATE)",
                         "access_rules": [
-                            "$leveling:16"
+                            "^$fateAccess|Absolutely Positively"
                         ],
                         "visibility_rules": [
-                            "fatesanity"
+                            "$fateVisibility|Absolutely Positively"
                         ],
                         "item_count": 1
                     }
@@ -684,10 +684,10 @@
                     {
                         "name": "In the Sac (FATE)",
                         "access_rules": [
-                            "$leveling:16"
+                            "^$fateAccess|In the Sac"
                         ],
                         "visibility_rules": [
-                            "fatesanity"
+                            "$fateVisibility|In the Sac"
                         ],
                         "item_count": 1
                     }
@@ -714,10 +714,10 @@
                     {
                         "name": "Dont Call Him a Fishback (FATE)",
                         "access_rules": [
-                            "$leveling:17"
+                            "^$fateAccess|Don't Call Him a Fishback"
                         ],
                         "visibility_rules": [
-                            "fatesanity"
+                            "$fateVisibility|Don't Call Him a Fishback"
                         ],
                         "item_count": 1
                     }
@@ -744,10 +744,10 @@
                     {
                         "name": "Letters from Tidegate (FATE)",
                         "access_rules": [
-                            "$leveling:17"
+                            "^$fateAccess|Letters from Tidegate"
                         ],
                         "visibility_rules": [
-                            "fatesanity"
+                            "$fateVisibility|Letters from Tidegate"
                         ],
                         "item_count": 1
                     }
@@ -774,10 +774,10 @@
                     {
                         "name": "Iron Contra Affair (FATE)",
                         "access_rules": [
-                            "$leveling:18"
+                            "^$fateAccess|Iron Contra Affair"
                         ],
                         "visibility_rules": [
-                            "fatesanity"
+                            "$fateVisibility|Iron Contra Affair"
                         ],
                         "item_count": 1
                     }
@@ -804,10 +804,10 @@
                     {
                         "name": "Tryp Fantastic (FATE)",
                         "access_rules": [
-                            "$leveling:18"
+                            "^$fateAccess|Tryp Fantastic"
                         ],
                         "visibility_rules": [
-                            "fatesanity"
+                            "$fateVisibility|Tryp Fantastic"
                         ],
                         "item_count": 1
                     }
@@ -834,10 +834,10 @@
                     {
                         "name": "Dead Mans Rest (FATE)",
                         "access_rules": [
-                            "$leveling:40"
+                            "^$fateAccess|Dead Man's Rest"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:40"
+                            "$fateVisibility|Dead Man's Rest"
                         ],
                         "item_count": 1
                     }
@@ -864,10 +864,10 @@
                     {
                         "name": "The Kings Justice (FATE)",
                         "access_rules": [
-                            "$leveling:40"
+                            "^$fateAccess|The King's Justice"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:40"
+                            "$fateVisibility|The King's Justice"
                         ],
                         "item_count": 1
                     }
@@ -894,10 +894,10 @@
                     {
                         "name": "Breaching North Tidegate (FATE)",
                         "access_rules": [
-                            "$leveling:44"
+                            "^$fateAccess|Breaching North Tidegate"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:44"
+                            "$fateVisibility|Breaching North Tidegate"
                         ],
                         "item_count": 1
                     }
@@ -924,10 +924,10 @@
                     {
                         "name": "Gauging North Tidegate (FATE)",
                         "access_rules": [
-                            "$leveling:44"
+                            "^$fateAccess|Gauging North Tidegate"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:44"
+                            "$fateVisibility|Gauging North Tidegate"
                         ],
                         "item_count": 1
                     }
@@ -954,10 +954,10 @@
                     {
                         "name": "Sharknado (FATE)",
                         "access_rules": [
-                            "$leveling:44"
+                            "^$fateAccess|Sharknado"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:44"
+                            "$fateVisibility|Sharknado"
                         ],
                         "item_count": 1
                     }
@@ -984,10 +984,10 @@
                     {
                         "name": "Breaching South Tidegate (FATE)",
                         "access_rules": [
-                            "$leveling:45"
+                            "^$fateAccess|Breaching South Tidegate"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:45"
+                            "$fateVisibility|Breaching South Tidegate"
                         ],
                         "item_count": 1
                     }
@@ -1014,10 +1014,10 @@
                     {
                         "name": "Gauging South Tidegate (FATE)",
                         "access_rules": [
-                            "$leveling:45"
+                            "^$fateAccess|Gauging South Tidegate"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:45"
+                            "$fateVisibility|Gauging South Tidegate"
                         ],
                         "item_count": 1
                     }
@@ -1044,10 +1044,10 @@
                     {
                         "name": "Tail of a Whale (FATE)",
                         "access_rules": [
-                            "$leveling:46"
+                            "^$fateAccess|Tail of a Whale"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:46"
+                            "$fateVisibility|Tail of a Whale"
                         ],
                         "item_count": 1
                     }
@@ -1074,10 +1074,10 @@
                     {
                         "name": "Watch Your Tongue (FATE)",
                         "access_rules": [
-                            "$leveling:48"
+                            "^$fateAccess|Watch Your Tongue"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:48"
+                            "$fateVisibility|Watch Your Tongue"
                         ],
                         "item_count": 1
                     }
@@ -1104,10 +1104,10 @@
                     {
                         "name": "Making Waves (FATE)",
                         "access_rules": [
-                            "$leveling:49"
+                            "^$fateAccess|Making Waves"
                         ],
                         "visibility_rules": [
-                            "fatesanity, level_cap:49"
+                            "$fateVisibility|Making Waves"
                         ],
                         "item_count": 1
                     }
