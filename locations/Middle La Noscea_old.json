@@ -9,6 +9,32 @@
         ],
         "children": [
             {
+                "name": "Basic Training Enemy Parties",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    ""
+                ],
+                "sections": [
+                    {
+                        "name": "Basic Training Enemy Parties",
+                        "access_rules": ["$leveling:10"],
+                        "visibility_rules": ["include_guildhests, duty_difficulty_normal, $duty_visibility|Basic Training: Enemy Parties"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Middle La Noscea",
+                        "x": 880,
+                        "y": 813,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
                 "name": "FATEs",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
@@ -23,81 +49,61 @@
                     {
                         "name": "FATE #1",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "fates_per_zone:1"
-                        ],
+                        "visibility_rules": ["fates_per_zone:1"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #2",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "fates_per_zone:2"
-                        ],
+                        "visibility_rules": ["fates_per_zone:2"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #3",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "fates_per_zone:3"
-                        ],
+                        "visibility_rules": ["fates_per_zone:3"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #4",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "fates_per_zone:4"
-                        ],
+                        "visibility_rules": ["fates_per_zone:4"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #5",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "fates_per_zone:5"
-                        ],
+                        "visibility_rules": ["fates_per_zone:5"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #6",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "fates_per_zone:6"
-                        ],
+                        "visibility_rules": ["fates_per_zone:6"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #7",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "fates_per_zone:7"
-                        ],
+                        "visibility_rules": ["fates_per_zone:7"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #8",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "fates_per_zone:8"
-                        ],
+                        "visibility_rules": ["fates_per_zone:8"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #9",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "fates_per_zone:9"
-                        ],
+                        "visibility_rules": ["fates_per_zone:9"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #10",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "fates_per_zone:10"
-                        ],
+                        "visibility_rules": ["fates_per_zone:10"],
                         "item_count": 1
                     }
                 ],
@@ -122,19 +128,15 @@
                 "sections": [
                     {
                         "name": "On the Lamb (FATE)",
-                        "access_rules": [
-                            "^$fateAccess|On the Lamb"
-                        ],
-                        "visibility_rules": [
-                            "$fateVisibility|On the Lamb"
-                        ],
+                        "access_rules": ["^$fateAccess|On the Lamb"],
+                        "visibility_rules": ["$fateVisibility|On the Lamb"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Middle La Noscea",
-                        "x": 1104,
+                        "x": 1055,
                         "y": 1162,
                         "size": 40,
                         "shape": "rect"
@@ -152,20 +154,16 @@
                 "sections": [
                     {
                         "name": "Taking It to the Streams (FATE)",
-                        "access_rules": [
-                            "^$fateAccess|Taking It to the Streams"
-                        ],
-                        "visibility_rules": [
-                            "$fateVisibility|Taking It to the Streams"
-                        ],
+                        "access_rules": ["^$fateAccess|Taking It to the Streams"],
+                        "visibility_rules": ["$fateVisibility|Taking It to the Streams"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Middle La Noscea",
-                        "x": 1016,
-                        "y": 1098,
+                        "x": 947,
+                        "y": 1056,
                         "size": 40,
                         "shape": "rect"
                     }
@@ -182,20 +180,16 @@
                 "sections": [
                     {
                         "name": "Overnight Migration (FATE)",
-                        "access_rules": [
-                            "^$fateAccess|Overnight Migration"
-                        ],
-                        "visibility_rules": [
-                            "$fateVisibility|Overnight Migration"
-                        ],
+                        "access_rules": ["^$fateAccess|Overnight Migration"],
+                        "visibility_rules": ["$fateVisibility|Overnight Migration"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Middle La Noscea",
-                        "x": 1059,
-                        "y": 985,
+                        "x": 1055,
+                        "y": 955,
                         "size": 40,
                         "shape": "rect"
                     }
@@ -212,20 +206,16 @@
                 "sections": [
                     {
                         "name": "Yellow-bellied Greenbacks (FATE)",
-                        "access_rules": [
-                            "^$fateAccess|Yellow-bellied Greenbacks"
-                        ],
-                        "visibility_rules": [
-                            "$fateVisibility|Yellow-bellied Greenbacks"
-                        ],
+                        "access_rules": ["^$fateAccess|Yellow-bellied Greenbacks"],
+                        "visibility_rules": ["$fateVisibility|Yellow-bellied Greenbacks"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Middle La Noscea",
-                        "x": 1190,
-                        "y": 1312,
+                        "x": 1156,
+                        "y": 1294,
                         "size": 40,
                         "shape": "rect"
                     }
@@ -242,20 +232,16 @@
                 "sections": [
                     {
                         "name": "Thwack-a-Mole (FATE)",
-                        "access_rules": [
-                            "^$fateAccess|Thwack-a-Mole"
-                        ],
-                        "visibility_rules": [
-                            "$fateVisibility|Thwack-a-Mole"
-                        ],
+                        "access_rules": ["^$fateAccess|Thwack-a-Mole"],
+                        "visibility_rules": ["$fateVisibility|Thwack-a-Mole"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Middle La Noscea",
-                        "x": 1144,
-                        "y": 870,
+                        "x": 1106,
+                        "y": 854,
                         "size": 40,
                         "shape": "rect"
                     }
@@ -272,20 +258,16 @@
                 "sections": [
                     {
                         "name": "Crying over Spilled Salt (FATE)",
-                        "access_rules": [
-                            "^$fateAccess|Crying over Spilled Salt"
-                        ],
-                        "visibility_rules": [
-                            "$fateVisibility|Crying over Spilled Salt"
-                        ],
+                        "access_rules": ["^$fateAccess|Crying over Spilled Salt"],
+                        "visibility_rules": ["$fateVisibility|Crying over Spilled Salt"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Middle La Noscea",
-                        "x": 930,
-                        "y": 1005,
+                        "x": 925,
+                        "y": 1146,
                         "size": 40,
                         "shape": "rect"
                     }
@@ -302,27 +284,23 @@
                 "sections": [
                     {
                         "name": "Hello, Work (FATE)",
-                        "access_rules": [
-                            "^$fateAccess|Hello Work"
-                        ],
-                        "visibility_rules": [
-                            "$fateVisibility|Hello Work"
-                        ],
+                        "access_rules": ["^$fateAccess|Hello Work"],
+                        "visibility_rules": ["$fateVisibility|Hello Work"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Middle La Noscea",
-                        "x": 1024,
-                        "y": 812,
+                        "x": 1062,
+                        "y": 860,
                         "size": 40,
                         "shape": "rect"
                     }
                 ]
             },
             {
-                "name": "The Cookpot",
+                "name": "Menuis at Work (FATE)",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -331,31 +309,17 @@
                 ],
                 "sections": [
                     {
-                        "name": "Basic Training Enemy Parties",
-                        "access_rules": [
-                            "$leveling:10"
-                        ],
-                        "visibility_rules": [
-                            "include_guildhests, duty_difficulty_normal, $duty_visibility|Basic Training: Enemy Parties"
-                        ],
-                        "item_count": 1
-                    },
-                    {
                         "name": "Menuis at Work (FATE)",
-                        "access_rules": [
-                            "^$fateAccess|Menuis at Work"
-                        ],
-                        "visibility_rules": [
-                            "$fateVisibility|Menuis at Work"
-                        ],
+                        "access_rules": ["^$fateAccess|Menuis at Work"],
+                        "visibility_rules": ["$fateVisibility|Menuis at Work"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Middle La Noscea",
-                        "x": 879,
-                        "y": 813,
+                        "x": 843,
+                        "y": 807,
                         "size": 40,
                         "shape": "rect"
                     }
@@ -372,20 +336,16 @@
                 "sections": [
                     {
                         "name": "The Orange Boxes (FATE)",
-                        "access_rules": [
-                            "^$fateAccess|The Orange Boxes"
-                        ],
-                        "visibility_rules": [
-                            "$fateVisibility|The Orange Boxes"
-                        ],
+                        "access_rules": ["^$fateAccess|The Orange Boxes"],
+                        "visibility_rules": ["$fateVisibility|The Orange Boxes"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Middle La Noscea",
-                        "x": 1008,
-                        "y": 751,
+                        "x": 1019,
+                        "y": 694,
                         "size": 40,
                         "shape": "rect"
                     }
@@ -402,20 +362,16 @@
                 "sections": [
                     {
                         "name": "Shearing is Caring (FATE)",
-                        "access_rules": [
-                            "^$fateAccess|Shearing is Caring"
-                        ],
-                        "visibility_rules": [
-                            "$fateVisibility|Shearing is Caring"
-                        ],
+                        "access_rules": ["^$fateAccess|Shearing is Caring"],
+                        "visibility_rules": ["$fateVisibility|Shearing is Caring"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Middle La Noscea",
-                        "x": 770,
-                        "y": 667,
+                        "x": 767,
+                        "y": 648,
                         "size": 40,
                         "shape": "rect"
                     }
@@ -432,20 +388,16 @@
                 "sections": [
                     {
                         "name": "Sister Crustacean (FATE)",
-                        "access_rules": [
-                            "^$fateAccess|Sister Crustacean"
-                        ],
-                        "visibility_rules": [
-                            "$fateVisibility|Sister Crustacean"
-                        ],
+                        "access_rules": ["^$fateAccess|Sister Crustacean"],
+                        "visibility_rules": ["$fateVisibility|Sister Crustacean"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Middle La Noscea",
-                        "x": 749,
-                        "y": 568,
+                        "x": 750,
+                        "y": 540,
                         "size": 40,
                         "shape": "rect"
                     }
@@ -462,20 +414,16 @@
                 "sections": [
                     {
                         "name": "Go Wespe (FATE)",
-                        "access_rules": [
-                            "^$fateAccess|Go Wespe"
-                        ],
-                        "visibility_rules": [
-                            "$fateVisibility|Go Wespe"
-                        ],
+                        "access_rules": ["^$fateAccess|Go Wespe"],
+                        "visibility_rules": ["$fateVisibility|Go Wespe"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Middle La Noscea",
-                        "x": 659,
-                        "y": 686,
+                        "x": 666,
+                        "y": 697,
                         "size": 40,
                         "shape": "rect"
                     }
@@ -492,20 +440,16 @@
                 "sections": [
                     {
                         "name": "A Mad, Mad, Mad Sergeant (FATE)",
-                        "access_rules": [
-                            "^$fateAccess|A Mad Mad Mad Sergeant"
-                        ],
-                        "visibility_rules": [
-                            "$fateVisibility|A Mad Mad Mad Sergeant"
-                        ],
+                        "access_rules": ["^$fateAccess|A Mad Mad Mad Sergeant"],
+                        "visibility_rules": ["$fateVisibility|A Mad Mad Mad Sergeant"],
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Middle La Noscea",
-                        "x": 843,
-                        "y": 353,
+                        "x": 818,
+                        "y": 294,
                         "size": 40,
                         "shape": "rect"
                     }
@@ -522,22 +466,8 @@
                 "sections": [
                     {
                         "name": "The Boy Who Cried Jackal (FATE)",
-                        "access_rules": [
-                            "^$fateAccess|The Boy Who Cried Jackal"
-                        ],
-                        "visibility_rules": [
-                            "$fateVisibility|The Boy Who Cried Jackal"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Truth Is out There (FATE)",
-                        "access_rules": [
-                            "^$fateAccess|The Truth Is out There"
-                        ],
-                        "visibility_rules": [
-                            "$fateVisibility|The Truth Is out There"
-                        ],
+                        "access_rules": ["^$fateAccess|The Boy Who Cried Jackal"],
+                        "visibility_rules": ["$fateVisibility|The Boy Who Cried Jackal"],
                         "item_count": 1
                     }
                 ],
@@ -545,7 +475,33 @@
                     {
                         "map": "Middle La Noscea",
                         "x": 810,
-                        "y": 445,
+                        "y": 448,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "The Truth Is out There (FATE)",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "The Truth Is out There (FATE)",
+                        "access_rules": ["^$fateAccess|The Truth Is out There"],
+                        "visibility_rules": ["$fateVisibility|The Truth Is out There"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Middle La Noscea",
+                        "x": 771,
+                        "y": 398,
                         "size": 40,
                         "shape": "rect"
                     }
@@ -559,90 +515,66 @@
                 "access_rules": [
                     "5fshlevels:1"
                 ],
-                "visibility_rules": [
-                    "fishsanity_normal"
-                ],
+                "visibility_rules": ["fishsanity_normal"],
                 "sections": [
                     {
                         "name": "Merlthor Goby",
-                        "access_rules": [
-                            "^$FishAccess|MerlthorGobyZephyrDrift|3"
-                        ],
+                        "access_rules": ["^$FishAccess|MerlthorGobyZephyrDrift|3"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Lominsan Anchovy",
-                        "access_rules": [
-                            "^$FishAccess|LominsanAnchovyZephyrDrift|3"
-                        ],
+                        "access_rules": ["^$FishAccess|LominsanAnchovyZephyrDrift|3"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Finger Shrimp",
-                        "access_rules": [
-                            "^$FishAccess|FingerShrimpZephyrDrift|4"
-                        ],
+                        "access_rules": ["^$FishAccess|FingerShrimpZephyrDrift|4"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Ocean Cloud",
-                        "access_rules": [
-                            "^$FishAccess|OceanCloudZephyrDrift|6"
-                        ],
+                        "access_rules": ["^$FishAccess|OceanCloudZephyrDrift|6"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Sea Cucumber",
-                        "access_rules": [
-                            "^$FishAccess|SeaCucumberZephyrDrift|7"
-                        ],
+                        "access_rules": ["^$FishAccess|SeaCucumberZephyrDrift|7"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Harbor Herring",
-                        "access_rules": [
-                            "^$FishAccess|HarborHerringZephyrDrift|7"
-                        ],
+                        "access_rules": ["^$FishAccess|HarborHerringZephyrDrift|7"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Coral Butterfly",
-                        "access_rules": [
-                            "^$FishAccess|CoralButterflyZephyrDrift|9"
-                        ],
+                        "access_rules": ["^$FishAccess|CoralButterflyZephyrDrift|9"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Angelfish",
-                        "access_rules": [
-                            "^$FishAccess|AngelfishZephyrDrift|19"
-                        ],
+                        "access_rules": ["^$FishAccess|AngelfishZephyrDrift|19"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Blue Octopus",
-                        "access_rules": [
-                            "^$FishAccess|BlueOctopusZephyrDrift|21"
-                        ],
+                        "access_rules": ["^$FishAccess|BlueOctopusZephyrDrift|21"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Zalera",
-                        "access_rules": [
-                            "^$FishAccess|ZaleraZephyrDrift|50"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_big"
-                        ],
+                        "access_rules": ["^$FishAccess|ZaleraZephyrDrift|50"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
@@ -664,90 +596,66 @@
                 "access_rules": [
                     "5fshlevels:5"
                 ],
-                "visibility_rules": [
-                    "fishsanity_normal"
-                ],
+                "visibility_rules": ["fishsanity_normal"],
                 "sections": [
                     {
                         "name": "Merlthor Goby",
-                        "access_rules": [
-                            "^$FishAccess|MerlthorGobySummerford|3"
-                        ],
+                        "access_rules": ["^$FishAccess|MerlthorGobySummerford|3"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Finger Shrimp",
-                        "access_rules": [
-                            "^$FishAccess|FingerShrimpSummerford|4"
-                        ],
+                        "access_rules": ["^$FishAccess|FingerShrimpSummerford|4"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "White Coral",
-                        "access_rules": [
-                            "^$FishAccess|WhiteCoralSummerford|5"
-                        ],
+                        "access_rules": ["^$FishAccess|WhiteCoralSummerford|5"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Ocean Cloud",
-                        "access_rules": [
-                            "^$FishAccess|OceanCloudSummerford|6"
-                        ],
+                        "access_rules": ["^$FishAccess|OceanCloudSummerford|6"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Harbor Herring",
-                        "access_rules": [
-                            "^$FishAccess|HarborHerringSummerford|7"
-                        ],
+                        "access_rules": ["^$FishAccess|HarborHerringSummerford|7"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Vongola Clam",
-                        "access_rules": [
-                            "^$FishAccess|VongolaClamSummerford|8"
-                        ],
+                        "access_rules": ["^$FishAccess|VongolaClamSummerford|8"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Blue Octopus",
-                        "access_rules": [
-                            "^$FishAccess|BlueOctopusSummerford|21"
-                        ],
+                        "access_rules": ["^$FishAccess|BlueOctopusSummerford|21"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Ogre Barracuda",
-                        "access_rules": [
-                            "^$FishAccess|OgreBarracudaSummerford|25"
-                        ],
+                        "access_rules": ["^$FishAccess|OgreBarracudaSummerford|25"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Silver Shark",
-                        "access_rules": [
-                            "^$FishAccess|SilverSharkSummerford|41"
-                        ],
+                        "access_rules": ["^$FishAccess|SilverSharkSummerford|41"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Gigantshark",
-                        "access_rules": [
-                            "^$FishAccess|GigantsharkSummerford|50"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_big"
-                        ],
+                        "access_rules": ["^$FishAccess|GigantsharkSummerford|50"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
@@ -769,58 +677,42 @@
                 "access_rules": [
                     "5fshlevels:1"
                 ],
-                "visibility_rules": [
-                    "fishsanity_normal"
-                ],
+                "visibility_rules": ["fishsanity_normal"],
                 "sections": [
                     {
                         "name": "Crayfish",
-                        "access_rules": [
-                            "^$FishAccess|CrayfishRogueRiver|2"
-                        ],
+                        "access_rules": ["^$FishAccess|CrayfishRogueRiver|2"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Chub",
-                        "access_rules": [
-                            "^$FishAccess|ChubRogueRiver|3"
-                        ],
+                        "access_rules": ["^$FishAccess|ChubRogueRiver|3"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Dwarf Catfish",
-                        "access_rules": [
-                            "^$FishAccess|DwarfCatfishRogueRiver|4"
-                        ],
+                        "access_rules": ["^$FishAccess|DwarfCatfishRogueRiver|4"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Princess Trout",
-                        "access_rules": [
-                            "^$FishAccess|PrincessTroutRogueRiver|5"
-                        ],
+                        "access_rules": ["^$FishAccess|PrincessTroutRogueRiver|5"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "La Noscean Perch",
-                        "access_rules": [
-                            "^$FishAccess|LaNosceanPerchRogueRiver|18"
-                        ],
+                        "access_rules": ["^$FishAccess|LaNosceanPerchRogueRiver|18"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Beguiler Chub",
-                        "access_rules": [
-                            "^$FishAccess|BeguilerChubRogueRiver|50"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_big"
-                        ],
+                        "access_rules": ["^$FishAccess|BeguilerChubRogueRiver|50"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
@@ -842,66 +734,48 @@
                 "access_rules": [
                     "5fshlevels:1"
                 ],
-                "visibility_rules": [
-                    "fishsanity_normal"
-                ],
+                "visibility_rules": ["fishsanity_normal"],
                 "sections": [
                     {
                         "name": "Crayfish",
-                        "access_rules": [
-                            "^$FishAccess|CrayfishWestAgelyssRiver|2"
-                        ],
+                        "access_rules": ["^$FishAccess|CrayfishWestAgelyssRiver|2"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Chub",
-                        "access_rules": [
-                            "^$FishAccess|ChubWestAgelyssRiver|3"
-                        ],
+                        "access_rules": ["^$FishAccess|ChubWestAgelyssRiver|3"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Dwarf Catfish",
-                        "access_rules": [
-                            "^$FishAccess|DwarfCatfishWestAgelyssRiver|4"
-                        ],
+                        "access_rules": ["^$FishAccess|DwarfCatfishWestAgelyssRiver|4"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Princess Trout",
-                        "access_rules": [
-                            "^$FishAccess|PrincessTroutWestAgelyssRiver|5"
-                        ],
+                        "access_rules": ["^$FishAccess|PrincessTroutWestAgelyssRiver|5"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Gudgeon",
-                        "access_rules": [
-                            "^$FishAccess|GudgeonWestAgelyssRiver|8"
-                        ],
+                        "access_rules": ["^$FishAccess|GudgeonWestAgelyssRiver|8"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "La Noscean Perch",
-                        "access_rules": [
-                            "^$FishAccess|LaNosceanPerchWestAgelyssRiver|18"
-                        ],
+                        "access_rules": ["^$FishAccess|LaNosceanPerchWestAgelyssRiver|18"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Great Gudgeon",
-                        "access_rules": [
-                            "^$FishAccess|GreatGudgeonWestAgelyssRiver|50"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_big"
-                        ],
+                        "access_rules": ["^$FishAccess|GreatGudgeonWestAgelyssRiver|50"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
@@ -923,74 +797,54 @@
                 "access_rules": [
                     "5fshlevels:5"
                 ],
-                "visibility_rules": [
-                    "fishsanity_normal"
-                ],
+                "visibility_rules": ["fishsanity_normal"],
                 "sections": [
                     {
                         "name": "Chub",
-                        "access_rules": [
-                            "^$FishAccess|ChubNymRiver|3"
-                        ],
+                        "access_rules": ["^$FishAccess|ChubNymRiver|3"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Dwarf Catfish",
-                        "access_rules": [
-                            "^$FishAccess|DwarfCatfishNymRiver|4"
-                        ],
+                        "access_rules": ["^$FishAccess|DwarfCatfishNymRiver|4"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Princess Trout",
-                        "access_rules": [
-                            "^$FishAccess|PrincessTroutNymRiver|5"
-                        ],
+                        "access_rules": ["^$FishAccess|PrincessTroutNymRiver|5"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Dusk Goby",
-                        "access_rules": [
-                            "^$FishAccess|DuskGobyNymRiver|6"
-                        ],
+                        "access_rules": ["^$FishAccess|DuskGobyNymRiver|6"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Gudgeon",
-                        "access_rules": [
-                            "^$FishAccess|GudgeonNymRiver|8"
-                        ],
+                        "access_rules": ["^$FishAccess|GudgeonNymRiver|8"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Maiden Carp",
-                        "access_rules": [
-                            "^$FishAccess|MaidenCarpNymRiver|10"
-                        ],
+                        "access_rules": ["^$FishAccess|MaidenCarpNymRiver|10"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "La Noscean Perch",
-                        "access_rules": [
-                            "^$FishAccess|LaNosceanPerchNymRiver|18"
-                        ],
+                        "access_rules": ["^$FishAccess|LaNosceanPerchNymRiver|18"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "High Perch",
-                        "access_rules": [
-                            "^$FishAccess|HighPerchNymRiver|50"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_big"
-                        ],
+                        "access_rules": ["^$FishAccess|HighPerchNymRiver|50"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
@@ -1012,74 +866,54 @@
                 "access_rules": [
                     "5fshlevels:15"
                 ],
-                "visibility_rules": [
-                    "fishsanity_normal"
-                ],
+                "visibility_rules": ["fishsanity_normal"],
                 "sections": [
                     {
                         "name": "Dwarf Catfish",
-                        "access_rules": [
-                            "^$FishAccess|DwarfCatfishWoadWhisperCanyon|4"
-                        ],
+                        "access_rules": ["^$FishAccess|DwarfCatfishWoadWhisperCanyon|4"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Dusk Goby",
-                        "access_rules": [
-                            "^$FishAccess|DuskGobyWoadWhisperCanyon|6"
-                        ],
+                        "access_rules": ["^$FishAccess|DuskGobyWoadWhisperCanyon|6"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "River Crab",
-                        "access_rules": [
-                            "^$FishAccess|RiverCrabWoadWhisperCanyon|15"
-                        ],
+                        "access_rules": ["^$FishAccess|RiverCrabWoadWhisperCanyon|15"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "La Noscean Perch",
-                        "access_rules": [
-                            "^$FishAccess|LaNosceanPerchWoadWhisperCanyon|18"
-                        ],
+                        "access_rules": ["^$FishAccess|LaNosceanPerchWoadWhisperCanyon|18"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Copperfish",
-                        "access_rules": [
-                            "^$FishAccess|CopperfishWoadWhisperCanyon|20"
-                        ],
+                        "access_rules": ["^$FishAccess|CopperfishWoadWhisperCanyon|20"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Eunuch Crayfish",
-                        "access_rules": [
-                            "^$FishAccess|EunuchCrayfishWoadWhisperCanyon|22"
-                        ],
+                        "access_rules": ["^$FishAccess|EunuchCrayfishWoadWhisperCanyon|22"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Glass Perch",
-                        "access_rules": [
-                            "^$FishAccess|GlassPerchWoadWhisperCanyon|24"
-                        ],
+                        "access_rules": ["^$FishAccess|GlassPerchWoadWhisperCanyon|24"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Crystal Perch",
-                        "access_rules": [
-                            "^$FishAccess|CrystalPerchWoadWhisperCanyon|50"
-                        ],
-                        "visibility_rules": [
-                            "fishsanity_big"
-                        ],
+                        "access_rules": ["^$FishAccess|CrystalPerchWoadWhisperCanyon|50"],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
