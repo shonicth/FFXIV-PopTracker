@@ -46,7 +46,7 @@ function fateAccess(fate)
     if fate ~= nil then
       local leveling = leveling() 
         local reqLevel = fatelist[fate]
-        if leveling > math.max(reqLevel - 5, reqLevel // 10 * 10) then
+        if leveling >= math.max(reqLevel - 5, reqLevel // 10 * 10) then
             return AccessibilityLevel.Normal
         end
     end
@@ -57,7 +57,7 @@ function fateVisibility(fate)
     if Tracker:ProviderCountForCode("fatesanity") > 0 and fate ~= nil then
         local level_cap = Tracker:ProviderCountForCode("level_cap")
         local reqLevel = fatelist[fate]
-        if level_cap > math.max(reqLevel - 5, reqLevel // 10 * 10) then
+        if level_cap >= math.max(reqLevel - 5, reqLevel // 10 * 10) then
             return true
         end
     end
