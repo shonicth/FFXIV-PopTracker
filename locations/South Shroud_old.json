@@ -16,7 +16,7 @@
                 "access_rules": [
                     "$leveling:24"
                 ],
-                "visibility_rules": [
+                "visibility_rules":[
                     "duty_difficulty_normal, $duty_visibility|The Thousand Maws of Toto-Rak"
                 ],
                 "sections": [
@@ -29,73 +29,55 @@
                     {
                         "name": "The Thousand Maws of Toto-Rak 2",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:1"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:1"],
                         "item_count": 1
                     },
                     {
                         "name": "The Thousand Maws of Toto-Rak 3",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:2"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:2"],
                         "item_count": 1
                     },
                     {
                         "name": "The Thousand Maws of Toto-Rak 4",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:3"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:3"],
                         "item_count": 1
                     },
                     {
                         "name": "The Thousand Maws of Toto-Rak 5",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:4"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:4"],
                         "item_count": 1
                     },
                     {
                         "name": "The Thousand Maws of Toto-Rak 6",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:5"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:5"],
                         "item_count": 1
                     },
                     {
                         "name": "The Thousand Maws of Toto-Rak 7",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:6"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:6"],
                         "item_count": 1
                     },
                     {
                         "name": "The Thousand Maws of Toto-Rak 8",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:7"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:7"],
                         "item_count": 1
                     },
                     {
                         "name": "The Thousand Maws of Toto-Rak 9",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:8"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:8"],
                         "item_count": 1
                     },
                     {
                         "name": "The Thousand Maws of Toto-Rak 10",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:9"
-                        ],
+                        "visibility_rules": ["extra_dungeon_checks:9"],
                         "item_count": 1
                     }
                 ],
@@ -121,169 +103,127 @@
                     {
                         "name": "Amdapor Keep",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "duty_difficulty_normal, $duty_visibility|Amdapor Keep"
-                        ],
+                        "visibility_rules": ["duty_difficulty_normal, $duty_visibility|Amdapor Keep"],
                         "item_count": 1
                     },
                     {
                         "name": "Amdapor Keep (Hard)",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "duty_difficulty_normal, $duty_visibility|Amdapor Keep (Hard)"
-                        ],
+                        "visibility_rules": ["duty_difficulty_normal, $duty_visibility|Amdapor Keep (Hard)"],
                         "item_count": 1
                     },
                     {
                         "name": "Battle in the Big Keep",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "level_cap:50, $duty_visibility|Battle in the Big Keep, duty_difficulty_normal"
-                        ],
+                        "visibility_rules": ["level_cap:50, $duty_visibility|Battle in the Big Keep, duty_difficulty_normal"],
                         "item_count": 1
                     },
                     {
                         "name": "Amdapor Keep 2",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "duty_difficulty_normal, $duty_visibility|Amdapor Keep, extra_dungeon_checks:1"
-                        ],
+                        "visibility_rules": ["duty_difficulty_normal, $duty_visibility|Amdapor Keep, extra_dungeon_checks:1"],
                         "item_count": 1
                     },
                     {
                         "name": "Amdapor Keep 3",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "duty_difficulty_normal, $duty_visibility|Amdapor Keep, extra_dungeon_checks:2"
-                        ],
+                        "visibility_rules": ["duty_difficulty_normal, $duty_visibility|Amdapor Keep, extra_dungeon_checks:2"],
                         "item_count": 1
                     },
                     {
                         "name": "Amdapor Keep 4",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "duty_difficulty_normal, $duty_visibility|Amdapor Keep, extra_dungeon_checks:3"
-                        ],
+                        "visibility_rules": ["duty_difficulty_normal, $duty_visibility|Amdapor Keep, extra_dungeon_checks:3"],
                         "item_count": 1
                     },
                     {
                         "name": "Amdapor Keep 5",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "duty_difficulty_normal, $duty_visibility|Amdapor Keep, extra_dungeon_checks:4"
-                        ],
+                        "visibility_rules": ["duty_difficulty_normal, $duty_visibility|Amdapor Keep, extra_dungeon_checks:4"],
                         "item_count": 1
                     },
                     {
                         "name": "Amdapor Keep 6",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "duty_difficulty_normal, $duty_visibility|Amdapor Keep, extra_dungeon_checks:5"
-                        ],
+                        "visibility_rules": ["duty_difficulty_normal, $duty_visibility|Amdapor Keep, extra_dungeon_checks:5"],
                         "item_count": 1
                     },
                     {
                         "name": "Amdapor Keep 7",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "duty_difficulty_normal, $duty_visibility|Amdapor Keep, extra_dungeon_checks:6"
-                        ],
+                        "visibility_rules": ["duty_difficulty_normal, $duty_visibility|Amdapor Keep, extra_dungeon_checks:6"],
                         "item_count": 1
                     },
                     {
                         "name": "Amdapor Keep 8",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "duty_difficulty_normal, $duty_visibility|Amdapor Keep, extra_dungeon_checks:7"
-                        ],
+                        "visibility_rules": ["duty_difficulty_normal, $duty_visibility|Amdapor Keep, extra_dungeon_checks:7"],
                         "item_count": 1
                     },
                     {
                         "name": "Amdapor Keep 9",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "duty_difficulty_normal, $duty_visibility|Amdapor Keep, extra_dungeon_checks:8"
-                        ],
+                        "visibility_rules": ["duty_difficulty_normal, $duty_visibility|Amdapor Keep, extra_dungeon_checks:8"],
                         "item_count": 1
                     },
                     {
                         "name": "Amdapor Keep 10",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "duty_difficulty_normal, $duty_visibility|Amdapor Keep, extra_dungeon_checks:9"
-                        ],
+                        "visibility_rules": ["duty_difficulty_normal, $duty_visibility|Amdapor Keep, extra_dungeon_checks:9"],
                         "item_count": 1
                     },
                     {
                         "name": "Amdapor Keep (Hard) 2",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "duty_difficulty_normal, $duty_visibility|Amdapor Keep (Hard), extra_dungeon_checks:1"
-                        ],
+                        "visibility_rules": ["duty_difficulty_normal, $duty_visibility|Amdapor Keep (Hard), extra_dungeon_checks:1"],
                         "item_count": 1
                     },
                     {
                         "name": "Amdapor Keep (Hard) 3",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "duty_difficulty_normal, $duty_visibility|Amdapor Keep (Hard), extra_dungeon_checks:2"
-                        ],
+                        "visibility_rules": ["duty_difficulty_normal, $duty_visibility|Amdapor Keep (Hard), extra_dungeon_checks:2"],
                         "item_count": 1
                     },
                     {
                         "name": "Amdapor Keep (Hard) 4",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "duty_difficulty_normal, $duty_visibility|Amdapor Keep (Hard), extra_dungeon_checks:3"
-                        ],
+                        "visibility_rules": ["duty_difficulty_normal, $duty_visibility|Amdapor Keep (Hard), extra_dungeon_checks:3"],
                         "item_count": 1
                     },
                     {
                         "name": "Amdapor Keep (Hard) 5",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "duty_difficulty_normal, $duty_visibility|Amdapor Keep (Hard), extra_dungeon_checks:4"
-                        ],
+                        "visibility_rules": ["duty_difficulty_normal, $duty_visibility|Amdapor Keep (Hard), extra_dungeon_checks:4"],
                         "item_count": 1
                     },
                     {
                         "name": "Amdapor Keep (Hard) 6",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "duty_difficulty_normal, $duty_visibility|Amdapor Keep (Hard), extra_dungeon_checks:5"
-                        ],
+                        "visibility_rules": ["duty_difficulty_normal, $duty_visibility|Amdapor Keep (Hard), extra_dungeon_checks:5"],
                         "item_count": 1
                     },
                     {
                         "name": "Amdapor Keep (Hard) 7",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "duty_difficulty_normal, $duty_visibility|Amdapor Keep (Hard), extra_dungeon_checks:6"
-                        ],
+                        "visibility_rules": ["duty_difficulty_normal, $duty_visibility|Amdapor Keep (Hard), extra_dungeon_checks:6"],
                         "item_count": 1
                     },
                     {
                         "name": "Amdapor Keep (Hard) 8",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "duty_difficulty_normal, $duty_visibility|Amdapor Keep (Hard), extra_dungeon_checks:7"
-                        ],
+                        "visibility_rules": ["duty_difficulty_normal, $duty_visibility|Amdapor Keep (Hard), extra_dungeon_checks:7"],
                         "item_count": 1
                     },
                     {
                         "name": "Amdapor Keep (Hard) 9",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "duty_difficulty_normal, $duty_visibility|Amdapor Keep (Hard), extra_dungeon_checks:8"
-                        ],
+                        "visibility_rules": ["duty_difficulty_normal, $duty_visibility|Amdapor Keep (Hard), extra_dungeon_checks:8"],
                         "item_count": 1
                     },
                     {
                         "name": "Amdapor Keep (Hard) 10",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "duty_difficulty_normal, $duty_visibility|Amdapor Keep (Hard), extra_dungeon_checks:9"
-                        ],
+                        "visibility_rules": ["duty_difficulty_normal, $duty_visibility|Amdapor Keep (Hard), extra_dungeon_checks:9"],
                         "item_count": 1
                     }
                 ],
@@ -305,18 +245,14 @@
                 "access_rules": [
                     " "
                 ],
-                "visibility_rules": [
-                    "duty_difficulty_normal"
-                ],
+                "visibility_rules": ["duty_difficulty_normal"],
                 "sections": [
                     {
                         "name": "The Lost City of Amdapor",
                         "access_rules": [
                             "$leveling:50"
                         ],
-                        "visibility_rules": [
-                            "$duty_visibility|The Lost City of Amdapor, level_cap:50"
-                        ],
+                        "visibility_rules": ["$duty_visibility|The Lost City of Amdapor, level_cap:50"],
                         "item_count": 1
                     },
                     {
@@ -324,9 +260,7 @@
                         "access_rules": [
                             "$leveling:60"
                         ],
-                        "visibility_rules": [
-                            "$duty_visibility|The Lost City of Amdapor (Hard), level_cap:60"
-                        ],
+                        "visibility_rules": ["$duty_visibility|The Lost City of Amdapor (Hard), level_cap:60"],
                         "item_count": 1
                     },
                     {
@@ -334,9 +268,7 @@
                         "access_rules": [
                             "$leveling:50"
                         ],
-                        "visibility_rules": [
-                            "$duty_visibility|The Lost City of Amdapor, level_cap:50, extra_dungeon_checks:1"
-                        ],
+                        "visibility_rules": ["$duty_visibility|The Lost City of Amdapor, level_cap:50, extra_dungeon_checks:1"],
                         "item_count": 1
                     },
                     {
@@ -344,9 +276,7 @@
                         "access_rules": [
                             "$leveling:50"
                         ],
-                        "visibility_rules": [
-                            "$duty_visibility|The Lost City of Amdapor, level_cap:50, extra_dungeon_checks:2"
-                        ],
+                        "visibility_rules": ["$duty_visibility|The Lost City of Amdapor, level_cap:50, extra_dungeon_checks:2"],
                         "item_count": 1
                     },
                     {
@@ -354,9 +284,7 @@
                         "access_rules": [
                             "$leveling:50"
                         ],
-                        "visibility_rules": [
-                            "$duty_visibility|The Lost City of Amdapor, level_cap:50, extra_dungeon_checks:3"
-                        ],
+                        "visibility_rules": ["$duty_visibility|The Lost City of Amdapor, level_cap:50, extra_dungeon_checks:3"],
                         "item_count": 1
                     },
                     {
@@ -364,9 +292,7 @@
                         "access_rules": [
                             "$leveling:50"
                         ],
-                        "visibility_rules": [
-                            "$duty_visibility|The Lost City of Amdapor, level_cap:50, extra_dungeon_checks:4"
-                        ],
+                        "visibility_rules": ["$duty_visibility|The Lost City of Amdapor, level_cap:50, extra_dungeon_checks:4"],
                         "item_count": 1
                     },
                     {
@@ -374,9 +300,7 @@
                         "access_rules": [
                             "$leveling:50"
                         ],
-                        "visibility_rules": [
-                            "$duty_visibility|The Lost City of Amdapor, level_cap:50, extra_dungeon_checks:5"
-                        ],
+                        "visibility_rules": ["$duty_visibility|The Lost City of Amdapor, level_cap:50, extra_dungeon_checks:5"],
                         "item_count": 1
                     },
                     {
@@ -384,9 +308,7 @@
                         "access_rules": [
                             "$leveling:50"
                         ],
-                        "visibility_rules": [
-                            "$duty_visibility|The Lost City of Amdapor, level_cap:50, extra_dungeon_checks:6"
-                        ],
+                        "visibility_rules": ["$duty_visibility|The Lost City of Amdapor, level_cap:50, extra_dungeon_checks:6"],
                         "item_count": 1
                     },
                     {
@@ -394,9 +316,7 @@
                         "access_rules": [
                             "$leveling:50"
                         ],
-                        "visibility_rules": [
-                            "$duty_visibility|The Lost City of Amdapor, level_cap:50, extra_dungeon_checks:7"
-                        ],
+                        "visibility_rules": ["$duty_visibility|The Lost City of Amdapor, level_cap:50, extra_dungeon_checks:7"],
                         "item_count": 1
                     },
                     {
@@ -404,9 +324,7 @@
                         "access_rules": [
                             "$leveling:50"
                         ],
-                        "visibility_rules": [
-                            "$duty_visibility|The Lost City of Amdapor, level_cap:50, extra_dungeon_checks:8"
-                        ],
+                        "visibility_rules": ["$duty_visibility|The Lost City of Amdapor, level_cap:50, extra_dungeon_checks:8"],
                         "item_count": 1
                     },
                     {
@@ -414,9 +332,7 @@
                         "access_rules": [
                             "$leveling:50"
                         ],
-                        "visibility_rules": [
-                            "$duty_visibility|The Lost City of Amdapor, level_cap:50, extra_dungeon_checks:9"
-                        ],
+                        "visibility_rules": ["$duty_visibility|The Lost City of Amdapor, level_cap:50, extra_dungeon_checks:9"],
                         "item_count": 1
                     },
                     {
@@ -424,9 +340,7 @@
                         "access_rules": [
                             "$leveling:60"
                         ],
-                        "visibility_rules": [
-                            "$duty_visibility|The Lost City of Amdapor (Hard), level_cap:60, extra_dungeon_checks:1"
-                        ],
+                        "visibility_rules": ["$duty_visibility|The Lost City of Amdapor (Hard), level_cap:60, extra_dungeon_checks:1"],
                         "item_count": 1
                     },
                     {
@@ -434,9 +348,7 @@
                         "access_rules": [
                             "$leveling:60"
                         ],
-                        "visibility_rules": [
-                            "$duty_visibility|The Lost City of Amdapor (Hard), level_cap:60, extra_dungeon_checks:2"
-                        ],
+                        "visibility_rules": ["$duty_visibility|The Lost City of Amdapor (Hard), level_cap:60, extra_dungeon_checks:2"],
                         "item_count": 1
                     },
                     {
@@ -444,9 +356,7 @@
                         "access_rules": [
                             "$leveling:60"
                         ],
-                        "visibility_rules": [
-                            "$duty_visibility|The Lost City of Amdapor (Hard), level_cap:60, extra_dungeon_checks:3"
-                        ],
+                        "visibility_rules": ["$duty_visibility|The Lost City of Amdapor (Hard), level_cap:60, extra_dungeon_checks:3"],
                         "item_count": 1
                     },
                     {
@@ -454,9 +364,7 @@
                         "access_rules": [
                             "$leveling:60"
                         ],
-                        "visibility_rules": [
-                            "$duty_visibility|The Lost City of Amdapor (Hard), level_cap:60, extra_dungeon_checks:4"
-                        ],
+                        "visibility_rules": ["$duty_visibility|The Lost City of Amdapor (Hard), level_cap:60, extra_dungeon_checks:4"],
                         "item_count": 1
                     },
                     {
@@ -464,9 +372,7 @@
                         "access_rules": [
                             "$leveling:60"
                         ],
-                        "visibility_rules": [
-                            "$duty_visibility|The Lost City of Amdapor (Hard), level_cap:60, extra_dungeon_checks:5"
-                        ],
+                        "visibility_rules": ["$duty_visibility|The Lost City of Amdapor (Hard), level_cap:60, extra_dungeon_checks:5"],
                         "item_count": 1
                     },
                     {
@@ -474,9 +380,7 @@
                         "access_rules": [
                             "$leveling:60"
                         ],
-                        "visibility_rules": [
-                            "$duty_visibility|The Lost City of Amdapor (Hard), level_cap:60, extra_dungeon_checks:6"
-                        ],
+                        "visibility_rules": ["$duty_visibility|The Lost City of Amdapor (Hard), level_cap:60, extra_dungeon_checks:6"],
                         "item_count": 1
                     },
                     {
@@ -484,9 +388,7 @@
                         "access_rules": [
                             "$leveling:60"
                         ],
-                        "visibility_rules": [
-                            "$duty_visibility|The Lost City of Amdapor (Hard), level_cap:60, extra_dungeon_checks:7"
-                        ],
+                        "visibility_rules": ["$duty_visibility|The Lost City of Amdapor (Hard), level_cap:60, extra_dungeon_checks:7"],
                         "item_count": 1
                     },
                     {
@@ -494,9 +396,7 @@
                         "access_rules": [
                             "$leveling:60"
                         ],
-                        "visibility_rules": [
-                            "$duty_visibility|The Lost City of Amdapor (Hard), level_cap:60, extra_dungeon_checks:8"
-                        ],
+                        "visibility_rules": ["$duty_visibility|The Lost City of Amdapor (Hard), level_cap:60, extra_dungeon_checks:8"],
                         "item_count": 1
                     },
                     {
@@ -504,9 +404,7 @@
                         "access_rules": [
                             "$leveling:60"
                         ],
-                        "visibility_rules": [
-                            "$duty_visibility|The Lost City of Amdapor (Hard), level_cap:60, extra_dungeon_checks:9"
-                        ],
+                        "visibility_rules": ["$duty_visibility|The Lost City of Amdapor (Hard), level_cap:60, extra_dungeon_checks:9"],
                         "item_count": 1
                     }
                 ],
@@ -534,9 +432,7 @@
                         "access_rules": [
                             "$leveling:50"
                         ],
-                        "visibility_rules": [
-                            "level_cap:50, $duty_visibility|Urth's Fount, duty_difficulty_ex"
-                        ],
+                        "visibility_rules": ["level_cap:50, $duty_visibility|Urth's Fount, duty_difficulty_ex"],
                         "item_count": 1
                     }
                 ],
@@ -564,9 +460,7 @@
                         "access_rules": [
                             "$leveling:20"
                         ],
-                        "visibility_rules": [
-                            "include_guildhests, duty_difficulty_normal, $duty_visibility|Stinging Back"
-                        ],
+                        "visibility_rules": ["include_guildhests, duty_difficulty_normal, $duty_visibility|Stinging Back"],
                         "item_count": 1
                     }
                 ],
@@ -594,9 +488,7 @@
                         "access_rules": [
                             "$leveling:25"
                         ],
-                        "visibility_rules": [
-                            "include_guildhests, duty_difficulty_normal, $duty_visibility|All's Well that Ends in the Well"
-                        ],
+                        "visibility_rules": ["include_guildhests, duty_difficulty_normal, $duty_visibility|All's Well that Ends in the Well"],
                         "item_count": 1
                     }
                 ],
@@ -625,81 +517,61 @@
                     {
                         "name": "FATE #1",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "fates_per_zone:1"
-                        ],
+                        "visibility_rules": ["fates_per_zone:1"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #2",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "fates_per_zone:2"
-                        ],
+                        "visibility_rules": ["fates_per_zone:2"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #3",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "fates_per_zone:3"
-                        ],
+                        "visibility_rules": ["fates_per_zone:3"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #4",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "fates_per_zone:4"
-                        ],
+                        "visibility_rules": ["fates_per_zone:4"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #5",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "fates_per_zone:5"
-                        ],
+                        "visibility_rules": ["fates_per_zone:5"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #6",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "fates_per_zone:6"
-                        ],
+                        "visibility_rules": ["fates_per_zone:6"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #7",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "fates_per_zone:7"
-                        ],
+                        "visibility_rules": ["fates_per_zone:7"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #8",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "fates_per_zone:8"
-                        ],
+                        "visibility_rules": ["fates_per_zone:8"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #9",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "fates_per_zone:9"
-                        ],
+                        "visibility_rules": ["fates_per_zone:9"],
                         "item_count": 1
                     },
                     {
                         "name": "FATE #10",
                         "access_rules": [],
-                        "visibility_rules": [
-                            "fates_per_zone:10"
-                        ],
+                        "visibility_rules": ["fates_per_zone:10"],
                         "item_count": 1
                     }
                 ],
@@ -1156,8 +1028,8 @@
                 "map_locations": [
                     {
                         "map": "South Shroud",
-                        "x": 1056,
-                        "y": 798,
+                        "x": 1115,
+                        "y": 790,
                         "size": 40,
                         "shape": "rect"
                     }
@@ -1261,9 +1133,7 @@
                 "access_rules": [
                     "5fshlevels:35"
                 ],
-                "visibility_rules": [
-                    "fishsanity_normal, level_cap:35"
-                ],
+                "visibility_rules": ["fishsanity_normal, level_cap:35"],
                 "sections": [
                     {
                         "name": "Bone Crayfish",
@@ -1310,9 +1180,7 @@
                         "access_rules": [
                             "caddisflylarva"
                         ],
-                        "visibility_rules": [
-                            "fishsanity_timed"
-                        ],
+                        "visibility_rules": ["fishsanity_timed"],
                         "item_count": 1
                     },
                     {
@@ -1320,9 +1188,7 @@
                         "access_rules": [
                             "caddisflylarva"
                         ],
-                        "visibility_rules": [
-                            "fishsanity_big"
-                        ],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
@@ -1344,9 +1210,7 @@
                 "access_rules": [
                     "5fshlevels:20"
                 ],
-                "visibility_rules": [
-                    "fishsanity_normal"
-                ],
+                "visibility_rules": ["fishsanity_normal"],
                 "sections": [
                     {
                         "name": "Rainbow Trout",
@@ -1385,9 +1249,7 @@
                         "access_rules": [
                             "midgebasket"
                         ],
-                        "visibility_rules": [
-                            "fishsanity_timed"
-                        ],
+                        "visibility_rules": ["fishsanity_timed"],
                         "item_count": 1
                     },
                     {
@@ -1404,9 +1266,7 @@
                         "access_rules": [
                             "butterworm"
                         ],
-                        "visibility_rules": [
-                            "fishsanity_timed"
-                        ],
+                        "visibility_rules": ["fishsanity_timed"],
                         "item_count": 1
                     },
                     {
@@ -1423,9 +1283,7 @@
                         "access_rules": [
                             "butterworm"
                         ],
-                        "visibility_rules": [
-                            "fishsanity_big"
-                        ],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
@@ -1447,9 +1305,7 @@
                 "access_rules": [
                     "5fshlevels:30"
                 ],
-                "visibility_rules": [
-                    "fishsanity_normal"
-                ],
+                "visibility_rules": ["fishsanity_normal"],
                 "sections": [
                     {
                         "name": "Seema",
@@ -1472,9 +1328,7 @@
                         "access_rules": [
                             "midgebasket"
                         ],
-                        "visibility_rules": [
-                            "fishsanity_timed"
-                        ],
+                        "visibility_rules": ["fishsanity_timed"],
                         "item_count": 1
                     },
                     {
@@ -1524,9 +1378,7 @@
                         "access_rules": [
                             "sinkingminnow"
                         ],
-                        "visibility_rules": [
-                            "fishsanity_big"
-                        ],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
@@ -1548,9 +1400,7 @@
                 "access_rules": [
                     "5fshlevels:25"
                 ],
-                "visibility_rules": [
-                    "fishsanity_normal"
-                ],
+                "visibility_rules": ["fishsanity_normal"],
                 "sections": [
                     {
                         "name": "Rainbow Trout",
@@ -1598,9 +1448,7 @@
                         "access_rules": [
                             "butterworm"
                         ],
-                        "visibility_rules": [
-                            "fishsanity_timed"
-                        ],
+                        "visibility_rules": ["fishsanity_timed"],
                         "item_count": 1
                     },
                     {
@@ -1633,9 +1481,7 @@
                         "access_rules": [
                             "bassball"
                         ],
-                        "visibility_rules": [
-                            "fishsanity_big"
-                        ],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
@@ -1657,9 +1503,7 @@
                 "access_rules": [
                     "5fshlevels:25"
                 ],
-                "visibility_rules": [
-                    "fishsanity_normal"
-                ],
+                "visibility_rules": ["fishsanity_normal"],
                 "sections": [
                     {
                         "name": "Rainbow Trout",
@@ -1682,9 +1526,7 @@
                         "access_rules": [
                             "midgebasket"
                         ],
-                        "visibility_rules": [
-                            "fishsanity_timed"
-                        ],
+                        "visibility_rules": ["fishsanity_timed"],
                         "item_count": 1
                     },
                     {
@@ -1717,9 +1559,7 @@
                         "access_rules": [
                             "butterworm"
                         ],
-                        "visibility_rules": [
-                            "fishsanity_timed"
-                        ],
+                        "visibility_rules": ["fishsanity_timed"],
                         "item_count": 1
                     },
                     {
@@ -1736,9 +1576,7 @@
                         "access_rules": [
                             "syrphidbasket"
                         ],
-                        "visibility_rules": [
-                            "fishsanity_big"
-                        ],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
@@ -1760,9 +1598,7 @@
                 "access_rules": [
                     "5fshlevels:30"
                 ],
-                "visibility_rules": [
-                    "fishsanity_normal"
-                ],
+                "visibility_rules": ["fishsanity_normal"],
                 "sections": [
                     {
                         "name": "Ala Mhigan Fighting Fish",
@@ -1834,9 +1670,7 @@
                         "access_rules": [
                             "honeyworm"
                         ],
-                        "visibility_rules": [
-                            "fishsanity_big"
-                        ],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
@@ -1858,9 +1692,7 @@
                 "access_rules": [
                     "5fshlevels:45"
                 ],
-                "visibility_rules": [
-                    "fishsanity_normal, level_cap:45"
-                ],
+                "visibility_rules": ["fishsanity_normal, level_cap:45"],
                 "sections": [
                     {
                         "name": "Ala Mhigan Fighting Fish",
@@ -1932,9 +1764,7 @@
                         "access_rules": [
                             "glowworm"
                         ],
-                        "visibility_rules": [
-                            "fishsanity_big"
-                        ],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     },
                     {
@@ -1942,9 +1772,7 @@
                         "access_rules": [
                             "topwaterfrog"
                         ],
-                        "visibility_rules": [
-                            "fishsanity_big"
-                        ],
+                        "visibility_rules": ["fishsanity_big"],
                         "item_count": 1
                     }
                 ],
