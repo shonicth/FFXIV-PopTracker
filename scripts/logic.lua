@@ -1,4 +1,5 @@
 fatelist = {}
+dutylist = {}
 logicFishList = {}
 outLogicFishList = {}
 function has(item, amount)
@@ -359,3 +360,12 @@ function leveling()
     math.max(Tracker:ProviderCountForCode("5pldlevels"), Tracker:ProviderCountForCode("5warlevels"), Tracker:ProviderCountForCode("5drklevels"), Tracker:ProviderCountForCode("5gnblevels"), Tracker:ProviderCountForCode("5whmlevels"), Tracker:ProviderCountForCode("5schlevels"), Tracker:ProviderCountForCode("5astlevels"), Tracker:ProviderCountForCode("5sgelevels"), Tracker:ProviderCountForCode("5mnklevels"), Tracker:ProviderCountForCode("5drglevels"), Tracker:ProviderCountForCode("5ninlevels"), Tracker:ProviderCountForCode("5samlevels"), Tracker:ProviderCountForCode("5rprlevels"), Tracker:ProviderCountForCode("5vprlevels"), Tracker:ProviderCountForCode("5brdlevels"), Tracker:ProviderCountForCode("5mchlevels"), Tracker:ProviderCountForCode("5dnclevels"), Tracker:ProviderCountForCode("5blmlevels"), Tracker:ProviderCountForCode("5smnlevels"), Tracker:ProviderCountForCode("5rdmlevels"), Tracker:ProviderCountForCode("5pctlevels"), Tracker:ProviderCountForCode("5blulevels"))
   )
 end
+
+-- function duty_visibility(name)
+--     for _, duty in ipairs(ExcludedDuties) do
+--         if duty == name then
+--             return false
+--         end
+--     end
+--     return true
+-- end

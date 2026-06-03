@@ -124,7 +124,7 @@
                             "$leveling:100"
                         ],
                         "visibility_rules": [
-                            "level_cap:100, duty_difficulty_normal, $duty_visibility|Jeuno: The First Walk"
+                            "level_cap:100, duty_difficulty_normal, $duty_visibility|Jeuno The First Walk"
                         ],
                         "item_count": 1
                     },
@@ -134,7 +134,7 @@
                             "$leveling:100"
                         ],
                         "visibility_rules": [
-                            "level_cap:100, duty_difficulty_normal, $duty_visibility|San d'Oria: The Second Walk"
+                            "level_cap:100, duty_difficulty_normal, $duty_visibility|San d'Oria The Second Walk"
                         ],
                         "item_count": 1
                     },
@@ -144,7 +144,7 @@
                             "$leveling:100"
                         ],
                         "visibility_rules": [
-                            "level_cap:100, duty_difficulty_normal, $duty_visibility|Windurst: The Third Walk"
+                            "level_cap:100, duty_difficulty_normal, $duty_visibility|Windurst The Third Walk"
                         ],
                         "item_count": 1
                     }
@@ -394,10 +394,10 @@
                     {
                         "name": "La Selva se lo Llevo (FATE)",
                         "access_rules": [
-                            "^$fateAccess|La Selva se lo Llevó"
+                            "^$fateAccess|La Selva se lo Llevo"
                         ],
                         "visibility_rules": [
-                            "$fateVisibility|La Selva se lo Llevó"
+                            "$fateVisibility|La Selva se lo Llevo"
                         ],
                         "item_count": 1
                     }

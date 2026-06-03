@@ -63,3 +63,13 @@ function fateVisibility(fate)
     end
     return false
 end
+
+function duty_visibility(name)
+  local dutyname = dutylist[name] 
+    for _, duty in ipairs(ExcludedDuties) do
+        if duty == dutyname then
+            return false
+        end
+    end
+    return true
+end
