@@ -193,7 +193,53 @@ function processYaml(slot_data)
 
      --Exclude Duty Check
         ExcludedDuties = slot_data["skipped_duties"]
-    end
+
+     --FATE count
+     Tracker:FindObjectForCode('@Middle La Noscea/FATEs/FATEs').AvailableChestCount = slot_data["fates_per_zone"]
+     Tracker:FindObjectForCode('@Lower La Noscea/FATEs/FATEs').AvailableChestCount = slot_data["fates_per_zone"]
+     Tracker:FindObjectForCode('@Middle La Noscea/FATEs/FATEs').AvailableChestCount = slot_data["fates_per_zone"]
+     Tracker:FindObjectForCode('@Eastern La Noscea/FATEs/FATEs').AvailableChestCount = slot_data["fates_per_zone"]
+     Tracker:FindObjectForCode('@Western La Noscea/FATEs/FATEs').AvailableChestCount = slot_data["fates_per_zone"]
+     Tracker:FindObjectForCode('@Upper La Noscea/FATEs/FATEs').AvailableChestCount = slot_data["fates_per_zone"]
+     Tracker:FindObjectForCode('@Outer La Noscea/FATEs/FATEs').AvailableChestCount = slot_data["fates_per_zone"]
+     Tracker:FindObjectForCode('@Central Shroud/FATEs/FATEs').AvailableChestCount = slot_data["fates_per_zone"]
+     Tracker:FindObjectForCode('@East Shroud/FATEs/FATEs').AvailableChestCount = slot_data["fates_per_zone"]
+     Tracker:FindObjectForCode('@South Shroud/FATEs/FATEs').AvailableChestCount = slot_data["fates_per_zone"]
+     Tracker:FindObjectForCode('@North Shroud/FATEs/FATEs').AvailableChestCount = slot_data["fates_per_zone"]
+     Tracker:FindObjectForCode('@Central Thanalan/FATEs/FATEs').AvailableChestCount = slot_data["fates_per_zone"]
+     Tracker:FindObjectForCode('@Western Thanalan/FATEs/FATEs').AvailableChestCount = slot_data["fates_per_zone"]
+     Tracker:FindObjectForCode('@Eastern Thanalan/FATEs/FATEs').AvailableChestCount = slot_data["fates_per_zone"]
+     Tracker:FindObjectForCode('@Southern Thanalan/FATEs/FATEs').AvailableChestCount = slot_data["fates_per_zone"]
+     Tracker:FindObjectForCode('@Northern Thanalan/FATEs/FATEs').AvailableChestCount = slot_data["fates_per_zone"]
+     Tracker:FindObjectForCode('@Mor Dhona/FATEs/FATEs').AvailableChestCount = slot_data["fates_per_zone"]
+     Tracker:FindObjectForCode('@Coerthas Central Highlands/FATEs/FATEs').AvailableChestCount = slot_data["fates_per_zone"]
+     Tracker:FindObjectForCode('@Coerthas Western Highlands/FATEs/FATEs').AvailableChestCount = slot_data["fates_per_zone"]
+     Tracker:FindObjectForCode('@The Sea of Clouds/FATEs/FATEs').AvailableChestCount = slot_data["fates_per_zone"]
+     Tracker:FindObjectForCode('@The Dravanian Forelands/FATEs/FATEs').AvailableChestCount = slot_data["fates_per_zone"]
+     Tracker:FindObjectForCode('@The Churning Mists/FATEs/FATEs').AvailableChestCount = slot_data["fates_per_zone"]
+     Tracker:FindObjectForCode('@The Dravanian Forelands/FATEs/FATEs').AvailableChestCount = slot_data["fates_per_zone"]
+     Tracker:FindObjectForCode('@Azys Lla/FATEs/FATEs').AvailableChestCount = slot_data["fates_per_zone"]
+     Tracker:FindObjectForCode('@The Fringes/FATEs/FATEs').AvailableChestCount = slot_data["fates_per_zone"]
+     Tracker:FindObjectForCode('@The Peaks/FATEs/FATEs').AvailableChestCount = slot_data["fates_per_zone"]
+     Tracker:FindObjectForCode('@The Lochs/FATEs/FATEs').AvailableChestCount = slot_data["fates_per_zone"]
+     Tracker:FindObjectForCode('@The Ruby Sea/FATEs/FATEs').AvailableChestCount = slot_data["fates_per_zone"]
+     Tracker:FindObjectForCode('@Yanxia/FATEs/FATEs').AvailableChestCount = slot_data["fates_per_zone"]
+     Tracker:FindObjectForCode('@The Azim Steppe/FATEs/FATEs').AvailableChestCount = slot_data["fates_per_zone"]
+     Tracker:FindObjectForCode('@Labyrinthos/FATEs/FATEs').AvailableChestCount = slot_data["fates_per_zone"]
+     Tracker:FindObjectForCode('@Thavnair/FATEs/FATEs').AvailableChestCount = slot_data["fates_per_zone"]
+     Tracker:FindObjectForCode('@Garlemald/FATEs/FATEs').AvailableChestCount = slot_data["fates_per_zone"]
+     Tracker:FindObjectForCode('@Mare Lamentorum/FATEs/FATEs').AvailableChestCount = slot_data["fates_per_zone"]
+     Tracker:FindObjectForCode('@Elpis/FATEs/FATEs').AvailableChestCount = slot_data["fates_per_zone"]
+     Tracker:FindObjectForCode('@Ultima Thule/FATEs/FATEs').AvailableChestCount = slot_data["fates_per_zone"]
+     Tracker:FindObjectForCode('@Urqopacha/FATEs/FATEs').AvailableChestCount = slot_data["fates_per_zone"]
+     Tracker:FindObjectForCode('@Kozamauka/FATEs/FATEs').AvailableChestCount = slot_data["fates_per_zone"]
+     Tracker:FindObjectForCode('@Yak Tel/FATEs/FATEs').AvailableChestCount = slot_data["fates_per_zone"]
+     Tracker:FindObjectForCode('@Shaaloani/FATEs/FATEs').AvailableChestCount = slot_data["fates_per_zone"]
+     Tracker:FindObjectForCode('@Heritage Found/FATEs/FATEs').AvailableChestCount = slot_data["fates_per_zone"]
+     Tracker:FindObjectForCode('@Living Memory/FATEs/FATEs').AvailableChestCount = slot_data["fates_per_zone"]
+     
+     --Dungeon count TODO
+     end
 
 
 
