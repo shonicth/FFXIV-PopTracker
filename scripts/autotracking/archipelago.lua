@@ -193,8 +193,10 @@ function processYaml(slot_data)
 
      --Exclude Duty Check
         ExcludedDuties = slot_data["skipped_duties"]
+    end
 
-     --FATE count
+function checkCount(slot_data)    
+    --FATE count
      Tracker:FindObjectForCode('@Middle La Noscea/FATEs/FATEs').AvailableChestCount = slot_data["fates_per_zone"]
      Tracker:FindObjectForCode('@Lower La Noscea/FATEs/FATEs').AvailableChestCount = slot_data["fates_per_zone"]
      Tracker:FindObjectForCode('@Middle La Noscea/FATEs/FATEs').AvailableChestCount = slot_data["fates_per_zone"]
@@ -307,6 +309,7 @@ function onClear(slot_data)
     PLAYER_ID = Archipelago.PlayerNumber or -1
     TEAM_NUMBER = Archipelago.TeamNumber or 0
     SLOT_DATA = slot_data
+    checkCount(slot_data)
     -- if Tracker:FindObjectForCode("autofill_settings").Active == true then
     --     autoFill(slot_data)
     -- end
