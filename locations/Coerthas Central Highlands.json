@@ -28,7 +28,7 @@
                         "visibility_rules": [
                             "$duty_visibility|The Stone Vigil, level_cap:41"
                         ],
-                        "item_count": 1
+                        "item_count": 10
                     },
                     {
                         "name": "The Stone Vigil (Hard)",
@@ -38,187 +38,7 @@
                         "visibility_rules": [
                             "$duty_visibility|The Stone Vigil (Hard), level_cap:50"
                         ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Stone Vigil 2",
-                        "access_rules": [
-                            "$leveling:41"
-                        ],
-                        "visibility_rules": [
-                            "$duty_visibility|The Stone Vigil, level_cap:41, extra_dungeon_checks:1"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Stone Vigil 3",
-                        "access_rules": [
-                            "$leveling:41"
-                        ],
-                        "visibility_rules": [
-                            "$duty_visibility|The Stone Vigil, level_cap:41, extra_dungeon_checks:2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Stone Vigil 4",
-                        "access_rules": [
-                            "$leveling:41"
-                        ],
-                        "visibility_rules": [
-                            "$duty_visibility|The Stone Vigil, level_cap:41, extra_dungeon_checks:3"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Stone Vigil 5",
-                        "access_rules": [
-                            "$leveling:41"
-                        ],
-                        "visibility_rules": [
-                            "$duty_visibility|The Stone Vigil, level_cap:41, extra_dungeon_checks:4"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Stone Vigil 6",
-                        "access_rules": [
-                            "$leveling:41"
-                        ],
-                        "visibility_rules": [
-                            "$duty_visibility|The Stone Vigil, level_cap:41, extra_dungeon_checks:5"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Stone Vigil 7",
-                        "access_rules": [
-                            "$leveling:41"
-                        ],
-                        "visibility_rules": [
-                            "$duty_visibility|The Stone Vigil, level_cap:41, extra_dungeon_checks:6"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Stone Vigil 8",
-                        "access_rules": [
-                            "$leveling:41"
-                        ],
-                        "visibility_rules": [
-                            "$duty_visibility|The Stone Vigil, level_cap:41, extra_dungeon_checks:7"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Stone Vigil 9",
-                        "access_rules": [
-                            "$leveling:41"
-                        ],
-                        "visibility_rules": [
-                            "$duty_visibility|The Stone Vigil, level_cap:41, extra_dungeon_checks:8"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Stone Vigil 10",
-                        "access_rules": [
-                            "$leveling:41"
-                        ],
-                        "visibility_rules": [
-                            "$duty_visibility|The Stone Vigil, level_cap:41, extra_dungeon_checks:9"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Stone Vigil (Hard) 2",
-                        "access_rules": [
-                            "$leveling:50"
-                        ],
-                        "visibility_rules": [
-                            "$duty_visibility|The Stone Vigil (Hard), level_cap:50, extra_dungeon_checks:1"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Stone Vigil (Hard) 3",
-                        "access_rules": [
-                            "$leveling:50"
-                        ],
-                        "visibility_rules": [
-                            "$duty_visibility|The Stone Vigil (Hard), level_cap:50, extra_dungeon_checks:2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Stone Vigil (Hard) 4",
-                        "access_rules": [
-                            "$leveling:50"
-                        ],
-                        "visibility_rules": [
-                            "$duty_visibility|The Stone Vigil (Hard), level_cap:50, extra_dungeon_checks:3"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Stone Vigil (Hard) 5",
-                        "access_rules": [
-                            "$leveling:50"
-                        ],
-                        "visibility_rules": [
-                            "$duty_visibility|The Stone Vigil (Hard), level_cap:50, extra_dungeon_checks:4"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Stone Vigil (Hard) 6",
-                        "access_rules": [
-                            "$leveling:50"
-                        ],
-                        "visibility_rules": [
-                            "$duty_visibility|The Stone Vigil (Hard), level_cap:50, extra_dungeon_checks:5"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Stone Vigil (Hard) 7",
-                        "access_rules": [
-                            "$leveling:50"
-                        ],
-                        "visibility_rules": [
-                            "$duty_visibility|The Stone Vigil (Hard), level_cap:50, extra_dungeon_checks:6"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Stone Vigil (Hard) 8",
-                        "access_rules": [
-                            "$leveling:50"
-                        ],
-                        "visibility_rules": [
-                            "$duty_visibility|The Stone Vigil (Hard), level_cap:50, extra_dungeon_checks:7"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Stone Vigil (Hard) 9",
-                        "access_rules": [
-                            "$leveling:50"
-                        ],
-                        "visibility_rules": [
-                            "$duty_visibility|The Stone Vigil (Hard), level_cap:50, extra_dungeon_checks:8"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Stone Vigil (Hard) 10",
-                        "access_rules": [
-                            "$leveling:50"
-                        ],
-                        "visibility_rules": [
-                            "$duty_visibility|The Stone Vigil (Hard), level_cap:50, extra_dungeon_checks:9"
-                        ],
-                        "item_count": 1
+                        "item_count": 10
                     }
                 ],
                 "map_locations": [
@@ -247,79 +67,7 @@
                         "name": "Dzemael Darkhold",
                         "access_rules": [],
                         "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Dzemael Darkhold 2",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:1"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Dzemael Darkhold 3",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Dzemael Darkhold 4",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:3"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Dzemael Darkhold 5",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:4"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Dzemael Darkhold 6",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:5"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Dzemael Darkhold 7",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:6"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Dzemael Darkhold 8",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:7"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Dzemael Darkhold 9",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:8"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Dzemael Darkhold 10",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:9"
-                        ],
-                        "item_count": 1
+                        "item_count": 10
                     }
                 ],
                 "map_locations": [
@@ -348,79 +96,7 @@
                         "name": "The Aurum Vale",
                         "access_rules": [],
                         "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Aurum Vale 2",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:1"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Aurum Vale 3",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Aurum Vale 4",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:3"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Aurum Vale 5",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:4"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Aurum Vale 6",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:5"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Aurum Vale 7",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:6"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Aurum Vale 8",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:7"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Aurum Vale 9",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:8"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Aurum Vale 10",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:9"
-                        ],
-                        "item_count": 1
+                        "item_count": 10
                     }
                 ],
                 "map_locations": [
@@ -450,7 +126,7 @@
                         "visibility_rules": [
                             "duty_difficulty_normal, level_cap:50, $duty_visibility|Snowcloak"
                         ],
-                        "item_count": 1
+                        "item_count": 10
                     },
                     {
                         "name": "The Akh Afah Amphitheatre (Hard)",
@@ -521,96 +197,6 @@
                         ],
                         "visibility_rules": [
                             "fishsanity_big, level_cap:45"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Snowcloak 2",
-                        "access_rules": [
-                            "$leveling:50"
-                        ],
-                        "visibility_rules": [
-                            "duty_difficulty_normal, level_cap:50, $duty_visibility|Snowcloak, extra_dungeon_checks:1"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Snowcloak 3",
-                        "access_rules": [
-                            "$leveling:50"
-                        ],
-                        "visibility_rules": [
-                            "duty_difficulty_normal, level_cap:50, $duty_visibility|Snowcloak, extra_dungeon_checks:2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Snowcloak 4",
-                        "access_rules": [
-                            "$leveling:50"
-                        ],
-                        "visibility_rules": [
-                            "duty_difficulty_normal, level_cap:50, $duty_visibility|Snowcloak, extra_dungeon_checks:3"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Snowcloak 5",
-                        "access_rules": [
-                            "$leveling:50"
-                        ],
-                        "visibility_rules": [
-                            "duty_difficulty_normal, level_cap:50, $duty_visibility|Snowcloak, extra_dungeon_checks:4"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Snowcloak 6",
-                        "access_rules": [
-                            "$leveling:50"
-                        ],
-                        "visibility_rules": [
-                            "duty_difficulty_normal, level_cap:50, $duty_visibility|Snowcloak, extra_dungeon_checks:5"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Snowcloak 7",
-                        "access_rules": [
-                            "$leveling:50"
-                        ],
-                        "visibility_rules": [
-                            "duty_difficulty_normal, level_cap:50, $duty_visibility|Snowcloak, extra_dungeon_checks:6"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Snowcloak 8",
-                        "access_rules": [
-                            "$leveling:50"
-                        ],
-                        "visibility_rules": [
-                            "duty_difficulty_normal, level_cap:50, $duty_visibility|Snowcloak, extra_dungeon_checks:7"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Snowcloak 9",
-                        "access_rules": [
-                            "$leveling:50"
-                        ],
-                        "visibility_rules": [
-                            "duty_difficulty_normal, level_cap:50, $duty_visibility|Snowcloak, extra_dungeon_checks:8"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Snowcloak 10",
-                        "access_rules": [
-                            "$leveling:50"
-                        ],
-                        "visibility_rules": [
-                            "duty_difficulty_normal, level_cap:50, $duty_visibility|Snowcloak, extra_dungeon_checks:9"
                         ],
                         "item_count": 1
                     }
@@ -801,79 +387,7 @@
                         "name": "Xelphatol",
                         "access_rules": [],
                         "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Xelphatol 2",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:1"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Xelphatol 3",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Xelphatol 4",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:3"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Xelphatol 5",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:4"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Xelphatol 6",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:5"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Xelphatol 7",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:6"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Xelphatol 8",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:7"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Xelphatol 9",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:8"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Xelphatol 10",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:9"
-                        ],
-                        "item_count": 1
+                        "item_count": 10
                     }
                 ],
                 "map_locations": [

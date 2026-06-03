@@ -24,79 +24,7 @@
                         "name": "Shisui of the Violet Tides",
                         "access_rules": [],
                         "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Shisui of the Violet Tides 2",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:1"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Shisui of the Violet Tides 3",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Shisui of the Violet Tides 4",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:3"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Shisui of the Violet Tides 5",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:4"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Shisui of the Violet Tides 6",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:5"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Shisui of the Violet Tides 7",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:6"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Shisui of the Violet Tides 8",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:7"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Shisui of the Violet Tides 9",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:8"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Shisui of the Violet Tides 10",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:9"
-                        ],
-                        "item_count": 1
+                        "item_count": 10
                     }
                 ],
                 "map_locations": [
@@ -129,7 +57,7 @@
                         "visibility_rules": [
                             "level_cap:70, duty_difficulty_normal, $duty_visibility|Hells' Lid"
                         ],
-                        "item_count": 1
+                        "item_count": 10
                     },
                     {
                         "name": "Hells Kier",
@@ -240,96 +168,6 @@
                         ],
                         "visibility_rules": [
                             "level_cap:62, fishsanity_big"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Hells Lid 2",
-                        "access_rules": [
-                            "$leveling:70"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:70, duty_difficulty_normal, $duty_visibility|Hells' Lid, extra_dungeon_checks:1"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Hells Lid 3",
-                        "access_rules": [
-                            "$leveling:70"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:70, duty_difficulty_normal, $duty_visibility|Hells' Lid, extra_dungeon_checks:2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Hells Lid 4",
-                        "access_rules": [
-                            "$leveling:70"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:70, duty_difficulty_normal, $duty_visibility|Hells' Lid, extra_dungeon_checks:3"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Hells Lid 5",
-                        "access_rules": [
-                            "$leveling:70"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:70, duty_difficulty_normal, $duty_visibility|Hells' Lid, extra_dungeon_checks:4"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Hells Lid 6",
-                        "access_rules": [
-                            "$leveling:70"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:70, duty_difficulty_normal, $duty_visibility|Hells' Lid, extra_dungeon_checks:5"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Hells Lid 7",
-                        "access_rules": [
-                            "$leveling:70"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:70, duty_difficulty_normal, $duty_visibility|Hells' Lid, extra_dungeon_checks:6"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Hells Lid 8",
-                        "access_rules": [
-                            "$leveling:70"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:70, duty_difficulty_normal, $duty_visibility|Hells' Lid, extra_dungeon_checks:7"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Hells Lid 9",
-                        "access_rules": [
-                            "$leveling:70"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:70, duty_difficulty_normal, $duty_visibility|Hells' Lid, extra_dungeon_checks:8"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Hells Lid 10",
-                        "access_rules": [
-                            "$leveling:70"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:70, duty_difficulty_normal, $duty_visibility|Hells' Lid, extra_dungeon_checks:9"
                         ],
                         "item_count": 1
                     }

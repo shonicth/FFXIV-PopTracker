@@ -24,81 +24,8 @@
                         "name": "Origenics",
                         "access_rules": ["$leveling:99"],
                         "visibility_rules": ["level_cap:99, duty_difficulty_normal, $duty_visibility|Origenics"],
-                        "item_count": 1
+                        "item_count": 10
                     },
-                    {
-                        "name": "Origenics 2",
-                        "access_rules": ["$leveling:99"],
-                        "visibility_rules": [
-                            "level_cap:99, duty_difficulty_normal, $duty_visibility|Origenics, extra_dungeon_checks:1"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Origenics 3",
-                        "access_rules": ["$leveling:99"],
-                        "visibility_rules": [
-                            "level_cap:99, duty_difficulty_normal, $duty_visibility|Origenics, extra_dungeon_checks:2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Origenics 4",
-                        "access_rules": ["$leveling:99"],
-                        "visibility_rules": [
-                            "level_cap:99, duty_difficulty_normal, $duty_visibility|Origenics, extra_dungeon_checks:3"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Origenics 5",
-                        "access_rules": ["$leveling:99"],
-                        "visibility_rules": [
-                            "level_cap:99, duty_difficulty_normal, $duty_visibility|Origenics, extra_dungeon_checks:4"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Origenics 6",
-                        "access_rules": ["$leveling:99"],
-                        "visibility_rules": [
-                            "level_cap:99, duty_difficulty_normal, $duty_visibility|Origenics, extra_dungeon_checks:5"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Origenics 7",
-                        "access_rules": ["$leveling:99"],
-                        "visibility_rules": [
-                            "level_cap:99, duty_difficulty_normal, $duty_visibility|Origenics, extra_dungeon_checks:6"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Origenics 8",
-                        "access_rules": ["$leveling:99"],
-                        "visibility_rules": [
-                            "level_cap:99, duty_difficulty_normal, $duty_visibility|Origenics, extra_dungeon_checks:7"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Origenics 9",
-                        "access_rules": ["$leveling:99"],
-                        "visibility_rules": [
-                            "level_cap:99, duty_difficulty_normal, $duty_visibility|Origenics, extra_dungeon_checks:8"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Origenics 10",
-                        "access_rules": ["$leveling:99"],
-                        "visibility_rules": [
-                            "level_cap:99, duty_difficulty_normal, $duty_visibility|Origenics, extra_dungeon_checks:9"
-                        ],
-                        "item_count": 1
-                    },
-                    
                     {
                         "name": "Everkeep",
                         "access_rules": [
@@ -146,79 +73,7 @@
                         "name": "Yuweyawata Field Station",
                         "access_rules": [],
                         "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Yuweyawata Field Station 2",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:1"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Yuweyawata Field Station 3",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Yuweyawata Field Station 4",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:3"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Yuweyawata Field Station 5",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:4"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Yuweyawata Field Station 6",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:5"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Yuweyawata Field Station 7",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:6"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Yuweyawata Field Station 8",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:7"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Yuweyawata Field Station 9",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:8"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Yuweyawata Field Station 10",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:9"
-                        ],
-                        "item_count": 1
+                        "item_count": 10
                     }
                 ],
                 "map_locations": [

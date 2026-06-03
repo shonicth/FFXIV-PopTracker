@@ -24,79 +24,7 @@
                         "name": "Castrum Meridianum",
                         "access_rules": [],
                         "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Castrum Meridianum 2",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:1"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Castrum Meridianum 3",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Castrum Meridianum 4",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:3"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Castrum Meridianum 5",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:4"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Castrum Meridianum 6",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:5"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Castrum Meridianum 7",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:6"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Castrum Meridianum 8",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:7"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Castrum Meridianum 9",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:8"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Castrum Meridianum 10",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:9"
-                        ],
-                        "item_count": 1
+                        "item_count": 10
                     }
                 ],
                 "map_locations": [
@@ -127,7 +55,7 @@
                         "visibility_rules": [
                             "$duty_visibility|The Praetorium"
                         ],
-                        "item_count": 1
+                        "item_count": 10
                     },
                     {
                         "name": "The Porta Decumana",
@@ -142,78 +70,6 @@
                         "access_rules": [],
                         "visibility_rules": [
                             "$duty_visibility|The Minstrel's Ballad Ultima's Bane, duty_difficulty_ex"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Praetorium 2",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "$duty_visibility|The Praetorium, level_cap:50, extra_dungeon_checks:1"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Praetorium 3",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "$duty_visibility|The Praetorium, level_cap:50, extra_dungeon_checks:2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Praetorium 4",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "$duty_visibility|The Praetorium, level_cap:50, extra_dungeon_checks:3"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Praetorium 5",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "$duty_visibility|The Praetorium, level_cap:50, extra_dungeon_checks:4"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Praetorium 6",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "$duty_visibility|The Praetorium, level_cap:50, extra_dungeon_checks:5"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Praetorium 7",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "$duty_visibility|The Praetorium, level_cap:50, extra_dungeon_checks:6"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Praetorium 8",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "$duty_visibility|The Praetorium, level_cap:50, extra_dungeon_checks:7"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Praetorium 9",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "$duty_visibility|The Praetorium, level_cap:50, extra_dungeon_checks:8"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Praetorium 10",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "$duty_visibility|The Praetorium, level_cap:50, extra_dungeon_checks:9"
                         ],
                         "item_count": 1
                     }

@@ -24,9 +24,9 @@
                         "name": "The Aetherochemical Research Facility",
                         "access_rules": [],
                         "visibility_rules": [
-                            "$duty_visibility|The Aetherochemical Research Facility, extra_dungeon_checks:1"
+                            "$duty_visibility|The Aetherochemical Research Facility"
                         ],
-                        "item_count": 1
+                        "item_count": 10
                     },
                     {
                         "name": "The Singularity Reactor",
@@ -41,78 +41,6 @@
                         "access_rules": [],
                         "visibility_rules": [
                             "duty_difficulty_ex, $duty_visibility|The Minstrel's Ballad Thordan's Reign"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Aetherochemical Research Facility 2",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "$duty_visibility|The Aetherochemical Research Facility, extra_dungeon_checks:1"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Aetherochemical Research Facility 3",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "$duty_visibility|The Aetherochemical Research Facility, extra_dungeon_checks:2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Aetherochemical Research Facility 4",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "$duty_visibility|The Aetherochemical Research Facility, extra_dungeon_checks:3"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Aetherochemical Research Facility 5",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "$duty_visibility|The Aetherochemical Research Facility, extra_dungeon_checks:4"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Aetherochemical Research Facility 6",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "$duty_visibility|The Aetherochemical Research Facility, extra_dungeon_checks:5"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Aetherochemical Research Facility 7",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "$duty_visibility|The Aetherochemical Research Facility, extra_dungeon_checks:6"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Aetherochemical Research Facility 8",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "$duty_visibility|The Aetherochemical Research Facility, extra_dungeon_checks:7"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Aetherochemical Research Facility 9",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "$duty_visibility|The Aetherochemical Research Facility, extra_dungeon_checks:8"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Aetherochemical Research Facility 10",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "$duty_visibility|The Aetherochemical Research Facility, extra_dungeon_checks:9"
                         ],
                         "item_count": 1
                     }
@@ -144,7 +72,7 @@
                         "visibility_rules": [
                             "level_cap:60, duty_difficulty_normal, $duty_visibility|The Fractal Continuum"
                         ],
-                        "item_count": 1
+                        "item_count": 10
                     },
                     {
                         "name": "The Fractal Continuum (Hard)",
@@ -154,187 +82,7 @@
                         "visibility_rules": [
                             "level_cap:70, duty_difficulty_normal, $duty_visibility|The Fractal Continuum (Hard)"
                         ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Fractal Continuum 2",
-                        "access_rules": [
-                            "$leveling:60"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:60, duty_difficulty_normal, $duty_visibility|The Fractal Continuum, extra_dungeon_checks:1"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Fractal Continuum 3",
-                        "access_rules": [
-                            "$leveling:60"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:60, duty_difficulty_normal, $duty_visibility|The Fractal Continuum, extra_dungeon_checks:2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Fractal Continuum 4",
-                        "access_rules": [
-                            "$leveling:60"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:60, duty_difficulty_normal, $duty_visibility|The Fractal Continuum, extra_dungeon_checks:3"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Fractal Continuum 5",
-                        "access_rules": [
-                            "$leveling:60"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:60, duty_difficulty_normal, $duty_visibility|The Fractal Continuum, extra_dungeon_checks:4"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Fractal Continuum 6",
-                        "access_rules": [
-                            "$leveling:60"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:60, duty_difficulty_normal, $duty_visibility|The Fractal Continuum, extra_dungeon_checks:5"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Fractal Continuum 7",
-                        "access_rules": [
-                            "$leveling:60"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:60, duty_difficulty_normal, $duty_visibility|The Fractal Continuum, extra_dungeon_checks:6"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Fractal Continuum 8",
-                        "access_rules": [
-                            "$leveling:60"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:60, duty_difficulty_normal, $duty_visibility|The Fractal Continuum, extra_dungeon_checks:7"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Fractal Continuum 9",
-                        "access_rules": [
-                            "$leveling:60"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:60, duty_difficulty_normal, $duty_visibility|The Fractal Continuum, extra_dungeon_checks:8"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Fractal Continuum 10",
-                        "access_rules": [
-                            "$leveling:60"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:60, duty_difficulty_normal, $duty_visibility|The Fractal Continuum, extra_dungeon_checks:9"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Fractal Continuum (Hard) 2",
-                        "access_rules": [
-                            "$leveling:70"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:70, duty_difficulty_normal, $duty_visibility|The Fractal Continuum (Hard), extra_dungeon_checks:1"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Fractal Continuum (Hard) 3",
-                        "access_rules": [
-                            "$leveling:70"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:70, duty_difficulty_normal, $duty_visibility|The Fractal Continuum (Hard), extra_dungeon_checks:2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Fractal Continuum (Hard) 4",
-                        "access_rules": [
-                            "$leveling:70"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:70, duty_difficulty_normal, $duty_visibility|The Fractal Continuum (Hard), extra_dungeon_checks:3"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Fractal Continuum (Hard) 5",
-                        "access_rules": [
-                            "$leveling:70"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:70, duty_difficulty_normal, $duty_visibility|The Fractal Continuum (Hard), extra_dungeon_checks:4"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Fractal Continuum (Hard) 6",
-                        "access_rules": [
-                            "$leveling:70"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:70, duty_difficulty_normal, $duty_visibility|The Fractal Continuum (Hard), extra_dungeon_checks:5"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Fractal Continuum (Hard) 7",
-                        "access_rules": [
-                            "$leveling:70"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:70, duty_difficulty_normal, $duty_visibility|The Fractal Continuum (Hard), extra_dungeon_checks:6"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Fractal Continuum (Hard) 8",
-                        "access_rules": [
-                            "$leveling:70"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:70, duty_difficulty_normal, $duty_visibility|The Fractal Continuum (Hard), extra_dungeon_checks:7"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Fractal Continuum (Hard) 9",
-                        "access_rules": [
-                            "$leveling:70"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:70, duty_difficulty_normal, $duty_visibility|The Fractal Continuum (Hard), extra_dungeon_checks:8"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Fractal Continuum (Hard) 10",
-                        "access_rules": [
-                            "$leveling:70"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:70, duty_difficulty_normal, $duty_visibility|The Fractal Continuum (Hard), extra_dungeon_checks:9"
-                        ],
-                        "item_count": 1
+                        "item_count": 10
                     }
                 ],
                 "map_locations": [

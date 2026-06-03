@@ -26,7 +26,7 @@
                             "$leveling:16"
                         ],
                         "visibility_rules": ["$duty_visibility|The Tam-Tara Deepcroft"],
-                        "item_count": 1
+                        "item_count": 10
                     },
                     {
                         "name": "The Tam-Tara Deepcroft (Hard)",
@@ -34,151 +34,7 @@
                             "$leveling:50"
                         ],
                         "visibility_rules": ["level_cap:60, $duty_visibility|The Tam-Tara Deepcroft (Hard)"],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Tam-Tara Deepcroft 2",
-                        "access_rules": [
-                            "$leveling:16"
-                        ],
-                        "visibility_rules": ["$duty_visibility|The Tam-Tara Deepcroft, extra_dungeon_checks:1"],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Tam-Tara Deepcroft 3",
-                        "access_rules": [
-                            "$leveling:16"
-                        ],
-                        "visibility_rules": ["$duty_visibility|The Tam-Tara Deepcroft, extra_dungeon_checks:2"],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Tam-Tara Deepcroft 4",
-                        "access_rules": [
-                            "$leveling:16"
-                        ],
-                        "visibility_rules": ["$duty_visibility|The Tam-Tara Deepcroft, extra_dungeon_checks:3"],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Tam-Tara Deepcroft 5",
-                        "access_rules": [
-                            "$leveling:16"
-                        ],
-                        "visibility_rules": ["$duty_visibility|The Tam-Tara Deepcroft, extra_dungeon_checks:4"],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Tam-Tara Deepcroft 6",
-                        "access_rules": [
-                            "$leveling:16"
-                        ],
-                        "visibility_rules": ["$duty_visibility|The Tam-Tara Deepcroft, extra_dungeon_checks:5"],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Tam-Tara Deepcroft 7",
-                        "access_rules": [
-                            "$leveling:16"
-                        ],
-                        "visibility_rules": ["$duty_visibility|The Tam-Tara Deepcroft, extra_dungeon_checks:6"],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Tam-Tara Deepcroft 8",
-                        "access_rules": [
-                            "$leveling:16"
-                        ],
-                        "visibility_rules": ["$duty_visibility|The Tam-Tara Deepcroft, extra_dungeon_checks:7"],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Tam-Tara Deepcroft 9",
-                        "access_rules": [
-                            "$leveling:16"
-                        ],
-                        "visibility_rules": ["$duty_visibility|The Tam-Tara Deepcroft, extra_dungeon_checks:8"],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Tam-Tara Deepcroft 10",
-                        "access_rules": [
-                            "$leveling:16"
-                        ],
-                        "visibility_rules": ["$duty_visibility|The Tam-Tara Deepcroft, extra_dungeon_checks:9"],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Tam-Tara Deepcroft (Hard) 2",
-                        "access_rules": [
-                            "$leveling:50"
-                        ],
-                        "visibility_rules": ["level_cap:60, $duty_visibility|The Tam-Tara Deepcroft (Hard), extra_dungeon_checks:1"],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Tam-Tara Deepcroft (Hard) 3",
-                        "access_rules": [
-                            "$leveling:50"
-                        ],
-                        "visibility_rules": ["level_cap:60, $duty_visibility|The Tam-Tara Deepcroft (Hard), extra_dungeon_checks:2"],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Tam-Tara Deepcroft (Hard) 4",
-                        "access_rules": [
-                            "$leveling:50"
-                        ],
-                        "visibility_rules": ["level_cap:60, $duty_visibility|The Tam-Tara Deepcroft (Hard), extra_dungeon_checks:3"],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Tam-Tara Deepcroft (Hard) 5",
-                        "access_rules": [
-                            "$leveling:50"
-                        ],
-                        "visibility_rules": ["level_cap:60, $duty_visibility|The Tam-Tara Deepcroft (Hard), extra_dungeon_checks:4"],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Tam-Tara Deepcroft (Hard) 6",
-                        "access_rules": [
-                            "$leveling:50"
-                        ],
-                        "visibility_rules": ["level_cap:60, $duty_visibility|The Tam-Tara Deepcroft (Hard), extra_dungeon_checks:5"],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Tam-Tara Deepcroft (Hard) 7",
-                        "access_rules": [
-                            "$leveling:50"
-                        ],
-                        "visibility_rules": ["level_cap:60, $duty_visibility|The Tam-Tara Deepcroft (Hard), extra_dungeon_checks:6"],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Tam-Tara Deepcroft (Hard) 8",
-                        "access_rules": [
-                            "$leveling:50"
-                        ],
-                        "visibility_rules": ["level_cap:60, $duty_visibility|The Tam-Tara Deepcroft (Hard), extra_dungeon_checks:7"],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Tam-Tara Deepcroft (Hard) 9",
-                        "access_rules": [
-                            "$leveling:50"
-                        ],
-                        "visibility_rules": ["level_cap:60, $duty_visibility|The Tam-Tara Deepcroft (Hard), extra_dungeon_checks:8"],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Tam-Tara Deepcroft (Hard) 10",
-                        "access_rules": [
-                            "$leveling:50"
-                        ],
-                        "visibility_rules": ["level_cap:60, $duty_visibility|The Tam-Tara Deepcroft (Hard), extra_dungeon_checks:9"],
-                        "item_count": 1
+                        "item_count": 10
                     }
                 ],
                 "map_locations": [
@@ -206,7 +62,7 @@
                             "$leveling:28"
                         ],
                         "visibility_rules": ["duty_difficulty_normal, $duty_visibility|Haukke Manor"],
-                        "item_count": 1
+                        "item_count": 10
                     },
                     {
                         "name": "Haukke Manor (Hard)",
@@ -214,7 +70,7 @@
                             "$leveling:50"
                         ],
                         "visibility_rules": ["duty_difficulty_normal, level_cap:50, $duty_visibility|Haukke Manor (Hard)"],
-                        "item_count": 1
+                        "item_count": 10
                     },
                     {
                         "name": "Mudskipper",
@@ -262,150 +118,6 @@
                             "5fshlevels:35, honeyworm"
                         ],
                         "visibility_rules": ["fishsanity_big, level_cap:35"],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Haukke Manor 2",
-                        "access_rules": [
-                            "$leveling:28"
-                        ],
-                        "visibility_rules": ["duty_difficulty_normal, $duty_visibility|Haukke Manor, extra_dungeon_checks:1"],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Haukke Manor 3",
-                        "access_rules": [
-                            "$leveling:28"
-                        ],
-                        "visibility_rules": ["duty_difficulty_normal, $duty_visibility|Haukke Manor, extra_dungeon_checks:2"],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Haukke Manor 4",
-                        "access_rules": [
-                            "$leveling:28"
-                        ],
-                        "visibility_rules": ["duty_difficulty_normal, $duty_visibility|Haukke Manor, extra_dungeon_checks:3"],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Haukke Manor 5",
-                        "access_rules": [
-                            "$leveling:28"
-                        ],
-                        "visibility_rules": ["duty_difficulty_normal, $duty_visibility|Haukke Manor, extra_dungeon_checks:4"],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Haukke Manor 6",
-                        "access_rules": [
-                            "$leveling:28"
-                        ],
-                        "visibility_rules": ["duty_difficulty_normal, $duty_visibility|Haukke Manor, extra_dungeon_checks:5"],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Haukke Manor 7",
-                        "access_rules": [
-                            "$leveling:28"
-                        ],
-                        "visibility_rules": ["duty_difficulty_normal, $duty_visibility|Haukke Manor, extra_dungeon_checks:6"],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Haukke Manor 8",
-                        "access_rules": [
-                            "$leveling:28"
-                        ],
-                        "visibility_rules": ["duty_difficulty_normal, $duty_visibility|Haukke Manor, extra_dungeon_checks:7"],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Haukke Manor 9",
-                        "access_rules": [
-                            "$leveling:28"
-                        ],
-                        "visibility_rules": ["duty_difficulty_normal, $duty_visibility|Haukke Manor, extra_dungeon_checks:8"],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Haukke Manor 10",
-                        "access_rules": [
-                            "$leveling:28"
-                        ],
-                        "visibility_rules": ["duty_difficulty_normal, $duty_visibility|Haukke Manor, extra_dungeon_checks:9"],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Haukke Manor (Hard) 2",
-                        "access_rules": [
-                            "$leveling:50"
-                        ],
-                        "visibility_rules": ["duty_difficulty_normal, level_cap:50, $duty_visibility|Haukke Manor (Hard), extra_dungeon_checks:1"],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Haukke Manor (Hard) 3",
-                        "access_rules": [
-                            "$leveling:50"
-                        ],
-                        "visibility_rules": ["duty_difficulty_normal, level_cap:50, $duty_visibility|Haukke Manor (Hard), extra_dungeon_checks:2"],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Haukke Manor (Hard) 4",
-                        "access_rules": [
-                            "$leveling:50"
-                        ],
-                        "visibility_rules": ["duty_difficulty_normal, level_cap:50, $duty_visibility|Haukke Manor (Hard), extra_dungeon_checks:3"],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Haukke Manor (Hard) 5",
-                        "access_rules": [
-                            "$leveling:50"
-                        ],
-                        "visibility_rules": ["duty_difficulty_normal, level_cap:50, $duty_visibility|Haukke Manor (Hard), extra_dungeon_checks:4"],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Haukke Manor (Hard) 6",
-                        "access_rules": [
-                            "$leveling:50"
-                        ],
-                        "visibility_rules": ["duty_difficulty_normal, level_cap:50, $duty_visibility|Haukke Manor (Hard), extra_dungeon_checks:5"],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Haukke Manor (Hard) 7",
-                        "access_rules": [
-                            "$leveling:50"
-                        ],
-                        "visibility_rules": ["duty_difficulty_normal, level_cap:50, $duty_visibility|Haukke Manor (Hard), extra_dungeon_checks:6"],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Haukke Manor (Hard) 8",
-                        "access_rules": [
-                            "$leveling:50"
-                        ],
-                        "visibility_rules": ["duty_difficulty_normal, level_cap:50, $duty_visibility|Haukke Manor (Hard), extra_dungeon_checks:7"],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Haukke Manor (Hard) 9",
-                        "access_rules": [
-                            "$leveling:50"
-                        ],
-                        "visibility_rules": ["duty_difficulty_normal, level_cap:50, $duty_visibility|Haukke Manor (Hard), extra_dungeon_checks:8"],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Haukke Manor (Hard) 10",
-                        "access_rules": [
-                            "$leveling:50"
-                        ],
-                        "visibility_rules": ["duty_difficulty_normal, level_cap:50, $duty_visibility|Haukke Manor (Hard), extra_dungeon_checks:9"],
                         "item_count": 1
                     }
                 ],

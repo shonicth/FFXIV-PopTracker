@@ -24,79 +24,7 @@
                         "name": "The Thousand Maws of Toto-Rak",
                         "access_rules": [],
                         "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Thousand Maws of Toto-Rak 2",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:1"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Thousand Maws of Toto-Rak 3",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Thousand Maws of Toto-Rak 4",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:3"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Thousand Maws of Toto-Rak 5",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:4"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Thousand Maws of Toto-Rak 6",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:5"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Thousand Maws of Toto-Rak 7",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:6"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Thousand Maws of Toto-Rak 8",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:7"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Thousand Maws of Toto-Rak 9",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:8"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Thousand Maws of Toto-Rak 10",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "extra_dungeon_checks:9"
-                        ],
-                        "item_count": 1
+                        "item_count": 10
                     }
                 ],
                 "map_locations": [
@@ -124,7 +52,7 @@
                         "visibility_rules": [
                             "duty_difficulty_normal, $duty_visibility|Amdapor Keep"
                         ],
-                        "item_count": 1
+                        "item_count": 10
                     },
                     {
                         "name": "Amdapor Keep (Hard)",
@@ -132,157 +60,13 @@
                         "visibility_rules": [
                             "duty_difficulty_normal, $duty_visibility|Amdapor Keep (Hard)"
                         ],
-                        "item_count": 1
+                        "item_count": 10
                     },
                     {
                         "name": "Battle in the Big Keep",
                         "access_rules": [],
                         "visibility_rules": [
                             "level_cap:50, $duty_visibility|Battle in the Big Keep, duty_difficulty_normal"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Amdapor Keep 2",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "duty_difficulty_normal, $duty_visibility|Amdapor Keep, extra_dungeon_checks:1"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Amdapor Keep 3",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "duty_difficulty_normal, $duty_visibility|Amdapor Keep, extra_dungeon_checks:2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Amdapor Keep 4",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "duty_difficulty_normal, $duty_visibility|Amdapor Keep, extra_dungeon_checks:3"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Amdapor Keep 5",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "duty_difficulty_normal, $duty_visibility|Amdapor Keep, extra_dungeon_checks:4"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Amdapor Keep 6",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "duty_difficulty_normal, $duty_visibility|Amdapor Keep, extra_dungeon_checks:5"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Amdapor Keep 7",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "duty_difficulty_normal, $duty_visibility|Amdapor Keep, extra_dungeon_checks:6"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Amdapor Keep 8",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "duty_difficulty_normal, $duty_visibility|Amdapor Keep, extra_dungeon_checks:7"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Amdapor Keep 9",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "duty_difficulty_normal, $duty_visibility|Amdapor Keep, extra_dungeon_checks:8"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Amdapor Keep 10",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "duty_difficulty_normal, $duty_visibility|Amdapor Keep, extra_dungeon_checks:9"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Amdapor Keep (Hard) 2",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "duty_difficulty_normal, $duty_visibility|Amdapor Keep (Hard), extra_dungeon_checks:1"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Amdapor Keep (Hard) 3",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "duty_difficulty_normal, $duty_visibility|Amdapor Keep (Hard), extra_dungeon_checks:2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Amdapor Keep (Hard) 4",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "duty_difficulty_normal, $duty_visibility|Amdapor Keep (Hard), extra_dungeon_checks:3"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Amdapor Keep (Hard) 5",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "duty_difficulty_normal, $duty_visibility|Amdapor Keep (Hard), extra_dungeon_checks:4"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Amdapor Keep (Hard) 6",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "duty_difficulty_normal, $duty_visibility|Amdapor Keep (Hard), extra_dungeon_checks:5"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Amdapor Keep (Hard) 7",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "duty_difficulty_normal, $duty_visibility|Amdapor Keep (Hard), extra_dungeon_checks:6"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Amdapor Keep (Hard) 8",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "duty_difficulty_normal, $duty_visibility|Amdapor Keep (Hard), extra_dungeon_checks:7"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Amdapor Keep (Hard) 9",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "duty_difficulty_normal, $duty_visibility|Amdapor Keep (Hard), extra_dungeon_checks:8"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Amdapor Keep (Hard) 10",
-                        "access_rules": [],
-                        "visibility_rules": [
-                            "duty_difficulty_normal, $duty_visibility|Amdapor Keep (Hard), extra_dungeon_checks:9"
                         ],
                         "item_count": 1
                     }
@@ -317,7 +101,7 @@
                         "visibility_rules": [
                             "$duty_visibility|The Lost City of Amdapor, level_cap:50"
                         ],
-                        "item_count": 1
+                        "item_count": 10
                     },
                     {
                         "name": "The Lost City of Amdapor (Hard)",
@@ -327,187 +111,7 @@
                         "visibility_rules": [
                             "$duty_visibility|The Lost City of Amdapor (Hard), level_cap:60"
                         ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Lost City of Amdapor 2",
-                        "access_rules": [
-                            "$leveling:50"
-                        ],
-                        "visibility_rules": [
-                            "$duty_visibility|The Lost City of Amdapor, level_cap:50, extra_dungeon_checks:1"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Lost City of Amdapor 3",
-                        "access_rules": [
-                            "$leveling:50"
-                        ],
-                        "visibility_rules": [
-                            "$duty_visibility|The Lost City of Amdapor, level_cap:50, extra_dungeon_checks:2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Lost City of Amdapor 4",
-                        "access_rules": [
-                            "$leveling:50"
-                        ],
-                        "visibility_rules": [
-                            "$duty_visibility|The Lost City of Amdapor, level_cap:50, extra_dungeon_checks:3"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Lost City of Amdapor 5",
-                        "access_rules": [
-                            "$leveling:50"
-                        ],
-                        "visibility_rules": [
-                            "$duty_visibility|The Lost City of Amdapor, level_cap:50, extra_dungeon_checks:4"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Lost City of Amdapor 6",
-                        "access_rules": [
-                            "$leveling:50"
-                        ],
-                        "visibility_rules": [
-                            "$duty_visibility|The Lost City of Amdapor, level_cap:50, extra_dungeon_checks:5"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Lost City of Amdapor 7",
-                        "access_rules": [
-                            "$leveling:50"
-                        ],
-                        "visibility_rules": [
-                            "$duty_visibility|The Lost City of Amdapor, level_cap:50, extra_dungeon_checks:6"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Lost City of Amdapor 8",
-                        "access_rules": [
-                            "$leveling:50"
-                        ],
-                        "visibility_rules": [
-                            "$duty_visibility|The Lost City of Amdapor, level_cap:50, extra_dungeon_checks:7"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Lost City of Amdapor 9",
-                        "access_rules": [
-                            "$leveling:50"
-                        ],
-                        "visibility_rules": [
-                            "$duty_visibility|The Lost City of Amdapor, level_cap:50, extra_dungeon_checks:8"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Lost City of Amdapor 10",
-                        "access_rules": [
-                            "$leveling:50"
-                        ],
-                        "visibility_rules": [
-                            "$duty_visibility|The Lost City of Amdapor, level_cap:50, extra_dungeon_checks:9"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Lost City of Amdapor (Hard) 2",
-                        "access_rules": [
-                            "$leveling:60"
-                        ],
-                        "visibility_rules": [
-                            "$duty_visibility|The Lost City of Amdapor (Hard), level_cap:60, extra_dungeon_checks:1"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Lost City of Amdapor (Hard) 3",
-                        "access_rules": [
-                            "$leveling:60"
-                        ],
-                        "visibility_rules": [
-                            "$duty_visibility|The Lost City of Amdapor (Hard), level_cap:60, extra_dungeon_checks:2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Lost City of Amdapor (Hard) 4",
-                        "access_rules": [
-                            "$leveling:60"
-                        ],
-                        "visibility_rules": [
-                            "$duty_visibility|The Lost City of Amdapor (Hard), level_cap:60, extra_dungeon_checks:3"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Lost City of Amdapor (Hard) 5",
-                        "access_rules": [
-                            "$leveling:60"
-                        ],
-                        "visibility_rules": [
-                            "$duty_visibility|The Lost City of Amdapor (Hard), level_cap:60, extra_dungeon_checks:4"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Lost City of Amdapor (Hard) 6",
-                        "access_rules": [
-                            "$leveling:60"
-                        ],
-                        "visibility_rules": [
-                            "$duty_visibility|The Lost City of Amdapor (Hard), level_cap:60, extra_dungeon_checks:5"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Lost City of Amdapor (Hard) 7",
-                        "access_rules": [
-                            "$leveling:60"
-                        ],
-                        "visibility_rules": [
-                            "$duty_visibility|The Lost City of Amdapor (Hard), level_cap:60, extra_dungeon_checks:6"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Lost City of Amdapor (Hard) 8",
-                        "access_rules": [
-                            "$leveling:60"
-                        ],
-                        "visibility_rules": [
-                            "$duty_visibility|The Lost City of Amdapor (Hard), level_cap:60, extra_dungeon_checks:7"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Lost City of Amdapor (Hard) 9",
-                        "access_rules": [
-                            "$leveling:60"
-                        ],
-                        "visibility_rules": [
-                            "$duty_visibility|The Lost City of Amdapor (Hard), level_cap:60, extra_dungeon_checks:8"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Lost City of Amdapor (Hard) 10",
-                        "access_rules": [
-                            "$leveling:60"
-                        ],
-                        "visibility_rules": [
-                            "$duty_visibility|The Lost City of Amdapor (Hard), level_cap:60, extra_dungeon_checks:9"
-                        ],
-                        "item_count": 1
+                        "item_count": 10
                     }
                 ],
                 "map_locations": [

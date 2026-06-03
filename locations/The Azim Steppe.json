@@ -25,7 +25,7 @@
                         "visibility_rules": [
                             "level_cap:65, duty_difficulty_normal, $duty_visibility|Bardam's Mettle"
                         ],
-                        "item_count": 1
+                        "item_count": 10
                     },
                     {
                         "name": "The Great Hunt",
@@ -44,96 +44,6 @@
                         ],
                         "visibility_rules": [
                             "level_cap:70, duty_difficulty_ex, $duty_visibility|The Great Hunt (Extreme)"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Bardams Mettle 2",
-                        "access_rules": [
-                            "$leveling:65"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:65, duty_difficulty_normal, $duty_visibility|Bardam's Mettle, extra_dungeon_checks:1"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Bardams Mettle 3",
-                        "access_rules": [
-                            "$leveling:65"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:65, duty_difficulty_normal, $duty_visibility|Bardam's Mettle, extra_dungeon_checks:2"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Bardams Mettle 4",
-                        "access_rules": [
-                            "$leveling:65"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:65, duty_difficulty_normal, $duty_visibility|Bardam's Mettle, extra_dungeon_checks:3"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Bardams Mettle 5",
-                        "access_rules": [
-                            "$leveling:65"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:65, duty_difficulty_normal, $duty_visibility|Bardam's Mettle, extra_dungeon_checks:4"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Bardams Mettle 6",
-                        "access_rules": [
-                            "$leveling:65"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:65, duty_difficulty_normal, $duty_visibility|Bardam's Mettle, extra_dungeon_checks:5"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Bardams Mettle 7",
-                        "access_rules": [
-                            "$leveling:65"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:65, duty_difficulty_normal, $duty_visibility|Bardam's Mettle, extra_dungeon_checks:6"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Bardams Mettle 8",
-                        "access_rules": [
-                            "$leveling:65"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:65, duty_difficulty_normal, $duty_visibility|Bardam's Mettle, extra_dungeon_checks:7"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Bardams Mettle 9",
-                        "access_rules": [
-                            "$leveling:65"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:65, duty_difficulty_normal, $duty_visibility|Bardam's Mettle, extra_dungeon_checks:8"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Bardams Mettle 10",
-                        "access_rules": [
-                            "$leveling:65"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:65, duty_difficulty_normal, $duty_visibility|Bardam's Mettle, extra_dungeon_checks:9"
                         ],
                         "item_count": 1
                     }
