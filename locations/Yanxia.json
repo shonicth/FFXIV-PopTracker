@@ -30,7 +30,7 @@
                     {
                         "name": "Samurai Fish",
                         "access_rules": [
-                            "5fshlevels:67, versatilelure"
+                            "5fshlevels:67, Versatile Lure"
                         ],
                         "visibility_rules": [
                             "level_cap:67, fishsanity_normal"
@@ -40,7 +40,7 @@
                     {
                         "name": "Raitonfish",
                         "access_rules": [
-                            "5fshlevels:67, suspendingminnow"
+                            "5fshlevels:67, Suspending Minnow"
                         ],
                         "visibility_rules": [
                             "level_cap:67, fishsanity_timed"
@@ -50,7 +50,7 @@
                     {
                         "name": "Blank Oscar",
                         "access_rules": [
-                            "5fshlevels:67, midgelarva"
+                            "5fshlevels:67, Midge Larva"
                         ],
                         "visibility_rules": [
                             "level_cap:67, fishsanity_timed"
@@ -60,7 +60,7 @@
                     {
                         "name": "Dragonfish",
                         "access_rules": [
-                            "5fshlevels:67, midgelarva"
+                            "5fshlevels:67, Midge Larva"
                         ],
                         "visibility_rules": [
                             "level_cap:67, fishsanity_timed"
@@ -70,10 +70,10 @@
                     {
                         "name": "Doman Trout",
                         "access_rules": [
-                            "5fshlevels:67, suspendingminnow",
-                            "nightcrawler, 5fshlevels:67",
-                            "5fshlevels:67, midgelarva",
-                            "5fshlevels:67, metalspinner"
+                            "5fshlevels:67, Suspending Minnow",
+                            "Nightcrawler, 5fshlevels:67",
+                            "5fshlevels:67, Midge Larva",
+                            "5fshlevels:67, Metal Spinner"
                         ],
                         "visibility_rules": [
                             "level_cap:67, fishsanity_timed"
@@ -83,7 +83,7 @@
                     {
                         "name": "Bokuden",
                         "access_rules": [
-                            "5fshlevels:67, stoneflylarva"
+                            "5fshlevels:67, Stonefly Larva"
                         ],
                         "visibility_rules": [
                             "level_cap:67, fishsanity_timed"
@@ -291,9 +291,9 @@
                     {
                         "name": "Kotsu Zetsu",
                         "access_rules": [
-                            "5fshlevels:70, suspendingminnow",
-                            "5fshlevels:70, stoneflylarva",
-                            "5fshlevels:70, metalspinner"
+                            "5fshlevels:70, Suspending Minnow",
+                            "5fshlevels:70, Stonefly Larva",
+                            "5fshlevels:70, Metal Spinner"
                         ],
                         "visibility_rules": [
                             "level_cap:70, fishsanity_normal"
@@ -303,10 +303,10 @@
                     {
                         "name": "Doman Trout",
                         "access_rules": [
-                            "5fshlevels:70, suspendingminnow",
-                            "5fshlevels:70, nightcrawler",
-                            "5fshlevels:70, midgelarva",
-                            "5fshlevels:70, metalspinner"
+                            "5fshlevels:70, Suspending Minnow",
+                            "5fshlevels:70, Nightcrawler",
+                            "5fshlevels:70, Midge Larva",
+                            "5fshlevels:70, Metal Spinner"
                         ],
                         "visibility_rules": [
                             "level_cap:70, fishsanity_normal"
@@ -1511,7 +1511,7 @@
                     {
                         "name": "Yanxian Barramundi",
                         "access_rules": [
-                            "stoneflylarva"
+                            "Stonefly Larva"
                         ],
                         "visibility_rules": [],
                         "item_count": 1
@@ -1519,7 +1519,7 @@
                     {
                         "name": "Yanxian Koi",
                         "access_rules": [
-                            "stoneflylarva"
+                            "Stonefly Larva"
                         ],
                         "visibility_rules": [],
                         "item_count": 1
@@ -1527,9 +1527,9 @@
                     {
                         "name": "Kotsu Zetsu",
                         "access_rules": [
-                            "suspendingminnow",
-                            "stoneflylarva",
-                            "metalspinner"
+                            "Suspending Minnow",
+                            "Stonefly Larva",
+                            "Metal Spinner"
                         ],
                         "visibility_rules": [],
                         "item_count": 1
@@ -1537,8 +1537,8 @@
                     {
                         "name": "Longhair Catfish",
                         "access_rules": [
-                            "suspendingminnow",
-                            "stoneflylarva"
+                            "Suspending Minnow",
+                            "Stonefly Larva"
                         ],
                         "visibility_rules": [],
                         "item_count": 1
@@ -1546,10 +1546,10 @@
                     {
                         "name": "Doman Trout",
                         "access_rules": [
-                            "suspendingminnow",
-                            "nightcrawler",
-                            "midgelarva",
-                            "metalspinner"
+                            "Suspending Minnow",
+                            "Nightcrawler",
+                            "Midge Larva",
+                            "Metal Spinner"
                         ],
                         "visibility_rules": [],
                         "item_count": 1
@@ -1557,7 +1557,7 @@
                     {
                         "name": "Othardian Salmon",
                         "access_rules": [
-                            "metalspinner"
+                            "Metal Spinner"
                         ],
                         "visibility_rules": [],
                         "item_count": 1
@@ -1565,7 +1565,7 @@
                     {
                         "name": "Axelrod",
                         "access_rules": [
-                            "stoneflylarva"
+                            "Stonefly Larva"
                         ],
                         "visibility_rules": [
                             "fishsanity_big"
@@ -1598,7 +1598,7 @@
                     {
                         "name": "Seraphim",
                         "access_rules": [
-                            "stoneflylarva"
+                            "Stonefly Larva"
                         ],
                         "visibility_rules": [
                             "fishsanity_timed"
@@ -1608,8 +1608,8 @@
                     {
                         "name": "Longhair Catfish",
                         "access_rules": [
-                            "suspendingminnow",
-                            "stoneflylarva"
+                            "Suspending Minnow",
+                            "Stonefly Larva"
                         ],
                         "visibility_rules": [],
                         "item_count": 1
@@ -1617,10 +1617,10 @@
                     {
                         "name": "Doman Trout",
                         "access_rules": [
-                            "suspendingminnow",
-                            "nightcrawler",
-                            "midgelarva",
-                            "metalspinner"
+                            "Suspending Minnow",
+                            "Nightcrawler",
+                            "Midge Larva",
+                            "Metal Spinner"
                         ],
                         "visibility_rules": [],
                         "item_count": 1
@@ -1628,9 +1628,9 @@
                     {
                         "name": "Kotsu Zetsu",
                         "access_rules": [
-                            "suspendingminnow",
-                            "stoneflylarva",
-                            "metalspinner"
+                            "Suspending Minnow",
+                            "Stonefly Larva",
+                            "Metal Spinner"
                         ],
                         "visibility_rules": [],
                         "item_count": 1
@@ -1638,7 +1638,7 @@
                     {
                         "name": "Hagoromo Bijin",
                         "access_rules": [
-                            "stoneflylarva"
+                            "Stonefly Larva"
                         ],
                         "visibility_rules": [
                             "fishsanity_big"
@@ -1671,7 +1671,7 @@
                     {
                         "name": "Doman Grass Carp",
                         "access_rules": [
-                            "midgelarva"
+                            "Midge Larva"
                         ],
                         "visibility_rules": [
                             "fishsanity_timed"
@@ -1681,7 +1681,7 @@
                     {
                         "name": "Lordly Salmon",
                         "access_rules": [
-                            "versatilelure"
+                            "Versatile Lure"
                         ],
                         "visibility_rules": [],
                         "item_count": 1
@@ -1689,9 +1689,9 @@
                     {
                         "name": "Kotsu Zetsu",
                         "access_rules": [
-                            "suspendingminnow",
-                            "stoneflylarva",
-                            "metalspinner"
+                            "Suspending Minnow",
+                            "Stonefly Larva",
+                            "Metal Spinner"
                         ],
                         "visibility_rules": [],
                         "item_count": 1
@@ -1699,10 +1699,10 @@
                     {
                         "name": "Doman Trout",
                         "access_rules": [
-                            "suspendingminnow",
-                            "nightcrawler",
-                            "midgelarva",
-                            "metalspinner"
+                            "Suspending Minnow",
+                            "Nightcrawler",
+                            "Midge Larva",
+                            "Metal Spinner"
                         ],
                         "visibility_rules": [],
                         "item_count": 1
@@ -1710,7 +1710,7 @@
                     {
                         "name": "Suiten Ippeki",
                         "access_rules": [
-                            "stoneflylarva"
+                            "Stonefly Larva"
                         ],
                         "visibility_rules": [
                             "fishsanity_big"
@@ -1720,7 +1720,7 @@
                     {
                         "name": "White Clam",
                         "access_rules": [
-                            "metalspinner"
+                            "Metal Spinner"
                         ],
                         "visibility_rules": [],
                         "item_count": 1
@@ -1751,7 +1751,7 @@
                     {
                         "name": "River Barramundi",
                         "access_rules": [
-                            "versatilelure"
+                            "Versatile Lure"
                         ],
                         "visibility_rules": [],
                         "item_count": 1
@@ -1759,8 +1759,8 @@
                     {
                         "name": "Doman Crayfish",
                         "access_rules": [
-                            "stoneflylarva",
-                            "nightcrawler"
+                            "Stonefly Larva",
+                            "Nightcrawler"
                         ],
                         "visibility_rules": [],
                         "item_count": 1
@@ -1768,10 +1768,10 @@
                     {
                         "name": "Doman Trout",
                         "access_rules": [
-                            "suspendingminnow",
-                            "nightcrawler",
-                            "midgelarva",
-                            "metalspinner"
+                            "Suspending Minnow",
+                            "Nightcrawler",
+                            "Midge Larva",
+                            "Metal Spinner"
                         ],
                         "visibility_rules": [],
                         "item_count": 1
@@ -1779,7 +1779,7 @@
                     {
                         "name": "Glarramundi",
                         "access_rules": [
-                            "suspendingminnow"
+                            "Suspending Minnow"
                         ],
                         "visibility_rules": [
                             "fishsanity_big"
@@ -1812,7 +1812,7 @@
                     {
                         "name": "Silken Koi",
                         "access_rules": [
-                            "stoneflylarva"
+                            "Stonefly Larva"
                         ],
                         "visibility_rules": [
                             "fishsanity_timed"
@@ -1822,9 +1822,9 @@
                     {
                         "name": "Kotsu Zetsu",
                         "access_rules": [
-                            "suspendingminnow",
-                            "stoneflylarva",
-                            "metalspinner"
+                            "Suspending Minnow",
+                            "Stonefly Larva",
+                            "Metal Spinner"
                         ],
                         "visibility_rules": [],
                         "item_count": 1
@@ -1832,7 +1832,7 @@
                     {
                         "name": "Plum Gazer",
                         "access_rules": [
-                            "midgelarva"
+                            "Midge Larva"
                         ],
                         "visibility_rules": [],
                         "item_count": 1
@@ -1840,7 +1840,7 @@
                     {
                         "name": "Pandamoth",
                         "access_rules": [
-                            "midgelarva"
+                            "Midge Larva"
                         ],
                         "visibility_rules": [
                             "fishsanity_timed"
@@ -1850,10 +1850,10 @@
                     {
                         "name": "Doman Trout",
                         "access_rules": [
-                            "suspendingminnow",
-                            "nightcrawler",
-                            "midgelarva",
-                            "metalspinner"
+                            "Suspending Minnow",
+                            "Nightcrawler",
+                            "Midge Larva",
+                            "Metal Spinner"
                         ],
                         "visibility_rules": [],
                         "item_count": 1
@@ -1861,7 +1861,7 @@
                     {
                         "name": "Hagoromo Koi",
                         "access_rules": [
-                            "stoneflylarva"
+                            "Stonefly Larva"
                         ],
                         "visibility_rules": [
                             "fishsanity_big"
@@ -1894,7 +1894,7 @@
                     {
                         "name": "Yellow Prismfish",
                         "access_rules": [
-                            "suspendingminnow"
+                            "Suspending Minnow"
                         ],
                         "visibility_rules": [],
                         "item_count": 1
@@ -1902,7 +1902,7 @@
                     {
                         "name": "Blue Prismfish",
                         "access_rules": [
-                            "suspendingminnow"
+                            "Suspending Minnow"
                         ],
                         "visibility_rules": [],
                         "item_count": 1
@@ -1910,7 +1910,7 @@
                     {
                         "name": "Violet Prismfish",
                         "access_rules": [
-                            "stoneflylarva"
+                            "Stonefly Larva"
                         ],
                         "visibility_rules": [
                             "fishsanity_timed"
@@ -1920,7 +1920,7 @@
                     {
                         "name": "Red Prismfish",
                         "access_rules": [
-                            "stoneflylarva"
+                            "Stonefly Larva"
                         ],
                         "visibility_rules": [
                             "fishsanity_timed"
@@ -1930,7 +1930,7 @@
                     {
                         "name": "White Goldfish",
                         "access_rules": [
-                            "stoneflylarva"
+                            "Stonefly Larva"
                         ],
                         "visibility_rules": [],
                         "item_count": 1
@@ -1938,7 +1938,7 @@
                     {
                         "name": "Firelight Goldfish",
                         "access_rules": [
-                            "stoneflylarva"
+                            "Stonefly Larva"
                         ],
                         "visibility_rules": [],
                         "item_count": 1
@@ -1946,7 +1946,7 @@
                     {
                         "name": "Indigo Prismfish",
                         "access_rules": [
-                            "stoneflylarva"
+                            "Stonefly Larva"
                         ],
                         "visibility_rules": [],
                         "item_count": 1
@@ -1954,7 +1954,7 @@
                     {
                         "name": "Green Prismfish",
                         "access_rules": [
-                            "stoneflylarva"
+                            "Stonefly Larva"
                         ],
                         "visibility_rules": [
                             "fishsanity_timed"
@@ -1964,7 +1964,7 @@
                     {
                         "name": "Warden of the Seven Hues",
                         "access_rules": [
-                            "stoneflylarva"
+                            "Stonefly Larva"
                         ],
                         "visibility_rules": [
                             "fishsanity_big"
@@ -1997,8 +1997,8 @@
                     {
                         "name": "Doman Crayfish",
                         "access_rules": [
-                            "stoneflylarva",
-                            "nightcrawler"
+                            "Stonefly Larva",
+                            "Nightcrawler"
                         ],
                         "visibility_rules": [],
                         "item_count": 1
@@ -2006,10 +2006,10 @@
                     {
                         "name": "Doman Trout",
                         "access_rules": [
-                            "suspendingminnow",
-                            "nightcrawler",
-                            "midgelarva",
-                            "metalspinner"
+                            "Suspending Minnow",
+                            "Nightcrawler",
+                            "Midge Larva",
+                            "Metal Spinner"
                         ],
                         "visibility_rules": [],
                         "item_count": 1
@@ -2017,7 +2017,7 @@
                     {
                         "name": "Maidens Heart",
                         "access_rules": [
-                            "nightcrawler"
+                            "Nightcrawler"
                         ],
                         "visibility_rules": [],
                         "item_count": 1
@@ -2025,7 +2025,7 @@
                     {
                         "name": "Pomegranate Trout",
                         "access_rules": [
-                            "nightcrawler"
+                            "Nightcrawler"
                         ],
                         "visibility_rules": [
                             "fishsanity_big"
@@ -2058,8 +2058,8 @@
                     {
                         "name": "Doman Crayfish",
                         "access_rules": [
-                            "stoneflylarva",
-                            "nightcrawler"
+                            "Stonefly Larva",
+                            "Nightcrawler"
                         ],
                         "visibility_rules": [],
                         "item_count": 1
@@ -2067,10 +2067,10 @@
                     {
                         "name": "Doman Trout",
                         "access_rules": [
-                            "suspendingminnow",
-                            "nightcrawler",
-                            "midgelarva",
-                            "metalspinner"
+                            "Suspending Minnow",
+                            "Nightcrawler",
+                            "Midge Larva",
+                            "Metal Spinner"
                         ],
                         "visibility_rules": [],
                         "item_count": 1
@@ -2078,7 +2078,7 @@
                     {
                         "name": "Doman Eel",
                         "access_rules": [
-                            "versatilelure"
+                            "Versatile Lure"
                         ],
                         "visibility_rules": [
                             "fishsanity_timed"
@@ -2119,7 +2119,7 @@
                     {
                         "name": "Nogoi",
                         "access_rules": [
-                            "nightcrawler"
+                            "Nightcrawler"
                         ],
                         "visibility_rules": [],
                         "item_count": 1

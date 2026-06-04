@@ -861,63 +861,67 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:60"
                 ],
                 "visibility_rules": [
-                    "level_cap:60, fishsanity_normal"
                 ],
                 "sections": [
                     {
                         "name": "Lungfish",
                         "access_rules": [
-                            "bruteleech"
+                            "^$fishAccess|Azys Lla|Lungfish"
                         ],
                         "visibility_rules": [
-                            "fishsanity_timed"
+                            "$fishVisibility|Lungfish"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Tiny Axolotl",
                         "access_rules": [
-                            "bruteleech"
+                            "^$fishAccess|Azys Lla|Tiny Axolotl"
                         ],
                         "visibility_rules": [
-                            "fishsanity_timed"
+                            "$fishVisibility|Tiny Axolotl"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Aether Eye",
                         "access_rules": [
-                            "pursewebspider"
+                            "^$fishAccess|Azys Lla|Aether Eye"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Aether Eye"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Crystalfin",
                         "access_rules": [
-                            "bladedsteeljig"
+                            "^$fishAccess|Azys Lla|Crystalfin"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Crystalfin"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Fountfish",
                         "access_rules": [
-                            "goblinjig"
+                            "^$fishAccess|Azys Lla|Fountfish"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Fountfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Hundred-eyed Axolotl",
                         "access_rules": [
-                            "pursewebspider"
+                            "^$fishAccess|Azys Lla|Hundred-eyed Axolotl"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Hundred-eyed Axolotl"
                         ],
                         "item_count": 1
                     }
@@ -938,85 +942,97 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:60"
                 ],
                 "visibility_rules": [
-                    "level_cap:60, fishsanity_normal"
                 ],
                 "sections": [
                     {
                         "name": "Sky Faerie",
                         "access_rules": [
-                            "redballoon"
+                            "^$fishAccess|Azys Lla|Sky Faerie"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Sky Faerie"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Sky Sweeper",
                         "access_rules": [
-                            "giantcranefly"
+                            "^$fishAccess|Azys Lla|Sky Sweeper"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Sky Sweeper"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Rudderfish",
                         "access_rules": [
-                            "giantcranefly"
+                            "^$fishAccess|Azys Lla|Rudderfish"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Rudderfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Bomb Puffer",
                         "access_rules": [
-                            "redballoon"
+                            "^$fishAccess|Azys Lla|Bomb Puffer"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Bomb Puffer"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Unidentified Flying Biomass",
                         "access_rules": [
-                            "redballoon"
+                            "^$fishAccess|Azys Lla|Unidentified Flying Biomass"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Unidentified Flying Biomass"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Cobrafish",
                         "access_rules": [
-                            "giantcranefly"
+                            "^$fishAccess|Azys Lla|Cobrafish"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Cobrafish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Stupendemys",
                         "access_rules": [
-                            "giantcranefly"
+                            "^$fishAccess|Azys Lla|Stupendemys"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Stupendemys"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Tupuxuara",
                         "access_rules": [
-                            "redballoon"
+                            "^$fishAccess|Azys Lla|Tupuxuara"
                         ],
                         "visibility_rules": [
-                            "fishsanity_timed"
+                            "$fishVisibility|Tupuxuara"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Crystal Pigeon",
                         "access_rules": [
-                            "giantcranefly"
+                            "^$fishAccess|Azys Lla|Crystal Pigeon"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Crystal Pigeon"
                         ],
                         "item_count": 1
                     }
@@ -1037,53 +1053,58 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:58"
+                    
                 ],
                 "visibility_rules": [
-                    "level_cap:58, fishsanity_normal"
                 ],
                 "sections": [
                     {
                         "name": "Bullwhip",
                         "access_rules": [
-                            "fiendworm"
+                            "^$fishAccess|Azys Lla|Bullwhip"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Bullwhip"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "High Allagan Helmet",
                         "access_rules": [
-                            "fiendworm"
+                            "^$fishAccess|Azys Lla|High Allagan Helmet"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|High Allagan Helmet"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Platinum Fish",
                         "access_rules": [
-                            "fiendworm"
+                            "^$fishAccess|Azys Lla|Platinum Fish"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Platinum Fish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Blood Skipper",
                         "access_rules": [
-                            "fiendworm"
+                            "^$fishAccess|Azys Lla|Blood Skipper"
                         ],
                         "visibility_rules": [
-                            "fishsanity_timed"
+                            "$fishVisibility|Blood Skipper"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Augmented High Allagan Helmet",
                         "access_rules": [
-                            "fiendworm"
+                            "^$fishAccess|Azys Lla|Augmented High Allagan Helmet"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Augmented High Allagan Helmet"
                         ],
                         "item_count": 1
                     }
@@ -1104,61 +1125,68 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:59"
+                    
                 ],
                 "visibility_rules": [
-                    "level_cap:59, fishsanity_normal"
                 ],
                 "sections": [
                     {
                         "name": "Bullwhip",
                         "access_rules": [
-                            "fiendworm"
+                            "^$fishAccess|Azys Lla|Bullwhip"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Bullwhip"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Platinum Fish",
                         "access_rules": [
-                            "fiendworm"
+                            "^$fishAccess|Azys Lla|Platinum Fish"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Platinum Fish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Aetherochemical Compound 123",
                         "access_rules": [
-                            "fiendworm"
+                            "^$fishAccess|Azys Lla|Aetherochemical Compound #123"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Aetherochemical Compound #123"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Proto-hropken",
                         "access_rules": [
-                            "fiendworm"
+                            "^$fishAccess|Azys Lla|Proto-hropken"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Proto-hropken"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Blood Skipper",
                         "access_rules": [
-                            "fiendworm"
+                            "^$fishAccess|Azys Lla|Blood Skipper"
                         ],
                         "visibility_rules": [
-                            "fishsanity_timed"
+                            "$fishVisibility|Blood Skipper"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Aetherochemical Compound 666",
                         "access_rules": [
-                            "fiendworm"
+                            "^$fishAccess|Azys Lla|Aetherochemical Compound #666"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Aetherochemical Compound #666"
                         ],
                         "item_count": 1
                     }
@@ -1179,61 +1207,68 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:60"
+                    
                 ],
                 "visibility_rules": [
-                    "level_cap:60, fishsanity_normal"
                 ],
                 "sections": [
                     {
                         "name": "Platinum Fish",
                         "access_rules": [
-                            "fiendworm"
+                            "^$fishAccess|Azys Lla|Platinum Fish"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Platinum Fish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Azysfish",
                         "access_rules": [
-                            "fiendworm"
+                            "^$fishAccess|Azys Lla|Azysfish"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "fishVisibility|Azysfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Mucous Minnow",
                         "access_rules": [
-                            "fiendworm"
+                            "^$fishAccess|Azys Lla|Mucous Minnow"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Mucous Minnow"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Oil Eel",
                         "access_rules": [
-                            "fiendworm"
+                            "^$fishAccess|Azys Lla|Oil Eel"
                         ],
-                        "visibility_rules": ["fishsanity_timed"],
+                        "visibility_rules": [
+                            "$fishVisibility|Oil Eel"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Oliphants Trunk",
                         "access_rules": [
-                            "fiendworm"
+                            "^$fishAccess|Azys Lla|Oliphant's Trunk"
                         ],
                         "visibility_rules": [
-                            "fishsanity_timed"
+                            "$fishVisibility|Oliphant's Trunk"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Ceti",
                         "access_rules": [
-                            "fiendworm"
+                            "^$fishAccess|Azys Lla|Ceti"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Ceti"
                         ],
                         "item_count": 1
                     }
@@ -1254,81 +1289,88 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:60"
+                    
                 ],
                 "visibility_rules": [
-                    "level_cap:60, fishsanity_normal"
                 ],
                 "sections": [
                     {
                         "name": "Platinum Fish",
                         "access_rules": [
-                            "fiendworm"
+                            "^$fishAccess|Azys Lla|Platinum Fish"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Platinum Fish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Azysfish",
                         "access_rules": [
-                            "fiendworm"
+                            "^$fishAccess|Azys Lla|Azysfish"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Azysfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Oil Eel",
                         "access_rules": [
-                            "fiendworm"
+                            "^$fishAccess|Azys Lla|Oil Eel"
                         ],
-                        "visibility_rules": ["fishsanity_timed"],
+                        "visibility_rules": [
+                            "$fishVisibility|Oil Eel"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Jeweled Jellyfish",
                         "access_rules": [
-                            "fiendworm"
+                            "^$fishAccess|Azys Lla|Jeweled Jellyfish"
                         ],
-                        "visibility_rules": ["fishsanity_timed"],
+                        "visibility_rules": [
+                            "$fishVisibility|Jeweled Jellyfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Barreleye",
                         "access_rules": [
-                            "fiendworm"
+                            "^$fishAccess|Azys Lla|Barreleye"
                         ],
                         "visibility_rules": [
-                            "fishsanity_timed"
+                            "$fishVisibility|Barreleye"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Functional Proto-hropken",
                         "access_rules": [
-                            "fiendworm"
+                            "^$fishAccess|Azys Lla|Functional Proto-hropken"
                         ],
                         "visibility_rules": [
-                            "fishsanity_timed"
+                            "$fishVisibility|Functional Proto-hropken"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Allagan Bladeshark",
                         "access_rules": [
-                            "fiendworm"
+                            "^$fishAccess|Azys Lla|Allagan Bladeshark"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Allagan Bladeshark"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Opabinia",
                         "access_rules": [
-                            "fiendworm"
+                            "^$fishAccess|Azys Lla|Opabinia"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Opabinia"
                         ],
                         "item_count": 1
                     }
@@ -1349,61 +1391,67 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:59"
                 ],
                 "visibility_rules": [
-                    "level_cap:59, fishsanity_normal"
                 ],
                 "sections": [
                     {
                         "name": "Aether Eye",
                         "access_rules": [
-                            "pursewebspider"
+                            "^$fishAccess|Azys Lla|Aether Eye"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Aether Eye"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Fountfish",
                         "access_rules": [
-                            "goblinjig"
+                            "^$fishAccess|Azys Lla|Fountfish"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Fountfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Euphotic Pirarucu",
                         "access_rules": [
-                            "bruteleech"
+                            "^$fishAccess|Azys Lla|Euphotic Pirarucu"
                         ],
                         "visibility_rules": [
-                            "fishsanity_timed"
+                            "$fishVisibility|Euphotic Pirarucu"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Rockclimber",
                         "access_rules": [
-                            "bladedsteeljig"
+                            "^$fishAccess|Azys Lla|Rockclimber"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Rockclimber"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Yalm Lobster",
                         "access_rules": [
-                            "pursewebspider"
+                            "^$fishAccess|Azys Lla|Yalm Lobster"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Yalm Lobster"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Aphotic Pirarucu",
                         "access_rules": [
-                            "pursewebspider"
+                            "^$fishAccess|Azys Lla|Aphotic Pirarucu"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Aphotic Pirarucu"
                         ],
                         "item_count": 1
                     }

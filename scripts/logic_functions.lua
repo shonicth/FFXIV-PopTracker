@@ -1,29 +1,64 @@
 function fatesanity_disabled()
     return Tracker:ProviderCountForCode('fatesanity') == 0
 end
+function fishsanity_check()
+    if fishtable[fish].timed ~= nil
+        return fishtable[fish].timed
+    end
+    return 0
+end
 
-function FishAccess(location, reqFshLevel)
+
+--function FishAccess(location, reqFshLevel)
+--  local fshLevels = Tracker:ProviderCountForCode("5fshlevels")
+--  if fshLevels < ((reqFshLevel // 5) * 5)  then
+--    return AccessibilityLevel.None
+--  end
+--  logicFish = logicFishList[location]
+--  outLogicFish = outLogicFishList[location]
+--  if logicFish ~= nil then
+--    for _, item in pairs(logicFish) do
+--      if Tracker:ProviderCountForCode(item) > 0 then
+--        return AccessibilityLevel.Normal
+--      end
+--    end
+--  end
+--  if outLogicFish ~= nil then
+--    for _, item in pairs(outLogicFish) do
+--      if Tracker:ProviderCountForCode(item) > 0 then
+--        return AccessibilityLevel.SequenceBreak
+--      end
+--    end
+--  end
+--  return AccessibilityLevel.None
+--end
+
+function fishAccess(zone, fish)
   local fshLevels = Tracker:ProviderCountForCode("5fshlevels")
+  local reqFshLevel = fishtable[fish].lvl
   if fshLevels < ((reqFshLevel // 5) * 5)  then
     return AccessibilityLevel.None
   end
-  logicFish = logicFishList[location]
-  outLogicFish = outLogicFishList[location]
-  if logicFish ~= nil then
-    for _, item in pairs(logicFish) do
-      if Tracker:ProviderCountForCode(item) > 0 then
-        return AccessibilityLevel.Normal
-      end
+  local logicBait = fishtable[fish].zones[zone]
+    if logicBait ~= nil then
+        for _, item in ipairs(logicBait) do
+            if Tracker:ProviderCountForCode(item) > 0 then
+                return AccessibilityLevel.Normal
+            end
+        end
     end
-  end
-  if outLogicFish ~= nil then
-    for _, item in pairs(outLogicFish) do
-      if Tracker:ProviderCountForCode(item) > 0 then
-        return AccessibilityLevel.SequenceBreak
-      end
+    return AccessibilityLevel.None
+end
+
+function fishVisibility(fish)
+  local level_cap = Tracker:ProviderCountForCode("level_cap")
+  local reqFshLevel = fishtable[fish].lvl
+  local timed = fishsanity_check(fish)
+  if fshLevels > ((reqFshLevel // 5) * 5) and Tracker:FindObjectForCode("fishsanity").CurrentStage > timed then
+            return true
+        end
     end
-  end
-  return AccessibilityLevel.None
+    return false
 end
 
 function fateMinLevelAccess(reqLevel)

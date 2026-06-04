@@ -486,91 +486,109 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:1"
+                    
                 ],
                 "visibility_rules": [
-                    "fishsanity_normal"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Merlthor Goby",
                         "access_rules": [
-                            "^$FishAccess|MerlthorGobyZephyrDrift|3"
+                            "^$fishAccess|Middle La Noscea|Merlthor Goby"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Merlthor Goby"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Lominsan Anchovy",
                         "access_rules": [
-                            "^$FishAccess|LominsanAnchovyZephyrDrift|3"
+                            "^$fishAccess|Middle La Noscea|Lominsan Anchovy"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Lominsan Anchovy"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Finger Shrimp",
                         "access_rules": [
-                            "^$FishAccess|FingerShrimpZephyrDrift|4"
+                            "^$fishAccess|Middle La Noscea|Finger Shrimp"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Finger Shrimp"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Ocean Cloud",
                         "access_rules": [
-                            "^$FishAccess|OceanCloudZephyrDrift|6"
+                            "^$fishAccess|Middle La Noscea|Ocean Cloud"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Ocean Cloud"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Sea Cucumber",
                         "access_rules": [
-                            "^$FishAccess|SeaCucumberZephyrDrift|7"
+                            "^$fishAccess|Middle La Noscea|Sea Cucumber"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Sea Cucumber"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Harbor Herring",
                         "access_rules": [
-                            "^$FishAccess|HarborHerringZephyrDrift|7"
+                            "^$fishAccess|Middle La Noscea|Harbor Herring"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Harbor Herring"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Coral Butterfly",
                         "access_rules": [
-                            "^$FishAccess|CoralButterflyZephyrDrift|9"
+                            "^$fishAccess|Middle La Noscea|Coral Butterfly"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Coral Butterfly"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Angelfish",
                         "access_rules": [
-                            "^$FishAccess|AngelfishZephyrDrift|19"
+                            "^$fishAccess|Middle La Noscea|Angelfish"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Angelfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Blue Octopus",
                         "access_rules": [
-                            "^$FishAccess|BlueOctopusZephyrDrift|21"
+                            "^$fishAccess|Middle La Noscea|Blue Octopus"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Blue Octopus"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Zalera",
                         "access_rules": [
-                            "^$FishAccess|ZaleraZephyrDrift|50"
+                            "^$fishAccess|Middle La Noscea|Zalera"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Zalera"
                         ],
                         "item_count": 1
                     }
@@ -591,91 +609,109 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:5"
+                    
                 ],
                 "visibility_rules": [
-                    "fishsanity_normal"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Merlthor Goby",
                         "access_rules": [
-                            "^$FishAccess|MerlthorGobySummerford|3"
+                            "^$fishAccess|Middle La Noscea|Merlthor Goby"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Merlthor Goby"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Finger Shrimp",
                         "access_rules": [
-                            "^$FishAccess|FingerShrimpSummerford|4"
+                            "^$fishAccess|Middle La Noscea|Finger Shrimp"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Finger Shrimp"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "White Coral",
                         "access_rules": [
-                            "^$FishAccess|WhiteCoralSummerford|5"
+                            "^$fishAccess|Middle La Noscea|White Coral"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|White Coral"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Ocean Cloud",
                         "access_rules": [
-                            "^$FishAccess|OceanCloudSummerford|6"
+                            "^$fishAccess|Middle La Noscea|Ocean Cloud"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Ocean Cloud"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Harbor Herring",
                         "access_rules": [
-                            "^$FishAccess|HarborHerringSummerford|7"
+                            "^$fishAccess|Middle La Noscea|Harbor Herring"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Harbor Herring"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Vongola Clam",
                         "access_rules": [
-                            "^$FishAccess|VongolaClamSummerford|8"
+                            "^$fishAccess|Middle La Noscea|Vongola Clam"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Vongola Clam"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Blue Octopus",
                         "access_rules": [
-                            "^$FishAccess|BlueOctopusSummerford|21"
+                            "^$fishAccess|Middle La Noscea|Blue Octopus"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Blue Octopus"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Ogre Barracuda",
                         "access_rules": [
-                            "^$FishAccess|OgreBarracudaSummerford|25"
+                            "^$fishAccess|Middle La Noscea|Ogre Barracuda"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibilityOgre Barracuda"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Silver Shark",
                         "access_rules": [
-                            "^$FishAccess|SilverSharkSummerford|41"
+                            "^$fishAccess|Middle La Noscea|Silver Shark"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Silver Shark"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Gigantshark",
                         "access_rules": [
-                            "^$FishAccess|GigantsharkSummerford|50"
+                            "^$fishAccess|Middle La Noscea|Gigantshark"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Gigantshark"
                         ],
                         "item_count": 1
                     }
@@ -696,59 +732,69 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:1"
+                    
                 ],
                 "visibility_rules": [
-                    "fishsanity_normal"
+
                 ],
                 "sections": [
                     {
                         "name": "Crayfish",
                         "access_rules": [
-                            "^$FishAccess|CrayfishRogueRiver|2"
+                            "^$fishAccess|Middle La Noscea|Crayfish"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Crayfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Chub",
                         "access_rules": [
-                            "^$FishAccess|ChubRogueRiver|3"
+                            "^$fishAccess|Middle La Noscea|Chub"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Chub"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Dwarf Catfish",
                         "access_rules": [
-                            "^$FishAccess|DwarfCatfishRogueRiver|4"
+                            "^$fishAccess|Middle La Noscea|Dwarf Catfish"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Dwarf Catfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Princess Trout",
                         "access_rules": [
-                            "^$FishAccess|PrincessTroutRogueRiver|5"
+                            "^$fishAccess|Middle La Noscea|Princess Trout"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Princess Trout"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "La Noscean Perch",
                         "access_rules": [
-                            "^$FishAccess|LaNosceanPerchRogueRiver|18"
+                            "^$fishAccess|Middle La Noscea|La Noscean Perch"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|La Noscean Perch"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Beguiler Chub",
                         "access_rules": [
-                            "^$FishAccess|BeguilerChubRogueRiver|50"
+                            "^$fishAccess|Middle La Noscea|Beguiler Chub"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Beguiler Chub"
                         ],
                         "item_count": 1
                     }
@@ -769,67 +815,79 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:1"
+                    
                 ],
                 "visibility_rules": [
-                    "fishsanity_normal"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Crayfish",
                         "access_rules": [
-                            "^$FishAccess|CrayfishWestAgelyssRiver|2"
+                            "^$fishAccess|Middle La Noscea|Crayfish"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Crayfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Chub",
                         "access_rules": [
-                            "^$FishAccess|ChubWestAgelyssRiver|3"
+                            "^$fishAccess|Middle La Noscea|Chub"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Chub"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Dwarf Catfish",
                         "access_rules": [
-                            "^$FishAccess|DwarfCatfishWestAgelyssRiver|4"
+                            "^$fishAccess|Middle La Noscea|Dwarf Catfish"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Dwarf Catfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Princess Trout",
                         "access_rules": [
-                            "^$FishAccess|PrincessTroutWestAgelyssRiver|5"
+                            "^$fishAccess|Middle La Noscea|Princess Trout"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Princess Trout"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Gudgeon",
                         "access_rules": [
-                            "^$FishAccess|GudgeonWestAgelyssRiver|8"
+                            "^$fishAccess|Middle La Noscea|Gudgeon"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Gudgeon"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "La Noscean Perch",
                         "access_rules": [
-                            "^$FishAccess|LaNosceanPerchWestAgelyssRiver|18"
+                            "^$fishAccess|Middle La Noscea|La Noscean Perch"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|La Noscean Perch"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Great Gudgeon",
                         "access_rules": [
-                            "^$FishAccess|GreatGudgeonWestAgelyssRiver|50"
+                            "^$fishAccess|Middle La Noscea|Great Gudgeon"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Great Gudgeon"
                         ],
                         "item_count": 1
                     }
@@ -850,75 +908,89 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:5"
+                    
                 ],
                 "visibility_rules": [
-                    "fishsanity_normal"
+
                 ],
                 "sections": [
                     {
                         "name": "Chub",
                         "access_rules": [
-                            "^$FishAccess|ChubNymRiver|3"
+                            "^$fishAccess|Middle La Noscea|Chub"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Chub"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Dwarf Catfish",
                         "access_rules": [
-                            "^$FishAccess|DwarfCatfishNymRiver|4"
+                            "^$fishAccess|Middle La Noscea|Dwarf Catfish"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Dwarf Catfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Princess Trout",
                         "access_rules": [
-                            "^$FishAccess|PrincessTroutNymRiver|5"
+                            "^$fishAccess|Middle La Noscea|Princess Trout"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Princess Trout"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Dusk Goby",
                         "access_rules": [
-                            "^$FishAccess|DuskGobyNymRiver|6"
+                            "^$fishAccess|Middle La Noscea|Dusk Goby"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Dusk Goby"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Gudgeon",
                         "access_rules": [
-                            "^$FishAccess|GudgeonNymRiver|8"
+                            "^$fishAccess|Middle La Noscea|Gudgeon"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Gudgeon"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Maiden Carp",
                         "access_rules": [
-                            "^$FishAccess|MaidenCarpNymRiver|10"
+                            "^$fishAccess|Middle La Noscea|Maiden Carp"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Maiden Carp"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "La Noscean Perch",
                         "access_rules": [
-                            "^$FishAccess|LaNosceanPerchNymRiver|18"
+                            "^$fishAccess|Middle La Noscea|La Noscean Perch"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|La Noscean Perch"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "High Perch",
                         "access_rules": [
-                            "^$FishAccess|HighPerchNymRiver|50"
+                            "^$fishAccess|Middle La Noscea|High Perch"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|High Perch"
                         ],
                         "item_count": 1
                     }
@@ -939,75 +1011,89 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:15"
+                    
                 ],
                 "visibility_rules": [
-                    "fishsanity_normal"
+
                 ],
                 "sections": [
                     {
                         "name": "Dwarf Catfish",
                         "access_rules": [
-                            "^$FishAccess|DwarfCatfishWoadWhisperCanyon|4"
+                            "^$fishAccess|Middle La Noscea|Dwarf Catfish"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Dwarf Catfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Dusk Goby",
                         "access_rules": [
-                            "^$FishAccess|DuskGobyWoadWhisperCanyon|6"
+                            "^$fishAccess|Middle La Noscea|Dusk Goby"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Dusk Goby"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "River Crab",
                         "access_rules": [
-                            "^$FishAccess|RiverCrabWoadWhisperCanyon|15"
+                            "^$fishAccess|Middle La Noscea|River Crab"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|River Crab"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "La Noscean Perch",
                         "access_rules": [
-                            "^$FishAccess|LaNosceanPerchWoadWhisperCanyon|18"
+                            "^$fishAccess|Middle La Noscea|La Noscean Perch"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|La Noscean Perch"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Copperfish",
                         "access_rules": [
-                            "^$FishAccess|CopperfishWoadWhisperCanyon|20"
+                            "^$fishAccess|Middle La Noscea|Copperfish"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Copperfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Eunuch Crayfish",
                         "access_rules": [
-                            "^$FishAccess|EunuchCrayfishWoadWhisperCanyon|22"
+                            "^$fishAccess|Middle La Noscea|Eunuch Crayfish"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Eunuch Crayfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Glass Perch",
                         "access_rules": [
-                            "^$FishAccess|GlassPerchWoadWhisperCanyon|24"
+                            "^$fishAccess|Middle La Noscea|Glass Perch"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Glass Perch"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Crystal Perch",
                         "access_rules": [
-                            "^$FishAccess|CrystalPerchWoadWhisperCanyon|50"
+                            "^$fishAccess|Middle La Noscea|Crystal Perch"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Crystal Perch"
                         ],
                         "item_count": 1
                     }

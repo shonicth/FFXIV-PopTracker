@@ -104,60 +104,98 @@
                 "access_rules": [
                     
                 ],
-                "visibility_rules":["fishsanity_normal"],
+                "visibility_rules":[
+                    
+                ],
                 "sections": [
                     {
                         "name": "Merlthor Goby",
-                        "access_rules": ["^$FishAccess|MerlthorGobyLowerDecks|3"],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Limsa Lominsa|Merlthor Goby"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Merlthor Goby"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Lominsan Anchovy",
-                        "access_rules": ["^$FishAccess|LominsanAnchovyLowerDecks|3"],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Limsa Lominsa|Lominsan Anchovy"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Lominsan Anchovy"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Malm Kelp",
-                        "access_rules": ["^$FishAccess|MalmKelpLowerDecks|4"],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Limsa Lominsa|Malm Kelp"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Malm Kelp"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Finger Shrimp",
-                        "access_rules": ["^$FishAccess|FingerShrimpLowerDecks|4"],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Limsa Lominsa|Finger Shrimp"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Finger Shrimp"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Ocean Cloud",
-                        "access_rules": ["^$FishAccess|OceanCloudLowerDecks|6"],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Limsa Lominsa|Finger Shrimp"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Finger Shrimp"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Harbor Herring",
-                        "access_rules": ["^$FishAccess|HarborHerringLowerDecks|7"],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Limsa Lominsa|Harbor Herring"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Harbor Herring"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Coral Butterfly",
-                        "access_rules": ["^$FishAccess|CoralButterflyLowerDecks|9"],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Limsa Lominsa|Coral Butterfly"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Coral Butterfly"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Blue Octopus",
-                        "access_rules": ["^$FishAccess|BlueOctopusLowerDecks|21"],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Limsa Lominsa|Blue Octopus"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Blue Octopus"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Octomammoth",
-                        "access_rules": ["^$FishAccess|OctomammothLowerDecks|50"],
-                        "visibility_rules": ["fishsanity_big"],
+                        "access_rules": [
+                            "^$fishAccess|Limsa Lominsa|Octomammoth"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Octomammoth"
+                        ],
                         "item_count": 1
                     }
                 ],
