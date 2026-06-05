@@ -904,10 +904,10 @@
                     {
                         "name": "Striped Goby",
                         "access_rules": [
-                            "^$fishAccess|East Shroud|"
+                            "^$fishAccess|East Shroud|Striped Goby"
                         ],
                         "visibility_rules": [
-                            "$fishVisibility|"
+                            "$fishVisibility|Striped Goby"
                         ],
                         "item_count": 1
                     },
@@ -1140,20 +1140,20 @@
                     {
                         "name": "Ala Mhigan Fighting Fish",
                         "access_rules": [
-                            "^$fishAccess|East Shroud|"
+                            "^$fishAccess|East Shroud|Ala Mhigan Fighting Fish"
                         ],
                         "visibility_rules": [
-                            "$fishVisibility|"
+                            "$fishVisibility|Ala Mhigan Fighting Fish"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Bluebell Salmon",
                         "access_rules": [
-                            "^$fishAccess|East Shroud|Ala Mhigan Fighting Fish"
+                            "^$fishAccess|East Shroud|Bluebell Salmon"
                         ],
                         "visibility_rules": [
-                            "$fishVisibility|Ala Mhigan Fighting Fish"
+                            "$fishVisibility|Bluebell Salmon"
                         ],
                         "item_count": 1
                     },
