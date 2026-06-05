@@ -149,67 +149,79 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:63"
+                    
                 ],
                 "visibility_rules": [
-                    "level_cap:63, fishsanity_normal"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Hanatatsu",
                         "access_rules": [
-                            "Metal Spinner"
+                            "^$fishAccess|Kugane|Hanatatsu"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Hanatatsu"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Grinning Anchovy",
                         "access_rules": [
-                            "Metal Spinner"
+                            "^$fishAccess|Kugane|Grinning Anchovy"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Grinning Anchovy"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Glass Tuna",
                         "access_rules": [
-                            "Metal Spinner"
+                            "^$fishAccess|Kugane|Glass Tuna"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Glass Tuna"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Ruby Shrimp",
                         "access_rules": [
-                            "Metal Spinner"
+                            "^$fishAccess|Kugane|Ruby Shrimp"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Ruby Shrimp"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Striped Fugu",
                         "access_rules": [
-                            "Metal Spinner"
+                            "^$fishAccess|Kugane|Striped Fugu"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Striped Fugu"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Ribbon Eel",
                         "access_rules": [
-                            "Metal Spinner"
+                            "^$fishAccess|Kugane|Ribbon Eel"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Ribbon Eel"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Rising Dragon",
                         "access_rules": [
-                            "Metal Spinner"
+                            "^$fishAccess|Kugane|Rising Dragon"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Rising Dragon"
                         ],
                         "item_count": 1
                     }

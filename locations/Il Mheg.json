@@ -595,53 +595,59 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "$leveling:74"
+                    
                 ],
                 "visibility_rules": [
-                    "fishsanity_normal, level_cap:74"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Brightmirror Clam",
                         "access_rules": [
-                            "Fruit Worm"
+                            "^$fishAccess|Il Mheg|Brightmirror Clam"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Brightmirror Clam"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Grey Skipper",
                         "access_rules": [
-                            "Fruit Worm",
-                            "Metal Spinner"
+                            "^$fishAccess|Il Mheg|Grey Skipper"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Grey Skipper"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Cherry Herring",
                         "access_rules": [
-                            "Marble Nymph"
+                            "^$fishAccess|Il Mheg|Cherry Herring"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Cherry Herring"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Cerulean Loach",
                         "access_rules": [
-                            "Fruit Worm",
-                            "Metal Spinner"
+                            "^$fishAccess|Il Mheg|Cerulean Loach"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Cerulean Loach"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Dammroen Herring",
                         "access_rules": [
-                            "Baitbugs"
+                            "^$fishAccess|Il Mheg|Dammroen Herring"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Dammroen Herring"
                         ],
                         "item_count": 1
                     }
@@ -662,87 +668,99 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "$leveling:73"
+                    
                 ],
                 "visibility_rules": [
-                    "fishsanity_normal, level_cap:73"
+
                 ],
                 "sections": [
                     {
                         "name": "Calico Trout",
                         "access_rules": [
-                            "Fruit Worm"
+                            "^$fishAccess|Il Mheg|Calico Trout"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Calico Trout"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Official Ball",
                         "access_rules": [
-                            "Marble Nymph"
+                            "^$fishAccess|Il Mheg|Official Ball"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Official Ball"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Grey Skipper",
                         "access_rules": [
-                            "Fruit Worm",
-                            "Metal Spinner"
+                            "^$fishAccess|Il Mheg|Grey Skipper"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Grey Skipper"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Rebel",
                         "access_rules": [
-                            "Marble Nymph"
+                            "^$fishAccess|Il Mheg|Rebel"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Rebel"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Wild Red Betta",
                         "access_rules": [
-                            "Baitbugs"
+                            "^$fishAccess|Il Mheg|Wild Red Betta"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Wild Red Betta"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Cerulean Loach",
                         "access_rules": [
-                            "Fruit Worm",
-                            "Metal Spinner"
+                            "^$fishAccess|Il Mheg|Cerulean Loach"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Cerulean Loach"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "The Sound of Fury",
                         "access_rules": [
-                            "Baitbugs"
+                            "^$fishAccess|Il Mheg|The Sound of Fury"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|The Sound of Fury"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Fuchsia Bloom",
                         "access_rules": [
-                            "Robber Ball"
+                            "^$fishAccess|Il Mheg|Fuchsia Bloom"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Fuchsia Bloom"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Ealad Skaan",
                         "access_rules": [
-                            "Baitbugs"
+                            "^$fishAccess|Il Mheg|Ealad Skaan"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Ealad Skaan"
                         ],
                         "item_count": 1
                     }
@@ -763,53 +781,59 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "$leveling:74"
+                    
                 ],
                 "visibility_rules": [
-                    "fishsanity_normal, level_cap:74"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Spotted Blue-eye",
                         "access_rules": [
-                            "Marble Nymph"
+                            "^$fishAccess|Il Mheg|Spotted Blue-eye"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Spotted Blue-eye"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Grey Skipper",
                         "access_rules": [
-                            "Fruit Worm",
-                            "Metal Spinner"
+                            "^$fishAccess|Il Mheg|Grey Skipper"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Grey Skipper"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Blood-eyed Frog",
                         "access_rules": [
-                            "Metal Spinner"
+                            "^$fishAccess|Il Mheg|Blood-eyed Frog"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Blood-eyed Frog"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Cerulean Loach",
                         "access_rules": [
-                            "Fruit Worm",
-                            "Metal Spinner"
+                            "^$fishAccess|Il Mheg|Cerulean Loach"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Cerulean Loach"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Fae Rainbow",
                         "access_rules": [
-                            "Marble Nymph"
+                            "^$fishAccess|Il Mheg|Fae Rainbow"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Fae Rainbow"
                         ],
                         "item_count": 1
                     }
@@ -830,61 +854,69 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "$leveling:74"
+                    
                 ],
                 "visibility_rules": [
-                    "fishsanity_normal, level_cap:74"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Official Ball",
                         "access_rules": [
-                            "Marble Nymph"
+                            "^$fishAccess|Il Mheg|Official Ball"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Official Ball"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Grey Skipper",
                         "access_rules": [
-                            "Fruit Worm",
-                            "Metal Spinner"
+                            "^$fishAccess|Il Mheg|Grey Skipper"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Grey Skipper"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Blood-eyed Frog",
                         "access_rules": [
-                            "Metal Spinner"
+                            "^$fishAccess|Il Mheg|Blood-eyed Frog"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Blood-eyed Frog"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Spotted Ctenopoma",
                         "access_rules": [
-                            "Marble Nymph"
+                            "^$fishAccess|Il Mheg|Spotted Ctenopoma"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Spotted Ctenopoma"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Cerulean Loach",
                         "access_rules": [
-                            "Fruit Worm",
-                            "Metal Spinner"
+                            "^$fishAccess|Il Mheg|Cerulean Loach"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Cerulean Loach"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Sunken Tome",
                         "access_rules": [
-                            "Marble Nymph"
+                            "^$fishAccess|Il Mheg|Sunken Tome"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Sunken Tome"
                         ],
                         "item_count": 1
                     }
@@ -905,55 +937,59 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "$leveling:75"
+                    
                 ],
                 "visibility_rules": [
-                    "fishsanity_normal, level_cap:75"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Official Ball",
                         "access_rules": [
-                            "Marble Nymph"
+                            "^$fishAccess|Il Mheg|Official Ball"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Official Ball"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Grey Skipper",
                         "access_rules": [
-                            "Fruit Worm",
-                            "Metal Spinner"
+                            "^$fishAccess|Il Mheg|Grey Skipper"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Grey Skipper"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Pixie Fish",
                         "access_rules": [
-                            "Marble Nymph",
-                            "Fruit Worm"
+                            "^$fishAccess|Il Mheg|Pixie Fish"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Pixie Fish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Toadhead",
                         "access_rules": [
-                            "Baitbugs"
+                            "^$fishAccess|Il Mheg|Toadhead"
                         ],
                         "visibility_rules": [
-                            "fishsanity_timed"
+                            "$fishVisibility|Toadhead"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Celestial",
                         "access_rules": [
-                            "Baitbugs"
+                            "^$fishAccess|Il Mheg|Celestial"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Celestial"
                         ],
                         "item_count": 1
                     }
@@ -974,61 +1010,69 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "$leveling:73"
+
                 ],
                 "visibility_rules": [
-                    "fishsanity_normal, level_cap:73"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Grey Skipper",
                         "access_rules": [
-                            "Fruit Worm",
-                            "Metal Spinner"
+                            "^$fishAccess|Il Mheg|Grey Skipper"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Grey Skipper"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Pixie Fish",
                         "access_rules": [
-                            "Marble Nymph",
-                            "Fruit Worm"
+                            "^$fishAccess|Il Mheg|Pixie Fish"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Pixie Fish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Wimple Carp",
                         "access_rules": [
-                            "Baitbugs"
+                            "^$fishAccess|Il Mheg|Wimple Carp"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Wimple Carp"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Lemonfish",
                         "access_rules": [
-                            "Marble Nymph"
+                            "^$fishAccess|Il Mheg|Lemonfish"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Lemonfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Faeshine Clam",
                         "access_rules": [
-                            "Metal Spinner"
+                            "^$fishAccess|Il Mheg|Faeshine Clam"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Faeshine Clam"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Leannisg",
                         "access_rules": [
-                            "Marble Nymph"
+                            "^$fishAccess|Il Mheg|Leannisg"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Leannisg"
                         ],
                         "item_count": 1
                     }
@@ -1049,53 +1093,59 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "$leveling:74"
+                    
                 ],
                 "visibility_rules": [
-                    "fishsanity_normal, level_cap:74"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Grey Skipper",
                         "access_rules": [
-                            "Fruit Worm",
-                            "Metal Spinner"
+                            "^$fishAccess|Il Mheg|Grey Skipper"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Grey Skipper"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Blood-eyed Frog",
                         "access_rules": [
-                            "Metal Spinner"
+                            "^$fishAccess|Il Mheg|Blood-eyed Frog"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Blood-eyed Frog"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Cerulean Loach",
                         "access_rules": [
-                            "Fruit Worm",
-                            "Metal Spinner"
+                            "^$fishAccess|Il Mheg|Cerulean Loach"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Cerulean Loach"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Golden Lobster",
                         "access_rules": [
-                            "Marble Nymph"
+                            "^$fishAccess|Il Mheg|Golden Lobster"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Golden Lobster"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Gold Hammer",
                         "access_rules": [
-                            "Baitbugs"
+                            "^$fishAccess|Il Mheg|Gold Hammer"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Gold Hammer"
                         ],
                         "item_count": 1
                     }

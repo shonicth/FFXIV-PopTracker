@@ -11,7 +11,7 @@ require("scripts/logic/graph_logic/logic_main")
 require("scripts/logic")
 require("scripts/fates")
 --require("scripts/fish_logic_arr")
-require("scripts/fish_logic_old")
+require("scripts/fish_logic")
 require("scripts/duties")
 require("scripts/logic_functions")
 

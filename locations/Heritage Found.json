@@ -622,32 +622,52 @@
                 "sections": [
                     {
                         "name": "Heritage Loach",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Heritage Found|Heritage Loach"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Heritage Loach"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Outskirts Sniffer",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Heritage Found|Outskirts Sniffer"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Outskirts Sniffer"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Pumpkin Perch",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Heritage Found|Pumpkin Perch"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Pumpkin Perch"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Tiger Muskellunge",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Heritage Found|Tiger Muskellunge"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Tiger Muskellunge"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Sprouting Perch",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Heritage Found|Sprouting Perch"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Sprouting Perch"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -670,37 +690,57 @@
                     " "
                 ],
                 "visibility_rules": [
-                    "fishsanity_normal"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Heritage Loach",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Heritage Found|Heritage Loach"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Heritage Loach"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Outskirts Sniffer",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Heritage Found|Outskirts Sniffer"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Outskirts Sniffer"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Moon Croppie",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Heritage Found|Moon Croppie"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Moon Croppie"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Driftdowns Trout",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Heritage Found|Driftdowns Trout"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Driftdowns Trout"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Thunderswift Trout",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Heritage Found|Thunderswift Trout"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Thunderswift Trout"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -723,43 +763,67 @@
                     " "
                 ],
                 "visibility_rules": [
-                    "fishsanity_normal"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Electrobetta",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Heritage Found|Electrobetta"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Electrobetta"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Thundering Redbelly",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Heritage Found|Thundering Redbelly"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Thundering Redbelly"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Yyasulani Bowfin",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Heritage Found|Yyasulani Bowfin"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Yyasulani Bowfin"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Crackling Flounder",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Heritage Found|Crackling Flounder"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Crackling Flounder"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Thunderous Flounder",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Heritage Found|Thunderous Flounder"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Thunderous Flounder"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Goldentail",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Heritage Found|Goldentail"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Goldentail"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -782,37 +846,57 @@
                     " "
                 ],
                 "visibility_rules": [
-                    "fishsanity_normal"
+
                 ],
                 "sections": [
                     {
                         "name": "Electrobetta",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Heritage Found|Electrobetta"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Electrobetta"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Thundering Redbelly",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Heritage Found|Thundering Redbelly"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Thundering Redbelly"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Yyasulani Bowfin",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Heritage Found|Yyasulani Bowfin"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Yyasulani Bowfin"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Goldgrouper",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Heritage Found|Goldgrouper"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Goldgrouper"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Heirloom Goldgrouper",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Heritage Found|Heirloom Goldgrouper"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Heirloom Goldgrouper"
+                        ],
                         "item_count": 1
                     }
                 ],

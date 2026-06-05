@@ -630,7 +630,7 @@
                             "^$fateAccess|A Finale Most Formidable"
                         ],
                         "visibility_rules": [
-                            "$fateVisibility|A Finale Most Formidable ,include_unreasonable_fates"
+                            "$fateVisibility|A Finale Most Formidable, include_unreasonable_fates"
                         ],
                         "item_count": 1
                     }
@@ -651,86 +651,99 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "$leveling:72"
+                    
                 ],
                 "visibility_rules": [
-                    "fishsanity_normal, level_cap:72"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Creamy Oyster",
                         "access_rules": [
-                            "Moyebi Shrimp"
+                            "^$fishAccess|Kholusia|Creamy Oyster"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Creamy Oyster"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Shellfracture Kelp",
                         "access_rules": [
-                            "Moyebi Shrimp",
-                            "Metal Spinner"
+                            "^$fishAccess|Kholusia|Shellfracture Kelp"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Shellfracture Kelp"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Kholusian Flounder",
                         "access_rules": [
-                            "Short Bill Minnow",
-                            "Metal Spinner"
+                            "^$fishAccess|Kholusia|Kholusian Flounder"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Kholusian Flounder"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "South Kholusian Cod",
                         "access_rules": [
-                            "Short Bill Minnow",
-                            "Metal Spinner"
+                            "^$fishAccess|Kholusia|South Kholusian Cod"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|South Kholusian Cod"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Razorfish",
                         "access_rules": [
-                            "Short Bill Minnow"
+                            "^$fishAccess|Kholusia|Razorfish"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Razorfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Rose Shrimp",
                         "access_rules": [
-                            "Short Bill Minnow"
+                            "^$fishAccess|Kholusia|Rose Shrimp"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Rose Shrimp"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Kholusian King Crab",
                         "access_rules": [
-                            "Metal Spinner"
+                            "^$fishAccess|Kholusia|Kholusian King Crab"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Kholusian King Crab"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Blue Crab",
                         "access_rules": [
-                            "Squid Strip"
+                            "^$fishAccess|Kholusia|Blue Crab"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Blue Crab"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Steel Razor",
                         "access_rules": [
-                            "Moyebi Shrimp"
+                            "^$fishAccess|Kholusia|Steel Razor"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Steel Razor"
                         ],
                         "item_count": 1
                     }
@@ -751,61 +764,69 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "$leveling:78"
+                    
                 ],
                 "visibility_rules": [
-                    "fishsanity_normal, level_cap:78"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Skulleater",
                         "access_rules": [
-                            "Metal Spinner",
-                            "Fruit Worm"
+                            "^$fishAccess|Kholusia|Skulleater"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Skulleater"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Toffee Snail",
                         "access_rules": [
-                            "Metal Spinner"
+                            "^$fishAccess|Kholusia|Toffee Snail"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Toffee Snail"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Watts Trout",
                         "access_rules": [
-                            "Metal Spinner",
-                            "Fruit Worm"
+                            "^$fishAccess|Kholusia|Watts Trout"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Watts Trout"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Hucho Taimen",
                         "access_rules": [
-                            "Baitbugs"
+                            "^$fishAccess|Kholusia|Hucho Taimen"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Hucho Taimen"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Winged Hatchetfish",
                         "access_rules": [
-                            "Robber Ball"
+                            "^$fishAccess|Kholusia|Winged Hatchetfish"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Winged Hatchetfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Giant Taimen",
                         "access_rules": [
-                            "Baitbugs"
+                            "^$fishAccess|Kholusia|Giant Taimen"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Giant Taimen"
                         ],
                         "item_count": 1
                     }
@@ -826,53 +847,59 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "$leveling:71"
+                    
                 ],
                 "visibility_rules": [
-                    "fishsanity_normal, level_cap:71"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Skulleater",
                         "access_rules": [
-                            "Metal Spinner",
-                            "Fruit Worm"
+                            "^$fishAccess|Kholusia|Skulleater"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Skulleater"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Watts Trout",
                         "access_rules": [
-                            "Metal Spinner",
-                            "Fruit Worm"
+                            "^$fishAccess|Kholusia|Watts Trout"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Watts Trout"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Nobles Fan",
                         "access_rules": [
-                            "Marble Nymph"
+                            "^$fishAccess|Kholusia|Noble's Fan"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Noble's Fan"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "White Oil Perch",
                         "access_rules": [
-                            "Metal Spinner"
+                            "^$fishAccess|Kholusia|White Oil Perch"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|White Oil Perch"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Steel Fan",
                         "access_rules": [
-                            "Marble Nymph"
+                            "^$fishAccess|Kholusia|Steel Fan"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Steel Fan"
                         ],
                         "item_count": 1
                     }
@@ -893,53 +920,59 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "$leveling:71"
+                    
                 ],
                 "visibility_rules": [
-                    "fishsanity_normal, level_cap:71"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Skulleater",
                         "access_rules": [
-                            "Metal Spinner",
-                            "Fruit Worm"
+                            "^$fishAccess|Kholusia|Skulleater"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Skulleater"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Toffee Snail",
                         "access_rules": [
-                            "Metal Spinner"
+                            "^$fishAccess|Kholusia|Toffee Snail"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Toffee Snail"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Watts Trout",
                         "access_rules": [
-                            "Metal Spinner",
-                            "Fruit Worm"
+                            "^$fishAccess|Kholusia|Watts Trout"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Watts Trout"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Zebra Catfish",
                         "access_rules": [
-                            "Marble Nymph"
+                            "^$fishAccess|Kholusia|Zebra Catfish"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Zebra Catfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "White Ronso",
                         "access_rules": [
-                            "Baitbugs"
+                            "^$fishAccess|Kholusia|White Ronso"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|White Ronso"
                         ],
                         "item_count": 1
                     }
@@ -960,44 +993,49 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "$leveling:71"
+                    
                 ],
                 "visibility_rules": [
-                    "fishsanity_normal, level_cap:71"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Skulleater",
                         "access_rules": [
-                            "Metal Spinner",
-                            "Fruit Worm"
+                            "^$fishAccess|Kholusia|Skulleater"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Skulleater"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Toffee Snail",
                         "access_rules": [
-                            "Metal Spinner"
+                            "^$fishAccess|Kholusia|Toffee Snail"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Toffee Snail"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Sepia Sole",
                         "access_rules": [
-                            "Marble Nymph"
+                            "^$fishAccess|Kholusia|Sepia Sole"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Sepia Sole"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Bronze Sole",
                         "access_rules": [
-                            "Marble Nymph"
+                            "^$fishAccess|Kholusia|Bronze Sole"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Bronze Sole"
                         ],
                         "item_count": 1
                     }
@@ -1018,86 +1056,100 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "$leveling:72"
+                    
                 ],
                 "visibility_rules": [
-                    "fishsanity_normal, level_cap:72"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Shellfracture Kelp",
                         "access_rules": [
-                            "Moyebi Shrimp",
-                            "Metal Spinner"
+                            "^$fishAccess|Kholusia|Shellfracture Kelp"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Shellfracture Kelp"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Blood Cloud",
                         "access_rules": [
-                            "Moyebi Shrimp"
+                            "^$fishAccess|Kholusia|Blood Cloud"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Blood Cloud"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "South Kholusian Cod",
                         "access_rules": [
-                            "Short Bill Minnow",
-                            "Metal Spinner"
+                            "^$fishAccess|Kholusia|South Kholusian Cod"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|South Kholusian Cod"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Kholusian Wrasse",
                         "access_rules": [
-                            "Short Bill Minnow"
+                            "^$fishAccess|Kholusia|Kholusian Wrasse"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Kholusian Wrasse"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Weedy Seadragon",
                         "access_rules": [
-                            "Short Bill Minnow"
+                            "^$fishAccess|Kholusia|Weedy Seadragon"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Weedy Seadragon"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Henodus",
                         "access_rules": [
-                            "Short Bill Minnow"
+                            "^$fishAccess|Kholusia|Henodus"
                         ],
                         "visibility_rules": [
-                            "fishsanity_timed"
+                            "$fishVisibility|Henodus"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Spearhead Squid",
                         "access_rules": [
-                            "Short Bill Minnow"
+                            "^$fishAccess|Kholusia|Spearhead Squid"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Spearhead Squid"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Henodus Grandis",
                         "access_rules": [
-                            "Short Bill Minnow"
+                            "^$fishAccess|Kholusia|Henodus Grandis"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Henodus Grandis"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Ondo Kelp",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Kholusia|Ondo Kelp"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Ondo Kelp"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -1117,69 +1169,79 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "$leveling:75"
+                    
                 ],
                 "visibility_rules": [
-                    "fishsanity_normal, level_cap:75"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Blood Cloud",
                         "access_rules": [
-                            "Moyebi Shrimp"
+                            "^$fishAccess|Kholusia|Blood Cloud"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Blood Cloud"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Kholusian Flounder",
                         "access_rules": [
-                            "Short Bill Minnow",
-                            "Metal Spinner"
+                            "^$fishAccess|Kholusia|Kholusian Flounder"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Kholusian Flounder"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "South Kholusian Cod",
                         "access_rules": [
-                            "Short Bill Minnow",
-                            "Metal Spinner"
+                            "^$fishAccess|Kholusia|South Kholusian Cod"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|South Kholusian Cod"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Shapeshifter",
                         "access_rules": [
-                            "Moyebi Shrimp"
+                            "^$fishAccess|Kholusia|Shapeshifter"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Shapeshifter"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Minstrelfish",
                         "access_rules": [
-                            "Short Bill Minnow"
+                            "^$fishAccess|Kholusia|Minstrelfish"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Minstrelfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Aquamaton",
                         "access_rules": [
-                            "Short Bill Minnow"
+                            "^$fishAccess|Kholusia|Aquamaton"
                         ],
-                        "visibility_rules": ["fishsanity_big"],
+                        "visibility_rules": [
+                            "$fishVisibility|Aquamaton"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Shadeshifter",
                         "access_rules": [
-                            "Squid Strip"
+                            "^$fishAccess|Kholusia|Shadeshifter"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Shadeshifter"
                         ],
                         "item_count": 1
                     }

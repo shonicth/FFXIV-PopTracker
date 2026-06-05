@@ -549,49 +549,77 @@
                     " "
                 ],
                 "visibility_rules": [
-                    "fishsanity_normal"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Kozamauka Skipper",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Kozama'uka|Kozama'uka Skipper"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Kozama'uka Skipper"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Bopou Sleeper",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Kozama'uka|Bopo'u Sleeper"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Bopo'u Sleeper"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Poison Dyefrog",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Kozama'uka|Poison Dyefrog"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Poison Dyefrog"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Pleated Matamata",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Kozama'uka|Pleated Matamata"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Pleated Matamata"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Uyuy Xage",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Kozama'uka|Uyuy Xage"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Uyuy Xage"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Oily Ropefish",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Kozama'uka|Oily Ropefish"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Oily Ropefish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Muttering Matamata",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Kozama'uka|Muttering Matamata"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Muttering Matamata"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -614,31 +642,47 @@
                     " "
                 ],
                 "visibility_rules": [
-                    "fishsanity_normal"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Kozamauka Skipper",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Kozama'uka|Kozamauka Skipper"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Kozamauka Skipper"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Bopou Sleeper",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Kozama'uka|Bopou Sleeper"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Bopou Sleeper"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Plattershell",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Kozama'uka|Plattershell"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Plattershell"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Cazuela Crab",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Kozama'uka|Cazuela Crab"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Cazuela Crab"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -661,43 +705,67 @@
                     " "
                 ],
                 "visibility_rules": [
-                    "fishsanity_normal"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Kozamauka Skipper",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Kozama'uka|Kozamauka Skipper"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Kozamauka Skipper"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Bopou Sleeper",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Kozama'uka|Bopou Sleeper"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Bopou Sleeper"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Candiru",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Kozama'uka|Candiru"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Candiru"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Trahira",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Kozama'uka|Trahira"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Trahira"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Driftwood Catfish",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Kozama'uka|Driftwood Catfish"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Driftwood Catfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Riverlong Candiru",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Kozama'uka|Riverlong Candiru"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Riverlong Candiru"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -720,31 +788,47 @@
                     " "
                 ],
                 "visibility_rules": [
-                    "fishsanity_normal"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Oho Hunu",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Kozama'uka|Oho Hunu"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Oho Hunu"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Bronze Pleco",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Kozama'uka|Bronze Pleco"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Bronze Pleco"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Crenicichla",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Kozama'uka|Crenicichla"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Crenicichla"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Crenicichla Miyaka",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Kozama'uka|Crenicichla Miyaka"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Crenicichla Miyaka"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -767,43 +851,67 @@
                     " "
                 ],
                 "visibility_rules": [
-                    "fishsanity_normal"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Oho Hunu",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Kozama'uka|Oho Hunu"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Oho Hunu"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Bronze Pleco",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Kozama'uka|Bronze Pleco"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Bronze Pleco"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Hunu Peacock Bass",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Kozama'uka|Hunu Peacock Bass"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Hunu Peacock Bass"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Pelubane",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Kozama'uka|Pelubane"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Pelubane"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Giant Trahira",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Kozama'uka|Giant Trahira"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Giant Trahira"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Punutiy Pain",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Kozama'uka|Punutiy Pain"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Punutiy Pain"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -826,43 +934,67 @@
                     " "
                 ],
                 "visibility_rules": [
-                    "fishsanity_normal"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Kuuxage Bitterling",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Kozama'uka|Ku'uxage Bitterling"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Ku'uxage Bitterling"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Tonguesnatcher",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Kozama'uka|Tonguesnatcher"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Tonguesnatcher"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Corn Dace",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Kozama'uka|Corn Dace"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Corn Dace"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Ka Puyhu",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Kozama'uka|Ka Puyhu"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Ka Puyhu"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Purple Palate",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Kozama'uka|Purple Palate"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Purple Palate"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Shuckfin Dace",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Kozama'uka|Shuckfin Dace"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Shuckfin Dace"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -885,37 +1017,57 @@
                     " "
                 ],
                 "visibility_rules": [
-                    "fishsanity_normal"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Ligaka Guppy",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Kozama'uka|Ligaka Guppy"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Ligaka Guppy"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Dumplingfish",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Kozama'uka|Dumplingfish"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Dumplingfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Banded Candiru",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Kozama'uka|Banded Candiru"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Banded Candiru"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Oxydoras",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Kozama'uka|Oxydoras"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Oxydoras"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Honeycomb Sponge",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Kozama'uka|Honeycomb Sponge"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Honeycomb Sponge"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -938,37 +1090,57 @@
                     " "
                 ],
                 "visibility_rules": [
-                    "fishsanity_normal"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Ligaka Guppy",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Kozama'uka|Ligaka Guppy"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Ligaka Guppy"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Dumplingfish",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Kozama'uka|Dumplingfish"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Dumplingfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Spotted Stingray",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Kozama'uka|Spotted Stingray"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Spotted Stingray"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Yellow Peacock Bass",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Kozama'uka|Yellow Peacock Bass"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Yellow Peacock Bass"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Shovelnose Catfish",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Kozama'uka|Shovelnose Catfish"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Shovelnose Catfish"
+                        ],
                         "item_count": 1
                     }
                 ],
