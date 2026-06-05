@@ -676,73 +676,69 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "$leveling:87"
+                    
                 ],
                 "visibility_rules": [
-                    "fishsanity_normal, level_cap:87"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Smaragdos",
                         "access_rules": [
-                            "Gold Salmon Roe",
-                            "Leech",
-                            "Sky Spoon Lure",
-                            "Mayfly"
+                            "^$fishAccess|Elpis|Smaragdos"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Smaragdos"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Isle Skipper",
                         "access_rules": [
-                            "Gold Salmon Roe",
-                            "Leech",
-                            "Sky Spoon Lure",
-                            "Mayfly"
+                            "^$fishAccess|Elpis|Isle Skipper"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Isle Skipper"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Antheia",
                         "access_rules": [
-                            "Gold Salmon Roe",
-                            "Leech",
-                            "Sky Spoon Lure",
-                            "Mayfly"
+                            "^$fishAccess|Elpis|Antheia"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Antheia"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Iribainion",
                         "access_rules": [
-                            "Gold Salmon Roe",
-                            "Leech",
-                            "Sky Spoon Lure",
-                            "Mayfly"
+                            "^$fishAccess|Elpis|Iribainion"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Iribainion"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Antheian Dahlia",
                         "access_rules": [
-                            "Mayfly"
+                            "^$fishAccess|Elpis|Antheian Dahlia"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Antheian Dahlia"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Furcacauda",
                         "access_rules": [
-                            "Sky Spoon Lure"
+                            "^$fishAccess|Elpis|Furcacauda"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Furcacauda"
                         ],
                         "item_count": 1
                     }
@@ -763,73 +759,69 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "$leveling:86"
+                    
                 ],
                 "visibility_rules": [
-                    "fishsanity_normal, level_cap:86"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Isle Skipper",
                         "access_rules": [
-                            "Gold Salmon Roe",
-                            "Leech",
-                            "Sky Spoon Lure",
-                            "Mayfly"
+                            "^$fishAccess|Elpis|Isle Skipper"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Isle Skipper"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Iribainion",
                         "access_rules": [
-                            "Gold Salmon Roe",
-                            "Leech",
-                            "Sky Spoon Lure",
-                            "Mayfly"
+                            "^$fishAccess|Elpis|Iribainion"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Iribainion"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Albino Loach",
                         "access_rules": [
-                            "Gold Salmon Roe",
-                            "Leech",
-                            "Sky Spoon Lure",
-                            "Mayfly"
+                            "^$fishAccess|Elpis|Albino Loach"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Albino Loach"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Golden Shiner",
                         "access_rules": [
-                            "Gold Salmon Roe",
-                            "Leech",
-                            "Sky Spoon Lure",
-                            "Mayfly"
+                            "^$fishAccess|Elpis|Golden Shiner"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Golden Shiner"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Mangar",
                         "access_rules": [
-                            "Gold Salmon Roe"
+                            "^$fishAccess|Elpis|Mangar"
                         ],
                         "visibility_rules": [
-                            "fishsanity_timed"
+                            "$fishVisibility|Mangar"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Planetes",
                         "access_rules": [
-                            "Gold Salmon Roe"
+                            "^$fishAccess|Elpis|Planetes"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Planetes"
                         ],
                         "item_count": 1
                     }
@@ -850,73 +842,69 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "$leveling:87"
+                    
                 ],
                 "visibility_rules": [
-                    "fishsanity_normal, level_cap:87"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Isle Skipper",
                         "access_rules": [
-                            "Gold Salmon Roe",
-                            "Leech",
-                            "Sky Spoon Lure",
-                            "Mayfly"
+                            "^$fishAccess|Elpis|Isle Skipper"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Isle Skipper"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Iribainion",
                         "access_rules": [
-                            "Gold Salmon Roe",
-                            "Leech",
-                            "Sky Spoon Lure",
-                            "Mayfly"
+                            "^$fishAccess|Elpis|Iribainion"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Iribainion"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Dermogenys",
                         "access_rules": [
-                            "Gold Salmon Roe",
-                            "Leech",
-                            "Sky Spoon Lure",
-                            "Mayfly"
+                            "^$fishAccess|Elpis|Dermogenys"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Dermogenys"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Colossoma",
                         "access_rules": [
-                            "Gold Salmon Roe",
-                            "Leech",
-                            "Sky Spoon Lure",
-                            "Mayfly"
+                            "^$fishAccess|Elpis|Colossoma"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Colossoma"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Phyllinos",
                         "access_rules": [
-                            "Mayfly"
+                            "^$fishAccess|Elpis|Phyllinos"
                         ],
                         "visibility_rules": [
-                            "fishsanity_timed"
+                            "$fishVisibility|Phyllinos"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Gilt Dermogenys",
                         "access_rules": [
-                            "Sky Spoon Lure"
+                            "^$fishAccess|Elpis|Gilt Dermogenys"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Gilt Dermogenys"
                         ],
                         "item_count": 1
                     }

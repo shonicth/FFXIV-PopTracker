@@ -11,13 +11,13 @@
             {
                 "name": "Collect Memories",
                 "access_rules": [],
-                "visibility_rules": [],
+                "visibility_rules": ["abc"],
                 "item_count": 1
             },
             {
                 "name": "Defeat Shinryu",
                 "access_rules": [],
-                "visibility_rules": [],
+                "visibility_rules": ["abc"],
                 "item_count": 1
             }
         ],

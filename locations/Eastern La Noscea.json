@@ -732,68 +732,110 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:25"
+                    
                 ],
-                "visibility_rules": ["fishsanity_normal"],
+                "visibility_rules": [
+                    
+                ],
                 "sections": [
                     {
                         "name": "Merlthor Goby",
-                        "access_rules": ["Lugworm"],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Merlthor Goby"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Merlthor Goby"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Coral Butterfly",
-                        "access_rules": ["Pill Bug"],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Coral Butterfly"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Coral Butterfly"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Blue Octopus",
-                        "access_rules": ["Lugworm"],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Blue Octopus"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Blue Octopus"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Sea Bo",
-                        "access_rules": ["Shrimp Cage Feeder"],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Sea Bo"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Sea Bo"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Bianaq Bream",
-                        "access_rules": ["Heavy Steel Jig"],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Bianaq Bream"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Bianaq Bream"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Fullmoon Sardine",
-                        "access_rules": ["Spoon Worm"],
-                        "visibility_rules": ["fishsanity_timed"],
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Fullmoon Sardine"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Fullmoon Sardine"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Silver Shark",
-                        "access_rules": ["Lugworm"],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Silver Shark"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Silver Shark"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Blue Coral",
-                        "access_rules": ["Shrimp Cage Feeder"],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Blue Coral"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Blue Coral"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "The Greatest Bream in the World",
-                        "access_rules": ["Shrimp Cage Feeder"],
-                        "visibility_rules": ["fishsanity_big"],
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|The Greatest Bream in the World"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|The Greatest Bream in the World"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Gigant Clam",
-                        "access_rules": ["Heavy Steel Jig"],
-                        "visibility_rules": ["fishsanity_timed"],
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Gigant Clam"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Gigant Clam"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -813,68 +855,110 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:50"
+                    
                 ],
-                "visibility_rules": ["fishsanity_normal"],
+                "visibility_rules": [
+                    
+                ],
                 "sections": [
                     {
                         "name": "Merlthor Goby",
-                        "access_rules": ["Lugworm"],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Merlthor Goby"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Merlthor Goby"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Blowfish",
-                        "access_rules": ["Northern Krill"],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Blowfish"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Blowfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Leafy Seadragon",
-                        "access_rules": ["Northern Krill"],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Leafy Seadragon"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Leafy Seadragon"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Wahoo",
-                        "access_rules": ["Lugworm"],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Wahoo"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Wahoo"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Rock Lobster",
-                        "access_rules": ["Northern Krill"],
-                        "visibility_rules": ["fishsanity_timed"],
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Rock Lobster"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Rock Lobster"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Little Thalaos",
-                        "access_rules": ["Northern Krill"],
-                        "visibility_rules": ["fishsanity_timed"],
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Little Thalaos"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Little Thalaos"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Shall Shell",
-                        "access_rules": ["Northern Krill"],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Shall Shell"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Shall Shell"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Giant Squid",
-                        "access_rules": ["Lugworm"],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Giant Squid"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Giant Squid"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Megalodon",
-                        "access_rules": ["Lugworm"],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Megalodon"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Megalodon"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Nepto Dragon",
-                        "access_rules": ["Northern Krill"],
-                        "visibility_rules": ["fishsanity_big"],
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Nepto Dragon"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Nepto Dragon"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -894,68 +978,110 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:50"
+                    
                 ],
-                "visibility_rules": ["fishsanity_normal"],
+                "visibility_rules": [
+                    
+                ],
                 "sections": [
                     {
                         "name": "Merlthor Goby",
-                        "access_rules": ["Lugworm"],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Merlthor Goby"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Merlthor Goby"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Blowfish",
-                        "access_rules": ["Northern Krill"],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Blowfish"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Blowfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Leafy Seadragon",
-                        "access_rules": ["Northern Krill"],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Leafy Seadragon"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Leafy Seadragon"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Wahoo",
-                        "access_rules": ["Lugworm"],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Wahoo"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Wahoo"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Little Thalaos",
-                        "access_rules": ["Northern Krill"],
-                        "visibility_rules": ["fishsanity_timed"],
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Little Thalaos"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Little Thalaos"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Shall Shell",
-                        "access_rules": ["Northern Krill"],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Shall Shell"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Shall Shell"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Giant Squid",
-                        "access_rules": ["Lugworm"],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Giant Squid"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Giant Squid"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Megalodon",
-                        "access_rules": ["Lugworm"],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Megalodon"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Megalodon"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Little Perykos",
-                        "access_rules": ["Lugworm"],
-                        "visibility_rules": ["fishsanity_big"],
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Little Perykos"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Little Perykos"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Castaway Chocobo Chick",
-                        "access_rules": ["Lugworm"],
-                        "visibility_rules": ["fishsanity_timed"],
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Castaway Chocobo Chick"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Castaway Chocobo Chick"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -975,68 +1101,110 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:50"
+                    
                 ],
-                "visibility_rules": ["fishsanity_normal"],
+                "visibility_rules": [
+                    
+                ],
                 "sections": [
                     {
                         "name": "Finger Shrimp",
-                        "access_rules": ["Lugworm"],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Finger Shrimp"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Finger Shrimp"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Harbor Herring",
-                        "access_rules": ["Pill Bug"],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Harbor Herring"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Harbor Herring"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Blowfish",
-                        "access_rules": ["Northern Krill"],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Blowfish"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Blowfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Ogre Barracuda",
-                        "access_rules": ["Pill Bug"],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Ogre Barracuda"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Ogre Barracuda"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Ash Tuna",
-                        "access_rules": ["Spoon Worm"],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Ash Tuna"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Ash Tuna"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Balloonfish",
-                        "access_rules": ["Heavy Steel Jig"],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Balloonfish"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Balloonfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Mazlaya Marlin",
-                        "access_rules": ["Pill Bug"],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Mazlaya Marlin"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Mazlaya Marlin"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Gigant Octopus",
-                        "access_rules": ["Pill Bug"],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Gigant Octopus"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Gigant Octopus"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Red Coral",
-                        "access_rules": ["Herring Ball"],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Red Coral"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Red Coral"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "The Old Man in the Sea",
-                        "access_rules": ["Pill Bug"],
-                        "visibility_rules": ["fishsanity_big"],
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|The Old Man in the Sea"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|The Old Man in the Sea"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -1056,68 +1224,110 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:35"
+                    
                 ],
-                "visibility_rules": ["fishsanity_normal, level_cap:35"],
+                "visibility_rules": [
+                    
+                ],
                 "sections": [
                     {
                         "name": "Harbor Herring",
-                        "access_rules": ["Pill Bug"],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Harbor Herring"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Harbor Herring"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Ogre Barracuda",
-                        "access_rules": ["Pill Bug"],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Ogre Barracuda"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Ogre Barracuda"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Black Sole",
-                        "access_rules": ["Herring Ball"],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Black Sole"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Black Sole"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Sea Pickle",
-                        "access_rules": ["Herring Ball"],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Sea Pickle"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Sea Pickle"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Ash Tuna",
-                        "access_rules": ["Spoon Worm"],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Ash Tuna"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Ash Tuna"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Whitelip Oyster",
-                        "access_rules": ["Herring Ball"],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Whitelip Oyster"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Whitelip Oyster"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Balloonfish",
-                        "access_rules": ["Heavy Steel Jig"],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Balloonfish"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Balloonfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Mazlaya Marlin",
-                        "access_rules": ["Pill Bug"],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Mazlaya Marlin"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Mazlaya Marlin"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Red Coral",
-                        "access_rules": ["Herring Ball"],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Red Coral"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Red Coral"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Bombardfish",
-                        "access_rules": ["Herring Ball"],
-                        "visibility_rules": ["fishsanity_big"],
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Bombardfish"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Bombardfish"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -1137,68 +1347,110 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:30"
+                    
                 ],
-                "visibility_rules": ["fishsanity_normal"],
+                "visibility_rules": [
+                    
+                ],
                 "sections": [
                     {
                         "name": "Angelfish",
-                        "access_rules": ["Rat Tail"],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Angelfish"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Angelfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Blowfish",
-                        "access_rules": ["Northern Krill"],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Blowfish"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Blowfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Bianaq Bream",
-                        "access_rules": ["Heavy Steel Jig"],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Bianaq Bream"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Bianaq Bream"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Indigo Herring",
-                        "access_rules": ["Spoon Worm"],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Indigo Herring"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Indigo Herring"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Ash Tuna",
-                        "access_rules": ["Spoon Worm"],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Ash Tuna"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Ash Tuna"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Fullmoon Sardine",
-                        "access_rules": ["Spoon Worm"],
-                        "visibility_rules": ["fishsanity_timed"],
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Fullmoon Sardine"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Fullmoon Sardine"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Lavender Remora",
-                        "access_rules": ["Heavy Steel Jig"],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Lavender Remora"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Lavender Remora"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Silver Shark",
-                        "access_rules": ["Lugworm"],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Silver Shark"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Silver Shark"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Little Thalaos",
-                        "access_rules": ["Northern Krill"],
-                        "visibility_rules": ["fishsanity_timed"],
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Little Thalaos"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Little Thalaos"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Shark Tuna",
-                        "access_rules": ["Spoon Worm"],
-                        "visibility_rules": ["fishsanity_big"],
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Shark Tuna"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Shark Tuna"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -1218,50 +1470,80 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:35"
+                    
                 ],
-                "visibility_rules": ["fishsanity_normal, level_cap:35"],
+                "visibility_rules": [
+                    
+                ],
                 "sections": [
                     {
                         "name": "Crimson Crayfish",
-                        "access_rules": ["Crayfish Ball"],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Crimson Crayfish"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Crimson Crayfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Dark Sleeper",
-                        "access_rules": ["Midge Basket"],
-                        "visibility_rules": ["fishsanity_timed"],
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Dark Sleeper"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Dark Sleeper"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Mitten Crab",
-                        "access_rules": ["Honey Worm"],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Mitten Crab"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Mitten Crab"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Spotted Puffer",
-                        "access_rules": ["Honey Worm"],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Spotted Puffer"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Spotted Puffer"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Discus",
-                        "access_rules": ["Honey Worm"],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Discus"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Discus"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Kobold Puffer",
-                        "access_rules": ["Spinnerbait"],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Kobold Puffer"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Kobold Puffer"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "The Salter",
-                        "access_rules": ["Honey Worm"],
-                        "visibility_rules": ["fishsanity_big"],
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|The Salter"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|The Salter"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -1281,62 +1563,100 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:40"
+                    
                 ],
-                "visibility_rules": ["fishsanity_normal, level_cap:40"],
+                "visibility_rules": [
+                    
+                ],
                 "sections": [
                     {
                         "name": "Copperfish",
-                        "access_rules": ["Butterworm", "Midge Basket"],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Copperfish"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Copperfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Lamprey",
-                        "access_rules": ["Butterworm", "Midge Basket"],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Lamprey"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Lamprey"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Mitten Crab",
-                        "access_rules": ["Honey Worm"],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Mitten Crab"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Mitten Crab"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Monke Onke",
-                        "access_rules": ["Midge Basket"],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Monke Onke"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Monke Onke"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Discus",
-                        "access_rules": ["Honey Worm"],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Discus"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Discus"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Loyal Pleco",
-                        "access_rules": ["Stem Borer"],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Loyal Pleco"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Loyal Pleco"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Archerfish",
-                        "access_rules": ["Snurble Fly"],
-                        "visibility_rules": ["fishsanity_timed"],
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Archerfish"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Archerfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Agelyss Carp",
-                        "access_rules": ["Snurble Fly"],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Agelyss Carp"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Agelyss Carp"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "The Drowned Sniper",
-                        "access_rules": ["Snurble Fly"],
-                        "visibility_rules": ["fishsanity_big"],
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|The Drowned Sniper"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|The Drowned Sniper"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -1356,68 +1676,110 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:40"
+                    
                 ],
-                "visibility_rules": ["fishsanity_normal, level_cap:40"],
+                "visibility_rules": [
+                    
+                ],
                 "sections": [
                     {
                         "name": "Copperfish",
-                        "access_rules": ["Butterworm", "Midge Basket"],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Copperfish"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Copperfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Lamprey",
-                        "access_rules": ["Butterworm", "Midge Basket"],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Lamprey"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Lamprey"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Mitten Crab",
-                        "access_rules": ["Honey Worm"],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Mitten Crab"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Mitten Crab"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Giant Bass",
-                        "access_rules": ["Honey Worm"],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Giant Bass"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Giant Bass"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Discus",
-                        "access_rules": ["Honey Worm"],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Discus"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Discus"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Loyal Pleco",
-                        "access_rules": ["Stem Borer"],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Loyal Pleco"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Loyal Pleco"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Thunderbolt Sculpin",
-                        "access_rules": ["Spinner"],
-                        "visibility_rules": ["fishsanity_timed"],
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Thunderbolt Sculpin"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Thunderbolt Sculpin"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Archerfish",
-                        "access_rules": ["Snurble Fly"],
-                        "visibility_rules": ["fishsanity_timed"],
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Archerfish"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Archerfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Agelyss Carp",
-                        "access_rules": ["Snurble Fly"],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Agelyss Carp"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Agelyss Carp"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "The Terpsichorean",
-                        "access_rules": ["Honey Worm"],
-                        "visibility_rules": ["fishsanity_big"],
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|The Terpsichorean"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|The Terpsichorean"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -1437,56 +1799,90 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:40"
+                    
                 ],
-                "visibility_rules": ["fishsanity_normal, level_cap:40"],
+                "visibility_rules": [
+                    
+                ],
                 "sections": [
                     {
                         "name": "Copperfish",
-                        "access_rules": ["Butterworm", "Midge Basket"],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Copperfish"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Copperfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Mudcrab",
-                        "access_rules": ["Honey Worm"],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Mudcrab"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Mudcrab"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Lamprey",
-                        "access_rules": ["Butterworm", "Midge Basket"],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Lamprey"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Lamprey"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Grip Killifish",
-                        "access_rules": ["Chocobo Fly"],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Grip Killifish"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Grip Killifish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Silverfish",
-                        "access_rules": ["Honey Worm"],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Silverfish"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Silverfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Sludgeskipper",
-                        "access_rules": ["Stem Borer"],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Sludgeskipper"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Sludgeskipper"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Vampire Lampern",
-                        "access_rules": ["Honey Worm"],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Vampire Lampern"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Vampire Lampern"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Mirrorscale",
-                        "access_rules": ["Midge Basket"],
-                        "visibility_rules": ["fishsanity_big"],
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Mirrorscale"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Mirrorscale"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -1506,62 +1902,100 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:45"
+                    
                 ],
-                "visibility_rules": ["fishsanity_normal, level_cap:45"],
+                "visibility_rules": [
+                    
+                ],
                 "sections": [
                     {
                         "name": "Mitten Crab",
-                        "access_rules": ["Honey Worm"],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Mitten Crab"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Mitten Crab"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Silverfish",
-                        "access_rules": ["Honey Worm"],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Silverfish"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Silverfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Clown Loach",
-                        "access_rules": ["Honey Worm"],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Clown Loach"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Clown Loach"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Discus",
-                        "access_rules": ["Honey Worm"],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Discus"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Discus"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Knifefish",
-                        "access_rules": ["Glowworm"],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Knifefish"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Knifefish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Agelyss Carp",
-                        "access_rules": ["Snurble Fly"],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Agelyss Carp"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Agelyss Carp"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Goldfish",
-                        "access_rules": ["Honey Worm"],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Goldfish"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Goldfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Jungle Catfish",
-                        "access_rules": ["Honey Worm"],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Jungle Catfish"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Jungle Catfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Imperial Goldfish",
-                        "access_rules": ["Honey Worm"],
-                        "visibility_rules": ["fishsanity_big"],
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Imperial Goldfish"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Imperial Goldfish"
+                        ],
                         "item_count": 1
                     }
                 ],

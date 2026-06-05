@@ -613,84 +613,79 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:83"
+                    
                 ],
                 "visibility_rules": [
-                    "level_cap:83, fishsanity_normal"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Garlean Clam",
                         "access_rules": [
-                            "Gold Salmon Roe",
-                            "Leech",
-                            "Sky Spoon Lure",
-                            "Mayfly"
+                            "^$fishAccess|Garlemald|Garlean Clam"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Garlean Clam"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Eblan Trout",
                         "access_rules": [
-                            "Gold Salmon Roe",
-                            "Leech",
-                            "Sky Spoon Lure",
-                            "Mayfly"
+                            "^$fishAccess|Garlemald|Eblan Trout"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Eblan Trout"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Animulus",
                         "access_rules": [
-                            "Gold Salmon Roe",
-                            "Leech",
-                            "Sky Spoon Lure",
-                            "Mayfly"
+                            "^$fishAccess|Garlemald|Animulus"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Animulus"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Cerule Core",
                         "access_rules": [
-                            "Gold Salmon Roe",
-                            "Leech",
-                            "Sky Spoon Lure",
-                            "Mayfly"
+                            "^$fishAccess|Garlemald|Cerule Core"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Cerule Core"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Icepike",
                         "access_rules": [
-                            "Gold Salmon Roe",
-                            "Leech",
-                            "Sky Spoon Lure",
-                            "Mayfly"
+                            "^$fishAccess|Garlemald|Icepike"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Icepike"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Rimepike",
                         "access_rules": [
-                            "Gold Salmon Roe"
+                            "^$fishAccess|Garlemald|Rimepike"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Rimepike"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Snowy Parexus",
                         "access_rules": [
-                            "Mayfly"
+                            "^$fishAccess|Garlemald|Snowy Parexus"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Snowy Parexus"
                         ],
                         "item_count": 1
                     }
@@ -711,83 +706,80 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:83"
+                    
                 ],
                 "visibility_rules": [
-                    "level_cap:83, fishsanity_normal"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Garlean Clam",
                         "access_rules": [
-                            "Gold Salmon Roe",
-                            "Leech",
-                            "Sky Spoon Lure",
-                            "Mayfly"
+                            "^$fishAccess|Garlemald|Garlean Clam"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Garlean Clam"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Eblan Trout",
                         "access_rules": [
-                            "Gold Salmon Roe",
-                            "Leech",
-                            "Sky Spoon Lure",
-                            "Mayfly"
+                            "^$fishAccess|Garlemald|Eblan Trout"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Eblan Trout"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Dark Crown",
                         "access_rules": [
-                            "Gold Salmon Roe",
-                            "Leech",
-                            "Sky Spoon Lure",
-                            "Mayfly"
+                            "^$fishAccess|Garlemald|Dark Crown"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Dark Crown"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Imperial Pleco",
                         "access_rules": [
-                            "Gold Salmon Roe",
-                            "Leech",
-                            "Sky Spoon Lure",
-                            "Mayfly"
+                            "^$fishAccess|Garlemald|Imperial Pleco"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Imperial Pleco"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Bluetail",
                         "access_rules": [
-                            "Gold Salmon Roe",
-                            "Leech",
-                            "Sky Spoon Lure",
-                            "Mayfly"
+                            "^$fishAccess|Garlemald|Bluetail"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Bluetail"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Sovereign Shadow",
                         "access_rules": [
-                            "Mayfly"
+                            "^$fishAccess|Garlemald|Sovereign Shadow"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Sovereign Shadow"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Kitty Herring",
                         "access_rules": [
-                            "Metal Spinner"
+                            "^$fishAccess|Garlemald|Kitty Herring"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Kitty Herring"
+                        ],
                         "item_count": 1
                     }
                 ],

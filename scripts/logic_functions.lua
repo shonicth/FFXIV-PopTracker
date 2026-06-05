@@ -1,12 +1,6 @@
 function fatesanity_disabled()
     return Tracker:ProviderCountForCode('fatesanity') == 0
 end
-function fishsanity_check(fish)
-    if fishtable[fish].timed ~= nil then
-        return fishtable[fish].timed
-    end
-    return 0
-end
 
 
 --function FishAccess(location, reqFshLevel)
@@ -53,7 +47,7 @@ end
 function fishVisibility(fish)
   local level_cap = Tracker:ProviderCountForCode("level_cap")
   local reqFshLevel = fishtable[fish].lvl
-  local timed = fishsanity_check(fish)
+  local timed = fishtable[fish].timed or 0
   if level_cap > ((reqFshLevel // 5) * 5) and Tracker:FindObjectForCode("fishsanity").CurrentStage > timed then
          return true
     end

@@ -43,67 +43,79 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:72"
+                    
                 ],
                 "visibility_rules": [
-                    "level_cap:72, fishsanity_normal"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Milky Coral",
                         "access_rules": [
-                            "Moyebi Shrimp"
+                            "^$fishAccess|Eulmore|Milky Coral"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Milky Coral"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Gravel Mussel",
                         "access_rules": [
-                            "Moyebi Shrimp"
+                            "^$fishAccess|Eulmore|Gravel Mussel"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Gravel Mussel"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Crimson Sea Spider",
                         "access_rules": [
-                            "Moyebi Shrimp"
+                            "^$fishAccess|Eulmore|Crimson Sea Spider"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Crimson Sea Spider"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Bonefish",
                         "access_rules": [
-                            "Moyebi Shrimp"
+                            "^$fishAccess|Eulmore|Bonefish"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Bonefish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Eulmore Butterfly",
                         "access_rules": [
-                            "Moyebi Shrimp"
+                            "^$fishAccess|Eulmore|Eulmore Butterfly"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Eulmore Butterfly"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Red Hammerhead",
                         "access_rules": [
-                            "Squid Strip"
+                            "^$fishAccess|Eulmore|Red Hammerhead"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Red Hammerhead"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Winged Dame",
                         "access_rules": [
-                            "Squid Strip"
+                            "^$fishAccess|Eulmore|Winged Dame"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Winged Dame"
                         ],
                         "item_count": 1
                     }
