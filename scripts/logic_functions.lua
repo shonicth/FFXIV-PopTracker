@@ -54,8 +54,7 @@ function fishVisibility(fish)
   local level_cap = Tracker:ProviderCountForCode("level_cap")
   local reqFshLevel = fishtable[fish].lvl
   local timed = fishsanity_check(fish)
-  local currentFshLevel = Tracker:ProviderCountForCode("5fshlevels")
-  if currentFshLevel > ((reqFshLevel // 5) * 5) and Tracker:FindObjectForCode("fishsanity").CurrentStage > timed then
+  if level_cap > ((reqFshLevel // 5) * 5) and Tracker:FindObjectForCode("fishsanity").CurrentStage > timed then
          return true
     end
     return false
