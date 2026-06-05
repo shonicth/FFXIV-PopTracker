@@ -253,7 +253,7 @@ function checkCount(slot_data)
 	 Tracker:FindObjectForCode('@Western Thanalan/Copperbell Mines/Copperbell Mines').AvailableChestCount = slot_data["extra_dungeon_checks"] +1
 	 Tracker:FindObjectForCode('@Eastern Thanalan/Halatali/Halatali').AvailableChestCount = slot_data["extra_dungeon_checks"] +1
 	 Tracker:FindObjectForCode('@South Shroud/The Thousand Maws of Toto-Rak/The Thousand Maws of Toto-Rak').AvailableChestCount = slot_data["extra_dungeon_checks"] +1
-	 Tracker:FindObjectForCode('@Central Shroud/Haukke Manor/Haukke Manor').AvailableChestCount = slot_data["extra_dungeon_checks"] +1
+	 Tracker:FindObjectForCode('@Central Shroud/Haukke Manor (Dungeon)/Haukke Manor').AvailableChestCount = slot_data["extra_dungeon_checks"] +1
 	 Tracker:FindObjectForCode('@Eastern La Noscea/Brayfloxs Longstop/Brayfloxs Longstop').AvailableChestCount = slot_data["extra_dungeon_checks"] +1
 	 Tracker:FindObjectForCode('@Southern Thanalan/The Sunken Temple of Qarn/The Sunken Temple of Qarn').AvailableChestCount = slot_data["extra_dungeon_checks"] +1
 	 Tracker:FindObjectForCode('@Central Thanalan/Cutters Cry/Cutters Cry').AvailableChestCount = slot_data["extra_dungeon_checks"] +1
@@ -266,14 +266,14 @@ function checkCount(slot_data)
 	 Tracker:FindObjectForCode('@South Shroud/Amdapor Keep/Amdapor Keep').AvailableChestCount = slot_data["extra_dungeon_checks"] +1
 	 Tracker:FindObjectForCode('@Western La Noscea/Pharos Sirius/Pharos Sirius').AvailableChestCount = slot_data["extra_dungeon_checks"] +1
 	 Tracker:FindObjectForCode('@Western Thanalan/Copperbell Mines/Copperbell Mines (Hard)').AvailableChestCount = slot_data["extra_dungeon_checks"] +1
-	 Tracker:FindObjectForCode('@Central Shroud/Haukke Manor/Haukke Manor (Hard)').AvailableChestCount = slot_data["extra_dungeon_checks"] +1
+	 Tracker:FindObjectForCode('@Central Shroud/Haukke Manor (Dungeon)/Haukke Manor (Hard)').AvailableChestCount = slot_data["extra_dungeon_checks"] +1
 	 Tracker:FindObjectForCode('@South Shroud/The Lost City of Amdapor/The Lost City of Amdapor').AvailableChestCount = slot_data["extra_dungeon_checks"] +1
 	 Tracker:FindObjectForCode('@Eastern Thanalan/Halatali/Halatali (Hard)').AvailableChestCount = slot_data["extra_dungeon_checks"] +1
 	 Tracker:FindObjectForCode('@Eastern La Noscea/Brayfloxs Longstop/Brayfloxs Longstop (Hard)').AvailableChestCount = slot_data["extra_dungeon_checks"] +1
 	 Tracker:FindObjectForCode('@Lower La Noscea/Hullbreaker Isle/Hullbreaker Isle').AvailableChestCount = slot_data["extra_dungeon_checks"] +1
 	 Tracker:FindObjectForCode('@Central Shroud/The Tam-Tara Deepcroft/The Tam-Tara Deepcroft (Hard)').AvailableChestCount = slot_data["extra_dungeon_checks"] +1
 	 Tracker:FindObjectForCode('@Coerthas Central Highlands/The Stone Vigil/The Stone Vigil (Hard)').AvailableChestCount = slot_data["extra_dungeon_checks"] +1
-	 Tracker:FindObjectForCode('@Coerthas Central Highlands/Snowcloak/Snowcloak').AvailableChestCount = slot_data["extra_dungeon_checks"] +1
+	 Tracker:FindObjectForCode('@Coerthas Central Highlands/Snowcloak (Dungeon)/Snowcloak').AvailableChestCount = slot_data["extra_dungeon_checks"] +1
 	 Tracker:FindObjectForCode('@Western La Noscea/Sastasha/Sastasha (Hard)').AvailableChestCount = slot_data["extra_dungeon_checks"] +1
 	 Tracker:FindObjectForCode('@Southern Thanalan/The Sunken Temple of Qarn/The Sunken Temple of Qarn (Hard)').AvailableChestCount = slot_data["extra_dungeon_checks"] +1
 	 Tracker:FindObjectForCode('@Mor Dhona/The Keeper of the Lake/The Keeper of the Lake').AvailableChestCount = slot_data["extra_dungeon_checks"] +1

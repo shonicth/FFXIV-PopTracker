@@ -16,7 +16,7 @@
                 "access_rules": [
                     " "
                 ],
-                "visibility_rules":[
+                "visibility_rules": [
                     "duty_difficulty_normal"
                 ],
                 "sections": [
@@ -25,7 +25,9 @@
                         "access_rules": [
                             "$leveling:16"
                         ],
-                        "visibility_rules": ["$duty_visibility|The Tam-Tara Deepcroft"],
+                        "visibility_rules": [
+                            "$duty_visibility|The Tam-Tara Deepcroft"
+                        ],
                         "item_count": 10
                     },
                     {
@@ -33,7 +35,9 @@
                         "access_rules": [
                             "$leveling:50"
                         ],
-                        "visibility_rules": ["level_cap:60, $duty_visibility|The Tam-Tara Deepcroft (Hard)"],
+                        "visibility_rules": [
+                            "level_cap:60, $duty_visibility|The Tam-Tara Deepcroft (Hard)"
+                        ],
                         "item_count": 10
                     }
                 ],
@@ -48,7 +52,7 @@
                 ]
             },
             {
-                "name": "Haukke Manor",
+                "name": "Haukke Manor (Dungeon)",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -61,7 +65,9 @@
                         "access_rules": [
                             "$leveling:28"
                         ],
-                        "visibility_rules": ["duty_difficulty_normal, $duty_visibility|Haukke Manor"],
+                        "visibility_rules": [
+                            "duty_difficulty_normal, $duty_visibility|Haukke Manor"
+                        ],
                         "item_count": 10
                     },
                     {
@@ -69,74 +75,16 @@
                         "access_rules": [
                             "$leveling:50"
                         ],
-                        "visibility_rules": ["duty_difficulty_normal, level_cap:50, $duty_visibility|Haukke Manor (Hard)"],
+                        "visibility_rules": [
+                            "duty_difficulty_normal, level_cap:50, $duty_visibility|Haukke Manor (Hard)"
+                        ],
                         "item_count": 10
-                    },
-                    {
-                        "name": "Mudskipper",
-                        "access_rules": [
-                            "^$fishAccess|Central Shroud|Mudskipper"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Mudskipper"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Ala Mhigan Fighting Fish",
-                        "access_rules": [
-                            "^$fishAccess|Central Shroud|Ala Mhigan Fighting Fish"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Ala Mhigan Fighting Fish"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Mudcrab",
-                        "access_rules": [
-                            "^$fishAccess|Central Shroud|Mudcrab"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Mudcrab"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Monke Onke",
-                        "access_rules": [
-                            "^$fishAccess|Central Shroud|Monke Onke"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Monke Onke"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Silverfish",
-                        "access_rules": [
-                            "^$fishAccess|Central Shroud|Silverfish"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Silverfish"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Bloodbath",
-                        "access_rules": [
-                            "^$fishAccess|Central Shroud|Bloodbath"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Bloodbath"
-                        ],
-                        "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Central Shroud",
-                        "x": 459,
+                        "x": 452,
                         "y": 1098,
                         "size": 40,
                         "shape": "rect"
@@ -157,7 +105,9 @@
                         "access_rules": [
                             "$leveling:10"
                         ],
-                        "visibility_rules": ["include_guildhests, duty_difficulty_normal, $duty_visibility|Under the Armor"],
+                        "visibility_rules": [
+                            "include_guildhests, duty_difficulty_normal, $duty_visibility|Under the Armor"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -185,7 +135,9 @@
                         "access_rules": [
                             "$leveling:25"
                         ],
-                        "visibility_rules": ["include_guildhests, duty_difficulty_normal, $duty_visibility|Flicking Sticks and Taking Names"],
+                        "visibility_rules": [
+                            "include_guildhests, duty_difficulty_normal, $duty_visibility|Flicking Sticks and Taking Names"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -906,7 +858,8 @@
                             "^$fateAccess|Steel Reign"
                         ],
                         "visibility_rules": [
-                            "$fateVisibility|Steel Reign, include_unreasonable_fates"],
+                            "$fateVisibility|Steel Reign, include_unreasonable_fates"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -925,8 +878,7 @@
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
-                "access_rules": [
-                ],
+                "access_rules": [],
                 "visibility_rules": [],
                 "sections": [
                     {
@@ -1025,8 +977,7 @@
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
-                "access_rules": [
-                ],
+                "access_rules": [],
                 "visibility_rules": [],
                 "sections": [
                     {
@@ -1125,9 +1076,7 @@
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
-                "access_rules": [
-                    
-                ],
+                "access_rules": [],
                 "visibility_rules": [],
                 "sections": [
                     {
@@ -1222,14 +1171,91 @@
                 ]
             },
             {
-                "name": "Everschade",
+                "name": "Haukke Manor (Fishing Hole)",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    
+                    " "
                 ],
-                
+                "sections": [
+                    {
+                        "name": "Mudskipper",
+                        "access_rules": [
+                            "^$fishAccess|Central Shroud|Mudskipper"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Mudskipper"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Ala Mhigan Fighting Fish",
+                        "access_rules": [
+                            "^$fishAccess|Central Shroud|Ala Mhigan Fighting Fish"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Ala Mhigan Fighting Fish"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Mudcrab",
+                        "access_rules": [
+                            "^$fishAccess|Central Shroud|Mudcrab"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Mudcrab"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Monke Onke",
+                        "access_rules": [
+                            "^$fishAccess|Central Shroud|Monke Onke"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Monke Onke"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Silverfish",
+                        "access_rules": [
+                            "^$fishAccess|Central Shroud|Silverfish"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Silverfish"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bloodbath",
+                        "access_rules": [
+                            "^$fishAccess|Central Shroud|Bloodbath"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Bloodbath"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Central Shroud",
+                        "x": 520,
+                        "y": 1097,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Everschade",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [],
                 "visibility_rules": [],
                 "sections": [
                     {
@@ -1285,7 +1311,7 @@
                     {
                         "name": "Monke Onke",
                         "access_rules": [
-                           "^$fishAccess|Central Shroud|Monke Onke"
+                            "^$fishAccess|Central Shroud|Monke Onke"
                         ],
                         "visibility_rules": [
                             "$fishVisibility|Monke Onke"

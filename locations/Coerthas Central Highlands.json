@@ -110,7 +110,7 @@
                 ]
             },
             {
-                "name": "Snowcloak",
+                "name": "Snowcloak (Dungeon)",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -204,8 +204,8 @@
                 "map_locations": [
                     {
                         "map": "Coerthas Central Highlands",
-                        "x": 65,
-                        "y": 1005,
+                        "x": 95,
+                        "y": 1014,
                         "size": 40,
                         "shape": "rect"
                     }
@@ -1547,79 +1547,86 @@
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
-                "access_rules": [
-                    "5fshlevels:35"
-                ],
-                "visibility_rules": [
-                    "fishsanity_normal, level_cap:35"
-                ],
+                "access_rules": [],
+                "visibility_rules": [],
                 "sections": [
                     {
                         "name": "Striped Goby",
                         "access_rules": [
-                            "Moth Pupa"
+                            "^$fishAccess|Coerthas Central Highlands|Striped Goby"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Striped Goby"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Maiden Carp",
                         "access_rules": [
-                            "Wildfowl Fly"
+                            "^$fishAccess|Coerthas Central Highlands|Maiden Carp"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Maiden Carp"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Rainbow Trout",
                         "access_rules": [
-                            "Midge Basket",
-                            "Crow Fly"
+                            "^$fishAccess|Coerthas Central Highlands|Rainbow Trout"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Rainbow Trout"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Seema",
                         "access_rules": [
-                            "Wildfowl Fly"
+                            "^$fishAccess|Coerthas Central Highlands|Seema"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Seema"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Giant Bass",
                         "access_rules": [
-                            "Honey Worm"
+                            "^$fishAccess|Coerthas Central Highlands|Giant Bass"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Giant Bass"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Crimson Trout",
                         "access_rules": [
-                            "Spinner",
-                            "Wildfowl Fly"
+                            "^$fishAccess|Coerthas Central Highlands|Crimson Trout"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Crimson Trout"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Kissing Trout",
                         "access_rules": [
-                            "Moth Pupa",
-                            "Honey Worm"
+                            "^$fishAccess|Coerthas Central Highlands|Kissing Trout"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Kissing Trout"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Daniffens Mark",
                         "access_rules": [
-                            "Wildfowl Fly"
+                            "^$fishAccess|Coerthas Central Highlands|Daniffen's Mark"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Daniffen's Mark"
                         ],
                         "item_count": 1
                     }
@@ -1639,89 +1646,96 @@
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
-                "access_rules": [
-                    "5fshlevels:40"
-                ],
-                "visibility_rules": [
-                    "fishsanity_normal, level_cap:40"
-                ],
+                "access_rules": [],
+                "visibility_rules": [],
                 "sections": [
                     {
                         "name": "Striped Goby",
                         "access_rules": [
-                            "Moth Pupa"
+                            "^$fishAccess|Coerthas Central Highlands|Striped Goby"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Striped Goby"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Abalathian Smelt",
                         "access_rules": [
-                            "Glowworm",
-                            "Syrphid Basket",
-                            "Honey Worm",
-                            "Stonefly Nymph"
+                            "^$fishAccess|Coerthas Central Highlands|Abalathian Smelt"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Abalathian Smelt"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Giant Bass",
                         "access_rules": [
-                            "Honey Worm"
+                            "^$fishAccess|Coerthas Central Highlands|Giant Bass"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Giant Bass"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Crimson Trout",
                         "access_rules": [
-                            "Spinner",
-                            "Wildfowl Fly"
+                            "^$fishAccess|Coerthas Central Highlands|Crimson Trout"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Crimson Trout"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Bronze Lake Trout",
                         "access_rules": [
-                            "Spinnerbait"
+                            "^$fishAccess|Coerthas Central Highlands|Bronze Lake Trout"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Bronze Lake Trout"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Northern Pike",
                         "access_rules": [
-                            "Topwater Frog"
+                            "^$fishAccess|Coerthas Central Highlands|Northern Pike"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Northern Pike"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Kissing Trout",
                         "access_rules": [
-                            "Moth Pupa",
-                            "Honey Worm"
+                            "^$fishAccess|Coerthas Central Highlands|Kissing Trout"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Kissing Trout"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Emperor Fish",
                         "access_rules": [
-                            "Moth Pupa"
+                            "^$fishAccess|Coerthas Central Highlands|Emperor Fish"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Emperor Fish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Starbright",
                         "access_rules": [
-                            "Syrphid Basket"
+                            "^$fishAccess|Coerthas Central Highlands|Starbright"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Starbright"
                         ],
                         "item_count": 1
                     }
@@ -1741,74 +1755,76 @@
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
-                "access_rules": [
-                    "5fshlevels:40"
-                ],
-                "visibility_rules": [
-                    "fishsanity_normal, level_cap:40"
-                ],
+                "access_rules": [],
+                "visibility_rules": [],
                 "sections": [
                     {
                         "name": "Striped Goby",
                         "access_rules": [
-                            "Moth Pupa"
+                            "^$fishAccess|Coerthas Central Highlands|Striped Goby"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Striped Goby"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Abalathian Smelt",
                         "access_rules": [
-                            "Glowworm",
-                            "Syrphid Basket",
-                            "Honey Worm",
-                            "Stonefly Nymph"
+                            "^$fishAccess|Coerthas Central Highlands|Abalathian Smelt"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Abalathian Smelt"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Rainbow Trout",
                         "access_rules": [
-                            "Midge Basket",
-                            "Crow Fly"
+                            "^$fishAccess|Coerthas Central Highlands|Rainbow Trout"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Rainbow Trout"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Seema",
                         "access_rules": [
-                            "Wildfowl Fly"
+                            "^$fishAccess|Coerthas Central Highlands|Seema"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Seema"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Crimson Trout",
                         "access_rules": [
-                            "Spinner",
-                            "Wildfowl Fly"
+                            "^$fishAccess|Coerthas Central Highlands|Crimson Trout"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Crimson Trout"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Kissing Trout",
                         "access_rules": [
-                            "Moth Pupa",
-                            "Honey Worm"
+                            "^$fishAccess|Coerthas Central Highlands|Kissing Trout"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Kissing Trout"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Dawn Maiden",
                         "access_rules": [
-                            "Wildfowl Fly"
+                            "^$fishAccess|Coerthas Central Highlands|Dawn Maiden"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Dawn Maiden"
                         ],
                         "item_count": 1
                     }
@@ -1828,71 +1844,76 @@
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
-                "access_rules": [
-                    "5fshlevels:35"
-                ],
-                "visibility_rules": [
-                    "fishsanity_normal, 5fshlevels:35"
-                ],
+                "access_rules": [],
+                "visibility_rules": [],
                 "sections": [
                     {
                         "name": "Striped Goby",
                         "access_rules": [
-                            "Moth Pupa"
+                            "^$fishAccess|Coerthas Central Highlands|Striped Goby"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Striped Goby"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Abalathian Smelt",
                         "access_rules": [
-                            "Glowworm",
-                            "Syrphid Basket",
-                            "Honey Worm",
-                            "Stonefly Nymph"
+                            "^$fishAccess|Coerthas Central Highlands|Abalathian Smelt"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Abalathian Smelt"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Blindfish",
                         "access_rules": [
-                            "Syrphid Basket"
+                            "^$fishAccess|Coerthas Central Highlands|Blindfish"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Blindfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Golden Loach",
                         "access_rules": [
-                            "Topwater Frog"
+                            "^$fishAccess|Coerthas Central Highlands|Golden Loach"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Golden Loach"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Cave Cherax",
                         "access_rules": [
-                            "Moth Pupa"
+                            "^$fishAccess|Coerthas Central Highlands|Cave Cherax"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Cave Cherax"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Lamp Marimo",
                         "access_rules": [
-                            "Chocobo Fly"
+                            "^$fishAccess|Coerthas Central Highlands|Lamp Marimo"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Lamp Marimo"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Charons Lantern",
                         "access_rules": [
-                            "Glowworm"
+                            "^$fishAccess|Coerthas Central Highlands|Charon's Lantern"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Charon's Lantern"
                         ],
                         "item_count": 1
                     }
@@ -1912,80 +1933,86 @@
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
-                "access_rules": [
-                    "5fshlevels:45"
-                ],
-                "visibility_rules": [
-                    "fishsanity_normal, 5fshlevels:45"
-                ],
+                "access_rules": [],
+                "visibility_rules": [],
                 "sections": [
                     {
                         "name": "Abalathian Smelt",
                         "access_rules": [
-                            "Glowworm",
-                            "Syrphid Basket",
-                            "Honey Worm",
-                            "Stonefly Nymph"
+                            "^$fishAccess|Coerthas Central Highlands|Abalathian Smelt"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Abalathian Smelt"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Giant Bass",
                         "access_rules": [
-                            "Honey Worm"
+                            "^$fishAccess|Coerthas Central Highlands|Giant Bass"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Giant Bass"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Crimson Trout",
                         "access_rules": [
-                            "Spinner",
-                            "Wildfowl Fly"
+                            "^$fishAccess|Coerthas Central Highlands|Crimson Trout"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Crimson Trout"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Common Sculpin",
                         "access_rules": [
-                            "Spinnerbait"
+                            "^$fishAccess|Coerthas Central Highlands|Common Sculpin"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Common Sculpin"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Northern Pike",
                         "access_rules": [
-                            "Topwater Frog"
+                            "^$fishAccess|Coerthas Central Highlands|Northern Pike"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Northern Pike"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Angry Pike",
                         "access_rules": [
-                            "Stonefly Nymph"
+                            "^$fishAccess|Coerthas Central Highlands|Angry Pike"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Angry Pike"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Lamp Marimo",
                         "access_rules": [
-                            "Chocobo Fly"
+                            "^$fishAccess|Coerthas Central Highlands|Lamp Marimo"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Lamp Marimo"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Darkstar",
                         "access_rules": [
-                            "Stonefly Nymph"
+                            "^$fishAccess|Coerthas Central Highlands|Darkstar"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Darkstar"
                         ],
                         "item_count": 1
                     }
@@ -2005,56 +2032,56 @@
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
-                "access_rules": [
-                    "5fshlevels:40"
-                ],
-                "visibility_rules": [
-                    "fishsanity_normal, 5fshlevels:40"
-                ],
+                "access_rules": [],
+                "visibility_rules": [],
                 "sections": [
                     {
                         "name": "Abalathian Smelt",
                         "access_rules": [
-                            "Glowworm",
-                            "Syrphid Basket",
-                            "Honey Worm",
-                            "Stonefly Nymph"
+                            "^$fishAccess|Coerthas Central Highlands|Abalathian Smelt"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Abalathian Smelt"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Northern Pike",
                         "access_rules": [
-                            "Topwater Frog"
+                            "^$fishAccess|Coerthas Central Highlands|Northern Pike"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Northern Pike"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Kissing Trout",
                         "access_rules": [
-                            "Moth Pupa",
-                            "Honey Worm"
+                            "^$fishAccess|Coerthas Central Highlands|Kissing Trout"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Kissing Trout"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Lamp Marimo",
                         "access_rules": [
-                            "Chocobo Fly"
+                            "^$fishAccess|Coerthas Central Highlands|Lamp Marimo"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Lamp Marimo"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "The Matriarch",
                         "access_rules": [
-                            "Honey Worm"
+                            "^$fishAccess|Coerthas Central Highlands|The Matriarch"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|The Matriarch"
                         ],
                         "item_count": 1
                     }
@@ -2074,86 +2101,96 @@
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
-                "access_rules": [
-                    "5fshlevels:50"
-                ],
-                "visibility_rules": [
-                    "fishsanity_normal, level_cap:50"
-                ],
+                "access_rules": [],
+                "visibility_rules": [],
                 "sections": [
                     {
                         "name": "Cloud Jellyfish",
                         "access_rules": [
-                            "Balloon Bug"
+                            "^$fishAccess|Coerthas Central Highlands|Cloud Jellyfish"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Cloud Jellyfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Skyfish",
                         "access_rules": [
-                            "Balloon Bug"
+                            "^$fishAccess|Coerthas Central Highlands|Skyfish"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Skyfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Cloud Cutter",
                         "access_rules": [
-                            "Hoverworm"
+                            "^$fishAccess|Coerthas Central Highlands|Cloud Cutter"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Cloud Cutter"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Blind Manta",
                         "access_rules": [
-                            "Hoverworm"
+                            "^$fishAccess|Coerthas Central Highlands|Blind Manta"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Blind Manta"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Rift Sailor",
                         "access_rules": [
-                            "Balloon Bug"
+                            "^$fishAccess|Coerthas Central Highlands|Rift Sailor"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Rift Sailor"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Saucerfish",
                         "access_rules": [
-                            "Hoverworm"
+                            "^$fishAccess|Coerthas Central Highlands|Saucerfish"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Saucerfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Rhamphorhynchus",
                         "access_rules": [
-                            "Hoverworm"
+                            "^$fishAccess|Coerthas Central Highlands|Rhamphorhynchus"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Rhamphorhynchus"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Mahar",
                         "access_rules": [
-                            "Hoverworm"
+                            "^$fishAccess|Coerthas Central Highlands|Mahar"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Mahar"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Shonisaurus",
                         "access_rules": [
-                            "Hoverworm"
+                            "^$fishAccess|Coerthas Central Highlands|Shonisaurus"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Shonisaurus"
                         ],
                         "item_count": 1
                     }
@@ -2169,64 +2206,140 @@
                 ]
             },
             {
-                "name": "Sea of Clouds",
+                "name": "Snowcloak (Fishing Hole)",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:45"
+                    " "
                 ],
-                "visibility_rules": [
-                    "fishsanity_normal, level_cap:45"
+                "sections": [
+                    {
+                        "name": "Rainbow Trout",
+                        "access_rules": [
+                            "^$fishAccess|Coerthas Central Highlands|Rainbow Trout"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Rainbow Trout"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Seema",
+                        "access_rules": [
+                            "^$fishAccess|Coerthas Central Highlands|Seema"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Seema"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Crimson Trout",
+                        "access_rules": [
+                            "^$fishAccess|Coerthas Central Highlands|Crimson Trout"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Crimson Trout"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Wandering Sculpin",
+                        "access_rules": [
+                            "^$fishAccess|Coerthas Central Highlands|Wandering Sculpin"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Wandering Sculpin"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Blue Corpse",
+                        "access_rules": [
+                            "^$fishAccess|Coerthas Central Highlands|Blue Corpse"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Blue Corpse"
+                        ],
+                        "item_count": 1
+                    }
                 ],
+                "map_locations": [
+                    {
+                        "map": "Coerthas Central Highlands",
+                        "x": 148,
+                        "y": 1036,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Sea of Clouds",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [],
+                "visibility_rules": [],
                 "sections": [
                     {
                         "name": "Cloud Jellyfish",
                         "access_rules": [
-                            "Balloon Bug"
+                            "^$fishAccess|Coerthas Central Highlands|Cloud Jellyfish"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Cloud Jellyfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Skyfish",
                         "access_rules": [
-                            "Balloon Bug"
+                            "^$fishAccess|Coerthas Central Highlands|Skyfish"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Skyfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Cloud Cutter",
                         "access_rules": [
-                            "Hoverworm"
+                            "^$fishAccess|Coerthas Central Highlands|Cloud Cutter"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Cloud Cutter"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Blind Manta",
                         "access_rules": [
-                            "Hoverworm"
+                            "^$fishAccess|Coerthas Central Highlands|Blind Manta"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Blind Manta"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Rift Sailor",
                         "access_rules": [
-                            "Balloon Bug"
+                            "^$fishAccess|Coerthas Central Highlands|Rift Sailor"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Rift Sailor"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Anomalocaris",
                         "access_rules": [
-                            "Hoverworm"
+                            "^$fishAccess|Coerthas Central Highlands|Anomalocaris"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Anomalocaris"
                         ],
                         "item_count": 1
                     }
