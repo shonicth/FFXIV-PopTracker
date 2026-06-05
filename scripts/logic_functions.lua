@@ -2,7 +2,7 @@ function fatesanity_disabled()
     return Tracker:ProviderCountForCode('fatesanity') == 0
 end
 function fishsanity_check()
-    if fishtable[fish].timed ~= nil
+    if fishtable[fish].timed ~= nil then
         return fishtable[fish].timed
     end
     return 0

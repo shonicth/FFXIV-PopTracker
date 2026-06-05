@@ -855,48 +855,49 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:50"
+                    
                 ],
                 "visibility_rules": [
-                    "level_cap:50, fishsanity_normal"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Abalathian Smelt",
                         "access_rules": [
-                            "Stonefly Nymph",
-                            "Freshwater Boilie",
-                            "Syrphid Basket"
+                            "^$fishAccess|Coerthas Western Highlands|Abalathian Smelt"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Abalathian Smelt"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Coerthan Crab",
                         "access_rules": [
-                            "Metal Spinner",
-                            "Stonefly Nymph"
+                            "^$fishAccess|Coerthas Western Highlands|Coerthan Crab"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Coerthan Crab"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Coerthan Puffer",
                         "access_rules": [
-                            "Purse Web Spider"
+                            "^$fishAccess|Coerthas Western Highlands|Coerthan Puffer"
                         ],
                         "visibility_rules": [
-                            "fishsanity_timed"
+                            "$fishVisibility|Coerthan Puffer"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Fat Purse",
                         "access_rules": [
-                            "Brute Leech"
+                            "^$fishAccess|Coerthas Western Highlands|Fat Purse"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Fat Purse"
                         ],
                         "item_count": 1
                     }
@@ -917,78 +918,79 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:52"
+                    
                 ],
                 "visibility_rules": [
-                    "level_cap:52, fishsanity_normal"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Abalathian Smelt",
                         "access_rules": [
-                            "Stonefly Nymph",
-                            "Freshwater Boilie",
-                            "Syrphid Basket"
+                            "^$fishAccess|Coerthas Western Highlands|Abalathian Smelt"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Abalathian Smelt"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Icepick",
                         "access_rules": [
-                            "Goblin Jig",
-                            "Metal Spinner"
+                            "^$fishAccess|Coerthas Western Highlands|Icepick"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Icepick"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Ice Faerie",
                         "access_rules": [
-                            "Metal Spinner",
-                            "Purse Web Spider",
-                            "Caddisfly Larva"
+                            "^$fishAccess|Coerthas Western Highlands|Ice Faerie"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Ice Faerie"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Sorcerer Fish",
                         "access_rules": [
-                            "Freshwater Boilie"
+                            "^$fishAccess|Coerthas Western Highlands|Sorcerer Fish"
                         ],
                         "visibility_rules": [
-                            "fishsanity_timed"
+                            "$fishVisibility|Sorcerer Fish"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Albino Octopus",
                         "access_rules": [
-                            "Metal Spinner"
+                            "^$fishAccess|Coerthas Western Highlands|Albino Octopus"
                         ],
                         "visibility_rules": [
-                            "fishsanity_timed"
+                            "$fishVisibility|Albino Octopus"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Coerthan Clione",
                         "access_rules": [
-                            "Brute Leech"
+                            "^$fishAccess|Coerthas Western Highlands|Coerthan Clione"
                         ],
                         "visibility_rules": [
-                            "fishsanity_timed"
+                            "$fishVisibility|Coerthan Clione"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Flarefish",
                         "access_rules": [
-                            "Metal Spinner"
+                            "^$fishAccess|Coerthas Western Highlands|Flarefish"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Flarefish"
                         ],
                         "item_count": 1
                     }
@@ -1009,94 +1011,99 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:60"
+                    
                 ],
                 "visibility_rules": [
-                    "level_cap:60, fishsanity_normal"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Abalathian Smelt",
                         "access_rules": [
-                            "Stonefly Nymph",
-                            "Freshwater Boilie",
-                            "Syrphid Basket"
+                            "^$fishAccess|Coerthas Western Highlands|Abalathian Smelt"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Abalathian Smelt"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Ice Faerie",
                         "access_rules": [
-                            "Metal Spinner",
-                            "Purse Web Spider",
-                            "Caddisfly Larva"
+                            "^$fishAccess|Coerthas Western Highlands|Ice Faerie"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Ice Faerie"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Coerthan Crab",
                         "access_rules": [
-                            "Metal Spinner",
-                            "Stonefly Nymph"
+                            "^$fishAccess|Coerthas Western Highlands|Coerthan Crab"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Coerthan Crab"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Hotrod",
                         "access_rules": [
-                            "Purse Web Spider"
+                            "^$fishAccess|Coerthas Western Highlands|Hotrod"
                         ],
                         "visibility_rules": [
-                            "fishsanity_timed"
+                            "$fishVisibility|Hotrod"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Capelin",
                         "access_rules": [
-                            "Brute Leech"
+                            "^$fishAccess|Coerthas Western Highlands|Capelin"
                         ],
                         "visibility_rules": [
-                            "fishsanity_timed"
+                            "$fishVisibility|Capelin"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Priestfish",
                         "access_rules": [
-                            "Brute Leech"
+                            "^$fishAccess|Coerthas Western Highlands|Priestfish"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Priestfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Ghost Faerie",
                         "access_rules": [
-                            "Metal Spinner"
+                            "^$fishAccess|Coerthas Western Highlands|Ghost Faerie"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Ghost Faerie"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Bishopfish",
                         "access_rules": [
-                            "Brute Leech"
+                            "^$fishAccess|Coerthas Western Highlands|Bishopfish"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Bishopfish"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Charibenet",
                         "access_rules": [
-                            "Purse Web Spider"
+                            "^$fishAccess|Coerthas Western Highlands|Charibenet"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Charibenet"
                         ],
                         "item_count": 1
                     }
@@ -1117,98 +1124,109 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:53"
+                    
                 ],
                 "visibility_rules": [
-                    "level_cap:53, fishsanity_normal"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Abalathian Smelt",
                         "access_rules": [
-                            "Stonefly Nymph",
-                            "Freshwater Boilie",
-                            "Syrphid Basket"
+                            "^$fishAccess|Coerthas Western Highlands|Abalathian Smelt"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Abalathian Smelt"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Icepick",
                         "access_rules": [
-                            "Goblin Jig",
-                            "Metal Spinner"
+                            "^$fishAccess|Coerthas Western Highlands|Icepick"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Icepick"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Ice Faerie",
                         "access_rules": [
-                            "Metal Spinner",
-                            "Purse Web Spider",
-                            "Caddisfly Larva"
+                            "^$fishAccess|Coerthas Western Highlands|Ice Faerie"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Ice Faerie"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Fanged Clam",
                         "access_rules": [
-                            "Metal Spinner",
-                            " Goblin Jig"
+                            "^$fishAccess|Coerthas Western Highlands|Fanged Clam"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Fanged Clam"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Lake Urchin",
                         "access_rules": [
-                            "Brute Leech",
-                            "Goblin Jig"
+                            "^$fishAccess|Coerthas Western Highlands|Lake Urchin"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Lake Urchin"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Seema Patrician",
                         "access_rules": [
-                            "Goblin Jig"
+                            "^$fishAccess|Coerthas Western Highlands|Seema Patrician"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Seema Patrician"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Ammonite",
                         "access_rules": [
-                            "Goblin Jig"
+                            "^$fishAccess|Coerthas Western Highlands|Ammonite"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Ammonite"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Mountain Kraken",
                         "access_rules": [
-                            "Brute Leech"
+                            "^$fishAccess|Coerthas Western Highlands|Mountain Kraken"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Mountain Kraken"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Magic Bucket",
                         "access_rules": [
-                            "Brute Leech"
+                            "^$fishAccess|Coerthas Western Highlands|Magic Bucket"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Magic Bucket"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Captain Nemo",
                         "access_rules": [
-                            "Brute Leech"
+                            "^$fishAccess|Coerthas Western Highlands|Captain Nemo"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Captain Nemo"
                         ],
                         "item_count": 1
                     }
@@ -1229,82 +1247,90 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:52"
+                    
                 ],
                 "visibility_rules": [
-                    "level_cap:52, fishsanity_normal"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Abalathian Smelt",
                         "access_rules": [
-                            "Stonefly Nymph",
-                            "Freshwater Boilie",
-                            "Syrphid Basket"
+                            "^$fishAccess|Coerthas Western Highlands|Abalathian Smelt"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Abalathian Smelt"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Ice Faerie",
                         "access_rules": [
-                            "Metal Spinner",
-                            "Purse Web Spider",
-                            "Caddisfly Larva"
+                            "^$fishAccess|Coerthas Western Highlands|Ice Faerie"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Ice Faerie"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Fanged Clam",
                         "access_rules": [
-                            "Metal Spinner",
-                            " Goblin Jig"
+                            "^$fishAccess|Coerthas Western Highlands|Fanged Clam"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Fanged Clam"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Lake Urchin",
                         "access_rules": [
-                            "Brute Leech",
-                            "Goblin Jig"
+                            "^$fishAccess|Coerthas Western Highlands|Lake Urchin"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Lake Urchin"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Gigant Grouper",
                         "access_rules": [
-                            "Goblin Jig"
+                            "^$fishAccess|Coerthas Western Highlands|Gigant Grouper"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Gigant Grouper"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Battle Galley",
                         "access_rules": [
-                            "Purse Web Spider"
+                            "^$fishAccess|Coerthas Western Highlands|Battle Galley"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Battle Galley"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "La Reale",
                         "access_rules": [
-                            "Brute Leech"
+                            "^$fishAccess|Coerthas Western Highlands|La Reale"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|La Reale"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Northern Oyster",
                         "access_rules": [
-                            "Metal Spinner"
+                            "^$fishAccess|Coerthas Western Highlands|Northern Oyster"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Northern Oyster"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -1324,65 +1350,69 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:51"
+                    
                 ],
                 "visibility_rules": [
-                    "level_cap:51, fishsanity_normal"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Cloud Coral",
                         "access_rules": [
-                            "Balloon Bug"
+                            "^$fishAccess|Coerthas Western Highlands|Cloud Coral"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Cloud Coral"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Skyworm",
                         "access_rules": [
-                            "Giant Crane Fly"
+                            "^$fishAccess|Coerthas Western Highlands|Skyworm"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Skyworm"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Glacier Core",
                         "access_rules": [
-                            "Red Balloon"
+                            "^$fishAccess|Coerthas Western Highlands|Glacier Core"
                         ],
                         "visibility_rules": [
-                            "fishsanity_timed"
+                            "$fishVisibility|Glacier Core"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Rime Eater",
                         "access_rules": [
-                            "Red Balloon"
+                            "^$fishAccess|Coerthas Western Highlands|Rime Eater"
                         ],
                         "visibility_rules": [
-                            "fishsanity_timed"
+                            "$fishVisibility|Rime Eater"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Warballoon",
                         "access_rules": [
-                            "Giant Crane Fly"
+                            "^$fishAccess|Coerthas Western Highlands|Warballoon"
                         ],
                         "visibility_rules": [
-                            "fishsanity_timed"
+                            "$fishVisibility|Warballoon"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Hailfinder",
                         "access_rules": [
-                            "Red Balloon"
+                            "^$fishAccess|Coerthas Western Highlands|Hailfinder"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Hailfinder"
                         ],
                         "item_count": 1
                     }
@@ -1403,84 +1433,90 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:53"
+                    
                 ],
                 "visibility_rules": [
-                    "level_cap:53, fishsanity_normal"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Ice Faerie",
                         "access_rules": [
-                            "Metal Spinner",
-                            "Purse Web Spider",
-                            "Caddisfly Larva"
+                            "^$fishAccess|Coerthas Western Highlands|Ice Faerie"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Ice Faerie"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Fanged Clam",
                         "access_rules": [
-                            "Metal Spinner",
-                            " Goblin Jig"
+                            "^$fishAccess|Coerthas Western Highlands|Fanged Clam"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Fanged Clam"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Lake Urchin",
                         "access_rules": [
-                            "Brute Leech",
-                            "Goblin Jig"
+                            "^$fishAccess|Coerthas Western Highlands|Lake Urchin"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Lake Urchin"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Snowcaller",
                         "access_rules": [
-                            "Caddisfly Larva"
+                            "^$fishAccess|Coerthas Western Highlands|Snowcaller"
                         ],
                         "visibility_rules": [
-                            "fishsanity_timed"
+                            "$fishVisibility|Snowcaller"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Mercy Staff",
                         "access_rules": [
-                            "Brute Leech"
+                            "^$fishAccess|Coerthas Western Highlands|Mercy Staff"
                         ],
                         "visibility_rules": [
-                            "fishsanity_timed"
+                            "$fishVisibility|Mercy Staff"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Coerthan Oyster",
                         "access_rules": [
-                            "Brute Leech"
+                            "^$fishAccess|Coerthas Western Highlands|Coerthan Oyster"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Coerthan Oyster"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Merciless",
                         "access_rules": [
-                            "Caddisfly Larva"
+                            "^$fishAccess|Coerthas Western Highlands|Merciless"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Merciless"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Warmscale Pleco",
                         "access_rules": [
-                            "Metal Spinner"
+                            "^$fishAccess|Coerthas Western Highlands|Warmscale Pleco"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Warmscale Pleco"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -1500,60 +1536,70 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:60"
+                    
                 ],
                 "visibility_rules": [
-                    "level_cap:60, fishsanity_normal"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Ogre Horn Snail",
                         "access_rules": [
-                            "Stonefly Nymph"
+                            "^$fishAccess|Coerthas Western Highlands|Ogre Horn Snail"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Ogre Horn Snail"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Hospitalier Fish",
                         "access_rules": [
-                            "Purse Web Spider"
+                            "^$fishAccess|Coerthas Western Highlands|Hospitalier Fish"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Hospitalier Fish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Spring Urchin",
                         "access_rules": [
-                            "Brute Leech"
+                            "^$fishAccess|Coerthas Western Highlands|Spring Urchin"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Spring Urchin"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Cherry Trout",
                         "access_rules": [
-                            "Bladed Steel Jig"
+                            "^$fishAccess|Coerthas Western Highlands|Cherry Trout"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Cherry Trout"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "The Impaler",
                         "access_rules": [
-                            "Brute Leech"
+                            "^$fishAccess|Coerthas Western Highlands|The Impaler"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|The Impaler"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Dragonspine",
                         "access_rules": [
-                            "Signature Skyball"
+                            "^$fishAccess|Coerthas Western Highlands|Dragonspine"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Dragonspine"
+                        ],
                         "item_count": 1
                     }
                 ],
