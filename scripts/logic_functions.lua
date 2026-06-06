@@ -32,11 +32,11 @@ function fishAccess(zone, fish)
     local reqFshLevel = fishtable[fish].lvl
     local logicBait = fishtable[fish].zones[zone]
     if logicBait == nil then
-        print(fish)
         print(zone)
-        print("Check this pls ty")
+        print(fish)
+        print("zone/fish is nil")
     end
-    if fshLevels > ((reqFshLevel // 5) * 5)  then
+    if fshLevels >= ((reqFshLevel // 5) * 5)  then
         if logicBait ~= nil then
             for _, item in ipairs(logicBait) do
                 if Tracker:ProviderCountForCode(item) > 0 then
@@ -51,7 +51,7 @@ function fishVisibility(fish)
   local level_cap = Tracker:ProviderCountForCode("level_cap")
   local reqFshLevel = fishtable[fish].lvl
   local timed = fishtable[fish].timed or 0
-  if level_cap > ((reqFshLevel // 5) * 5) and Tracker:FindObjectForCode("fishsanity").CurrentStage > timed then
+  if level_cap >= ((reqFshLevel // 5) * 5) and Tracker:FindObjectForCode("fishsanity").CurrentStage > timed then
          return true
     end
     return false
@@ -74,6 +74,10 @@ function fateMinLevelVisibility(reqLevel)
 end
 
 function fateAccess(fate)
+    if fate == nil
+        print(fate)
+        print("fate is nil")
+    end
     if fate ~= nil then
       local leveling = leveling() 
         local reqLevel = fatelist[fate]
@@ -85,6 +89,10 @@ function fateAccess(fate)
 end
 
 function fateVisibility(fate)
+    if fate == nil
+        print(fate)
+        print("fate is nil")
+    end
     if Tracker:ProviderCountForCode("fatesanity") > 0 and fate ~= nil then
         local level_cap = Tracker:ProviderCountForCode("level_cap")
         local reqLevel = fatelist[fate]
