@@ -72,64 +72,69 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:80"
+                    
                 ],
                 "visibility_rules": [
-                    "level_cap:80, fishsanity_normal"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Pecten",
                         "access_rules": [
-                            "Shrimp Ball",
-                            "Mackerel Strip"
+                            "^$fishAccess|Old Sharlayan|Pecten"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Pecten"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Northern Herring",
                         "access_rules": [
-                            "Shrimp Ball",
-                            "Mackerel Strip"
+                            "^$fishAccess|Old Sharlayan|Northern Herring"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Northern Herring"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Dog-faced Puffer",
                         "access_rules": [
-                            "Shrimp Ball",
-                            "Mackerel Strip"
+                            "^$fishAccess|Old Sharlayan|Dog-faced Puffer"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Dog-faced Puffer"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Cobalt Chromis",
                         "access_rules": [
-                            "Shrimp Ball",
-                            "Mackerel Strip"
+                            "^$fishAccess|Old Sharlayan|Cobalt Chromis"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Cobalt Chromis"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Guitarfish",
                         "access_rules": [
-                            "Shrimp Ball",
-                            "Mackerel Strip"
+                            "^$fishAccess|Old Sharlayan|Guitarfish"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Guitarfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Aetherolectric Guitarfish",
                         "access_rules": [
-                            "Mackerel Strip"
+                            "^$fishAccess|Old Sharlayan|Aetherolectric Guitarfish"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Aetherolectric Guitarfish"
                         ],
                         "item_count": 1
                     }
@@ -150,58 +155,59 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:80"
+                    
                 ],
                 "visibility_rules": [
-                    "level_cap:80, fishsanity_normal"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Peacock Bass",
                         "access_rules": [
-                            "Gold Salmon Roe",
-                            "Leech",
-                            "Sky Spoon Lure",
-                            "Mayfly"
+                            "^$fishAccess|Old Sharlayan|Peacock Bass"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Peacock Bass"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Astacus",
-                        "access_rules": ["Gold Salmon Roe", "Leech", "Sky Spoon Lure", "Mayfly"],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Old Sharlayan|Astacus"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Astacus"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Academician",
                         "access_rules": [
-                            "Gold Salmon Roe",
-                            "Leech",
-                            "Sky Spoon Lure",
-                            "Mayfly"
+                            "^$fishAccess|Old Sharlayan|Academician"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Academician"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Swordspine Snook",
                         "access_rules": [
-                            "Gold Salmon Roe",
-                            "Leech",
-                            "Sky Spoon Lure",
-                            "Mayfly"
+                            "^$fishAccess|Old Sharlayan|Swordspine Snook"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Swordspine Snook"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Greatsword Snook",
                         "access_rules": [
-                            "Mayfly"
+                            "^$fishAccess|Old Sharlayan|Greatsword Snook"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Greatsword Snook"
                         ],
                         "item_count": 1
                     }
@@ -222,47 +228,49 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:80"
+                    
                 ],
                 "visibility_rules": [
-                    "level_cap:80, fishsanity_normal"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Ponderer",
                         "access_rules": [
-                            "Gold Salmon Roe",
-                            "Leech",
-                            "Sky Spoon Lure",
-                            "Mayfly"
+                            "^$fishAccess|Old Sharlayan|Ponderer"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Ponderer"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Astacus",
-                        "access_rules": ["Gold Salmon Roe", "Leech", "Sky Spoon Lure", "Mayfly"],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Old Sharlayan|Astacus"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Astacus"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Tidal Dahlia",
                         "access_rules": [
-                            "Gold Salmon Roe",
-                            "Leech",
-                            "Sky Spoon Lure",
-                            "Mayfly"
+                            "^$fishAccess|Old Sharlayan|Tidal Dahlia"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Tidal Dahlia"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Catastrophizer",
                         "access_rules": [
-                            "Mayfly"
+                            "^$fishAccess|Old Sharlayan|Catastrophizer"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Catastrophizer"
                         ],
                         "item_count": 1
                     }

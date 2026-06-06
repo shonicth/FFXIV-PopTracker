@@ -40,50 +40,80 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:5"
+                    
                 ],
-                "visibility_rules": ["fishsanity_normal"],
+                "visibility_rules": [
+
+                ],
                 "sections": [
                     {
                         "name": "Raincaller",
-                        "access_rules": ["Stem Borer"],
-                        "visibility_rules": ["fishsanity_timed"],
+                        "access_rules": [
+                            "^$fishAccess|Gridania|Raincaller"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Raincaller"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Crayfish",
-                        "access_rules": ["Moth Pupa"],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Gridania|Crayfish"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Crayfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Pipira",
-                        "access_rules": ["Crayfish Ball"],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Gridania|Pipira"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Pipira"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Gudgeon",
-                        "access_rules": ["Crayfish Ball"],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Gridania|Gudgeon"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Gudgeon"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Maiden Carp",
-                        "access_rules": ["Wildfowl Fly"],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Gridania|Maiden Carp"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Maiden Carp"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Moat Carp",
-                        "access_rules": ["Crow Fly"],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Gridania|Moat Carp"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Moat Carp"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Stormdancer",
-                        "access_rules": ["Stem Borer"],
-                        "visibility_rules": ["fishsanity_big"],
+                        "access_rules": [
+                            "^$fishAccess|Gridania|Stormdancer"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Stormdancer"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -103,44 +133,70 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:5"
+                    
                 ],
-                "visibility_rules": ["fishsanity_normal"],
+                "visibility_rules": [
+                    
+                ],
                 "sections": [
                     {
                         "name": "Crayfish",
-                        "access_rules": ["Moth Pupa"],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Gridania|Crayfish"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Crayfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Pipira",
-                        "access_rules": ["Crayfish Ball"],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Gridania|Pipira"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Pipira"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Gudgeon",
-                        "access_rules": ["Crayfish Ball"],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Gridania|Gudgeon"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Gudgeon"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Maiden Carp",
-                        "access_rules": ["Wildfowl Fly"],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Gridania|Maiden Carp"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Maiden Carp"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Moat Carp",
-                        "access_rules": ["Crow Fly"],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Gridania|Moat Carp"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Moat Carp"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Bloody Brewer",
-                        "access_rules": ["Crayfish Ball"],
-                        "visibility_rules": ["fishsanity_big"],
+                        "access_rules": [
+                            "^$fishAccess|Gridania|Bloody Brewer"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Bloody Brewer"
+                        ],
                         "item_count": 1
                     }
                 ],

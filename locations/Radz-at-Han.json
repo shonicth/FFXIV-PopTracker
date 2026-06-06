@@ -44,63 +44,59 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "$leveling:82"
+                    
                 ],
                 "visibility_rules": [
-                    "fishsanity_normal, level_cap:82"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Trunkblessed",
                         "access_rules": [
-                            "Gold Salmon Roe",
-                            "Leech",
-                            "Sky Spoon Lure",
-                            "Mayfly"
+                            "^$fishAccess|Radz-at-Han|Trunkblessed"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Trunkblessed"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Seema Duta",
                         "access_rules": [
-                            "Gold Salmon Roe",
-                            "Leech",
-                            "Sky Spoon Lure",
-                            "Mayfly"
+                            "^$fishAccess|Radz-at-Han|Seema Duta"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Seema Duta"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Longear Sunfish",
                         "access_rules": [
-                            "Gold Salmon Roe",
-                            "Leech",
-                            "Sky Spoon Lure",
-                            "Mayfly"
+                            "^$fishAccess|Radz-at-Han|Longear Sunfish"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Longear Sunfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Silver Characin",
                         "access_rules": [
-                            "Gold Salmon Roe",
-                            "Leech",
-                            "Sky Spoon Lure",
-                            "Mayfly"
+                            "^$fishAccess|Radz-at-Han|Silver Characin"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Silver Characin"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Earful",
                         "access_rules": [
-                            "Mayfly"
+                            "^$fishAccess|Radz-at-Han|Earful"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Earful"
                         ],
                         "item_count": 1
                     }

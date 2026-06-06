@@ -498,68 +498,110 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:35"
+                    
                 ],
-                "visibility_rules": ["fishsanity_normal, level_cap:35"],
+                "visibility_rules": [
+                    
+                ],
                 "sections": [
                     {
                         "name": "Jade Eel",
-                        "access_rules": ["Butterworm"],
-                        "visibility_rules": ["fishsanity_timed"],
+                        "access_rules": [
+                            "^$fishAccess|Outer La Noscea|Jade Eel"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Jade Eel"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Pond Mussel",
-                        "access_rules": ["Butterworm"],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Outer La Noscea|Pond Mussel"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Pond Mussel"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Four-eyed Fish",
-                        "access_rules": ["Spinnerbait"],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Outer La Noscea|Four-eyed Fish"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Four-eyed Fish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Bonytongue",
-                        "access_rules": ["Streamer"],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Outer La Noscea|Bonytongue"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Bonytongue"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Mitten Crab",
-                        "access_rules": ["Honey Worm"],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Outer La Noscea|Mitten Crab"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Mitten Crab"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Silverfish",
-                        "access_rules": ["Honey Worm"],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Outer La Noscea|Silverfish"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Silverfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Giant Bass",
-                        "access_rules": ["Honey Worm"],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Outer La Noscea|Giant Bass"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Giant Bass"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Bronze Lake Trout",
-                        "access_rules": ["Spinnerbait"],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Outer La Noscea|Bronze Lake Trout"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Bronze Lake Trout"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Giant Catfish",
-                        "access_rules": ["Honey Worm"],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Outer La Noscea|Giant Catfish"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Giant Catfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "King of the Spring",
-                        "access_rules": ["Spinnerbait"],
-                        "visibility_rules": ["fishsanity_big"],
+                        "access_rules": [
+                            "^$fishAccess|Outer La Noscea|King of the Spring"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|King of the Spring"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -579,50 +621,80 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:40"
+                    
                 ],
-                "visibility_rules": ["fishsanity_normal, level_cap:40"],
+                "visibility_rules": [
+                    
+                ],
                 "sections": [
                     {
                         "name": "Warmwater Trout",
-                        "access_rules": ["Crow Fly"],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Outer La Noscea|Warmwater Trout"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Warmwater Trout"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Giant Bass",
-                        "access_rules": ["Honey Worm"],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Outer La Noscea|Giant Bass"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Giant Bass"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Bronze Lake Trout",
-                        "access_rules": ["Spinnerbait"],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Outer La Noscea|Bronze Lake Trout"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Bronze Lake Trout"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Ignus Snail",
-                        "access_rules": ["Stem Borer"],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Outer La Noscea|Ignus Snail"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Ignus Snail"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Thunderbolt Sculpin",
-                        "access_rules": ["Stem Borer"],
-                        "visibility_rules": ["fishsanity_timed"],
+                        "access_rules": [
+                            "^$fishAccess|Outer La Noscea|Thunderbolt Sculpin"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Thunderbolt Sculpin"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Giant Donko",
-                        "access_rules": ["Spinnerbait"],
-                        "visibility_rules": ["fishsanity_timed"],
+                        "access_rules": [
+                            "^$fishAccess|Outer La Noscea|Giant Donko"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Giant Donko"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Thundergut",
-                        "access_rules": ["Stem Borer"],
-                        "visibility_rules": ["fishsanity_big"],
+                        "access_rules": [
+                            "^$fishAccess|Outer La Noscea|Thundergut"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Thundergut"
+                        ],
                         "item_count": 1
                     }
                 ],

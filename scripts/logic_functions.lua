@@ -28,20 +28,23 @@ end
 --end
 
 function fishAccess(zone, fish)
-  local fshLevels = Tracker:ProviderCountForCode("5fshlevels")
-  local reqFshLevel = fishtable[fish].lvl
-  if fshLevels < ((reqFshLevel // 5) * 5)  then
-    return AccessibilityLevel.None
-  end
-  local logicBait = fishtable[fish].zones[zone]
-    if logicBait ~= nil then
-        for _, item in ipairs(logicBait) do
-            if Tracker:ProviderCountForCode(item) > 0 then
-                return AccessibilityLevel.Normal
+    local fshLevels = Tracker:ProviderCountForCode("5fshlevels")
+    local reqFshLevel = fishtable[fish].lvl
+    local logicBait = fishtable[fish].zones[zone]
+    if logicBait == nil then
+        print(fish)
+        print(zone)
+        print("Check this pls ty")
+    end
+    if fshLevels > ((reqFshLevel // 5) * 5)  then
+        if logicBait ~= nil then
+            for _, item in ipairs(logicBait) do
+                if Tracker:ProviderCountForCode(item) > 0 then
+                    return AccessibilityLevel.Normal
+                end
             end
         end
     end
-    return AccessibilityLevel.None
 end
 
 function fishVisibility(fish)

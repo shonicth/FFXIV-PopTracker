@@ -536,81 +536,100 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:15"
+                    
                 ],
-                "visibility_rules": ["fishsanity_normal"],
+                "visibility_rules": [
+                    
+                ],
                 "sections": [
                     {
                         "name": "Striped Goby",
                         "access_rules": [
-                            "Moth Pupa"
+                            "^$fishAccess|North Shroud|Striped Goby"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Striped Goby"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Maiden Carp",
                         "access_rules": [
-                            "Wildfowl Fly"
+                            "^$fishAccess|North Shroud|Maiden Carp"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Maiden Carp"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Rainbow Trout",
                         "access_rules": [
-                            "Bloodworm",
-                            "Wildfowl Fly"
+                            "^$fishAccess|North Shroud|Rainbow Trout"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Rainbow Trout"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Ala Mhigan Fighting Fish",
                         "access_rules": [
-                            "Midge Basket"
+                            "^$fishAccess|North Shroud|Ala Mhigan Fighting Fish"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Ala Mhigan Fighting Fish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Faerie Bass",
                         "access_rules": [
-                            "Midge Basket"
+                            "^$fishAccess|North Shroud|Faerie Bass"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Faerie Bass"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Dark Sleeper",
                         "access_rules": [
-                            "Midge Basket"
+                            "^$fishAccess|North Shroud|Dark Sleeper"
                         ],
-                        "visibility_rules": ["fishsanity_timed"],
+                        "visibility_rules": [
+                            "$fishVisibility|Dark Sleeper"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Shadow Catfish",
                         "access_rules": [
-                            "Moth Pupa"
+                            "^$fishAccess|North Shroud|Shadow Catfish"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Shadow Catfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Judgeray",
                         "access_rules": [
-                            "Wildfowl Fly"
+                            "^$fishAccess|North Shroud|Judgeray"
                         ],
-                        "visibility_rules": ["fishsanity_big"],
+                        "visibility_rules": [
+                            "$fishVisibility|Judgeray"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Brass Loach",
                         "access_rules": [
-                            "Wildfowl Fly"
+                            "^$fishAccess|North Shroud|Brass Loach"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Brass Loach"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -630,65 +649,80 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:15"
+                    
                 ],
-                "visibility_rules": ["fishsanity_normal"],
+                "visibility_rules": [
+                    
+                ],
                 "sections": [
                     {
                         "name": "Maiden Carp",
                         "access_rules": [
-                            "Wildfowl Fly"
+                            "^$fishAccess|North Shroud|Maiden Carp"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Maiden Carp"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Rainbow Trout",
                         "access_rules": [
-                            "Bloodworm",
-                            "Wildfowl Fly"
+                            "^$fishAccess|North Shroud|Rainbow Trout"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Rainbow Trout"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "River Crab",
                         "access_rules": [
-                            "Butterworm"
+                            "^$fishAccess|North Shroud|River Crab"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|River Crab"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Bluebell Salmon",
                         "access_rules": [
-                            "Floating Minnow"
+                            "^$fishAccess|North Shroud|Bluebell Salmon"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Bluebell Salmon"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Tricolored Carp",
                         "access_rules": [
-                            "Crow Fly"
+                            "^$fishAccess|North Shroud|Tricolored Carp"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Tricolored Carp"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Blue Widow",
                         "access_rules": [
-                            "Floating Minnow"
+                            "^$fishAccess|North Shroud|Blue Widow"
                         ],
-                        "visibility_rules": ["fishsanity_big"],
+                        "visibility_rules": [
+                            "$fishVisibility|Blue Widow"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Brass Loach",
                         "access_rules": [
-                            "Wildfowl Fly"
+                            "^$fishAccess|North Shroud|Brass Loach"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Brass Loach"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -708,80 +742,100 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:50"
+                    
                 ],
-                "visibility_rules": ["fishsanity_normal, level_cap:50"],
+                "visibility_rules": [
+                    
+                ],
                 "sections": [
                     {
                         "name": "Mudcrab",
                         "access_rules": [
-                            "Honey Worm"
+                            "^$fishAccess|North Shroud|Mudcrab"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Mudcrab"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Pond Mussel",
                         "access_rules": [
-                            "Butterworm"
+                            "^$fishAccess|North Shroud|Pond Mussel"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Pond Mussel"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Bonytongue",
                         "access_rules": [
-                            "Streamer"
+                            "^$fishAccess|North Shroud|Bonytongue"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Bonytongue"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Silverfish",
                         "access_rules": [
-                            "Honey Worm"
+                            "^$fishAccess|North Shroud|Silverfish"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Silverfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Assassin Betta",
                         "access_rules": [
-                            "Honey Worm"
+                            "^$fishAccess|North Shroud|Assassin Betta"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Assassin Betta"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Goldfish",
                         "access_rules": [
-                            "Honey Worm"
+                            "^$fishAccess|North Shroud|Goldfish"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Goldfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Bowfin",
                         "access_rules": [
-                            "Honey Worm"
+                            "^$fishAccess|North Shroud|Bowfin"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Bowfin"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Cornelia",
                         "access_rules": [
-                            "Rainbow Spoon Lure"
+                            "^$fishAccess|North Shroud|Cornelia"
                         ],
-                        "visibility_rules": ["fishsanity_big"],
+                        "visibility_rules": [
+                            "$fishVisibility|Cornelia"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Boxing Pleco",
                         "access_rules": [
-                            "Glowworm"
+                            "^$fishAccess|North Shroud|Boxing Pleco"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Boxing Pleco"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -801,82 +855,100 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:40"
+                    
                 ],
-                "visibility_rules": ["fishsanity_normal, level_cap:40"],
+                "visibility_rules": [
+                    
+                ],
                 "sections": [
                     {
                         "name": "Seema",
                         "access_rules": [
-                            "Butterworm"
+                            "^$fishAccess|North Shroud|Seema"
                         ],
                         "visibility_rules": [
-                            "Wildfowl Fly"
+                            "$fishVisibility|Seema"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Pond Mussel",
                         "access_rules": [
-                            "Butterworm"
+                            "^$fishAccess|North Shroud|Pond Mussel"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Pond Mussel"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Mitten Crab",
                         "access_rules": [
-                            "Honey Worm"
+                            "^$fishAccess|North Shroud|Mitten Crab"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Mitten Crab"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Golden Loach",
                         "access_rules": [
-                            "Honey Worm"
+                            "^$fishAccess|North Shroud|Golden Loach"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Golden Loach"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Loyal Pleco",
                         "access_rules": [
-                            "Stem Borer"
+                            "^$fishAccess|North Shroud|Loyal Pleco"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Loyal Pleco"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Oakroot",
                         "access_rules": [
-                            "Streamer"
+                            "^$fishAccess|North Shroud|Oakroot"
                         ],
-                        "visibility_rules": ["fishsanity_timed"],
+                        "visibility_rules": [
+                            "$fishVisibility|Oakroot"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Southern Pike",
                         "access_rules": [
-                            "Topwater Frog"
+                            "^$fishAccess|North Shroud|Southern Pike"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Southern Pike"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Pirarucu",
                         "access_rules": [
-                            "Streamer"
+                            "^$fishAccess|North Shroud|Pirarucu"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Pirarucu"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Shadowstreak",
                         "access_rules": [
-                            "Topwater Frog"
+                            "^$fishAccess|North Shroud|Shadowstreak"
                         ],
-                        "visibility_rules": ["fishsanity_big"],
+                        "visibility_rules": [
+                            "$fishVisibility|Shadowstreak"
+                        ],
                         "item_count": 1
                     }
                 ],

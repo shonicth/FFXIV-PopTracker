@@ -43,70 +43,79 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:62"
+                    
                 ],
                 "visibility_rules": [
-                    "level_cap:62, fishsanity_normal"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Comet Minnow",
                         "access_rules": [
-                            "Nightcrawler"
+                            "^$fishAccess|Rhalgr's Reach|Comet Minnow"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Comet Minnow"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Bloodsipper",
                         "access_rules": [
-                            "Midge Larva",
-                            "Salmon Roe"
+                            "^$fishAccess|Rhalgr's Reach|Bloodsipper"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Bloodsipper"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Gilfish",
                         "access_rules": [
-                            "Nightcrawler"
+                            "^$fishAccess|Rhalgr's Reach|Gilfish"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Gilfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Balloon Frog",
                         "access_rules": [
-                            "Salmon Roe"
+                            "^$fishAccess|Rhalgr's Reach|Balloon Frog"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Balloon Frog"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Lantern Marimo",
                         "access_rules": [
-                            "Suspending Minnow"
+                            "^$fishAccess|Rhalgr's Reach|Lantern Marimo"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Lantern Marimo"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Redtail",
                         "access_rules": [
-                            "Salmon Roe"
+                            "^$fishAccess|Rhalgr's Reach|Redtail"
                         ],
                         "visibility_rules": [
-                            "fishsanity_timed"
+                            "$fishVisibility|Redtail"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Bloodtail Zombie",
                         "access_rules": [
-                            "Salmon Roe"
+                            "^$fishAccess|Rhalgr's Reach|Bloodtail Zombie"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Bloodtail Zombie"
                         ],
                         "item_count": 1
                     }
@@ -127,67 +136,79 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:62"
+                    
                 ],
                 "visibility_rules": [
-                    "level_cap:62, fishsanity_normal"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Golden Cichlid",
                         "access_rules": [
-                            "Versatile Lure"
+                            "^$fishAccess|Rhalgr's Reach|Golden Cichlid"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Golden Cichlid"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Gyr Abanian Trout",
                         "access_rules": [
-                            "Midge Larva"
+                            "^$fishAccess|Rhalgr's Reach|Gyr Abanian Trout"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Gyr Abanian Trout"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Monk Betta",
                         "access_rules": [
-                            "Midge Larva"
+                            "^$fishAccess|Rhalgr's Reach|Monk Betta"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Monk Betta"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Electric Catfish",
                         "access_rules": [
-                            "Nightcrawler"
+                            "^$fishAccess|Rhalgr's Reach|Electric Catfish"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Electric Catfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Pagan Pirarucu",
                         "access_rules": [
-                            "Midge Larva"
+                            "^$fishAccess|Rhalgr's Reach|Pagan Pirarucu"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Pagan Pirarucu"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Temple Carp",
                         "access_rules": [
-                            "Salmon Roe"
+                            "^$fishAccess|Rhalgr's Reach|Temple Carp"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Temple Carp"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Watcher Catfish",
                         "access_rules": [
-                            "Midge Larva"
+                            "^$fishAccess|Rhalgr's Reach|Watcher Catfish"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Watcher Catfish"
                         ],
                         "item_count": 1
                     }
@@ -208,62 +229,69 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:61"
+                    
                 ],
                 "visibility_rules": [
-                    "level_cap:61, fishsanity_normal"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Abalathian Bitterling",
                         "access_rules": [
-                            "Nightcrawler"
+                            "^$fishAccess|Rhalgr's Reach|Abalathian Bitterling"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Abalathian Bitterling"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Broken Crab",
                         "access_rules": [
-                            "Salmon Roe"
+                            "^$fishAccess|Rhalgr's Reach|Broken Crab"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Broken Crab"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Gyr Abanian Trout",
                         "access_rules": [
-                            "Midge Larva"
+                            "^$fishAccess|Rhalgr's Reach|Gyr Abanian Trout"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Gyr Abanian Trout"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Bloodsipper",
                         "access_rules": [
-                            "Midge Larva",
-                            "Salmon Roe"
+                            "^$fishAccess|Rhalgr's Reach|Bloodsipper"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Bloodsipper"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Miounnefish",
                         "access_rules": [
-                            "Midge Larva"
+                            "^$fishAccess|Rhalgr's Reach|Miounnefish"
                         ],
                         "visibility_rules": [
-                            "fishsanity_timed"
+                            "$fishVisibility|Miounnefish"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Hookstealer",
                         "access_rules": [
-                            "Midge Larva"
+                            "^$fishAccess|Rhalgr's Reach|Hookstealer"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Hookstealer"
                         ],
                         "item_count": 1
                     }

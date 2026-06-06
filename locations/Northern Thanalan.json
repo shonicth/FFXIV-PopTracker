@@ -657,91 +657,109 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:40"
+                    
                 ],
                 "visibility_rules": [
-                    "fishsanity_normal, level_cap:40"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Bone Crayfish",
                         "access_rules": [
-                            "Moth Pupa"
+                            "^$fishAccess|Northern Thanalan|Bone Crayfish"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Bone Crayfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Silverfish",
                         "access_rules": [
-                            "Honey Worm"
+                            "^$fishAccess|Northern Thanalan|Silverfish"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Silverfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Giant Bass",
                         "access_rules": [
-                            "Honey Worm"
+                            "^$fishAccess|Northern Thanalan|Giant Bass"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Giant Bass"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Golden Loach",
                         "access_rules": [
-                            "Honey Worm"
+                            "^$fishAccess|Northern Thanalan|Golden Loach"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Golden Loach"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Ignus Snail",
                         "access_rules": [
-                            "Stem Borer"
+                            "^$fishAccess|Northern Thanalan|Ignus Snail"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Ignus Snail"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Knifefish",
                         "access_rules": [
-                            "Glowworm"
+                            "^$fishAccess|Northern Thanalan|Knifefish"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Knifefish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Common Sculpin",
                         "access_rules": [
-                            "Spinnerbait"
+                            "^$fishAccess|Northern Thanalan|Common Sculpin"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Common Sculpin"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Garpike",
                         "access_rules": [
-                            "Honey Worm"
+                            "^$fishAccess|Northern Thanalan|Garpike"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Garpike"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Alligator Garfish",
                         "access_rules": [
-                            "Spinnerbait"
+                            "^$fishAccess|Northern Thanalan|Alligator Garfish"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Alligator Garfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Hannibal",
                         "access_rules": [
-                            "Spinnerbait"
+                            "^$fishAccess|Northern Thanalan|Hannibal"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Hannibal"
                         ],
                         "item_count": 1
                     }
@@ -762,83 +780,99 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:45"
+                    
                 ],
                 "visibility_rules": [
-                    "fishsanity_normal, 5fshlevels:45"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Grip Killifish",
                         "access_rules": [
-                            "Chocobo Fly"
+                            "^$fishAccess|Northern Thanalan|Grip Killifish"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Grip Killifish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Silverfish",
                         "access_rules": [
-                            "Honey Worm"
+                            "^$fishAccess|Northern Thanalan|Silverfish"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Silverfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Ignus Snail",
                         "access_rules": [
-                            "Stem Borer"
+                            "^$fishAccess|Northern Thanalan|Ignus Snail"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Ignus Snail"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Sludgeskipper",
                         "access_rules": [
-                            "Stem Borer"
+                            "^$fishAccess|Northern Thanalan|Sludgeskipper"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Sludgeskipper"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Boltfish",
                         "access_rules": [
-                            "Honey Worm"
+                            "^$fishAccess|Northern Thanalan|Boltfish"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Boltfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Ilsabardian Bass",
                         "access_rules": [
-                            "Topwater Frog"
+                            "^$fishAccess|Northern Thanalan|Ilsabardian Bass"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Ilsabardian Bass"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Goldfish",
                         "access_rules": [
-                            "Honey Worm"
+                            "^$fishAccess|Northern Thanalan|Goldfish"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Goldfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Wootz Knifefish",
                         "access_rules": [
-                            "Honey Worm"
+                            "^$fishAccess|Northern Thanalan|Wootz Knifefish"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Wootz Knifefish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Wootz Knifefish Zenith",
                         "access_rules": [
-                            "Honey Worm"
+                            "^$fishAccess|Northern Thanalan|Wootz Knifefish Zenith"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Wootz Knifefish Zenith"
                         ],
                         "item_count": 1
                     }
