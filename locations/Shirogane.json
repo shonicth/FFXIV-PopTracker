@@ -14,61 +14,69 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:65"
+                    
                 ],
                 "visibility_rules": [
-                    "level_cap:65, fishsanity_normal"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Killifish",
                         "access_rules": [
-                            "Midge Larva"
+                            "^$fishAccess|Shirogane|Killifish"
                         ],
                         "visibility_rules": [
-                            "fishsanity_timed"
+                            "$fishVisibility|Killifish"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Doman Trout",
                         "access_rules": [
-                            "Metal Spinner"
+                            "^$fishAccess|Shirogane|Doman Trout"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Doman Trout"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Brassfish",
                         "access_rules": [
-                            "Midge Larva"
+                            "^$fishAccess|Shirogane|Brassfish"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Brassfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Nogoi",
                         "access_rules": [
-                            "Stonefly Larva"
+                            "^$fishAccess|Shirogane|Nogoi"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Nogoi"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Bonsai Fish",
                         "access_rules": [
-                            "Nightcrawler"
+                            "^$fishAccess|Shirogane|Bonsai Fish"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Bonsai Fish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Princess Killifish",
                         "access_rules": [
-                            "Nightcrawler"
+                            "^$fishAccess|Shirogane|Princess Killifish"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Princess Killifish"
                         ],
                         "item_count": 1
                     }
@@ -89,51 +97,59 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:63"
+                    
                 ],
                 "visibility_rules": [
-                    "level_cap:63, fishsanity_normal"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Grinning Anchovy",
                         "access_rules": [
-                            "Live Shrimp"
+                            "^$fishAccess|Shirogane|Grinning Anchovy"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Grinning Anchovy"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Glass Tuna",
                         "access_rules": [
-                            "Live Shrimp"
+                            "^$fishAccess|Shirogane|Glass Tuna"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Glass Tuna"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Ruby Shrimp",
                         "access_rules": [
-                            "Live Shrimp"
+                            "^$fishAccess|Shirogane|Ruby Shrimp"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Ruby Shrimp"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Striped Fugu",
                         "access_rules": [
-                            "Live Shrimp"
+                            "^$fishAccess|Shirogane|Striped Fugu"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Striped Fugu"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "The Gambler",
                         "access_rules": [
-                            "Blue Bobbit"
+                            "^$fishAccess|Shirogane|The Gambler"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|The Gambler"
                         ],
                         "item_count": 1
                     }

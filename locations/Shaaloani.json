@@ -637,37 +637,57 @@
                     " "
                 ],
                 "visibility_rules": [
-                    "fishsanity_normal"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Bonytail Chub",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Shaaloani|Bonytail Chub"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Bonytail Chub"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Niikwerepi Trout",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Shaaloani|Niikwerepi Trout"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Niikwerepi Trout"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Pyariyoanaan Cichlid",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Shaaloani|Pyariyoanaan Cichlid"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Pyariyoanaan Cichlid"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Shaaloani Salmon",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Shaaloani|Shaaloani Salmon"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Shaaloani Salmon"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Hwittayoanaan Cichlid",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Shaaloani|Hwittayoanaan Cichlid"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Hwittayoanaan Cichlid"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -690,43 +710,67 @@
                     " "
                 ],
                 "visibility_rules": [
-                    "fishsanity_normal"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Bonytail Chub",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Shaaloani|Bonytail Chub"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Bonytail Chub"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Niikwerepi Trout",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Shaaloani|Niikwerepi Trout"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Niikwerepi Trout"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Trailtrout",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Shaaloani|Trailtrout"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Trailtrout"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Toari Sucker",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Shaaloani|Toari Sucker"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Toari Sucker"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Turali Paddlefish",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Shaaloani|Turali Paddlefish"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Turali Paddlefish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Ttokatoa",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Shaaloani|Ttokatoa"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Ttokatoa"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -749,43 +793,67 @@
                     " "
                 ],
                 "visibility_rules": [
-                    "fishsanity_normal"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Zorgor Core",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Shaaloani|Zorgor Core"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Zorgor Core"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Cloudribbon",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Shaaloani|Cloudribbon"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Cloudribbon"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Zorgor Scorpion",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Shaaloani|Zorgor Scorpion"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Zorgor Scorpion"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Vagrant Cascade",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Shaaloani|Vagrant Cascade"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Vagrant Cascade"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Zorgor Condor",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Shaaloani|Zorgor Condor"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Zorgor Condor"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Sunray Ray",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Shaaloani|Sunray Ray"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Sunray Ray"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -808,43 +876,67 @@
                     " "
                 ],
                 "visibility_rules": [
-                    "fishsanity_normal"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Zorgor Core",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Shaaloani|Zorgor Core"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Zorgor Core"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Cloud Wasp",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Shaaloani|Cloud Wasp"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Cloud Wasp"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Azure Glider",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Shaaloani|Azure Glider"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Azure Glider"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Hellsnow Shark",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Shaaloani|Hellsnow Shark"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Hellsnow Shark"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Cloudsail",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Shaaloani|Cloudsail"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Cloudsail"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Azure Diver",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Shaaloani|Azure Diver"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Azure Diver"
+                        ],
                         "item_count": 1
                     }
                 ],

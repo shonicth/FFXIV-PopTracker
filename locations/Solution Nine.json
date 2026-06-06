@@ -301,37 +301,57 @@
                     " "
                 ],
                 "visibility_rules": [
-                    "fishsanity_normal"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Everkeep Yabby",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Solution Nine|Everkeep Yabby"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Everkeep Yabby"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Stickleback",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Solution Nine|Stickleback"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Stickleback"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Custodian Carp",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Solution Nine|Custodian Carp"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Custodian Carp"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Mosaic Loach",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Solution Nine|Mosaic Loach"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Mosaic Loach"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Pixel Loach",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Solution Nine|Pixel Loach"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Pixel Loach"
+                        ],
                         "item_count": 1
                     }
                 ],

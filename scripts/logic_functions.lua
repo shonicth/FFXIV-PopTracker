@@ -74,7 +74,7 @@ function fateMinLevelVisibility(reqLevel)
 end
 
 function fateAccess(fate)
-    if fate == nil
+    if fate == nil then
         print(fate)
         print("fate is nil")
     end
@@ -89,7 +89,7 @@ function fateAccess(fate)
 end
 
 function fateVisibility(fate)
-    if fate == nil
+    if fate == nil then
         print(fate)
         print("fate is nil")
     end
