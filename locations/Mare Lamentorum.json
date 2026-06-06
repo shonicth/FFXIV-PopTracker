@@ -654,63 +654,69 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:85"
+                    
                 ],
                 "visibility_rules": [
-                    "level_cap:85, fishsanity_normal"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Lunar Lamenter",
                         "access_rules": [
-                            "Grey Worm"
+                            "^$fishAccess|Mare Lamentorum|Lunar Lamenter"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Lunar Lamenter"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Feverfish",
                         "access_rules": [
-                            "Grey Worm",
-                            "Chimera Worm"
+                            "^$fishAccess|Mare Lamentorum|Feverfish"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Feverfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Calicia",
                         "access_rules": [
-                            "Grey Worm",
-                            "Chimera Worm"
+                            "^$fishAccess|Mare Lamentorum|Calicia"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Calicia"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Fleeting Brand",
                         "access_rules": [
-                            "Grey Worm",
-                            "Chimera Worm"
+                            "^$fishAccess|Mare Lamentorum|Fleeting Brand"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Fleeting Brand"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Regotoise",
                         "access_rules": [
-                            "Grey Worm",
-                            "Chimera Worm"
+                            "^$fishAccess|Mare Lamentorum|Regotoise"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Regotoise"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Frozen Regotoise",
                         "access_rules": [
-                            "Chimera Worm"
+                            "^$fishAccess|Mare Lamentorum|Frozen Regotoise"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Frozen Regotoise"
                         ],
                         "item_count": 1
                     }
@@ -731,72 +737,70 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:84"
+                    
                 ],
                 "visibility_rules": [
-                    "level_cap:84, fishsanity_normal"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Star-blue Guppy",
                         "access_rules": [
-                            "Gold Salmon Roe",
-                            "Leech",
-                            "Sky Spoon Lure",
-                            "Mayfly"
+                            "^$fishAccess|Mare Lamentorum|Star-blue Guppy"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Star-blue Guppy"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Lunar Cichlid",
                         "access_rules": [
-                            "Gold Salmon Roe",
-                            "Leech",
-                            "Sky Spoon Lure",
-                            "Mayfly"
+                            "^$fishAccess|Mare Lamentorum|Lunar Cichlid"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Lunar Cichlid"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Teareye",
                         "access_rules": [
-                            "Gold Salmon Roe",
-                            "Leech",
-                            "Sky Spoon Lure",
-                            "Mayfly"
+                            "^$fishAccess|Mare Lamentorum|Teareye"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Teareye"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Replipirarucu",
                         "access_rules": [
-                            "Gold Salmon Roe",
-                            "Leech",
-                            "Sky Spoon Lure",
-                            "Mayfly"
+                            "^$fishAccess|Mare Lamentorum|Replipirarucu"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Replipirarucu"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Disappirarucu",
                         "access_rules": [
-                            "Mayfly"
+                            "^$fishAccess|Mare Lamentorum|Disappirarucu"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Disappirarucu"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Ossicula",
                         "access_rules": [
-                            "Metal Spinner"
+                            "^$fishAccess|Mare Lamentorum|Ossicula"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Ossicula"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -816,66 +820,69 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:85"
+                    
                 ],
                 "visibility_rules": [
-                    "level_cap:85, fishsanity_normal"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Feverfish",
                         "access_rules": [
-                            "Grey Worm",
-                            "Chimera Worm"
+                            "^$fishAccess|Mare Lamentorum|Feverfish"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Feverfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Calicia",
                         "access_rules": [
-                            "Grey Worm",
-                            "Chimera Worm"
+                            "^$fishAccess|Mare Lamentorum|Calicia"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Calicia"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Protomyke 987",
                         "access_rules": [
-                            "Grey Worm",
-                            "Chimera Worm"
+                            "^$fishAccess|Mare Lamentorum|Protomyke #987"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Protomyke #987"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Lunar Deathworm",
                         "access_rules": [
-                            "Grey Worm"
+                            "^$fishAccess|Mare Lamentorum|Lunar Deathworm"
                         ],
                         "visibility_rules": [
-                            "fishsanity_timed"
+                            "$fishVisibility|Lunar Deathworm"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Chlorophos Deathworm",
                         "access_rules": [
-                            "Grey Worm"
+                            "^$fishAccess|Mare Lamentorum|Chlorophos Deathworm"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Chlorophos Deathworm"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Lopoceras Elegans",
                         "access_rules": [
-                            "Chimera Worm"
+                            "^$fishAccess|Mare Lamentorum|Lopoceras Elegans"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Lopoceras Elegans"
                         ],
                         "item_count": 1
                     }

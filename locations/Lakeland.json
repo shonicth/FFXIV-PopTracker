@@ -554,62 +554,69 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "$leveling:71"
+                    
                 ],
                 "visibility_rules": [
-                    "fishsanity_normal, level_cap:71"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Eighteyes Eel",
                         "access_rules": [
-                            "Fruit Worm"
+                            "^$fishAccess|Lakeland|Eighteyes Eel"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Eighteyes Eel"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Hard Candy",
                         "access_rules": [
-                            "Metal Spinner",
-                            "Marble Nymph",
-                            "Baitbugs"
+                            "^$fishAccess|Lakeland|Hard Candy"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Hard Candy"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Water Ball",
                         "access_rules": [
-                            "Baitbugs",
-                            "Marble Nymph"
+                            "^$fishAccess|Lakeland|Water Ball"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Water Ball"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Abyssal Snail",
                         "access_rules": [
-                            "Metal Spinner"
+                            "^$fishAccess|Lakeland|Abyssal Snail"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Abyssal Snail"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Albino Caiman",
                         "access_rules": [
-                            "Robber Ball"
+                            "^$fishAccess|Lakeland|Albino Caiman"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Albino Caiman"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Sweetheart",
                         "access_rules": [
-                            "Baitbugs"
+                            "^$fishAccess|Lakeland|Sweetheart"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Sweetheart"
                         ],
                         "item_count": 1
                     }
@@ -630,64 +637,69 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "$leveling:72"
+                    
                 ],
                 "visibility_rules": [
-                    "fishsanity_normal, level_cap:72"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Hard Candy",
                         "access_rules": [
-                            "Metal Spinner",
-                            "Marble Nymph",
-                            "Baitbugs"
+                            "^$fishAccess|Lakeland|Hard Candy"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Hard Candy"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Water Ball",
                         "access_rules": [
-                            "Baitbugs",
-                            "Marble Nymph"
+                            "^$fishAccess|Lakeland|Water Ball"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Water Ball"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Abyssal Snail",
                         "access_rules": [
-                            "Metal Spinner"
+                            "^$fishAccess|Lakeland|Abyssal Snail"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Abyssal Snail"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Misty Killifish",
                         "access_rules": [
-                            "Robber Ball"
+                            "^$fishAccess|Lakeland|Misty Killifish"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Misty Killifish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Platinum Guppy",
                         "access_rules": [
-                            "Baitbugs"
+                            "^$fishAccess|Lakeland|Platinum Guppy"
                         ],
                         "visibility_rules": [
-                            "fishsanity_timed"
+                            "$fishVisibility|Platinum Guppy"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Moonlight Guppy",
                         "access_rules": [
-                            "Baitbugs"
+                            "^$fishAccess|Lakeland|Moonlight Guppy"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Moonlight Guppy"
                         ],
                         "item_count": 1
                     }
@@ -708,73 +720,80 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "$leveling:72"
+                    
                 ],
                 "visibility_rules": [
-                    "fishsanity_normal, level_cap:72"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Hard Candy",
                         "access_rules": [
-                            "Metal Spinner",
-                            "Marble Nymph",
-                            "Baitbugs"
+                            "^$fishAccess|Lakeland|Hard Candy"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Hard Candy"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Clean Saucer",
                         "access_rules": [
-                            "Fruit Worm",
-                            "Metal Spinner"
+                            "^$fishAccess|Lakeland|Clean Saucer"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Clean Saucer"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Rabbit Skipper",
                         "access_rules": [
-                            "Fruit Worm",
-                            "Metal Spinner"
+                            "^$fishAccess|Lakeland|Rabbit Skipper"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Rabbit Skipper"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Xanthic Bass",
                         "access_rules": [
-                            "Marble Nymph",
-                            "Fruit Worm"
+                            "^$fishAccess|Lakeland|Xanthic Bass"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Xanthic Bass"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Albino Rock Crab",
                         "access_rules": [
-                            "Baitbugs"
+                            "^$fishAccess|Lakeland|Albino Rock Crab"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Albino Rock Crab"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "The Unforgiven",
                         "access_rules": [
-                            "Baitbugs"
+                            "^$fishAccess|Lakeland|The Unforgiven"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|The Unforgiven"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Laxan Inkhorn",
                         "access_rules": [
-                            "Metal Spinner"
+                            "^$fishAccess|Lakeland|Laxan Inkhorn"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Laxan Inkhorn"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -794,55 +813,59 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "$leveling:72"
+                    
                 ],
                 "visibility_rules": [
-                    "fishsanity_normal, level_cap:72"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Hard Candy",
                         "access_rules": [
-                            "Metal Spinner",
-                            "Marble Nymph",
-                            "Baitbugs"
+                            "^$fishAccess|Lakeland|Hard Candy"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Hard Candy"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Rabbit Skipper",
                         "access_rules": [
-                            "Fruit Worm",
-                            "Metal Spinner"
+                            "^$fishAccess|Lakeland|Rabbit Skipper"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Rabbit Skipper"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Xanthic Bass",
                         "access_rules": [
-                            "Marble Nymph",
-                            "Fruit Worm"
+                            "^$fishAccess|Lakeland|Xanthic Bass"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Xanthic Bass"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Snakeskin Discus",
                         "access_rules": [
-                            "Baitbugs"
+                            "^$fishAccess|Lakeland|Snakeskin Discus"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Snakeskin Discus"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Python Discus",
                         "access_rules": [
-                            "Fruit Worm"
+                            "^$fishAccess|Lakeland|Python Discus"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Python Discus"
                         ],
                         "item_count": 1
                     }
@@ -863,64 +886,69 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "$leveling:75"
+                    
                 ],
                 "visibility_rules": [
-                    "fishsanity_normal, level_cap:75"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Hard Candy",
                         "access_rules": [
-                            "Metal Spinner",
-                            "Marble Nymph",
-                            "Baitbugs"
+                            "^$fishAccess|Lakeland|Hard Candy"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Hard Candy"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Clean Saucer",
                         "access_rules": [
-                            "Fruit Worm",
-                            "Metal Spinner"
+                            "^$fishAccess|Lakeland|Clean Saucer"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Clean Saucer"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Albino Garfish",
                         "access_rules": [
-                            "Marble Nymph"
+                            "^$fishAccess|Lakeland|Albino Garfish"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Albino Garfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Vicejaw",
                         "access_rules": [
-                            "Baitbugs"
+                            "^$fishAccess|Lakeland|Vicejaw"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Vicejaw"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "The Jaws of Undeath",
                         "access_rules": [
-                            "Baitbugs"
+                            "^$fishAccess|Lakeland|The Jaws of Undeath"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|The Jaws of Undeath"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Listracanthus",
                         "access_rules": [
-                            "Baitbugs"
+                            "^$fishAccess|Lakeland|Listracanthus"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Listracanthus"
                         ],
                         "item_count": 1
                     }

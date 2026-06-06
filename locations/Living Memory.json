@@ -554,31 +554,47 @@
                     " "
                 ],
                 "visibility_rules": [
-                    "fishsanity_normal"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Rosebud Frog",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Living Memory|Rosebud Frog"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Rosebud Frog"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Knight Goby",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Living Memory|Knight Goby"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Knight Goby"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Windspath Eel",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Living Memory|Windspath Eel"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Windspath Eel"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Harlequin Lancer",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Living Memory|Harlequin Lancer"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Harlequin Lancer"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -601,31 +617,47 @@
                     " "
                 ],
                 "visibility_rules": [
-                    "fishsanity_normal"
+                    
                 ],
                 "sections": [
                     {
-                        "name": "Rosebud Frog",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "name": "Harlequin Lancer",
+                        "access_rules": [
+                            "^$fishAccess|Living Memory|Harlequin Lancer"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Harlequin Lancer"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Knight Goby",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Living Memory|Knight Goby"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Knight Goby"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Cleyran Carp",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Living Memory|Cleyran Carp"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Cleyran Carp"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Giant Snakehead",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Living Memory|Giant Snakehead"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Giant Snakehead"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -648,37 +680,57 @@
                     " "
                 ],
                 "visibility_rules": [
-                    "fishsanity_normal"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Rosebud Frog",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Living Memory|Rosebud Frog"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Rosebud Frog"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Knight Goby",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Living Memory|Knight Goby"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Knight Goby"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Datnioides",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Living Memory|Datnioides"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Datnioides"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Neo Arowana",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Living Memory|Neo Arowana"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Neo Arowana"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Datnioides Aeroplanos",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Living Memory|Datnioides Aeroplanos"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Datnioides Aeroplanos"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -701,43 +753,67 @@
                     " "
                 ],
                 "visibility_rules": [
-                    "fishsanity_normal"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Canal Bream",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Living Memory|Canal Bream"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Canal Bream"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Iris Wrasse",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Living Memory|Iris Wrasse"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Iris Wrasse"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Canal Drum",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Living Memory|Canal Drum"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Canal Drum"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Butterfly Ray",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Living Memory|Butterfly Ray"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Butterfly Ray"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Hydro Louvar",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Living Memory|Hydro Louvar"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Hydro Louvar"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Gondola Louvar",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Living Memory|Gondola Louvar"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Gondola Louvar"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -760,37 +836,57 @@
                     " "
                 ],
                 "visibility_rules": [
-                    "fishsanity_normal"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Canal Bream",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Living Memory|Canal Bream"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Canal Bream"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Iris Wrasse",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Living Memory|Iris Wrasse"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Iris Wrasse"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Devotion Clam",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Living Memory|Devotion Clam"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Devotion Clam"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Forgotten One",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Living Memory|Forgotten One"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Forgotten One"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Copper Shark",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Living Memory|Copper Shark"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Copper Shark"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -813,31 +909,47 @@
                     " "
                 ],
                 "visibility_rules": [
-                    "fishsanity_normal"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Golden Day",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Living Memory|Golden Day"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Golden Day"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Starglass Gibel",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Living Memory|Starglass Gibel"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Starglass Gibel"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Scarlet Queen",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Living Memory|Scarlet Queen"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Scarlet Queen"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Ultimoat Carp",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Living Memory|Ultimoat Carp"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Ultimoat Carp"
+                        ],
                         "item_count": 1
                     }
                 ],

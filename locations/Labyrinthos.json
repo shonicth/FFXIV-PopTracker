@@ -682,74 +682,69 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:81"
+                    
                 ],
                 "visibility_rules": [
-                    "level_cap:81, fishsanity_normal"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Giant Aetherlouse",
                         "access_rules": [
-                            "Gold Salmon Roe",
-                            "Leech",
-                            "Sky Spoon Lure",
-                            "Mayfly"
+                            "^$fishAccess|Labyrinthos|Giant Aetherlouse"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Giant Aetherlouse"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Butterfly Fry",
                         "access_rules": [
-                            "Gold Salmon Roe",
-                            "Leech",
-                            "Sky Spoon Lure",
-                            "Mayfly"
+                            "^$fishAccess|Labyrinthos|Butterfly Fry"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Butterfly Fry"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Topminnow",
                         "access_rules": [
-                            "Gold Salmon Roe",
-                            "Leech",
-                            "Sky Spoon Lure",
-                            "Mayfly"
+                            "^$fishAccess|Labyrinthos|Topminnow"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Topminnow"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Tessera",
                         "access_rules": [
-                            "Gold Salmon Roe",
-                            "Leech",
-                            "Sky Spoon Lure",
-                            "Mayfly"
+                            "^$fishAccess|Labyrinthos|Tessera"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Tessera"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Fat Snook",
                         "access_rules": [
-                            "Gold Salmon Roe",
-                            "Leech",
-                            "Sky Spoon Lure",
-                            "Mayfly"
+                            "^$fishAccess|Labyrinthos|Fat Snook"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Fat Snook"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Jumbo Snook",
                         "access_rules": [
-                            "Mayfly"
+                            "^$fishAccess|Labyrinthos|Jumbo Snook"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Jumbo Snook"
                         ],
                         "item_count": 1
                     }
@@ -770,74 +765,69 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:81"
+                    
                 ],
                 "visibility_rules": [
-                    "level_cap:81, fishsanity_normal"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Butterfly Fry",
                         "access_rules": [
-                            "Gold Salmon Roe",
-                            "Leech",
-                            "Sky Spoon Lure",
-                            "Mayfly"
+                            "^$fishAccess|Labyrinthos|Butterfly Fry"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Butterfly Fry"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Xenocypris",
                         "access_rules": [
-                            "Gold Salmon Roe",
-                            "Leech",
-                            "Sky Spoon Lure",
-                            "Mayfly"
+                            "^$fishAccess|Labyrinthos|Xenocypris"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Xenocypris"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Prochilodus Luminosus",
                         "access_rules": [
-                            "Gold Salmon Roe",
-                            "Leech",
-                            "Sky Spoon Lure",
-                            "Mayfly"
+                            "^$fishAccess|Labyrinthos|Prochilodus Luminosus"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Prochilodus Luminosus"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Mesonauta",
                         "access_rules": [
-                            "Gold Salmon Roe",
-                            "Leech",
-                            "Sky Spoon Lure",
-                            "Mayfly"
+                            "^$fishAccess|Labyrinthos|Mesonauta"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Mesonauta"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Greengill Salmon",
                         "access_rules": [
-                            "Gold Salmon Roe",
-                            "Leech",
-                            "Sky Spoon Lure",
-                            "Mayfly"
+                            "^$fishAccess|Labyrinthos|Greengill Salmon"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Greengill Salmon"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Mossgill Salmon",
                         "access_rules": [
-                            "Sky Spoon Lure"
+                            "^$fishAccess|Labyrinthos|Mossgill Salmon"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Mossgill Salmon"
                         ],
                         "item_count": 1
                     }
@@ -858,50 +848,59 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:82"
+                    
                 ],
                 "visibility_rules": [
-                    "level_cap:82, fishsanity_normal"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Butterfly Fry",
                         "access_rules": [
-                            "Gold Salmon Roe",
-                            "Leech",
-                            "Sky Spoon Lure",
-                            "Mayfly"
+                            "^$fishAccess|Labyrinthos|Butterfly Fry"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Butterfly Fry"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Raiamas",
+                        "access_rules": [
+                            "^$fishAccess|Labyrinthos|Raiamas"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Raiamas"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Xenocypris",
                         "access_rules": [
-                            "Gold Salmon Roe",
-                            "Leech",
-                            "Sky Spoon Lure",
-                            "Mayfly"
+                            "^$fishAccess|Labyrinthos|Xenocypris"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Xenocypris"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Red Bowfin",
                         "access_rules": [
-                            "Sky Spoon Lure",
-                            "Mayfly"
+                            "^$fishAccess|Labyrinthos|Red Bowfin"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Red Bowfin"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Swampsucker Bowfin",
                         "access_rules": [
-                            "Sky Spoon Lure"
+                            "^$fishAccess|Labyrinthos|Swampsucker Bowfin"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Swampsucker Bowfin"
                         ],
                         "item_count": 1
                     }
@@ -922,72 +921,69 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:82"
+                    
                 ],
                 "visibility_rules": [
-                    "level_cap:82, fishsanity_normal"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Butterfly Fry",
                         "access_rules": [
-                            "Gold Salmon Roe",
-                            "Leech",
-                            "Sky Spoon Lure",
-                            "Mayfly"
+                            "^$fishAccess|Labyrinthos|Butterfly Fry"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Butterfly Fry"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Xenocypris",
                         "access_rules": [
-                            "Gold Salmon Roe",
-                            "Leech",
-                            "Sky Spoon Lure",
-                            "Mayfly"
+                            "^$fishAccess|Labyrinthos|Xenocypris"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Xenocypris"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Astacus Aetherius",
                         "access_rules": [
-                            "Gold Salmon Roe",
-                            "Leech",
-                            "Sky Spoon Lure",
-                            "Mayfly"
+                            "^$fishAccess|Labyrinthos|Astacus Aetherius"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Astacus Aetherius"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Labyrinthos Tilapia",
                         "access_rules": [
-                            "Leech"
+                            "^$fishAccess|Labyrinthos|Labyrinthos Tilapia"
                         ],
                         "visibility_rules": [
-                            "fishsanity_timed"
+                            "$fishVisibility|Labyrinthos Tilapia"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Circuit Tilapia",
                         "access_rules": [
-                            "Leech"
+                            "^$fishAccess|Labyrinthos|Circuit Tilapia"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Circuit Tilapia"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Hyphalosaurus",
                         "access_rules": [
-                            "Leech"
+                            "^$fishAccess|Labyrinthos|Hyphalosaurus"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Hyphalosaurus"
                         ],
                         "item_count": 1
                     }
@@ -1008,98 +1004,79 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:82"
+                    
                 ],
                 "visibility_rules": [
-                    "level_cap:82, fishsanity_normal"
+
                 ],
                 "sections": [
                     {
-                        "name": "Xenocypris",
-                        "access_rules": [
-                            "Gold Salmon Roe",
-                            "Leech",
-                            "Sky Spoon Lure",
-                            "Mayfly"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
                         "name": "Butterfly Fry",
                         "access_rules": [
-                            "Gold Salmon Roe",
-                            "Leech",
-                            "Sky Spoon Lure",
-                            "Mayfly"
+                            "^$fishAccess|Labyrinthos|Butterfly Fry"
                         ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Raiamas",
-                        "access_rules": [
-                            "Gold Salmon Roe",
-                            "Leech",
-                            "Sky Spoon Lure",
-                            "Mayfly"
+                        "visibility_rules": [
+                            "$fishVisibility|Butterfly Fry"
                         ],
-                        "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Macrobrachium Lar",
                         "access_rules": [
-                            "Gold Salmon Roe",
-                            "Leech",
-                            "Sky Spoon Lure",
-                            "Mayfly"
+                            "^$fishAccess|Labyrinthos|Macrobrachium Lar"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Macrobrachium Lar"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Xenocypris",
+                        "access_rules": [
+                            "^$fishAccess|Labyrinthos|Xenocypris"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Xenocypris"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Blowgun",
                         "access_rules": [
-                            "Gold Salmon Roe",
-                            "Leech",
-                            "Sky Spoon Lure",
-                            "Mayfly"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Darksteel Knifefish",
-                        "access_rules": [
-                            "Gold Salmon Roe",
-                            "Leech",
-                            "Sky Spoon Lure",
-                            "Mayfly"
-                        ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Onyx Knifefish",
-                        "access_rules": [
-                            "Mayfly"
+                            "^$fishAccess|Labyrinthos|Blowgun"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Blowgun"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "The Furys Aegis",
                         "access_rules": [
-                            "Gold Salmon Roe",
-                            "Leech",
-                            "Sky Spoon Lure",
-                            "Mayfly"
+                            "^$fishAccess|Labyrinthos|The Fury's Aegis"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|The Fury's Aegis"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Darksteel Knifefish",
+                        "access_rules": [
+                            "^$fishAccess|Labyrinthos|Darksteel Knifefish"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Darksteel Knifefish"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Onyx Knifefish",
+                        "access_rules": [
+                            "^$fishAccess|Labyrinthos|Onyx Knifefish"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Onyx Knifefish"
                         ],
                         "item_count": 1
                     }

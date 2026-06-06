@@ -679,89 +679,100 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:50"
+                    
                 ],
                 "visibility_rules": [
-                    "fishsanity_normal, level_cap:50"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Bone Crayfish",
                         "access_rules": [
-                            "Moth Pupa"
+                            "^$fishAccess|Mor Dhona|Bone Crayfish"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Bone Crayfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Silverfish",
                         "access_rules": [
-                            "Honey Worm"
+                            "^$fishAccess|Mor Dhona|Silverfish"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Silverfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Assassin Betta",
                         "access_rules": [
-                            "Honey Worm",
-                            "Crow Fly"
+                            "^$fishAccess|Mor Dhona|Assassin Betta"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Assassin Betta"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Sludgeskipper",
                         "access_rules": [
-                            "Stem Borer"
+                            "^$fishAccess|Mor Dhona|Sludgeskipper"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Sludgeskipper"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Boltfish",
                         "access_rules": [
-                            "Honey Worm"
+                            "^$fishAccess|Mor Dhona|Boltfish"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Boltfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Ilsabardian Bass",
                         "access_rules": [
-                            "Glowworm",
-                            "Topwater Frog"
+                            "^$fishAccess|Mor Dhona|Ilsabardian Bass"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Ilsabardian Bass"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Cadaver Carp",
                         "access_rules": [
-                            "Rainbow Spoon Lure"
+                            "^$fishAccess|Mor Dhona|Cadaver Carp"
                         ],
                         "visibility_rules": [
-                            "fishsanity_timed"
+                            "$fishVisibility|Cadaver Carp"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Ninja Betta",
                         "access_rules": [
-                            "Crow Fly"
+                            "^$fishAccess|Mor Dhona|Ninja Betta"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Ninja Betta"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Ala Mhigan Fighting Fish",
                         "access_rules": [
-                            "Midge Basket",
-                            "Crow Fly"
+                            "^$fishAccess|Mor Dhona|Ala Mhigan Fighting Fish"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Ala Mhigan Fighting Fish"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -781,87 +792,99 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:45"
+                    
                 ],
                 "visibility_rules": [
-                    "fishsanity_normal, level_cap:45"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Mudcrab",
                         "access_rules": [
-                            "Glowworm"
+                            "^$fishAccess|Mor Dhona|Mudcrab"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Mudcrab"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Bonytongue",
                         "access_rules": [
-                            "Mythril Spoon Lure"
+                            "^$fishAccess|Mor Dhona|Bonytongue"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Bonytongue"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Silverfish",
                         "access_rules": [
-                            "Honey Worm"
+                            "^$fishAccess|Mor Dhona|Silverfish"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Silverfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Giant Bass",
                         "access_rules": [
-                            "Honey Worm",
-                            "Mythril Spoon Lure"
+                            "^$fishAccess|Mor Dhona|Giant Bass"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Giant Bass"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Knifefish",
                         "access_rules": [
-                            "Stem Borer",
-                            "Glowworm"
+                            "^$fishAccess|Mor Dhona|Knifefish"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Knifefish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Garpike",
                         "access_rules": [
-                            "Honey Worm"
+                            "^$fishAccess|Mor Dhona|Garpike"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Garpike"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Ilsabardian Bass",
                         "access_rules": [
-                            "Glowworm",
-                            "Topwater Frog"
+                            "^$fishAccess|Mor Dhona|Ilsabardian Bass"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Ilsabardian Bass"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Lamp Marimo",
                         "access_rules": [
-                            "Chocobo Fly",
-                            "Glowworm"
+                            "^$fishAccess|Mor Dhona|Lamp Marimo"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Lamp Marimo"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Blood Red Bonytongue",
                         "access_rules": [
-                            "Honey Worm"
+                            "^$fishAccess|Mor Dhona|Blood Red Bonytongue"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Blood Red Bonytongue"
                         ],
                         "item_count": 1
                     }
@@ -882,88 +905,100 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:45"
+                    
                 ],
                 "visibility_rules": [
-                    "fishsanity_normal, level_cap:45"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Dark Bass",
                         "access_rules": [
-                            "Crow Fly"
+                            "^$fishAccess|Mor Dhona|Dark Bass"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Dark Bass"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Mitten Crab",
                         "access_rules": [
-                            "Honey Worm"
+                            "^$fishAccess|Mor Dhona|Mitten Crab"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Mitten Crab"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Monke Onke",
                         "access_rules": [
-                            "Midge Basket"
+                            "^$fishAccess|Mor Dhona|Monke Onke"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Monke Onke"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Giant Bass",
                         "access_rules": [
-                            "Honey Worm",
-                            "Mythril Spoon Lure"
+                            "^$fishAccess|Mor Dhona|Giant Bass"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Giant Bass"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Ignus Snail",
                         "access_rules": [
-                            "Stem Borer",
-                            "Glowworm"
+                            "^$fishAccess|Mor Dhona|Ignus Snail"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Ignus Snail"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Knifefish",
                         "access_rules": [
-                            "Stem Borer",
-                            "Glowworm"
+                            "^$fishAccess|Mor Dhona|Knifefish"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Knifefish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Ignus Horn",
                         "access_rules": [
-                            "Glowworm"
+                            "^$fishAccess|Mor Dhona|Ignus Horn"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Ignus Horn"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Ala Mhigan Fighting Fish",
                         "access_rules": [
-                            "Midge Basket",
-                            "Crow Fly"
+                            "^$fishAccess|Mor Dhona|Ala Mhigan Fighting Fish"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Ala Mhigan Fighting Fish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Boxing Pleco",
                         "access_rules": [
-                            "Glowworm"
+                            "^$fishAccess|Mor Dhona|Boxing Pleco"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Boxing Pleco"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -983,89 +1018,99 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:45"
+                    
                 ],
                 "visibility_rules": [
-                    "fishsanity_normal, level_cap:45"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Silverfish",
                         "access_rules": [
-                            "Honey Worm"
+                            "^$fishAccess|Mor Dhona|Silverfish"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Silverfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Ignus Snail",
                         "access_rules": [
-                            "Stem Borer",
-                            "Glowworm"
+                            "^$fishAccess|Mor Dhona|Ignus Snail"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Ignus Snail"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Assassin Betta",
                         "access_rules": [
-                            "Honey Worm",
-                            "Crow Fly"
+                            "^$fishAccess|Mor Dhona|Assassin Betta"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Assassin Betta"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Sludgeskipper",
                         "access_rules": [
-                            "Stem Borer"
+                            "^$fishAccess|Mor Dhona|Sludgeskipper"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Sludgeskipper"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Ilsabardian Bass",
                         "access_rules": [
-                            "Glowworm",
-                            "Topwater Frog"
+                            "^$fishAccess|Mor Dhona|Ilsabardian Bass"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Ilsabardian Bass"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Goldfish",
                         "access_rules": [
-                            "Honey Worm"
+                            "^$fishAccess|Mor Dhona|Goldfish"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Goldfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Heliobatis",
                         "access_rules": [
-                            "Caddisfly Larva"
+                            "^$fishAccess|Mor Dhona|Heliobatis"
                         ],
                         "visibility_rules": [
-                            "fishsanity_timed"
+                            "$fishVisibility|Heliobatis"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Lamp Marimo",
                         "access_rules": [
-                            "Chocobo Fly",
-                            "Glowworm"
+                            "^$fishAccess|Mor Dhona|Lamp Marimo"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Lamp Marimo"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Aetherlouse",
                         "access_rules": [
-                            "Glowworm"
+                            "^$fishAccess|Mor Dhona|Aetherlouse"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Aetherlouse"
                         ],
                         "item_count": 1
                     }
@@ -1086,105 +1131,119 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:50"
+                    
                 ],
                 "visibility_rules": [
-                    "fishsanity_normal, level_cap:50"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Silverfish",
                         "access_rules": [
-                            "Honey Worm"
+                            "^$fishAccess|Mor Dhona|Silverfish"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Silverfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Giant Bass",
                         "access_rules": [
-                            "Honey Worm",
-                            "Mythril Spoon Lure"
+                            "^$fishAccess|Mor Dhona|Giant Bass"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Giant Bass"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Ignus Snail",
                         "access_rules": [
-                            "Stem Borer",
-                            "Glowworm"
+                            "^$fishAccess|Mor Dhona|Ignus Snail"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Ignus Snail"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Knifefish",
                         "access_rules": [
-                            "Stem Borer",
-                            "Glowworm"
+                            "^$fishAccess|Mor Dhona|Knifefish"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Knifefish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Assassin Betta",
                         "access_rules": [
-                            "Honey Worm",
-                            "Crow Fly"
+                            "^$fishAccess|Mor Dhona|Assassin Betta"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Assassin Betta"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Sludgeskipper",
                         "access_rules": [
-                            "Stem Borer"
+                            "^$fishAccess|Mor Dhona|Sludgeskipper"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Sludgeskipper"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Ilsabardian Bass",
                         "access_rules": [
-                            "Glowworm",
-                            "Topwater Frog"
+                            "^$fishAccess|Mor Dhona|Ilsabardian Bass"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Ilsabardian Bass"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Goldfish",
                         "access_rules": [
-                            "Honey Worm"
+                            "^$fishAccess|Mor Dhona|Goldfish"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Goldfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Poxpike",
                         "access_rules": [
-                            "Honey Worm"
+                            "^$fishAccess|Mor Dhona|Poxpike"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Poxpike"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Lamp Marimo",
                         "access_rules": [
-                            "Chocobo Fly",
-                            "Glowworm"
+                            "^$fishAccess|Mor Dhona|Lamp Marimo"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Lamp Marimo"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Void Bass",
                         "access_rules": [
-                            "Glowworm"
+                            "^$fishAccess|Mor Dhona|Void Bass"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Void Bass"
                         ],
                         "item_count": 1
                     }
@@ -1205,98 +1264,109 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:50"
+                    
                 ],
                 "visibility_rules": [
-                    "fishsanity_normal, level_cap:50"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Silverfish",
                         "access_rules": [
-                            "Honey Worm"
+                            "^$fishAccess|Mor Dhona|Silverfish"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Silverfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Giant Bass",
                         "access_rules": [
-                            "Honey Worm",
-                            "Mythril Spoon Lure"
+                            "^$fishAccess|Mor Dhona|Giant Bass"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Giant Bass"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Ignus Snail",
                         "access_rules": [
-                            "Stem Borer",
-                            "Glowworm"
+                            "^$fishAccess|Mor Dhona|Ignus Snail"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Ignus Snail"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Assassin Betta",
                         "access_rules": [
-                            "Honey Worm",
-                            "Crow Fly"
+                            "^$fishAccess|Mor Dhona|Assassin Betta"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Assassin Betta"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Ilsabardian Bass",
                         "access_rules": [
-                            "Glowworm",
-                            "Topwater Frog"
+                            "^$fishAccess|Mor Dhona|Ilsabardian Bass"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Ilsabardian Bass"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Goldfish",
                         "access_rules": [
-                            "Honey Worm"
+                            "^$fishAccess|Mor Dhona|Goldfish"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Goldfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Morinabaligi",
                         "access_rules": [
-                            "Honey Worm"
+                            "^$fishAccess|Mor Dhona|Morinabaligi"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Morinabaligi"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Lamp Marimo",
                         "access_rules": [
-                            "Chocobo Fly",
-                            "Glowworm"
+                            "^$fishAccess|Mor Dhona|Lamp Marimo"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Lamp Marimo"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Canavan",
                         "access_rules": [
-                            "Honey Worm"
+                            "^$fishAccess|Mor Dhona|Canavan"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Canavan"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Kuno the Killer",
                         "access_rules": [
-                            "Honey Worm"
+                            "^$fishAccess|Mor Dhona|Kuno the Killer"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Kuno the Killer"
                         ],
                         "item_count": 1
                     }
