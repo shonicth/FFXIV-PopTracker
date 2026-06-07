@@ -306,7 +306,7 @@ function checkCount(slot_data)
 	 Tracker:FindObjectForCode('@Kugane/Kugane Castle/Kugane Castle').AvailableChestCount = slot_data["extra_dungeon_checks"] +1
 	 Tracker:FindObjectForCode('@Rhalgrs Reach/The Temple of the Fist/The Temple of the Fist').AvailableChestCount = slot_data["extra_dungeon_checks"] +1
 	 Tracker:FindObjectForCode('@The Lochs/The Drowned City of Skalla/The Drowned City of Skalla').AvailableChestCount = slot_data["extra_dungeon_checks"] +1
-	 Tracker:FindObjectForCode('@The Ruby Sea/Hells Lid/Hells Lid').AvailableChestCount = slot_data["extra_dungeon_checks"] +1
+	 Tracker:FindObjectForCode('@The Ruby Sea/Hells Lid (Dungeon)/Hells Lid').AvailableChestCount = slot_data["extra_dungeon_checks"] +1
 	 Tracker:FindObjectForCode('@Azys Lla/The Fractal Continuum/The Fractal Continuum (Hard)').AvailableChestCount = slot_data["extra_dungeon_checks"] +1
 	 Tracker:FindObjectForCode('@Yanxia/The Swallows Compass/The Swallows Compass').AvailableChestCount = slot_data["extra_dungeon_checks"] +1
 	 Tracker:FindObjectForCode('@Yanxia/The Burn/The Burn').AvailableChestCount = slot_data["extra_dungeon_checks"] +1

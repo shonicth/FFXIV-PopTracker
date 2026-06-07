@@ -645,70 +645,79 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "$leveling:70"
+                    
                 ],
                 "visibility_rules": [
-                    "fishsanity_normal, level_cap:70"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Clawbow",
                         "access_rules": [
-                            "Fruit Worm"
+                            "^$fishAccess|The Rak'tika Greatwood|Clawbow"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Clawbow"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Robber Crab",
                         "access_rules": [
-                            "Robber Ball",
-                            "Baitbugs"
+                            "^$fishAccess|The Rak'tika Greatwood|Robber Crab"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Robber Crab"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Yellow Pipira",
                         "access_rules": [
-                            "Fruit Worm"
+                            "^$fishAccess|The Rak'tika Greatwood|Yellow Pipira"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Yellow Pipira"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Clown Tetra",
                         "access_rules": [
-                            "Robber Ball"
+                            "^$fishAccess|The Rak'tika Greatwood|Clown Tetra"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Clown Tetra"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Eryops",
                         "access_rules": [
-                            "Robber Ball"
+                            "^$fishAccess|The Rak'tika Greatwood|Eryops"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Eryops"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Priest of YxLokwa",
                         "access_rules": [
-                            "Robber Ball"
+                            "^$fishAccess|The Rak'tika Greatwood|Priest of Yx'Lokwa"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Priest of Yx'Lokwa"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Greater Serpent of Ronka",
                         "access_rules": [
-                            "Robber Ball"
+                            "^$fishAccess|The Rak'tika Greatwood|Greater Serpent of Ronka"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Greater Serpent of Ronka"
                         ],
                         "item_count": 1
                     }
@@ -729,61 +738,69 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "$leveling:70"
+                    
                 ],
                 "visibility_rules": [
-                    "fishsanity_normal, level_cap:70"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Clawbow",
                         "access_rules": [
-                            "Fruit Worm"
+                            "^$fishAccess|The Rak'tika Greatwood|Clawbow"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Clawbow"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Darkroot",
                         "access_rules": [
-                            "Robber Ball"
+                            "^$fishAccess|The Rak'tika Greatwood|Darkroot"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Darkroot"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Yellow Pipira",
                         "access_rules": [
-                            "Fruit Worm"
+                            "^$fishAccess|The Rak'tika Greatwood|Yellow Pipira"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Yellow Pipira"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Oathfish",
                         "access_rules": [
-                            "Marble Nymph"
+                            "^$fishAccess|The Rak'tika Greatwood|Oathfish"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Oathfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Diamond Pipira",
                         "access_rules": [
-                            "Robber Ball"
+                            "^$fishAccess|The Rak'tika Greatwood|Diamond Pipira"
                         ],
                         "visibility_rules": [
-                            "fishsanity_timed"
+                            "$fishVisibility|Diamond Pipira"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Pearl Pipira",
                         "access_rules": [
-                            "Robber Ball"
+                            "^$fishAccess|The Rak'tika Greatwood|Pearl Pipira"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Pearl Pipira"
                         ],
                         "item_count": 1
                     }
@@ -804,59 +821,69 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "$leveling:70"
+                    
                 ],
                 "visibility_rules": [
-                    "fishsanity_normal, level_cap:70"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Clawbow",
                         "access_rules": [
-                            "Fruit Worm"
+                            "^$fishAccess|The Rak'tika Greatwood|Clawbow"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Clawbow"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Black Tri-star",
                         "access_rules": [
-                            "Robber Ball"
+                            "^$fishAccess|The Rak'tika Greatwood|Black Tri-star"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Black Tri-star"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Yellow Pipira",
                         "access_rules": [
-                            "Fruit Worm"
+                            "^$fishAccess|The Rak'tika Greatwood|Yellow Pipira"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Yellow Pipira"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Nights Bass",
                         "access_rules": [
-                            "Robber Ball"
+                            "^$fishAccess|The Rak'tika Greatwood|Night's Bass"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Night's Bass"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Raktika Trout",
                         "access_rules": [
-                            "Robber Ball"
+                            "^$fishAccess|The Rak'tika Greatwood|Rak'tika Trout"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Rak'tika Trout"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Black Jet",
                         "access_rules": [
-                            "Robber Ball"
+                            "^$fishAccess|The Rak'tika Greatwood|Black Jet"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Black Jet"
                         ],
                         "item_count": 1
                     }
@@ -877,68 +904,79 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "$leveling:70"
+                    
                 ],
                 "visibility_rules": [
-                    "fishsanity_normal, level_cap:70"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Clawbow",
                         "access_rules": [
-                            "Fruit Worm"
+                            "^$fishAccess|The Rak'tika Greatwood|Clawbow"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Clawbow"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Robber Crab",
                         "access_rules": [
-                            "Robber Ball",
-                            "Baitbugs"
+                            "^$fishAccess|The Rak'tika Greatwood|Robber Crab"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Robber Crab"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Yellow Pipira",
                         "access_rules": [
-                            "Fruit Worm"
+                            "^$fishAccess|The Rak'tika Greatwood|Yellow Pipira"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Yellow Pipira"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Nights Bass",
                         "access_rules": [
-                            "Robber Ball"
+                            "^$fishAccess|The Rak'tika Greatwood|Night's Bass"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Night's Bass"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Raktika Trout",
                         "access_rules": [
-                            "Robber Ball"
+                            "^$fishAccess|The Rak'tika Greatwood|Rak'tika Trout"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Rak'tika Trout"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Silver Kitten",
                         "access_rules": [
-                            "Robber Ball"
+                            "^$fishAccess|The Rak'tika Greatwood|Silver Kitten"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Silver Kitten"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Recordkiller",
                         "access_rules": [
-                            "Baitbugs"
+                            "^$fishAccess|The Rak'tika Greatwood|Recordkiller"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Recordkiller"
                         ],
                         "item_count": 1
                     }
@@ -959,43 +997,49 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "$leveling:80"
+                    
                 ],
                 "visibility_rules": [
-                    "fishsanity_normal, level_cap:80"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Clawbow",
                         "access_rules": [
-                            "Fruit Worm"
+                            "^$fishAccess|The Rak'tika Greatwood|Clawbow"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Clawbow"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Darkroot",
                         "access_rules": [
-                            "Robber Ball"
+                            "^$fishAccess|The Rak'tika Greatwood|Darkroot"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Darkroot"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Oathfish",
                         "access_rules": [
-                            "Marble Nymph"
+                            "^$fishAccess|The Rak'tika Greatwood|Oathfish"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Oathfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Deephaunt",
                         "access_rules": [
-                            "Baitbugs"
+                            "^$fishAccess|The Rak'tika Greatwood|Deephaunt"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Deephaunt"
                         ],
                         "item_count": 1
                     }
@@ -1016,35 +1060,39 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "$leveling:70"
+                    
                 ],
                 "visibility_rules": [
-                    "fishsanity_normal, level_cap:70"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Clawbow",
                         "access_rules": [
-                            "Fruit Worm"
+                            "^$fishAccess|The Rak'tika Greatwood|Clawbow"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Clawbow"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Yellow Pipira",
                         "access_rules": [
-                            "Fruit Worm"
+                            "^$fishAccess|The Rak'tika Greatwood|Yellow Pipira"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Yellow Pipira"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Golden Pipira",
                         "access_rules": [
-                            "Robber Ball"
+                            "^$fishAccess|The Rak'tika Greatwood|Golden Pipira"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Golden Pipira"
                         ],
                         "item_count": 1
                     }

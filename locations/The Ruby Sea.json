@@ -38,7 +38,7 @@
                 ]
             },
             {
-                "name": "Hells Lid",
+                "name": "Hells Lid (Dungeon)",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -76,98 +76,6 @@
                         ],
                         "visibility_rules": [
                             "level_cap:70, duty_difficulty_ex, $duty_visibility|Hells' Kier (Extreme)"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Liopleurodon",
-                        "access_rules": [
-                            "5fshlevels:62, Live Shrimp"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:62, fishsanity_timed"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Grinning Anchovy",
-                        "access_rules": [
-                            "5fshlevels:62, Live Shrimp",
-                            "5fshlevels:62, Metal Spinner"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:62, fishsanity_normal"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Hellyfish",
-                        "access_rules": [
-                            "5fshlevels:62, Live Shrimp"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:62, fishsanity_normal"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Blockhead",
-                        "access_rules": [
-                            "5fshlevels:62, Live Shrimp"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:62, fishsanity_normal"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Ruby Shrimp",
-                        "access_rules": [
-                            "5fshlevels:62, Live Shrimp",
-                            "5fshlevels:62, Metal Spinner"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:62, fishsanity_normal"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Ukiki",
-                        "access_rules": [
-                            "5fshlevels:62, Blue Bobbit"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:62, fishsanity_timed"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Shrieker",
-                        "access_rules": [
-                            "5fshlevels:62, Live Shrimp"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:62, fishsanity_normal"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Wicked Wartfish",
-                        "access_rules": [
-                            "5fshlevels:62, Metal Spinner"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:62, fishsanity_normal"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Vegetarian",
-                        "access_rules": [
-                            "5fshlevels:62, Live Shrimp"
-                        ],
-                        "visibility_rules": [
-                            "level_cap:62, fishsanity_big"
                         ],
                         "item_count": 1
                     }
@@ -1199,62 +1107,67 @@
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
-                "access_rules": [
-                    "5fshlevels:64"
-                ],
-                "visibility_rules": [
-                    "level_cap:64, fishsanity_normal"
-                ],
+                "access_rules": [],
+                "visibility_rules": [],
                 "sections": [
                     {
                         "name": "Blackfin Snake Eel",
                         "access_rules": [
-                            "Blue Bobbit"
+                            "^$fishAccess|The Ruby Sea|Blackfin Snake Eel"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Blackfin Snake Eel"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Leaf Tatsunoko",
                         "access_rules": [
-                            "Metal Spinner"
+                            "^$fishAccess|The Ruby Sea|Leaf Tatsunoko"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Leaf Tatsunoko"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Glass Flounder",
                         "access_rules": [
-                            "Bream Lure"
+                            "^$fishAccess|The Ruby Sea|Glass Flounder"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Glass Flounder"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Ruby Shrimp",
                         "access_rules": [
-                            "Live Shrimp",
-                            "Metal Spinner"
+                            "^$fishAccess|The Ruby Sea|Ruby Shrimp"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Ruby Shrimp"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Argonautica",
                         "access_rules": [
-                            "Live Shrimp"
+                            "^$fishAccess|The Ruby Sea|Argonautica"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Argonautica"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Hook Fish",
                         "access_rules": [
-                            "Metal Spinner"
+                            "^$fishAccess|The Ruby Sea|Hook Fish"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Hook Fish"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -1273,79 +1186,86 @@
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
-                "access_rules": [
-                    "5fshlevels:64"
-                ],
-                "visibility_rules": [
-                    "level_cap:64, fishsanity_normal"
-                ],
+                "access_rules": [],
+                "visibility_rules": [],
                 "sections": [
                     {
                         "name": "Ruby Meagre",
                         "access_rules": [
-                            "Blue Bobbit"
+                            "^$fishAccess|The Ruby Sea|Ruby Meagre"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Ruby Meagre"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Glass Herring",
                         "access_rules": [
-                            "Bream Lure",
-                            "Metal Spinner"
+                            "^$fishAccess|The Ruby Sea|Glass Herring"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Glass Herring"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Gliding Fish",
                         "access_rules": [
-                            "Bream Lure"
+                            "^$fishAccess|The Ruby Sea|Gliding Fish"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Gliding Fish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Globefish",
                         "access_rules": [
-                            "Metal Spinner"
+                            "^$fishAccess|The Ruby Sea|Globefish"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Globefish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Fan Clam",
                         "access_rules": [
-                            "Live Shrimp"
+                            "^$fishAccess|The Ruby Sea|Fan Clam"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Fan Clam"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Triplespine",
                         "access_rules": [
-                            "Blue Bobbit"
+                            "^$fishAccess|The Ruby Sea|Triplespine"
                         ],
                         "visibility_rules": [
-                            "fishsanity_timed"
+                            "$fishVisibility|Triplespine"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Shirogane Clam",
                         "access_rules": [
-                            "Metal Spinner"
+                            "^$fishAccess|The Ruby Sea|Shirogane Clam"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Shirogane Clam"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Pinhead",
                         "access_rules": [
-                            "Live Shrimp"
+                            "^$fishAccess|The Ruby Sea|Pinhead"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Pinhead"
                         ],
                         "item_count": 1
                     }
@@ -1365,97 +1285,107 @@
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
-                "access_rules": [
-                    "5fshlevels:65"
-                ],
-                "visibility_rules": [
-                    "level_cap:65, fishsanity_normal"
-                ],
+                "access_rules": [],
+                "visibility_rules": [],
                 "sections": [
                     {
                         "name": "Tawny Wench Shark",
                         "access_rules": [
-                            "Blue Bobbit"
+                            "^$fishAccess|The Ruby Sea|Tawny Wench Shark"
                         ],
-                        "visibility_rules": ["fishsanity_timed"],
+                        "visibility_rules": [
+                            "$fishVisibility|Tawny Wench Shark"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Grinning Anchovy",
                         "access_rules": [
-                            "Live Shrimp",
-                            "Metal Spinner"
+                            "^$fishAccess|The Ruby Sea|Grinning Anchovy"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Grinning Anchovy"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Hellyfish",
                         "access_rules": [
-                            "Live Shrimp"
+                            "^$fishAccess|The Ruby Sea|Hellyfish"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Hellyfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Dafu",
                         "access_rules": [
-                            "Bream Lure"
+                            "^$fishAccess|The Ruby Sea|Dafu"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Dafu"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Swordfish",
                         "access_rules": [
-                            "Blue Bobbit"
+                            "^$fishAccess|The Ruby Sea|Swordfish"
                         ],
                         "visibility_rules": [
-                            "fishsanity_timed"
+                            "$fishVisibility|Swordfish"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Glass Tuna",
                         "access_rules": [
-                            "Live Shrimp"
+                            "^$fishAccess|The Ruby Sea|Glass Tuna"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Glass Tuna"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Ruby Shrimp",
                         "access_rules": [
-                            "Live Shrimp",
-                            "Metal Spinner"
+                            "^$fishAccess|The Ruby Sea|Ruby Shrimp"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Ruby Shrimp"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Usuginu Octopus",
                         "access_rules": [
-                            "Live Shrimp"
+                            "^$fishAccess|The Ruby Sea|Usuginu Octopus"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Usuginu Octopus"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Seven Stars",
                         "access_rules": [
-                            "Live Shrimp"
+                            "^$fishAccess|The Ruby Sea|Seven Stars"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Seven Stars"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Fatty Herring",
                         "access_rules": [
-                            "Metal Spinner"
+                            "^$fishAccess|The Ruby Sea|Fatty Herring"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Fatty Herring"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -1474,64 +1404,66 @@
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
-                "access_rules": [
-                    "5fshlevels:62"
-                ],
-                "visibility_rules": [
-                    "level_cap:62, fishsanity_normal"
-                ],
+                "access_rules": [],
+                "visibility_rules": [],
                 "sections": [
                     {
                         "name": "Coeurl Snake Eel",
                         "access_rules": [
-                            "Bream Lure"
+                            "^$fishAccess|The Ruby Sea|Coeurl Snake Eel"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Coeurl Snake Eel"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Grinning Anchovy",
                         "access_rules": [
-                            "Live Shrimp",
-                            "Metal Spinner"
+                            "^$fishAccess|The Ruby Sea|Grinning Anchovy"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Grinning Anchovy"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Glass Herring",
                         "access_rules": [
-                            "Bream Lure",
-                            "Metal Spinner"
+                            "^$fishAccess|The Ruby Sea|Glass Herring"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Glass Herring"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Coral Horse",
                         "access_rules": [
-                            "Metal Spinner"
+                            "^$fishAccess|The Ruby Sea|Coral Horse"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Coral Horse"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Kuer",
                         "access_rules": [
-                            "Blue Bobbit"
+                            "^$fishAccess|The Ruby Sea|Ku'er"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Ku'er"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "The Ruby Dragon",
                         "access_rules": [
-                            "Blue Bobbit"
+                            "^$fishAccess|The Ruby Sea|The Ruby Dragon"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|The Ruby Dragon"
                         ],
                         "item_count": 1
                     }
@@ -1551,78 +1483,87 @@
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
-                "access_rules": [
-                    "5fshlevels:63"
-                ],
-                "visibility_rules": [
-                    "level_cap:63, fishsanity_normal"
-                ],
+                "access_rules": [],
+                "visibility_rules": [],
                 "sections": [
                     {
                         "name": "Harutsuge",
                         "access_rules": [
-                            "Blue Bobbit"
+                            "^$fishAccess|The Ruby Sea|Harutsuge"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Harutsuge"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Grinning Anchovy",
                         "access_rules": [
-                            "Live Shrimp",
-                            "Metal Spinner"
+                            "^$fishAccess|The Ruby Sea|Grinning Anchovy"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Grinning Anchovy"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Ruby Coral",
                         "access_rules": [
-                            "Bream Lure"
+                            "^$fishAccess|The Ruby Sea|Ruby Coral"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Ruby Coral"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Sapphire Coral",
                         "access_rules": [
-                            "Bream Lure"
+                            "^$fishAccess|The Ruby Sea|Sapphire Coral"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Sapphire Coral"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Bone Coral",
                         "access_rules": [
-                            "Bream Lure"
+                            "^$fishAccess|The Ruby Sea|Bone Coral"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Bone Coral"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Butterfly Fish",
                         "access_rules": [
-                            "Bream Lure"
+                            "^$fishAccess|The Ruby Sea|Butterfly Fish"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Butterfly Fish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "The Winter Queen",
                         "access_rules": [
-                            "Blue Bobbit"
+                            "^$fishAccess|The Ruby Sea|The Winter Queen"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|The Winter Queen"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Ruby Laver",
                         "access_rules": [
-                            "Metal Spinner"
+                            "^$fishAccess|The Ruby Sea|Ruby Laver"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Ruby Laver"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -1637,67 +1578,183 @@
                 ]
             },
             {
-                "name": "The Isle of Zekki",
+                "name": "Hells Lid (Fishing Hole)",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:70"
+                    " "
                 ],
                 "visibility_rules": [
-                    "level_cap:70, fishsanity_normal"
+                    " "
                 ],
                 "sections": [
                     {
-                        "name": "Zekki Gator",
+                        "name": "Liopleurodon",
                         "access_rules": [
-                            "Metal Spinner"
+                            "^$fishAccess|The Ruby Sea|Liopleurodon"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Liopleurodon"
+                        ],
                         "item_count": 1
                     },
                     {
-                        "name": "Daio Squid",
+                        "name": "Grinning Anchovy",
                         "access_rules": [
-                            "Bream Lure"
+                            "^$fishAccess|The Ruby Sea|Grinning Anchovy"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Grinning Anchovy"
+                        ],
                         "item_count": 1
                     },
                     {
-                        "name": "Koromo Octopus",
+                        "name": "Hellyfish",
                         "access_rules": [
-                            "Bream Lure"
+                            "^$fishAccess|The Ruby Sea|Hellyfish"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Hellyfish"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Blockhead",
+                        "access_rules": [
+                            "^$fishAccess|The Ruby Sea|Blockhead"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Blockhead"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Ruby Shrimp",
                         "access_rules": [
-                            "Live Shrimp",
-                            "Metal Spinner"
+                            "^$fishAccess|The Ruby Sea|Ruby Shrimp"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Ruby Shrimp"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Ukiki",
+                        "access_rules": [
+                            "^$fishAccess|The Ruby Sea|Ukiki"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Ukiki"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Shrieker",
+                        "access_rules": [
+                            "^$fishAccess|The Ruby Sea|Shrieker"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Shrieker"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Wicked Wartfish",
+                        "access_rules": [
+                            "^$fishAccess|The Ruby Sea|Wicked Wartfish"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Wicked Wartfish"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "The Vegetarian",
+                        "access_rules": [
+                            "^$fishAccess|The Ruby Sea|The Vegetarian"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|The Vegetarian"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "The Ruby Sea",
+                        "x": 1220,
+                        "y": 1643,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "The Isle of Zekki",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [],
+                "visibility_rules": [],
+                "sections": [
+                    {
+                        "name": "Zekki Gator",
+                        "access_rules": [
+                            "^$fishAccess|The Ruby Sea|Zekki Gator"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Zekki Gator"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Daio Squid",
+                        "access_rules": [
+                            "^$fishAccess|The Ruby Sea|Daio Squid"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Daio Squid"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Koromo Octopus",
+                        "access_rules": [
+                            "^$fishAccess|The Ruby Sea|Koromo Octopus"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Koromo Octopus"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Ruby Shrimp",
+                        "access_rules": [
+                            "^$fishAccess|The Ruby Sea|Ruby Shrimp"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Ruby Shrimp"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Rakshasa",
                         "access_rules": [
-                            "Metal Spinner"
+                            "^$fishAccess|The Ruby Sea|Rakshasa"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Rakshasa"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Zekki Grouper",
                         "access_rules": [
-                            "Blue Bobbit"
+                            "^$fishAccess|The Ruby Sea|Zekki Grouper"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Zekki Grouper"
                         ],
                         "item_count": 1
                     }
