@@ -2,27 +2,37 @@
 
 Early WIP
 
-Current Status(5/13/2026):
+Current Status(6/7/2026):
 
--Everything sans fish should be fully implemented. There almost certainly will be some bugs, typos, mistakes, etc, so feel free to let me know if you find any(or feel free to fix them yourself and send them a PR)
-
--Fish are currently implemented based on the fishing hole level up to EnW. I'm working on a proper solution in the mean time.
+-Everything should be fully implemented, with the exception of implementing fish correctly on aprx 10 zones as of the time of writing this(Sea of Clouds thru Yanxia). Everything else should be fully ready to go with regards to APWorld version v0.28.1. I'm considering a formal release after these 10 zones are finished
 
 -Assets need to be done, as well as clean up layouts. There are currently a lot of placeholders
 
 -I need testing for any and every possible combination, feel free to let me know if anything else wrong, missing, or needs adjusting. I'm very sure there are typos all over the place.
 
--As well, I need feedback on location placements on the map. Please do not hesitate to ping me and let me know any thoughts etc 
+-As well, I need feedback on location placements on the map. Please do not hesitate to ping me and let me know any thoughts etc
+
+-If you'd like to contribute anything, by all means feel free to. Either ping me with adjustments you think I should make, or go on and submit a PR. Either is both welcomed and encouraged
 
 ______________
 
 TODO:
 
--Make a proper readme(lol)
+-Finalize fishsanity implementation
 
--Clean up the placeholder images
+-Make a proper readme and make a proper release
 
--Start fish cleanup
+-Replace the map pngs with jpgs(reducing the file size by 1/10th, making it like <50MB instead of like half a gig)
+
+-Replace all the placeholder images for the items/settings(I really don't wanna do this I'm burned out as is lol)
+
+-Clean up mapping, maybe merge FATE locations
+
+-Review and order fish based on fish log
+
+-Playtest constantly and make sure everything is working
+
+-Implement goal as a location(this can probably wait till the hunt sanity update, since that has multiple goals based on expac final bosses, rather than just lv70 final boss or mcguffins)
 
 _____________
 
