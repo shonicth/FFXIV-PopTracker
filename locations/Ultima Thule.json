@@ -534,74 +534,79 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:90"
+                    
                 ],
                 "visibility_rules": [
-                    "level_cap:90, fishsanity_normal"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Superstring",
                         "access_rules": [
-                            "Grey Worm",
-                            "Chimera Worm"
+                            "^$fishAccess|Ultima Thule|Superstring"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Superstring"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Star Eater",
                         "access_rules": [
-                            "Grey Worm",
-                            "Chimera Worm"
+                            "^$fishAccess|Ultima Thule|Star Eater"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Star Eater"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Dragonscale",
                         "access_rules": [
-                            "Grey Worm",
-                            "Chimera Worm"
+                            "^$fishAccess|Ultima Thule|Dragonscale"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Dragonscale"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Ypupiara",
                         "access_rules": [
-                            "Grey Worm",
-                            "Chimera Worm"
+                            "^$fishAccess|Ultima Thule|Ypupîara"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Ypupîara"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Eehs Forhnesh",
                         "access_rules": [
-                            "Grey Worm",
-                            "Chimera Worm"
+                            "^$fishAccess|Ultima Thule|Eehs Forhnesh"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Eehs Forhnesh"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Eehs Fan",
                         "access_rules": [
-                            "Chimera Worm"
+                            "^$fishAccess|Ultima Thule|Eehs Fan"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Eehs Fan"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Stargilt Lobster",
                         "access_rules": [
-                            "Grey Worm"
+                            "^$fishAccess|Ultima Thule|Stargilt Lobster"
                         ],
                         "visibility_rules": [
-                            "fishsanity_timed"
+                            "$fishVisibility|Stargilt Lobster"
                         ],
                         "item_count": 1
                     }
@@ -622,55 +627,59 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:89"
+                    
                 ],
                 "visibility_rules": [
-                    "level_cap:89, fishsanity_normal"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Superstring",
                         "access_rules": [
-                            "Grey Worm",
-                            "Chimera Worm"
+                            "^$fishAccess|Ultima Thule|Superstring"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Superstring"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Star Eater",
                         "access_rules": [
-                            "Grey Worm",
-                            "Chimera Worm"
+                            "^$fishAccess|Ultima Thule|Star Eater"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Star Eater"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Glassfish",
                         "access_rules": [
-                            "Grey Worm",
-                            "Chimera Worm"
+                            "^$fishAccess|Ultima Thule|Glassfish"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Glassfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Foun Myhk",
                         "access_rules": [
-                            "Grey Worm",
-                            "Chimera Worm"
+                            "^$fishAccess|Ultima Thule|Foun Myhk"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Foun Myhk"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Foun Ahlm",
                         "access_rules": [
-                            "Chimera Worm"
+                            "^$fishAccess|Ultima Thule|Foun Ahlm"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Foun Ahlm"
                         ],
                         "item_count": 1
                     }
@@ -691,55 +700,59 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:88"
+                    
                 ],
                 "visibility_rules": [
-                    "level_cap:88, fishsanity_normal"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Superstring",
                         "access_rules": [
-                            "Grey Worm",
-                            "Chimera Worm"
+                            "^$fishAccess|Ultima Thule|Superstring"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Superstring"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Star Eater",
                         "access_rules": [
-                            "Grey Worm",
-                            "Chimera Worm"
+                            "^$fishAccess|Ultima Thule|Star Eater"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Star Eater"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Vacuum Shrimp",
                         "access_rules": [
-                            "Grey Worm",
-                            "Chimera Worm"
+                            "^$fishAccess|Ultima Thule|Vacuum Shrimp"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Vacuum Shrimp"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Cosmic Noise",
                         "access_rules": [
-                            "Grey Worm",
-                            "Chimera Worm"
+                            "^$fishAccess|Ultima Thule|Cosmic Noise"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Cosmic Noise"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Cosmic Haze",
                         "access_rules": [
-                            "Grey Worm"
+                            "^$fishAccess|Ultima Thule|Cosmic Haze"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Cosmic Haze"
                         ],
                         "item_count": 1
                     }
@@ -760,62 +773,59 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:84"
+                    
                 ],
                 "visibility_rules": [
-                    "level_cap:84, fishsanity_normal"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Katoptron",
                         "access_rules": [
-                            "Gold Salmon Roe",
-                            "Leech",
-                            "Sky Spoon Lure",
-                            "Mayfly"
+                            "^$fishAccess|Ultima Thule|Katoptron"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Katoptron"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Comet Tail",
                         "access_rules": [
-                            "Gold Salmon Roe",
-                            "Leech",
-                            "Sky Spoon Lure",
-                            "Mayfly"
+                            "^$fishAccess|Ultima Thule|Comet Tail"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Comet Tail"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Aoide",
                         "access_rules": [
-                            "Leech",
-                            "Sky Spoon Lure",
-                            "Mayfly"
+                            "^$fishAccess|Ultima Thule|Aoide"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Aoide"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Protoflesh",
                         "access_rules": [
-                            "Gold Salmon Roe",
-                            "Leech",
-                            "Sky Spoon Lure",
-                            "Mayfly"
+                            "^$fishAccess|Ultima Thule|Protoflesh"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Protoflesh"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Starscryer",
                         "access_rules": [
-                            "Mayfly"
+                            "^$fishAccess|Ultima Thule|Starscryer"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Starscryer"
                         ],
                         "item_count": 1
                     }
@@ -836,51 +846,49 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:84"
+                    
                 ],
                 "visibility_rules": [
-                    "level_cap:84, fishsanity_normal"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Katoptron",
                         "access_rules": [
-                            "Gold Salmon Roe",
-                            "Leech",
-                            "Sky Spoon Lure",
-                            "Mayfly"
+                            "^$fishAccess|Ultima Thule|Katoptron"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Katoptron"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Protoflesh",
                         "access_rules": [
-                            "Gold Salmon Roe",
-                            "Leech",
-                            "Sky Spoon Lure",
-                            "Mayfly"
+                            "^$fishAccess|Ultima Thule|Protoflesh"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Protoflesh"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Wandering Starscale",
                         "access_rules": [
-                            "Leech",
-                            "Sky Spoon Lure",
-                            "Mayfly"
+                            "^$fishAccess|Ultima Thule|Wandering Starscale"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Wandering Starscale"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Starscale Ephemeris",
                         "access_rules": [
-                            "Mayfly"
+                            "^$fishAccess|Ultima Thule|Starscale Ephemeris"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Starscale Ephemeris"
                         ],
                         "item_count": 1
                     }
@@ -901,80 +909,89 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:89"
+                    
                 ],
                 "visibility_rules": [
-                    "level_cap:89, fishsanity_normal"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Wormhole Worm",
                         "access_rules": [
-                            "Panic Jig",
-                            "Stardust"
+                            "^$fishAccess|Ultima Thule|Wormhole Worm"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Wormhole Worm"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Unidentified Flying Biomass II",
                         "access_rules": [
-                            "Panic Jig",
-                            "Stardust"
+                            "^$fishAccess|Ultima Thule|Unidentified Flying Biomass II"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Unidentified Flying Biomass II"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Sophos Deka-okto",
                         "access_rules": [
-                            "Panic Jig",
-                            "Stardust"
+                            "^$fishAccess|Ultima Thule|Sophos Deka-okto"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Sophos Deka-okto"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Class Twenty-four",
                         "access_rules": [
-                            "Panic Jig",
-                            "Stardust"
+                            "^$fishAccess|Ultima Thule|Class Twenty-four"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Class Twenty-four"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Terrifyingway",
                         "access_rules": [
-                            "Panic Jig",
-                            "Stardust"
+                            "^$fishAccess|Ultima Thule|Terrifyingway"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Terrifyingway"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Alien Mertone",
                         "access_rules": [
-                            "Panic Jig"
+                            "^$fishAccess|Ultima Thule|Alien Mertone"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Alien Mertone"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Monster Carrot",
                         "access_rules": [
-                            "Stardust"
+                            "^$fishAccess|Ultima Thule|Monster Carrot"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Monster Carrot"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Forbiddingway",
                         "access_rules": [
-                            "Stardust"
+                            "^$fishAccess|Ultima Thule|Forbiddingway"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Forbiddingway"
                         ],
                         "item_count": 1
                     }
@@ -995,80 +1012,89 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:90"
+                    
                 ],
                 "visibility_rules": [
-                    "level_cap:90, fishsanity_normal"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Wormhole Worm",
                         "access_rules": [
-                            "Panic Jig",
-                            "Stardust"
+                            "^$fishAccess|Ultima Thule|Wormhole Worm"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Wormhole Worm"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Unidentified Flying Biomass II",
                         "access_rules": [
-                            "Panic Jig",
-                            "Stardust"
+                            "^$fishAccess|Ultima Thule|Unidentified Flying Biomass II"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Unidentified Flying Biomass II"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Triaina",
                         "access_rules": [
-                            "Panic Jig",
-                            "Stardust"
+                            "^$fishAccess|Ultima Thule|Triaina"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Triaina"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Argonaut",
                         "access_rules": [
-                            "Panic Jig",
-                            "Stardust"
+                            "^$fishAccess|Ultima Thule|Argonaut"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Argonaut"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Echinos",
                         "access_rules": [
-                            "Panic Jig",
-                            "Stardust"
+                            "^$fishAccess|Ultima Thule|Echinos"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Echinos"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Space Bishop",
                         "access_rules": [
-                            "Panic Jig"
+                            "^$fishAccess|Ultima Thule|Space Bishop"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Space Bishop"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Alyketos",
                         "access_rules": [
-                            "Stardust"
+                            "^$fishAccess|Ultima Thule|Alyketos"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Alyketos"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Argonauta argo",
                         "access_rules": [
-                            "Stardust"
+                            "^$fishAccess|Ultima Thule|Argonauta argo"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Argonauta argo"
                         ],
                         "item_count": 1
                     }
@@ -1089,92 +1115,99 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:90"
+                    
                 ],
                 "visibility_rules": [
-                    "level_cap:90, fishsanity_normal"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Wormhole Worm",
                         "access_rules": [
-                            "Panic Jig",
-                            "Stardust"
+                            "^$fishAccess|Ultima Thule|Wormhole Worm"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Wormhole Worm"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Unidentified Flying Biomass II",
                         "access_rules": [
-                            "Panic Jig",
-                            "Stardust"
+                            "^$fishAccess|Ultima Thule|Unidentified Flying Biomass II"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Unidentified Flying Biomass II"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Triaina",
                         "access_rules": [
-                            "Panic Jig",
-                            "Stardust"
+                            "^$fishAccess|Ultima Thule|Triaina"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Triaina"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Horizon Event",
                         "access_rules": [
-                            "Panic Jig",
-                            "Stardust"
+                            "^$fishAccess|Ultima Thule|Horizon Event"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Horizon Event"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "E.B.E.-9318",
                         "access_rules": [
-                            "Panic Jig",
-                            "Stardust"
+                            "^$fishAccess|Ultima Thule|E.B.E.-9318"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|E.B.E.-9318"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Unbegotten",
                         "access_rules": [
-                            "Panic Jig"
+                            "^$fishAccess|Ultima Thule|Unbegotten"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Unbegotten"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Phallaina",
                         "access_rules": [
-                            "Panic Jig"
+                            "^$fishAccess|Ultima Thule|Phallaina"
                         ],
                         "visibility_rules": [
-                            "fishsanity_timed"
+                            "$fishVisibility|Phallaina"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "E.B.E.-852738",
                         "access_rules": [
-                            "Stardust"
+                            "^$fishAccess|Ultima Thule|E.B.E.-852738"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|E.B.E.-852738"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Sidereal Whale",
                         "access_rules": [
-                            "Panic Jig"
+                            "^$fishAccess|Ultima Thule|Sidereal Whale"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Sidereal Whale"
                         ],
                         "item_count": 1
                     }

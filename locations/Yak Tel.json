@@ -588,31 +588,47 @@
                     " "
                 ],
                 "visibility_rules": [
-                    "fishsanity_normal"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Shimmering Shadow",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Yak T'el|Shimmering Shadow"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Shimmering Shadow"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Utohmu Dawnfish",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Yak T'el|Ut'ohmu Dawnfish"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Ut'ohmu Dawnfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Belonesox",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Yak T'el|Belonesox"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Belonesox"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Xdaa Talat Cichlid",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Yak T'el|Xd'aa Talat Cichlid"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Xd'aa Talat Cichlid"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -635,31 +651,47 @@
                     " "
                 ],
                 "visibility_rules": [
-                    "fishsanity_normal"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Shimmering Shadow",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Yak T'el|Shimmering Shadow"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Shimmering Shadow"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Utohmu Dawnfish",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Yak T'el|Ut'ohmu Dawnfish"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Ut'ohmu Dawnfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Iq Braax Sailfin",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Yak T'el|Iq Br'aax Sailfin"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Iq Br'aax Sailfin"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Hunmu Ob",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Yak T'el|Hunmu Ob"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Hunmu Ob"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -682,55 +714,87 @@
                     " "
                 ],
                 "visibility_rules": [
-                    "fishsanity_normal"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Shimmering Shadow",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Yak T'el|Shimmering Shadow"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Shimmering Shadow"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Utohmu Dawnfish",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Yak T'el|Ut'ohmu Dawnfish"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Ut'ohmu Dawnfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Apoda",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Yak T'el|Apoda"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Apoda"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Mirror Carp",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Yak T'el|Apoda"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Apoda"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Yak Awak Core",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Yak T'el|Yak Awak Core"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Yak Awak Core"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Sharknose Goby",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Yak T'el|Sharknose Goby"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Sharknose Goby"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Yak Tel Crab",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Yak T'el|Yak T'el Crab"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Yak T'el Crab"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Awaksbane Apoda",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Yak T'el|Awaksbane Apoda"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Awaksbane Apoda"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -753,37 +817,57 @@
                     " "
                 ],
                 "visibility_rules": [
-                    "fishsanity_normal"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Tsoly Mu",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Yak T'el|Tsoly Mu"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Tsoly Mu"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Iq Rrax Leaffish",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Yak T'el|Iq Rrax Leaffish"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Iq Rrax Leaffish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Archmatron Angelfish",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Yak T'el|Archmatron Angelfish"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Archmatron Angelfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Yak Tel Salamander",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Yak T'el|Yak T'el Salamander"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Yak T'el Salamander"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Shadowtongue",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Yak T'el|Shadowtongue"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Shadowtongue"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -806,37 +890,57 @@
                     " "
                 ],
                 "visibility_rules": [
-                    "fishsanity_normal"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Cloud-eye Carp",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Yak T'el|Cloud-eye Carp"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Cloud-eye Carp"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Xobrit Lobster",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Yak T'el|Xobr'it Lobster"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Xobr'it Lobster"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Sunbright Axolotl",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Yak T'el|Sunbright Axolotl"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Sunbright Axolotl"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Horned Frog",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Yak T'el|Horned Frog"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Horned Frog"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Lotl-in-waiting",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Yak T'el|Lotl-in-waiting"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Lotl-in-waiting"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -859,31 +963,47 @@
                     " "
                 ],
                 "visibility_rules": [
-                    "fishsanity_normal"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Mudfish",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Yak T'el|Mudfish"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Mudfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Turali Beaded Lizard",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Yak T'el|Turali Beaded Lizard"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Turali Beaded Lizard"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Yak Tel Catfish",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Yak T'el|Yak T'el Catfish"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Yak T'el Catfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Ankledeep Catfish",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Yak T'el|Ankledeep Catfish"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Ankledeep Catfish"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -906,37 +1026,57 @@
                     " "
                 ],
                 "visibility_rules": [
-                    "fishsanity_normal"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Mudfish",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Yak T'el|Mudfish"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Mudfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Yak Tel Catfish",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Yak T'el|Yak T'el Catfish"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Yak T'el Catfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Checkered Cichlid",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Yak T'el|Checkered Cichlid"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Checkered Cichlid"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Moxutural Gar",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Yak T'el|Moxutural Gar"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Moxutural Gar"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Moxutural Greatgar",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Yak T'el|Moxutural Greatgar"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Moxutural Greatgar"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -959,37 +1099,57 @@
                     " "
                 ],
                 "visibility_rules": [
-                    "fishsanity_normal"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Mudfish",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Yak T'el|Mudfish"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Mudfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Yak Tel Catfish",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Yak T'el|Yak T'el Catfish"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Yak T'el Catfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Variatus",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Yak T'el|Variatus"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Variatus"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Welkin Catfish",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Yak T'el|Welkin Catfish"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Welkin Catfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Flawless Saucer",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Yak T'el|Flawless Saucer"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Flawless Saucer"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -1012,31 +1172,47 @@
                     " "
                 ],
                 "visibility_rules": [
-                    "fishsanity_normal"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Mudfish",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Yak T'el|Mudfish"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Mudfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Yak Tel Catfish",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Yak T'el|Yak T'el Catfish"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Yak T'el Catfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Glittergill",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Yak T'el|Glittergill"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Glittergill"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Twig Catfish",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Yak T'el|Twig Catfish"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Twig Catfish"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -1059,37 +1235,57 @@
                     " "
                 ],
                 "visibility_rules": [
-                    "fishsanity_normal"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Mudfish",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Yak T'el|Mudfish"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Mudfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Yak Tel Catfish",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Yak T'el|Yak T'el Catfish"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Yak T'el Catfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Blind Brotula",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Yak T'el|Blind Brotula"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Blind Brotula"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Yak Tel Caiman",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Yak T'el|Yak T'el Caiman"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Yak T'el Caiman"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Cenote Oyster",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Yak T'el|Cenote Oyster"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Cenote Oyster"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -1112,31 +1308,47 @@
                     " "
                 ],
                 "visibility_rules": [
-                    "fishsanity_normal"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Utohmu Tiika",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Yak T'el|Ut'ohmu Tiika"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Ut'ohmu Tiika"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Xtyiinbek Sleeper",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Yak T'el|Xty'iinbek Sleeper"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Xty'iinbek Sleeper"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Chain Shark",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Yak T'el|Chain Shark"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Chain Shark"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Stardust Sleeper",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Yak T'el|Stardust Sleeper"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Stardust Sleeper"
+                        ],
                         "item_count": 1
                     }
                 ],

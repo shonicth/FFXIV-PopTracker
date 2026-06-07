@@ -228,25 +228,20 @@
                     {
                         "name": "Kotsu Zetsu",
                         "access_rules": [
-                            "5fshlevels:70, Suspending Minnow",
-                            "5fshlevels:70, Stonefly Larva",
-                            "5fshlevels:70, Metal Spinner"
+                            "^$fishAccess|Yanxia|Kotsu Zetsu"
                         ],
                         "visibility_rules": [
-                            "level_cap:70, fishsanity_normal"
+                            "$fishVisibility|Kotsu Zetsu"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Doman Trout",
                         "access_rules": [
-                            "5fshlevels:70, Suspending Minnow",
-                            "5fshlevels:70, Nightcrawler",
-                            "5fshlevels:70, Midge Larva",
-                            "5fshlevels:70, Metal Spinner"
+                            "^$fishAccess|Yanxia|Doman Trout"
                         ],
                         "visibility_rules": [
-                            "level_cap:70, fishsanity_normal"
+                            "$fishVisibility|Doman Trout"
                         ],
                         "item_count": 1
                     }
@@ -1439,73 +1434,79 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:65"
+                    
                 ],
                 "visibility_rules": [
-                    "level_cap:65, fishsanity_normal"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Yanxian Barramundi",
                         "access_rules": [
-                            "Stonefly Larva"
+                            "^$fishAccess|Yanxia|Yanxian Barramundi"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Yanxian Barramundi"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Yanxian Koi",
                         "access_rules": [
-                            "Stonefly Larva"
+                            "^$fishAccess|Yanxia|Yanxian Koi"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Yanxian Koi"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Kotsu Zetsu",
                         "access_rules": [
-                            "Suspending Minnow",
-                            "Stonefly Larva",
-                            "Metal Spinner"
+                            "^$fishAccess|Yanxia|Kotsu Zetsu"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Kotsu Zetsu"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Longhair Catfish",
                         "access_rules": [
-                            "Suspending Minnow",
-                            "Stonefly Larva"
+                            "^$fishAccess|Yanxia|Longhair Catfish"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Longhair Catfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Doman Trout",
                         "access_rules": [
-                            "Suspending Minnow",
-                            "Nightcrawler",
-                            "Midge Larva",
-                            "Metal Spinner"
+                            "^$fishAccess|Yanxia|Doman Trout"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Doman Trout"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Othardian Salmon",
                         "access_rules": [
-                            "Metal Spinner"
+                            "^$fishAccess|Yanxia|Othardian Salmon"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Othardian Salmon"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Axelrod",
                         "access_rules": [
-                            "Stonefly Larva"
+                            "^$fishAccess|Yanxia|Axelrod"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Axelrod"
                         ],
                         "item_count": 1
                     }
@@ -1526,59 +1527,59 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:70"
+                    
                 ],
                 "visibility_rules": [
-                    "level_cap:70, fishsanity_normal"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Seraphim",
                         "access_rules": [
-                            "Stonefly Larva"
+                            "^$fishAccess|Yanxia|Seraphim"
                         ],
                         "visibility_rules": [
-                            "fishsanity_timed"
+                            "$fishVisibility|Seraphim"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Longhair Catfish",
                         "access_rules": [
-                            "Suspending Minnow",
-                            "Stonefly Larva"
+                            "^$fishAccess|Yanxia|Longhair Catfish"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Longhair Catfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Doman Trout",
                         "access_rules": [
-                            "Suspending Minnow",
-                            "Nightcrawler",
-                            "Midge Larva",
-                            "Metal Spinner"
+                            "^$fishAccess|Yanxia|Doman Trout"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Doman Trout"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Kotsu Zetsu",
                         "access_rules": [
-                            "Suspending Minnow",
-                            "Stonefly Larva",
-                            "Metal Spinner"
+                            "^$fishAccess|Yanxia|Kotsu Zetsu"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Kotsu Zetsu"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Hagoromo Bijin",
                         "access_rules": [
-                            "Stonefly Larva"
+                            "^$fishAccess|Yanxia|Hagoromo Bijin"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Hagoromo Bijin"
                         ],
                         "item_count": 1
                     }
@@ -1599,67 +1600,70 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:67"
+                    
                 ],
                 "visibility_rules": [
-                    "level_cap:67, fishsanity_normal"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Doman Grass Carp",
                         "access_rules": [
-                            "Midge Larva"
+                            "^$fishAccess|Yanxia|Doman Grass Carp"
                         ],
                         "visibility_rules": [
-                            "fishsanity_timed"
+                            "$fishVisibility|Doman Grass Carp"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Lordly Salmon",
                         "access_rules": [
-                            "Versatile Lure"
+                            "^$fishAccess|Yanxia|Lordly Salmon"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Lordly Salmon"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Kotsu Zetsu",
                         "access_rules": [
-                            "Suspending Minnow",
-                            "Stonefly Larva",
-                            "Metal Spinner"
+                            "^$fishAccess|Yanxia|Kotsu Zetsu"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Kotsu Zetsu"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Doman Trout",
                         "access_rules": [
-                            "Suspending Minnow",
-                            "Nightcrawler",
-                            "Midge Larva",
-                            "Metal Spinner"
+                            "^$fishAccess|Yanxia|Doman Trout"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Doman Trout"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Suiten Ippeki",
                         "access_rules": [
-                            "Stonefly Larva"
+                            "^$fishAccess|Yanxia|Suiten Ippeki"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Suiten Ippeki"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "White Clam",
                         "access_rules": [
-                            "Metal Spinner"
+                            "^$fishAccess|Yanxia|White Clam"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|White Clam"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -1679,47 +1683,49 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:64"
+                    
                 ],
                 "visibility_rules": [
-                    "level_cap:64, fishsanity_normal"
+                    
                 ],
                 "sections": [
                     {
                         "name": "River Barramundi",
                         "access_rules": [
-                            "Versatile Lure"
+                            "^$fishAccess|Yanxia|River Barramundi"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|River Barramundi"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Doman Crayfish",
                         "access_rules": [
-                            "Stonefly Larva",
-                            "Nightcrawler"
+                            "^$fishAccess|Yanxia|Doman Crayfish"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Doman Crayfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Doman Trout",
                         "access_rules": [
-                            "Suspending Minnow",
-                            "Nightcrawler",
-                            "Midge Larva",
-                            "Metal Spinner"
+                            "^$fishAccess|Yanxia|Doman Trout"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Doman Trout"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Glarramundi",
                         "access_rules": [
-                            "Suspending Minnow"
+                            "^$fishAccess|Yanxia|Glarramundi"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Glarramundi"
                         ],
                         "item_count": 1
                     }
@@ -1740,68 +1746,69 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:70"
+                    
                 ],
                 "visibility_rules": [
-                    "level_cap:70, fishsanity_normal"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Silken Koi",
                         "access_rules": [
-                            "Stonefly Larva"
+                            "^$fishAccess|Yanxia|Silken Koi"
                         ],
                         "visibility_rules": [
-                            "fishsanity_timed"
+                            "$fishVisibility|Silken Koi"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Kotsu Zetsu",
                         "access_rules": [
-                            "Suspending Minnow",
-                            "Stonefly Larva",
-                            "Metal Spinner"
+                            "^$fishAccess|Yanxia|Kotsu Zetsu"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Kotsu Zetsu"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Plum Gazer",
                         "access_rules": [
-                            "Midge Larva"
+                            "^$fishAccess|Yanxia|Plum Gazer"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Plum Gazer"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Pandamoth",
                         "access_rules": [
-                            "Midge Larva"
+                            "^$fishAccess|Yanxia|Pandamoth"
                         ],
                         "visibility_rules": [
-                            "fishsanity_timed"
+                            "$fishVisibility|Pandamoth"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Doman Trout",
                         "access_rules": [
-                            "Suspending Minnow",
-                            "Nightcrawler",
-                            "Midge Larva",
-                            "Metal Spinner"
+                            "^$fishAccess|Yanxia|Doman Trout"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Doman Trout"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Hagoromo Koi",
                         "access_rules": [
-                            "Stonefly Larva"
+                            "^$fishAccess|Yanxia|Hagoromo Koi"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Hagoromo Koi"
                         ],
                         "item_count": 1
                     }
@@ -1822,89 +1829,99 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:67"
+                    
                 ],
                 "visibility_rules": [
-                    "level_cap:67, fishsanity_normal"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Yellow Prismfish",
                         "access_rules": [
-                            "Suspending Minnow"
+                            "^$fishAccess|Yanxia|Yellow Prismfish"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Yellow Prismfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Blue Prismfish",
                         "access_rules": [
-                            "Suspending Minnow"
+                            "^$fishAccess|Yanxia|Blue Prismfish"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Blue Prismfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Violet Prismfish",
                         "access_rules": [
-                            "Stonefly Larva"
+                            "^$fishAccess|Yanxia|Violet Prismfish"
                         ],
                         "visibility_rules": [
-                            "fishsanity_timed"
+                            "$fishVisibility|Violet Prismfish"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Red Prismfish",
                         "access_rules": [
-                            "Stonefly Larva"
+                            "^$fishAccess|Yanxia|Red Prismfish"
                         ],
                         "visibility_rules": [
-                            "fishsanity_timed"
+                            "$fishVisibility|Red Prismfish"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "White Goldfish",
                         "access_rules": [
-                            "Stonefly Larva"
+                            "^$fishAccess|Yanxia|White Goldfish"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|White Goldfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Firelight Goldfish",
                         "access_rules": [
-                            "Stonefly Larva"
+                            "^$fishAccess|Yanxia|Firelight Goldfish"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Firelight Goldfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Indigo Prismfish",
                         "access_rules": [
-                            "Stonefly Larva"
+                            "^$fishAccess|Yanxia|Indigo Prismfish"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Indigo Prismfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Green Prismfish",
                         "access_rules": [
-                            "Stonefly Larva"
+                            "^$fishAccess|Yanxia|Green Prismfish"
                         ],
                         "visibility_rules": [
-                            "fishsanity_timed"
+                            "$fishVisibility|Green Prismfish"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Warden of the Seven Hues",
                         "access_rules": [
-                            "Stonefly Larva"
+                            "^$fishAccess|Yanxia|Warden of the Seven Hues"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Warden of the Seven Hues"
                         ],
                         "item_count": 1
                     }
@@ -1925,47 +1942,49 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:64"
+                    
                 ],
                 "visibility_rules": [
-                    "level_cap:64, fishsanity_normal"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Doman Crayfish",
                         "access_rules": [
-                            "Stonefly Larva",
-                            "Nightcrawler"
+                            "^$fishAccess|Yanxia|Doman Crayfish"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Doman Crayfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Doman Trout",
                         "access_rules": [
-                            "Suspending Minnow",
-                            "Nightcrawler",
-                            "Midge Larva",
-                            "Metal Spinner"
+                            "^$fishAccess|Yanxia|Doman Trout"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Doman Trout"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Maidens Heart",
                         "access_rules": [
-                            "Nightcrawler"
+                            "^$fishAccess|Yanxia|Maiden's Heart"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Maiden's Heart"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Pomegranate Trout",
                         "access_rules": [
-                            "Nightcrawler"
+                            "^$fishAccess|Yanxia|Pomegranate Trout"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Pomegranate Trout"
                         ],
                         "item_count": 1
                     }
@@ -1986,47 +2005,49 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:67"
+                    
                 ],
                 "visibility_rules": [
-                    "level_cap:67, fishsanity_normal"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Doman Crayfish",
                         "access_rules": [
-                            "Stonefly Larva",
-                            "Nightcrawler"
+                            "^$fishAccess|Yanxia|Doman Crayfish"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Doman Crayfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Doman Trout",
                         "access_rules": [
-                            "Suspending Minnow",
-                            "Nightcrawler",
-                            "Midge Larva",
-                            "Metal Spinner"
+                            "^$fishAccess|Yanxia|Doman Trout"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Doman Trout"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Doman Eel",
                         "access_rules": [
-                            "Versatile Lure"
+                            "^$fishAccess|Yanxia|Doman Eel"
                         ],
                         "visibility_rules": [
-                            "fishsanity_timed"
+                            "$fishVisibility|Doman Eel"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "The Unraveled Bow",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Yanxia|The Unraveled Bow"
+                        ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|The Unraveled Bow"
                         ],
                         "item_count": 1
                     }
@@ -2053,63 +2074,60 @@
                     {
                         "name": "Samurai Fish",
                         "access_rules": [
-                            "5fshlevels:67, Versatile Lure"
+                            "^$fishAccess|Yanxia|Samurai Fish"
                         ],
                         "visibility_rules": [
-                            "level_cap:67, fishsanity_normal"
+                            "$fishVisibility|Samurai Fish"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Raitonfish",
                         "access_rules": [
-                            "5fshlevels:67, Suspending Minnow"
+                            "^$fishAccess|Yanxia|Raitonfish"
                         ],
                         "visibility_rules": [
-                            "level_cap:67, fishsanity_timed"
+                            "$fishVisibility|Raitonfish"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Blank Oscar",
                         "access_rules": [
-                            "5fshlevels:67, Midge Larva"
+                            "^$fishAccess|Yanxia|Blank Oscar"
                         ],
                         "visibility_rules": [
-                            "level_cap:67, fishsanity_timed"
+                            "$fishVisibility|Blank Oscar"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Dragonfish",
                         "access_rules": [
-                            "5fshlevels:67, Midge Larva"
+                            "^$fishAccess|Yanxia|Dragonfish"
                         ],
                         "visibility_rules": [
-                            "level_cap:67, fishsanity_timed"
+                            "$fishVisibility|Dragonfish"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Doman Trout",
                         "access_rules": [
-                            "5fshlevels:67, Suspending Minnow",
-                            "Nightcrawler, 5fshlevels:67",
-                            "5fshlevels:67, Midge Larva",
-                            "5fshlevels:67, Metal Spinner"
+                            "^$fishAccess|Yanxia|Doman Trout"
                         ],
                         "visibility_rules": [
-                            "level_cap:67, fishsanity_timed"
+                            "$fishVisibility|Doman Trout"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Bokuden",
                         "access_rules": [
-                            "5fshlevels:67, Stonefly Larva"
+                            "^$fishAccess|Yanxia|Bokuden"
                         ],
                         "visibility_rules": [
-                            "level_cap:67, fishsanity_timed"
+                            "$fishVisibility|Bokuden"
                         ],
                         "item_count": 1
                     }
@@ -2130,25 +2148,29 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:64"
+                    
                 ],
                 "visibility_rules": [
-                    "level_cap:64, fishsanity_normal"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Nogoi",
                         "access_rules": [
-                            "Nightcrawler"
+                            "^$fishAccess|Yanxia|Nogoi"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Nogoi"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Hermits End",
-                        "access_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Yanxia|Hermit's End"
+                        ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Hermit's End"
                         ],
                         "item_count": 1
                     }

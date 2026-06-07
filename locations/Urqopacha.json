@@ -618,43 +618,67 @@
                     " "
                 ],
                 "visibility_rules": [
-                    "fishsanity_normal"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Sea Alpaca",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Urqopacha|Sea Alpaca"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Sea Alpaca"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Marbled Hatchetfish",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Urqopacha|Marbled Hatchetfish"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Marbled Hatchetfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Starsnipper",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Urqopacha|Starsnipper"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Starsnipper"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Urqotrout",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Urqopacha|Urqotrout"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Urqotrout"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Yok Huy Stonecutter",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Urqopacha|Yok Huy Stonecutter"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Yok Huy Stonecutter"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Moongripper",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Urqopacha|Moongripper"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Moongripper"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -677,31 +701,47 @@
                     " "
                 ],
                 "visibility_rules": [
-                    "fishsanity_normal"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Chirwagur Loach",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Urqopacha|Chirwagur Loach"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Chirwagur Loach"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Alright Alright Alright",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Urqopacha|Alright Alright Alright"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Alright Alright Alright"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Zorlortor",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Urqopacha|Zorlortor"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Zorlortor"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Shooting Starscale",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Urqopacha|Shooting Starscale"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Shooting Starscale"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -724,37 +764,57 @@
                     " "
                 ],
                 "visibility_rules": [
-                    "fishsanity_normal"
+                    
                 ],
                 "sections": [
                     {
                         "name": "First Feastfish",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Urqopacha|First Feastfish"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|First Feastfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Urqofrog",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Urqopacha|Urqofrog"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Urqofrog"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Zeh Tortoh",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Urqopacha|Zeh Tortoh"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Zeh Tortoh"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Deepwarden",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Urqopacha|Deepwarden"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Deepwarden"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Prime Adjudicator",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": [
+                            "^$fishAccess|Urqopacha|Prime Adjudicator"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Prime Adjudicator"
+                        ],
                         "item_count": 1
                     }
                 ],

@@ -11157,8 +11157,8 @@ fishtable = {
     },
     lvl = 90
   },
-  ["Phallaina "] = {
-    name = "Phallaina ",
+  ["Phallaina"] = {
+    name = "Phallaina",
     id = 36521,
     zones = {
       ["Ultima Thule"] = { "Panic Jig" }
