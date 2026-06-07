@@ -952,71 +952,79 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:53"
+                    
                 ],
                 "visibility_rules": [
-                    "level_cap:53, fishsanity_normal"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Starflower",
                         "access_rules": [
-                            "Red Balloon"
+                            "^$fishAccess|The Sea of Clouds|Starflower"
                         ],
                         "visibility_rules": [
-                            "fishsanity_timed"
+                            "$fishVisibility|Starflower"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Mahu Wai",
                         "access_rules": [
-                            "Red Balloon"
+                            "^$fishAccess|The Sea of Clouds|Mahu Wai"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Mahu Wai"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Buoyant Oviform",
                         "access_rules": [
-                            "Red Balloon"
+                            "^$fishAccess|The Sea of Clouds|Buoyant Oviform"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Buoyant Oviform"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Blue Cloud Coral",
                         "access_rules": [
-                            "Red Balloon"
+                            "^$fishAccess|The Sea of Clouds|Blue Cloud Coral"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Blue Cloud Coral"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Mitre Slug",
                         "access_rules": [
-                            "Red Balloon"
+                            "^$fishAccess|The Sea of Clouds|Mitre Slug"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Mitre Slug"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Fleece Stingray",
                         "access_rules": [
-                            "Giant Crane Fly"
+                            "^$fishAccess|The Sea of Clouds|Fleece Stingray"
                         ],
                         "visibility_rules": [
-                            "fishsanity_timed"
+                            "$fishVisibility|Fleece Stingray"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Cirrostratus",
                         "access_rules": [
-                            "Giant Crane Fly"
+                            "^$fishAccess|The Sea of Clouds|Cirrostratus"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Cirrostratus"
                         ],
                         "item_count": 1
                     }
@@ -1037,80 +1045,89 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:56"
+                    
                 ],
                 "visibility_rules": [
-                    "level_cap:56, fishsanity_normal"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Starflower",
                         "access_rules": [
-                            "Red Balloon"
+                            "^$fishAccess|The Sea of Clouds|Starflower"
                         ],
                         "visibility_rules": [
-                            "fishsanity_timed"
+                            "$fishVisibility|Starflower"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Sky Faerie",
                         "access_rules": [
-                            "Red Balloon",
-                            "Metal Spinner"
+                            "^$fishAccess|The Sea of Clouds|Sky Faerie"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Sky Faerie"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Scorpionfly",
                         "access_rules": [
-                            "Metal Spinner"
+                            "^$fishAccess|The Sea of Clouds|Scorpionfly"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Scorpionfly"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Moogle Spirit",
                         "access_rules": [
-                            "Giant Crane Fly"
+                            "^$fishAccess|The Sea of Clouds|Moogle Spirit"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Moogle Spirit"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Vampiric Tapestry",
                         "access_rules": [
-                            "Giant Crane Fly"
+                            "^$fishAccess|The Sea of Clouds|Vampiric Tapestry"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Vampiric Tapestry"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Heavens Coral",
                         "access_rules": [
-                            "Giant Crane Fly"
+                            "^$fishAccess|The Sea of Clouds|Heavens Coral"
                         ],
-                        "visibility_rules": ["fishsanity_timed"],
+                        "visibility_rules": [
+                            "$fishVisibility|Heavens Coral"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Basking Shark",
                         "access_rules": [
-                            "Metal Spinner"
+                            "^$fishAccess|The Sea of Clouds|Basking Shark"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Basking Shark"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Sea Butterfly",
                         "access_rules": [
-                            "Giant Crane Fly"
+                            "^$fishAccess|The Sea of Clouds|Sea Butterfly"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Sea Butterfly"
                         ],
                         "item_count": 1
                     }
@@ -1131,81 +1148,90 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:52"
+                    
                 ],
                 "visibility_rules": [
-                    "level_cap:52, fishsanity_normal"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Maiboi",
                         "access_rules": [
-                            "Stonefly Nymph"
+                            "^$fishAccess|The Sea of Clouds|Maiboi"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Maiboi"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Bullfrog",
                         "access_rules": [
-                            "Bladed Steel Jig"
+                            "^$fishAccess|The Sea of Clouds|Bullfrog"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Bullfrog"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Cloudfish",
                         "access_rules": [
-                            "Stonefly Nymph"
+                            "^$fishAccess|The Sea of Clouds|Cloudfish"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Cloudfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Bubble Eye",
                         "access_rules": [
-                            "Brute Leech"
+                            "^$fishAccess|The Sea of Clouds|Bubble Eye"
                         ],
                         "visibility_rules": [
-                            "fishsanity_timed"
+                            "$fishVisibility|Bubble Eye"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Hedgemole Cricket",
                         "access_rules": [
-                            "Metal Spinner",
-                            "Stonefly Nymph"
+                            "^$fishAccess|The Sea of Clouds|Hedgemole Cricket"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Hedgemole Cricket"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Caiman",
                         "access_rules": [
-                            "Bladed Steel Jig"
+                            "^$fishAccess|The Sea of Clouds|Caiman"
                         ],
                         "visibility_rules": [
-                            "fishsanity_timed"
+                            "$fishVisibility|Caiman"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Inkfish",
                         "access_rules": [
-                            "Brute Leech"
+                            "^$fishAccess|The Sea of Clouds|Inkfish"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Inkfish"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Cloud Kelp",
                         "access_rules": [
-                            "Metal Spinner"
+                            "^$fishAccess|The Sea of Clouds|Cloud Kelp"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Cloud Kelp"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -1225,80 +1251,89 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:60"
+                    
                 ],
                 "visibility_rules": [
-                    "level_cap:60, fishsanity_normal"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Bullfrog",
                         "access_rules": [
-                            "Bladed Steel Jig"
+                            "^$fishAccess|The Sea of Clouds|Bullfrog"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Bullfrog"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Cloudfish",
                         "access_rules": [
-                            "Stonefly Nymph"
+                            "^$fishAccess|The Sea of Clouds|Cloudfish"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Cloudfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Vanuhead",
                         "access_rules": [
-                            "Bladed Steel Jig"
+                            "^$fishAccess|The Sea of Clouds|Vanuhead"
                         ],
                         "visibility_rules": [
-                            "fishsanity_timed"
+                            "$fishVisibility|Vanuhead"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Hedgemole Cricket",
                         "access_rules": [
-                            "Metal Spinner",
-                            "Stonefly Nymph"
+                            "^$fishAccess|The Sea of Clouds|Hedgemole Cricket"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Hedgemole Cricket"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Yalm Lobster",
                         "access_rules": [
-                            "Brute Leech"
+                            "^$fishAccess|The Sea of Clouds|Yalm Lobster"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Yalm Lobster"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Catkiller",
                         "access_rules": [
-                            "Brute Leech"
+                            "^$fishAccess|The Sea of Clouds|Catkiller"
                         ],
                         "visibility_rules": [
-                            "fishsanity_timed"
+                            "$fishVisibility|Catkiller"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Red Sky Coral",
                         "access_rules": [
-                            "Metal Spinner"
+                            "^$fishAccess|The Sea of Clouds|Red Sky Coral"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Red Sky Coral"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Paikiller",
                         "access_rules": [
-                            "Bladed Steel Jig"
+                            "^$fishAccess|The Sea of Clouds|Paikiller"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Paikiller"
                         ],
                         "item_count": 1
                     }
@@ -1319,87 +1354,100 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:56"
+                    
                 ],
                 "visibility_rules": [
-                    "level_cap:56, fishsanity_normal"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Buoyant Oviform",
                         "access_rules": [
-                            "Red Balloon"
+                            "^$fishAccess|The Sea of Clouds|Buoyant Oviform"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Buoyant Oviform"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Whiteloom",
                         "access_rules": [
-                            "Red Balloon"
+                            "^$fishAccess|The Sea of Clouds|Whiteloom"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Whiteloom"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Storm Core",
                         "access_rules": [
-                            "Red Balloon"
+                            "^$fishAccess|The Sea of Clouds|Storm Core"
                         ],
                         "visibility_rules": [
-                            "fishsanity_timed"
+                            "$fishVisibility|Storm Core"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Sky Faerie",
                         "access_rules": [
-                            "Red Balloon",
-                            "Metal Spinner"
+                            "^$fishAccess|The Sea of Clouds|Sky Faerie"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Sky Faerie"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Sky Sweeper",
                         "access_rules": [
-                            "Red Balloon"
+                            "^$fishAccess|The Sea of Clouds|Sky Sweeper"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Sky Sweeper"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Tornado Shark",
                         "access_rules": [
-                            "Giant Crane Fly"
+                            "^$fishAccess|The Sea of Clouds|Tornado Shark"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Tornado Shark"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Winged Gurnard",
                         "access_rules": [
-                            "Giant Crane Fly"
+                            "^$fishAccess|The Sea of Clouds|Winged Gurnard"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Winged Gurnard"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "The Second One",
                         "access_rules": [
-                            "Giant Crane Fly"
+                            "^$fishAccess|The Sea of Clouds|The Second One"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|The Second One"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Cloudweed",
                         "access_rules": [
-                            "Metal Spinner"
+                            "^$fishAccess|The Sea of Clouds|Cloudweed"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Cloudweed"
+                        ],
                         "item_count": 1
                     }
                 ],

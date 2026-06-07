@@ -43,43 +43,49 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:90"
+                    
                 ],
                 "visibility_rules": [
-                    "level_cap:90, fishsanity_normal"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Mosquito Fish",
                         "access_rules": [
-                            "Popper Lure"
+                            "^$fishAccess|Tuliyollal|Mosquito Fish"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Mosquito Fish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Pel Frog",
                         "access_rules": [
-                            "Golden Stonefly Nymph"
+                            "^$fishAccess|Tuliyollal|Pel Frog"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Pel Frog"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Petticoat Tetra",
                         "access_rules": [
-                            "Honeybee"
+                            "^$fishAccess|Tuliyollal|Petticoat Tetra"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Petticoat Tetra"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Icuvlos Barter",
                         "access_rules": [
-                            "Crimson Lugworm"
+                            "^$fishAccess|Tuliyollal|Icuvlo's Barter"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Icuvlo's Barter"
                         ],
                         "item_count": 1
                     }
@@ -100,67 +106,80 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:90"
+                    
                 ],
                 "visibility_rules": [
-                    "level_cap:90, fishsanity_normal"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Reasonscale Silverside",
                         "access_rules": [
-                            "Crimson Lugworm",
-                            "Shucked Clam"
+                            "^$fishAccess|Tuliyollal|Reasonscale Silverside"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Reasonscale Silverside"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Stardust Shrimp",
                         "access_rules": [
-                            "Shucked Clam"
+                            "^$fishAccess|Tuliyollal|Stardust Shrimp"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Stardust Shrimp"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Shallows Sot",
                         "access_rules": [
-                            "Metal Spinner"
+                            "^$fishAccess|Tuliyollal|Shallows Sot"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Shallows Sot"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Ghostfish",
                         "access_rules": [
-                            "Metal Spinner"
+                            "^$fishAccess|Tuliyollal|Ghostfish"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Ghostfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Permit",
                         "access_rules": [
-                            "Metal Spinner"
+                            "^$fishAccess|Tuliyollal|Permit"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Permit"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Inktopus",
                         "access_rules": [
-                            "Metal Spinner"
+                            "^$fishAccess|Tuliyollal|Inktopus"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Inktopus"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Cabinkeep Permit",
                         "access_rules": [
-                            "Metal Spinner"
+                            "^$fishAccess|Tuliyollal|Cabinkeep Permit"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Cabinkeep Permit"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -180,51 +199,60 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:91"
+                    
                 ],
                 "visibility_rules": [
-                    "level_cap:91, fishsanity_normal"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Reasonscale Silverside",
                         "access_rules": [
-                            "Crimson Lugworm",
-                            "Shucked Clam"
+                            "^$fishAccess|Tuliyollal|Reasonscale Silverside"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Reasonscale Silverside"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Floating Fife",
                         "access_rules": [
-                            "Versatile Lure"
+                            "^$fishAccess|Tuliyollal|Floating Fife"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Floating Fife"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Blue Purse",
                         "access_rules": [
-                            "Versatile Lure"
+                            "^$fishAccess|Tuliyollal|Blue Purse"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Blue Purse"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Goldfin Cavalli",
                         "access_rules": [
-                            "Versatile Lure"
+                            "^$fishAccess|Tuliyollal|Goldfin Cavalli"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Goldfin Cavalli"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Purse of Riches",
                         "access_rules": [
-                            "Versatile Lure"
+                            "^$fishAccess|Tuliyollal|Purse of Riches"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Purse of Riches"
+                        ],
                         "item_count": 1
                     }
                 ],

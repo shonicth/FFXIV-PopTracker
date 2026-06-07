@@ -1034,6 +1034,16 @@
                         "item_count": 1
                     },
                     {
+                        "name": "Darkdweller",
+                        "access_rules": [
+                            "^$fishAccess|The Rak'tika Greatwood|Darkdweller"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Deephaunt"
+                        ],
+                        "item_count": 1
+                    },
+                    {
                         "name": "Deephaunt",
                         "access_rules": [
                             "^$fishAccess|The Rak'tika Greatwood|Deephaunt"

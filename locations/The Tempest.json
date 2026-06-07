@@ -574,87 +574,99 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "$leveling:80"
+                    
                 ],
                 "visibility_rules": [
-                    "fishsanity_normal, level_cap:80"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Prospero Eel",
                         "access_rules": [
-                            "Moyebi Shrimp"
+                            "^$fishAccess|The Tempest|Prospero Eel"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Prospero Eel"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Sycorax",
                         "access_rules": [
-                            "Short Bill Minnow",
-                            "Moyebi Shrimp"
+                            "^$fishAccess|The Tempest|Sycorax"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Sycorax"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Stormfish",
                         "access_rules": [
-                            "Moyebi Shrimp"
+                            "^$fishAccess|The Tempest|Stormfish"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Stormfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Azure Sea Spider",
                         "access_rules": [
-                            "Squid Strip",
-                            "Short Bill Minnow"
+                            "^$fishAccess|The Tempest|Azure Sea Spider"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Azure Sea Spider"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Sweetflesh Oyster",
                         "access_rules": [
-                            "Short Bill Minnow"
+                            "^$fishAccess|The Tempest|Sweetflesh Oyster"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Sweetflesh Oyster"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Rainbow Shrimp",
                         "access_rules": [
-                            "Short Bill Minnow"
+                            "^$fishAccess|The Tempest|Rainbow Shrimp"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Rainbow Shrimp"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Predator",
                         "access_rules": [
-                            "Squid Strip"
+                            "^$fishAccess|The Tempest|Predator"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Predator"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Opal Shrimp",
                         "access_rules": [
-                            "Squid Strip"
+                            "^$fishAccess|The Tempest|Opal Shrimp"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Opal Shrimp"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Il Lydha",
                         "access_rules": [
-                            "Metal Spinner"
+                            "^$fishAccess|The Tempest|Il Lydha"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Il Lydha"
                         ],
                         "item_count": 1
                     }
@@ -675,68 +687,69 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "$leveling:80"
+                    
                 ],
                 "visibility_rules": [
-                    "fishsanity_normal, level_cap:80"
+                    
                 ],
                 "sections": [
                     {
-                        "name": "Darkdweller",
+                        "name": "Stormfish",
                         "access_rules": [
-                            "Baitbugs"
+                            "^$fishAccess|The Tempest|Stormfish"
                         ],
-                        "visibility_rules": ["fishsanity_timed"],
+                        "visibility_rules": [
+                            "$fishVisibility|Stormfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Deep Purple Coral",
                         "access_rules": [
-                            "Short Bill Minnow",
-                            "Squid Strip"
+                            "^$fishAccess|The Tempest|Deep Purple Coral"
                         ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Stormfish",
-                        "access_rules": [
-                            "Moyebi Shrimp"
+                        "visibility_rules": [
+                            "$fishVisibility|Deep Purple Coral"
                         ],
-                        "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Caliban",
                         "access_rules": [
-                            "Moyebi Shrimp"
+                            "^$fishAccess|The Tempest|Caliban"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Caliban"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Bubble Angler",
                         "access_rules": [
-                            "Squid Strip"
+                            "^$fishAccess|The Tempest|Bubble Angler"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Bubble Angler"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Ondo Harpoon",
                         "access_rules": [
-                            "Squid Strip"
+                            "^$fishAccess|The Tempest|Ondo Harpoon"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Ondo Harpoon"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Ondo Sigh",
                         "access_rules": [
-                            "Squid Strip"
+                            "^$fishAccess|The Tempest|Ondo Sigh"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Ondo Sigh"
                         ],
                         "item_count": 1
                     }
@@ -757,59 +770,69 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "$leveling:79"
+                    
                 ],
                 "visibility_rules": [
-                    "fishsanity_normal, level_cap:79"
+                    
                 ],
                 "sections": [
                     {
-                        "name": "Darkdweller",
+                        "name": "Stormfish",
                         "access_rules": [
-                            "Baitbugs"
+                            "^$fishAccess|The Tempest|Stormfish"
                         ],
-                        "visibility_rules": ["fishsanity_timed"],
+                        "visibility_rules": [
+                            "$fishVisibility|Stormfish"
+                        ],
                         "item_count": 1
                     },
                     {
-                        "name": "Stormfish",
+                        "name": "Deep Purple Coral",
                         "access_rules": [
-                            "Moyebi Shrimp"
+                            "^$fishAccess|The Tempest|Deep Purple Coral"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Deep Purple Coral"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Caliban",
                         "access_rules": [
-                            "Moyebi Shrimp"
+                            "^$fishAccess|The Tempest|Caliban"
                         ],
-                        "visibility_rules": [],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Ondobane",
-                        "access_rules": [
-                            "Squid Strip"
+                        "visibility_rules": [
+                            "$fishVisibility|Caliban"
                         ],
-                        "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Stippled Eel",
                         "access_rules": [
-                            "Short Bill Minnow"
+                            "^$fishAccess|The Tempest|Stippled Eel"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Stippled Eel"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Ondobane",
+                        "access_rules": [
+                            "^$fishAccess|The Tempest|Ondobane"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Ondobane"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "The Ondotaker",
                         "access_rules": [
-                            "Squid Strip"
+                            "^$fishAccess|The Tempest|The Ondotaker"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|The Ondotaker"
                         ],
                         "item_count": 1
                     }
@@ -830,80 +853,89 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "$leveling:79"
+                    
                 ],
                 "visibility_rules": [
-                    "fishsanity_normal, level_cap:79"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Sycorax",
                         "access_rules": [
-                            "Short Bill Minnow",
-                            "Moyebi Shrimp"
+                            "^$fishAccess|The Tempest|Sycorax"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Sycorax"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Stormfish",
                         "access_rules": [
-                            "Moyebi Shrimp"
+                            "^$fishAccess|The Tempest|Stormfish"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Stormfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Caliban",
                         "access_rules": [
-                            "Moyebi Shrimp"
+                            "^$fishAccess|The Tempest|Caliban"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Caliban"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Hoodwinker",
                         "access_rules": [
-                            "Short Bill Minnow"
+                            "^$fishAccess|The Tempest|Hoodwinker"
                         ],
                         "visibility_rules": [
-                            "fishsanity_timed"
+                            "$fishVisibility|Hoodwinker"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Seatrap",
                         "access_rules": [
-                            "Squid Strip"
+                            "^$fishAccess|The Tempest|Seatrap"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Seatrap"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Sweetmeat Mussel",
                         "access_rules": [
-                            "Squid Strip"
+                            "^$fishAccess|The Tempest|Sweetmeat Mussel"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Sweetmeat Mussel"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Lancetfish",
                         "access_rules": [
-                            "Squid Strip, @The Tempest/Northwest Caliban Gorge/Mora Tecta"
+                            "^$fishAccess|The Tempest|Lancetfish"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Lancetfish"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Mora Tecta",
                         "access_rules": [
-                            "Short Bill Minnow"
+                            "^$fishAccess|The Tempest|Mora Tecta"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Mora Tecta"
                         ],
                         "item_count": 1
                     }
@@ -924,62 +956,69 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "$leveling:80"
+                    
                 ],
                 "visibility_rules": [
-                    "fishsanity_normal, level_cap:80"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Sycorax",
                         "access_rules": [
-                            "Short Bill Minnow",
-                            "Moyebi Shrimp"
+                            "^$fishAccess|The Tempest|Sycorax"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Sycorax"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Stormfish",
                         "access_rules": [
-                            "Moyebi Shrimp"
+                            "^$fishAccess|The Tempest|Stormfish"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Stormfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Ancient Shrimp",
                         "access_rules": [
-                            "Short Bill Minnow"
+                            "^$fishAccess|The Tempest|Ancient Shrimp"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Ancient Shrimp"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Yeti Crab",
                         "access_rules": [
-                            "Short Bill Minnow"
+                            "^$fishAccess|The Tempest|Yeti Crab"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Yeti Crab"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Aapoak",
                         "access_rules": [
-                            "Short Bill Minnow"
+                            "^$fishAccess|The Tempest|Aapoak"
                         ],
                         "visibility_rules": [
-                            "fishsanity_timed"
+                            "$fishVisibility|Aapoak"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Maru Crab",
                         "access_rules": [
-                            "Short Bill Minnow"
+                            "^$fishAccess|The Tempest|Maru Crab"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Maru Crab"
                         ],
                         "item_count": 1
                     }
@@ -1000,62 +1039,69 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "$leveling:80"
+                    
                 ],
                 "visibility_rules": [
-                    "fishsanity_normal, level_cap:80"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Sycorax",
                         "access_rules": [
-                            "Short Bill Minnow",
-                            "Moyebi Shrimp"
+                            "^$fishAccess|The Tempest|Sycorax"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Sycorax"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Stormfish",
                         "access_rules": [
-                            "Moyebi Shrimp"
+                            "^$fishAccess|The Tempest|Stormfish"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Stormfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Hoodwinker",
                         "access_rules": [
-                            "Short Bill Minnow"
+                            "^$fishAccess|The Tempest|Hoodwinker"
                         ],
                         "visibility_rules": [
-                            "fishsanity_timed"
+                            "$fishVisibility|Hoodwinker"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Cyan Sea Devil",
                         "access_rules": [
-                            "Short Bill Minnow"
+                            "^$fishAccess|The Tempest|Cyan Sea Devil"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Cyan Sea Devil"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Pancake Octopus",
                         "access_rules": [
-                            "Squid Strip"
+                            "^$fishAccess|The Tempest|Pancake Octopus"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Pancake Octopus"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "The Mother of All Pancakes",
                         "access_rules": [
-                            "Squid Strip"
+                            "^$fishAccess|The Tempest|The Mother of All Pancakes"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|The Mother of All Pancakes"
                         ],
                         "item_count": 1
                     }
@@ -1076,70 +1122,80 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "$leveling:79"
+                    
                 ],
                 "visibility_rules": [
-                    "fishsanity_normal, level_cap:79"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Sycorax",
                         "access_rules": [
-                            "Short Bill Minnow",
-                            "Moyebi Shrimp"
+                            "^$fishAccess|The Tempest|Sycorax"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Sycorax"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Stormfish",
                         "access_rules": [
-                            "Moyebi Shrimp"
+                            "^$fishAccess|The Tempest|Stormfish"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Stormfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Azure Sea Spider",
                         "access_rules": [
-                            "Squid Strip",
-                            "Short Bill Minnow"
+                            "^$fishAccess|The Tempest|Azure Sea Spider"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Azure Sea Spider"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Maneater Clam",
                         "access_rules": [
-                            "Short Bill Minnow"
+                            "^$fishAccess|The Tempest|Maneater Clam"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Maneater Clam"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Stargazer",
                         "access_rules": [
-                            "Squid Strip"
+                            "^$fishAccess|The Tempest|Stargazer"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Stargazer"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Starchaser",
                         "access_rules": [
-                            "Squid Strip"
+                            "^$fishAccess|The Tempest|Starchaser"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Starchaser"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Purpure Cod",
                         "access_rules": [
-                            "Metal Spinner"
+                            "^$fishAccess|The Tempest|Purpure Cod"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Purpure Cod"
+                        ],
                         "item_count": 1
                     }
                 ],
