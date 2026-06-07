@@ -24,7 +24,7 @@ TODO:
 
 -Replace the map pngs with jpgs(reducing the file size by 1/10th, making it like <50MB instead of like half a gig)
 
--Replace all the placeholder images for the items/settings(I really don't wanna do this I'm burned out as is lol)
+-Replace all the placeholder images for the items/settings, as well as properly order the baits in a human readable order
 
 -Clean up mapping, maybe merge FATE locations
 
