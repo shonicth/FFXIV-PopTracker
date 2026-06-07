@@ -864,19 +864,20 @@
                 }
             }        
         ]
-    },
-    "tabbed_maps_vertical": {
-        "type": "tabbed",
-        "tabs": [
-            {
-                "title": "Living Memory",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Living Memory"
-                    ]
-                }
-            }
-        ]
     }
+    //Maybe do later? idk
+//   "tabbed_maps_vertical": {
+//       "type": "tabbed",
+//       "tabs": [
+//           {
+//               "title": "Living Memory",
+//               "content": {
+//                   "type": "map",
+//                   "maps": [
+//                       "Living Memory"
+//                   ]
+//               }
+//           }
+//       ]
+//   }
 }
