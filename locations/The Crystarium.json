@@ -83,52 +83,59 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:70"
+                    
                 ],
                 "visibility_rules": [
-                    "level_cap:70, fishsanity_normal"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Crystarium Tetra",
                         "access_rules": [
-                            "Fruit Worm"
+                            "^$fishAccess|The Crystarium|Crystarium Tetra"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Crystarium Tetra"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Laxan Carp",
                         "access_rules": [
-                            "Fruit Worm"
+                            "^$fishAccess|The Crystarium|Laxan Carp"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Laxan Carp"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Crystal Knife",
                         "access_rules": [
-                            "Marble Nymph",
-                            "Fruit Worm"
+                            "^$fishAccess|The Crystarium|Crystal Knife"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Crystal Knife"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Skeletonfish",
                         "access_rules": [
-                            "Marble Nymph"
+                            "^$fishAccess|The Crystarium|Skeletonfish"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Skeletonfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Loose Pendant",
                         "access_rules": [
-                            "Baitbugs"
+                            "^$fishAccess|The Crystarium|Loose Pendant"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Loose Pendant"
                         ],
                         "item_count": 1
                     }
@@ -149,60 +156,69 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:70"
+                    
                 ],
                 "visibility_rules": [
-                    "level_cap:70, fishsanity_normal"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Laxan Carp",
                         "access_rules": [
-                            "Fruit Worm"
+                            "^$fishAccess|The Crystarium|Laxan Carp"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Laxan Carp"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Asteroidea",
                         "access_rules": [
-                            "Robber Ball"
+                            "^$fishAccess|The Crystarium|Asteroidea"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Asteroidea"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Jacketed Snail",
                         "access_rules": [
-                            "Marble Nymph"
+                            "^$fishAccess|The Crystarium|Jacketed Snail"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Jacketed Snail"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Lovers Flower",
                         "access_rules": [
-                            "Marble Nymph"
+                            "^$fishAccess|The Crystarium|Lover's Flower"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Lover's Flower"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Crystal Knife",
                         "access_rules": [
-                            "Marble Nymph",
-                            "Fruit Worm"
+                            "^$fishAccess|The Crystarium|Crystal Knife"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Crystal Knife"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Aster Trivi",
                         "access_rules": [
-                            "Marble Nymph"
+                            "^$fishAccess|The Crystarium|Aster Trivi"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Aster Trivi"
                         ],
                         "item_count": 1
                     }
@@ -223,52 +239,59 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:70"
+                    
                 ],
                 "visibility_rules": [
-                    "level_cap:70, fishsanity_normal"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Laxan Carp",
                         "access_rules": [
-                            "Fruit Worm"
+                            "^$fishAccess|The Crystarium|Laxan Carp"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Laxan Carp"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Sinspitter",
                         "access_rules": [
-                            "Marble Nymph"
+                            "^$fishAccess|The Crystarium|Sinspitter"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Sinspitter"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Wandering Catfish",
                         "access_rules": [
-                            "Baitbugs"
+                            "^$fishAccess|The Crystarium|Wandering Catfish"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Wandering Catfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Crystal Knife",
                         "access_rules": [
-                            "Marble Nymph",
-                            "Fruit Worm"
+                            "^$fishAccess|The Crystarium|Crystal Knife"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Crystal Knife"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "The Sinsteeped",
                         "access_rules": [
-                            "Fruit Worm"
+                            "^$fishAccess|The Crystarium|The Sinsteeped"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|The Sinsteeped"
                         ],
                         "item_count": 1
                     }

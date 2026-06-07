@@ -1171,59 +1171,69 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:61"
+                    
                 ],
                 "visibility_rules": [
-                    "level_cap:61, fishsanity_normal"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Greenstream Loach",
                         "access_rules": [
-                            "Nightcrawler"
+                            "^$fishAccess|The Fringes|Greenstream Loach"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Greenstream Loach"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Bloodsipper",
                         "access_rules": [
-                            "Salmon Roe"
+                            "^$fishAccess|The Fringes|Bloodsipper"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Bloodsipper"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Velodyna Grass Carp",
                         "access_rules": [
-                            "Suspending Minnow"
+                            "^$fishAccess|The Fringes|Velodyna Grass Carp"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Velodyna Grass Carp"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Black Velodyna Carp",
                         "access_rules": [
-                            "Suspending Minnow"
+                            "^$fishAccess|The Fringes|Black Velodyna Carp"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Black Velodyna Carp"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Velodyna Salmon",
                         "access_rules": [
-                            "Metal Spinner"
+                            "^$fishAccess|The Fringes|Velodyna Salmon"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Velodyna Salmon"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Downstream Loach",
                         "access_rules": [
-                            "Stonefly Larva"
+                            "^$fishAccess|The Fringes|Downstream Loach"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Downstream Loach"
                         ],
                         "item_count": 1
                     }
@@ -1244,70 +1254,80 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:62"
+                    
                 ],
                 "visibility_rules": [
-                    "level_cap:62, fishsanity_normal"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Mirage Chub",
                         "access_rules": [
-                            "Salmon Roe"
+                            "^$fishAccess|The Fringes|Mirage Chub"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Mirage Chub"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Rhalgrs Bolt",
                         "access_rules": [
-                            "Salmon Roe"
+                            "^$fishAccess|The Fringes|Rhalgr's Bolt"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Rhalgr's Bolt"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Highland Perch",
                         "access_rules": [
-                            "Salmon Roe"
+                            "^$fishAccess|The Fringes|Highland Perch"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Highland Perch"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Gravel Gudgeon",
                         "access_rules": [
-                            "Salmon Roe"
+                            "^$fishAccess|The Fringes|Gravel Gudgeon"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Gravel Gudgeon"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Mirage Mahi",
                         "access_rules": [
-                            "Stonefly Larva"
+                            "^$fishAccess|The Fringes|Mirage Mahi"
                         ],
                         "visibility_rules": [
-                            "fishsanity_timed"
+                            "$fishVisibility|Mirage Mahi"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Corpse Chub",
                         "access_rules": [
-                            "Suspending Minnow"
+                            "^$fishAccess|The Fringes|Corpse Chub"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Corpse Chub"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Scarlet Frog",
                         "access_rules": [
-                            "Metal Spinner"
+                            "^$fishAccess|The Fringes|Scarlet Frog"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Scarlet Frog"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -1327,72 +1347,79 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:61"
+                    
                 ],
                 "visibility_rules": [
-                    "level_cap:61, fishsanity_normal"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Steelhead Trout",
                         "access_rules": [
-                            "Suspending Minnow"
+                            "^$fishAccess|The Fringes|Steelhead Trout"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Steelhead Trout"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Miounnefish",
                         "access_rules": [
-                            "Nightcrawler",
-                            "Stonefly Larva"
+                            "^$fishAccess|The Fringes|Miounnefish"
                         ],
                         "visibility_rules": [
-                            "fishsanity_timed"
+                            "$fishVisibility|Miounnefish"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Balloon Frog",
                         "access_rules": [
-                            "Nightcrawler"
+                            "^$fishAccess|The Fringes|Balloon Frog"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Balloon Frog"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Death Loach",
                         "access_rules": [
-                            "Salmon Roe"
+                            "^$fishAccess|The Fringes|Death Loach"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Death Loach"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Gyr Abanian Chub",
                         "access_rules": [
-                            "Metal Spinner"
+                            "^$fishAccess|The Fringes|Gyr Abanian Chub"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Gyr Abanian Chub"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Hardhead Trout",
                         "access_rules": [
-                            "Stonefly Larva"
+                            "^$fishAccess|The Fringes|Hardhead Trout"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Hardhead Trout"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Xenacanthus",
                         "access_rules": [
-                            "Stonefly Larva"
+                            "^$fishAccess|The Fringes|Xenacanthus"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Xenacanthus"
                         ],
                         "item_count": 1
                     }
@@ -1413,82 +1440,89 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:62"
+                    
                 ],
                 "visibility_rules": [
-                    "level_cap:62, fishsanity_normal"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Miounnefish",
                         "access_rules": [
-                            "Nightcrawler",
-                            "Stonefly Larva"
+                            "^$fishAccess|The Fringes|Miounnefish"
                         ],
                         "visibility_rules": [
-                            "fishsanity_timed"
+                            "$fishVisibility|Miounnefish"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Cave Killifish",
                         "access_rules": [
-                            "Suspending Minnow"
+                            "^$fishAccess|The Fringes|Cave Killifish"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Cave Killifish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Bone Melter",
                         "access_rules": [
-                            "Salmon Roe"
+                            "^$fishAccess|The Fringes|Bone Melter"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Bone Melter"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Fallen Leaf",
                         "access_rules": [
-                            "Suspending Minnow"
+                            "^$fishAccess|The Fringes|Fallen Leaf"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Fallen Leaf"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Padjali Loach",
                         "access_rules": [
-                            "Stonefly Larva"
+                            "^$fishAccess|The Fringes|Padjali Loach"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Padjali Loach"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Wraithfish",
                         "access_rules": [
-                            "Stonefly Larva"
+                            "^$fishAccess|The Fringes|Wraithfish"
                         ],
                         "visibility_rules": [
-                            "fishsanity_timed"
+                            "$fishVisibility|Wraithfish"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Sapphire Fan",
                         "access_rules": [
-                            "Stonefly Larva"
+                            "^$fishAccess|The Fringes|Sapphire Fan"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Sapphire Fan"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Chakrafish",
                         "access_rules": [
-                            "Metal Spinner"
+                            "^$fishAccess|The Fringes|Chakrafish"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Chakrafish"
                         ],
                         "item_count": 1
                     }
@@ -1509,75 +1543,79 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:62"
+                    
                 ],
                 "visibility_rules": [
-                    "level_cap:62, fishsanity_normal"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Bone Melter",
                         "access_rules": [
-                            "Salmon Roe"
+                            "^$fishAccess|The Fringes|Bone Melter"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Bone Melter"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Falling Star",
                         "access_rules": [
-                            "Metal Spinner"
+                            "^$fishAccess|The Fringes|Falling Star"
                         ],
                         "visibility_rules": [
-                            "fishsanity_timed"
+                            "$fishVisibility|Falling Star"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Capsized Squeaker",
                         "access_rules": [
-                            "Salmon Roe"
+                            "^$fishAccess|The Fringes|Capsized Squeaker"
                         ],
                         "visibility_rules": [
-                            "fishsanity_timed"
+                            "$fishVisibility|Capsized Squeaker"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Nirvana Crab",
                         "access_rules": [
-                            "Suspending Minnow"
+                            "^$fishAccess|The Fringes|Nirvana Crab"
                         ],
                         "visibility_rules": [
-                            "fishsanity_timed"
+                            "$fishVisibility|Nirvana Crab"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Cardinalfish",
                         "access_rules": [
-                            "Suspending Minnow"
+                            "^$fishAccess|The Fringes|Cardinalfish"
                         ],
-                        "visibility_rules": ["fishsanity_timed"],
+                        "visibility_rules": [
+                            "$fishVisibility|Cardinalfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "The Archbishop",
                         "access_rules": [
-                            "Suspending Minnow"
+                            "^$fishAccess|The Fringes|The Archbishop"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|The Archbishop"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Lake Sphairai",
                         "access_rules": [
-                            "Metal Spinner"
+                            "^$fishAccess|The Fringes|Lake Sphairai"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Lake Sphairai"
                         ],
                         "item_count": 1
                     }

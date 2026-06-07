@@ -865,84 +865,90 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:52"
+                    
                 ],
                 "visibility_rules": [
-                    "level_cap:52, fishsanity_normal"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Whilom Catfish",
                         "access_rules": [
-                            "Bladed Steel Jig",
-                            "Goblin Jig"
+                            "^$fishAccess|The Dravanian Forelands|Whilom Catfish"
                         ],
                         "visibility_rules": [
-                            "fishsanity_timed"
+                            "$fishVisibility|Whilom Catfish"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Blueclaw Shrimp",
                         "access_rules": [
-                            "Purse Web Spider",
-                            "Stonefly Nymph"
+                            "^$fishAccess|The Dravanian Forelands|Blueclaw Shrimp"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Blueclaw Shrimp"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Grass Carp",
                         "access_rules": [
-                            "Bladed Steel Jig"
+                            "^$fishAccess|The Dravanian Forelands|Grass Carp"
                         ],
                         "visibility_rules": [
-                            "fishsanity_timed"
+                            "$fishVisibility|Grass Carp"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Pipira Pira",
                         "access_rules": [
-                            "Goblin Jig"
+                            "^$fishAccess|The Dravanian Forelands|Pipira Pira"
                         ],
                         "visibility_rules": [
-                            "fishsanity_timed"
+                            "$fishVisibility|Pipira Pira"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Shadowhisker",
                         "access_rules": [
-                            "Versatile Lure"
+                            "^$fishAccess|The Dravanian Forelands|Shadowhisker"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Shadowhisker"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Dravanian Smelt",
                         "access_rules": [
-                            "Brute Leech"
+                            "^$fishAccess|The Dravanian Forelands|Dravanian Smelt"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Dravanian Smelt"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Scaleripper",
                         "access_rules": [
-                            "Brute Leech"
+                            "^$fishAccess|The Dravanian Forelands|Scaleripper"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Scaleripper"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "River Shrimp",
                         "access_rules": [
-                            "Metal Spinner"
+                            "^$fishAccess|The Dravanian Forelands|River Shrimp"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|River Shrimp"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -962,76 +968,79 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:52"
+                    
                 ],
                 "visibility_rules": [
-                    "level_cap:52, fishsanity_normal"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Whilom Catfish",
                         "access_rules": [
-                            "Bladed Steel Jig",
-                            "Goblin Jig"
+                            "^$fishAccess|The Dravanian Forelands|Whilom Catfish"
                         ],
                         "visibility_rules": [
-                            "fishsanity_timed"
+                            "$fishVisibility|Whilom Catfish"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Blueclaw Shrimp",
                         "access_rules": [
-                            "Purse Web Spider",
-                            "Stonefly Nymph"
+                            "^$fishAccess|The Dravanian Forelands|Blueclaw Shrimp"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Blueclaw Shrimp"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Three-lip Carp",
                         "access_rules": [
-                            "Bladed Steel Jig"
+                            "^$fishAccess|The Dravanian Forelands|Three-lip Carp"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Three-lip Carp"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Rock Mussel",
                         "access_rules": [
-                            "Goblin Jig",
-                            "Stonefly Nymph"
+                            "^$fishAccess|The Dravanian Forelands|Rock Mussel"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Rock Mussel"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Pipira Pira",
                         "access_rules": [
-                            "Goblin Jig"
+                            "^$fishAccess|The Dravanian Forelands|Pipira Pira"
                         ],
                         "visibility_rules": [
-                            "fishsanity_timed"
+                            "$fishVisibility|Pipira Pira"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Dravanian Bass",
                         "access_rules": [
-                            "Purse Web Spider"
+                            "^$fishAccess|The Dravanian Forelands|Dravanian Bass"
                         ],
                         "visibility_rules": [
-                            "fishsanity_timed"
+                            "$fishVisibility|Dravanian Bass"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Twin-tongued Carp",
                         "access_rules": [
-                            "Brute Leech"
+                            "^$fishAccess|The Dravanian Forelands|Twin-tongued Carp"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Twin-tongued Carp"
                         ],
                         "item_count": 1
                     }
@@ -1052,74 +1061,79 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:52"
+                    
                 ],
                 "visibility_rules": [
-                    "level_cap:52, fishsanity_normal"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Whilom Catfish",
                         "access_rules": [
-                            "Bladed Steel Jig",
-                            "Goblin Jig"
+                            "^$fishAccess|The Dravanian Forelands|Whilom Catfish"
                         ],
                         "visibility_rules": [
-                            "fishsanity_timed"
+                            "$fishVisibility|Whilom Catfish"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Blueclaw Shrimp",
                         "access_rules": [
-                            "Purse Web Spider",
-                            "Stonefly Nymph"
+                            "^$fishAccess|The Dravanian Forelands|Blueclaw Shrimp"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Blueclaw Shrimp"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Three-lip Carp",
                         "access_rules": [
-                            "Bladed Steel Jig"
+                            "^$fishAccess|The Dravanian Forelands|Three-lip Carp"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Three-lip Carp"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Rock Mussel",
                         "access_rules": [
-                            "Goblin Jig",
-                            "Stonefly Nymph"
+                            "^$fishAccess|The Dravanian Forelands|Rock Mussel"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Rock Mussel"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Marble Oscar",
                         "access_rules": [
-                            "Metal Spinner"
+                            "^$fishAccess|The Dravanian Forelands|Marble Oscar"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Marble Oscar"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Warmwater Bichir",
                         "access_rules": [
-                            "Brute Leech"
+                            "^$fishAccess|The Dravanian Forelands|Warmwater Bichir"
                         ],
                         "visibility_rules": [
-                            "fishsanity_timed"
+                            "$fishVisibility|Warmwater Bichir"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "The Dreamweaver",
                         "access_rules": [
-                            "Brute Leech"
+                            "^$fishAccess|The Dravanian Forelands|The Dreamweaver"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|The Dreamweaver"
                         ],
                         "item_count": 1
                     }
@@ -1140,76 +1154,79 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:55"
+                    
                 ],
                 "visibility_rules": [
-                    "level_cap:55, fishsanity_normal"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Blueclaw Shrimp",
                         "access_rules": [
-                            "Purse Web Spider",
-                            "Stonefly Nymph"
+                            "^$fishAccess|The Dravanian Forelands|Blueclaw Shrimp"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Blueclaw Shrimp"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Pipira Pira",
                         "access_rules": [
-                            "Goblin Jig"
+                            "^$fishAccess|The Dravanian Forelands|Pipira Pira"
                         ],
                         "visibility_rules": [
-                            "fishsanity_timed"
+                            "$fishVisibility|Pipira Pira"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Dragonhead",
                         "access_rules": [
-                            "Goblin Jig"
+                            "^$fishAccess|The Dravanian Forelands|Dragonhead"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Dragonhead"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Caiman",
                         "access_rules": [
-                            "Stonefly Nymph"
+                            "^$fishAccess|The Dravanian Forelands|Caiman"
                         ],
                         "visibility_rules": [
-                            "fishsanity_timed"
+                            "$fishVisibility|Caiman"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Thunderbolt Eel",
                         "access_rules": [
-                            "Stonefly Nymph"
+                            "^$fishAccess|The Dravanian Forelands|Thunderbolt Eel"
                         ],
                         "visibility_rules": [
-                            "fishsanity_timed"
+                            "$fishVisibility|Thunderbolt Eel"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Amber Salamander",
                         "access_rules": [
-                            "Brute Leech"
+                            "^$fishAccess|The Dravanian Forelands|Amber Salamander"
                         ],
                         "visibility_rules": [
-                            "fishsanity_timed"
+                            "$fishVisibility|Amber Salamander"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Thunderscale",
                         "access_rules": [
-                            "Stonefly Nymph"
+                            "^$fishAccess|The Dravanian Forelands|Thunderscale"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Thunderscale"
                         ],
                         "item_count": 1
                     }
@@ -1230,62 +1247,69 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:55"
+                    
                 ],
                 "visibility_rules": [
-                    "level_cap:55, fishsanity_normal"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Lava Crab",
                         "access_rules": [
-                            "Metal Spinner",
-                            "Magma Worm"
+                            "^$fishAccess|The Dravanian Forelands|Lava Crab"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Lava Crab"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Granite Crab",
                         "access_rules": [
-                            "Magma Worm",
-                            "Metal Spinner"
+                            "^$fishAccess|The Dravanian Forelands|Granite Crab"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Granite Crab"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Cindersmith",
                         "access_rules": [
-                            "Magma Worm"
+                            "^$fishAccess|The Dravanian Forelands|Cindersmith"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Cindersmith"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Cometoise",
                         "access_rules": [
-                            "Magma Worm",
-                            "Metal Spinner"
+                            "^$fishAccess|The Dravanian Forelands|Cometoise"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Cometoise"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Oven Catfish",
                         "access_rules": [
-                            "Magma Worm"
+                            "^$fishAccess|The Dravanian Forelands|Oven Catfish"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Oven Catfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Meteortoise",
                         "access_rules": [
-                            "Magma Worm"
+                            "^$fishAccess|The Dravanian Forelands|Meteortoise"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Meteortoise"
                         ],
                         "item_count": 1
                     }
@@ -1306,81 +1330,90 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:57"
+                    
                 ],
                 "visibility_rules": [
-                    "level_cap:57, fishsanity_normal"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Lava Crab",
                         "access_rules": [
-                            "Metal Spinner",
-                            "Magma Worm"
+                            "^$fishAccess|The Dravanian Forelands|Lava Crab"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Lava Crab"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Granite Crab",
                         "access_rules": [
-                            "Magma Worm",
-                            "Metal Spinner"
+                            "^$fishAccess|The Dravanian Forelands|Granite Crab"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Granite Crab"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Aithons Colt",
                         "access_rules": [
-                            "Magma Worm"
+                            "^$fishAccess|The Dravanian Forelands|Aithon's Colt"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Aithon's Colt"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Cindersmith",
                         "access_rules": [
-                            "Magma Worm"
+                            "^$fishAccess|The Dravanian Forelands|Cindersmith"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Cindersmith"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Magma Louse",
                         "access_rules": [
-                            "Magma Worm"
+                            "^$fishAccess|The Dravanian Forelands|Magma Louse"
                         ],
                         "visibility_rules": [
-                            "fishsanity_timed"
+                            "$fishVisibility|Magma Louse"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Cometoise",
                         "access_rules": [
-                            "Magma Worm",
-                            "Metal Spinner"
+                            "^$fishAccess|The Dravanian Forelands|Cometoise"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Cometoise"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Riddle",
                         "access_rules": [
-                            "Magma Worm"
+                            "^$fishAccess|The Dravanian Forelands|Riddle"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Riddle"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Hoplite",
                         "access_rules": [
-                            "Metal Spinner"
+                            "^$fishAccess|The Dravanian Forelands|Hoplite"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Hoplite"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -1400,60 +1433,69 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:56"
+                    
                 ],
                 "visibility_rules": [
-                    "level_cap:56, fishsanity_normal"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Granite Crab",
                         "access_rules": [
-                            "Magma Worm",
-                            "Metal Spinner"
+                            "^$fishAccess|The Dravanian Forelands|Granite Crab"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Granite Crab"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Aithons Colt",
                         "access_rules": [
-                            "Magma Worm"
+                            "^$fishAccess|The Dravanian Forelands|Aithon's Colt"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Aithon's Colt"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Magma Tree",
                         "access_rules": [
-                            "Magma Worm"
+                            "^$fishAccess|The Dravanian Forelands|Magma Tree"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Magma Tree"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Cindersmith",
                         "access_rules": [
-                            "Magma Worm"
+                            "^$fishAccess|The Dravanian Forelands|Cindersmith"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Cindersmith"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Black Magefish",
                         "access_rules": [
-                            "Magma Worm"
+                            "^$fishAccess|The Dravanian Forelands|Black Magefish"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Black Magefish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Hraesvelgrs Tear",
                         "access_rules": [
-                            "Magma Worm"
+                            "^$fishAccess|The Dravanian Forelands|Hraesvelgr's Tear"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Hraesvelgr's Tear"
                         ],
                         "item_count": 1
                     }
@@ -1474,83 +1516,89 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:60"
+                    
                 ],
                 "visibility_rules": [
-                    "level_cap:60, fishsanity_normal"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Granite Crab",
                         "access_rules": [
-                            "Magma Worm",
-                            "Metal Spinner"
+                            "^$fishAccess|The Dravanian Forelands|Granite Crab"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Granite Crab"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Magma Tree",
                         "access_rules": [
-                            "Magma Worm"
+                            "^$fishAccess|The Dravanian Forelands|Magma Tree"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Magma Tree"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Cometoise",
                         "access_rules": [
-                            "Magma Worm",
-                            "Metal Spinner"
+                            "^$fishAccess|The Dravanian Forelands|Cometoise"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Cometoise"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Fossiltongue",
                         "access_rules": [
-                            "Magma Worm"
+                            "^$fishAccess|The Dravanian Forelands|Fossiltongue"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Fossiltongue"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Lavalord",
                         "access_rules": [
-                            "Metal Spinner"
+                            "^$fishAccess|The Dravanian Forelands|Lavalord"
                         ],
                         "visibility_rules": [
-                            "fishsanity_timed"
+                            "$fishVisibility|Lavalord"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Lava Snail",
                         "access_rules": [
-                            "Magma Worm"
+                            "^$fishAccess|The Dravanian Forelands|Lava Snail"
                         ],
                         "visibility_rules": [
-                            "fishsanity_timed"
+                            "$fishVisibility|Lava Snail"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "The Lord of Lords",
                         "access_rules": [
-                            "Metal Spinner"
+                            "^$fishAccess|The Dravanian Forelands|The Lord of Lords"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|The Lord of Lords"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Problematicus",
                         "access_rules": [
-                            "Metal Spinner"
+                            "^$fishAccess|The Dravanian Forelands|Problematicus"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Problematicus"
                         ],
                         "item_count": 1
                     }

@@ -1716,87 +1716,100 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:58"
+                    
                 ],
                 "visibility_rules": [
-                    "level_cap:58, fishsanity_normal"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Blueclaw Shrimp",
                         "access_rules": [
-                            "Stonefly Nymph"
+                            "^$fishAccess|The Dravanian Hinterlands|Blueclaw Shrimp"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Blueclaw Shrimp"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Bullfrog",
                         "access_rules": [
-                            "Bladed Steel Jig"
+                            "^$fishAccess|The Dravanian Hinterlands|Bullfrog"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Bullfrog"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Tigerfish",
                         "access_rules": [
-                            "Bladed Steel Jig"
+                            "^$fishAccess|The Dravanian Hinterlands|Tigerfish"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Tigerfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Hedgemole Cricket",
                         "access_rules": [
-                            "Stonefly Nymph",
-                            "Purse Web Spider"
+                            "^$fishAccess|The Dravanian Hinterlands|Hedgemole Cricket"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Hedgemole Cricket"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Orn Butterfly",
                         "access_rules": [
-                            "Brute Leech"
+                            "^$fishAccess|The Dravanian Hinterlands|Orn Butterfly"
                         ],
                         "visibility_rules": [
-                            "Purse Web Spider"
+                            "$fishVisibility|Orn Butterfly"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Yalm Lobster",
                         "access_rules": [
-                            "Bladed Steel Jig"
+                            "^$fishAccess|The Dravanian Hinterlands|Yalm Lobster"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Yalm Lobster"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Gnomefish",
                         "access_rules": [
-                            "Purse Web Spider"
+                            "^$fishAccess|The Dravanian Hinterlands|Gnomefish"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Gnomefish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Madam Butterfly",
                         "access_rules": [
-                            "Purse Web Spider"
+                            "^$fishAccess|The Dravanian Hinterlands|Madam Butterfly"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Madam Butterfly"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Dravanian Scallop",
                         "access_rules": [
-                            "Metal Spinner"
+                            "^$fishAccess|The Dravanian Hinterlands|Dravanian Scallop"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Dravanian Scallop"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -1816,102 +1829,110 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:60"
+                    
                 ],
                 "visibility_rules": [
-                    "level_cap:60, fishsanity_normal"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Bullfrog",
                         "access_rules": [
-                            "Bladed Steel Jig"
+                            "^$fishAccess|The Dravanian Hinterlands|Bullfrog"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Bullfrog"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Scholar Sculpin",
                         "access_rules": [
-                            "Goblin Jig",
-                            "Purse Web Spider"
+                            "^$fishAccess|The Dravanian Hinterlands|Scholar Sculpin"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Scholar Sculpin"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Hedgemole Cricket",
                         "access_rules": [
-                            "Stonefly Nymph",
-                            "Purse Web Spider"
+                            "^$fishAccess|The Dravanian Hinterlands|Hedgemole Cricket"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Hedgemole Cricket"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Sweetfish",
                         "access_rules": [
-                            "Bladed Steel Jig",
-                            "Goblin Jig"
+                            "^$fishAccess|The Dravanian Hinterlands|Sweetfish"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Sweetfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Philosophers Stone",
                         "access_rules": [
-                            "Bladed Steel Jig",
-                            "Goblin Jig"
+                            "^$fishAccess|The Dravanian Hinterlands|Philosopher's Stone"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Philosopher's Stone"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Thaliak Caiman",
                         "access_rules": [
-                            "Bladed Steel Jig"
+                            "^$fishAccess|The Dravanian Hinterlands|Thaliak Caiman"
                         ],
                         "visibility_rules": [
-                            "fishsanity_timed"
+                            "$fishVisibility|Thaliak Caiman"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Berserker Betta",
                         "access_rules": [
-                            "Brute Leech"
+                            "^$fishAccess|The Dravanian Hinterlands|Berserker Betta"
                         ],
                         "visibility_rules": [
-                            "fishsanity_timed"
+                            "$fishVisibility|Berserker Betta"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Goblin Bass",
                         "access_rules": [
-                            "Brute Leech"
+                            "^$fishAccess|The Dravanian Hinterlands|Goblin Bass"
                         ],
                         "visibility_rules": [
-                            "fishsanity_timed"
+                            "$fishVisibility|Goblin Bass"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Bobgoblin Bass",
                         "access_rules": [
-                            "Goblin Jig"
+                            "^$fishAccess|The Dravanian Hinterlands|Bobgoblin Bass"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Bobgoblin Bass"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Inkshell",
                         "access_rules": [
-                            "Metal Spinner"
+                            "^$fishAccess|The Dravanian Hinterlands|Inkshell"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Inkshell"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -1931,100 +1952,109 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:58"
+                    
                 ],
                 "visibility_rules": [
-                    "level_cap:58, fishsanity_normal"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Scholar Sculpin",
                         "access_rules": [
-                            "Goblin Jig",
-                            "Purse Web Spider"
+                            "^$fishAccess|The Dravanian Hinterlands|Scholar Sculpin"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Scholar Sculpin"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Shipworm",
                         "access_rules": [
-                            "Goblin Jig"
+                            "^$fishAccess|The Dravanian Hinterlands|Shipworm"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Shipworm"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Hedgemole Cricket",
                         "access_rules": [
-                            "Stonefly Nymph",
-                            "Purse Web Spider"
+                            "^$fishAccess|The Dravanian Hinterlands|Hedgemole Cricket"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Hedgemole Cricket"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Sweetfish",
                         "access_rules": [
-                            "Bladed Steel Jig",
-                            "Goblin Jig"
+                            "^$fishAccess|The Dravanian Hinterlands|Sweetfish"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Sweetfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Yalm Lobster",
                         "access_rules": [
-                            "Bladed Steel Jig"
+                            "^$fishAccess|The Dravanian Hinterlands|Yalm Lobster"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Yalm Lobster"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Loosetongue",
                         "access_rules": [
-                            "Brute Leech"
+                            "^$fishAccess|The Dravanian Hinterlands|Loosetongue"
                         ],
                         "visibility_rules": [
-                            "fishsanity_timed"
+                            "$fishVisibility|Loosetongue"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Armored Catfish",
                         "access_rules": [
-                            "Brute Leech"
+                            "^$fishAccess|The Dravanian Hinterlands|Armored Catfish"
                         ],
                         "visibility_rules": [
-                            "fishsanity_timed"
+                            "$fishVisibility|Armored Catfish"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Thavnairian Leaf",
                         "access_rules": [
-                            "Metal Spinner"
+                            "^$fishAccess|The Dravanian Hinterlands|Thavnairian Leaf"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Thavnairian Leaf"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "The Speaker",
                         "access_rules": [
-                            "Purse Web Spider"
+                            "^$fishAccess|The Dravanian Hinterlands|The Speaker"
                         ],
                         "visibility_rules": [
-                            "fishsanity_timed"
+                            "$fishVisibility|The Speaker"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Armor Fish",
                         "access_rules": [
-                            "Purse Web Spider"
+                            "^$fishAccess|The Dravanian Hinterlands|Armor Fish"
                         ],
                         "visibility_rules": [
-                            "fishsanity_timed"
+                            "$fishVisibility|Armor Fish"
                         ],
                         "item_count": 1
                     }
@@ -2045,87 +2075,100 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:57"
+                    
                 ],
                 "visibility_rules": [
-                    "level_cap:57, fishsanity_normal"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Shipworm",
                         "access_rules": [
-                            "Goblin Jig"
+                            "^$fishAccess|The Dravanian Hinterlands|Shipworm"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Shipworm"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Hedgemole Cricket",
                         "access_rules": [
-                            "Stonefly Nymph",
-                            "Purse Web Spider"
+                            "^$fishAccess|The Dravanian Hinterlands|Hedgemole Cricket"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Hedgemole Cricket"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Sweetfish",
                         "access_rules": [
-                            "Bladed Steel Jig",
-                            "Goblin Jig"
+                            "^$fishAccess|The Dravanian Hinterlands|Sweetfish"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Sweetfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Autumn Leaf",
                         "access_rules": [
-                            "Purse Web Spider"
+                            "^$fishAccess|The Dravanian Hinterlands|Autumn Leaf"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Autumn Leaf"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Philosophers Stone",
                         "access_rules": [
-                            "Bladed Steel Jig",
-                            "Goblin Jig"
+                            "^$fishAccess|The Dravanian Hinterlands|Philosopher's Stone"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Philosopher's Stone"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Illuminati Perch",
                         "access_rules": [
-                            "Stonefly Nymph"
+                            "^$fishAccess|The Dravanian Hinterlands|Illuminati Perch"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Illuminati Perch"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Hinterlands Perch",
                         "access_rules": [
-                            "Metal Spinner"
+                            "^$fishAccess|The Dravanian Hinterlands|Hinterlands Perch"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Hinterlands Perch"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "The Ewer King",
                         "access_rules": [
-                            "Bladed Steel Jig"
+                            "^$fishAccess|The Dravanian Hinterlands|The Ewer King"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|The Ewer King"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Thinkers Coral",
                         "access_rules": [
-                            "Signature Skyball"
+                            "^$fishAccess|The Dravanian Hinterlands|Thinker's Coral"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Thinker's Coral"
+                        ],
                         "item_count": 1
                     }
                 ],

@@ -1332,77 +1332,87 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:70"
                 ],
                 "visibility_rules": [
-                    "level_cap:70, fishsanity_normal"
                 ],
                 "sections": [
                     {
                         "name": "Rock Saltfish",
                         "access_rules": [
-                            "silkworm"
+                            "^$fishAccess|The Lochs|Rock Saltfish"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Rock Saltfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Whitehorse",
                         "access_rules": [
-                            "silkworm"
+                            "^$fishAccess|The Lochs|Whitehorse"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Whitehorse"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Saltshield Snapper",
                         "access_rules": [
-                            "silkworm"
+                            "^$fishAccess|The Lochs|Saltshield Snapper"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Saltshield Snapper"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Sculptor",
                         "access_rules": [
-                            "silkworm"
+                            "^$fishAccess|The Lochs|Sculptor"
                         ],
-                        "visibility_rules": ["fishsanity_timed"],
+                        "visibility_rules": [
+                            "$fishVisibility|Sculptor"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Pearl-eye",
                         "access_rules": [
-                            "silkworm"
+                            "^$fishAccess|The Lochs|Pearl-eye"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Pearl-eye"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Saltmill",
                         "access_rules": [
-                            "silkworm"
+                            "^$fishAccess|The Lochs|Saltmill"
                         ],
-                        "visibility_rules": ["fishsanity_timed"],
+                        "visibility_rules": [
+                            "$fishVisibility|Saltmill"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Diamond-eye",
                         "access_rules": [
-                            "silkworm"
+                            "^$fishAccess|The Lochs|Diamond-eye"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Diamond-eye"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Stethacanthus",
                         "access_rules": [
-                            "silkworm"
+                            "^$fishAccess|The Lochs|Stethacanthus"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Stethacanthus"
                         ],
                         "item_count": 1
                     }

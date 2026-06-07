@@ -974,53 +974,59 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:54"
+                    
                 ],
                 "visibility_rules": [
-                    "level_cap:54, fishsanity_normal"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Lamp Marimo",
                         "access_rules": [
-                            "Stonefly Nymph"
+                            "^$fishAccess|The Churning Mists|Lamp Marimo"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Lamp Marimo"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Cloudfish",
                         "access_rules": [
-                            "Stonefly Nymph"
+                            "^$fishAccess|The Churning Mists|Cloudfish"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Cloudfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Kissing Fish",
                         "access_rules": [
-                            "Brute Leech"
+                            "^$fishAccess|The Churning Mists|Kissing Fish"
                         ],
                         "visibility_rules": [
-                            "fishsanity_timed"
+                            "$fishVisibility|Kissing Fish"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Noontide Oscar",
                         "access_rules": [
-                            "Brute Leech"
+                            "^$fishAccess|The Churning Mists|Noontide Oscar"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Noontide Oscar"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Vidofnir",
                         "access_rules": [
-                            "Brute Leech"
+                            "^$fishAccess|The Churning Mists|Vidofnir"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Vidofnir"
                         ],
                         "item_count": 1
                     }
@@ -1041,72 +1047,80 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:54"
+                    
                 ],
                 "visibility_rules": [
-                    "level_cap:54, fishsanity_normal"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Cloudfish",
                         "access_rules": [
-                            "Stonefly Nymph"
+                            "^$fishAccess|The Churning Mists|Cloudfish"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Cloudfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Dravanian Squeaker",
                         "access_rules": [
-                            "Stonefly Nymph"
+                            "^$fishAccess|The Churning Mists|Dravanian Squeaker"
                         ],
                         "visibility_rules": [
-                            "fishsanity_timed"
+                            "$fishVisibility|Dravanian Squeaker"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Hundred Fin",
                         "access_rules": [
-                            "Goblin Jig"
+                            "^$fishAccess|The Churning Mists|Hundred Fin"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Hundred Fin"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Weston Bowfin",
                         "access_rules": [
-                            "Goblin Jig"
+                            "^$fishAccess|The Churning Mists|Weston Bowfin"
                         ],
                         "visibility_rules": [
-                            "fishsanity_timed"
+                            "$fishVisibility|Weston Bowfin"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Lovers Clam",
                         "access_rules": [
-                            "Metal Spinner"
+                            "^$fishAccess|The Churning Mists|Lovers' Clam"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Lovers' Clam"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Thousand Fin",
                         "access_rules": [
-                            "Brute Leech"
+                            "^$fishAccess|The Churning Mists|Thousand Fin"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Thousand Fin"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Illuminati Mask",
                         "access_rules": [
-                            "Metal Spinner"
+                            "^$fishAccess|The Churning Mists|Illuminati Mask"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Illuminati Mask"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -1126,78 +1140,89 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:54"
+                    
                 ],
                 "visibility_rules": [
-                    "level_cap:54, fishsanity_normal"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Sky Faerie",
                         "access_rules": [
-                            "Metal Spinner",
-                            "Red Balloon"
+                            "^$fishAccess|The Churning Mists|Sky Faerie"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Sky Faerie"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Cloud Rider",
                         "access_rules": [
-                            "Red Balloon"
+                            "^$fishAccess|The Churning Mists|Cloud Rider"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Cloud Rider"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Blue Medusa",
                         "access_rules": [
-                            "Metal Spinner"
+                            "^$fishAccess|The Churning Mists|Blue Medusa"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Blue Medusa"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Letter Puffer",
                         "access_rules": [
-                            "Giant Crane Fly"
+                            "^$fishAccess|The Churning Mists|Letter Puffer"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Letter Puffer"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Gloaming Coral",
                         "access_rules": [
-                            "Red Balloon"
+                            "^$fishAccess|The Churning Mists|Gloaming Coral"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Gloaming Coral"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Dragons Soul",
                         "access_rules": [
-                            "Versatile Lure"
+                            "^$fishAccess|The Churning Mists|Dragon's Soul"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Dragon's Soul"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Sunsail",
                         "access_rules": [
-                            "Giant Crane Fly"
+                            "^$fishAccess|The Churning Mists|Sunsail"
                         ],
                         "visibility_rules": [
-                            "fishsanity_timed"
+                            "$fishVisibility|Sunsail"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "The Soul of the Martyr",
                         "access_rules": [
-                            "Giant Crane Fly"
+                            "^$fishAccess|The Churning Mists|The Soul of the Martyr"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|The Soul of the Martyr"
                         ],
                         "item_count": 1
                     }
@@ -1218,78 +1243,89 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:55"
+                    
                 ],
                 "visibility_rules": [
-                    "level_cap:55, fishsanity_normal"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Sky Faerie",
                         "access_rules": [
-                            "Metal Spinner",
-                            "Red Balloon"
+                            "^$fishAccess|The Churning Mists|Sky Faerie"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Sky Faerie"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Cloud Rider",
                         "access_rules": [
-                            "Red Balloon"
+                            "^$fishAccess|The Churning Mists|Cloud Rider"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Cloud Rider"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Gobbie Mask",
                         "access_rules": [
-                            "Giant Crane Fly"
+                            "^$fishAccess|The Churning Mists|Gobbie Mask"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Gobbie Mask"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Star Faerie",
                         "access_rules": [
-                            "Giant Crane Fly"
+                            "^$fishAccess|The Churning Mists|Star Faerie"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Star Faerie"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Gloaming Coral",
                         "access_rules": [
-                            "Red Balloon"
+                            "^$fishAccess|The Churning Mists|Gloaming Coral"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Gloaming Coral"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Rudderfish",
                         "access_rules": [
-                            "Giant Crane Fly"
+                            "^$fishAccess|The Churning Mists|Rudderfish"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Rudderfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Pteranodon",
                         "access_rules": [
-                            "Giant Crane Fly"
+                            "^$fishAccess|The Churning Mists|Pteranodon"
                         ],
                         "visibility_rules": [
-                            "fishsanity_timed"
+                            "$fishVisibility|Pteranodon"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Dimorphodon",
                         "access_rules": [
-                            "Giant Crane Fly"
+                            "^$fishAccess|The Churning Mists|Dimorphodon"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Dimorphodon"
                         ],
                         "item_count": 1
                     }
@@ -1310,98 +1346,109 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:55"
+                    
                 ],
                 "visibility_rules": [
-                    "level_cap:55, fishsanity_normal"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Sky Faerie",
                         "access_rules": [
-                            "Metal Spinner",
-                            "Red Balloon"
+                            "^$fishAccess|The Churning Mists|Sky Faerie"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Sky Faerie"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Cloud Rider",
                         "access_rules": [
-                            "Red Balloon"
+                            "^$fishAccess|The Churning Mists|Cloud Rider"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Cloud Rider"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Manasail",
                         "access_rules": [
-                            "Metal Spinner"
+                            "^$fishAccess|The Churning Mists|Manasail"
                         ],
                         "visibility_rules": [
-                            "fishsanity_timed"
+                            "$fishVisibility|Manasail"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Brown Bolo",
                         "access_rules": [
-                            "Red Balloon"
+                            "^$fishAccess|The Churning Mists|Brown Bolo"
                         ],
                         "visibility_rules": [
-                            "fishsanity_timed"
+                            "$fishVisibility|Brown Bolo"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Rudderfish",
                         "access_rules": [
-                            "Giant Crane Fly"
+                            "^$fishAccess|The Churning Mists|Rudderfish"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Rudderfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Cobrafish",
                         "access_rules": [
-                            "Giant Crane Fly"
+                            "^$fishAccess|The Churning Mists|Cobrafish"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Cobrafish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Storm Chaser",
                         "access_rules": [
-                            "Giant Crane Fly"
+                            "^$fishAccess|The Churning Mists|Storm Chaser"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Storm Chaser"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Nyctosaur",
                         "access_rules": [
-                            "Giant Crane Fly"
+                            "^$fishAccess|The Churning Mists|Nyctosaur"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Nyctosaur"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Bloodchaser",
                         "access_rules": [
-                            "Giant Crane Fly"
+                            "^$fishAccess|The Churning Mists|Bloodchaser"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Bloodchaser"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Raimdellopterus",
                         "access_rules": [
-                            "Giant Crane Fly"
+                            "^$fishAccess|The Churning Mists|Raimdellopterus"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Raimdellopterus"
                         ],
                         "item_count": 1
                     }
@@ -1422,36 +1469,40 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:54"
+                    
                 ],
                 "visibility_rules": [
-                    "level_cap:54, fishsanity_normal"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Mogpom",
                         "access_rules": [
-                            "Versatile Lure"
+                            "^$fishAccess|The Churning Mists|Mogpom"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Mogpom"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Moggle Mogpom",
                         "access_rules": [
-                            "Brute Leech"
+                            "^$fishAccess|The Churning Mists|Moggle Mogpom"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Moggle Mogpom"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Holier-than Mogpom",
                         "access_rules": [
-                            "Metal Spinner"
+                            "^$fishAccess|The Churning Mists|Holier-than Mogpom"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Holier-than Mogpom"
+                        ],
                         "item_count": 1
                     }
                 ],

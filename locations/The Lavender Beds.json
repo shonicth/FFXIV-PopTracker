@@ -14,80 +14,100 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:30"
+                    
                 ],
-                "visibility_rules": ["fishsanity_normal"],
+                "visibility_rules": [
+            
+                ],
                 "sections": [
                     {
                         "name": "Pipira",
                         "access_rules": [
-                            "Crayfish Ball"
+                            "^$fishAccess|The Lavender Beds|Pipira"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Pipira"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Ala Mhigan Fighting Fish",
                         "access_rules": [
-                            "Midge Basket"
+                            "^$fishAccess|The Lavender Beds|Ala Mhigan Fighting Fish"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Ala Mhigan Fighting Fish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Dark Sleeper",
                         "access_rules": [
-                            "Midge Basket"
+                            "^$fishAccess|The Lavender Beds|Dark Sleeper"
                         ],
-                        "visibility_rules": ["fishsanity_timed"],
+                        "visibility_rules": [
+                            "$fishVisibility|Dark Sleeper"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Tricolored Carp",
                         "access_rules": [
-                            "Crow Fly"
+                            "^$fishAccess|The Lavender Beds|Tricolored Carp"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Tricolored Carp"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Shadow Catfish",
                         "access_rules": [
-                            "Midge Basket"
+                            "^$fishAccess|The Lavender Beds|Shadow Catfish"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Shadow Catfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Spotted Pleco",
                         "access_rules": [
-                            "Syrphid Basket"
+                            "^$fishAccess|The Lavender Beds|Spotted Pleco"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Spotted Pleco"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Bonytongue",
                         "access_rules": [
-                            "Streamer"
+                            "^$fishAccess|The Lavender Beds|Bonytongue"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Bonytongue"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Monke Onke",
                         "access_rules": [
-                            "Midge Basket"
+                            "^$fishAccess|The Lavender Beds|Monke Onke"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Monke Onke"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Sweetnewt",
                         "access_rules": [
-                            "Midge Basket"
+                            "^$fishAccess|The Lavender Beds|Sweetnewt"
                         ],
-                        "visibility_rules": ["fishsanity_big"],
+                        "visibility_rules": [
+                            "$fishVisibility|Sweetnewt"
+                        ],
                         "item_count": 1
                     }
                 ],

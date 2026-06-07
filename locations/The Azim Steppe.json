@@ -1386,60 +1386,69 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:60"
+                    
                 ],
                 "visibility_rules": [
-                    "level_cap:60, fishsanity_normal"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Tail Mountains Minnow",
                         "access_rules": [
-                            "Nightcrawler"
+                            "^$fishAccess|The Azim Steppe|Tail Mountains Minnow"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Tail Mountains Minnow"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Zagas Khaal",
                         "access_rules": [
-                            "Nightcrawler"
+                            "^$fishAccess|The Azim Steppe|Zagas Khaal"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Zagas Khaal"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Dry Steppe Skipper",
                         "access_rules": [
-                            "Midge Larva"
+                            "^$fishAccess|The Azim Steppe|Dry Steppe Skipper"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Dry Steppe Skipper"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Skytear",
                         "access_rules": [
-                            "Versatile Lure"
+                            "^$fishAccess|The Azim Steppe|Skytear"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Skytear"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Dusk Crayfish",
                         "access_rules": [
-                            "Salmon Roe",
-                            "Nightcrawler"
+                            "^$fishAccess|The Azim Steppe|Dusk Crayfish"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Dusk Crayfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Blade Skipper",
                         "access_rules": [
-                            "Suspending Minnow"
+                            "^$fishAccess|The Azim Steppe|Blade Skipper"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Blade Skipper"
                         ],
                         "item_count": 1
                     }
@@ -1460,70 +1469,79 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:60"
+                    
                 ],
                 "visibility_rules": [
-                    "level_cap:60, fishsanity_normal"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Sweatfish",
                         "access_rules": [
-                            "Stonefly Larva"
+                            "^$fishAccess|The Azim Steppe|Sweatfish"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Sweatfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Othardian Trout",
                         "access_rules": [
-                            "Salmon Roe",
-                            "Nightcrawler"
+                            "^$fishAccess|The Azim Steppe|Othardian Trout"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Othardian Trout"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Zagas Khaal",
                         "access_rules": [
-                            "Nightcrawler"
+                            "^$fishAccess|The Azim Steppe|Zagas Khaal"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Zagas Khaal"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Sun Bass",
                         "access_rules": [
-                            "Suspending Minnow"
+                            "^$fishAccess|The Azim Steppe|Sun Bass"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Sun Bass"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Hardscale",
                         "access_rules": [
-                            "Suspending Minnow"
+                            "^$fishAccess|The Azim Steppe|Hardscale"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Hardscale"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Guppy",
                         "access_rules": [
-                            "Stonefly Larva"
+                            "^$fishAccess|The Azim Steppe|Guppy"
                         ],
                         "visibility_rules": [
-                            "fishsanity_timed"
+                            "$fishVisibility|Guppy"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Duskfish",
                         "access_rules": [
-                            "Nightcrawler"
+                            "^$fishAccess|The Azim Steppe|Duskfish"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Duskfish"
                         ],
                         "item_count": 1
                     }
@@ -1544,62 +1562,69 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:60"
+                    
                 ],
                 "visibility_rules": [
-                    "level_cap:60, fishsanity_normal"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Hak Bitterling",
                         "access_rules": [
-                            "Stonefly Larva"
+                            "^$fishAccess|The Azim Steppe|Hak Bitterling"
                         ],
                         "visibility_rules": [
-                            "fishsanity_timed"
+                            "$fishVisibility|Hak Bitterling"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Zagas Khaal",
                         "access_rules": [
-                            "Nightcrawler"
+                            "^$fishAccess|The Azim Steppe|Zagas Khaal"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Zagas Khaal"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Dry Steppe Skipper",
                         "access_rules": [
-                            "Midge Larva"
+                            "^$fishAccess|The Azim Steppe|Dry Steppe Skipper"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Dry Steppe Skipper"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Dusk Crayfish",
                         "access_rules": [
-                            "Salmon Roe",
-                            "Nightcrawler"
+                            "^$fishAccess|The Azim Steppe|Dusk Crayfish"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Dusk Crayfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Curtain Pleco",
                         "access_rules": [
-                            "Suspending Minnow"
+                            "^$fishAccess|The Azim Steppe|Curtain Pleco"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Curtain Pleco"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Banderole",
                         "access_rules": [
-                            "Nightcrawler"
+                            "^$fishAccess|The Azim Steppe|Banderole"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Banderole"
                         ],
                         "item_count": 1
                     }
@@ -1620,70 +1645,80 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:60"
+                    
                 ],
                 "visibility_rules": [
-                    "level_cap:60, fishsanity_normal"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Yat Goby",
                         "access_rules": [
-                            "Metal Spinner"
+                            "^$fishAccess|The Azim Steppe|Yat Goby"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Yat Goby"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Othardian Trout",
                         "access_rules": [
-                            "Salmon Roe",
-                            "Nightcrawler"
+                            "^$fishAccess|The Azim Steppe|Othardian Trout"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Othardian Trout"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Steppe Skipper",
                         "access_rules": [
-                            "Midge Larva"
+                            "^$fishAccess|The Azim Steppe|Steppe Skipper"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Steppe Skipper"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Dawn Crayfish",
                         "access_rules": [
-                            "Nightcrawler",
-                            "Suspending Minnow"
+                            "^$fishAccess|The Azim Steppe|Dawn Crayfish"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Dawn Crayfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Jade Sculpin",
                         "access_rules": [
-                            "Suspending Minnow"
+                            "^$fishAccess|The Azim Steppe|Jade Sculpin"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Jade Sculpin"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Yat Khan",
                         "access_rules": [
-                            "Stonefly Larva"
+                            "^$fishAccess|The Azim Steppe|Yat Khan"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Yat Khan"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Fragrant Sweetfish",
                         "access_rules": [
-                            "Metal Spinner"
+                            "^$fishAccess|The Azim Steppe|Fragrant Sweetfish"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Fragrant Sweetfish"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -1703,63 +1738,69 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:60"
+                    
                 ],
                 "visibility_rules": [
-                    "level_cap:60, fishsanity_normal"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Killifish",
                         "access_rules": [
-                            "Midge Larva"
+                            "^$fishAccess|The Azim Steppe|Killifish"
                         ],
                         "visibility_rules": [
-                            "fishsanity_timed"
+                            "$fishVisibility|Killifish"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Othardian Trout",
                         "access_rules": [
-                            "Salmon Roe",
-                            "Nightcrawler"
+                            "^$fishAccess|The Azim Steppe|Othardian Trout"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Othardian Trout"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Zagas Khaal",
                         "access_rules": [
-                            "Nightcrawler"
+                            "^$fishAccess|The Azim Steppe|Zagas Khaal"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Zagas Khaal"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Steppe Skipper",
                         "access_rules": [
-                            "Midge Larva"
+                            "^$fishAccess|The Azim Steppe|Steppe Skipper"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Steppe Skipper"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Dawn Crayfish",
                         "access_rules": [
-                            "Nightcrawler",
-                            "Suspending Minnow"
+                            "^$fishAccess|The Azim Steppe|Dawn Crayfish"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Dawn Crayfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Garden Skipper",
                         "access_rules": [
-                            "Midge Larva"
+                            "^$fishAccess|The Azim Steppe|Garden Skipper"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Garden Skipper"
                         ],
                         "item_count": 1
                     }
@@ -1780,70 +1821,79 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:60"
+                    
                 ],
                 "visibility_rules": [
-                    "level_cap:60, fishsanity_normal"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Tao Bitterling",
                         "access_rules": [
-                            "Versatile Lure"
+                            "^$fishAccess|The Azim Steppe|Tao Bitterling"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Tao Bitterling"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Zagas Khaal",
                         "access_rules": [
-                            "Nightcrawler"
+                            "^$fishAccess|The Azim Steppe|Zagas Khaal"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Zagas Khaal"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Dry Steppe Skipper",
                         "access_rules": [
-                            "Midge Larva"
+                            "^$fishAccess|The Azim Steppe|Dry Steppe Skipper"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Dry Steppe Skipper"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Dusk Crayfish",
                         "access_rules": [
-                            "Salmon Roe",
-                            "Nightcrawler"
+                            "^$fishAccess|The Azim Steppe|Dusk Crayfish"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Dusk Crayfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Bowfish",
                         "access_rules": [
-                            "Versatile Lure"
+                            "^$fishAccess|The Azim Steppe|Bowfish"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Bowfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Elder Gourami",
                         "access_rules": [
-                            "Nightcrawler"
+                            "^$fishAccess|The Azim Steppe|Elder Gourami"
                         ],
                         "visibility_rules": [
-                            "fishsanity_timed"
+                            "$fishVisibility|Elder Gourami"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "The Word of God",
                         "access_rules": [
-                            "Stonefly Larva"
+                            "^$fishAccess|The Azim Steppe|The Word of God"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|The Word of God"
                         ],
                         "item_count": 1
                     }
@@ -1864,45 +1914,49 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "5fshlevels:60"
+                    
                 ],
                 "visibility_rules": [
-                    "level_cap:60, fishsanity_normal"
+                    
                 ],
                 "sections": [
                     {
                         "name": "Nhaamas Boon",
                         "access_rules": [
-                            "Midge Larva"
+                            "^$fishAccess|The Azim Steppe|Nhaama's Boon"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Nhaama's Boon"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Brassfish",
                         "access_rules": [
-                            "Salmon Roe"
+                            "^$fishAccess|The Azim Steppe|Brassfish"
                         ],
-                        "visibility_rules": [],
+                        "visibility_rules": [
+                            "$fishVisibility|Brassfish"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Nhaamas Treasure",
                         "access_rules": [
-                            "Suspending Minnow"
+                            "^$fishAccess|The Azim Steppe|Nhaama's Treasure"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|Nhaama's Treasure"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "The Unconditional",
                         "access_rules": [
-                            "Stonefly Larva"
+                            "^$fishAccess|The Azim Steppe|The Unconditional"
                         ],
                         "visibility_rules": [
-                            "fishsanity_big"
+                            "$fishVisibility|The Unconditional"
                         ],
                         "item_count": 1
                     }
