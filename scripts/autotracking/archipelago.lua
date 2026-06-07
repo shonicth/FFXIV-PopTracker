@@ -246,8 +246,7 @@ function checkCount(slot_data)
      Tracker:FindObjectForCode('@Heritage Found/FATEs/FATEs').AvailableChestCount = slot_data["fates_per_zone"]
      Tracker:FindObjectForCode('@Living Memory/FATEs/FATEs').AvailableChestCount = slot_data["fates_per_zone"]
      
-     --Dungeon count TODO
-     --Tracker:FindObjectForCode('@Living Memory/FATEs/FATEs').AvailableChestCount = slot_data["extra_dungeon_checks"] +1
+     --Dungeon count
      Tracker:FindObjectForCode('@Western La Noscea/Sastasha/Sastasha').AvailableChestCount = slot_data["extra_dungeon_checks"] +1
 	 Tracker:FindObjectForCode('@Central Shroud/The Tam-Tara Deepcroft/The Tam-Tara Deepcroft').AvailableChestCount = slot_data["extra_dungeon_checks"] +1
 	 Tracker:FindObjectForCode('@Western Thanalan/Copperbell Mines/Copperbell Mines').AvailableChestCount = slot_data["extra_dungeon_checks"] +1
@@ -300,7 +299,7 @@ function checkCount(slot_data)
 	 Tracker:FindObjectForCode('@Limsa Lominsa Lower Decks/The Sirensong Sea/The Sirensong Sea').AvailableChestCount = slot_data["extra_dungeon_checks"] +1
 	 Tracker:FindObjectForCode('@The Ruby Sea/Shisui of the Violet Tides/Shisui of the Violet Tides').AvailableChestCount = slot_data["extra_dungeon_checks"] +1
 	 Tracker:FindObjectForCode('@The Azim Steppe/Bardams Mettle/Bardams Mettle').AvailableChestCount = slot_data["extra_dungeon_checks"] +1
-	 Tracker:FindObjectForCode('@Yanxia/Doma Castle/Doma Castle').AvailableChestCount = slot_data["extra_dungeon_checks"] +1
+	 Tracker:FindObjectForCode('@Yanxia/Doma Castle (Dungeon)/Doma Castle').AvailableChestCount = slot_data["extra_dungeon_checks"] +1
 	 Tracker:FindObjectForCode('@The Peaks/Castrum Abania/Castrum Abania').AvailableChestCount = slot_data["extra_dungeon_checks"] +1
 	 Tracker:FindObjectForCode('@The Lochs/Ala Mhigo/Ala Mhigo').AvailableChestCount = slot_data["extra_dungeon_checks"] +1
 	 Tracker:FindObjectForCode('@Kugane/Kugane Castle/Kugane Castle').AvailableChestCount = slot_data["extra_dungeon_checks"] +1
