@@ -195,5 +195,5 @@ ITEM_NAME_MAPPING = {
     ["5 MIN Levels"] = 5030,
     ["5 BTN Levels"] = 5031,
     ["5 FSH Levels"] = 5032,
-    ["/pet"] = 5033,
+    ["/pet"] = 999000,
 }

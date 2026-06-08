@@ -319,6 +319,7 @@ function checkCount(slot_data)
 	 Tracker:FindObjectForCode('@The Tempest/Amaurot/Amaurot').AvailableChestCount = slot_data["extra_dungeon_checks"] +1
 	 Tracker:FindObjectForCode('@The Crystarium/The Twinning/The Twinning').AvailableChestCount = slot_data["extra_dungeon_checks"] +1
 	 Tracker:FindObjectForCode('@The Tempest/Akadaemia Anyder/Akadaemia Anyder').AvailableChestCount = slot_data["extra_dungeon_checks"] +1
+	 Tracker:FindObjectForCode('@Kholusia/Anamnesis Anyder/Anamnesis Anyder').AvailableChestCount = slot_data["extra_dungeon_checks"] +1
 	 Tracker:FindObjectForCode('@Lakeland/The Grand Cosmos/The Grand Cosmos').AvailableChestCount = slot_data["extra_dungeon_checks"] +1
 	 Tracker:FindObjectForCode('@Eulmore/The Heroes Gauntlet/The Heroes Gauntlet').AvailableChestCount = slot_data["extra_dungeon_checks"] +1
 	 Tracker:FindObjectForCode('@The Dravanian Hinterlands/Matoyas Relict/Matoyas Relict').AvailableChestCount = slot_data["extra_dungeon_checks"] +1

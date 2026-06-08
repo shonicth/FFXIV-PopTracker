@@ -58,8 +58,9 @@ function fishVisibility(fish)
 end
 
 function fateMinLevelAccess(reqLevel)
-      local leveling = leveling() 
-    if leveling > math.max(reqLevel - 5, reqLevel // 10 * 10) then
+    local leveling = leveling() 
+    local reqLevelNumber = tonumber(reqLevel) 
+    if leveling > math.max(reqLevelNumber - 5, reqLevelNumber // 10 * 10) then
         return AccessibilityLevel.Normal
     end
     return AccessibilityLevel.None
@@ -67,7 +68,8 @@ end
 
 function fateMinLevelVisibility(reqLevel)
     local level_cap = Tracker:ProviderCountForCode("level_cap")
-    if level_cap >= reqLevel and Tracker:ProviderCountForCode('fatesanity') == 0 then
+    local reqLevelNumber = tonumber(reqLevel) 
+    if level_cap >= reqLevelNumber and Tracker:ProviderCountForCode('fatesanity') == 0 then
         return AccessibilityLevel.Normal
     end
     return AccessibilityLevel.None
