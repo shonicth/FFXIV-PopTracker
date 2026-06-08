@@ -800,6 +800,129 @@
                 ]
             },
             {
+                "name": "Swiftperch",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    
+                ],
+                "visibility_rules": [
+                    
+                ],
+                "sections": [
+                    {
+                        "name": "Lominsan Anchovy",
+                        "access_rules": [
+                            "^$fishAccess|Western La Noscea|Lominsan Anchovy"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Lominsan Anchovy"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "White Coral",
+                        "access_rules": [
+                            "^$fishAccess|Western La Noscea|White Coral"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|White Coral"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Harbor Herring",
+                        "access_rules": [
+                            "^$fishAccess|Western La Noscea|Harbor Herring"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Harbor Herring"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Moraby Flounder",
+                        "access_rules": [
+                            "^$fishAccess|Western La Noscea|Moraby Flounder"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Moraby Flounder"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Pebble Crab",
+                        "access_rules": [
+                            "^$fishAccess|Western La Noscea|Pebble Crab"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Pebble Crab"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Tiger Cod",
+                        "access_rules": [
+                            "^$fishAccess|Western La Noscea|Tiger Cod"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Tiger Cod"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Rothlyt Oyster",
+                        "access_rules": [
+                            "^$fishAccess|Western La Noscea|Rothlyt Oyster"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Rothlyt Oyster"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Blue Octopus",
+                        "access_rules": [
+                            "^$fishAccess|Western La Noscea|Blue Octopus"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Blue Octopus"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Halibut",
+                        "access_rules": [
+                            "^$fishAccess|Western La Noscea|Halibut"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Halibut"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Armorer",
+                        "access_rules": [
+                            "^$fishAccess|Western La Noscea|Armorer"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Armorer"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Western La Noscea",
+                        "x": 1648,
+                        "y": 1536,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
                 "name": "Skull Valley",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
@@ -903,478 +1026,6 @@
                 ]
             },
             {
-                "name": "Isles of Umbra Northshore",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    
-                ],
-                "visibility_rules": [
-                    
-                ],
-                "sections": [
-                    {
-                        "name": "Merlthor Goby",
-                        "access_rules": [
-                            "^$fishAccess|Western La Noscea|Merlthor Goby"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Merlthor Goby"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Ocean Cloud",
-                        "access_rules": [
-                            "^$fishAccess|Western La Noscea|Ocean Cloud"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Ocean Cloud"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Fullmoon Sardine",
-                        "access_rules": [
-                            "^$fishAccess|Western La Noscea|Fullmoon Sardine"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Fullmoon Sardine"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Lavender Remora",
-                        "access_rules": [
-                            "^$fishAccess|Western La Noscea|Lavender Remora"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Lavender Remora"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Silver Shark",
-                        "access_rules": [
-                            "^$fishAccess|Western La Noscea|Silver Shark"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Silver Shark"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Wahoo",
-                        "access_rules": [
-                            "^$fishAccess|Western La Noscea|Wahoo"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Wahoo"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Pike Eel",
-                        "access_rules": [
-                            "^$fishAccess|Western La Noscea|Pike Eel"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Pike Eel"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Sunfish",
-                        "access_rules": [
-                            "^$fishAccess|Western La Noscea|Sunfish"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Sunfish"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Red Coral",
-                        "access_rules": [
-                            "^$fishAccess|Western La Noscea|Red Coral"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Red Coral"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Helmsmans Hand",
-                        "access_rules": [
-                            "^$fishAccess|Western La Noscea|Helmsman's Hand"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Helmsman's Hand"
-                        ],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Western La Noscea",
-                        "x": 683,
-                        "y": 1419,
-                        "size": 40,
-                        "shape": "rect"
-                    }
-                ]
-            },
-            {
-                "name": "The Ship Graveyard",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    
-                ],
-                "visibility_rules": [
-                    
-                ],
-                "sections": [
-                    {
-                        "name": "Merlthor Goby",
-                        "access_rules": [
-                            "^$fishAccess|Western La Noscea|Merlthor Goby"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Merlthor Goby"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Wahoo",
-                        "access_rules": [
-                            "^$fishAccess|Western La Noscea|Wahoo"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Wahoo"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Pike Eel",
-                        "access_rules": [
-                            "^$fishAccess|Western La Noscea|Pike Eel"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Pike Eel"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Mummer Wrasse",
-                        "access_rules": [
-                            "^$fishAccess|Western La Noscea|Mummer Wrasse"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Mummer Wrasse"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Plaice",
-                        "access_rules": [
-                            "^$fishAccess|Western La Noscea|Plaice"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Plaice"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Giant Squid",
-                        "access_rules": [
-                            "^$fishAccess|Western La Noscea|Giant Squid"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Giant Squid"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Megalodon",
-                        "access_rules": [
-                            "^$fishAccess|Western La Noscea|Megalodon"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Megalodon"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Red Coral",
-                        "access_rules": [
-                            "^$fishAccess|Western La Noscea|Red Coral"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Red Coral"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Blacklip Oyster",
-                        "access_rules": [
-                            "^$fishAccess|Western La Noscea|Blacklip Oyster"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Blacklip Oyster"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Frilled Shark",
-                        "access_rules": [
-                            "^$fishAccess|Western La Noscea|Frilled Shark"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Frilled Shark"
-                        ],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Western La Noscea",
-                        "x": 723,
-                        "y": 1755,
-                        "size": 40,
-                        "shape": "rect"
-                    }
-                ]
-            },
-            {
-                "name": "Reaver Hide",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    
-                ],
-                "visibility_rules": [
-                    
-                ],
-                "sections": [
-                    {
-                        "name": "Merlthor Goby",
-                        "access_rules": [
-                            "^$fishAccess|Western La Noscea|Merlthor Goby"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Merlthor Goby"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Lominsan Anchovy",
-                        "access_rules": [
-                            "^$fishAccess|Western La Noscea|Lominsan Anchovy"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Lominsan Anchovy"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Wahoo",
-                        "access_rules": [
-                            "^$fishAccess|Western La Noscea|Wahoo"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Wahoo"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Rock Lobster",
-                        "access_rules": [
-                            "^$fishAccess|Western La Noscea|Rock Lobster"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Rock Lobster"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Dinichthys",
-                        "access_rules": [
-                            "^$fishAccess|Western La Noscea|Dinichthys"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Dinichthys"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Red Coral",
-                        "access_rules": [
-                            "^$fishAccess|Western La Noscea|Red Coral"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Red Coral"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Blacklip Oyster",
-                        "access_rules": [
-                            "^$fishAccess|Western La Noscea|Blacklip Oyster"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Blacklip Oyster"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Seahag",
-                        "access_rules": [
-                            "^$fishAccess|Western La Noscea|Seahag"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Seahag"
-                        ],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Western La Noscea",
-                        "x": 641,
-                        "y": 600,
-                        "size": 40,
-                        "shape": "rect"
-                    }
-                ]
-            },
-            {
-                "name": "Swiftperch",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    
-                ],
-                "visibility_rules": [
-                    
-                ],
-                "sections": [
-                    {
-                        "name": "Lominsan Anchovy",
-                        "access_rules": [
-                            "^$fishAccess|Western La Noscea|Lominsan Anchovy"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Lominsan Anchovy"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Harbor Herring",
-                        "access_rules": [
-                            "^$fishAccess|Western La Noscea|Harbor Herring"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Harbor Herring"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Moraby Flounder",
-                        "access_rules": [
-                            "^$fishAccess|Western La Noscea|Moraby Flounder"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Moraby Flounder"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Pebble Crab",
-                        "access_rules": [
-                            "^$fishAccess|Western La Noscea|Pebble Crab"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Pebble Crab"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Tiger Cod",
-                        "access_rules": [
-                            "^$fishAccess|Western La Noscea|Tiger Cod"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Tiger Cod"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Rothlyt Oyster",
-                        "access_rules": [
-                            "^$fishAccess|Western La Noscea|Rothlyt Oyster"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Rothlyt Oyster"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Blue Octopus",
-                        "access_rules": [
-                            "^$fishAccess|Western La Noscea|Blue Octopus"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Blue Octopus"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Halibut",
-                        "access_rules": [
-                            "^$fishAccess|Western La Noscea|Halibut"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Halibut"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "White Coral",
-                        "access_rules": [
-                            "^$fishAccess|Western La Noscea|White Coral"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|White Coral"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Armorer",
-                        "access_rules": [
-                            "^$fishAccess|Western La Noscea|Armorer"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Armorer"
-                        ],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Western La Noscea",
-                        "x": 1648,
-                        "y": 1536,
-                        "size": 40,
-                        "shape": "rect"
-                    }
-                ]
-            },
-            {
                 "name": "The Brewers Beacon",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
@@ -1386,6 +1037,16 @@
                     
                 ],
                 "sections": [
+                    {
+                        "name": "White Coral",
+                        "access_rules": [
+                            "^$fishAccess|Western La Noscea|White Coral"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|White Coral"
+                        ],
+                        "item_count": 1
+                    },
                     {
                         "name": "Harbor Herring",
                         "access_rules": [
@@ -1417,6 +1078,16 @@
                         "item_count": 1
                     },
                     {
+                        "name": "Navigators Dagger",
+                        "access_rules": [
+                            "^$fishAccess|Western La Noscea|Navigator's Dagger"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Navigator's Dagger"
+                        ],
+                        "item_count": 1
+                    },
+                    {
                         "name": "Ogre Barracuda",
                         "access_rules": [
                             "^$fishAccess|Western La Noscea|Ogre Barracuda"
@@ -1433,26 +1104,6 @@
                         ],
                         "visibility_rules": [
                             "$fishVisibility|Gigant Octopus"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "White Coral",
-                        "access_rules": [
-                            "^$fishAccess|Western La Noscea|White Coral"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|White Coral"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Navigators Dagger",
-                        "access_rules": [
-                            "^$fishAccess|Western La Noscea|Navigator's Dagger"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Navigator's Dagger"
                         ],
                         "item_count": 1
                     },
@@ -1496,6 +1147,16 @@
                         ],
                         "visibility_rules": [
                             "$fishVisibility|Saber Sardine"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Blue Coral",
+                        "access_rules": [
+                            "^$fishAccess|Western La Noscea|Blue Coral"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Blue Coral"
                         ],
                         "item_count": 1
                     },
@@ -1558,16 +1219,6 @@
                             "$fishVisibility|The Lone Ripper"
                         ],
                         "item_count": 1
-                    },
-                    {
-                        "name": "Blue Coral",
-                        "access_rules": [
-                            "^$fishAccess|Western La Noscea|Blue Coral"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Blue Coral"
-                        ],
-                        "item_count": 1
                     }
                 ],
                 "map_locations": [
@@ -1575,6 +1226,345 @@
                         "map": "Western La Noscea",
                         "x": 843,
                         "y": 1013,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Isles of Umbra Northshore",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    
+                ],
+                "visibility_rules": [
+                    
+                ],
+                "sections": [
+                    {
+                        "name": "Merlthor Goby",
+                        "access_rules": [
+                            "^$fishAccess|Western La Noscea|Merlthor Goby"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Merlthor Goby"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Ocean Cloud",
+                        "access_rules": [
+                            "^$fishAccess|Western La Noscea|Ocean Cloud"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Ocean Cloud"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Fullmoon Sardine",
+                        "access_rules": [
+                            "^$fishAccess|Western La Noscea|Fullmoon Sardine"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Fullmoon Sardine"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Lavender Remora",
+                        "access_rules": [
+                            "^$fishAccess|Western La Noscea|Lavender Remora"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Lavender Remora"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Red Coral",
+                        "access_rules": [
+                            "^$fishAccess|Western La Noscea|Red Coral"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Red Coral"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Silver Shark",
+                        "access_rules": [
+                            "^$fishAccess|Western La Noscea|Silver Shark"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Silver Shark"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Wahoo",
+                        "access_rules": [
+                            "^$fishAccess|Western La Noscea|Wahoo"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Wahoo"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Pike Eel",
+                        "access_rules": [
+                            "^$fishAccess|Western La Noscea|Pike Eel"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Pike Eel"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Sunfish",
+                        "access_rules": [
+                            "^$fishAccess|Western La Noscea|Sunfish"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Sunfish"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Helmsmans Hand",
+                        "access_rules": [
+                            "^$fishAccess|Western La Noscea|Helmsman's Hand"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Helmsman's Hand"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Western La Noscea",
+                        "x": 683,
+                        "y": 1419,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "The Ship Graveyard",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    
+                ],
+                "visibility_rules": [
+                    
+                ],
+                "sections": [
+                    {
+                        "name": "Merlthor Goby",
+                        "access_rules": [
+                            "^$fishAccess|Western La Noscea|Merlthor Goby"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Merlthor Goby"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Red Coral",
+                        "access_rules": [
+                            "^$fishAccess|Western La Noscea|Red Coral"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Red Coral"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Wahoo",
+                        "access_rules": [
+                            "^$fishAccess|Western La Noscea|Wahoo"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Wahoo"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Blacklip Oyster",
+                        "access_rules": [
+                            "^$fishAccess|Western La Noscea|Blacklip Oyster"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Blacklip Oyster"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Pike Eel",
+                        "access_rules": [
+                            "^$fishAccess|Western La Noscea|Pike Eel"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Pike Eel"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Mummer Wrasse",
+                        "access_rules": [
+                            "^$fishAccess|Western La Noscea|Mummer Wrasse"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Mummer Wrasse"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Plaice",
+                        "access_rules": [
+                            "^$fishAccess|Western La Noscea|Plaice"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Plaice"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Giant Squid",
+                        "access_rules": [
+                            "^$fishAccess|Western La Noscea|Giant Squid"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Giant Squid"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Megalodon",
+                        "access_rules": [
+                            "^$fishAccess|Western La Noscea|Megalodon"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Megalodon"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Frilled Shark",
+                        "access_rules": [
+                            "^$fishAccess|Western La Noscea|Frilled Shark"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Frilled Shark"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Western La Noscea",
+                        "x": 723,
+                        "y": 1755,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Sapsa Spawning Grounds",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    
+                ],
+                "visibility_rules": [
+                    
+                ],
+                "sections": [
+                    {
+                        "name": "Fullmoon Sardine",
+                        "access_rules": [
+                            "^$fishAccess|Western La Noscea|Fullmoon Sardine"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Fullmoon Sardine"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Whitelip Oyster",
+                        "access_rules": [
+                            "^$fishAccess|Western La Noscea|Whitelip Oyster"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Whitelip Oyster"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Red Coral",
+                        "access_rules": [
+                            "^$fishAccess|Western La Noscea|Red Coral"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Red Coral"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Blacklip Oyster",
+                        "access_rules": [
+                            "^$fishAccess|Western La Noscea|Blacklip Oyster"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Blacklip Oyster"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Nautilus",
+                        "access_rules": [
+                            "^$fishAccess|Western La Noscea|Nautilus"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Nautilus"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Sea Devil",
+                        "access_rules": [
+                            "^$fishAccess|Western La Noscea|Sea Devil"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Sea Devil"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "The Captains Chalice",
+                        "access_rules": [
+                            "^$fishAccess|Western La Noscea|The Captain's Chalice"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|The Captain's Chalice"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Western La Noscea",
+                        "x": 773,
+                        "y": 757,
                         "size": 40,
                         "shape": "rect"
                     }
@@ -1599,6 +1589,26 @@
                         ],
                         "visibility_rules": [
                             "$fishVisibility|Fullmoon Sardine"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Red Coral",
+                        "access_rules": [
+                            "^$fishAccess|Western La Noscea|Red Coral"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Red Coral"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Blacklip Oyster",
+                        "access_rules": [
+                            "^$fishAccess|Western La Noscea|Blacklip Oyster"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Blacklip Oyster"
                         ],
                         "item_count": 1
                     },
@@ -1653,26 +1663,6 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Red Coral",
-                        "access_rules": [
-                            "^$fishAccess|Western La Noscea|Red Coral"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Red Coral"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Blacklip Oyster",
-                        "access_rules": [
-                            "^$fishAccess|Western La Noscea|Blacklip Oyster"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Blacklip Oyster"
-                        ],
-                        "item_count": 1
-                    },
-                    {
                         "name": "Coelacanthus",
                         "access_rules": [
                             "^$fishAccess|Western La Noscea|Coelacanthus"
@@ -1704,7 +1694,7 @@
                 ]
             },
             {
-                "name": "Sapsa Spawning Grounds",
+                "name": "Reaver Hide",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -1716,42 +1706,22 @@
                 ],
                 "sections": [
                     {
-                        "name": "Fullmoon Sardine",
+                        "name": "Lominsan Anchovy",
                         "access_rules": [
-                            "^$fishAccess|Western La Noscea|Fullmoon Sardine"
+                            "^$fishAccess|Western La Noscea|Lominsan Anchovy"
                         ],
                         "visibility_rules": [
-                            "$fishVisibility|Fullmoon Sardine"
+                            "$fishVisibility|Lominsan Anchovy"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Whitelip Oyster",
+                        "name": "Merlthor Goby",
                         "access_rules": [
-                            "^$fishAccess|Western La Noscea|Whitelip Oyster"
+                            "^$fishAccess|Western La Noscea|Merlthor Goby"
                         ],
                         "visibility_rules": [
-                            "$fishVisibility|Whitelip Oyster"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Nautilus",
-                        "access_rules": [
-                            "^$fishAccess|Western La Noscea|Nautilus"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Nautilus"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Sea Devil",
-                        "access_rules": [
-                            "^$fishAccess|Western La Noscea|Sea Devil"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Sea Devil"
+                            "$fishVisibility|Merlthor Goby"
                         ],
                         "item_count": 1
                     },
@@ -1766,6 +1736,16 @@
                         "item_count": 1
                     },
                     {
+                        "name": "Wahoo",
+                        "access_rules": [
+                            "^$fishAccess|Western La Noscea|Wahoo"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Wahoo"
+                        ],
+                        "item_count": 1
+                    },
+                    {
                         "name": "Blacklip Oyster",
                         "access_rules": [
                             "^$fishAccess|Western La Noscea|Blacklip Oyster"
@@ -1776,12 +1756,32 @@
                         "item_count": 1
                     },
                     {
-                        "name": "The Captains Chalice",
+                        "name": "Rock Lobster",
                         "access_rules": [
-                            "^$fishAccess|Western La Noscea|The Captain's Chalice"
+                            "^$fishAccess|Western La Noscea|Rock Lobster"
                         ],
                         "visibility_rules": [
-                            "$fishVisibility|The Captain's Chalice"
+                            "$fishVisibility|Rock Lobster"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Dinichthys",
+                        "access_rules": [
+                            "^$fishAccess|Western La Noscea|Dinichthys"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Dinichthys"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Seahag",
+                        "access_rules": [
+                            "^$fishAccess|Western La Noscea|Seahag"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Seahag"
                         ],
                         "item_count": 1
                     }
@@ -1789,8 +1789,8 @@
                 "map_locations": [
                     {
                         "map": "Western La Noscea",
-                        "x": 773,
-                        "y": 757,
+                        "x": 641,
+                        "y": 600,
                         "size": 40,
                         "shape": "rect"
                     }
