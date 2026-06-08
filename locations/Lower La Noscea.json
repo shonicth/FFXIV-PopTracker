@@ -551,6 +551,109 @@
                 ]
             },
             {
+                "name": "The Mourning Widow",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    
+                ],
+                "visibility_rules": [
+
+                ],
+                "sections": [
+                    {
+                        "name": "Crayfish",
+                        "access_rules": [
+                            "^$fishAccess|Lower La Noscea|Crayfish"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Crayfish"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Chub",
+                        "access_rules": [
+                            "^$fishAccess|Lower La Noscea|Chub"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Chub"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Dwarf Catfish",
+                        "access_rules": [
+                            "^$fishAccess|Lower La Noscea|Dwarf Catfish"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Dwarf Catfish"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Princess Trout",
+                        "access_rules": [
+                            "^$fishAccess|Lower La Noscea|Princess Trout"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Princess Trout"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Dusk Goby",
+                        "access_rules": [
+                            "^$fishAccess|Lower La Noscea|Dusk Goby"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Dusk Goby"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Gudgeon",
+                        "access_rules": [
+                            "^$fishAccess|Lower La Noscea|Gudgeon"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Gudgeon"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Maiden Carp",
+                        "access_rules": [
+                            "^$fishAccess|Lower La Noscea|Maiden Carp"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Maiden Carp"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Caterwauler",
+                        "access_rules": [
+                            "^$fishAccess|Lower La Noscea|Caterwauler"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Caterwauler"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Lower La Noscea",
+                        "x": 1185,
+                        "y": 1078,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
                 "name": "Moraby Bay",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
@@ -563,22 +666,22 @@
                 ],
                 "sections": [
                     {
-                        "name": "Malm Kelp",
-                        "access_rules": [
-                            "^$fishAccess|Lower La Noscea|Malm Kelp"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Malm Kelp"
-                        ],
-                        "item_count": 1
-                    },
-                    {
                         "name": "Merlthor Goby",
                         "access_rules": [
                             "^$fishAccess|Lower La Noscea|Merlthor Goby"
                         ],
                         "visibility_rules": [
                             "$fishVisibility|Merlthor Goby"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Malm Kelp",
+                        "access_rules": [
+                            "^$fishAccess|Lower La Noscea|Malm Kelp"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Malm Kelp"
                         ],
                         "item_count": 1
                     },
@@ -771,6 +874,109 @@
                         "map": "Lower La Noscea",
                         "x": 1718,
                         "y": 840,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Oschons Torch",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    
+                ],
+                "visibility_rules": [
+                    
+                ],
+                "sections": [
+                    {
+                        "name": "Sea Cucumber",
+                        "access_rules": [
+                            "^$fishAccess|Lower La Noscea|Sea Cucumber"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Sea Cucumber"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Vongola Clam",
+                        "access_rules": [
+                            "^$fishAccess|Lower La Noscea|Vongola Clam"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Vongola Clam"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Moraby Flounder",
+                        "access_rules": [
+                            "^$fishAccess|Lower La Noscea|Moraby Flounder"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Moraby Flounder"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Pebble Crab",
+                        "access_rules": [
+                            "^$fishAccess|Lower La Noscea|Pebble Crab"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Pebble Crab"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Tiger Cod",
+                        "access_rules": [
+                            "^$fishAccess|Lower La Noscea|Tiger Cod"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Tiger Cod"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Rothlyt Oyster",
+                        "access_rules": [
+                            "^$fishAccess|Lower La Noscea|Rothlyt Oyster"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Rothlyt Oyster"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Mahi-mahi",
+                        "access_rules": [
+                            "^$fishAccess|Lower La Noscea|Mahi-mahi"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Mahi-mahi"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Silver Sovereign",
+                        "access_rules": [
+                            "^$fishAccess|Lower La Noscea|Silver Sovereign"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Silver Sovereign"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Lower La Noscea",
+                        "x": 1173,
+                        "y": 1953,
                         "size": 40,
                         "shape": "rect"
                     }
@@ -993,7 +1199,7 @@
                 ]
             },
             {
-                "name": "Oschons Torch",
+                "name": "Empty Heart",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -1005,82 +1211,92 @@
                 ],
                 "sections": [
                     {
-                        "name": "Sea Cucumber",
+                        "name": "Dusk Goby",
                         "access_rules": [
-                            "^$fishAccess|Lower La Noscea|Sea Cucumber"
+                            "^$fishAccess|Lower La Noscea|Dusk Goby"
                         ],
                         "visibility_rules": [
-                            "$fishVisibility|Sea Cucumber"
+                            "$fishVisibility|Dusk Goby"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Vongola Clam",
+                        "name": "Crimson Crayfish",
                         "access_rules": [
-                            "^$fishAccess|Lower La Noscea|Vongola Clam"
+                            "^$fishAccess|Lower La Noscea|Crimson Crayfish"
                         ],
                         "visibility_rules": [
-                            "$fishVisibility|Vongola Clam"
+                            "$fishVisibility|Crimson Crayfish"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Moraby Flounder",
+                        "name": "Faerie Bass",
                         "access_rules": [
-                            "^$fishAccess|Lower La Noscea|Moraby Flounder"
+                            "^$fishAccess|Lower La Noscea|Faerie Bass"
                         ],
                         "visibility_rules": [
-                            "$fishVisibility|Moraby Flounder"
+                            "$fishVisibility|Faerie Bass"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Pebble Crab",
+                        "name": "Acorn Snail",
                         "access_rules": [
-                            "^$fishAccess|Lower La Noscea|Pebble Crab"
+                            "^$fishAccess|Lower La Noscea|Acorn Snail"
                         ],
                         "visibility_rules": [
-                            "$fishVisibility|Pebble Crab"
+                            "$fishVisibility|Acorn Snail"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Tiger Cod",
+                        "name": "Moat Carp",
                         "access_rules": [
-                            "^$fishAccess|Lower La Noscea|Tiger Cod"
+                            "^$fishAccess|Lower La Noscea|Moat Carp"
                         ],
                         "visibility_rules": [
-                            "$fishVisibility|Tiger Cod"
+                            "$fishVisibility|Moat Carp"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Rothlyt Oyster",
+                        "name": "Copperfish",
                         "access_rules": [
-                            "^$fishAccess|Lower La Noscea|Rothlyt Oyster"
+                            "^$fishAccess|Lower La Noscea|Copperfish"
                         ],
                         "visibility_rules": [
-                            "$fishVisibility|Rothlyt Oyster"
+                            "$fishVisibility|Copperfish"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Mahi-mahi",
+                        "name": "Eunuch Crayfish",
                         "access_rules": [
-                            "^$fishAccess|Lower La Noscea|Mahi-mahi"
+                            "^$fishAccess|Lower La Noscea|Eunuch Crayfish"
                         ],
                         "visibility_rules": [
-                            "$fishVisibility|Mahi-mahi"
+                            "$fishVisibility|Eunuch Crayfish"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Silver Sovereign",
+                        "name": "Grip Killifish",
                         "access_rules": [
-                            "^$fishAccess|Lower La Noscea|Silver Sovereign"
+                            "^$fishAccess|Lower La Noscea|Grip Killifish"
                         ],
                         "visibility_rules": [
-                            "$fishVisibility|Silver Sovereign"
+                            "$fishVisibility|Grip Killifish"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Faerie Queen",
+                        "access_rules": [
+                            "^$fishAccess|Lower La Noscea|Faerie Queen"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Faerie Queen"
                         ],
                         "item_count": 1
                     }
@@ -1088,8 +1304,8 @@
                 "map_locations": [
                     {
                         "map": "Lower La Noscea",
-                        "x": 1173,
-                        "y": 1953,
+                        "x": 1070,
+                        "y": 1680,
                         "size": 40,
                         "shape": "rect"
                     }
@@ -1209,109 +1425,6 @@
                 ]
             },
             {
-                "name": "The Mourning Widow",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    
-                ],
-                "visibility_rules": [
-
-                ],
-                "sections": [
-                    {
-                        "name": "Crayfish",
-                        "access_rules": [
-                            "^$fishAccess|Lower La Noscea|Crayfish"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Crayfish"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Chub",
-                        "access_rules": [
-                            "^$fishAccess|Lower La Noscea|Chub"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Chub"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Dwarf Catfish",
-                        "access_rules": [
-                            "^$fishAccess|Lower La Noscea|Dwarf Catfish"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Dwarf Catfish"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Princess Trout",
-                        "access_rules": [
-                            "^$fishAccess|Lower La Noscea|Princess Trout"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Princess Trout"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Dusk Goby",
-                        "access_rules": [
-                            "^$fishAccess|Lower La Noscea|Dusk Goby"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Dusk Goby"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Gudgeon",
-                        "access_rules": [
-                            "^$fishAccess|Lower La Noscea|Gudgeon"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Gudgeon"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Maiden Carp",
-                        "access_rules": [
-                            "^$fishAccess|Lower La Noscea|Maiden Carp"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Maiden Carp"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Caterwauler",
-                        "access_rules": [
-                            "^$fishAccess|Lower La Noscea|Caterwauler"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Caterwauler"
-                        ],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Lower La Noscea",
-                        "x": 1185,
-                        "y": 1078,
-                        "size": 40,
-                        "shape": "rect"
-                    }
-                ]
-            },
-            {
                 "name": "Blind Iron Mines",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
@@ -1334,22 +1447,22 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Blindfish",
-                        "access_rules": [
-                            "^$fishAccess|Lower La Noscea|Blindfish"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Blindfish"
-                        ],
-                        "item_count": 1
-                    },
-                    {
                         "name": "Acorn Snail",
                         "access_rules": [
                             "^$fishAccess|Lower La Noscea|Acorn Snail"
                         ],
                         "visibility_rules": [
                             "$fishVisibility|Acorn Snail"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Blindfish",
+                        "access_rules": [
+                            "^$fishAccess|Lower La Noscea|Blindfish"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Blindfish"
                         ],
                         "item_count": 1
                     },
@@ -1379,119 +1492,6 @@
                         "map": "Lower La Noscea",
                         "x": 1293,
                         "y": 722,
-                        "size": 40,
-                        "shape": "rect"
-                    }
-                ]
-            },
-            {
-                "name": "Empty Heart",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    
-                ],
-                "visibility_rules": [
-                    
-                ],
-                "sections": [
-                    {
-                        "name": "Dusk Goby",
-                        "access_rules": [
-                            "^$fishAccess|Lower La Noscea|Dusk Goby"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Dusk Goby"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Crimson Crayfish",
-                        "access_rules": [
-                            "^$fishAccess|Lower La Noscea|Crimson Crayfish"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Crimson Crayfish"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Faerie Bass",
-                        "access_rules": [
-                            "^$fishAccess|Lower La Noscea|Faerie Bass"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Faerie Bass"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Acorn Snail",
-                        "access_rules": [
-                            "^$fishAccess|Lower La Noscea|Acorn Snail"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Acorn Snail"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Moat Carp",
-                        "access_rules": [
-                            "^$fishAccess|Lower La Noscea|Moat Carp"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Moat Carp"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Copperfish",
-                        "access_rules": [
-                            "^$fishAccess|Lower La Noscea|Copperfish"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Copperfish"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Eunuch Crayfish",
-                        "access_rules": [
-                            "^$fishAccess|Lower La Noscea|Eunuch Crayfish"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Eunuch Crayfish"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Grip Killifish",
-                        "access_rules": [
-                            "^$fishAccess|Lower La Noscea|Grip Killifish"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Grip Killifish"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Faerie Queen",
-                        "access_rules": [
-                            "^$fishAccess|Lower La Noscea|Faerie Queen"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Faerie Queen"
-                        ],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Lower La Noscea",
-                        "x": 1070,
-                        "y": 1680,
                         "size": 40,
                         "shape": "rect"
                     }
