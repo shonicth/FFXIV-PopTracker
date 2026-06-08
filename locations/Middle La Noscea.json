@@ -604,129 +604,6 @@
                 ]
             },
             {
-                "name": "Summerford",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    
-                ],
-                "visibility_rules": [
-                    
-                ],
-                "sections": [
-                    {
-                        "name": "Merlthor Goby",
-                        "access_rules": [
-                            "^$fishAccess|Middle La Noscea|Merlthor Goby"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Merlthor Goby"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Finger Shrimp",
-                        "access_rules": [
-                            "^$fishAccess|Middle La Noscea|Finger Shrimp"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Finger Shrimp"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "White Coral",
-                        "access_rules": [
-                            "^$fishAccess|Middle La Noscea|White Coral"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|White Coral"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Ocean Cloud",
-                        "access_rules": [
-                            "^$fishAccess|Middle La Noscea|Ocean Cloud"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Ocean Cloud"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Harbor Herring",
-                        "access_rules": [
-                            "^$fishAccess|Middle La Noscea|Harbor Herring"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Harbor Herring"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Vongola Clam",
-                        "access_rules": [
-                            "^$fishAccess|Middle La Noscea|Vongola Clam"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Vongola Clam"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Blue Octopus",
-                        "access_rules": [
-                            "^$fishAccess|Middle La Noscea|Blue Octopus"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Blue Octopus"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Ogre Barracuda",
-                        "access_rules": [
-                            "^$fishAccess|Middle La Noscea|Ogre Barracuda"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Ogre Barracuda"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Silver Shark",
-                        "access_rules": [
-                            "^$fishAccess|Middle La Noscea|Silver Shark"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Silver Shark"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Gigantshark",
-                        "access_rules": [
-                            "^$fishAccess|Middle La Noscea|Gigantshark"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Gigantshark"
-                        ],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Middle La Noscea",
-                        "x": 687,
-                        "y": 729,
-                        "size": 40,
-                        "shape": "rect"
-                    }
-                ]
-            },
-            {
                 "name": "Rogue River",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
@@ -897,6 +774,129 @@
                         "map": "Middle La Noscea",
                         "x": 943,
                         "y": 859,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Summerford",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    
+                ],
+                "visibility_rules": [
+                    
+                ],
+                "sections": [
+                    {
+                        "name": "Merlthor Goby",
+                        "access_rules": [
+                            "^$fishAccess|Middle La Noscea|Merlthor Goby"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Merlthor Goby"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Finger Shrimp",
+                        "access_rules": [
+                            "^$fishAccess|Middle La Noscea|Finger Shrimp"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Finger Shrimp"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "White Coral",
+                        "access_rules": [
+                            "^$fishAccess|Middle La Noscea|White Coral"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|White Coral"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Ocean Cloud",
+                        "access_rules": [
+                            "^$fishAccess|Middle La Noscea|Ocean Cloud"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Ocean Cloud"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Harbor Herring",
+                        "access_rules": [
+                            "^$fishAccess|Middle La Noscea|Harbor Herring"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Harbor Herring"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Vongola Clam",
+                        "access_rules": [
+                            "^$fishAccess|Middle La Noscea|Vongola Clam"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Vongola Clam"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Blue Octopus",
+                        "access_rules": [
+                            "^$fishAccess|Middle La Noscea|Blue Octopus"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Blue Octopus"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Ogre Barracuda",
+                        "access_rules": [
+                            "^$fishAccess|Middle La Noscea|Ogre Barracuda"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Ogre Barracuda"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Silver Shark",
+                        "access_rules": [
+                            "^$fishAccess|Middle La Noscea|Silver Shark"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Silver Shark"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Gigantshark",
+                        "access_rules": [
+                            "^$fishAccess|Middle La Noscea|Gigantshark"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Gigantshark"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Middle La Noscea",
+                        "x": 687,
+                        "y": 729,
                         "size": 40,
                         "shape": "rect"
                     }
