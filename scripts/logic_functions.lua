@@ -51,7 +51,7 @@ function fishVisibility(fish)
   local level_cap = Tracker:ProviderCountForCode("level_cap")
   local reqFshLevel = fishtable[fish].lvl
   local timed = fishtable[fish].timed or 0
-  if level_cap >= ((reqFshLevel // 5) * 5) and Tracker:FindObjectForCode("fishsanity").CurrentStage > timed then
+  if level_cap >= reqFshLevel and Tracker:FindObjectForCode("fishsanity").CurrentStage > timed then
          return true
     end
     return false
@@ -67,7 +67,7 @@ end
 
 function fateMinLevelVisibility(reqLevel)
     local level_cap = Tracker:ProviderCountForCode("level_cap")
-    if level_cap > math.max(reqLevel - 5, reqLevel // 10 * 10) and Tracker:ProviderCountForCode('fatesanity') == 0 then
+    if level_cap >= reqLevel and Tracker:ProviderCountForCode('fatesanity') == 0 then
         return AccessibilityLevel.Normal
     end
     return AccessibilityLevel.None
@@ -96,7 +96,7 @@ function fateVisibility(fate)
     if Tracker:ProviderCountForCode("fatesanity") > 0 and fate ~= nil then
         local level_cap = Tracker:ProviderCountForCode("level_cap")
         local reqLevel = fatelist[fate]
-        if level_cap >= math.max(reqLevel - 5, reqLevel // 10 * 10) then
+        if level_cap >= reqLevel then
             return true
         end
     end
