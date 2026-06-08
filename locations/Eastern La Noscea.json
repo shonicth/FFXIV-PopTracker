@@ -769,6 +769,16 @@
                         "item_count": 1
                     },
                     {
+                        "name": "Blue Coral",
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Blue Coral"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Blue Coral"
+                        ],
+                        "item_count": 1
+                    },
+                    {
                         "name": "Sea Bo",
                         "access_rules": [
                             "^$fishAccess|Eastern La Noscea|Sea Bo"
@@ -809,12 +819,12 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Blue Coral",
+                        "name": "Gigant Clam",
                         "access_rules": [
-                            "^$fishAccess|Eastern La Noscea|Blue Coral"
+                            "^$fishAccess|Eastern La Noscea|Gigant Clam"
                         ],
                         "visibility_rules": [
-                            "$fishVisibility|Blue Coral"
+                            "$fishVisibility|Gigant Clam"
                         ],
                         "item_count": 1
                     },
@@ -827,16 +837,6 @@
                             "$fishVisibility|The Greatest Bream in the World"
                         ],
                         "item_count": 1
-                    },
-                    {
-                        "name": "Gigant Clam",
-                        "access_rules": [
-                            "^$fishAccess|Eastern La Noscea|Gigant Clam"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Gigant Clam"
-                        ],
-                        "item_count": 1
                     }
                 ],
                 "map_locations": [
@@ -844,498 +844,6 @@
                         "map": "Eastern La Noscea",
                         "x": 1612,
                         "y": 1702,
-                        "size": 40,
-                        "shape": "rect"
-                    }
-                ]
-            },
-            {
-                "name": "Rhotano Sea (Privateer Sterncastle)",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    
-                ],
-                "visibility_rules": [
-                    
-                ],
-                "sections": [
-                    {
-                        "name": "Merlthor Goby",
-                        "access_rules": [
-                            "^$fishAccess|Eastern La Noscea|Merlthor Goby"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Merlthor Goby"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Blowfish",
-                        "access_rules": [
-                            "^$fishAccess|Eastern La Noscea|Blowfish"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Blowfish"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Leafy Seadragon",
-                        "access_rules": [
-                            "^$fishAccess|Eastern La Noscea|Leafy Seadragon"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Leafy Seadragon"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Wahoo",
-                        "access_rules": [
-                            "^$fishAccess|Eastern La Noscea|Wahoo"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Wahoo"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Rock Lobster",
-                        "access_rules": [
-                            "^$fishAccess|Eastern La Noscea|Rock Lobster"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Rock Lobster"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Little Thalaos",
-                        "access_rules": [
-                            "^$fishAccess|Eastern La Noscea|Little Thalaos"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Little Thalaos"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Shall Shell",
-                        "access_rules": [
-                            "^$fishAccess|Eastern La Noscea|Shall Shell"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Shall Shell"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Giant Squid",
-                        "access_rules": [
-                            "^$fishAccess|Eastern La Noscea|Giant Squid"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Giant Squid"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Megalodon",
-                        "access_rules": [
-                            "^$fishAccess|Eastern La Noscea|Megalodon"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Megalodon"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Nepto Dragon",
-                        "access_rules": [
-                            "^$fishAccess|Eastern La Noscea|Nepto Dragon"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Nepto Dragon"
-                        ],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Eastern La Noscea",
-                        "x": 1813,
-                        "y": 1136,
-                        "size": 40,
-                        "shape": "rect"
-                    }
-                ]
-            },
-            {
-                "name": "North Isle of Endless Summer",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    
-                ],
-                "visibility_rules": [
-                    
-                ],
-                "sections": [
-                    {
-                        "name": "Merlthor Goby",
-                        "access_rules": [
-                            "^$fishAccess|Eastern La Noscea|Merlthor Goby"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Merlthor Goby"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Blowfish",
-                        "access_rules": [
-                            "^$fishAccess|Eastern La Noscea|Blowfish"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Blowfish"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Leafy Seadragon",
-                        "access_rules": [
-                            "^$fishAccess|Eastern La Noscea|Leafy Seadragon"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Leafy Seadragon"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Wahoo",
-                        "access_rules": [
-                            "^$fishAccess|Eastern La Noscea|Wahoo"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Wahoo"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Little Thalaos",
-                        "access_rules": [
-                            "^$fishAccess|Eastern La Noscea|Little Thalaos"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Little Thalaos"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Shall Shell",
-                        "access_rules": [
-                            "^$fishAccess|Eastern La Noscea|Shall Shell"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Shall Shell"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Giant Squid",
-                        "access_rules": [
-                            "^$fishAccess|Eastern La Noscea|Giant Squid"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Giant Squid"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Megalodon",
-                        "access_rules": [
-                            "^$fishAccess|Eastern La Noscea|Megalodon"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Megalodon"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Little Perykos",
-                        "access_rules": [
-                            "^$fishAccess|Eastern La Noscea|Little Perykos"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Little Perykos"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Castaway Chocobo Chick",
-                        "access_rules": [
-                            "^$fishAccess|Eastern La Noscea|Castaway Chocobo Chick"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Castaway Chocobo Chick"
-                        ],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Eastern La Noscea",
-                        "x": 1742,
-                        "y": 1287,
-                        "size": 40,
-                        "shape": "rect"
-                    }
-                ]
-            },
-            {
-                "name": "Rhotano Sea (Privateer Forecastle)",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    
-                ],
-                "visibility_rules": [
-                    
-                ],
-                "sections": [
-                    {
-                        "name": "Finger Shrimp",
-                        "access_rules": [
-                            "^$fishAccess|Eastern La Noscea|Finger Shrimp"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Finger Shrimp"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Harbor Herring",
-                        "access_rules": [
-                            "^$fishAccess|Eastern La Noscea|Harbor Herring"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Harbor Herring"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Blowfish",
-                        "access_rules": [
-                            "^$fishAccess|Eastern La Noscea|Blowfish"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Blowfish"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Ogre Barracuda",
-                        "access_rules": [
-                            "^$fishAccess|Eastern La Noscea|Ogre Barracuda"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Ogre Barracuda"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Ash Tuna",
-                        "access_rules": [
-                            "^$fishAccess|Eastern La Noscea|Ash Tuna"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Ash Tuna"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Balloonfish",
-                        "access_rules": [
-                            "^$fishAccess|Eastern La Noscea|Balloonfish"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Balloonfish"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Mazlaya Marlin",
-                        "access_rules": [
-                            "^$fishAccess|Eastern La Noscea|Mazlaya Marlin"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Mazlaya Marlin"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Gigant Octopus",
-                        "access_rules": [
-                            "^$fishAccess|Eastern La Noscea|Gigant Octopus"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Gigant Octopus"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Red Coral",
-                        "access_rules": [
-                            "^$fishAccess|Eastern La Noscea|Red Coral"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Red Coral"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Old Man in the Sea",
-                        "access_rules": [
-                            "^$fishAccess|Eastern La Noscea|The Old Man in the Sea"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|The Old Man in the Sea"
-                        ],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Eastern La Noscea",
-                        "x": 1827,
-                        "y": 1072,
-                        "size": 40,
-                        "shape": "rect"
-                    }
-                ]
-            },
-            {
-                "name": "North Bloodshore",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    
-                ],
-                "visibility_rules": [
-                    
-                ],
-                "sections": [
-                    {
-                        "name": "Harbor Herring",
-                        "access_rules": [
-                            "^$fishAccess|Eastern La Noscea|Harbor Herring"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Harbor Herring"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Ogre Barracuda",
-                        "access_rules": [
-                            "^$fishAccess|Eastern La Noscea|Ogre Barracuda"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Ogre Barracuda"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Black Sole",
-                        "access_rules": [
-                            "^$fishAccess|Eastern La Noscea|Black Sole"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Black Sole"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Sea Pickle",
-                        "access_rules": [
-                            "^$fishAccess|Eastern La Noscea|Sea Pickle"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Sea Pickle"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Ash Tuna",
-                        "access_rules": [
-                            "^$fishAccess|Eastern La Noscea|Ash Tuna"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Ash Tuna"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Whitelip Oyster",
-                        "access_rules": [
-                            "^$fishAccess|Eastern La Noscea|Whitelip Oyster"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Whitelip Oyster"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Balloonfish",
-                        "access_rules": [
-                            "^$fishAccess|Eastern La Noscea|Balloonfish"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Balloonfish"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Mazlaya Marlin",
-                        "access_rules": [
-                            "^$fishAccess|Eastern La Noscea|Mazlaya Marlin"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Mazlaya Marlin"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Red Coral",
-                        "access_rules": [
-                            "^$fishAccess|Eastern La Noscea|Red Coral"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Red Coral"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Bombardfish",
-                        "access_rules": [
-                            "^$fishAccess|Eastern La Noscea|Bombardfish"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Bombardfish"
-                        ],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Eastern La Noscea",
-                        "x": 1593,
-                        "y": 1132,
                         "size": 40,
                         "shape": "rect"
                     }
@@ -1459,6 +967,375 @@
                         "map": "Eastern La Noscea",
                         "x": 1613,
                         "y": 1402,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "North Bloodshore",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    
+                ],
+                "visibility_rules": [
+                    
+                ],
+                "sections": [
+                    {
+                        "name": "Harbor Herring",
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Harbor Herring"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Harbor Herring"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Ogre Barracuda",
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Ogre Barracuda"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Ogre Barracuda"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Black Sole",
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Black Sole"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Black Sole"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Sea Pickle",
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Sea Pickle"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Sea Pickle"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Ash Tuna",
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Ash Tuna"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Ash Tuna"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Whitelip Oyster",
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Whitelip Oyster"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Whitelip Oyster"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Balloonfish",
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Balloonfish"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Balloonfish"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Red Coral",
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Red Coral"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Red Coral"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Mazlaya Marlin",
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Mazlaya Marlin"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Mazlaya Marlin"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bombardfish",
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Bombardfish"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Bombardfish"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Eastern La Noscea",
+                        "x": 1593,
+                        "y": 1132,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Rhotano Sea (Privateer Forecastle)",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    
+                ],
+                "visibility_rules": [
+                    
+                ],
+                "sections": [
+                    {
+                        "name": "Finger Shrimp",
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Finger Shrimp"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Finger Shrimp"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Harbor Herring",
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Harbor Herring"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Harbor Herring"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Blowfish",
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Blowfish"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Blowfish"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Balloonfish",
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Balloonfish"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Balloonfish"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Ash Tuna",
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Ash Tuna"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Ash Tuna"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Red Coral",
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Red Coral"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Red Coral"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Ogre Barracuda",
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Ogre Barracuda"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Ogre Barracuda"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Mazlaya Marlin",
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Mazlaya Marlin"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Mazlaya Marlin"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Gigant Octopus",
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Gigant Octopus"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Gigant Octopus"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "The Old Man in the Sea",
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|The Old Man in the Sea"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|The Old Man in the Sea"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Eastern La Noscea",
+                        "x": 1827,
+                        "y": 1072,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Rhotano Sea (Privateer Sterncastle)",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    
+                ],
+                "visibility_rules": [
+                    
+                ],
+                "sections": [
+                    {
+                        "name": "Merlthor Goby",
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Merlthor Goby"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Merlthor Goby"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Blowfish",
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Blowfish"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Blowfish"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Leafy Seadragon",
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Leafy Seadragon"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Leafy Seadragon"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Rock Lobster",
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Rock Lobster"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Rock Lobster"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Wahoo",
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Wahoo"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Wahoo"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Little Thalaos",
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Little Thalaos"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Little Thalaos"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Shall Shell",
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Shall Shell"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Shall Shell"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Megalodon",
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Megalodon"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Megalodon"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Giant Squid",
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Giant Squid"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Giant Squid"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Nepto Dragon",
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Nepto Dragon"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Nepto Dragon"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Eastern La Noscea",
+                        "x": 1813,
+                        "y": 1136,
                         "size": 40,
                         "shape": "rect"
                     }
@@ -1590,22 +1467,22 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Mitten Crab",
-                        "access_rules": [
-                            "^$fishAccess|Eastern La Noscea|Mitten Crab"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Mitten Crab"
-                        ],
-                        "item_count": 1
-                    },
-                    {
                         "name": "Monke Onke",
                         "access_rules": [
                             "^$fishAccess|Eastern La Noscea|Monke Onke"
                         ],
                         "visibility_rules": [
                             "$fishVisibility|Monke Onke"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Mitten Crab",
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Mitten Crab"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Mitten Crab"
                         ],
                         "item_count": 1
                     },
@@ -2004,6 +1881,129 @@
                         "map": "Eastern La Noscea",
                         "x": 706,
                         "y": 1319,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "North Isle of Endless Summer",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    
+                ],
+                "visibility_rules": [
+                    
+                ],
+                "sections": [
+                    {
+                        "name": "Merlthor Goby",
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Merlthor Goby"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Merlthor Goby"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Blowfish",
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Blowfish"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Blowfish"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Leafy Seadragon",
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Leafy Seadragon"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Leafy Seadragon"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Wahoo",
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Wahoo"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Wahoo"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Little Thalaos",
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Little Thalaos"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Little Thalaos"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Shall Shell",
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Shall Shell"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Shall Shell"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Megalodon",
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Megalodon"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Megalodon"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Giant Squid",
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Giant Squid"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Giant Squid"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Castaway Chocobo Chick",
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Castaway Chocobo Chick"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Castaway Chocobo Chick"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Little Perykos",
+                        "access_rules": [
+                            "^$fishAccess|Eastern La Noscea|Little Perykos"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Little Perykos"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Eastern La Noscea",
+                        "x": 1742,
+                        "y": 1287,
                         "size": 40,
                         "shape": "rect"
                     }
