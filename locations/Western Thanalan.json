@@ -129,9 +129,11 @@
                     {
                         "name": "Castrum Marinum (Extreme)",
                         "access_rules": [
+                            "$leveling:80"
+                        ],
+                        "visibility_rules": [
                             "duty_difficulty_ex, $duty_visibility|Castrum Marinum (Extreme), level_cap:80"
                         ],
-                        "visibility_rules": [],
                         "item_count": 1
                     }
                 ],
