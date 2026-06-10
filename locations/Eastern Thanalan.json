@@ -1092,22 +1092,22 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Sundisc",
-                        "access_rules": [
-                            "^$fishAccess|Eastern Thanalan|Sundisc"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Sundisc"
-                        ],
-                        "item_count": 1
-                    },
-                    {
                         "name": "Gigantpole",
                         "access_rules": [
                             "^$fishAccess|Eastern Thanalan|Gigantpole"
                         ],
                         "visibility_rules": [
                             "$fishVisibility|Gigantpole"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Sundisc",
+                        "access_rules": [
+                            "^$fishAccess|Eastern Thanalan|Sundisc"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Sundisc"
                         ],
                         "item_count": 1
                     },
