@@ -674,7 +674,7 @@
                 ]
             },
             {
-                "name": "The Tangle",
+                "name": "North Silvertear",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -686,12 +686,12 @@
                 ],
                 "sections": [
                     {
-                        "name": "Bone Crayfish",
+                        "name": "Lamp Marimo",
                         "access_rules": [
-                            "^$fishAccess|Mor Dhona|Bone Crayfish"
+                            "^$fishAccess|Mor Dhona|Lamp Marimo"
                         ],
                         "visibility_rules": [
-                            "$fishVisibility|Bone Crayfish"
+                            "$fishVisibility|Lamp Marimo"
                         ],
                         "item_count": 1
                     },
@@ -706,12 +706,12 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Assassin Betta",
+                        "name": "Ignus Snail",
                         "access_rules": [
-                            "^$fishAccess|Mor Dhona|Assassin Betta"
+                            "^$fishAccess|Mor Dhona|Ignus Snail"
                         ],
                         "visibility_rules": [
-                            "$fishVisibility|Assassin Betta"
+                            "$fishVisibility|Ignus Snail"
                         ],
                         "item_count": 1
                     },
@@ -726,12 +726,12 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Boltfish",
+                        "name": "Assassin Betta",
                         "access_rules": [
-                            "^$fishAccess|Mor Dhona|Boltfish"
+                            "^$fishAccess|Mor Dhona|Assassin Betta"
                         ],
                         "visibility_rules": [
-                            "$fishVisibility|Boltfish"
+                            "$fishVisibility|Assassin Betta"
                         ],
                         "item_count": 1
                     },
@@ -746,25 +746,58 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Cadaver Carp",
+                        "name": "Goldfish",
                         "access_rules": [
-                            "^$fishAccess|Mor Dhona|Cadaver Carp"
+                            "^$fishAccess|Mor Dhona|Goldfish"
                         ],
                         "visibility_rules": [
-                            "$fishVisibility|Cadaver Carp"
+                            "$fishVisibility|Goldfish"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Ninja Betta",
+                        "name": "Heliobatis",
                         "access_rules": [
-                            "^$fishAccess|Mor Dhona|Ninja Betta"
+                            "^$fishAccess|Mor Dhona|Heliobatis"
                         ],
                         "visibility_rules": [
-                            "$fishVisibility|Ninja Betta"
+                            "$fishVisibility|Heliobatis"
                         ],
                         "item_count": 1
                     },
+                    {
+                        "name": "Aetherlouse",
+                        "access_rules": [
+                            "^$fishAccess|Mor Dhona|Aetherlouse"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Aetherlouse"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mor Dhona",
+                        "x": 1220,
+                        "y": 603,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "The Deep Tangle",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    
+                ],
+                "visibility_rules": [
+                    
+                ],
+                "sections": [
                     {
                         "name": "Ala Mhigan Fighting Fish",
                         "access_rules": [
@@ -774,13 +807,93 @@
                             "$fishVisibility|Ala Mhigan Fighting Fish"
                         ],
                         "item_count": 1
+                    },
+                    {
+                        "name": "Dark Bass",
+                        "access_rules": [
+                            "^$fishAccess|Mor Dhona|Dark Bass"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Dark Bass"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Mitten Crab",
+                        "access_rules": [
+                            "^$fishAccess|Mor Dhona|Mitten Crab"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Mitten Crab"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Giant Bass",
+                        "access_rules": [
+                            "^$fishAccess|Mor Dhona|Giant Bass"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Giant Bass"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Ignus Snail",
+                        "access_rules": [
+                            "^$fishAccess|Mor Dhona|Ignus Snail"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Ignus Snail"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Knifefish",
+                        "access_rules": [
+                            "^$fishAccess|Mor Dhona|Knifefish"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Knifefish"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Boxing Pleco",
+                        "access_rules": [
+                            "^$fishAccess|Mor Dhona|Boxing Pleco"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Boxing Pleco"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Monke Onke",
+                        "access_rules": [
+                            "^$fishAccess|Mor Dhona|Monke Onke"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Monke Onke"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Ignus Horn",
+                        "access_rules": [
+                            "^$fishAccess|Mor Dhona|Ignus Horn"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Ignus Horn"
+                        ],
+                        "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Mor Dhona",
-                        "x": 655,
-                        "y": 622,
+                        "x": 575,
+                        "y": 519,
                         "size": 40,
                         "shape": "rect"
                     }
@@ -805,6 +918,16 @@
                         ],
                         "visibility_rules": [
                             "$fishVisibility|Mudcrab"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Lamp Marimo",
+                        "access_rules": [
+                            "^$fishAccess|Mor Dhona|Lamp Marimo"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Lamp Marimo"
                         ],
                         "item_count": 1
                     },
@@ -869,16 +992,6 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Lamp Marimo",
-                        "access_rules": [
-                            "^$fishAccess|Mor Dhona|Lamp Marimo"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Lamp Marimo"
-                        ],
-                        "item_count": 1
-                    },
-                    {
                         "name": "Blood Red Bonytongue",
                         "access_rules": [
                             "^$fishAccess|Mor Dhona|Blood Red Bonytongue"
@@ -900,232 +1013,6 @@
                 ]
             },
             {
-                "name": "The Deep Tangle",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    
-                ],
-                "visibility_rules": [
-                    
-                ],
-                "sections": [
-                    {
-                        "name": "Dark Bass",
-                        "access_rules": [
-                            "^$fishAccess|Mor Dhona|Dark Bass"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Dark Bass"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Mitten Crab",
-                        "access_rules": [
-                            "^$fishAccess|Mor Dhona|Mitten Crab"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Mitten Crab"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Monke Onke",
-                        "access_rules": [
-                            "^$fishAccess|Mor Dhona|Monke Onke"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Monke Onke"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Giant Bass",
-                        "access_rules": [
-                            "^$fishAccess|Mor Dhona|Giant Bass"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Giant Bass"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Ignus Snail",
-                        "access_rules": [
-                            "^$fishAccess|Mor Dhona|Ignus Snail"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Ignus Snail"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Knifefish",
-                        "access_rules": [
-                            "^$fishAccess|Mor Dhona|Knifefish"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Knifefish"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Ignus Horn",
-                        "access_rules": [
-                            "^$fishAccess|Mor Dhona|Ignus Horn"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Ignus Horn"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Ala Mhigan Fighting Fish",
-                        "access_rules": [
-                            "^$fishAccess|Mor Dhona|Ala Mhigan Fighting Fish"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Ala Mhigan Fighting Fish"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Boxing Pleco",
-                        "access_rules": [
-                            "^$fishAccess|Mor Dhona|Boxing Pleco"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Boxing Pleco"
-                        ],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Mor Dhona",
-                        "x": 575,
-                        "y": 519,
-                        "size": 40,
-                        "shape": "rect"
-                    }
-                ]
-            },
-            {
-                "name": "North Silvertear",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    
-                ],
-                "visibility_rules": [
-                    
-                ],
-                "sections": [
-                    {
-                        "name": "Silverfish",
-                        "access_rules": [
-                            "^$fishAccess|Mor Dhona|Silverfish"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Silverfish"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Ignus Snail",
-                        "access_rules": [
-                            "^$fishAccess|Mor Dhona|Ignus Snail"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Ignus Snail"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Assassin Betta",
-                        "access_rules": [
-                            "^$fishAccess|Mor Dhona|Assassin Betta"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Assassin Betta"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Sludgeskipper",
-                        "access_rules": [
-                            "^$fishAccess|Mor Dhona|Sludgeskipper"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Sludgeskipper"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Ilsabardian Bass",
-                        "access_rules": [
-                            "^$fishAccess|Mor Dhona|Ilsabardian Bass"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Ilsabardian Bass"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Goldfish",
-                        "access_rules": [
-                            "^$fishAccess|Mor Dhona|Goldfish"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Goldfish"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Heliobatis",
-                        "access_rules": [
-                            "^$fishAccess|Mor Dhona|Heliobatis"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Heliobatis"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Lamp Marimo",
-                        "access_rules": [
-                            "^$fishAccess|Mor Dhona|Lamp Marimo"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Lamp Marimo"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Aetherlouse",
-                        "access_rules": [
-                            "^$fishAccess|Mor Dhona|Aetherlouse"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Aetherlouse"
-                        ],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Mor Dhona",
-                        "x": 1220,
-                        "y": 603,
-                        "size": 40,
-                        "shape": "rect"
-                    }
-                ]
-            },
-            {
                 "name": "Rathefrost",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
@@ -1138,6 +1025,16 @@
                 ],
                 "sections": [
                     {
+                        "name": "Lamp Marimo",
+                        "access_rules": [
+                            "^$fishAccess|Mor Dhona|Lamp Marimo"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Lamp Marimo"
+                        ],
+                        "item_count": 1
+                    },
+                    {
                         "name": "Silverfish",
                         "access_rules": [
                             "^$fishAccess|Mor Dhona|Silverfish"
@@ -1184,16 +1081,6 @@
                         ],
                         "visibility_rules": [
                             "$fishVisibility|Assassin Betta"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Sludgeskipper",
-                        "access_rules": [
-                            "^$fishAccess|Mor Dhona|Sludgeskipper"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Sludgeskipper"
                         ],
                         "item_count": 1
                     },
@@ -1228,16 +1115,6 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Lamp Marimo",
-                        "access_rules": [
-                            "^$fishAccess|Mor Dhona|Lamp Marimo"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Lamp Marimo"
-                        ],
-                        "item_count": 1
-                    },
-                    {
                         "name": "Void Bass",
                         "access_rules": [
                             "^$fishAccess|Mor Dhona|Void Bass"
@@ -1259,6 +1136,119 @@
                 ]
             },
             {
+                "name": "The Tangle",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    
+                ],
+                "visibility_rules": [
+                    
+                ],
+                "sections": [
+                    {
+                        "name": "Bone Crayfish",
+                        "access_rules": [
+                            "^$fishAccess|Mor Dhona|Bone Crayfish"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Bone Crayfish"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Ala Mhigan Fighting Fish",
+                        "access_rules": [
+                            "^$fishAccess|Mor Dhona|Ala Mhigan Fighting Fish"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Ala Mhigan Fighting Fish"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Silverfish",
+                        "access_rules": [
+                            "^$fishAccess|Mor Dhona|Silverfish"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Silverfish"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Sludgeskipper",
+                        "access_rules": [
+                            "^$fishAccess|Mor Dhona|Sludgeskipper"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Sludgeskipper"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Assassin Betta",
+                        "access_rules": [
+                            "^$fishAccess|Mor Dhona|Assassin Betta"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Assassin Betta"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Boltfish",
+                        "access_rules": [
+                            "^$fishAccess|Mor Dhona|Boltfish"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Boltfish"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Ilsabardian Bass",
+                        "access_rules": [
+                            "^$fishAccess|Mor Dhona|Ilsabardian Bass"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Ilsabardian Bass"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cadaver Carp",
+                        "access_rules": [
+                            "^$fishAccess|Mor Dhona|Cadaver Carp"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Cadaver Carp"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Ninja Betta",
+                        "access_rules": [
+                            "^$fishAccess|Mor Dhona|Ninja Betta"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Ninja Betta"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mor Dhona",
+                        "x": 655,
+                        "y": 622,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
                 "name": "The North Shards",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
@@ -1270,6 +1260,16 @@
                     
                 ],
                 "sections": [
+                    {
+                        "name": "Lamp Marimo",
+                        "access_rules": [
+                            "^$fishAccess|Mor Dhona|Lamp Marimo"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Lamp Marimo"
+                        ],
+                        "item_count": 1
+                    },
                     {
                         "name": "Silverfish",
                         "access_rules": [
@@ -1337,16 +1337,6 @@
                         ],
                         "visibility_rules": [
                             "$fishVisibility|Morinabaligi"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Lamp Marimo",
-                        "access_rules": [
-                            "^$fishAccess|Mor Dhona|Lamp Marimo"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Lamp Marimo"
                         ],
                         "item_count": 1
                     },
