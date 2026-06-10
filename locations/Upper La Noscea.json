@@ -496,6 +496,129 @@
                 ]
             },
             {
+                "name": "Oakwood",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    
+                ],
+                "visibility_rules": [
+                    
+                ],
+                "sections": [
+                    {
+                        "name": "River Crab",
+                        "access_rules": [
+                            "^$fishAccess|Upper La Noscea|River Crab"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|River Crab"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Faerie Bass",
+                        "access_rules": [
+                            "^$fishAccess|Upper La Noscea|Faerie Bass"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Faerie Bass"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Jade Eel",
+                        "access_rules": [
+                            "^$fishAccess|Upper La Noscea|Jade Eel"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Jade Eel"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Pond Mussel",
+                        "access_rules": [
+                            "^$fishAccess|Upper La Noscea|Pond Mussel"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Pond Mussel"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Warmwater Trout",
+                        "access_rules": [
+                            "^$fishAccess|Upper La Noscea|Warmwater Trout"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Warmwater Trout"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Four-eyed Fish",
+                        "access_rules": [
+                            "^$fishAccess|Upper La Noscea|Four-eyed Fish"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Four-eyed Fish"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Dark Bass",
+                        "access_rules": [
+                            "^$fishAccess|Upper La Noscea|Dark Bass"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Dark Bass"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Common Sculpin",
+                        "access_rules": [
+                            "^$fishAccess|Upper La Noscea|Common Sculpin"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Common Sculpin"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Coeurlfish",
+                        "access_rules": [
+                            "^$fishAccess|Upper La Noscea|Coeurlfish"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Coeurlfish"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Toramafish",
+                        "access_rules": [
+                            "^$fishAccess|Upper La Noscea|Toramafish"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Toramafish"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Upper La Noscea",
+                        "x": 639,
+                        "y": 1123,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
                 "name": "Fool Falls",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
@@ -702,129 +825,6 @@
                 ]
             },
             {
-                "name": "Oakwood",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    
-                ],
-                "visibility_rules": [
-                    
-                ],
-                "sections": [
-                    {
-                        "name": "River Crab",
-                        "access_rules": [
-                            "^$fishAccess|Upper La Noscea|River Crab"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|River Crab"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Faerie Bass",
-                        "access_rules": [
-                            "^$fishAccess|Upper La Noscea|Faerie Bass"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Faerie Bass"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Jade Eel",
-                        "access_rules": [
-                            "^$fishAccess|Upper La Noscea|Jade Eel"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Jade Eel"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Pond Mussel",
-                        "access_rules": [
-                            "^$fishAccess|Upper La Noscea|Pond Mussel"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Pond Mussel"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Warmwater Trout",
-                        "access_rules": [
-                            "^$fishAccess|Upper La Noscea|Warmwater Trout"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Warmwater Trout"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Four-eyed Fish",
-                        "access_rules": [
-                            "^$fishAccess|Upper La Noscea|Four-eyed Fish"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Four-eyed Fish"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Dark Bass",
-                        "access_rules": [
-                            "^$fishAccess|Upper La Noscea|Dark Bass"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Dark Bass"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Common Sculpin",
-                        "access_rules": [
-                            "^$fishAccess|Upper La Noscea|Common Sculpin"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Common Sculpin"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Coeurlfish",
-                        "access_rules": [
-                            "^$fishAccess|Upper La Noscea|Coeurlfish"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Coeurlfish"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Toramafish",
-                        "access_rules": [
-                            "^$fishAccess|Upper La Noscea|Toramafish"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Toramafish"
-                        ],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Upper La Noscea",
-                        "x": 639,
-                        "y": 1123,
-                        "size": 40,
-                        "shape": "rect"
-                    }
-                ]
-            },
-            {
                 "name": "Northeast Bronze Lake",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
@@ -877,6 +877,16 @@
                         "item_count": 1
                     },
                     {
+                        "name": "Mitten Crab",
+                        "access_rules": [
+                            "^$fishAccess|Upper La Noscea|Mitten Crab"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Mitten Crab"
+                        ],
+                        "item_count": 1
+                    },
+                    {
                         "name": "Silverfish",
                         "access_rules": [
                             "^$fishAccess|Upper La Noscea|Silverfish"
@@ -923,16 +933,6 @@
                         ],
                         "visibility_rules": [
                             "$fishVisibility|King of the Spring"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Mitten Crab",
-                        "access_rules": [
-                            "^$fishAccess|Upper La Noscea|Mitten Crab"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Mitten Crab"
                         ],
                         "item_count": 1
                     }
