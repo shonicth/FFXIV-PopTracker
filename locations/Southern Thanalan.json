@@ -1004,6 +1004,89 @@
                 ]
             },
             {
+                "name": "Burnt Lizard Creek",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    
+                ],
+                "visibility_rules": [
+                    
+                ],
+                "sections": [
+                    {
+                        "name": "Copperfish",
+                        "access_rules": [
+                            "^$fishAccess|Southern Thanalan|Copperfish"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Copperfish"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Warmwater Trout",
+                        "access_rules": [
+                            "^$fishAccess|Southern Thanalan|Warmwater Trout"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Warmwater Trout"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Dark Bass",
+                        "access_rules": [
+                            "^$fishAccess|Southern Thanalan|Dark Bass"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Dark Bass"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Lamprey",
+                        "access_rules": [
+                            "^$fishAccess|Southern Thanalan|Lamprey"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Lamprey"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Plaguefish",
+                        "access_rules": [
+                            "^$fishAccess|Southern Thanalan|Plaguefish"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Plaguefish"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Old Hollow Eyes",
+                        "access_rules": [
+                            "^$fishAccess|Southern Thanalan|Old Hollow Eyes"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Old Hollow Eyes"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Southern Thanalan",
+                        "x": 1042,
+                        "y": 701,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
                 "name": "Zaharak",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
@@ -1101,89 +1184,6 @@
                         "map": "Southern Thanalan",
                         "x": 1220,
                         "y": 1008,
-                        "size": 40,
-                        "shape": "rect"
-                    }
-                ]
-            },
-            {
-                "name": "Burnt Lizard Creek",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    
-                ],
-                "visibility_rules": [
-                    
-                ],
-                "sections": [
-                    {
-                        "name": "Copperfish",
-                        "access_rules": [
-                            "^$fishAccess|Southern Thanalan|Copperfish"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Copperfish"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Warmwater Trout",
-                        "access_rules": [
-                            "^$fishAccess|Southern Thanalan|Warmwater Trout"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Warmwater Trout"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Dark Bass",
-                        "access_rules": [
-                            "^$fishAccess|Southern Thanalan|Dark Bass"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Dark Bass"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Lamprey",
-                        "access_rules": [
-                            "^$fishAccess|Southern Thanalan|Lamprey"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Lamprey"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Plaguefish",
-                        "access_rules": [
-                            "^$fishAccess|Southern Thanalan|Plaguefish"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Plaguefish"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Old Hollow Eyes",
-                        "access_rules": [
-                            "^$fishAccess|Southern Thanalan|Old Hollow Eyes"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Old Hollow Eyes"
-                        ],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Southern Thanalan",
-                        "x": 1042,
-                        "y": 701,
                         "size": 40,
                         "shape": "rect"
                     }
@@ -1438,6 +1438,16 @@
                         "item_count": 1
                     },
                     {
+                        "name": "Dustfish",
+                        "access_rules": [
+                            "^$fishAccess|Southern Thanalan|Dustfish"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Dustfish"
+                        ],
+                        "item_count": 1
+                    },
+                    {
                         "name": "Storm Rider",
                         "access_rules": [
                             "^$fishAccess|Southern Thanalan|Storm Rider"
@@ -1484,16 +1494,6 @@
                         ],
                         "visibility_rules": [
                             "$fishVisibility|Olgoi-Khorkhoi"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Dustfish",
-                        "access_rules": [
-                            "^$fishAccess|Southern Thanalan|Dustfish"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Dustfish"
                         ],
                         "item_count": 1
                     }
