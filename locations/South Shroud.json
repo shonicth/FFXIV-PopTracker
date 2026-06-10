@@ -787,99 +787,6 @@
                 ]
             },
             {
-                "name": "Rootslake",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    
-                ],
-                "visibility_rules": [
-                    
-                ],
-                "sections": [
-                    {
-                        "name": "Bone Crayfish",
-                        "access_rules": [
-                            "^$fishAccess|South Shroud|Bone Crayfish"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Bone Crayfish"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Climbing Perch",
-                        "access_rules": [
-                            "^$fishAccess|South Shroud|Climbing Perch"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Climbing Perch"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Root Skipper",
-                        "access_rules": [
-                            "^$fishAccess|South Shroud|Root Skipper"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Root Skipper"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Mitten Crab",
-                        "access_rules": [
-                            "^$fishAccess|South Shroud|Mitten Crab"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Mitten Crab"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Armored Pleco",
-                        "access_rules": [
-                            "^$fishAccess|South Shroud|Armored Pleco"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Armored Pleco"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Judgment Staff",
-                        "access_rules": [
-                            "^$fishAccess|South Shroud|Judgment Staff"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Judgment Staff"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Son of Levin",
-                        "access_rules": [
-                            "^$fishAccess|South Shroud|Son of Levin"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Son of Levin"
-                        ],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "South Shroud",
-                        "x": 862,
-                        "y": 1391,
-                        "size": 40,
-                        "shape": "rect"
-                    }
-                ]
-            },
-            {
                 "name": "Upper Hathoeva River",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
@@ -987,119 +894,6 @@
                         "map": "South Shroud",
                         "x": 826,
                         "y": 894,
-                        "size": 40,
-                        "shape": "rect"
-                    }
-                ]
-            },
-            {
-                "name": "Middle Hathoeva River",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    
-                ],
-                "visibility_rules": [
-                    
-                ],
-                "sections": [
-                    {
-                        "name": "Seema",
-                        "access_rules": [
-                            "^$fishAccess|South Shroud|Seema"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Seema"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Rainbow Trout",
-                        "access_rules": [
-                            "^$fishAccess|South Shroud|Rainbow Trout"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Rainbow Trout"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Dark Sleeper",
-                        "access_rules": [
-                            "^$fishAccess|South Shroud|Dark Sleeper"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Dark Sleeper"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Five-ilm Pleco",
-                        "access_rules": [
-                            "^$fishAccess|South Shroud|Five-ilm Pleco"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Five-ilm Pleco"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Yugram Salmon",
-                        "access_rules": [
-                            "^$fishAccess|South Shroud|Yugr'am Salmon"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Yugr'am Salmon"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Mitten Crab",
-                        "access_rules": [
-                            "^$fishAccess|South Shroud|Mitten Crab"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Mitten Crab"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Armored Pleco",
-                        "access_rules": [
-                            "^$fishAccess|South Shroud|Armored Pleco"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Armored Pleco"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Velodyna Carp",
-                        "access_rules": [
-                            "^$fishAccess|South Shroud|Velodyna Carp"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Velodyna Carp"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Sinker",
-                        "access_rules": [
-                            "^$fishAccess|South Shroud|The Sinker"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|The Sinker"
-                        ],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "South Shroud",
-                        "x": 932,
-                        "y": 1069,
                         "size": 40,
                         "shape": "rect"
                     }
@@ -1342,6 +1136,119 @@
                 ]
             },
             {
+                "name": "Middle Hathoeva River",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    
+                ],
+                "visibility_rules": [
+                    
+                ],
+                "sections": [
+                    {
+                        "name": "Rainbow Trout",
+                        "access_rules": [
+                            "^$fishAccess|South Shroud|Rainbow Trout"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Rainbow Trout"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Dark Sleeper",
+                        "access_rules": [
+                            "^$fishAccess|South Shroud|Dark Sleeper"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Dark Sleeper"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Five-ilm Pleco",
+                        "access_rules": [
+                            "^$fishAccess|South Shroud|Five-ilm Pleco"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Five-ilm Pleco"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Yugram Salmon",
+                        "access_rules": [
+                            "^$fishAccess|South Shroud|Yugr'am Salmon"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Yugr'am Salmon"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Mitten Crab",
+                        "access_rules": [
+                            "^$fishAccess|South Shroud|Mitten Crab"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Mitten Crab"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Seema",
+                        "access_rules": [
+                            "^$fishAccess|South Shroud|Seema"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Seema"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Armored Pleco",
+                        "access_rules": [
+                            "^$fishAccess|South Shroud|Armored Pleco"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Armored Pleco"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Velodyna Carp",
+                        "access_rules": [
+                            "^$fishAccess|South Shroud|Velodyna Carp"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Velodyna Carp"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "The Sinker",
+                        "access_rules": [
+                            "^$fishAccess|South Shroud|The Sinker"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|The Sinker"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "South Shroud",
+                        "x": 932,
+                        "y": 1069,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
                 "name": "Goblinblood",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
@@ -1390,6 +1297,16 @@
                         ],
                         "visibility_rules": [
                             "$fishVisibility|Five-ilm Pleco"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Black Ghost",
+                        "access_rules": [
+                            "^$fishAccess|South Shroud|Black Ghost"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Black Ghost"
                         ],
                         "item_count": 1
                     },
@@ -1455,6 +1372,99 @@
                 ]
             },
             {
+                "name": "Rootslake",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    
+                ],
+                "visibility_rules": [
+                    
+                ],
+                "sections": [
+                    {
+                        "name": "Bone Crayfish",
+                        "access_rules": [
+                            "^$fishAccess|South Shroud|Bone Crayfish"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Bone Crayfish"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Climbing Perch",
+                        "access_rules": [
+                            "^$fishAccess|South Shroud|Climbing Perch"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Climbing Perch"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Root Skipper",
+                        "access_rules": [
+                            "^$fishAccess|South Shroud|Root Skipper"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Root Skipper"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Mitten Crab",
+                        "access_rules": [
+                            "^$fishAccess|South Shroud|Mitten Crab"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Mitten Crab"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Armored Pleco",
+                        "access_rules": [
+                            "^$fishAccess|South Shroud|Armored Pleco"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Armored Pleco"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Judgment Staff",
+                        "access_rules": [
+                            "^$fishAccess|South Shroud|Judgment Staff"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Judgment Staff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Son of Levin",
+                        "access_rules": [
+                            "^$fishAccess|South Shroud|Son of Levin"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Son of Levin"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "South Shroud",
+                        "x": 862,
+                        "y": 1391,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
                 "name": "Urths Gift",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
@@ -1477,6 +1487,16 @@
                         "item_count": 1
                     },
                     {
+                        "name": "Monke Onke",
+                        "access_rules": [
+                            "^$fishAccess|South Shroud|Monke Onke"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Monke Onke"
+                        ],
+                        "item_count": 1
+                    },
+                    {
                         "name": "Bonytongue",
                         "access_rules": [
                             "^$fishAccess|South Shroud|Bonytongue"
@@ -1493,16 +1513,6 @@
                         ],
                         "visibility_rules": [
                             "$fishVisibility|Mitten Crab"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Monke Onke",
-                        "access_rules": [
-                            "^$fishAccess|South Shroud|Monke Onke"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Monke Onke"
                         ],
                         "item_count": 1
                     },
