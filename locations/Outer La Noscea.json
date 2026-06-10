@@ -493,6 +493,99 @@
                 ]
             },
             {
+                "name": "The Long Climb",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    
+                ],
+                "visibility_rules": [
+                    
+                ],
+                "sections": [
+                    {
+                        "name": "Giant Bass",
+                        "access_rules": [
+                            "^$fishAccess|Outer La Noscea|Giant Bass"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Giant Bass"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Ignus Snail",
+                        "access_rules": [
+                            "^$fishAccess|Outer La Noscea|Ignus Snail"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Ignus Snail"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Thunderbolt Sculpin",
+                        "access_rules": [
+                            "^$fishAccess|Outer La Noscea|Thunderbolt Sculpin"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Thunderbolt Sculpin"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Warmwater Trout",
+                        "access_rules": [
+                            "^$fishAccess|Outer La Noscea|Warmwater Trout"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Warmwater Trout"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bronze Lake Trout",
+                        "access_rules": [
+                            "^$fishAccess|Outer La Noscea|Bronze Lake Trout"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Bronze Lake Trout"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Giant Donko",
+                        "access_rules": [
+                            "^$fishAccess|Outer La Noscea|Giant Donko"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Giant Donko"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Thundergut",
+                        "access_rules": [
+                            "^$fishAccess|Outer La Noscea|Thundergut"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Thundergut"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Outer La Noscea",
+                        "x": 736,
+                        "y": 463,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
                 "name": "Northwest Bronze Lake",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
@@ -610,99 +703,6 @@
                         "map": "Outer La Noscea",
                         "x": 913,
                         "y": 848,
-                        "size": 40,
-                        "shape": "rect"
-                    }
-                ]
-            },
-            {
-                "name": "The Long Climb",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    
-                ],
-                "visibility_rules": [
-                    
-                ],
-                "sections": [
-                    {
-                        "name": "Warmwater Trout",
-                        "access_rules": [
-                            "^$fishAccess|Outer La Noscea|Warmwater Trout"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Warmwater Trout"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Giant Bass",
-                        "access_rules": [
-                            "^$fishAccess|Outer La Noscea|Giant Bass"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Giant Bass"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Bronze Lake Trout",
-                        "access_rules": [
-                            "^$fishAccess|Outer La Noscea|Bronze Lake Trout"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Bronze Lake Trout"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Ignus Snail",
-                        "access_rules": [
-                            "^$fishAccess|Outer La Noscea|Ignus Snail"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Ignus Snail"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Thunderbolt Sculpin",
-                        "access_rules": [
-                            "^$fishAccess|Outer La Noscea|Thunderbolt Sculpin"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Thunderbolt Sculpin"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Giant Donko",
-                        "access_rules": [
-                            "^$fishAccess|Outer La Noscea|Giant Donko"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Giant Donko"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Thundergut",
-                        "access_rules": [
-                            "^$fishAccess|Outer La Noscea|Thundergut"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Thundergut"
-                        ],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Outer La Noscea",
-                        "x": 736,
-                        "y": 463,
                         "size": 40,
                         "shape": "rect"
                     }
