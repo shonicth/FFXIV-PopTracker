@@ -882,16 +882,6 @@
                 "visibility_rules": [],
                 "sections": [
                     {
-                        "name": "Brass Loach",
-                        "access_rules": [
-                            "^$fishAccess|Central Shroud|Brass Loach"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Brass Loach"
-                        ],
-                        "item_count": 1
-                    },
-                    {
                         "name": "Crayfish",
                         "access_rules": [
                             "^$fishAccess|Central Shroud|Crayfish"
@@ -928,6 +918,16 @@
                         ],
                         "visibility_rules": [
                             "$fishVisibility|Gudgeon"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Brass Loach",
+                        "access_rules": [
+                            "^$fishAccess|Central Shroud|Brass Loach"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Brass Loach"
                         ],
                         "item_count": 1
                     },
@@ -1011,6 +1011,16 @@
                         "item_count": 1
                     },
                     {
+                        "name": "Brass Loach",
+                        "access_rules": [
+                            "^$fishAccess|Central Shroud|Brass Loach"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Brass Loach"
+                        ],
+                        "item_count": 1
+                    },
+                    {
                         "name": "Maiden Carp",
                         "access_rules": [
                             "^$fishAccess|Central Shroud|Maiden Carp"
@@ -1049,16 +1059,6 @@
                             "$fishVisibility|Ghost Carp"
                         ],
                         "item_count": 1
-                    },
-                    {
-                        "name": "Brass Loach",
-                        "access_rules": [
-                            "^$fishAccess|Central Shroud|Brass Loach"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Brass Loach"
-                        ],
-                        "item_count": 1
                     }
                 ],
                 "map_locations": [
@@ -1072,7 +1072,7 @@
                 ]
             },
             {
-                "name": "Hopeseed Pond",
+                "name": "Everschade",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -1080,12 +1080,12 @@
                 "visibility_rules": [],
                 "sections": [
                     {
-                        "name": "Mudskipper",
+                        "name": "Black Eel",
                         "access_rules": [
-                            "^$fishAccess|Central Shroud|Mudskipper"
+                            "^$fishAccess|Central Shroud|Black Eel"
                         ],
                         "visibility_rules": [
-                            "$fishVisibility|Mudskipper"
+                            "$fishVisibility|Black Eel"
                         ],
                         "item_count": 1
                     },
@@ -1099,6 +1099,75 @@
                         ],
                         "item_count": 1
                     },
+                    {
+                        "name": "Monke Onke",
+                        "access_rules": [
+                            "^$fishAccess|Central Shroud|Monke Onke"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Monke Onke"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Mitten Crab",
+                        "access_rules": [
+                            "^$fishAccess|Central Shroud|Mitten Crab"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Mitten Crab"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Spotted Pleco",
+                        "access_rules": [
+                            "^$fishAccess|Central Shroud|Spotted Pleco"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Spotted Pleco"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bonytongue",
+                        "access_rules": [
+                            "^$fishAccess|Central Shroud|Bonytongue"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Bonytongue"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Levinlight",
+                        "access_rules": [
+                            "^$fishAccess|Central Shroud|Levinlight"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Levinlight"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Central Shroud",
+                        "x": 739,
+                        "y": 1153,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Hopeseed Pond",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [],
+                "visibility_rules": [],
+                "sections": [
                     {
                         "name": "Mudcrab",
                         "access_rules": [
@@ -1130,12 +1199,22 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Seema",
+                        "name": "Ala Mhigan Fighting Fish",
                         "access_rules": [
-                            "^$fishAccess|Central Shroud|Seema"
+                            "^$fishAccess|Central Shroud|Ala Mhigan Fighting Fish"
                         ],
                         "visibility_rules": [
-                            "$fishVisibility|Seema"
+                            "$fishVisibility|Ala Mhigan Fighting Fish"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Mudskipper",
+                        "access_rules": [
+                            "^$fishAccess|Central Shroud|Mudskipper"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Mudskipper"
                         ],
                         "item_count": 1
                     },
@@ -1146,6 +1225,16 @@
                         ],
                         "visibility_rules": [
                             "$fishVisibility|Clown Loach"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Seema",
+                        "access_rules": [
+                            "^$fishAccess|Central Shroud|Seema"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Seema"
                         ],
                         "item_count": 1
                     },
@@ -1245,95 +1334,6 @@
                         "map": "Central Shroud",
                         "x": 520,
                         "y": 1097,
-                        "size": 40,
-                        "shape": "rect"
-                    }
-                ]
-            },
-            {
-                "name": "Everschade",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [],
-                "visibility_rules": [],
-                "sections": [
-                    {
-                        "name": "Ala Mhigan Fighting Fish",
-                        "access_rules": [
-                            "^$fishAccess|Central Shroud|Ala Mhigan Fighting Fish"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Ala Mhigan Fighting Fish"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Black Eel",
-                        "access_rules": [
-                            "^$fishAccess|Central Shroud|Black Eel"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Black Eel"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Spotted Pleco",
-                        "access_rules": [
-                            "^$fishAccess|Central Shroud|Spotted Pleco"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Spotted Pleco"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Bonytongue",
-                        "access_rules": [
-                            "^$fishAccess|Central Shroud|Bonytongue"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Bonytongue"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Mitten Crab",
-                        "access_rules": [
-                            "^$fishAccess|Central Shroud|Mitten Crab"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Mitten Crab"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Monke Onke",
-                        "access_rules": [
-                            "^$fishAccess|Central Shroud|Monke Onke"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Monke Onke"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Levinlight",
-                        "access_rules": [
-                            "^$fishAccess|Central Shroud|Levinlight"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Levinlight"
-                        ],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Central Shroud",
-                        "x": 739,
-                        "y": 1153,
                         "size": 40,
                         "shape": "rect"
                     }
