@@ -902,22 +902,22 @@
                 ],
                 "sections": [
                     {
-                        "name": "Striped Goby",
-                        "access_rules": [
-                            "^$fishAccess|East Shroud|Striped Goby"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Striped Goby"
-                        ],
-                        "item_count": 1
-                    },
-                    {
                         "name": "Bone Crayfish",
                         "access_rules": [
                             "^$fishAccess|East Shroud|Bone Crayfish"
                         ],
                         "visibility_rules": [
                             "$fishVisibility|Bone Crayfish"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Striped Goby",
+                        "access_rules": [
+                            "^$fishAccess|East Shroud|Striped Goby"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Striped Goby"
                         ],
                         "item_count": 1
                     },
@@ -987,6 +987,109 @@
                         "map": "East Shroud",
                         "x": 424,
                         "y": 1087,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Springripple Brook",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    
+                ],
+                "visibility_rules": [
+                    
+                ],
+                "sections": [
+                    {
+                        "name": "Brass Loach",
+                        "access_rules": [
+                            "^$fishAccess|East Shroud|Brass Loach"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Brass Loach"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Maiden Carp",
+                        "access_rules": [
+                            "^$fishAccess|East Shroud|Maiden Carp"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Maiden Carp"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Rainbow Trout",
+                        "access_rules": [
+                            "^$fishAccess|East Shroud|Rainbow Trout"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Rainbow Trout"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "River Crab",
+                        "access_rules": [
+                            "^$fishAccess|East Shroud|River Crab"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|River Crab"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Ala Mhigan Fighting Fish",
+                        "access_rules": [
+                            "^$fishAccess|East Shroud|Ala Mhigan Fighting Fish"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Ala Mhigan Fighting Fish"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bluebell Salmon",
+                        "access_rules": [
+                            "^$fishAccess|East Shroud|Bluebell Salmon"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Bluebell Salmon"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Eunuch Crayfish",
+                        "access_rules": [
+                            "^$fishAccess|East Shroud|Eunuch Crayfish"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Eunuch Crayfish"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Moldva",
+                        "access_rules": [
+                            "^$fishAccess|East Shroud|Moldva"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Moldva"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "East Shroud",
+                        "x": 1154,
+                        "y": 1215,
                         "size": 40,
                         "shape": "rect"
                     }
@@ -1090,109 +1193,6 @@
                         "map": "East Shroud",
                         "x": 835,
                         "y": 799,
-                        "size": 40,
-                        "shape": "rect"
-                    }
-                ]
-            },
-            {
-                "name": "Springripple Brook",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    
-                ],
-                "visibility_rules": [
-                    
-                ],
-                "sections": [
-                    {
-                        "name": "Maiden Carp",
-                        "access_rules": [
-                            "^$fishAccess|East Shroud|Maiden Carp"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Maiden Carp"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Rainbow Trout",
-                        "access_rules": [
-                            "^$fishAccess|East Shroud|Rainbow Trout"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Rainbow Trout"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "River Crab",
-                        "access_rules": [
-                            "^$fishAccess|East Shroud|River Crab"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|River Crab"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Ala Mhigan Fighting Fish",
-                        "access_rules": [
-                            "^$fishAccess|East Shroud|Ala Mhigan Fighting Fish"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Ala Mhigan Fighting Fish"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Bluebell Salmon",
-                        "access_rules": [
-                            "^$fishAccess|East Shroud|Bluebell Salmon"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Bluebell Salmon"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Eunuch Crayfish",
-                        "access_rules": [
-                            "^$fishAccess|East Shroud|Eunuch Crayfish"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Eunuch Crayfish"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Moldva",
-                        "access_rules": [
-                            "^$fishAccess|East Shroud|Moldva"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Moldva"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Brass Loach",
-                        "access_rules": [
-                            "^$fishAccess|East Shroud|Brass Loach"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Brass Loach"
-                        ],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "East Shroud",
-                        "x": 1154,
-                        "y": 1215,
                         "size": 40,
                         "shape": "rect"
                     }
