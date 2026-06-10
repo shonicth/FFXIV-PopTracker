@@ -1,10 +1,10 @@
 # FFXIV-PopTracker
 
-Early WIP
+WIP
 
-Current Status(6/7/2026):
+Current Status(6/10/2026):
 
--Everything should be fully implemented, with the exception of implementing fish correctly on aprx 10 zones as of the time of writing this(Sea of Clouds thru Yanxia). Everything else should be fully ready to go with regards to APWorld version v0.28.1. I'm considering a formal release after these 10 zones are finished
+-Everything should be fully implemented wrt APWorld v0.28.1, I'm currently focusing my efforts on reviewing/organizing the fish based on in game fishing log. Currently finished with all the ARR zones for this.
 
 -Assets need to be done, as well as clean up layouts. There are currently a lot of placeholders
 
@@ -18,17 +18,13 @@ ______________
 
 TODO:
 
--Finalize fishsanity implementation
+-Review and order fish based on fish log
 
 -Make a proper readme and make a proper release
-
--Replace the map pngs with jpgs(reducing the file size by 1/10th, making it like <50MB instead of like half a gig)
 
 -Replace all the placeholder images for the items/settings, as well as properly order the baits in a human readable order
 
 -Clean up mapping, maybe merge FATE locations
-
--Review and order fish based on fish log
 
 -Playtest constantly and make sure everything is working
 
