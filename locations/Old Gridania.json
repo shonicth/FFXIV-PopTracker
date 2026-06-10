@@ -21,16 +21,6 @@
                 ],
                 "sections": [
                     {
-                        "name": "Raincaller",
-                        "access_rules": [
-                            "^$fishAccess|Gridania|Raincaller"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Raincaller"
-                        ],
-                        "item_count": 1
-                    },
-                    {
                         "name": "Crayfish",
                         "access_rules": [
                             "^$fishAccess|Gridania|Crayfish"
@@ -77,6 +67,16 @@
                         ],
                         "visibility_rules": [
                             "$fishVisibility|Moat Carp"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Raincaller",
+                        "access_rules": [
+                            "^$fishAccess|Gridania|Raincaller"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Raincaller"
                         ],
                         "item_count": 1
                     },
