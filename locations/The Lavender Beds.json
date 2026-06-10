@@ -31,22 +31,22 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Ala Mhigan Fighting Fish",
-                        "access_rules": [
-                            "^$fishAccess|The Lavender Beds|Ala Mhigan Fighting Fish"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Ala Mhigan Fighting Fish"
-                        ],
-                        "item_count": 1
-                    },
-                    {
                         "name": "Dark Sleeper",
                         "access_rules": [
                             "^$fishAccess|The Lavender Beds|Dark Sleeper"
                         ],
                         "visibility_rules": [
                             "$fishVisibility|Dark Sleeper"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Ala Mhigan Fighting Fish",
+                        "access_rules": [
+                            "^$fishAccess|The Lavender Beds|Ala Mhigan Fighting Fish"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Ala Mhigan Fighting Fish"
                         ],
                         "item_count": 1
                     },
