@@ -21,6 +21,16 @@
                 ],
                 "sections": [
                     {
+                        "name": "Brass Loach",
+                        "access_rules": [
+                            "^$fishAccess|The Goblet|Brass Loach"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Brass Loach"
+                        ],
+                        "item_count": 1
+                    },
+                    {
                         "name": "Faerie Bass",
                         "access_rules": [
                             "^$fishAccess|The Goblet|Faerie Bass"
@@ -97,16 +107,6 @@
                         ],
                         "visibility_rules": [
                             "$fishVisibility|Spearnose"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Brass Loach",
-                        "access_rules": [
-                            "^$fishAccess|The Goblet|Brass Loach"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Brass Loach"
                         ],
                         "item_count": 1
                     }
