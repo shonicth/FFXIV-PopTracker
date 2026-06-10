@@ -549,6 +549,16 @@
                         "item_count": 1
                     },
                     {
+                        "name": "Brass Loach",
+                        "access_rules": [
+                            "^$fishAccess|Central Thanalan|Brass Loach"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Brass Loach"
+                        ],
+                        "item_count": 1
+                    },
+                    {
                         "name": "Maiden Carp",
                         "access_rules": [
                             "^$fishAccess|Central Thanalan|Maiden Carp"
@@ -575,16 +585,6 @@
                         ],
                         "visibility_rules": [
                             "$fishVisibility|Dream Goby"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Brass Loach",
-                        "access_rules": [
-                            "^$fishAccess|Central Thanalan|Brass Loach"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Brass Loach"
                         ],
                         "item_count": 1
                     }
@@ -630,6 +630,16 @@
                         "item_count": 1
                     },
                     {
+                        "name": "Brass Loach",
+                        "access_rules": [
+                            "^$fishAccess|Central Thanalan|Brass Loach"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Brass Loach"
+                        ],
+                        "item_count": 1
+                    },
+                    {
                         "name": "Maiden Carp",
                         "access_rules": [
                             "^$fishAccess|Central Thanalan|Maiden Carp"
@@ -668,6 +678,47 @@
                             "$fishVisibility|Slime King"
                         ],
                         "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Central Thanalan",
+                        "x": 748,
+                        "y": 1117,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "The Clutch",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                ],
+                "visibility_rules": [
+                ],
+                "sections": [
+                    {
+                        "name": "Bone Crayfish",
+                        "access_rules": [
+                            "^$fishAccess|Central Thanalan|Bone Crayfish"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Bone Crayfish"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Dusk Goby",
+                        "access_rules": [
+                            "^$fishAccess|Central Thanalan|Dusk Goby"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Dusk Goby"
+                        ],
+                        "item_count": 1
                     },
                     {
                         "name": "Brass Loach",
@@ -678,13 +729,43 @@
                             "$fishVisibility|Brass Loach"
                         ],
                         "item_count": 1
+                    },
+                    {
+                        "name": "Maiden Carp",
+                        "access_rules": [
+                            "^$fishAccess|Central Thanalan|Maiden Carp"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Maiden Carp"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Dark Bass",
+                        "access_rules": [
+                            "^$fishAccess|Central Thanalan|Dark Bass"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Dark Bass"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Old Softie",
+                        "access_rules": [
+                            "^$fishAccess|Central Thanalan|Old Softie"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Old Softie"
+                        ],
+                        "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Central Thanalan",
-                        "x": 748,
-                        "y": 1117,
+                        "x": 1427,
+                        "y": 1036,
                         "size": 40,
                         "shape": "rect"
                     }
@@ -731,22 +812,22 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Acorn Snail",
-                        "access_rules": [
-                            "^$fishAccess|Central Thanalan|Acorn Snail"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Acorn Snail"
-                        ],
-                        "item_count": 1
-                    },
-                    {
                         "name": "Mudcrab",
                         "access_rules": [
                             "^$fishAccess|Central Thanalan|Mudcrab"
                         ],
                         "visibility_rules": [
                             "$fishVisibility|Mudcrab"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Acorn Snail",
+                        "access_rules": [
+                            "^$fishAccess|Central Thanalan|Acorn Snail"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Acorn Snail"
                         ],
                         "item_count": 1
                     },
@@ -786,87 +867,6 @@
                         "map": "Central Thanalan",
                         "x": 1335,
                         "y": 905,
-                        "size": 40,
-                        "shape": "rect"
-                    }
-                ]
-            },
-            {
-                "name": "The Clutch",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                ],
-                "visibility_rules": [
-                ],
-                "sections": [
-                    {
-                        "name": "Bone Crayfish",
-                        "access_rules": [
-                            "^$fishAccess|Central Thanalan|Bone Crayfish"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Bone Crayfish"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Dusk Goby",
-                        "access_rules": [
-                            "^$fishAccess|Central Thanalan|Dusk Goby"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Dusk Goby"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Maiden Carp",
-                        "access_rules": [
-                            "^$fishAccess|Central Thanalan|Maiden Carp"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Maiden Carp"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Dark Bass",
-                        "access_rules": [
-                            "^$fishAccess|Central Thanalan|Dark Bass"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Dark Bass"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Old Softie",
-                        "access_rules": [
-                            "^$fishAccess|Central Thanalan|Old Softie"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Old Softie"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Brass Loach",
-                        "access_rules": [
-                            "^$fishAccess|Central Thanalan|Brass Loach"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Brass Loach"
-                        ],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Central Thanalan",
-                        "x": 1427,
-                        "y": 1036,
                         "size": 40,
                         "shape": "rect"
                     }
