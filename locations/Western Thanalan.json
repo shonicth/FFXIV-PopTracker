@@ -720,7 +720,7 @@
                 ]
             },
             {
-                "name": "Cape Westwind",
+                "name": "Nophicas Wells",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -732,102 +732,82 @@
                 ],
                 "sections": [
                     {
-                        "name": "Merlthor Goby",
+                        "name": "Bone Crayfish",
                         "access_rules": [
-                            "^$fishAccess|Western Thanalan|Merlthor Goby"
+                            "^$fishAccess|Western Thanalan|Bone Crayfish"
                         ],
                         "visibility_rules": [
-                            "$fishVisibility|Merlthor Goby"
+                            "$fishVisibility|Bone Crayfish"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Haraldr Haddock",
+                        "name": "Dusk Goby",
                         "access_rules": [
-                            "^$fishAccess|Western Thanalan|Haraldr Haddock"
+                            "^$fishAccess|Western Thanalan|Dusk Goby"
                         ],
                         "visibility_rules": [
-                            "$fishVisibility|Haraldr Haddock"
+                            "$fishVisibility|Dusk Goby"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Whitelip Oyster",
+                        "name": "Gudgeon",
                         "access_rules": [
-                            "^$fishAccess|Western Thanalan|Whitelip Oyster"
+                            "^$fishAccess|Western Thanalan|Gudgeon"
                         ],
                         "visibility_rules": [
-                            "$fishVisibility|Whitelip Oyster"
+                            "$fishVisibility|Gudgeon"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Silver Shark",
+                        "name": "Brass Loach",
                         "access_rules": [
-                            "^$fishAccess|Western Thanalan|Silver Shark"
+                            "^$fishAccess|Western Thanalan|Brass Loach"
                         ],
                         "visibility_rules": [
-                            "$fishVisibility|Silver Shark"
+                            "$fishVisibility|Brass Loach"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Wahoo",
+                        "name": "Maiden Carp",
                         "access_rules": [
-                            "^$fishAccess|Western Thanalan|Wahoo"
+                            "^$fishAccess|Western Thanalan|Maiden Carp"
                         ],
                         "visibility_rules": [
-                            "$fishVisibility|Wahoo"
+                            "$fishVisibility|Maiden Carp"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Plaice",
+                        "name": "Copperfish",
                         "access_rules": [
-                            "^$fishAccess|Western Thanalan|Plaice"
+                            "^$fishAccess|Western Thanalan|Copperfish"
                         ],
                         "visibility_rules": [
-                            "$fishVisibility|Plaice"
+                            "$fishVisibility|Copperfish"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Sea Devil",
+                        "name": "Eunuch Crayfish",
                         "access_rules": [
-                            "^$fishAccess|Western Thanalan|Sea Devil"
+                            "^$fishAccess|Western Thanalan|Eunuch Crayfish"
                         ],
                         "visibility_rules": [
-                            "$fishVisibility|Sea Devil"
+                            "$fishVisibility|Eunuch Crayfish"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Titanic Sawfish",
+                        "name": "Glimmerscale",
                         "access_rules": [
-                            "^$fishAccess|Western Thanalan|Titanic Sawfish"
+                            "^$fishAccess|Western Thanalan|Glimmerscale"
                         ],
                         "visibility_rules": [
-                            "$fishVisibility|Titanic Sawfish"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Blacklip Oyster",
-                        "access_rules": [
-                            "^$fishAccess|Western Thanalan|Blacklip Oyster"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Blacklip Oyster"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Pirates Bane",
-                        "access_rules": [
-                            "^$fishAccess|Western Thanalan|Pirate's Bane"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Pirate's Bane"
+                            "$fishVisibility|Glimmerscale"
                         ],
                         "item_count": 1
                     }
@@ -835,15 +815,15 @@
                 "map_locations": [
                     {
                         "map": "Western Thanalan",
-                        "x": 434,
-                        "y": 284,
+                        "x": 1134,
+                        "y": 1055,
                         "size": 40,
                         "shape": "rect"
                     }
                 ]
             },
             {
-                "name": "The Silver Bazaar",
+                "name": "The Footfalls",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -855,92 +835,82 @@
                 ],
                 "sections": [
                     {
-                        "name": "Lominsan Anchovy",
+                        "name": "Crayfish",
                         "access_rules": [
-                            "^$fishAccess|Western Thanalan|Lominsan Anchovy"
+                            "^$fishAccess|Western Thanalan|Crayfish"
                         ],
                         "visibility_rules": [
-                            "$fishVisibility|Lominsan Anchovy"
+                            "$fishVisibility|Crayfish"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Pebble Crab",
+                        "name": "Mudskipper",
                         "access_rules": [
-                            "^$fishAccess|Western Thanalan|Pebble Crab"
+                            "^$fishAccess|Western Thanalan|Mudskipper"
                         ],
                         "visibility_rules": [
-                            "$fishVisibility|Pebble Crab"
+                            "$fishVisibility|Mudskipper"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Tiger Cod",
+                        "name": "Faerie Bass",
                         "access_rules": [
-                            "^$fishAccess|Western Thanalan|Tiger Cod"
+                            "^$fishAccess|Western Thanalan|Faerie Bass"
                         ],
                         "visibility_rules": [
-                            "$fishVisibility|Tiger Cod"
+                            "$fishVisibility|Faerie Bass"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Rothlyt Oyster",
+                        "name": "Mudcrab",
                         "access_rules": [
-                            "^$fishAccess|Western Thanalan|Rothlyt Oyster"
+                            "^$fishAccess|Western Thanalan|Mudcrab"
                         ],
                         "visibility_rules": [
-                            "$fishVisibility|Rothlyt Oyster"
+                            "$fishVisibility|Mudcrab"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Hammerhead Shark",
+                        "name": "Acorn Snail",
                         "access_rules": [
-                            "^$fishAccess|Western Thanalan|Hammerhead Shark"
+                            "^$fishAccess|Western Thanalan|Acorn Snail"
                         ],
                         "visibility_rules": [
-                            "$fishVisibility|Hammerhead Shark"
+                            "$fishVisibility|Acorn Snail"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Indigo Herring",
+                        "name": "Copperfish",
                         "access_rules": [
-                            "^$fishAccess|Western Thanalan|Indigo Herring"
+                            "^$fishAccess|Western Thanalan|Copperfish"
                         ],
                         "visibility_rules": [
-                            "$fishVisibility|Indigo Herring"
+                            "$fishVisibility|Copperfish"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Haraldr Haddock",
+                        "name": "Eunuch Crayfish",
                         "access_rules": [
-                            "^$fishAccess|Western Thanalan|Haraldr Haddock"
+                            "^$fishAccess|Western Thanalan|Eunuch Crayfish"
                         ],
                         "visibility_rules": [
-                            "$fishVisibility|Haraldr Haddock"
+                            "$fishVisibility|Eunuch Crayfish"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Rock Lobster",
+                        "name": "Mud Golem",
                         "access_rules": [
-                            "^$fishAccess|Western Thanalan|Rock Lobster"
+                            "^$fishAccess|Western Thanalan|Mud Golem"
                         ],
                         "visibility_rules": [
-                            "$fishVisibility|Rock Lobster"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Dirty Herry",
-                        "access_rules": [
-                            "^$fishAccess|Western Thanalan|Dirty Herry"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Dirty Herry"
+                            "$fishVisibility|Mud Golem"
                         ],
                         "item_count": 1
                     }
@@ -948,8 +918,8 @@
                 "map_locations": [
                     {
                         "map": "Western Thanalan",
-                        "x": 694,
-                        "y": 1441,
+                        "x": 798,
+                        "y": 666,
                         "size": 40,
                         "shape": "rect"
                     }
@@ -1111,22 +1081,22 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Rock Lobster",
-                        "access_rules": [
-                            "^$fishAccess|Western Thanalan|Rock Lobster"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Rock Lobster"
-                        ],
-                        "item_count": 1
-                    },
-                    {
                         "name": "Spotted Puffer",
                         "access_rules": [
                             "^$fishAccess|Western Thanalan|Spotted Puffer"
                         ],
                         "visibility_rules": [
                             "$fishVisibility|Spotted Puffer"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Rock Lobster",
+                        "access_rules": [
+                            "^$fishAccess|Western Thanalan|Rock Lobster"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Rock Lobster"
                         ],
                         "item_count": 1
                     },
@@ -1152,7 +1122,7 @@
                 ]
             },
             {
-                "name": "The Footfalls",
+                "name": "The Silver Bazaar",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -1164,82 +1134,92 @@
                 ],
                 "sections": [
                     {
-                        "name": "Crayfish",
+                        "name": "Lominsan Anchovy",
                         "access_rules": [
-                            "^$fishAccess|Western Thanalan|Crayfish"
+                            "^$fishAccess|Western Thanalan|Lominsan Anchovy"
                         ],
                         "visibility_rules": [
-                            "$fishVisibility|Crayfish"
+                            "$fishVisibility|Lominsan Anchovy"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Mudskipper",
+                        "name": "Pebble Crab",
                         "access_rules": [
-                            "^$fishAccess|Western Thanalan|Mudskipper"
+                            "^$fishAccess|Western Thanalan|Pebble Crab"
                         ],
                         "visibility_rules": [
-                            "$fishVisibility|Mudskipper"
+                            "$fishVisibility|Pebble Crab"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Faerie Bass",
+                        "name": "Tiger Cod",
                         "access_rules": [
-                            "^$fishAccess|Western Thanalan|Faerie Bass"
+                            "^$fishAccess|Western Thanalan|Tiger Cod"
                         ],
                         "visibility_rules": [
-                            "$fishVisibility|Faerie Bass"
+                            "$fishVisibility|Tiger Cod"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Acorn Snail",
+                        "name": "Rothlyt Oyster",
                         "access_rules": [
-                            "^$fishAccess|Western Thanalan|Acorn Snail"
+                            "^$fishAccess|Western Thanalan|Rothlyt Oyster"
                         ],
                         "visibility_rules": [
-                            "$fishVisibility|Acorn Snail"
+                            "$fishVisibility|Rothlyt Oyster"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Copperfish",
+                        "name": "Hammerhead Shark",
                         "access_rules": [
-                            "^$fishAccess|Western Thanalan|Copperfish"
+                            "^$fishAccess|Western Thanalan|Hammerhead Shark"
                         ],
                         "visibility_rules": [
-                            "$fishVisibility|Copperfish"
+                            "$fishVisibility|Hammerhead Shark"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Mudcrab",
+                        "name": "Indigo Herring",
                         "access_rules": [
-                            "^$fishAccess|Western Thanalan|Mudcrab"
+                            "^$fishAccess|Western Thanalan|Indigo Herring"
                         ],
                         "visibility_rules": [
-                            "$fishVisibility|Mudcrab"
+                            "$fishVisibility|Indigo Herring"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Eunuch Crayfish",
+                        "name": "Haraldr Haddock",
                         "access_rules": [
-                            "^$fishAccess|Western Thanalan|Eunuch Crayfish"
+                            "^$fishAccess|Western Thanalan|Haraldr Haddock"
                         ],
                         "visibility_rules": [
-                            "$fishVisibility|Eunuch Crayfish"
+                            "$fishVisibility|Haraldr Haddock"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Mud Golem",
+                        "name": "Rock Lobster",
                         "access_rules": [
-                            "^$fishAccess|Western Thanalan|Mud Golem"
+                            "^$fishAccess|Western Thanalan|Rock Lobster"
                         ],
                         "visibility_rules": [
-                            "$fishVisibility|Mud Golem"
+                            "$fishVisibility|Rock Lobster"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Dirty Herry",
+                        "access_rules": [
+                            "^$fishAccess|Western Thanalan|Dirty Herry"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Dirty Herry"
                         ],
                         "item_count": 1
                     }
@@ -1247,15 +1227,15 @@
                 "map_locations": [
                     {
                         "map": "Western Thanalan",
-                        "x": 798,
-                        "y": 666,
+                        "x": 694,
+                        "y": 1441,
                         "size": 40,
                         "shape": "rect"
                     }
                 ]
             },
             {
-                "name": "Nophicas Wells",
+                "name": "Cape Westwind",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -1267,82 +1247,102 @@
                 ],
                 "sections": [
                     {
-                        "name": "Bone Crayfish",
+                        "name": "Merlthor Goby",
                         "access_rules": [
-                            "^$fishAccess|Western Thanalan|Bone Crayfish"
+                            "^$fishAccess|Western Thanalan|Merlthor Goby"
                         ],
                         "visibility_rules": [
-                            "$fishVisibility|Bone Crayfish"
+                            "$fishVisibility|Merlthor Goby"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Dusk Goby",
+                        "name": "Haraldr Haddock",
                         "access_rules": [
-                            "^$fishAccess|Western Thanalan|Dusk Goby"
+                            "^$fishAccess|Western Thanalan|Haraldr Haddock"
                         ],
                         "visibility_rules": [
-                            "$fishVisibility|Dusk Goby"
+                            "$fishVisibility|Haraldr Haddock"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Gudgeon",
+                        "name": "Whitelip Oyster",
                         "access_rules": [
-                            "^$fishAccess|Western Thanalan|Gudgeon"
+                            "^$fishAccess|Western Thanalan|Whitelip Oyster"
                         ],
                         "visibility_rules": [
-                            "$fishVisibility|Gudgeon"
+                            "$fishVisibility|Whitelip Oyster"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Maiden Carp",
+                        "name": "Silver Shark",
                         "access_rules": [
-                            "^$fishAccess|Western Thanalan|Maiden Carp"
+                            "^$fishAccess|Western Thanalan|Silver Shark"
                         ],
                         "visibility_rules": [
-                            "$fishVisibility|Maiden Carp"
+                            "$fishVisibility|Silver Shark"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Eunuch Crayfish",
+                        "name": "Wahoo",
                         "access_rules": [
-                            "^$fishAccess|Western Thanalan|Eunuch Crayfish"
+                            "^$fishAccess|Western Thanalan|Wahoo"
                         ],
                         "visibility_rules": [
-                            "$fishVisibility|Eunuch Crayfish"
+                            "$fishVisibility|Wahoo"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Glimmerscale",
+                        "name": "Blacklip Oyster",
                         "access_rules": [
-                            "^$fishAccess|Western Thanalan|Glimmerscale"
+                            "^$fishAccess|Western Thanalan|Blacklip Oyster"
                         ],
                         "visibility_rules": [
-                            "$fishVisibility|Glimmerscale"
+                            "$fishVisibility|Blacklip Oyster"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Copperfish",
+                        "name": "Plaice",
                         "access_rules": [
-                            "^$fishAccess|Western Thanalan|Copperfish"
+                            "^$fishAccess|Western Thanalan|Plaice"
                         ],
                         "visibility_rules": [
-                            "$fishVisibility|Copperfish"
+                            "$fishVisibility|Plaice"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Brass Loach",
+                        "name": "Sea Devil",
                         "access_rules": [
-                            "^$fishAccess|Western Thanalan|Brass Loach"
+                            "^$fishAccess|Western Thanalan|Sea Devil"
                         ],
                         "visibility_rules": [
-                            "$fishVisibility|Brass Loach"
+                            "$fishVisibility|Sea Devil"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Titanic Sawfish",
+                        "access_rules": [
+                            "^$fishAccess|Western Thanalan|Titanic Sawfish"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Titanic Sawfish"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Pirates Bane",
+                        "access_rules": [
+                            "^$fishAccess|Western Thanalan|Pirate's Bane"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Pirate's Bane"
                         ],
                         "item_count": 1
                     }
@@ -1350,8 +1350,8 @@
                 "map_locations": [
                     {
                         "map": "Western Thanalan",
-                        "x": 1134,
-                        "y": 1055,
+                        "x": 434,
+                        "y": 284,
                         "size": 40,
                         "shape": "rect"
                     }
