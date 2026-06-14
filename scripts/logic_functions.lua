@@ -60,7 +60,7 @@ end
 function fateMinLevelAccess(reqLevel)
     local leveling = leveling() 
     local reqLevelNumber = tonumber(reqLevel) 
-    if leveling > math.max(reqLevelNumber - 5, reqLevelNumber // 10 * 10) then
+    if leveling >= math.max(reqLevelNumber - 5, reqLevelNumber // 10 * 10) then
         return AccessibilityLevel.Normal
     end
     return AccessibilityLevel.None
