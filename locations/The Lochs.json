@@ -30,7 +30,7 @@
                     },
                     {
                         "name": "The Royal Menagerie",
-                        "access_rules": [],
+                        "access_rules": ["goal_duty_access|DefeatShinryu"],
                         "visibility_rules": [
                             "$duty_visibility|The Royal Menagerie"
                         ],

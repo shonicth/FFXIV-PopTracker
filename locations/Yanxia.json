@@ -148,7 +148,7 @@
                     {
                         "name": "Castrum Fluminis",
                         "access_rules": [
-                            "$leveling:70"
+                            "$leveling:70, goal_duty_access|DefeatTsukuyomi"
                         ],
                         "visibility_rules": [
                             "level_cap:70, duty_difficulty_normal, $duty_visibility|Castrum Fluminis"

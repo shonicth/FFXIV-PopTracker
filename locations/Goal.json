@@ -10,23 +10,84 @@
         "sections": [
             {
                 "name": "Collect Memories",
-                "access_rules": [],
-                "visibility_rules": ["abc"],
+                "access_rules": ["$collect_memories"],
+                "visibility_rules": ["McGuffinHunt"],
                 "item_count": 1
             },
             {
                 "name": "Defeat Shinryu",
-                "access_rules": [],
-                "visibility_rules": ["abc"],
+                "access_rules": ["@The Lochs/Ala Mhigo/The Royal Menagerie"],
+                "visibility_rules": ["DefeatShinryu"],
+                "item_count": 1
+            },
+            {
+                "name": "Defeat the Ultima Weapon",
+                "access_rules": ["@Northern Thanalan/The Praetorium/The Porta Decumana"],
+                "visibility_rules": ["DefeatUltimaWeapon"],
+                "item_count": 1
+            },
+            {
+                "name": "Defeat King Thordan",
+                "access_rules": ["@Azys Lla/The Aetherochemical Research Facility/The Singularity Reactor"],
+                "visibility_rules": ["DefeatThordan"],
+                "item_count": 1
+            },
+            {
+                "name": "Defeat Nidhogg",
+                "access_rules": ["@Foundation/The Final Steps of Faith/The Final Steps of Faith"],
+                "visibility_rules": ["DefeatNidhogg"],
+                "item_count": 1
+            },
+            {
+                "name": "Defeat Tsukuyomi",
+                "access_rules": ["@Yanxia/Castrum Fluminis/Castrum Fluminis"],
+                "visibility_rules": ["DefeatTsukuyomi"],
+                "item_count": 1
+            },
+            {
+                "name": "Defeat Hades",
+                "access_rules": ["@The Tempest/Amaurot/The Dying Gasp"],
+                "visibility_rules": ["DefeatHades"],
+                "item_count": 1
+            },
+            {
+                "name": "Defeat the Warrior of Light",
+                "access_rules": ["@The Crystarium/Seat of Sacrifice/Seat of Sacrifice"],
+                "visibility_rules": ["DefeatWarriorOfLight"],
+                "item_count": 1
+            },
+            {
+                "name": "Defeat the Endsinger",
+                "access_rules": ["@Ultima Thule/The Final Day/The Final Day"],
+                "visibility_rules": ["DefeatEndsinger"],
+                "item_count": 1
+            },
+            {
+                "name": "Defeat Zeromus",
+                "access_rules": ["@Mare Lamentorum/The Red Moon/The Abyssal Fracture"],
+                "visibility_rules": ["DefeatZeromus"],
+                "item_count": 1
+            },
+            {
+                "name": "Defeat Sphene",
+                "access_rules": ["@Living Memory/Meso Terminal/The Interphos"],
+                "visibility_rules": ["DefeatSphene"],
+                "item_count": 1
+            },
+            {
+                "name": "Defeat Necron",
+                "access_rules": ["@Living Memory/Meso Terminal/The Ageless Necropolis"],
+                "visibility_rules": ["DefeatNecron"],
                 "item_count": 1
             }
         ],
         "map_locations": [
             {
-                "map": "Goal",
-                "x": 328,
-                "y": 1494,
-                "size": 6
+                "map": "Overworld",
+                "x": 114,
+                "y": 1563,
+                "size": 40,
+                "shape": "rect"
             }
         ]
     }

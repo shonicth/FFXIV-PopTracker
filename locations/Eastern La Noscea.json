@@ -22,8 +22,8 @@
                 "sections": [
                     {
                         "name": "Brayfloxs Longstop",
-                        "access_rules": ["$leveling:32"],
-                        "visibility_rules": ["level_cap:32, $duty_visibility|Brayflox's Longstop"],
+                        "access_rules": ["$leveling:34"],
+                        "visibility_rules": ["level_cap:34, $duty_visibility|Brayflox's Longstop"],
                         "item_count": 10
                     },
                     {
@@ -51,7 +51,7 @@
                 "access_rules": [
                     "$leveling:50, bahamutkey"
                 ],
-                "visibility_rules": ["level_cap:50, duty_difficulty_normal"],
+                "visibility_rules": ["level_cap:50, duty_difficulty_savage"],
                 "sections": [
                     {
                         "name": "The Binding Coil of Bahamut Turn 1",

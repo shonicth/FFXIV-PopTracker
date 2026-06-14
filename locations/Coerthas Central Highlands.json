@@ -23,10 +23,10 @@
                     {
                         "name": "The Stone Vigil",
                         "access_rules": [
-                            "$leveling:41"
+                            "$leveling:43"
                         ],
                         "visibility_rules": [
-                            "$duty_visibility|The Stone Vigil, level_cap:41"
+                            "$duty_visibility|The Stone Vigil, level_cap:43"
                         ],
                         "item_count": 10
                     },
@@ -86,10 +86,10 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "$leveling:47"
+                    "$leveling:49"
                 ],
                 "visibility_rules": [
-                    "duty_difficulty_normal, level_cap:47, $duty_visibility|The Aurum Vale"
+                    "duty_difficulty_normal, level_cap:49, $duty_visibility|The Aurum Vale"
                 ],
                 "sections": [
                     {

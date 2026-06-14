@@ -46,22 +46,22 @@
                     "$leveling:50"
                 ],
                 "visibility_rules": [
-                    "duty_difficulty_normal, level_cap:50, allow_main_scenario_duties"
+                    "duty_difficulty_normal, level_cap:50"
                 ],
                 "sections": [
                     {
                         "name": "The Praetorium",
                         "access_rules": [],
                         "visibility_rules": [
-                            "$duty_visibility|The Praetorium"
+                            "$duty_visibility|The Praetorium, allow_main_scenario_duties"
                         ],
                         "item_count": 10
                     },
                     {
                         "name": "The Porta Decumana",
-                        "access_rules": [],
+                        "access_rules": ["$goal_duty_access|DefeatUltimaWeapon"],
                         "visibility_rules": [
-                            "$duty_visibility|The Porta Decumana"
+                            "$duty_visibility|The Porta Decumana, $goal_ultima"
                         ],
                         "item_count": 1
                     },
@@ -93,7 +93,7 @@
                     "$leveling:50, bahamutkey"
                 ],
                 "visibility_rules": [
-                    "duty_difficulty_normal, level_cap:50"
+                    "duty_difficulty_savage, level_cap:50"
                 ],
                 "sections": [
                     {

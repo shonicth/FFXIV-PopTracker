@@ -106,11 +106,38 @@ function fateVisibility(fate)
 end
 
 function duty_visibility(name)
-  local dutyname = dutylist[name] 
+  local dutyname = dutylist[name]
     for _, duty in ipairs(ExcludedDuties) do
         if duty == dutyname then
             return false
         end
     end
     return true
+end
+
+function goal_duty_access(goal)
+    local mcguffinsNeeded = Tracker:FindObjectForCode("mcguffins").MaxCount
+    if Tracker:ProviderCountForCode(goal) > 0 and mcguffinsNeeded > 0 then
+        if Tracker:ProviderCountForCode("mcguffins") >= mcguffinsNeeded then
+            return true
+        end
+        return false
+    end
+    return true
+end
+
+--There's probably a better way to handle this
+function goal_ultima()
+    if Tracker:ProviderCountForCode("DefeatUltimaWeapon") == 0 and Tracker:ProviderCountForCode("allow_main_scenario_duties") == 0 then 
+        return false
+    end
+    return true
+end
+
+function collect_memories()
+    local mcguffins_needed = Tracker:FindObjectForCode("mcguffins_needed") / 2
+    if Tracker:ProviderCountForCode("mcguffins") > Tracker:FindObjectForCode("mcguffins_needed") then
+        return true
+    end
+    return false
 end

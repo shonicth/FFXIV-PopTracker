@@ -23,7 +23,7 @@
                     {
                         "name": "The Tam-Tara Deepcroft",
                         "access_rules": [
-                            "$leveling:16"
+                            "$leveling:19"
                         ],
                         "visibility_rules": [
                             "$duty_visibility|The Tam-Tara Deepcroft"
@@ -63,10 +63,10 @@
                     {
                         "name": "Haukke Manor",
                         "access_rules": [
-                            "$leveling:28"
+                            "$leveling:31"
                         ],
                         "visibility_rules": [
-                            "duty_difficulty_normal, $duty_visibility|Haukke Manor"
+                            "level_cap:31, duty_difficulty_normal, $duty_visibility|Haukke Manor"
                         ],
                         "item_count": 10
                     },

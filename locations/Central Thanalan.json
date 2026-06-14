@@ -14,10 +14,10 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "$leveling:38"
+                    "$leveling:40"
                 ],
                 "visibility_rules": [
-                    "duty_difficulty_normal, $duty_visibility|Cutter's Cry, level_cap:38"
+                    "duty_difficulty_normal, $duty_visibility|Cutter's Cry, level_cap:40"
                 ],
                 "sections": [
                     {

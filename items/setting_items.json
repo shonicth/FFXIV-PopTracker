@@ -157,5 +157,101 @@
         "initial_active_state": true,
         "overlay_align": "right",
         "codes": "include_guildhests"
-    }
+    },
+            {
+        "name": "mcguffins_needed",
+        "type": "consumable",
+        "img": "images/items/placeholder.png",
+        "min_quantity": 1,
+        "max_quantity": 100,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 30,
+        "overlay_align": "right",
+        "overlay_font_size": 14,
+        "overlay_background": "#000000",
+        "codes": "boss_key_pieces"
+    },
+            {
+        "name": "Boss Key Pieces",
+        "type": "consumable",
+        "img": "images/items/placeholder.png",
+        "min_quantity": 0,
+        "max_quantity": 10,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_align": "right",
+        "overlay_font_size": 14,
+        "overlay_background": "#000000",
+        "codes": "boss_key_pieces"
+    },
+    {
+    "name": "Goal",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages": [
+            {
+        "img": "images/items/placeholder.png",
+        "codes": "McGuffinHunt",
+        "inherit_codes": false
+      },
+            {
+        "img": "images/items/placeholder.png",
+        "codes": "DefeatShinryu",
+        "inherit_codes": false
+      },
+    {
+        "img": "images/items/placeholder.png",
+        "codes": "DefeatUltimaWeapon",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/placeholder.png",
+        "codes": "DefeatThordan",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/placeholder.png",
+        "codes": "DefeatNidhogg",
+        "inherit_codes": false
+      },
+            {
+        "img": "images/items/placeholder.png",
+        "codes": "DefeatTsukuyomi",
+        "inherit_codes": false
+      },
+            {
+        "img": "images/items/placeholder.png",
+        "codes": "DefeatHades",
+        "inherit_codes": false
+      },
+            {
+        "img": "images/items/placeholder.png",
+        "codes": "DefeatWarriorOfLight",
+        "inherit_codes": false
+      },
+            {
+        "img": "images/items/placeholder.png",
+        "codes": "DefeatEndsinger",
+        "inherit_codes": false
+      },
+            {
+        "img": "images/items/placeholder.png",
+        "codes": "DefeatZeromus",
+        "inherit_codes": false
+      },
+            {
+        "img": "images/items/placeholder.png",
+        "codes": "DefeatSphene",
+        "inherit_codes": false
+      },
+            {
+        "img": "images/items/placeholder.png",
+        "codes": "DefeatNecron",
+        "inherit_codes": false
+      }
+    ]
+  }
 ]

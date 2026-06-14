@@ -30,7 +30,7 @@
                     },
                     {
                         "name": "The Singularity Reactor",
-                        "access_rules": [],
+                        "access_rules": ["$goal_duty_access|DefeatThordan"],
                         "visibility_rules": [
                             "$duty_visibility|The Singularity Reactor"
                         ],

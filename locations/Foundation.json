@@ -14,10 +14,10 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "$leveling:55"
+                    "$leveling:56"
                 ],
                 "visibility_rules": [
-                    "level_cap:55, duty_difficulty_normal, $duty_visibility|The Aery"
+                    "level_cap:56, duty_difficulty_normal, $duty_visibility|The Aery"
                 ],
                 "sections": [
                     {
@@ -48,7 +48,7 @@
                 "sections": [
                     {
                         "name": "The Final Steps of Faith",
-                        "access_rules": ["$leveling:60"],
+                        "access_rules": ["$leveling:60, goal_duty_access|DefeatNidhogg"],
                         "visibility_rules": [
                             "level_cap:60, duty_difficulty_normal, $duty_visibility|The Final Steps of Faith"
                         ],

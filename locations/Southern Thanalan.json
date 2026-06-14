@@ -23,10 +23,10 @@
                     {
                         "name": "The Sunken Temple of Qarn",
                         "access_rules": [
-                            "$leveling:35"
+                            "$leveling:37"
                         ],
                         "visibility_rules": [
-                            "$duty_visibility|The Sunken Temple of Qarn, level_cap:35"
+                            "$duty_visibility|The Sunken Temple of Qarn, level_cap:37"
                         ],
                         "item_count": 10
                     },
@@ -63,7 +63,7 @@
                     {
                         "name": "The Bowl of Embers",
                         "access_rules": [
-                            "$leveling:20"
+                            "$leveling:22"
                         ],
                         "visibility_rules": [
                             "duty_difficulty_normal, $duty_visibility|The Bowl of Embers"

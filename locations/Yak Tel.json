@@ -768,26 +768,6 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Sharknose Goby",
-                        "access_rules": [
-                            "^$fishAccess|Yak T'el|Sharknose Goby"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Sharknose Goby"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Yak Tel Crab",
-                        "access_rules": [
-                            "^$fishAccess|Yak T'el|Yak T'el Crab"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Yak T'el Crab"
-                        ],
-                        "item_count": 1
-                    },
-                    {
                         "name": "Awaksbane Apoda",
                         "access_rules": [
                             "^$fishAccess|Yak T'el|Awaksbane Apoda"
@@ -1328,6 +1308,26 @@
                         ],
                         "visibility_rules": [
                             "$fishVisibility|Xty'iinbek Sleeper"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Sharknose Goby",
+                        "access_rules": [
+                            "^$fishAccess|Yak T'el|Sharknose Goby"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Sharknose Goby"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Yak Tel Crab",
+                        "access_rules": [
+                            "^$fishAccess|Yak T'el|Yak T'el Crab"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Yak T'el Crab"
                         ],
                         "item_count": 1
                     },

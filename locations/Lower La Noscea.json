@@ -28,7 +28,7 @@
                     },
                     {
                         "name": "Hullbreaker Isle (Hard)",
-                        "access_rules": ["$leveling:50"],
+                        "access_rules": ["$leveling:60"],
                         "visibility_rules": ["level_cap:60, $duty_visibility|Hullbreaker Isle (Hard)"],
                         "item_count": 10
                     }
@@ -109,7 +109,7 @@
                 "access_rules": [
                     "$leveling:30, wolvesdenpieraccess"
                 ],
-                "visibility_rules": ["include_pvp"],
+                "visibility_rules": ["include_pvp, duty_difficulty_normal"],
                 "sections": [
                     {
                         "name": "The Palaistra",
