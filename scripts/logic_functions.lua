@@ -135,8 +135,8 @@ function goal_ultima()
 end
 
 function collect_memories()
-    local mcguffins_needed = Tracker:FindObjectForCode("mcguffins_needed") / 2
-    if Tracker:ProviderCountForCode("mcguffins") > Tracker:FindObjectForCode("mcguffins_needed") then
+    local mcguffins_needed = Tracker:ProviderCountForCode("mcguffins_needed") / 2
+    if Tracker:ProviderCountForCode("mcguffins") >= mcguffins_needed then
         return true
     end
     return false
