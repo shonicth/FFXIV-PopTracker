@@ -404,13 +404,23 @@
                 [
                     "fatesanity",
                     "include_unreasonable_fates",
-                    "level_cap"
-
+                    "level_cap",
+                    "include_bozja",
+                    "include_ocean_fishing"
                 ],
                 [
-                    "include_bozja",
-                    "include_ocean_fishing",
-                    "fishsanity"
+                    "fishsanity",
+                    "allow_main_scenario_duties",
+                    "include_pvp",
+                    "duty_difficulty",
+                    "fates_per_zone"
+                ],
+                [
+                    "extra_dungeon_checks",
+                    "include_guildhests",
+                    "mcguffins_needed",
+                    "boss_key_pieces",
+                    "McGuffinHunt"
                 ]
             ]
         }]

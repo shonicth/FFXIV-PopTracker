@@ -44,24 +44,28 @@
     "initial_stage_idx": 0,
     "stages": [
       {
+        "name": "Fishsanity Disabled",
         "img": "images/items/placeholder.png",
         "codes": "fishsanity",
         "inherit_codes": false
       },
       {
+        "name": "Fishsanity Normal",
         "img": "images/items/placeholder.png",
         "codes": "fishsanity_normal",
         "inherit_codes": true
       },
       {
-      "img": "images/items/placeholder.png",
-      "codes": "fishsanity_timed",
-      "inherit_codes": true
+        "name": "Fishsanity Timed",
+        "img": "images/items/placeholder.png",
+        "codes": "fishsanity_timed",
+        "inherit_codes": true
       },
       {
-      "img": "images/items/placeholder.png",
-      "codes": "fishsanity_big",
-      "inherit_codes": true
+        "name": "Fishsanity Big",
+        "img": "images/items/placeholder.png",
+        "codes": "fishsanity_big",
+        "inherit_codes": true
       }
     ]
   },
@@ -96,26 +100,31 @@
     "initial_stage_idx": 0,
     "stages": [
       {
-      "img": "images/items/placeholder.png",
-      "codes": "duty_difficulty",
-      "inherit_codes": false
+        "name": "Duties Disabled",
+        "img": "images/items/placeholder.png",
+        "codes": "duty_difficulty",
+        "inherit_codes": false
       },
       {
-      "img": "images/items/placeholder.png",
-      "codes": "duty_difficulty_normal",
-      "inherit_codes": true
+        "name": "Duties Normal",
+        "img": "images/items/placeholder.png",
+        "codes": "duty_difficulty_normal",
+        "inherit_codes": true
       },
       {
-      "img": "images/items/placeholder.png",
-      "codes": "duty_difficulty_ex",
-      "inherit_codes": true
+        "name": "Duties Extreme",
+        "img": "images/items/placeholder.png",
+        "codes": "duty_difficulty_ex",
+        "inherit_codes": true
       },
       {
-      "img": "images/items/placeholder.png",
-      "codes": "duty_difficulty_savage",
-      "inherit_codes": true
+        "name": "Duties Savage",
+        "img": "images/items/placeholder.png",
+        "codes": "duty_difficulty_savage",
+        "inherit_codes": true
       },
       {
+        "name": "Duties Endgame",
       "img": "images/items/placeholder.png",
       "codes": "duty_difficulty_endgame",
       "inherit_codes": true
@@ -193,61 +202,73 @@
     "initial_stage_idx": 0,
     "stages": [
       {
+        "name": "McGuffin Hunt",
         "img": "images/items/placeholder.png",
         "codes": "McGuffinHunt",
         "inherit_codes": false
       },
       {
+        "name": "Defeat Shinryu",
         "img": "images/items/placeholder.png",
         "codes": "DefeatShinryu",
         "inherit_codes": false
       },
       {
+        "name": "Defeat Ultima Weapon",
         "img": "images/items/placeholder.png",
         "codes": "DefeatUltimaWeapon",
         "inherit_codes": false
       },
       {
+        "name": "Defeat Thordan",
         "img": "images/items/placeholder.png",
         "codes": "DefeatThordan",
         "inherit_codes": false
       },
       {
+        "name": "Defeat Nidhogg",
         "img": "images/items/placeholder.png",
         "codes": "DefeatNidhogg",
         "inherit_codes": false
       },
       {
+        "name": "Defeat Tsukuyomi",
         "img": "images/items/placeholder.png",
         "codes": "DefeatTsukuyomi",
         "inherit_codes": false
       },
       {
+        "name": "Defeat Hades",
         "img": "images/items/placeholder.png",
         "codes": "DefeatHades",
         "inherit_codes": false
       },
       {
+        "name": "Defeat Warrior Of Light",
         "img": "images/items/placeholder.png",
         "codes": "DefeatWarriorOfLight",
         "inherit_codes": false
       },
       {
+        "name": "Defeat Endsinger",
         "img": "images/items/placeholder.png",
         "codes": "DefeatEndsinger",
         "inherit_codes": false
       },
       {
+        "name": "Defeat Zeromus",
         "img": "images/items/placeholder.png",
         "codes": "DefeatZeromus",
         "inherit_codes": false
       },
       {
+        "name": "Defeat Sphene",
         "img": "images/items/placeholder.png",
         "codes": "DefeatSphene",
         "inherit_codes": false
       },
       {
+        "name": "Defeat Necron",
         "img": "images/items/placeholder.png",
         "codes": "DefeatNecron",
         "inherit_codes": false
