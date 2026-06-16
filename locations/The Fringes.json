@@ -1166,174 +1166,6 @@
                 ]
             },
             {
-                "name": "The Velodyna River",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [],
-                "visibility_rules": [],
-                "sections": [
-                    {
-                        "name": "Greenstream Loach",
-                        "access_rules": [
-                            "^$fishAccess|The Fringes|Greenstream Loach"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Greenstream Loach"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Bloodsipper",
-                        "access_rules": [
-                            "^$fishAccess|The Fringes|Bloodsipper"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Bloodsipper"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Velodyna Grass Carp",
-                        "access_rules": [
-                            "^$fishAccess|The Fringes|Velodyna Grass Carp"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Velodyna Grass Carp"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Black Velodyna Carp",
-                        "access_rules": [
-                            "^$fishAccess|The Fringes|Black Velodyna Carp"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Black Velodyna Carp"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Velodyna Salmon",
-                        "access_rules": [
-                            "^$fishAccess|The Fringes|Velodyna Salmon"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Velodyna Salmon"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Downstream Loach",
-                        "access_rules": [
-                            "^$fishAccess|The Fringes|Downstream Loach"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Downstream Loach"
-                        ],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "The Fringes",
-                        "x": 841,
-                        "y": 414,
-                        "size": 40,
-                        "shape": "rect"
-                    }
-                ]
-            },
-            {
-                "name": "Mirage Creek",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [],
-                "visibility_rules": [],
-                "sections": [
-                    {
-                        "name": "Mirage Chub",
-                        "access_rules": [
-                            "^$fishAccess|The Fringes|Mirage Chub"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Mirage Chub"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Rhalgrs Bolt",
-                        "access_rules": [
-                            "^$fishAccess|The Fringes|Rhalgr's Bolt"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Rhalgr's Bolt"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Highland Perch",
-                        "access_rules": [
-                            "^$fishAccess|The Fringes|Highland Perch"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Highland Perch"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Gravel Gudgeon",
-                        "access_rules": [
-                            "^$fishAccess|The Fringes|Gravel Gudgeon"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Gravel Gudgeon"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Mirage Mahi",
-                        "access_rules": [
-                            "^$fishAccess|The Fringes|Mirage Mahi"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Mirage Mahi"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Corpse Chub",
-                        "access_rules": [
-                            "^$fishAccess|The Fringes|Corpse Chub"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Corpse Chub"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Scarlet Frog",
-                        "access_rules": [
-                            "^$fishAccess|The Fringes|Scarlet Frog"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Scarlet Frog"
-                        ],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "The Fringes",
-                        "x": 1312,
-                        "y": 774,
-                        "size": 40,
-                        "shape": "rect"
-                    }
-                ]
-            },
-            {
                 "name": "Timmon Beck",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
@@ -1441,16 +1273,6 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Cave Killifish",
-                        "access_rules": [
-                            "^$fishAccess|The Fringes|Cave Killifish"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Cave Killifish"
-                        ],
-                        "item_count": 1
-                    },
-                    {
                         "name": "Bone Melter",
                         "access_rules": [
                             "^$fishAccess|The Fringes|Bone Melter"
@@ -1481,6 +1303,16 @@
                         "item_count": 1
                     },
                     {
+                        "name": "Cave Killifish",
+                        "access_rules": [
+                            "^$fishAccess|The Fringes|Cave Killifish"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Cave Killifish"
+                        ],
+                        "item_count": 1
+                    },
+                    {
                         "name": "Wraithfish",
                         "access_rules": [
                             "^$fishAccess|The Fringes|Wraithfish"
@@ -1491,22 +1323,22 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Sapphire Fan",
-                        "access_rules": [
-                            "^$fishAccess|The Fringes|Sapphire Fan"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Sapphire Fan"
-                        ],
-                        "item_count": 1
-                    },
-                    {
                         "name": "Chakrafish",
                         "access_rules": [
                             "^$fishAccess|The Fringes|Chakrafish"
                         ],
                         "visibility_rules": [
                             "$fishVisibility|Chakrafish"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Sapphire Fan",
+                        "access_rules": [
+                            "^$fishAccess|The Fringes|Sapphire Fan"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Sapphire Fan"
                         ],
                         "item_count": 1
                     }
@@ -1580,22 +1412,22 @@
                         "item_count": 1
                     },
                     {
-                        "name": "The Archbishop",
-                        "access_rules": [
-                            "^$fishAccess|The Fringes|The Archbishop"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|The Archbishop"
-                        ],
-                        "item_count": 1
-                    },
-                    {
                         "name": "Lake Sphairai",
                         "access_rules": [
                             "^$fishAccess|The Fringes|Lake Sphairai"
                         ],
                         "visibility_rules": [
                             "$fishVisibility|Lake Sphairai"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "The Archbishop",
+                        "access_rules": [
+                            "^$fishAccess|The Fringes|The Archbishop"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|The Archbishop"
                         ],
                         "item_count": 1
                     }
@@ -1605,6 +1437,175 @@
                         "map": "The Fringes",
                         "x": 644,
                         "y": 1506,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            
+            {
+                "name": "The Velodyna River",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [],
+                "visibility_rules": [],
+                "sections": [
+                    {
+                        "name": "Velodyna Grass Carp",
+                        "access_rules": [
+                            "^$fishAccess|The Fringes|Velodyna Grass Carp"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Velodyna Grass Carp"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Greenstream Loach",
+                        "access_rules": [
+                            "^$fishAccess|The Fringes|Greenstream Loach"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Greenstream Loach"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bloodsipper",
+                        "access_rules": [
+                            "^$fishAccess|The Fringes|Bloodsipper"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Bloodsipper"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Black Velodyna Carp",
+                        "access_rules": [
+                            "^$fishAccess|The Fringes|Black Velodyna Carp"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Black Velodyna Carp"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Velodyna Salmon",
+                        "access_rules": [
+                            "^$fishAccess|The Fringes|Velodyna Salmon"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Velodyna Salmon"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Downstream Loach",
+                        "access_rules": [
+                            "^$fishAccess|The Fringes|Downstream Loach"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Downstream Loach"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "The Fringes",
+                        "x": 841,
+                        "y": 414,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Mirage Creek",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [],
+                "visibility_rules": [],
+                "sections": [
+                    {
+                        "name": "Highland Perch",
+                        "access_rules": [
+                            "^$fishAccess|The Fringes|Highland Perch"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Highland Perch"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Mirage Chub",
+                        "access_rules": [
+                            "^$fishAccess|The Fringes|Mirage Chub"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Mirage Chub"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Gravel Gudgeon",
+                        "access_rules": [
+                            "^$fishAccess|The Fringes|Gravel Gudgeon"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Gravel Gudgeon"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Rhalgrs Bolt",
+                        "access_rules": [
+                            "^$fishAccess|The Fringes|Rhalgr's Bolt"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Rhalgr's Bolt"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Mirage Mahi",
+                        "access_rules": [
+                            "^$fishAccess|The Fringes|Mirage Mahi"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Mirage Mahi"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Scarlet Frog",
+                        "access_rules": [
+                            "^$fishAccess|The Fringes|Scarlet Frog"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Scarlet Frog"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Corpse Chub",
+                        "access_rules": [
+                            "^$fishAccess|The Fringes|Corpse Chub"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Corpse Chub"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "The Fringes",
+                        "x": 1312,
+                        "y": 774,
                         "size": 40,
                         "shape": "rect"
                     }

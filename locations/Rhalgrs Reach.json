@@ -38,7 +38,7 @@
                 ]
             },
             {
-                "name": "The Outer Fist",
+                "name": "Upper Mirage Creek",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -50,12 +50,42 @@
                 ],
                 "sections": [
                     {
-                        "name": "Comet Minnow",
+                        "name": "Abalathian Bitterling",
                         "access_rules": [
-                            "^$fishAccess|Rhalgr's Reach|Comet Minnow"
+                            "^$fishAccess|Rhalgr's Reach|Abalathian Bitterling"
                         ],
                         "visibility_rules": [
-                            "$fishVisibility|Comet Minnow"
+                            "$fishVisibility|Abalathian Bitterling"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Broken Crab",
+                        "access_rules": [
+                            "^$fishAccess|Rhalgr's Reach|Broken Crab"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Broken Crab"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Miounnefish",
+                        "access_rules": [
+                            "^$fishAccess|Rhalgr's Reach|Miounnefish"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Miounnefish"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Gyr Abanian Trout",
+                        "access_rules": [
+                            "^$fishAccess|Rhalgr's Reach|Gyr Abanian Trout"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Gyr Abanian Trout"
                         ],
                         "item_count": 1
                     },
@@ -70,52 +100,12 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Gilfish",
+                        "name": "Hookstealer",
                         "access_rules": [
-                            "^$fishAccess|Rhalgr's Reach|Gilfish"
+                            "^$fishAccess|Rhalgr's Reach|Hookstealer"
                         ],
                         "visibility_rules": [
-                            "$fishVisibility|Gilfish"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Balloon Frog",
-                        "access_rules": [
-                            "^$fishAccess|Rhalgr's Reach|Balloon Frog"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Balloon Frog"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Lantern Marimo",
-                        "access_rules": [
-                            "^$fishAccess|Rhalgr's Reach|Lantern Marimo"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Lantern Marimo"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Redtail",
-                        "access_rules": [
-                            "^$fishAccess|Rhalgr's Reach|Redtail"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Redtail"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Bloodtail Zombie",
-                        "access_rules": [
-                            "^$fishAccess|Rhalgr's Reach|Bloodtail Zombie"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Bloodtail Zombie"
+                            "$fishVisibility|Hookstealer"
                         ],
                         "item_count": 1
                     }
@@ -123,8 +113,8 @@
                 "map_locations": [
                     {
                         "map": "Rhalgrs Reach",
-                        "x": 1122,
-                        "y": 533,
+                        "x": 1010,
+                        "y": 1354,
                         "size": 40,
                         "shape": "rect"
                     }
@@ -149,6 +139,16 @@
                         ],
                         "visibility_rules": [
                             "$fishVisibility|Golden Cichlid"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Temple Carp",
+                        "access_rules": [
+                            "^$fishAccess|Rhalgr's Reach|Temple Carp"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Temple Carp"
                         ],
                         "item_count": 1
                     },
@@ -193,16 +193,6 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Temple Carp",
-                        "access_rules": [
-                            "^$fishAccess|Rhalgr's Reach|Temple Carp"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Temple Carp"
-                        ],
-                        "item_count": 1
-                    },
-                    {
                         "name": "Watcher Catfish",
                         "access_rules": [
                             "^$fishAccess|Rhalgr's Reach|Watcher Catfish"
@@ -224,7 +214,7 @@
                 ]
             },
             {
-                "name": "Upper Mirage Creek",
+                "name": "The Outer Fist",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -236,32 +226,32 @@
                 ],
                 "sections": [
                     {
-                        "name": "Abalathian Bitterling",
+                        "name": "Comet Minnow",
                         "access_rules": [
-                            "^$fishAccess|Rhalgr's Reach|Abalathian Bitterling"
+                            "^$fishAccess|Rhalgr's Reach|Comet Minnow"
                         ],
                         "visibility_rules": [
-                            "$fishVisibility|Abalathian Bitterling"
+                            "$fishVisibility|Comet Minnow"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Broken Crab",
+                        "name": "Balloon Frog",
                         "access_rules": [
-                            "^$fishAccess|Rhalgr's Reach|Broken Crab"
+                            "^$fishAccess|Rhalgr's Reach|Balloon Frog"
                         ],
                         "visibility_rules": [
-                            "$fishVisibility|Broken Crab"
+                            "$fishVisibility|Balloon Frog"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Gyr Abanian Trout",
+                        "name": "Lantern Marimo",
                         "access_rules": [
-                            "^$fishAccess|Rhalgr's Reach|Gyr Abanian Trout"
+                            "^$fishAccess|Rhalgr's Reach|Lantern Marimo"
                         ],
                         "visibility_rules": [
-                            "$fishVisibility|Gyr Abanian Trout"
+                            "$fishVisibility|Lantern Marimo"
                         ],
                         "item_count": 1
                     },
@@ -276,22 +266,32 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Miounnefish",
+                        "name": "Gilfish",
                         "access_rules": [
-                            "^$fishAccess|Rhalgr's Reach|Miounnefish"
+                            "^$fishAccess|Rhalgr's Reach|Gilfish"
                         ],
                         "visibility_rules": [
-                            "$fishVisibility|Miounnefish"
+                            "$fishVisibility|Gilfish"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Hookstealer",
+                        "name": "Redtail",
                         "access_rules": [
-                            "^$fishAccess|Rhalgr's Reach|Hookstealer"
+                            "^$fishAccess|Rhalgr's Reach|Redtail"
                         ],
                         "visibility_rules": [
-                            "$fishVisibility|Hookstealer"
+                            "$fishVisibility|Redtail"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bloodtail Zombie",
+                        "access_rules": [
+                            "^$fishAccess|Rhalgr's Reach|Bloodtail Zombie"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Bloodtail Zombie"
                         ],
                         "item_count": 1
                     }
@@ -299,8 +299,8 @@
                 "map_locations": [
                     {
                         "map": "Rhalgrs Reach",
-                        "x": 1010,
-                        "y": 1354,
+                        "x": 1122,
+                        "y": 533,
                         "size": 40,
                         "shape": "rect"
                     }

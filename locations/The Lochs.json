@@ -1347,16 +1347,6 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Whitehorse",
-                        "access_rules": [
-                            "^$fishAccess|The Lochs|Whitehorse"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Whitehorse"
-                        ],
-                        "item_count": 1
-                    },
-                    {
                         "name": "Saltshield Snapper",
                         "access_rules": [
                             "^$fishAccess|The Lochs|Saltshield Snapper"
@@ -1367,12 +1357,12 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Sculptor",
+                        "name": "Whitehorse",
                         "access_rules": [
-                            "^$fishAccess|The Lochs|Sculptor"
+                            "^$fishAccess|The Lochs|Whitehorse"
                         ],
                         "visibility_rules": [
-                            "$fishVisibility|Sculptor"
+                            "$fishVisibility|Whitehorse"
                         ],
                         "item_count": 1
                     },
@@ -1383,6 +1373,16 @@
                         ],
                         "visibility_rules": [
                             "$fishVisibility|Pearl-eye"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Sculptor",
+                        "access_rules": [
+                            "^$fishAccess|The Lochs|Sculptor"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Sculptor"
                         ],
                         "item_count": 1
                     },

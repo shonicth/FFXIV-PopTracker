@@ -1030,348 +1030,6 @@
                 ]
             },
             {
-                "name": "The Arms of Meed",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    
-                ],
-                "visibility_rules": [
-                    
-                ],
-                "sections": [
-                    {
-                        "name": "Ala Mhigan Ribbon",
-                        "access_rules": [
-                            "^$fishAccess|The Peaks|Ala Mhigan Ribbon"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Ala Mhigan Ribbon"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Gyr Abanian Trout",
-                        "access_rules": [
-                            "^$fishAccess|The Peaks|Gyr Abanian Trout"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Gyr Abanian Trout"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Scimitarfish",
-                        "access_rules": [
-                            "^$fishAccess|The Peaks|Scimitarfish"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Scimitarfish"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Gigant Bass",
-                        "access_rules": [
-                            "^$fishAccess|The Peaks|Gigant Bass"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Gigant Bass"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Eastern Pike",
-                        "access_rules": [
-                            "^$fishAccess|The Peaks|Eastern Pike"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Eastern Pike"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Rockfish",
-                        "access_rules": [
-                            "^$fishAccess|The Peaks|Rockfish"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Rockfish"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Lily of the Veil",
-                        "access_rules": [
-                            "^$fishAccess|The Peaks|Lily of the Veil"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Lily of the Veil"
-                        ],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "The Peaks",
-                        "x": 421,
-                        "y": 1829,
-                        "size": 40,
-                        "shape": "rect"
-                    }
-                ]
-            },
-            {
-                "name": "Heather Falls",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    
-                ],
-                "visibility_rules": [
-                    
-                ],
-                "sections": [
-                    {
-                        "name": "Steelshark",
-                        "access_rules": [
-                            "^$fishAccess|The Peaks|Steelshark"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Steelshark"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Death Loach",
-                        "access_rules": [
-                            "^$fishAccess|The Peaks|Death Loach"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Death Loach"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Abalathian Salamander",
-                        "access_rules": [
-                            "^$fishAccess|The Peaks|Abalathian Salamander"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Abalathian Salamander"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Adamantite Bichir",
-                        "access_rules": [
-                            "^$fishAccess|The Peaks|Adamantite Bichir"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Adamantite Bichir"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Purple Buckler",
-                        "access_rules": [
-                            "^$fishAccess|The Peaks|Purple Buckler"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Purple Buckler"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Last Tear",
-                        "access_rules": [
-                            "^$fishAccess|The Peaks|The Last Tear"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|The Last Tear"
-                        ],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "The Peaks",
-                        "x": 1554,
-                        "y": 261,
-                        "size": 40,
-                        "shape": "rect"
-                    }
-                ]
-            },
-            {
-                "name": "The Slow Wash",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    
-                ],
-                "visibility_rules": [
-                    
-                ],
-                "sections": [
-                    {
-                        "name": "Idle Goby",
-                        "access_rules": [
-                            "^$fishAccess|The Peaks|Idle Goby"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Idle Goby"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Heather Charr",
-                        "access_rules": [
-                            "^$fishAccess|The Peaks|Heather Charr"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Heather Charr"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Gyr Abanian Trout",
-                        "access_rules": [
-                            "^$fishAccess|The Peaks|Gyr Abanian Trout"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Gyr Abanian Trout"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Death Loach",
-                        "access_rules": [
-                            "^$fishAccess|The Peaks|Death Loach"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Death Loach"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Invisible Crayfish",
-                        "access_rules": [
-                            "^$fishAccess|The Peaks|Invisible Crayfish"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Invisible Crayfish"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Rapids Jumper",
-                        "access_rules": [
-                            "^$fishAccess|The Peaks|Rapids Jumper"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Rapids Jumper"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Undecided",
-                        "access_rules": [
-                            "^$fishAccess|The Peaks|The Undecided"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|The Undecided"
-                        ],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "The Peaks",
-                        "x": 1119,
-                        "y": 388,
-                        "size": 40,
-                        "shape": "rect"
-                    }
-                ]
-            },
-            {
-                "name": "The Ephor",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    
-                ],
-                "visibility_rules": [
-                    
-                ],
-                "sections": [
-                    {
-                        "name": "Heather Charr",
-                        "access_rules": [
-                            "^$fishAccess|The Peaks|Heather Charr"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Heather Charr"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Meditator",
-                        "access_rules": [
-                            "^$fishAccess|The Peaks|Meditator"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Meditator"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Deemster",
-                        "access_rules": [
-                            "^$fishAccess|The Peaks|Deemster"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Deemster"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Stonytongue",
-                        "access_rules": [
-                            "^$fishAccess|The Peaks|Stonytongue"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Stonytongue"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Moksha",
-                        "access_rules": [
-                            "^$fishAccess|The Peaks|Moksha"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Moksha"
-                        ],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "The Peaks",
-                        "x": 1545,
-                        "y": 789,
-                        "size": 40,
-                        "shape": "rect"
-                    }
-                ]
-            },
-            {
                 "name": "Grymm & Enid",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
@@ -1414,22 +1072,22 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Bondsplitter",
-                        "access_rules": [
-                            "^$fishAccess|The Peaks|Bondsplitter"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Bondsplitter"
-                        ],
-                        "item_count": 1
-                    },
-                    {
                         "name": "Curefish",
                         "access_rules": [
                             "^$fishAccess|The Peaks|Curefish"
                         ],
                         "visibility_rules": [
                             "$fishVisibility|Curefish"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bondsplitter",
+                        "access_rules": [
+                            "^$fishAccess|The Peaks|Bondsplitter"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Bondsplitter"
                         ],
                         "item_count": 1
                     },
@@ -1449,6 +1107,255 @@
                         "map": "The Peaks",
                         "x": 245,
                         "y": 686,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "The Slow Wash",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    
+                ],
+                "visibility_rules": [
+                    
+                ],
+                "sections": [
+                    {
+                        "name": "Idle Goby",
+                        "access_rules": [
+                            "^$fishAccess|The Peaks|Idle Goby"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Idle Goby"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Rapids Jumper",
+                        "access_rules": [
+                            "^$fishAccess|The Peaks|Rapids Jumper"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Rapids Jumper"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Gyr Abanian Trout",
+                        "access_rules": [
+                            "^$fishAccess|The Peaks|Gyr Abanian Trout"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Gyr Abanian Trout"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Heather Charr",
+                        "access_rules": [
+                            "^$fishAccess|The Peaks|Heather Charr"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Heather Charr"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Death Loach",
+                        "access_rules": [
+                            "^$fishAccess|The Peaks|Death Loach"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Death Loach"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Invisible Crayfish",
+                        "access_rules": [
+                            "^$fishAccess|The Peaks|Invisible Crayfish"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Invisible Crayfish"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "The Undecided",
+                        "access_rules": [
+                            "^$fishAccess|The Peaks|The Undecided"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|The Undecided"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "The Peaks",
+                        "x": 1119,
+                        "y": 388,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Heather Falls",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    
+                ],
+                "visibility_rules": [
+                    
+                ],
+                "sections": [
+                    {
+                        "name": "Adamantite Bichir",
+                        "access_rules": [
+                            "^$fishAccess|The Peaks|Adamantite Bichir"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Adamantite Bichir"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Death Loach",
+                        "access_rules": [
+                            "^$fishAccess|The Peaks|Death Loach"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Death Loach"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Abalathian Salamander",
+                        "access_rules": [
+                            "^$fishAccess|The Peaks|Abalathian Salamander"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Abalathian Salamander"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Steelshark",
+                        "access_rules": [
+                            "^$fishAccess|The Peaks|Steelshark"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Steelshark"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Purple Buckler",
+                        "access_rules": [
+                            "^$fishAccess|The Peaks|Purple Buckler"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Purple Buckler"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "The Last Tear",
+                        "access_rules": [
+                            "^$fishAccess|The Peaks|The Last Tear"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|The Last Tear"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "The Peaks",
+                        "x": 1554,
+                        "y": 261,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "The Ephor",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    
+                ],
+                "visibility_rules": [
+                    
+                ],
+                "sections": [
+                    {
+                        "name": "Heather Charr",
+                        "access_rules": [
+                            "^$fishAccess|The Peaks|Heather Charr"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Heather Charr"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Meditator",
+                        "access_rules": [
+                            "^$fishAccess|The Peaks|Meditator"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Meditator"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Stonytongue",
+                        "access_rules": [
+                            "^$fishAccess|The Peaks|Stonytongue"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Stonytongue"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Deemster",
+                        "access_rules": [
+                            "^$fishAccess|The Peaks|Deemster"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Deemster"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Moksha",
+                        "access_rules": [
+                            "^$fishAccess|The Peaks|Moksha"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Moksha"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "The Peaks",
+                        "x": 1545,
+                        "y": 789,
                         "size": 40,
                         "shape": "rect"
                     }
@@ -1487,16 +1394,6 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Meditator",
-                        "access_rules": [
-                            "^$fishAccess|The Peaks|Meditator"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Meditator"
-                        ],
-                        "item_count": 1
-                    },
-                    {
                         "name": "Bulls Bite",
                         "access_rules": [
                             "^$fishAccess|The Peaks|Bull's Bite"
@@ -1513,6 +1410,16 @@
                         ],
                         "visibility_rules": [
                             "$fishVisibility|Peeping Pisces"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Meditator",
+                        "access_rules": [
+                            "^$fishAccess|The Peaks|Meditator"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Meditator"
                         ],
                         "item_count": 1
                     },
@@ -1542,6 +1449,99 @@
                         "map": "The Peaks",
                         "x": 984,
                         "y": 1548,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "The Arms of Meed",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    
+                ],
+                "visibility_rules": [
+                    
+                ],
+                "sections": [
+                    {
+                        "name": "Gyr Abanian Trout",
+                        "access_rules": [
+                            "^$fishAccess|The Peaks|Gyr Abanian Trout"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Gyr Abanian Trout"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Gigant Bass",
+                        "access_rules": [
+                            "^$fishAccess|The Peaks|Gigant Bass"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Gigant Bass"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Eastern Pike",
+                        "access_rules": [
+                            "^$fishAccess|The Peaks|Eastern Pike"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Eastern Pike"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Scimitarfish",
+                        "access_rules": [
+                            "^$fishAccess|The Peaks|Scimitarfish"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Scimitarfish"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Ala Mhigan Ribbon",
+                        "access_rules": [
+                            "^$fishAccess|The Peaks|Ala Mhigan Ribbon"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Ala Mhigan Ribbon"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Rockfish",
+                        "access_rules": [
+                            "^$fishAccess|The Peaks|Rockfish"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Rockfish"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Lily of the Veil",
+                        "access_rules": [
+                            "^$fishAccess|The Peaks|Lily of the Veil"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Lily of the Veil"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "The Peaks",
+                        "x": 421,
+                        "y": 1829,
                         "size": 40,
                         "shape": "rect"
                     }
