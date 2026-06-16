@@ -913,6 +913,89 @@
                 ]
             },
             {
+                "name": "Greytail Falls",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    
+                ],
+                "visibility_rules": [
+                    
+                ],
+                "sections": [
+                    {
+                        "name": "Cloud Coral",
+                        "access_rules": [
+                            "^$fishAccess|Coerthas Western Highlands|Cloud Coral"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Cloud Coral"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Skyworm",
+                        "access_rules": [
+                            "^$fishAccess|Coerthas Western Highlands|Skyworm"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Skyworm"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Glacier Core",
+                        "access_rules": [
+                            "^$fishAccess|Coerthas Western Highlands|Glacier Core"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Glacier Core"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Warballoon",
+                        "access_rules": [
+                            "^$fishAccess|Coerthas Western Highlands|Warballoon"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Warballoon"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Rime Eater",
+                        "access_rules": [
+                            "^$fishAccess|Coerthas Western Highlands|Rime Eater"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Rime Eater"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Hailfinder",
+                        "access_rules": [
+                            "^$fishAccess|Coerthas Western Highlands|Hailfinder"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Hailfinder"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Coerthas Western Highlands",
+                        "x": 1655,
+                        "y": 1243,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
                 "name": "Unfrozen Pond",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
@@ -1119,6 +1202,89 @@
                 ]
             },
             {
+                "name": "Dragonspit",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    
+                ],
+                "visibility_rules": [
+                    
+                ],
+                "sections": [
+                    {
+                        "name": "Ogre Horn Snail",
+                        "access_rules": [
+                            "^$fishAccess|Coerthas Western Highlands|Ogre Horn Snail"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Ogre Horn Snail"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cherry Trout",
+                        "access_rules": [
+                            "^$fishAccess|Coerthas Western Highlands|Cherry Trout"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Cherry Trout"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Hospitalier Fish",
+                        "access_rules": [
+                            "^$fishAccess|Coerthas Western Highlands|Hospitalier Fish"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Hospitalier Fish"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Spring Urchin",
+                        "access_rules": [
+                            "^$fishAccess|Coerthas Western Highlands|Spring Urchin"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Spring Urchin"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Dragonspine",
+                        "access_rules": [
+                            "^$fishAccess|Coerthas Western Highlands|Dragonspine"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Dragonspine"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "The Impaler",
+                        "access_rules": [
+                            "^$fishAccess|Coerthas Western Highlands|The Impaler"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|The Impaler"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Coerthas Western Highlands",
+                        "x": 343,
+                        "y": 385,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
                 "name": "South Banepool",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
@@ -1161,22 +1327,22 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Fanged Clam",
-                        "access_rules": [
-                            "^$fishAccess|Coerthas Western Highlands|Fanged Clam"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Fanged Clam"
-                        ],
-                        "item_count": 1
-                    },
-                    {
                         "name": "Lake Urchin",
                         "access_rules": [
                             "^$fishAccess|Coerthas Western Highlands|Lake Urchin"
                         ],
                         "visibility_rules": [
                             "$fishVisibility|Lake Urchin"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Ammonite",
+                        "access_rules": [
+                            "^$fishAccess|Coerthas Western Highlands|Ammonite"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Ammonite"
                         ],
                         "item_count": 1
                     },
@@ -1191,12 +1357,12 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Ammonite",
+                        "name": "Fanged Clam",
                         "access_rules": [
-                            "^$fishAccess|Coerthas Western Highlands|Ammonite"
+                            "^$fishAccess|Coerthas Western Highlands|Fanged Clam"
                         ],
                         "visibility_rules": [
-                            "$fishVisibility|Ammonite"
+                            "$fishVisibility|Fanged Clam"
                         ],
                         "item_count": 1
                     },
@@ -1314,22 +1480,22 @@
                         "item_count": 1
                     },
                     {
-                        "name": "La Reale",
-                        "access_rules": [
-                            "^$fishAccess|Coerthas Western Highlands|La Reale"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|La Reale"
-                        ],
-                        "item_count": 1
-                    },
-                    {
                         "name": "Northern Oyster",
                         "access_rules": [
                             "^$fishAccess|Coerthas Western Highlands|Northern Oyster"
                         ],
                         "visibility_rules": [
                             "$fishVisibility|Northern Oyster"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "La Reale",
+                        "access_rules": [
+                            "^$fishAccess|Coerthas Western Highlands|La Reale"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|La Reale"
                         ],
                         "item_count": 1
                     }
@@ -1339,89 +1505,6 @@
                         "map": "Coerthas Western Highlands",
                         "x": 603,
                         "y": 675,
-                        "size": 40,
-                        "shape": "rect"
-                    }
-                ]
-            },
-            {
-                "name": "Greytail Falls",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    
-                ],
-                "visibility_rules": [
-                    
-                ],
-                "sections": [
-                    {
-                        "name": "Cloud Coral",
-                        "access_rules": [
-                            "^$fishAccess|Coerthas Western Highlands|Cloud Coral"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Cloud Coral"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Skyworm",
-                        "access_rules": [
-                            "^$fishAccess|Coerthas Western Highlands|Skyworm"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Skyworm"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Glacier Core",
-                        "access_rules": [
-                            "^$fishAccess|Coerthas Western Highlands|Glacier Core"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Glacier Core"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Rime Eater",
-                        "access_rules": [
-                            "^$fishAccess|Coerthas Western Highlands|Rime Eater"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Rime Eater"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Warballoon",
-                        "access_rules": [
-                            "^$fishAccess|Coerthas Western Highlands|Warballoon"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Warballoon"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Hailfinder",
-                        "access_rules": [
-                            "^$fishAccess|Coerthas Western Highlands|Hailfinder"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Hailfinder"
-                        ],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Coerthas Western Highlands",
-                        "x": 1655,
-                        "y": 1243,
                         "size": 40,
                         "shape": "rect"
                     }
@@ -1439,16 +1522,6 @@
                     
                 ],
                 "sections": [
-                    {
-                        "name": "Ice Faerie",
-                        "access_rules": [
-                            "^$fishAccess|Coerthas Western Highlands|Ice Faerie"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Ice Faerie"
-                        ],
-                        "item_count": 1
-                    },
                     {
                         "name": "Fanged Clam",
                         "access_rules": [
@@ -1470,12 +1543,12 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Snowcaller",
+                        "name": "Ice Faerie",
                         "access_rules": [
-                            "^$fishAccess|Coerthas Western Highlands|Snowcaller"
+                            "^$fishAccess|Coerthas Western Highlands|Ice Faerie"
                         ],
                         "visibility_rules": [
-                            "$fishVisibility|Snowcaller"
+                            "$fishVisibility|Ice Faerie"
                         ],
                         "item_count": 1
                     },
@@ -1490,22 +1563,22 @@
                         "item_count": 1
                     },
                     {
+                        "name": "Snowcaller",
+                        "access_rules": [
+                            "^$fishAccess|Coerthas Western Highlands|Snowcaller"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Snowcaller"
+                        ],
+                        "item_count": 1
+                    },
+                    {
                         "name": "Coerthan Oyster",
                         "access_rules": [
                             "^$fishAccess|Coerthas Western Highlands|Coerthan Oyster"
                         ],
                         "visibility_rules": [
                             "$fishVisibility|Coerthan Oyster"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Merciless",
-                        "access_rules": [
-                            "^$fishAccess|Coerthas Western Highlands|Merciless"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Merciless"
                         ],
                         "item_count": 1
                     },
@@ -1518,6 +1591,16 @@
                             "$fishVisibility|Warmscale Pleco"
                         ],
                         "item_count": 1
+                    },
+                    {
+                        "name": "Merciless",
+                        "access_rules": [
+                            "^$fishAccess|Coerthas Western Highlands|Merciless"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Merciless"
+                        ],
+                        "item_count": 1
                     }
                 ],
                 "map_locations": [
@@ -1525,89 +1608,6 @@
                         "map": "Coerthas Western Highlands",
                         "x": 572,
                         "y": 364,
-                        "size": 40,
-                        "shape": "rect"
-                    }
-                ]
-            },
-            {
-                "name": "Dragonspit",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    
-                ],
-                "visibility_rules": [
-                    
-                ],
-                "sections": [
-                    {
-                        "name": "Ogre Horn Snail",
-                        "access_rules": [
-                            "^$fishAccess|Coerthas Western Highlands|Ogre Horn Snail"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Ogre Horn Snail"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Hospitalier Fish",
-                        "access_rules": [
-                            "^$fishAccess|Coerthas Western Highlands|Hospitalier Fish"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Hospitalier Fish"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Spring Urchin",
-                        "access_rules": [
-                            "^$fishAccess|Coerthas Western Highlands|Spring Urchin"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Spring Urchin"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Cherry Trout",
-                        "access_rules": [
-                            "^$fishAccess|Coerthas Western Highlands|Cherry Trout"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Cherry Trout"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Impaler",
-                        "access_rules": [
-                            "^$fishAccess|Coerthas Western Highlands|The Impaler"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|The Impaler"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Dragonspine",
-                        "access_rules": [
-                            "^$fishAccess|Coerthas Western Highlands|Dragonspine"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Dragonspine"
-                        ],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Coerthas Western Highlands",
-                        "x": 343,
-                        "y": 385,
                         "size": 40,
                         "shape": "rect"
                     }

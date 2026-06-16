@@ -1711,6 +1711,119 @@
                 ]
             },
             {
+                "name": "Thaliak River",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    
+                ],
+                "visibility_rules": [
+                    
+                ],
+                "sections": [
+                    {
+                        "name": "Hedgemole Cricket",
+                        "access_rules": [
+                            "^$fishAccess|The Dravanian Hinterlands|Hedgemole Cricket"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Hedgemole Cricket"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Sweetfish",
+                        "access_rules": [
+                            "^$fishAccess|The Dravanian Hinterlands|Sweetfish"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Sweetfish"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Philosophers Stone",
+                        "access_rules": [
+                            "^$fishAccess|The Dravanian Hinterlands|Philosopher's Stone"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Philosopher's Stone"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Shipworm",
+                        "access_rules": [
+                            "^$fishAccess|The Dravanian Hinterlands|Shipworm"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Shipworm"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Autumn Leaf",
+                        "access_rules": [
+                            "^$fishAccess|The Dravanian Hinterlands|Autumn Leaf"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Autumn Leaf"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Illuminati Perch",
+                        "access_rules": [
+                            "^$fishAccess|The Dravanian Hinterlands|Illuminati Perch"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Illuminati Perch"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Hinterlands Perch",
+                        "access_rules": [
+                            "^$fishAccess|The Dravanian Hinterlands|Hinterlands Perch"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Hinterlands Perch"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Thinkers Coral",
+                        "access_rules": [
+                            "^$fishAccess|The Dravanian Hinterlands|Thinker's Coral"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Thinker's Coral"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "The Ewer King",
+                        "access_rules": [
+                            "^$fishAccess|The Dravanian Hinterlands|The Ewer King"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|The Ewer King"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "The Dravanian Hinterlands",
+                        "x": 1060,
+                        "y": 1014,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
                 "name": "Quickspill Delta",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
@@ -1743,32 +1856,12 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Tigerfish",
-                        "access_rules": [
-                            "^$fishAccess|The Dravanian Hinterlands|Tigerfish"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Tigerfish"
-                        ],
-                        "item_count": 1
-                    },
-                    {
                         "name": "Hedgemole Cricket",
                         "access_rules": [
                             "^$fishAccess|The Dravanian Hinterlands|Hedgemole Cricket"
                         ],
                         "visibility_rules": [
                             "$fishVisibility|Hedgemole Cricket"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Orn Butterfly",
-                        "access_rules": [
-                            "^$fishAccess|The Dravanian Hinterlands|Orn Butterfly"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Orn Butterfly"
                         ],
                         "item_count": 1
                     },
@@ -1783,22 +1876,32 @@
                         "item_count": 1
                     },
                     {
+                        "name": "Orn Butterfly",
+                        "access_rules": [
+                            "^$fishAccess|The Dravanian Hinterlands|Orn Butterfly"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Orn Butterfly"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Tigerfish",
+                        "access_rules": [
+                            "^$fishAccess|The Dravanian Hinterlands|Tigerfish"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Tigerfish"
+                        ],
+                        "item_count": 1
+                    },
+                    {
                         "name": "Gnomefish",
                         "access_rules": [
                             "^$fishAccess|The Dravanian Hinterlands|Gnomefish"
                         ],
                         "visibility_rules": [
                             "$fishVisibility|Gnomefish"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Madam Butterfly",
-                        "access_rules": [
-                            "^$fishAccess|The Dravanian Hinterlands|Madam Butterfly"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Madam Butterfly"
                         ],
                         "item_count": 1
                     },
@@ -1811,6 +1914,16 @@
                             "$fishVisibility|Dravanian Scallop"
                         ],
                         "item_count": 1
+                    },
+                    {
+                        "name": "Madam Butterfly",
+                        "access_rules": [
+                            "^$fishAccess|The Dravanian Hinterlands|Madam Butterfly"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Madam Butterfly"
+                        ],
+                        "item_count": 1
                     }
                 ],
                 "map_locations": [
@@ -1818,129 +1931,6 @@
                         "map": "The Dravanian Hinterlands",
                         "x": 513,
                         "y": 1236,
-                        "size": 40,
-                        "shape": "rect"
-                    }
-                ]
-            },
-            {
-                "name": "Middle Thaliak River",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    
-                ],
-                "visibility_rules": [
-                    
-                ],
-                "sections": [
-                    {
-                        "name": "Bullfrog",
-                        "access_rules": [
-                            "^$fishAccess|The Dravanian Hinterlands|Bullfrog"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Bullfrog"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Scholar Sculpin",
-                        "access_rules": [
-                            "^$fishAccess|The Dravanian Hinterlands|Scholar Sculpin"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Scholar Sculpin"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Hedgemole Cricket",
-                        "access_rules": [
-                            "^$fishAccess|The Dravanian Hinterlands|Hedgemole Cricket"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Hedgemole Cricket"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Sweetfish",
-                        "access_rules": [
-                            "^$fishAccess|The Dravanian Hinterlands|Sweetfish"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Sweetfish"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Philosophers Stone",
-                        "access_rules": [
-                            "^$fishAccess|The Dravanian Hinterlands|Philosopher's Stone"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Philosopher's Stone"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Thaliak Caiman",
-                        "access_rules": [
-                            "^$fishAccess|The Dravanian Hinterlands|Thaliak Caiman"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Thaliak Caiman"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Berserker Betta",
-                        "access_rules": [
-                            "^$fishAccess|The Dravanian Hinterlands|Berserker Betta"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Berserker Betta"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Goblin Bass",
-                        "access_rules": [
-                            "^$fishAccess|The Dravanian Hinterlands|Goblin Bass"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Goblin Bass"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Bobgoblin Bass",
-                        "access_rules": [
-                            "^$fishAccess|The Dravanian Hinterlands|Bobgoblin Bass"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Bobgoblin Bass"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Inkshell",
-                        "access_rules": [
-                            "^$fishAccess|The Dravanian Hinterlands|Inkshell"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Inkshell"
-                        ],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "The Dravanian Hinterlands",
-                        "x": 938,
-                        "y": 1131,
                         "size": 40,
                         "shape": "rect"
                     }
@@ -1959,26 +1949,6 @@
                 ],
                 "sections": [
                     {
-                        "name": "Scholar Sculpin",
-                        "access_rules": [
-                            "^$fishAccess|The Dravanian Hinterlands|Scholar Sculpin"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Scholar Sculpin"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Shipworm",
-                        "access_rules": [
-                            "^$fishAccess|The Dravanian Hinterlands|Shipworm"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Shipworm"
-                        ],
-                        "item_count": 1
-                    },
-                    {
                         "name": "Hedgemole Cricket",
                         "access_rules": [
                             "^$fishAccess|The Dravanian Hinterlands|Hedgemole Cricket"
@@ -1989,12 +1959,32 @@
                         "item_count": 1
                     },
                     {
+                        "name": "Scholar Sculpin",
+                        "access_rules": [
+                            "^$fishAccess|The Dravanian Hinterlands|Scholar Sculpin"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Scholar Sculpin"
+                        ],
+                        "item_count": 1
+                    },
+                    {
                         "name": "Sweetfish",
                         "access_rules": [
                             "^$fishAccess|The Dravanian Hinterlands|Sweetfish"
                         ],
                         "visibility_rules": [
                             "$fishVisibility|Sweetfish"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Shipworm",
+                        "access_rules": [
+                            "^$fishAccess|The Dravanian Hinterlands|Shipworm"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Shipworm"
                         ],
                         "item_count": 1
                     },
@@ -2070,7 +2060,7 @@
                 ]
             },
             {
-                "name": "Thaliak River",
+                "name": "Middle Thaliak River",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
@@ -2082,22 +2072,22 @@
                 ],
                 "sections": [
                     {
-                        "name": "Shipworm",
+                        "name": "Philosophers Stone",
                         "access_rules": [
-                            "^$fishAccess|The Dravanian Hinterlands|Shipworm"
+                            "^$fishAccess|The Dravanian Hinterlands|Philosopher's Stone"
                         ],
                         "visibility_rules": [
-                            "$fishVisibility|Shipworm"
+                            "$fishVisibility|Philosopher's Stone"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Hedgemole Cricket",
+                        "name": "Scholar Sculpin",
                         "access_rules": [
-                            "^$fishAccess|The Dravanian Hinterlands|Hedgemole Cricket"
+                            "^$fishAccess|The Dravanian Hinterlands|Scholar Sculpin"
                         ],
                         "visibility_rules": [
-                            "$fishVisibility|Hedgemole Cricket"
+                            "$fishVisibility|Scholar Sculpin"
                         ],
                         "item_count": 1
                     },
@@ -2112,62 +2102,72 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Autumn Leaf",
+                        "name": "Hedgemole Cricket",
                         "access_rules": [
-                            "^$fishAccess|The Dravanian Hinterlands|Autumn Leaf"
+                            "^$fishAccess|The Dravanian Hinterlands|Hedgemole Cricket"
                         ],
                         "visibility_rules": [
-                            "$fishVisibility|Autumn Leaf"
+                            "$fishVisibility|Hedgemole Cricket"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Philosophers Stone",
+                        "name": "Bullfrog",
                         "access_rules": [
-                            "^$fishAccess|The Dravanian Hinterlands|Philosopher's Stone"
+                            "^$fishAccess|The Dravanian Hinterlands|Bullfrog"
                         ],
                         "visibility_rules": [
-                            "$fishVisibility|Philosopher's Stone"
+                            "$fishVisibility|Bullfrog"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Illuminati Perch",
+                        "name": "Thaliak Caiman",
                         "access_rules": [
-                            "^$fishAccess|The Dravanian Hinterlands|Illuminati Perch"
+                            "^$fishAccess|The Dravanian Hinterlands|Thaliak Caiman"
                         ],
                         "visibility_rules": [
-                            "$fishVisibility|Illuminati Perch"
+                            "$fishVisibility|Thaliak Caiman"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Hinterlands Perch",
+                        "name": "Berserker Betta",
                         "access_rules": [
-                            "^$fishAccess|The Dravanian Hinterlands|Hinterlands Perch"
+                            "^$fishAccess|The Dravanian Hinterlands|Berserker Betta"
                         ],
                         "visibility_rules": [
-                            "$fishVisibility|Hinterlands Perch"
+                            "$fishVisibility|Berserker Betta"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "The Ewer King",
+                        "name": "Goblin Bass",
                         "access_rules": [
-                            "^$fishAccess|The Dravanian Hinterlands|The Ewer King"
+                            "^$fishAccess|The Dravanian Hinterlands|Goblin Bass"
                         ],
                         "visibility_rules": [
-                            "$fishVisibility|The Ewer King"
+                            "$fishVisibility|Goblin Bass"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Thinkers Coral",
+                        "name": "Inkshell",
                         "access_rules": [
-                            "^$fishAccess|The Dravanian Hinterlands|Thinker's Coral"
+                            "^$fishAccess|The Dravanian Hinterlands|Inkshell"
                         ],
                         "visibility_rules": [
-                            "$fishVisibility|Thinker's Coral"
+                            "$fishVisibility|Inkshell"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bobgoblin Bass",
+                        "access_rules": [
+                            "^$fishAccess|The Dravanian Hinterlands|Bobgoblin Bass"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Bobgoblin Bass"
                         ],
                         "item_count": 1
                     }
@@ -2175,8 +2175,8 @@
                 "map_locations": [
                     {
                         "map": "The Dravanian Hinterlands",
-                        "x": 1060,
-                        "y": 1014,
+                        "x": 938,
+                        "y": 1131,
                         "size": 40,
                         "shape": "rect"
                     }

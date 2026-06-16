@@ -981,22 +981,22 @@
                 ],
                 "sections": [
                     {
-                        "name": "Lamp Marimo",
-                        "access_rules": [
-                            "^$fishAccess|The Churning Mists|Lamp Marimo"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Lamp Marimo"
-                        ],
-                        "item_count": 1
-                    },
-                    {
                         "name": "Cloudfish",
                         "access_rules": [
                             "^$fishAccess|The Churning Mists|Cloudfish"
                         ],
                         "visibility_rules": [
                             "$fishVisibility|Cloudfish"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Lamp Marimo",
+                        "access_rules": [
+                            "^$fishAccess|The Churning Mists|Lamp Marimo"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Lamp Marimo"
                         ],
                         "item_count": 1
                     },
@@ -1042,6 +1042,59 @@
                 ]
             },
             {
+                "name": "Greensward",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    
+                ],
+                "visibility_rules": [
+                    
+                ],
+                "sections": [
+                    {
+                        "name": "Mogpom",
+                        "access_rules": [
+                            "^$fishAccess|The Churning Mists|Mogpom"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Mogpom"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Moggle Mogpom",
+                        "access_rules": [
+                            "^$fishAccess|The Churning Mists|Moggle Mogpom"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Moggle Mogpom"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Holier-than Mogpom",
+                        "access_rules": [
+                            "^$fishAccess|The Churning Mists|Holier-than Mogpom"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Holier-than Mogpom"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "The Churning Mists",
+                        "x": 372,
+                        "y": 1587,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
                 "name": "Weston Waters",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
@@ -1074,22 +1127,22 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Hundred Fin",
-                        "access_rules": [
-                            "^$fishAccess|The Churning Mists|Hundred Fin"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Hundred Fin"
-                        ],
-                        "item_count": 1
-                    },
-                    {
                         "name": "Weston Bowfin",
                         "access_rules": [
                             "^$fishAccess|The Churning Mists|Weston Bowfin"
                         ],
                         "visibility_rules": [
                             "$fishVisibility|Weston Bowfin"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Hundred Fin",
+                        "access_rules": [
+                            "^$fishAccess|The Churning Mists|Hundred Fin"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Hundred Fin"
                         ],
                         "item_count": 1
                     },
@@ -1104,22 +1157,22 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Thousand Fin",
-                        "access_rules": [
-                            "^$fishAccess|The Churning Mists|Thousand Fin"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Thousand Fin"
-                        ],
-                        "item_count": 1
-                    },
-                    {
                         "name": "Illuminati Mask",
                         "access_rules": [
                             "^$fishAccess|The Churning Mists|Illuminati Mask"
                         ],
                         "visibility_rules": [
                             "$fishVisibility|Illuminati Mask"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Thousand Fin",
+                        "access_rules": [
+                            "^$fishAccess|The Churning Mists|Thousand Fin"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Thousand Fin"
                         ],
                         "item_count": 1
                     }
@@ -1157,6 +1210,16 @@
                         "item_count": 1
                     },
                     {
+                        "name": "Gloaming Coral",
+                        "access_rules": [
+                            "^$fishAccess|The Churning Mists|Gloaming Coral"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Gloaming Coral"
+                        ],
+                        "item_count": 1
+                    },
+                    {
                         "name": "Cloud Rider",
                         "access_rules": [
                             "^$fishAccess|The Churning Mists|Cloud Rider"
@@ -1183,16 +1246,6 @@
                         ],
                         "visibility_rules": [
                             "$fishVisibility|Letter Puffer"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Gloaming Coral",
-                        "access_rules": [
-                            "^$fishAccess|The Churning Mists|Gloaming Coral"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Gloaming Coral"
                         ],
                         "item_count": 1
                     },
@@ -1260,12 +1313,32 @@
                         "item_count": 1
                     },
                     {
+                        "name": "Gloaming Coral",
+                        "access_rules": [
+                            "^$fishAccess|The Churning Mists|Gloaming Coral"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Gloaming Coral"
+                        ],
+                        "item_count": 1
+                    },
+                    {
                         "name": "Cloud Rider",
                         "access_rules": [
                             "^$fishAccess|The Churning Mists|Cloud Rider"
                         ],
                         "visibility_rules": [
                             "$fishVisibility|Cloud Rider"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Rudderfish",
+                        "access_rules": [
+                            "^$fishAccess|The Churning Mists|Rudderfish"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Rudderfish"
                         ],
                         "item_count": 1
                     },
@@ -1286,26 +1359,6 @@
                         ],
                         "visibility_rules": [
                             "$fishVisibility|Star Faerie"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Gloaming Coral",
-                        "access_rules": [
-                            "^$fishAccess|The Churning Mists|Gloaming Coral"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Gloaming Coral"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Rudderfish",
-                        "access_rules": [
-                            "^$fishAccess|The Churning Mists|Rudderfish"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Rudderfish"
                         ],
                         "item_count": 1
                     },
@@ -1373,6 +1426,16 @@
                         "item_count": 1
                     },
                     {
+                        "name": "Rudderfish",
+                        "access_rules": [
+                            "^$fishAccess|The Churning Mists|Rudderfish"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Rudderfish"
+                        ],
+                        "item_count": 1
+                    },
+                    {
                         "name": "Manasail",
                         "access_rules": [
                             "^$fishAccess|The Churning Mists|Manasail"
@@ -1389,16 +1452,6 @@
                         ],
                         "visibility_rules": [
                             "$fishVisibility|Brown Bolo"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Rudderfish",
-                        "access_rules": [
-                            "^$fishAccess|The Churning Mists|Rudderfish"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Rudderfish"
                         ],
                         "item_count": 1
                     },
@@ -1458,59 +1511,6 @@
                         "map": "The Churning Mists",
                         "x": 886,
                         "y": 263,
-                        "size": 40,
-                        "shape": "rect"
-                    }
-                ]
-            },
-            {
-                "name": "Greensward",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    
-                ],
-                "visibility_rules": [
-                    
-                ],
-                "sections": [
-                    {
-                        "name": "Mogpom",
-                        "access_rules": [
-                            "^$fishAccess|The Churning Mists|Mogpom"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Mogpom"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Moggle Mogpom",
-                        "access_rules": [
-                            "^$fishAccess|The Churning Mists|Moggle Mogpom"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Moggle Mogpom"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Holier-than Mogpom",
-                        "access_rules": [
-                            "^$fishAccess|The Churning Mists|Holier-than Mogpom"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Holier-than Mogpom"
-                        ],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "The Churning Mists",
-                        "x": 372,
-                        "y": 1587,
                         "size": 40,
                         "shape": "rect"
                     }
