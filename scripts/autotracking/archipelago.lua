@@ -192,7 +192,7 @@ function processYaml(slot_data)
         Tracker:FindObjectForCode("include_guildhests").Active = slot_data["include_guildhests"] == 1
         Tracker:FindObjectForCode("mcguffins_needed").AcquiredCount = slot_data["mcguffins_needed"]
         local goal = slot_data["goal"]
-        Tracker:FindObjectForCode("McGuffinHunt").CurrentStage = goal or 0
+        Tracker:FindObjectForCode("goal").CurrentStage = goal or 0
 
         if goal > 0 then
             Tracker:FindObjectForCode("boss_key_pieces").AcquiredCount = slot_data["boss_key_pieces"]
