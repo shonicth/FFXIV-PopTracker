@@ -1,208 +1,208 @@
-   [
-    {
-        "name": "Fatesanity",
-        "type": "toggle",
-        "img": "images/items/placeholder.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "fatesanity"
-    },
-        {
-        "name": "Level Cap",
-        "type": "consumable",
-        "img": "images/items/placeholder.png",
-        "min_quantity": 30,
-        "max_quantity": 100,
-        "increment": 1,
-        "decrement": 1,
-        "initial_quantity": 100,
-        "overlay_align": "right",
-        "overlay_font_size": 14,
-        "overlay_background": "#000000",
-        "codes": "level_cap"
-    },
-      {
-        "name": "Include Bozja",
-        "type": "toggle",
-        "img": "images/items/placeholder.png",
-        "initial_active_state": true,
-        "overlay_align": "right",
-        "codes": "include_bozja"
-    },
-          {
-        "name": "Include Ocean Fishing",
-        "type": "toggle",
-        "img": "images/items/placeholder.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "include_ocean_fishing"
-    },
-    {
+[
+  {
+    "name": "Fatesanity",
+    "type": "toggle",
+    "img": "images/items/placeholder.png",
+    "initial_active_state": false,
+    "overlay_align": "right",
+    "codes": "fatesanity"
+  },
+  {
+    "name": "Level Cap",
+    "type": "consumable",
+    "img": "images/items/placeholder.png",
+    "min_quantity": 30,
+    "max_quantity": 100,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 100,
+    "overlay_align": "right",
+    "overlay_font_size": 14,
+    "overlay_background": "#000000",
+    "codes": "level_cap"
+  },
+  {
+    "name": "Include Bozja",
+    "type": "toggle",
+    "img": "images/items/placeholder.png",
+    "initial_active_state": true,
+    "overlay_align": "right",
+    "codes": "include_bozja"
+  },
+  {
+    "name": "Include Ocean Fishing",
+    "type": "toggle",
+    "img": "images/items/placeholder.png",
+    "initial_active_state": false,
+    "overlay_align": "right",
+    "codes": "include_ocean_fishing"
+  },
+  {
     "name": "Fishsanity",
     "type": "progressive",
     "allow_disabled": false,
     "initial_stage_idx": 0,
     "stages": [
-            {
+      {
         "img": "images/items/placeholder.png",
         "codes": "fishsanity",
         "inherit_codes": false
       },
-    {
+      {
         "img": "images/items/placeholder.png",
         "codes": "fishsanity_normal",
         "inherit_codes": true
       },
       {
-        "img": "images/items/placeholder.png",
-        "codes": "fishsanity_timed",
-        "inherit_codes": true
+      "img": "images/items/placeholder.png",
+      "codes": "fishsanity_timed",
+      "inherit_codes": true
       },
       {
-        "img": "images/items/placeholder.png",
-        "codes": "fishsanity_big",
-        "inherit_codes": true
+      "img": "images/items/placeholder.png",
+      "codes": "fishsanity_big",
+      "inherit_codes": true
       }
     ]
   },
-          {
-        "name": "Include Unreasonable Fates",
-        "type": "toggle",
-        "img": "images/items/placeholder.png",
-        "initial_active_state": true,
-        "overlay_align": "right",
-        "codes": "include_unreasonable_fates"
-    },
-                  {
-        "name": "Allow Main Scenario Duties",
-        "type": "toggle",
-        "img": "images/items/placeholder.png",
-        "initial_active_state": true,
-        "overlay_align": "right",
-        "codes": "allow_main_scenario_duties"
-    },
-                      {
-        "name": "Include PVP",
-        "type": "toggle",
-        "img": "images/items/placeholder.png",
-        "initial_active_state": true,
-        "overlay_align": "right",
-        "codes": "include_pvp"
-    },
-    {
+  {
+    "name": "Include Unreasonable Fates",
+    "type": "toggle",
+    "img": "images/items/placeholder.png",
+    "initial_active_state": true,
+    "overlay_align": "right",
+    "codes": "include_unreasonable_fates"
+  },
+  {
+    "name": "Allow Main Scenario Duties",
+    "type": "toggle",
+    "img": "images/items/placeholder.png",
+    "initial_active_state": true,
+    "overlay_align": "right",
+    "codes": "allow_main_scenario_duties"
+  },
+  {
+    "name": "Include PVP",
+    "type": "toggle",
+    "img": "images/items/placeholder.png",
+    "initial_active_state": true,
+    "overlay_align": "right",
+    "codes": "include_pvp"
+  },
+  {
     "name": "Duty Difficulty",
     "type": "progressive",
     "allow_disabled": false,
     "initial_stage_idx": 0,
     "stages": [
-            {
-        "img": "images/items/placeholder.png",
-        "codes": "duty_difficulty",
-        "inherit_codes": false
-      },
-    {
-        "img": "images/items/placeholder.png",
-        "codes": "duty_difficulty_normal",
-        "inherit_codes": true
+      {
+      "img": "images/items/placeholder.png",
+      "codes": "duty_difficulty",
+      "inherit_codes": false
       },
       {
-        "img": "images/items/placeholder.png",
-        "codes": "duty_difficulty_ex",
-        "inherit_codes": true
+      "img": "images/items/placeholder.png",
+      "codes": "duty_difficulty_normal",
+      "inherit_codes": true
       },
       {
-        "img": "images/items/placeholder.png",
-        "codes": "duty_difficulty_savage",
-        "inherit_codes": true
+      "img": "images/items/placeholder.png",
+      "codes": "duty_difficulty_ex",
+      "inherit_codes": true
       },
-            {
-        "img": "images/items/placeholder.png",
-        "codes": "duty_difficulty_endgame",
-        "inherit_codes": true
+      {
+      "img": "images/items/placeholder.png",
+      "codes": "duty_difficulty_savage",
+      "inherit_codes": true
+      },
+      {
+      "img": "images/items/placeholder.png",
+      "codes": "duty_difficulty_endgame",
+      "inherit_codes": true
       }
     ]
   },
-        {
-        "name": "Fates per zone",
-        "type": "consumable",
-        "img": "images/items/placeholder.png",
-        "min_quantity": 0,
-        "max_quantity": 10,
-        "increment": 1,
-        "decrement": 1,
-        "initial_quantity": 5,
-        "overlay_align": "right",
-        "overlay_font_size": 14,
-        "overlay_background": "#000000",
-        "codes": "fates_per_zone"
-    },
-            {
-        "name": "Extra dungeon checks",
-        "type": "consumable",
-        "img": "images/items/placeholder.png",
-        "min_quantity": 0,
-        "max_quantity": 9,
-        "increment": 1,
-        "decrement": 1,
-        "initial_quantity": 0,
-        "overlay_align": "right",
-        "overlay_font_size": 14,
-        "overlay_background": "#000000",
-        "codes": "extra_dungeon_checks"
-    },
-                     {
-        "name": "Include Guildhests",
-        "type": "toggle",
-        "img": "images/items/placeholder.png",
-        "initial_active_state": true,
-        "overlay_align": "right",
-        "codes": "include_guildhests"
-    },
-            {
-        "name": "mcguffins_needed",
-        "type": "consumable",
-        "img": "images/items/placeholder.png",
-        "min_quantity": 1,
-        "max_quantity": 100,
-        "increment": 1,
-        "decrement": 1,
-        "initial_quantity": 30,
-        "overlay_align": "right",
-        "overlay_font_size": 14,
-        "overlay_background": "#000000",
-        "codes": "mcguffins_needed"
-    },
-            {
-        "name": "Boss Key Pieces",
-        "type": "consumable",
-        "img": "images/items/placeholder.png",
-        "min_quantity": 0,
-        "max_quantity": 10,
-        "increment": 1,
-        "decrement": 1,
-        "initial_quantity": 0,
-        "overlay_align": "right",
-        "overlay_font_size": 14,
-        "overlay_background": "#000000",
-        "codes": "boss_key_pieces"
-    },
-    {
+  {
+    "name": "Fates per zone",
+    "type": "consumable",
+    "img": "images/items/placeholder.png",
+    "min_quantity": 0,
+    "max_quantity": 10,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 5,
+    "overlay_align": "right",
+    "overlay_font_size": 14,
+    "overlay_background": "#000000",
+    "codes": "fates_per_zone"
+  },
+  {
+    "name": "Extra dungeon checks",
+    "type": "consumable",
+    "img": "images/items/placeholder.png",
+    "min_quantity": 0,
+    "max_quantity": 9,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 0,
+    "overlay_align": "right",
+    "overlay_font_size": 14,
+    "overlay_background": "#000000",
+    "codes": "extra_dungeon_checks"
+  },
+  {
+    "name": "Include Guildhests",
+    "type": "toggle",
+    "img": "images/items/placeholder.png",
+    "initial_active_state": true,
+    "overlay_align": "right",
+    "codes": "include_guildhests"
+  },
+  {
+    "name": "mcguffins_needed",
+    "type": "consumable",
+    "img": "images/items/placeholder.png",
+    "min_quantity": 1,
+    "max_quantity": 100,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 30,
+    "overlay_align": "right",
+    "overlay_font_size": 14,
+    "overlay_background": "#000000",
+    "codes": "mcguffins_needed"
+  },
+  {
+    "name": "Boss Key Pieces",
+    "type": "consumable",
+    "img": "images/items/placeholder.png",
+    "min_quantity": 0,
+    "max_quantity": 10,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 0,
+    "overlay_align": "right",
+    "overlay_font_size": 14,
+    "overlay_background": "#000000",
+    "codes": "boss_key_pieces"
+  },
+  {
     "name": "Goal",
     "type": "progressive",
     "allow_disabled": false,
     "initial_stage_idx": 0,
     "stages": [
-            {
+      {
         "img": "images/items/placeholder.png",
         "codes": "McGuffinHunt",
         "inherit_codes": false
       },
-            {
+      {
         "img": "images/items/placeholder.png",
         "codes": "DefeatShinryu",
         "inherit_codes": false
       },
-    {
+      {
         "img": "images/items/placeholder.png",
         "codes": "DefeatUltimaWeapon",
         "inherit_codes": false
@@ -217,37 +217,37 @@
         "codes": "DefeatNidhogg",
         "inherit_codes": false
       },
-            {
+      {
         "img": "images/items/placeholder.png",
         "codes": "DefeatTsukuyomi",
         "inherit_codes": false
       },
-            {
+      {
         "img": "images/items/placeholder.png",
         "codes": "DefeatHades",
         "inherit_codes": false
       },
-            {
+      {
         "img": "images/items/placeholder.png",
         "codes": "DefeatWarriorOfLight",
         "inherit_codes": false
       },
-            {
+      {
         "img": "images/items/placeholder.png",
         "codes": "DefeatEndsinger",
         "inherit_codes": false
       },
-            {
+      {
         "img": "images/items/placeholder.png",
         "codes": "DefeatZeromus",
         "inherit_codes": false
       },
-            {
+      {
         "img": "images/items/placeholder.png",
         "codes": "DefeatSphene",
         "inherit_codes": false
       },
-            {
+      {
         "img": "images/items/placeholder.png",
         "codes": "DefeatNecron",
         "inherit_codes": false
