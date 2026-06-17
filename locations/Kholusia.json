@@ -646,119 +646,6 @@
                 ]
             },
             {
-                "name": "The Western Kholusian Coast",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    
-                ],
-                "visibility_rules": [
-                    
-                ],
-                "sections": [
-                    {
-                        "name": "Creamy Oyster",
-                        "access_rules": [
-                            "^$fishAccess|Kholusia|Creamy Oyster"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Creamy Oyster"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Shellfracture Kelp",
-                        "access_rules": [
-                            "^$fishAccess|Kholusia|Shellfracture Kelp"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Shellfracture Kelp"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Kholusian Flounder",
-                        "access_rules": [
-                            "^$fishAccess|Kholusia|Kholusian Flounder"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Kholusian Flounder"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "South Kholusian Cod",
-                        "access_rules": [
-                            "^$fishAccess|Kholusia|South Kholusian Cod"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|South Kholusian Cod"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Razorfish",
-                        "access_rules": [
-                            "^$fishAccess|Kholusia|Razorfish"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Razorfish"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Rose Shrimp",
-                        "access_rules": [
-                            "^$fishAccess|Kholusia|Rose Shrimp"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Rose Shrimp"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Kholusian King Crab",
-                        "access_rules": [
-                            "^$fishAccess|Kholusia|Kholusian King Crab"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Kholusian King Crab"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Blue Crab",
-                        "access_rules": [
-                            "^$fishAccess|Kholusia|Blue Crab"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Blue Crab"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Steel Razor",
-                        "access_rules": [
-                            "^$fishAccess|Kholusia|Steel Razor"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Steel Razor"
-                        ],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Kholusia",
-                        "x": 393,
-                        "y": 1652,
-                        "size": 40,
-                        "shape": "rect"
-                    }
-                ]
-            },
-            {
                 "name": "Upper Watts River",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
@@ -1051,6 +938,212 @@
                 ]
             },
             {
+                "name": "The Western Kholusian Coast",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    
+                ],
+                "visibility_rules": [
+                    
+                ],
+                "sections": [
+                    {
+                        "name": "South Kholusian Cod",
+                        "access_rules": [
+                            "^$fishAccess|Kholusia|South Kholusian Cod"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|South Kholusian Cod"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kholusian Flounder",
+                        "access_rules": [
+                            "^$fishAccess|Kholusia|Kholusian Flounder"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Kholusian Flounder"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Shellfracture Kelp",
+                        "access_rules": [
+                            "^$fishAccess|Kholusia|Shellfracture Kelp"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Shellfracture Kelp"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Creamy Oyster",
+                        "access_rules": [
+                            "^$fishAccess|Kholusia|Creamy Oyster"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Creamy Oyster"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Rose Shrimp",
+                        "access_rules": [
+                            "^$fishAccess|Kholusia|Rose Shrimp"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Rose Shrimp"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Razorfish",
+                        "access_rules": [
+                            "^$fishAccess|Kholusia|Razorfish"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Razorfish"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kholusian King Crab",
+                        "access_rules": [
+                            "^$fishAccess|Kholusia|Kholusian King Crab"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Kholusian King Crab"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Blue Crab",
+                        "access_rules": [
+                            "^$fishAccess|Kholusia|Blue Crab"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Blue Crab"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Steel Razor",
+                        "access_rules": [
+                            "^$fishAccess|Kholusia|Steel Razor"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Steel Razor"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Kholusia",
+                        "x": 393,
+                        "y": 1652,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Seagazer Shoals",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    
+                ],
+                "visibility_rules": [
+                    
+                ],
+                "sections": [
+                    {
+                        "name": "South Kholusian Cod",
+                        "access_rules": [
+                            "^$fishAccess|Kholusia|South Kholusian Cod"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|South Kholusian Cod"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kholusian Flounder",
+                        "access_rules": [
+                            "^$fishAccess|Kholusia|Kholusian Flounder"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Kholusian Flounder"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Blood Cloud",
+                        "access_rules": [
+                            "^$fishAccess|Kholusia|Blood Cloud"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Blood Cloud"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Shapeshifter",
+                        "access_rules": [
+                            "^$fishAccess|Kholusia|Shapeshifter"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Shapeshifter"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Minstrelfish",
+                        "access_rules": [
+                            "^$fishAccess|Kholusia|Minstrelfish"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Minstrelfish"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Shadeshifter",
+                        "access_rules": [
+                            "^$fishAccess|Kholusia|Shadeshifter"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Shadeshifter"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Aquamaton",
+                        "access_rules": [
+                            "^$fishAccess|Kholusia|Aquamaton"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Aquamaton"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Kholusia",
+                        "x": 784,
+                        "y": 1746,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
                 "name": "The Eastern Kholusian Coast",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
@@ -1062,6 +1155,16 @@
                     
                 ],
                 "sections": [
+                    {
+                        "name": "South Kholusian Cod",
+                        "access_rules": [
+                            "^$fishAccess|Kholusia|South Kholusian Cod"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|South Kholusian Cod"
+                        ],
+                        "item_count": 1
+                    },
                     {
                         "name": "Shellfracture Kelp",
                         "access_rules": [
@@ -1083,12 +1186,12 @@
                         "item_count": 1
                     },
                     {
-                        "name": "South Kholusian Cod",
+                        "name": "Spearhead Squid",
                         "access_rules": [
-                            "^$fishAccess|Kholusia|South Kholusian Cod"
+                            "^$fishAccess|Kholusia|Spearhead Squid"
                         ],
                         "visibility_rules": [
-                            "$fishVisibility|South Kholusian Cod"
+                            "$fishVisibility|Spearhead Squid"
                         ],
                         "item_count": 1
                     },
@@ -1123,12 +1226,12 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Spearhead Squid",
+                        "name": "Ondo Kelp",
                         "access_rules": [
-                            "^$fishAccess|Kholusia|Spearhead Squid"
+                            "^$fishAccess|Kholusia|Ondo Kelp"
                         ],
                         "visibility_rules": [
-                            "$fishVisibility|Spearhead Squid"
+                            "$fishVisibility|Ondo Kelp"
                         ],
                         "item_count": 1
                     },
@@ -1141,16 +1244,6 @@
                             "$fishVisibility|Henodus Grandis"
                         ],
                         "item_count": 1
-                    },
-                    {
-                        "name": "Ondo Kelp",
-                        "access_rules": [
-                            "^$fishAccess|Kholusia|Ondo Kelp"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Ondo Kelp"
-                        ],
-                        "item_count": 1
                     }
                 ],
                 "map_locations": [
@@ -1158,99 +1251,6 @@
                         "map": "Kholusia",
                         "x": 1788,
                         "y": 1525,
-                        "size": 40,
-                        "shape": "rect"
-                    }
-                ]
-            },
-            {
-                "name": "Seagazer Shoals",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    
-                ],
-                "visibility_rules": [
-                    
-                ],
-                "sections": [
-                    {
-                        "name": "Blood Cloud",
-                        "access_rules": [
-                            "^$fishAccess|Kholusia|Blood Cloud"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Blood Cloud"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Kholusian Flounder",
-                        "access_rules": [
-                            "^$fishAccess|Kholusia|Kholusian Flounder"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Kholusian Flounder"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "South Kholusian Cod",
-                        "access_rules": [
-                            "^$fishAccess|Kholusia|South Kholusian Cod"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|South Kholusian Cod"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Shapeshifter",
-                        "access_rules": [
-                            "^$fishAccess|Kholusia|Shapeshifter"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Shapeshifter"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Minstrelfish",
-                        "access_rules": [
-                            "^$fishAccess|Kholusia|Minstrelfish"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Minstrelfish"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Aquamaton",
-                        "access_rules": [
-                            "^$fishAccess|Kholusia|Aquamaton"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Aquamaton"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Shadeshifter",
-                        "access_rules": [
-                            "^$fishAccess|Kholusia|Shadeshifter"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Shadeshifter"
-                        ],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Kholusia",
-                        "x": 784,
-                        "y": 1746,
                         "size": 40,
                         "shape": "rect"
                     }

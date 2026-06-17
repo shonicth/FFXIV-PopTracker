@@ -78,79 +78,6 @@
                 ]
             },
             {
-                "name": "Crystarium Personal Suites",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    
-                ],
-                "visibility_rules": [
-                    
-                ],
-                "sections": [
-                    {
-                        "name": "Crystarium Tetra",
-                        "access_rules": [
-                            "^$fishAccess|The Crystarium|Crystarium Tetra"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Crystarium Tetra"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Laxan Carp",
-                        "access_rules": [
-                            "^$fishAccess|The Crystarium|Laxan Carp"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Laxan Carp"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Crystal Knife",
-                        "access_rules": [
-                            "^$fishAccess|The Crystarium|Crystal Knife"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Crystal Knife"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Skeletonfish",
-                        "access_rules": [
-                            "^$fishAccess|The Crystarium|Skeletonfish"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Skeletonfish"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Loose Pendant",
-                        "access_rules": [
-                            "^$fishAccess|The Crystarium|Loose Pendant"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Loose Pendant"
-                        ],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "The Crystarium",
-                        "x": 1218,
-                        "y": 1304,
-                        "size": 40,
-                        "shape": "rect"
-                    }
-                ]
-            },
-            {
                 "name": "The Trivium",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
@@ -162,6 +89,16 @@
                     
                 ],
                 "sections": [
+                    {
+                        "name": "Crystal Knife",
+                        "access_rules": [
+                            "^$fishAccess|The Crystarium|Crystal Knife"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Crystal Knife"
+                        ],
+                        "item_count": 1
+                    },
                     {
                         "name": "Laxan Carp",
                         "access_rules": [
@@ -183,16 +120,6 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Jacketed Snail",
-                        "access_rules": [
-                            "^$fishAccess|The Crystarium|Jacketed Snail"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Jacketed Snail"
-                        ],
-                        "item_count": 1
-                    },
-                    {
                         "name": "Lovers Flower",
                         "access_rules": [
                             "^$fishAccess|The Crystarium|Lover's Flower"
@@ -203,12 +130,12 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Crystal Knife",
+                        "name": "Jacketed Snail",
                         "access_rules": [
-                            "^$fishAccess|The Crystarium|Crystal Knife"
+                            "^$fishAccess|The Crystarium|Jacketed Snail"
                         ],
                         "visibility_rules": [
-                            "$fishVisibility|Crystal Knife"
+                            "$fishVisibility|Jacketed Snail"
                         ],
                         "item_count": 1
                     },
@@ -246,6 +173,16 @@
                 ],
                 "sections": [
                     {
+                        "name": "Crystal Knife",
+                        "access_rules": [
+                            "^$fishAccess|The Crystarium|Crystal Knife"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Crystal Knife"
+                        ],
+                        "item_count": 1
+                    },
+                    {
                         "name": "Laxan Carp",
                         "access_rules": [
                             "^$fishAccess|The Crystarium|Laxan Carp"
@@ -276,16 +213,6 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Crystal Knife",
-                        "access_rules": [
-                            "^$fishAccess|The Crystarium|Crystal Knife"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Crystal Knife"
-                        ],
-                        "item_count": 1
-                    },
-                    {
                         "name": "The Sinsteeped",
                         "access_rules": [
                             "^$fishAccess|The Crystarium|The Sinsteeped"
@@ -301,6 +228,79 @@
                         "map": "The Crystarium",
                         "x": 939,
                         "y": 1476,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Crystarium Personal Suites",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    
+                ],
+                "visibility_rules": [
+                    
+                ],
+                "sections": [
+                    {
+                        "name": "Crystal Knife",
+                        "access_rules": [
+                            "^$fishAccess|The Crystarium|Crystal Knife"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Crystal Knife"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Laxan Carp",
+                        "access_rules": [
+                            "^$fishAccess|The Crystarium|Laxan Carp"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Laxan Carp"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Crystarium Tetra",
+                        "access_rules": [
+                            "^$fishAccess|The Crystarium|Crystarium Tetra"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Crystarium Tetra"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Skeletonfish",
+                        "access_rules": [
+                            "^$fishAccess|The Crystarium|Skeletonfish"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Skeletonfish"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Loose Pendant",
+                        "access_rules": [
+                            "^$fishAccess|The Crystarium|Loose Pendant"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Loose Pendant"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "The Crystarium",
+                        "x": 1218,
+                        "y": 1304,
                         "size": 40,
                         "shape": "rect"
                     }

@@ -590,421 +590,6 @@
                 ]
             },
             {
-                "name": "The Spoiled One",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    
-                ],
-                "visibility_rules": [
-                    
-                ],
-                "sections": [
-                    {
-                        "name": "Brightmirror Clam",
-                        "access_rules": [
-                            "^$fishAccess|Il Mheg|Brightmirror Clam"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Brightmirror Clam"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Grey Skipper",
-                        "access_rules": [
-                            "^$fishAccess|Il Mheg|Grey Skipper"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Grey Skipper"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Cherry Herring",
-                        "access_rules": [
-                            "^$fishAccess|Il Mheg|Cherry Herring"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Cherry Herring"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Cerulean Loach",
-                        "access_rules": [
-                            "^$fishAccess|Il Mheg|Cerulean Loach"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Cerulean Loach"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Dammroen Herring",
-                        "access_rules": [
-                            "^$fishAccess|Il Mheg|Dammroen Herring"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Dammroen Herring"
-                        ],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Il Mheg",
-                        "x": 1260,
-                        "y": 613,
-                        "size": 40,
-                        "shape": "rect"
-                    }
-                ]
-            },
-            {
-                "name": "Longmirror Lake",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    
-                ],
-                "visibility_rules": [
-
-                ],
-                "sections": [
-                    {
-                        "name": "Calico Trout",
-                        "access_rules": [
-                            "^$fishAccess|Il Mheg|Calico Trout"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Calico Trout"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Official Ball",
-                        "access_rules": [
-                            "^$fishAccess|Il Mheg|Official Ball"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Official Ball"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Grey Skipper",
-                        "access_rules": [
-                            "^$fishAccess|Il Mheg|Grey Skipper"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Grey Skipper"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Rebel",
-                        "access_rules": [
-                            "^$fishAccess|Il Mheg|Rebel"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Rebel"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Wild Red Betta",
-                        "access_rules": [
-                            "^$fishAccess|Il Mheg|Wild Red Betta"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Wild Red Betta"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Cerulean Loach",
-                        "access_rules": [
-                            "^$fishAccess|Il Mheg|Cerulean Loach"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Cerulean Loach"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "The Sound of Fury",
-                        "access_rules": [
-                            "^$fishAccess|Il Mheg|The Sound of Fury"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|The Sound of Fury"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Fuchsia Bloom",
-                        "access_rules": [
-                            "^$fishAccess|Il Mheg|Fuchsia Bloom"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Fuchsia Bloom"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Ealad Skaan",
-                        "access_rules": [
-                            "^$fishAccess|Il Mheg|Ealad Skaan"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Ealad Skaan"
-                        ],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Il Mheg",
-                        "x": 968,
-                        "y": 1093,
-                        "size": 40,
-                        "shape": "rect"
-                    }
-                ]
-            },
-            {
-                "name": "The Jealous One",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    
-                ],
-                "visibility_rules": [
-                    
-                ],
-                "sections": [
-                    {
-                        "name": "Spotted Blue-eye",
-                        "access_rules": [
-                            "^$fishAccess|Il Mheg|Spotted Blue-eye"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Spotted Blue-eye"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Grey Skipper",
-                        "access_rules": [
-                            "^$fishAccess|Il Mheg|Grey Skipper"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Grey Skipper"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Blood-eyed Frog",
-                        "access_rules": [
-                            "^$fishAccess|Il Mheg|Blood-eyed Frog"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Blood-eyed Frog"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Cerulean Loach",
-                        "access_rules": [
-                            "^$fishAccess|Il Mheg|Cerulean Loach"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Cerulean Loach"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Fae Rainbow",
-                        "access_rules": [
-                            "^$fishAccess|Il Mheg|Fae Rainbow"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Fae Rainbow"
-                        ],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Il Mheg",
-                        "x": 1227,
-                        "y": 390,
-                        "size": 40,
-                        "shape": "rect"
-                    }
-                ]
-            },
-            {
-                "name": "The Haughty One",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    
-                ],
-                "visibility_rules": [
-                    
-                ],
-                "sections": [
-                    {
-                        "name": "Official Ball",
-                        "access_rules": [
-                            "^$fishAccess|Il Mheg|Official Ball"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Official Ball"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Grey Skipper",
-                        "access_rules": [
-                            "^$fishAccess|Il Mheg|Grey Skipper"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Grey Skipper"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Blood-eyed Frog",
-                        "access_rules": [
-                            "^$fishAccess|Il Mheg|Blood-eyed Frog"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Blood-eyed Frog"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Spotted Ctenopoma",
-                        "access_rules": [
-                            "^$fishAccess|Il Mheg|Spotted Ctenopoma"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Spotted Ctenopoma"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Cerulean Loach",
-                        "access_rules": [
-                            "^$fishAccess|Il Mheg|Cerulean Loach"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Cerulean Loach"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Sunken Tome",
-                        "access_rules": [
-                            "^$fishAccess|Il Mheg|Sunken Tome"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Sunken Tome"
-                        ],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Il Mheg",
-                        "x": 1066,
-                        "y": 405,
-                        "size": 40,
-                        "shape": "rect"
-                    }
-                ]
-            },
-            {
-                "name": "Father Collards Failings",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    
-                ],
-                "visibility_rules": [
-                    
-                ],
-                "sections": [
-                    {
-                        "name": "Official Ball",
-                        "access_rules": [
-                            "^$fishAccess|Il Mheg|Official Ball"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Official Ball"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Grey Skipper",
-                        "access_rules": [
-                            "^$fishAccess|Il Mheg|Grey Skipper"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Grey Skipper"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Pixie Fish",
-                        "access_rules": [
-                            "^$fishAccess|Il Mheg|Pixie Fish"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Pixie Fish"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Toadhead",
-                        "access_rules": [
-                            "^$fishAccess|Il Mheg|Toadhead"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Toadhead"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Celestial",
-                        "access_rules": [
-                            "^$fishAccess|Il Mheg|Celestial"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Celestial"
-                        ],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Il Mheg",
-                        "x": 1537,
-                        "y": 1064,
-                        "size": 40,
-                        "shape": "rect"
-                    }
-                ]
-            },
-            {
                 "name": "Handmirror Lake",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
@@ -1037,22 +622,22 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Wimple Carp",
-                        "access_rules": [
-                            "^$fishAccess|Il Mheg|Wimple Carp"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Wimple Carp"
-                        ],
-                        "item_count": 1
-                    },
-                    {
                         "name": "Lemonfish",
                         "access_rules": [
                             "^$fishAccess|Il Mheg|Lemonfish"
                         ],
                         "visibility_rules": [
                             "$fishVisibility|Lemonfish"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Wimple Carp",
+                        "access_rules": [
+                            "^$fishAccess|Il Mheg|Wimple Carp"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Wimple Carp"
                         ],
                         "item_count": 1
                     },
@@ -1088,6 +673,338 @@
                 ]
             },
             {
+                "name": "Longmirror Lake",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    
+                ],
+                "visibility_rules": [
+
+                ],
+                "sections": [
+                    {
+                        "name": "Grey Skipper",
+                        "access_rules": [
+                            "^$fishAccess|Il Mheg|Grey Skipper"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Grey Skipper"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cerulean Loach",
+                        "access_rules": [
+                            "^$fishAccess|Il Mheg|Cerulean Loach"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Cerulean Loach"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Official Ball",
+                        "access_rules": [
+                            "^$fishAccess|Il Mheg|Official Ball"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Official Ball"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Rebel",
+                        "access_rules": [
+                            "^$fishAccess|Il Mheg|Rebel"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Rebel"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Wild Red Betta",
+                        "access_rules": [
+                            "^$fishAccess|Il Mheg|Wild Red Betta"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Wild Red Betta"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Fuchsia Bloom",
+                        "access_rules": [
+                            "^$fishAccess|Il Mheg|Fuchsia Bloom"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Fuchsia Bloom"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "The Sound of Fury",
+                        "access_rules": [
+                            "^$fishAccess|Il Mheg|The Sound of Fury"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|The Sound of Fury"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Ealad Skaan",
+                        "access_rules": [
+                            "^$fishAccess|Il Mheg|Ealad Skaan"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Ealad Skaan"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Il Mheg",
+                        "x": 968,
+                        "y": 1093,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "The Haughty One",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    
+                ],
+                "visibility_rules": [
+                    
+                ],
+                "sections": [
+                    {
+                        "name": "Grey Skipper",
+                        "access_rules": [
+                            "^$fishAccess|Il Mheg|Grey Skipper"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Grey Skipper"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cerulean Loach",
+                        "access_rules": [
+                            "^$fishAccess|Il Mheg|Cerulean Loach"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Cerulean Loach"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Official Ball",
+                        "access_rules": [
+                            "^$fishAccess|Il Mheg|Official Ball"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Official Ball"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Blood-eyed Frog",
+                        "access_rules": [
+                            "^$fishAccess|Il Mheg|Blood-eyed Frog"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Blood-eyed Frog"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Spotted Ctenopoma",
+                        "access_rules": [
+                            "^$fishAccess|Il Mheg|Spotted Ctenopoma"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Spotted Ctenopoma"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Sunken Tome",
+                        "access_rules": [
+                            "^$fishAccess|Il Mheg|Sunken Tome"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Sunken Tome"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Il Mheg",
+                        "x": 1066,
+                        "y": 405,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "The Jealous One",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    
+                ],
+                "visibility_rules": [
+                    
+                ],
+                "sections": [
+                    {
+                        "name": "Grey Skipper",
+                        "access_rules": [
+                            "^$fishAccess|Il Mheg|Grey Skipper"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Grey Skipper"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cerulean Loach",
+                        "access_rules": [
+                            "^$fishAccess|Il Mheg|Cerulean Loach"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Cerulean Loach"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Blood-eyed Frog",
+                        "access_rules": [
+                            "^$fishAccess|Il Mheg|Blood-eyed Frog"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Blood-eyed Frog"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Spotted Blue-eye",
+                        "access_rules": [
+                            "^$fishAccess|Il Mheg|Spotted Blue-eye"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Spotted Blue-eye"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Fae Rainbow",
+                        "access_rules": [
+                            "^$fishAccess|Il Mheg|Fae Rainbow"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Fae Rainbow"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Il Mheg",
+                        "x": 1227,
+                        "y": 390,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "The Spoiled One",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    
+                ],
+                "visibility_rules": [
+                    
+                ],
+                "sections": [
+                    {
+                        "name": "Brightmirror Clam",
+                        "access_rules": [
+                            "^$fishAccess|Il Mheg|Brightmirror Clam"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Brightmirror Clam"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Grey Skipper",
+                        "access_rules": [
+                            "^$fishAccess|Il Mheg|Grey Skipper"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Grey Skipper"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cerulean Loach",
+                        "access_rules": [
+                            "^$fishAccess|Il Mheg|Cerulean Loach"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Cerulean Loach"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cherry Herring",
+                        "access_rules": [
+                            "^$fishAccess|Il Mheg|Cherry Herring"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Cherry Herring"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Dammroen Herring",
+                        "access_rules": [
+                            "^$fishAccess|Il Mheg|Dammroen Herring"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Dammroen Herring"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Il Mheg",
+                        "x": 1260,
+                        "y": 613,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
                 "name": "Saint Fathrics Temple",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
@@ -1110,22 +1027,22 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Blood-eyed Frog",
-                        "access_rules": [
-                            "^$fishAccess|Il Mheg|Blood-eyed Frog"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Blood-eyed Frog"
-                        ],
-                        "item_count": 1
-                    },
-                    {
                         "name": "Cerulean Loach",
                         "access_rules": [
                             "^$fishAccess|Il Mheg|Cerulean Loach"
                         ],
                         "visibility_rules": [
                             "$fishVisibility|Cerulean Loach"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Blood-eyed Frog",
+                        "access_rules": [
+                            "^$fishAccess|Il Mheg|Blood-eyed Frog"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Blood-eyed Frog"
                         ],
                         "item_count": 1
                     },
@@ -1155,6 +1072,79 @@
                         "map": "Il Mheg",
                         "x": 1708,
                         "y": 1260,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Father Collards Failings",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    
+                ],
+                "visibility_rules": [
+                    
+                ],
+                "sections": [
+                    {
+                        "name": "Grey Skipper",
+                        "access_rules": [
+                            "^$fishAccess|Il Mheg|Grey Skipper"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Grey Skipper"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Pixie Fish",
+                        "access_rules": [
+                            "^$fishAccess|Il Mheg|Pixie Fish"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Pixie Fish"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Official Ball",
+                        "access_rules": [
+                            "^$fishAccess|Il Mheg|Official Ball"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Official Ball"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Toadhead",
+                        "access_rules": [
+                            "^$fishAccess|Il Mheg|Toadhead"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Toadhead"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Celestial",
+                        "access_rules": [
+                            "^$fishAccess|Il Mheg|Celestial"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Celestial"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Il Mheg",
+                        "x": 1537,
+                        "y": 1064,
                         "size": 40,
                         "shape": "rect"
                     }

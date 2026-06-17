@@ -795,97 +795,6 @@
                 ]
             },
             {
-                "name": "The Hills of Amber",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                ],
-                "visibility_rules": [
-                ],
-                "sections": [
-                    {
-                        "name": "Amber Monkfish",
-                        "access_rules": [
-                            "^$fishAccess|Amh Araeng|Amber Monkfish"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Amber Monkfish"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Desert Dustfish",
-                        "access_rules": [
-                           "^$fishAccess|Amh Araeng|Desert Dustfish"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Desert Dustfish"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Web-footed Sand Gecko",
-                        "access_rules": [
-                            "^$fishAccess|Amh Araeng|Web-footed Sand Gecko"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Web-footed Sand Gecko"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Garik Crab",
-                        "access_rules": [
-                            "^$fishAccess|Amh Araeng|Garik Crab"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Garik Crab"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Nabaath Manta",
-                        "access_rules": [
-                            "^$fishAccess|Amh Araeng|Nabaath Manta"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Nabaath Manta"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Thorned Lizard",
-                        "access_rules": [
-                            "^$fishAccess|Amh Araeng|Thorned Lizard"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Thorned Lizard"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Ambling Caltrop",
-                        "access_rules": [
-                            "^$fishAccess|Amh Araeng|Ambling Caltrop"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Ambling Caltrop"
-                        ],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Amh Araeng",
-                        "x": 758,
-                        "y": 672,
-                        "size": 40,
-                        "shape": "rect"
-                    }
-                ]
-            },
-            {
                 "name": "The River of Sand",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
@@ -916,6 +825,16 @@
                         "item_count": 1
                     },
                     {
+                        "name": "Sand Egg",
+                        "access_rules": [
+                            "^$fishAccess|Amh Araeng|Sand Egg"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Sand Egg"
+                        ],
+                        "item_count": 1
+                    },
+                    {
                         "name": "Hornhelm",
                         "access_rules": [
                             "^$fishAccess|Amh Araeng|Hornhelm"
@@ -932,16 +851,6 @@
                         ],
                         "visibility_rules": [
                             "$fishVisibility|Web-footed Sand Gecko"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Sand Egg",
-                        "access_rules": [
-                            "^$fishAccess|Amh Araeng|Sand Egg"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Sand Egg"
                         ],
                         "item_count": 1
                     },
@@ -1017,6 +926,16 @@
                         "item_count": 1
                     },
                     {
+                        "name": "Hornhelm",
+                        "access_rules": [
+                            "^$fishAccess|Amh Araeng|Hornhelm"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Hornhelm"
+                        ],
+                        "item_count": 1
+                    },
+                    {
                         "name": "Desert Saw",
                         "access_rules": [
                             "^$fishAccess|Amh Araeng|Desert Saw"
@@ -1052,6 +971,97 @@
                         "map": "Amh Araeng",
                         "x": 1538,
                         "y": 1490,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "The Hills of Amber",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                ],
+                "visibility_rules": [
+                ],
+                "sections": [
+                    {
+                        "name": "Garik Crab",
+                        "access_rules": [
+                            "^$fishAccess|Amh Araeng|Garik Crab"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Garik Crab"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Desert Dustfish",
+                        "access_rules": [
+                           "^$fishAccess|Amh Araeng|Desert Dustfish"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Desert Dustfish"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Web-footed Sand Gecko",
+                        "access_rules": [
+                            "^$fishAccess|Amh Araeng|Web-footed Sand Gecko"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Web-footed Sand Gecko"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Nabaath Manta",
+                        "access_rules": [
+                            "^$fishAccess|Amh Araeng|Nabaath Manta"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Nabaath Manta"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Amber Monkfish",
+                        "access_rules": [
+                            "^$fishAccess|Amh Araeng|Amber Monkfish"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Amber Monkfish"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Thorned Lizard",
+                        "access_rules": [
+                            "^$fishAccess|Amh Araeng|Thorned Lizard"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Thorned Lizard"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Ambling Caltrop",
+                        "access_rules": [
+                            "^$fishAccess|Amh Araeng|Ambling Caltrop"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Ambling Caltrop"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Amh Araeng",
+                        "x": 758,
+                        "y": 672,
                         "size": 40,
                         "shape": "rect"
                     }

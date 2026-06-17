@@ -569,119 +569,6 @@
                 ]
             },
             {
-                "name": "The Norvrandt Slope",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    
-                ],
-                "visibility_rules": [
-                    
-                ],
-                "sections": [
-                    {
-                        "name": "Prospero Eel",
-                        "access_rules": [
-                            "^$fishAccess|The Tempest|Prospero Eel"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Prospero Eel"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Sycorax",
-                        "access_rules": [
-                            "^$fishAccess|The Tempest|Sycorax"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Sycorax"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Stormfish",
-                        "access_rules": [
-                            "^$fishAccess|The Tempest|Stormfish"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Stormfish"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Azure Sea Spider",
-                        "access_rules": [
-                            "^$fishAccess|The Tempest|Azure Sea Spider"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Azure Sea Spider"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Sweetflesh Oyster",
-                        "access_rules": [
-                            "^$fishAccess|The Tempest|Sweetflesh Oyster"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Sweetflesh Oyster"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Rainbow Shrimp",
-                        "access_rules": [
-                            "^$fishAccess|The Tempest|Rainbow Shrimp"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Rainbow Shrimp"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Predator",
-                        "access_rules": [
-                            "^$fishAccess|The Tempest|Predator"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Predator"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Opal Shrimp",
-                        "access_rules": [
-                            "^$fishAccess|The Tempest|Opal Shrimp"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Opal Shrimp"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Il Lydha",
-                        "access_rules": [
-                            "^$fishAccess|The Tempest|Il Lydha"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Il Lydha"
-                        ],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "The Tempest",
-                        "x": 1369,
-                        "y": 688,
-                        "size": 40,
-                        "shape": "rect"
-                    }
-                ]
-            },
-            {
                 "name": "The Flounders Floor",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
@@ -860,22 +747,22 @@
                 ],
                 "sections": [
                     {
-                        "name": "Sycorax",
-                        "access_rules": [
-                            "^$fishAccess|The Tempest|Sycorax"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Sycorax"
-                        ],
-                        "item_count": 1
-                    },
-                    {
                         "name": "Stormfish",
                         "access_rules": [
                             "^$fishAccess|The Tempest|Stormfish"
                         ],
                         "visibility_rules": [
                             "$fishVisibility|Stormfish"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Sycorax",
+                        "access_rules": [
+                            "^$fishAccess|The Tempest|Sycorax"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Sycorax"
                         ],
                         "item_count": 1
                     },
@@ -920,22 +807,22 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Lancetfish",
-                        "access_rules": [
-                            "^$fishAccess|The Tempest|Lancetfish"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Lancetfish"
-                        ],
-                        "item_count": 1
-                    },
-                    {
                         "name": "Mora Tecta",
                         "access_rules": [
                             "^$fishAccess|The Tempest|Mora Tecta"
                         ],
                         "visibility_rules": [
                             "$fishVisibility|Mora Tecta"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Lancetfish",
+                        "access_rules": [
+                            "^$fishAccess|The Tempest|Lancetfish"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Lancetfish"
                         ],
                         "item_count": 1
                     }
@@ -963,22 +850,22 @@
                 ],
                 "sections": [
                     {
-                        "name": "Sycorax",
-                        "access_rules": [
-                            "^$fishAccess|The Tempest|Sycorax"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Sycorax"
-                        ],
-                        "item_count": 1
-                    },
-                    {
                         "name": "Stormfish",
                         "access_rules": [
                             "^$fishAccess|The Tempest|Stormfish"
                         ],
                         "visibility_rules": [
                             "$fishVisibility|Stormfish"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Sycorax",
+                        "access_rules": [
+                            "^$fishAccess|The Tempest|Sycorax"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Sycorax"
                         ],
                         "item_count": 1
                     },
@@ -1046,22 +933,22 @@
                 ],
                 "sections": [
                     {
-                        "name": "Sycorax",
-                        "access_rules": [
-                            "^$fishAccess|The Tempest|Sycorax"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Sycorax"
-                        ],
-                        "item_count": 1
-                    },
-                    {
                         "name": "Stormfish",
                         "access_rules": [
                             "^$fishAccess|The Tempest|Stormfish"
                         ],
                         "visibility_rules": [
                             "$fishVisibility|Stormfish"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Sycorax",
+                        "access_rules": [
+                            "^$fishAccess|The Tempest|Sycorax"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Sycorax"
                         ],
                         "item_count": 1
                     },
@@ -1129,16 +1016,6 @@
                 ],
                 "sections": [
                     {
-                        "name": "Sycorax",
-                        "access_rules": [
-                            "^$fishAccess|The Tempest|Sycorax"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Sycorax"
-                        ],
-                        "item_count": 1
-                    },
-                    {
                         "name": "Stormfish",
                         "access_rules": [
                             "^$fishAccess|The Tempest|Stormfish"
@@ -1149,12 +1026,12 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Azure Sea Spider",
+                        "name": "Sycorax",
                         "access_rules": [
-                            "^$fishAccess|The Tempest|Azure Sea Spider"
+                            "^$fishAccess|The Tempest|Sycorax"
                         ],
                         "visibility_rules": [
-                            "$fishVisibility|Azure Sea Spider"
+                            "$fishVisibility|Sycorax"
                         ],
                         "item_count": 1
                     },
@@ -1169,22 +1046,22 @@
                         "item_count": 1
                     },
                     {
+                        "name": "Azure Sea Spider",
+                        "access_rules": [
+                            "^$fishAccess|The Tempest|Azure Sea Spider"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Azure Sea Spider"
+                        ],
+                        "item_count": 1
+                    },
+                    {
                         "name": "Stargazer",
                         "access_rules": [
                             "^$fishAccess|The Tempest|Stargazer"
                         ],
                         "visibility_rules": [
                             "$fishVisibility|Stargazer"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Starchaser",
-                        "access_rules": [
-                            "^$fishAccess|The Tempest|Starchaser"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Starchaser"
                         ],
                         "item_count": 1
                     },
@@ -1197,6 +1074,16 @@
                             "$fishVisibility|Purpure Cod"
                         ],
                         "item_count": 1
+                    },
+                    {
+                        "name": "Starchaser",
+                        "access_rules": [
+                            "^$fishAccess|The Tempest|Starchaser"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Starchaser"
+                        ],
+                        "item_count": 1
                     }
                 ],
                 "map_locations": [
@@ -1204,6 +1091,109 @@
                         "map": "The Tempest",
                         "x": 1636,
                         "y": 1485,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "The Norvrandt Slope",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    
+                ],
+                "visibility_rules": [
+                    
+                ],
+                "sections": [
+                    {
+                        "name": "Stormfish",
+                        "access_rules": [
+                            "^$fishAccess|The Tempest|Stormfish"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Stormfish"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Sycorax",
+                        "access_rules": [
+                            "^$fishAccess|The Tempest|Sycorax"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Sycorax"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Sweetflesh Oyster",
+                        "access_rules": [
+                            "^$fishAccess|The Tempest|Sweetflesh Oyster"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Sweetflesh Oyster"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Azure Sea Spider",
+                        "access_rules": [
+                            "^$fishAccess|The Tempest|Azure Sea Spider"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Azure Sea Spider"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Rainbow Shrimp",
+                        "access_rules": [
+                            "^$fishAccess|The Tempest|Rainbow Shrimp"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Rainbow Shrimp"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Predator",
+                        "access_rules": [
+                            "^$fishAccess|The Tempest|Predator"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Predator"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Il Lydha",
+                        "access_rules": [
+                            "^$fishAccess|The Tempest|Il Lydha"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Il Lydha"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Opal Shrimp",
+                        "access_rules": [
+                            "^$fishAccess|The Tempest|Opal Shrimp"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Opal Shrimp"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "The Tempest",
+                        "x": 1369,
+                        "y": 688,
                         "size": 40,
                         "shape": "rect"
                     }

@@ -70,22 +70,22 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Crimson Sea Spider",
-                        "access_rules": [
-                            "^$fishAccess|Eulmore|Crimson Sea Spider"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Crimson Sea Spider"
-                        ],
-                        "item_count": 1
-                    },
-                    {
                         "name": "Bonefish",
                         "access_rules": [
                             "^$fishAccess|Eulmore|Bonefish"
                         ],
                         "visibility_rules": [
                             "$fishVisibility|Bonefish"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Crimson Sea Spider",
+                        "access_rules": [
+                            "^$fishAccess|Eulmore|Crimson Sea Spider"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Crimson Sea Spider"
                         ],
                         "item_count": 1
                     },
