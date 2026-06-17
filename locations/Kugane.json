@@ -156,32 +156,12 @@
                 ],
                 "sections": [
                     {
-                        "name": "Hanatatsu",
-                        "access_rules": [
-                            "^$fishAccess|Kugane|Hanatatsu"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Hanatatsu"
-                        ],
-                        "item_count": 1
-                    },
-                    {
                         "name": "Grinning Anchovy",
                         "access_rules": [
                             "^$fishAccess|Kugane|Grinning Anchovy"
                         ],
                         "visibility_rules": [
                             "$fishVisibility|Grinning Anchovy"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Glass Tuna",
-                        "access_rules": [
-                            "^$fishAccess|Kugane|Glass Tuna"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Glass Tuna"
                         ],
                         "item_count": 1
                     },
@@ -202,6 +182,26 @@
                         ],
                         "visibility_rules": [
                             "$fishVisibility|Striped Fugu"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Glass Tuna",
+                        "access_rules": [
+                            "^$fishAccess|Kugane|Glass Tuna"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Glass Tuna"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Hanatatsu",
+                        "access_rules": [
+                            "^$fishAccess|Kugane|Hanatatsu"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Hanatatsu"
                         ],
                         "item_count": 1
                     },

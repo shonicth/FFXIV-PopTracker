@@ -4618,16 +4618,8 @@
                         "ref": "Kugane/Mount Rokkon/Mount Rokkon"
                     },
                     {
-                        "name": "Kugane Piers - Hanatatsu",
-                        "ref": "Kugane/Kugane Piers/Hanatatsu"
-                    },
-                    {
                         "name": "Kugane Piers - Grinning Anchovy",
                         "ref": "Kugane/Kugane Piers/Grinning Anchovy"
-                    },
-                    {
-                        "name": "Kugane Piers - Glass Tuna",
-                        "ref": "Kugane/Kugane Piers/Glass Tuna"
                     },
                     {
                         "name": "Kugane Piers - Ruby Shrimp",
@@ -4636,6 +4628,14 @@
                     {
                         "name": "Kugane Piers - Striped Fugu",
                         "ref": "Kugane/Kugane Piers/Striped Fugu"
+                    },
+                    {
+                        "name": "Kugane Piers - Glass Tuna",
+                        "ref": "Kugane/Kugane Piers/Glass Tuna"
+                    },
+                    {
+                        "name": "Kugane Piers - Hanatatsu",
+                        "ref": "Kugane/Kugane Piers/Hanatatsu"
                     },
                     {
                         "name": "Kugane Piers - Ribbon Eel",
@@ -7979,36 +7979,8 @@
                 ],
                 "sections": [
                     {
-                        "name": "The Silver Canal - Killifish",
-                        "ref": "Shirogane/The Silver Canal/Killifish"
-                    },
-                    {
-                        "name": "The Silver Canal - Doman Trout",
-                        "ref": "Shirogane/The Silver Canal/Doman Trout"
-                    },
-                    {
-                        "name": "The Silver Canal - Brassfish",
-                        "ref": "Shirogane/The Silver Canal/Brassfish"
-                    },
-                    {
-                        "name": "The Silver Canal - Nogoi",
-                        "ref": "Shirogane/The Silver Canal/Nogoi"
-                    },
-                    {
-                        "name": "The Silver Canal - Bonsai Fish",
-                        "ref": "Shirogane/The Silver Canal/Bonsai Fish"
-                    },
-                    {
-                        "name": "The Silver Canal - Princess Killifish",
-                        "ref": "Shirogane/The Silver Canal/Princess Killifish"
-                    },
-                    {
                         "name": "Shirogane - Grinning Anchovy",
                         "ref": "Shirogane/Shirogane/Grinning Anchovy"
-                    },
-                    {
-                        "name": "Shirogane - Glass Tuna",
-                        "ref": "Shirogane/Shirogane/Glass Tuna"
                     },
                     {
                         "name": "Shirogane - Ruby Shrimp",
@@ -8019,8 +7991,36 @@
                         "ref": "Shirogane/Shirogane/Striped Fugu"
                     },
                     {
+                        "name": "Shirogane - Glass Tuna",
+                        "ref": "Shirogane/Shirogane/Glass Tuna"
+                    },
+                    {
                         "name": "Shirogane - The Gambler",
                         "ref": "Shirogane/Shirogane/The Gambler"
+                    },
+                    {
+                        "name": "The Silver Canal - Nogoi",
+                        "ref": "Shirogane/The Silver Canal/Nogoi"
+                    },
+                    {
+                        "name": "The Silver Canal - Doman Trout",
+                        "ref": "Shirogane/The Silver Canal/Doman Trout"
+                    },
+                    {
+                        "name": "The Silver Canal - Killifish",
+                        "ref": "Shirogane/The Silver Canal/Killifish"
+                    },
+                    {
+                        "name": "The Silver Canal - Brassfish",
+                        "ref": "Shirogane/The Silver Canal/Brassfish"
+                    },
+                    {
+                        "name": "The Silver Canal - Bonsai Fish",
+                        "ref": "Shirogane/The Silver Canal/Bonsai Fish"
+                    },
+                    {
+                        "name": "The Silver Canal - Princess Killifish",
+                        "ref": "Shirogane/The Silver Canal/Princess Killifish"
                     }
                 ],
                 "map_locations": [
@@ -9443,110 +9443,6 @@
                         "ref": "The Azim Steppe/The Fangover (FATE)/The Fangover (FATE)"
                     },
                     {
-                        "name": "Upper Yat Khaal - Tail Mountains Minnow",
-                        "ref": "The Azim Steppe/Upper Yat Khaal/Tail Mountains Minnow"
-                    },
-                    {
-                        "name": "Upper Yat Khaal - Zagas Khaal",
-                        "ref": "The Azim Steppe/Upper Yat Khaal/Zagas Khaal"
-                    },
-                    {
-                        "name": "Upper Yat Khaal - Dry Steppe Skipper",
-                        "ref": "The Azim Steppe/Upper Yat Khaal/Dry Steppe Skipper"
-                    },
-                    {
-                        "name": "Upper Yat Khaal - Skytear",
-                        "ref": "The Azim Steppe/Upper Yat Khaal/Skytear"
-                    },
-                    {
-                        "name": "Upper Yat Khaal - Dusk Crayfish",
-                        "ref": "The Azim Steppe/Upper Yat Khaal/Dusk Crayfish"
-                    },
-                    {
-                        "name": "Upper Yat Khaal - Blade Skipper",
-                        "ref": "The Azim Steppe/Upper Yat Khaal/Blade Skipper"
-                    },
-                    {
-                        "name": "Azim Khaat - Sweatfish",
-                        "ref": "The Azim Steppe/Azim Khaat/Sweatfish"
-                    },
-                    {
-                        "name": "Azim Khaat - Othardian Trout",
-                        "ref": "The Azim Steppe/Azim Khaat/Othardian Trout"
-                    },
-                    {
-                        "name": "Azim Khaat - Zagas Khaal",
-                        "ref": "The Azim Steppe/Azim Khaat/Zagas Khaal"
-                    },
-                    {
-                        "name": "Azim Khaat - Sun Bass",
-                        "ref": "The Azim Steppe/Azim Khaat/Sun Bass"
-                    },
-                    {
-                        "name": "Azim Khaat - Hardscale",
-                        "ref": "The Azim Steppe/Azim Khaat/Hardscale"
-                    },
-                    {
-                        "name": "Azim Khaat - Guppy",
-                        "ref": "The Azim Steppe/Azim Khaat/Guppy"
-                    },
-                    {
-                        "name": "Azim Khaat - Duskfish",
-                        "ref": "The Azim Steppe/Azim Khaat/Duskfish"
-                    },
-                    {
-                        "name": "Hak Khaal - Hak Bitterling",
-                        "ref": "The Azim Steppe/Hak Khaal/Hak Bitterling"
-                    },
-                    {
-                        "name": "Hak Khaal - Zagas Khaal",
-                        "ref": "The Azim Steppe/Hak Khaal/Zagas Khaal"
-                    },
-                    {
-                        "name": "Hak Khaal - Dry Steppe Skipper",
-                        "ref": "The Azim Steppe/Hak Khaal/Dry Steppe Skipper"
-                    },
-                    {
-                        "name": "Hak Khaal - Dusk Crayfish",
-                        "ref": "The Azim Steppe/Hak Khaal/Dusk Crayfish"
-                    },
-                    {
-                        "name": "Hak Khaal - Curtain Pleco",
-                        "ref": "The Azim Steppe/Hak Khaal/Curtain Pleco"
-                    },
-                    {
-                        "name": "Hak Khaal - Banderole",
-                        "ref": "The Azim Steppe/Hak Khaal/Banderole"
-                    },
-                    {
-                        "name": "Lower Yat Khaal - Yat Goby",
-                        "ref": "The Azim Steppe/Lower Yat Khaal/Yat Goby"
-                    },
-                    {
-                        "name": "Lower Yat Khaal - Othardian Trout",
-                        "ref": "The Azim Steppe/Lower Yat Khaal/Othardian Trout"
-                    },
-                    {
-                        "name": "Lower Yat Khaal - Steppe Skipper",
-                        "ref": "The Azim Steppe/Lower Yat Khaal/Steppe Skipper"
-                    },
-                    {
-                        "name": "Lower Yat Khaal - Dawn Crayfish",
-                        "ref": "The Azim Steppe/Lower Yat Khaal/Dawn Crayfish"
-                    },
-                    {
-                        "name": "Lower Yat Khaal - Jade Sculpin",
-                        "ref": "The Azim Steppe/Lower Yat Khaal/Jade Sculpin"
-                    },
-                    {
-                        "name": "Lower Yat Khaal - Yat Khan",
-                        "ref": "The Azim Steppe/Lower Yat Khaal/Yat Khan"
-                    },
-                    {
-                        "name": "Lower Yat Khaal - Fragrant Sweetfish",
-                        "ref": "The Azim Steppe/Lower Yat Khaal/Fragrant Sweetfish"
-                    },
-                    {
                         "name": "Nem Khaal - Killifish",
                         "ref": "The Azim Steppe/Nem Khaal/Killifish"
                     },
@@ -9571,8 +9467,80 @@
                         "ref": "The Azim Steppe/Nem Khaal/Garden Skipper"
                     },
                     {
-                        "name": "Tao Khaal - Tao Bitterling",
-                        "ref": "The Azim Steppe/Tao Khaal/Tao Bitterling"
+                        "name": "Hak Khaal - Zagas Khaal",
+                        "ref": "The Azim Steppe/Hak Khaal/Zagas Khaal"
+                    },
+                    {
+                        "name": "Hak Khaal - Curtain Pleco",
+                        "ref": "The Azim Steppe/Hak Khaal/Curtain Pleco"
+                    },
+                    {
+                        "name": "Hak Khaal - Dry Steppe Skipper",
+                        "ref": "The Azim Steppe/Hak Khaal/Dry Steppe Skipper"
+                    },
+                    {
+                        "name": "Hak Khaal - Dusk Crayfish",
+                        "ref": "The Azim Steppe/Hak Khaal/Dusk Crayfish"
+                    },
+                    {
+                        "name": "Hak Khaal - Hak Bitterling",
+                        "ref": "The Azim Steppe/Hak Khaal/Hak Bitterling"
+                    },
+                    {
+                        "name": "Hak Khaal - Banderole",
+                        "ref": "The Azim Steppe/Hak Khaal/Banderole"
+                    },
+                    {
+                        "name": "Upper Yat Khaal - Tail Mountains Minnow",
+                        "ref": "The Azim Steppe/Upper Yat Khaal/Tail Mountains Minnow"
+                    },
+                    {
+                        "name": "Upper Yat Khaal - Zagas Khaal",
+                        "ref": "The Azim Steppe/Upper Yat Khaal/Zagas Khaal"
+                    },
+                    {
+                        "name": "Upper Yat Khaal - Dry Steppe Skipper",
+                        "ref": "The Azim Steppe/Upper Yat Khaal/Dry Steppe Skipper"
+                    },
+                    {
+                        "name": "Upper Yat Khaal - Skytear",
+                        "ref": "The Azim Steppe/Upper Yat Khaal/Skytear"
+                    },
+                    {
+                        "name": "Upper Yat Khaal - Dusk Crayfish",
+                        "ref": "The Azim Steppe/Upper Yat Khaal/Dusk Crayfish"
+                    },
+                    {
+                        "name": "Upper Yat Khaal - Blade Skipper",
+                        "ref": "The Azim Steppe/Upper Yat Khaal/Blade Skipper"
+                    },
+                    {
+                        "name": "Azim Khaat - Othardian Trout",
+                        "ref": "The Azim Steppe/Azim Khaat/Othardian Trout"
+                    },
+                    {
+                        "name": "Azim Khaat - Zagas Khaal",
+                        "ref": "The Azim Steppe/Azim Khaat/Zagas Khaal"
+                    },
+                    {
+                        "name": "Azim Khaat - Sun Bass",
+                        "ref": "The Azim Steppe/Azim Khaat/Sun Bass"
+                    },
+                    {
+                        "name": "Azim Khaat - Hardscale",
+                        "ref": "The Azim Steppe/Azim Khaat/Hardscale"
+                    },
+                    {
+                        "name": "Azim Khaat - Sweatfish",
+                        "ref": "The Azim Steppe/Azim Khaat/Sweatfish"
+                    },
+                    {
+                        "name": "Azim Khaat - Guppy",
+                        "ref": "The Azim Steppe/Azim Khaat/Guppy"
+                    },
+                    {
+                        "name": "Azim Khaat - Duskfish",
+                        "ref": "The Azim Steppe/Azim Khaat/Duskfish"
                     },
                     {
                         "name": "Tao Khaal - Zagas Khaal",
@@ -9591,6 +9559,10 @@
                         "ref": "The Azim Steppe/Tao Khaal/Bowfish"
                     },
                     {
+                        "name": "Tao Khaal - Tao Bitterling",
+                        "ref": "The Azim Steppe/Tao Khaal/Tao Bitterling"
+                    },
+                    {
                         "name": "Tao Khaal - Elder Gourami",
                         "ref": "The Azim Steppe/Tao Khaal/Elder Gourami"
                     },
@@ -9599,12 +9571,40 @@
                         "ref": "The Azim Steppe/Tao Khaal/The Word of God"
                     },
                     {
-                        "name": "Dotharl Khaa - Nhaamas Boon",
-                        "ref": "The Azim Steppe/Dotharl Khaa/Nhaamas Boon"
+                        "name": "Lower Yat Khaal - Othardian Trout",
+                        "ref": "The Azim Steppe/Lower Yat Khaal/Othardian Trout"
+                    },
+                    {
+                        "name": "Lower Yat Khaal - Steppe Skipper",
+                        "ref": "The Azim Steppe/Lower Yat Khaal/Steppe Skipper"
+                    },
+                    {
+                        "name": "Lower Yat Khaal - Dawn Crayfish",
+                        "ref": "The Azim Steppe/Lower Yat Khaal/Dawn Crayfish"
+                    },
+                    {
+                        "name": "Lower Yat Khaal - Yat Goby",
+                        "ref": "The Azim Steppe/Lower Yat Khaal/Yat Goby"
+                    },
+                    {
+                        "name": "Lower Yat Khaal - Jade Sculpin",
+                        "ref": "The Azim Steppe/Lower Yat Khaal/Jade Sculpin"
+                    },
+                    {
+                        "name": "Lower Yat Khaal - Fragrant Sweetfish",
+                        "ref": "The Azim Steppe/Lower Yat Khaal/Fragrant Sweetfish"
+                    },
+                    {
+                        "name": "Lower Yat Khaal - Yat Khan",
+                        "ref": "The Azim Steppe/Lower Yat Khaal/Yat Khan"
                     },
                     {
                         "name": "Dotharl Khaa - Brassfish",
                         "ref": "The Azim Steppe/Dotharl Khaa/Brassfish"
+                    },
+                    {
+                        "name": "Dotharl Khaa - Nhaamas Boon",
+                        "ref": "The Azim Steppe/Dotharl Khaa/Nhaamas Boon"
                     },
                     {
                         "name": "Dotharl Khaa - Nhaamas Treasure",
@@ -12111,42 +12111,6 @@
                         "ref": "The Ruby Sea/Hells Lid (Dungeon)/Hells Kier (Extreme)"
                     },
                     {
-                        "name": "Hells Lid (Fishing Hole) - Liopleurodon",
-                        "ref": "The Ruby Sea/Hells Lid (Fishing Hole)/Liopleurodon"
-                    },
-                    {
-                        "name": "Hells Lid (Fishing Hole) - Grinning Anchovy",
-                        "ref": "The Ruby Sea/Hells Lid (Fishing Hole)/Grinning Anchovy"
-                    },
-                    {
-                        "name": "Hells Lid (Fishing Hole) - Hellyfish",
-                        "ref": "The Ruby Sea/Hells Lid (Fishing Hole)/Hellyfish"
-                    },
-                    {
-                        "name": "Hells Lid (Fishing Hole) - Blockhead",
-                        "ref": "The Ruby Sea/Hells Lid (Fishing Hole)/Blockhead"
-                    },
-                    {
-                        "name": "Hells Lid (Fishing Hole) - Ruby Shrimp",
-                        "ref": "The Ruby Sea/Hells Lid (Fishing Hole)/Ruby Shrimp"
-                    },
-                    {
-                        "name": "Hells Lid (Fishing Hole) - Ukiki",
-                        "ref": "The Ruby Sea/Hells Lid (Fishing Hole)/Ukiki"
-                    },
-                    {
-                        "name": "Hells Lid (Fishing Hole) - Shrieker",
-                        "ref": "The Ruby Sea/Hells Lid (Fishing Hole)/Shrieker"
-                    },
-                    {
-                        "name": "Hells Lid (Fishing Hole) - Wicked Wartfish",
-                        "ref": "The Ruby Sea/Hells Lid (Fishing Hole)/Wicked Wartfish"
-                    },
-                    {
-                        "name": "Hells Lid (Fishing Hole) - The Vegetarian",
-                        "ref": "The Ruby Sea/Hells Lid (Fishing Hole)/The Vegetarian"
-                    },
-                    {
                         "name": "The Pool of Tribute - The Pool of Tribute",
                         "ref": "The Ruby Sea/The Pool of Tribute/The Pool of Tribute"
                     },
@@ -12287,112 +12251,16 @@
                         "ref": "The Ruby Sea/Treasure Island (FATE)/Treasure Island (FATE)"
                     },
                     {
-                        "name": "Onokoro - Blackfin Snake Eel",
-                        "ref": "The Ruby Sea/Onokoro/Blackfin Snake Eel"
-                    },
-                    {
-                        "name": "Onokoro - Leaf Tatsunoko",
-                        "ref": "The Ruby Sea/Onokoro/Leaf Tatsunoko"
-                    },
-                    {
-                        "name": "Onokoro - Glass Flounder",
-                        "ref": "The Ruby Sea/Onokoro/Glass Flounder"
-                    },
-                    {
-                        "name": "Onokoro - Ruby Shrimp",
-                        "ref": "The Ruby Sea/Onokoro/Ruby Shrimp"
-                    },
-                    {
-                        "name": "Onokoro - Argonautica",
-                        "ref": "The Ruby Sea/Onokoro/Argonautica"
-                    },
-                    {
-                        "name": "Onokoro - Hook Fish",
-                        "ref": "The Ruby Sea/Onokoro/Hook Fish"
-                    },
-                    {
-                        "name": "Isari - Ruby Meagre",
-                        "ref": "The Ruby Sea/Isari/Ruby Meagre"
-                    },
-                    {
-                        "name": "Isari - Glass Herring",
-                        "ref": "The Ruby Sea/Isari/Glass Herring"
-                    },
-                    {
-                        "name": "Isari - Gliding Fish",
-                        "ref": "The Ruby Sea/Isari/Gliding Fish"
-                    },
-                    {
-                        "name": "Isari - Globefish",
-                        "ref": "The Ruby Sea/Isari/Globefish"
-                    },
-                    {
-                        "name": "Isari - Fan Clam",
-                        "ref": "The Ruby Sea/Isari/Fan Clam"
-                    },
-                    {
-                        "name": "Isari - Triplespine",
-                        "ref": "The Ruby Sea/Isari/Triplespine"
-                    },
-                    {
-                        "name": "Isari - Shirogane Clam",
-                        "ref": "The Ruby Sea/Isari/Shirogane Clam"
-                    },
-                    {
-                        "name": "Isari - Pinhead",
-                        "ref": "The Ruby Sea/Isari/Pinhead"
-                    },
-                    {
-                        "name": "The Isle of Bekko - Tawny Wench Shark",
-                        "ref": "The Ruby Sea/The Isle of Bekko/Tawny Wench Shark"
-                    },
-                    {
-                        "name": "The Isle of Bekko - Grinning Anchovy",
-                        "ref": "The Ruby Sea/The Isle of Bekko/Grinning Anchovy"
-                    },
-                    {
-                        "name": "The Isle of Bekko - Hellyfish",
-                        "ref": "The Ruby Sea/The Isle of Bekko/Hellyfish"
-                    },
-                    {
-                        "name": "The Isle of Bekko - Dafu",
-                        "ref": "The Ruby Sea/The Isle of Bekko/Dafu"
-                    },
-                    {
-                        "name": "The Isle of Bekko - Swordfish",
-                        "ref": "The Ruby Sea/The Isle of Bekko/Swordfish"
-                    },
-                    {
-                        "name": "The Isle of Bekko - Glass Tuna",
-                        "ref": "The Ruby Sea/The Isle of Bekko/Glass Tuna"
-                    },
-                    {
-                        "name": "The Isle of Bekko - Ruby Shrimp",
-                        "ref": "The Ruby Sea/The Isle of Bekko/Ruby Shrimp"
-                    },
-                    {
-                        "name": "The Isle of Bekko - Usuginu Octopus",
-                        "ref": "The Ruby Sea/The Isle of Bekko/Usuginu Octopus"
-                    },
-                    {
-                        "name": "The Isle of Bekko - Seven Stars",
-                        "ref": "The Ruby Sea/The Isle of Bekko/Seven Stars"
-                    },
-                    {
-                        "name": "The Isle of Bekko - Fatty Herring",
-                        "ref": "The Ruby Sea/The Isle of Bekko/Fatty Herring"
-                    },
-                    {
-                        "name": "The Ruby Price - Coeurl Snake Eel",
-                        "ref": "The Ruby Sea/The Ruby Price/Coeurl Snake Eel"
-                    },
-                    {
                         "name": "The Ruby Price - Grinning Anchovy",
                         "ref": "The Ruby Sea/The Ruby Price/Grinning Anchovy"
                     },
                     {
                         "name": "The Ruby Price - Glass Herring",
                         "ref": "The Ruby Sea/The Ruby Price/Glass Herring"
+                    },
+                    {
+                        "name": "The Ruby Price - Coeurl Snake Eel",
+                        "ref": "The Ruby Sea/The Ruby Price/Coeurl Snake Eel"
                     },
                     {
                         "name": "The Ruby Price - Coral Horse",
@@ -12407,12 +12275,76 @@
                         "ref": "The Ruby Sea/The Ruby Price/The Ruby Dragon"
                     },
                     {
-                        "name": "The Isle of Zekki - Zekki Grouper",
-                        "ref": "The Ruby Sea/The Isle of Zekki/Zekki Grouper"
+                        "name": "Hells Lid (Fishing Hole) - Grinning Anchovy",
+                        "ref": "The Ruby Sea/Hells Lid (Fishing Hole)/Grinning Anchovy"
                     },
                     {
-                        "name": "Shoal Rock - Harutsuge",
-                        "ref": "The Ruby Sea/Shoal Rock/Harutsuge"
+                        "name": "Hells Lid (Fishing Hole) - Hellyfish",
+                        "ref": "The Ruby Sea/Hells Lid (Fishing Hole)/Hellyfish"
+                    },
+                    {
+                        "name": "Hells Lid (Fishing Hole) - Ruby Shrimp",
+                        "ref": "The Ruby Sea/Hells Lid (Fishing Hole)/Ruby Shrimp"
+                    },
+                    {
+                        "name": "Hells Lid (Fishing Hole) - Blockhead",
+                        "ref": "The Ruby Sea/Hells Lid (Fishing Hole)/Blockhead"
+                    },
+                    {
+                        "name": "Hells Lid (Fishing Hole) - Liopleurodon",
+                        "ref": "The Ruby Sea/Hells Lid (Fishing Hole)/Liopleurodon"
+                    },
+                    {
+                        "name": "Hells Lid (Fishing Hole) - Ukiki",
+                        "ref": "The Ruby Sea/Hells Lid (Fishing Hole)/Ukiki"
+                    },
+                    {
+                        "name": "Hells Lid (Fishing Hole) - Shrieker",
+                        "ref": "The Ruby Sea/Hells Lid (Fishing Hole)/Shrieker"
+                    },
+                    {
+                        "name": "Hells Lid (Fishing Hole) - Wicked Wartfish",
+                        "ref": "The Ruby Sea/Hells Lid (Fishing Hole)/Wicked Wartfish"
+                    },
+                    {
+                        "name": "Hells Lid (Fishing Hole) - The Vegetarian",
+                        "ref": "The Ruby Sea/Hells Lid (Fishing Hole)/The Vegetarian"
+                    },
+                    {
+                        "name": "The Isle of Bekko - Grinning Anchovy",
+                        "ref": "The Ruby Sea/The Isle of Bekko/Grinning Anchovy"
+                    },
+                    {
+                        "name": "The Isle of Bekko - Hellyfish",
+                        "ref": "The Ruby Sea/The Isle of Bekko/Hellyfish"
+                    },
+                    {
+                        "name": "The Isle of Bekko - Ruby Shrimp",
+                        "ref": "The Ruby Sea/The Isle of Bekko/Ruby Shrimp"
+                    },
+                    {
+                        "name": "The Isle of Bekko - Dafu",
+                        "ref": "The Ruby Sea/The Isle of Bekko/Dafu"
+                    },
+                    {
+                        "name": "The Isle of Bekko - Glass Tuna",
+                        "ref": "The Ruby Sea/The Isle of Bekko/Glass Tuna"
+                    },
+                    {
+                        "name": "The Isle of Bekko - Tawny Wench Shark",
+                        "ref": "The Ruby Sea/The Isle of Bekko/Tawny Wench Shark"
+                    },
+                    {
+                        "name": "The Isle of Bekko - Usuginu Octopus",
+                        "ref": "The Ruby Sea/The Isle of Bekko/Usuginu Octopus"
+                    },
+                    {
+                        "name": "The Isle of Bekko - Fatty Herring",
+                        "ref": "The Ruby Sea/The Isle of Bekko/Fatty Herring"
+                    },
+                    {
+                        "name": "The Isle of Bekko - Seven Stars",
+                        "ref": "The Ruby Sea/The Isle of Bekko/Seven Stars"
                     },
                     {
                         "name": "Shoal Rock - Grinning Anchovy",
@@ -12435,16 +12367,80 @@
                         "ref": "The Ruby Sea/Shoal Rock/Butterfly Fish"
                     },
                     {
-                        "name": "Shoal Rock - The Winter Queen",
-                        "ref": "The Ruby Sea/Shoal Rock/The Winter Queen"
+                        "name": "Shoal Rock - Harutsuge",
+                        "ref": "The Ruby Sea/Shoal Rock/Harutsuge"
                     },
                     {
                         "name": "Shoal Rock - Ruby Laver",
                         "ref": "The Ruby Sea/Shoal Rock/Ruby Laver"
                     },
                     {
-                        "name": "The Isle of Zekki - Zekki Gator",
-                        "ref": "The Ruby Sea/The Isle of Zekki/Zekki Gator"
+                        "name": "Shoal Rock - The Winter Queen",
+                        "ref": "The Ruby Sea/Shoal Rock/The Winter Queen"
+                    },
+                    {
+                        "name": "Onokoro - Ruby Shrimp",
+                        "ref": "The Ruby Sea/Onokoro/Ruby Shrimp"
+                    },
+                    {
+                        "name": "Onokoro - Leaf Tatsunoko",
+                        "ref": "The Ruby Sea/Onokoro/Leaf Tatsunoko"
+                    },
+                    {
+                        "name": "Onokoro - Glass Flounder",
+                        "ref": "The Ruby Sea/Onokoro/Glass Flounder"
+                    },
+                    {
+                        "name": "Onokoro - Blackfin Snake Eel",
+                        "ref": "The Ruby Sea/Onokoro/Blackfin Snake Eel"
+                    },
+                    {
+                        "name": "Onokoro - Swordfish",
+                        "ref": "The Ruby Sea/Onokoro/Swordfish"
+                    },
+                    {
+                        "name": "Onokoro - Hook Fish",
+                        "ref": "The Ruby Sea/Onokoro/Hook Fish"
+                    },
+                    {
+                        "name": "Onokoro - Argonautica",
+                        "ref": "The Ruby Sea/Onokoro/Argonautica"
+                    },
+                    {
+                        "name": "Isari - Glass Herring",
+                        "ref": "The Ruby Sea/Isari/Glass Herring"
+                    },
+                    {
+                        "name": "Isari - Gliding Fish",
+                        "ref": "The Ruby Sea/Isari/Gliding Fish"
+                    },
+                    {
+                        "name": "Isari - Globefish",
+                        "ref": "The Ruby Sea/Isari/Globefish"
+                    },
+                    {
+                        "name": "Isari - Fan Clam",
+                        "ref": "The Ruby Sea/Isari/Fan Clam"
+                    },
+                    {
+                        "name": "Isari - Ruby Meagre",
+                        "ref": "The Ruby Sea/Isari/Ruby Meagre"
+                    },
+                    {
+                        "name": "Isari - Triplespine",
+                        "ref": "The Ruby Sea/Isari/Triplespine"
+                    },
+                    {
+                        "name": "Isari - Shirogane Clam",
+                        "ref": "The Ruby Sea/Isari/Shirogane Clam"
+                    },
+                    {
+                        "name": "Isari - Pinhead",
+                        "ref": "The Ruby Sea/Isari/Pinhead"
+                    },
+                    {
+                        "name": "The Isle of Zekki - Ruby Shrimp",
+                        "ref": "The Ruby Sea/The Isle of Zekki/Ruby Shrimp"
                     },
                     {
                         "name": "The Isle of Zekki - Daio Squid",
@@ -12455,8 +12451,12 @@
                         "ref": "The Ruby Sea/The Isle of Zekki/Koromo Octopus"
                     },
                     {
-                        "name": "The Isle of Zekki - Ruby Shrimp",
-                        "ref": "The Ruby Sea/The Isle of Zekki/Ruby Shrimp"
+                        "name": "The Isle of Zekki - Zekki Grouper",
+                        "ref": "The Ruby Sea/The Isle of Zekki/Zekki Grouper"
+                    },
+                    {
+                        "name": "The Isle of Zekki - Zekki Gator",
+                        "ref": "The Ruby Sea/The Isle of Zekki/Zekki Gator"
                     },
                     {
                         "name": "The Isle of Zekki - Rakshasa",
@@ -15032,30 +15032,6 @@
                         "ref": "Yanxia/Doma Castle (Dungeon)/Doma Castle"
                     },
                     {
-                        "name": "Doma Castle (Fishing Hole) - Samurai Fish",
-                        "ref": "Yanxia/Doma Castle (Fishing Hole)/Samurai Fish"
-                    },
-                    {
-                        "name": "Doma Castle (Fishing Hole) - Raitonfish",
-                        "ref": "Yanxia/Doma Castle (Fishing Hole)/Raitonfish"
-                    },
-                    {
-                        "name": "Doma Castle (Fishing Hole) - Blank Oscar",
-                        "ref": "Yanxia/Doma Castle (Fishing Hole)/Blank Oscar"
-                    },
-                    {
-                        "name": "Doma Castle (Fishing Hole) - Dragonfish",
-                        "ref": "Yanxia/Doma Castle (Fishing Hole)/Dragonfish"
-                    },
-                    {
-                        "name": "Doma Castle (Fishing Hole) - Doman Trout",
-                        "ref": "Yanxia/Doma Castle (Fishing Hole)/Doman Trout"
-                    },
-                    {
-                        "name": "Doma Castle (Fishing Hole) - Bokuden",
-                        "ref": "Yanxia/Doma Castle (Fishing Hole)/Bokuden"
-                    },
-                    {
                         "name": "The Swallows Compass - The Swallows Compass",
                         "ref": "Yanxia/The Swallows Compass/The Swallows Compass"
                     },
@@ -15260,16 +15236,48 @@
                         "ref": "Yanxia/Foxy Lady (FATE)/Foxy Lady (FATE)"
                     },
                     {
-                        "name": "The One River (East) - Yanxian Barramundi",
-                        "ref": "Yanxia/The One River (East)/Yanxian Barramundi"
+                        "name": "The Herons Nest - Doman Trout",
+                        "ref": "Yanxia/The Herons Nest/Doman Trout"
+                    },
+                    {
+                        "name": "The Herons Nest - Doman Crayfish",
+                        "ref": "Yanxia/The Herons Nest/Doman Crayfish"
+                    },
+                    {
+                        "name": "The Herons Nest - Maidens Heart",
+                        "ref": "Yanxia/The Herons Nest/Maidens Heart"
+                    },
+                    {
+                        "name": "The Herons Nest - Pomegranate Trout",
+                        "ref": "Yanxia/The Herons Nest/Pomegranate Trout"
+                    },
+                    {
+                        "name": "The Herons Way - River Barramundi",
+                        "ref": "Yanxia/The Herons Way/River Barramundi"
+                    },
+                    {
+                        "name": "The Herons Way - Doman Trout",
+                        "ref": "Yanxia/The Herons Way/Doman Trout"
+                    },
+                    {
+                        "name": "The Herons Way - Doman Crayfish",
+                        "ref": "Yanxia/The Herons Way/Doman Crayfish"
+                    },
+                    {
+                        "name": "The Herons Way - Glarramundi",
+                        "ref": "Yanxia/The Herons Way/Glarramundi"
+                    },
+                    {
+                        "name": "Namai - Nogoi",
+                        "ref": "Yanxia/Namai/Nogoi"
+                    },
+                    {
+                        "name": "Namai - Hermits End",
+                        "ref": "Yanxia/Namai/Hermits End"
                     },
                     {
                         "name": "The One River (East) - Yanxian Koi",
                         "ref": "Yanxia/The One River (East)/Yanxian Koi"
-                    },
-                    {
-                        "name": "The One River (East) - Kotsu Zetsu",
-                        "ref": "Yanxia/The One River (East)/Kotsu Zetsu"
                     },
                     {
                         "name": "The One River (East) - Longhair Catfish",
@@ -15280,16 +15288,20 @@
                         "ref": "Yanxia/The One River (East)/Doman Trout"
                     },
                     {
+                        "name": "The One River (East) - Yanxian Barramundi",
+                        "ref": "Yanxia/The One River (East)/Yanxian Barramundi"
+                    },
+                    {
+                        "name": "The One River (East) - Kotsu Zetsu",
+                        "ref": "Yanxia/The One River (East)/Kotsu Zetsu"
+                    },
+                    {
                         "name": "The One River (East) - Othardian Salmon",
                         "ref": "Yanxia/The One River (East)/Othardian Salmon"
                     },
                     {
                         "name": "The One River (East) - Axelrod",
                         "ref": "Yanxia/The One River (East)/Axelrod"
-                    },
-                    {
-                        "name": "The One River (West) - Seraphim",
-                        "ref": "Yanxia/The One River (West)/Seraphim"
                     },
                     {
                         "name": "The One River (West) - Longhair Catfish",
@@ -15300,72 +15312,56 @@
                         "ref": "Yanxia/The One River (West)/Doman Trout"
                     },
                     {
-                        "name": "Plum Spring - Hagoromo Koi",
-                        "ref": "Yanxia/Plum Spring/Hagoromo Koi"
+                        "name": "The One River (West) - Kotsu Zetsu",
+                        "ref": "Yanxia/The One River (West)/Kotsu Zetsu"
+                    },
+                    {
+                        "name": "The One River (West) - Seraphim",
+                        "ref": "Yanxia/The One River (West)/Seraphim"
                     },
                     {
                         "name": "The One River (West) - Hagoromo Bijin",
                         "ref": "Yanxia/The One River (West)/Hagoromo Bijin"
                     },
                     {
-                        "name": "Mercantile Docks - Doman Grass Carp",
-                        "ref": "Yanxia/Mercantile Docks/Doman Grass Carp"
-                    },
-                    {
-                        "name": "Mercantile Docks - Lordly Salmon",
-                        "ref": "Yanxia/Mercantile Docks/Lordly Salmon"
-                    },
-                    {
-                        "name": "Mercantile Docks - Kotsu Zetsu",
-                        "ref": "Yanxia/Mercantile Docks/Kotsu Zetsu"
-                    },
-                    {
-                        "name": "Mercantile Docks - Doman Trout",
-                        "ref": "Yanxia/Mercantile Docks/Doman Trout"
-                    },
-                    {
-                        "name": "Mercantile Docks - Suiten Ippeki",
-                        "ref": "Yanxia/Mercantile Docks/Suiten Ippeki"
-                    },
-                    {
-                        "name": "Mercantile Docks - White Clam",
-                        "ref": "Yanxia/Mercantile Docks/White Clam"
-                    },
-                    {
-                        "name": "The Herons Way - River Barramundi",
-                        "ref": "Yanxia/The Herons Way/River Barramundi"
-                    },
-                    {
-                        "name": "The Herons Way - Doman Crayfish",
-                        "ref": "Yanxia/The Herons Way/Doman Crayfish"
-                    },
-                    {
-                        "name": "The Herons Way - Doman Trout",
-                        "ref": "Yanxia/The Herons Way/Doman Trout"
-                    },
-                    {
-                        "name": "The Herons Way - Glarramundi",
-                        "ref": "Yanxia/The Herons Way/Glarramundi"
-                    },
-                    {
-                        "name": "Plum Spring - Silken Koi",
-                        "ref": "Yanxia/Plum Spring/Silken Koi"
+                        "name": "Plum Spring - Doman Trout",
+                        "ref": "Yanxia/Plum Spring/Doman Trout"
                     },
                     {
                         "name": "Plum Spring - Kotsu Zetsu",
                         "ref": "Yanxia/Plum Spring/Kotsu Zetsu"
                     },
                     {
-                        "name": "Plum Spring - Plum Gazer",
-                        "ref": "Yanxia/Plum Spring/Plum Gazer"
-                    },
-                    {
                         "name": "Plum Spring - Pandamoth",
                         "ref": "Yanxia/Plum Spring/Pandamoth"
                     },
                     {
-                        "name": "Plum Spring - Doman Trout",
-                        "ref": "Yanxia/Plum Spring/Doman Trout"
+                        "name": "Plum Spring - Silken Koi",
+                        "ref": "Yanxia/Plum Spring/Silken Koi"
+                    },
+                    {
+                        "name": "Plum Spring - Plum Gazer",
+                        "ref": "Yanxia/Plum Spring/Plum Gazer"
+                    },
+                    {
+                        "name": "Plum Spring - Hagoromo Koi",
+                        "ref": "Yanxia/Plum Spring/Hagoromo Koi"
+                    },
+                    {
+                        "name": "Prism Canyon - Doman Trout",
+                        "ref": "Yanxia/Prism Canyon/Doman Trout"
+                    },
+                    {
+                        "name": "Prism Canyon - Doman Crayfish",
+                        "ref": "Yanxia/Prism Canyon/Doman Crayfish"
+                    },
+                    {
+                        "name": "Prism Canyon - Doman Eel",
+                        "ref": "Yanxia/Prism Canyon/Doman Eel"
+                    },
+                    {
+                        "name": "Prism Canyon - The Unraveled Bow",
+                        "ref": "Yanxia/Prism Canyon/The Unraveled Bow"
                     },
                     {
                         "name": "Prism Lake - Yellow Prismfish",
@@ -15404,48 +15400,52 @@
                         "ref": "Yanxia/Prism Lake/Warden of the Seven Hues"
                     },
                     {
-                        "name": "The Herons Nest - Doman Crayfish",
-                        "ref": "Yanxia/The Herons Nest/Doman Crayfish"
+                        "name": "Mercantile Docks - Doman Trout",
+                        "ref": "Yanxia/Mercantile Docks/Doman Trout"
                     },
                     {
-                        "name": "The Herons Nest - Doman Trout",
-                        "ref": "Yanxia/The Herons Nest/Doman Trout"
+                        "name": "Mercantile Docks - Doman Grass Carp",
+                        "ref": "Yanxia/Mercantile Docks/Doman Grass Carp"
                     },
                     {
-                        "name": "The Herons Nest - Maidens Heart",
-                        "ref": "Yanxia/The Herons Nest/Maidens Heart"
+                        "name": "Mercantile Docks - Lordly Salmon",
+                        "ref": "Yanxia/Mercantile Docks/Lordly Salmon"
                     },
                     {
-                        "name": "The Herons Nest - Pomegranate Trout",
-                        "ref": "Yanxia/The Herons Nest/Pomegranate Trout"
+                        "name": "Mercantile Docks - Kotsu Zetsu",
+                        "ref": "Yanxia/Mercantile Docks/Kotsu Zetsu"
                     },
                     {
-                        "name": "Prism Canyon - Doman Crayfish",
-                        "ref": "Yanxia/Prism Canyon/Doman Crayfish"
+                        "name": "Mercantile Docks - White Clam",
+                        "ref": "Yanxia/Mercantile Docks/White Clam"
                     },
                     {
-                        "name": "Prism Canyon - Doman Trout",
-                        "ref": "Yanxia/Prism Canyon/Doman Trout"
+                        "name": "Mercantile Docks - Suiten Ippeki",
+                        "ref": "Yanxia/Mercantile Docks/Suiten Ippeki"
                     },
                     {
-                        "name": "Prism Canyon - Doman Eel",
-                        "ref": "Yanxia/Prism Canyon/Doman Eel"
+                        "name": "Doma Castle (Fishing Hole) - Doman Trout",
+                        "ref": "Yanxia/Doma Castle (Fishing Hole)/Doman Trout"
                     },
                     {
-                        "name": "Prism Canyon - The Unraveled Bow",
-                        "ref": "Yanxia/Prism Canyon/The Unraveled Bow"
+                        "name": "Doma Castle (Fishing Hole) - Samurai Fish",
+                        "ref": "Yanxia/Doma Castle (Fishing Hole)/Samurai Fish"
                     },
                     {
-                        "name": "The One River (West) - Kotsu Zetsu",
-                        "ref": "Yanxia/The One River (West)/Kotsu Zetsu"
+                        "name": "Doma Castle (Fishing Hole) - Blank Oscar",
+                        "ref": "Yanxia/Doma Castle (Fishing Hole)/Blank Oscar"
                     },
                     {
-                        "name": "Namai - Nogoi",
-                        "ref": "Yanxia/Namai/Nogoi"
+                        "name": "Doma Castle (Fishing Hole) - Dragonfish",
+                        "ref": "Yanxia/Doma Castle (Fishing Hole)/Dragonfish"
                     },
                     {
-                        "name": "Namai - Hermits End",
-                        "ref": "Yanxia/Namai/Hermits End"
+                        "name": "Doma Castle (Fishing Hole) - Raitonfish",
+                        "ref": "Yanxia/Doma Castle (Fishing Hole)/Raitonfish"
+                    },
+                    {
+                        "name": "Doma Castle (Fishing Hole) - Bokuden",
+                        "ref": "Yanxia/Doma Castle (Fishing Hole)/Bokuden"
                     }
                 ],
                 "map_locations": [

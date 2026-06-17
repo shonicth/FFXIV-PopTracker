@@ -1381,6 +1381,172 @@
                 ]
             },
             {
+                "name": "Nem Khaal",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    
+                ],
+                "visibility_rules": [
+                    
+                ],
+                "sections": [
+                    {
+                        "name": "Killifish",
+                        "access_rules": [
+                            "^$fishAccess|The Azim Steppe|Killifish"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Killifish"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Othardian Trout",
+                        "access_rules": [
+                            "^$fishAccess|The Azim Steppe|Othardian Trout"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Othardian Trout"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Zagas Khaal",
+                        "access_rules": [
+                            "^$fishAccess|The Azim Steppe|Zagas Khaal"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Zagas Khaal"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Steppe Skipper",
+                        "access_rules": [
+                            "^$fishAccess|The Azim Steppe|Steppe Skipper"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Steppe Skipper"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Dawn Crayfish",
+                        "access_rules": [
+                            "^$fishAccess|The Azim Steppe|Dawn Crayfish"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Dawn Crayfish"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Garden Skipper",
+                        "access_rules": [
+                            "^$fishAccess|The Azim Steppe|Garden Skipper"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Garden Skipper"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "The Azim Steppe",
+                        "x": 1569,
+                        "y": 1465,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Hak Khaal",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    
+                ],
+                "visibility_rules": [
+                    
+                ],
+                "sections": [
+                    {
+                        "name": "Zagas Khaal",
+                        "access_rules": [
+                            "^$fishAccess|The Azim Steppe|Zagas Khaal"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Zagas Khaal"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Curtain Pleco",
+                        "access_rules": [
+                            "^$fishAccess|The Azim Steppe|Curtain Pleco"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Curtain Pleco"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Dry Steppe Skipper",
+                        "access_rules": [
+                            "^$fishAccess|The Azim Steppe|Dry Steppe Skipper"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Dry Steppe Skipper"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Dusk Crayfish",
+                        "access_rules": [
+                            "^$fishAccess|The Azim Steppe|Dusk Crayfish"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Dusk Crayfish"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Hak Bitterling",
+                        "access_rules": [
+                            "^$fishAccess|The Azim Steppe|Hak Bitterling"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Hak Bitterling"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Banderole",
+                        "access_rules": [
+                            "^$fishAccess|The Azim Steppe|Banderole"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Banderole"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "The Azim Steppe",
+                        "x": 1404,
+                        "y": 959,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
                 "name": "Upper Yat Khaal",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
@@ -1476,16 +1642,6 @@
                 ],
                 "sections": [
                     {
-                        "name": "Sweatfish",
-                        "access_rules": [
-                            "^$fishAccess|The Azim Steppe|Sweatfish"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Sweatfish"
-                        ],
-                        "item_count": 1
-                    },
-                    {
                         "name": "Othardian Trout",
                         "access_rules": [
                             "^$fishAccess|The Azim Steppe|Othardian Trout"
@@ -1526,6 +1682,16 @@
                         "item_count": 1
                     },
                     {
+                        "name": "Sweatfish",
+                        "access_rules": [
+                            "^$fishAccess|The Azim Steppe|Sweatfish"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Sweatfish"
+                        ],
+                        "item_count": 1
+                    },
+                    {
                         "name": "Guppy",
                         "access_rules": [
                             "^$fishAccess|The Azim Steppe|Guppy"
@@ -1557,265 +1723,6 @@
                 ]
             },
             {
-                "name": "Hak Khaal",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    
-                ],
-                "visibility_rules": [
-                    
-                ],
-                "sections": [
-                    {
-                        "name": "Hak Bitterling",
-                        "access_rules": [
-                            "^$fishAccess|The Azim Steppe|Hak Bitterling"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Hak Bitterling"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Zagas Khaal",
-                        "access_rules": [
-                            "^$fishAccess|The Azim Steppe|Zagas Khaal"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Zagas Khaal"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Dry Steppe Skipper",
-                        "access_rules": [
-                            "^$fishAccess|The Azim Steppe|Dry Steppe Skipper"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Dry Steppe Skipper"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Dusk Crayfish",
-                        "access_rules": [
-                            "^$fishAccess|The Azim Steppe|Dusk Crayfish"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Dusk Crayfish"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Curtain Pleco",
-                        "access_rules": [
-                            "^$fishAccess|The Azim Steppe|Curtain Pleco"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Curtain Pleco"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Banderole",
-                        "access_rules": [
-                            "^$fishAccess|The Azim Steppe|Banderole"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Banderole"
-                        ],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "The Azim Steppe",
-                        "x": 1404,
-                        "y": 959,
-                        "size": 40,
-                        "shape": "rect"
-                    }
-                ]
-            },
-            {
-                "name": "Lower Yat Khaal",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    
-                ],
-                "visibility_rules": [
-                    
-                ],
-                "sections": [
-                    {
-                        "name": "Yat Goby",
-                        "access_rules": [
-                            "^$fishAccess|The Azim Steppe|Yat Goby"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Yat Goby"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Othardian Trout",
-                        "access_rules": [
-                            "^$fishAccess|The Azim Steppe|Othardian Trout"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Othardian Trout"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Steppe Skipper",
-                        "access_rules": [
-                            "^$fishAccess|The Azim Steppe|Steppe Skipper"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Steppe Skipper"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Dawn Crayfish",
-                        "access_rules": [
-                            "^$fishAccess|The Azim Steppe|Dawn Crayfish"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Dawn Crayfish"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Jade Sculpin",
-                        "access_rules": [
-                            "^$fishAccess|The Azim Steppe|Jade Sculpin"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Jade Sculpin"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Yat Khan",
-                        "access_rules": [
-                            "^$fishAccess|The Azim Steppe|Yat Khan"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Yat Khan"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Fragrant Sweetfish",
-                        "access_rules": [
-                            "^$fishAccess|The Azim Steppe|Fragrant Sweetfish"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Fragrant Sweetfish"
-                        ],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "The Azim Steppe",
-                        "x": 1074,
-                        "y": 1362,
-                        "size": 40,
-                        "shape": "rect"
-                    }
-                ]
-            },
-            {
-                "name": "Nem Khaal",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    
-                ],
-                "visibility_rules": [
-                    
-                ],
-                "sections": [
-                    {
-                        "name": "Killifish",
-                        "access_rules": [
-                            "^$fishAccess|The Azim Steppe|Killifish"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Killifish"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Othardian Trout",
-                        "access_rules": [
-                            "^$fishAccess|The Azim Steppe|Othardian Trout"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Othardian Trout"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Zagas Khaal",
-                        "access_rules": [
-                            "^$fishAccess|The Azim Steppe|Zagas Khaal"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Zagas Khaal"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Steppe Skipper",
-                        "access_rules": [
-                            "^$fishAccess|The Azim Steppe|Steppe Skipper"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Steppe Skipper"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Dawn Crayfish",
-                        "access_rules": [
-                            "^$fishAccess|The Azim Steppe|Dawn Crayfish"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Dawn Crayfish"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Garden Skipper",
-                        "access_rules": [
-                            "^$fishAccess|The Azim Steppe|Garden Skipper"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Garden Skipper"
-                        ],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "The Azim Steppe",
-                        "x": 1569,
-                        "y": 1465,
-                        "size": 40,
-                        "shape": "rect"
-                    }
-                ]
-            },
-            {
                 "name": "Tao Khaal",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
@@ -1827,16 +1734,6 @@
                     
                 ],
                 "sections": [
-                    {
-                        "name": "Tao Bitterling",
-                        "access_rules": [
-                            "^$fishAccess|The Azim Steppe|Tao Bitterling"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Tao Bitterling"
-                        ],
-                        "item_count": 1
-                    },
                     {
                         "name": "Zagas Khaal",
                         "access_rules": [
@@ -1878,6 +1775,16 @@
                         "item_count": 1
                     },
                     {
+                        "name": "Tao Bitterling",
+                        "access_rules": [
+                            "^$fishAccess|The Azim Steppe|Tao Bitterling"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Tao Bitterling"
+                        ],
+                        "item_count": 1
+                    },
+                    {
                         "name": "Elder Gourami",
                         "access_rules": [
                             "^$fishAccess|The Azim Steppe|Elder Gourami"
@@ -1909,6 +1816,99 @@
                 ]
             },
             {
+                "name": "Lower Yat Khaal",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    
+                ],
+                "visibility_rules": [
+                    
+                ],
+                "sections": [
+                    {
+                        "name": "Othardian Trout",
+                        "access_rules": [
+                            "^$fishAccess|The Azim Steppe|Othardian Trout"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Othardian Trout"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Steppe Skipper",
+                        "access_rules": [
+                            "^$fishAccess|The Azim Steppe|Steppe Skipper"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Steppe Skipper"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Dawn Crayfish",
+                        "access_rules": [
+                            "^$fishAccess|The Azim Steppe|Dawn Crayfish"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Dawn Crayfish"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Yat Goby",
+                        "access_rules": [
+                            "^$fishAccess|The Azim Steppe|Yat Goby"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Yat Goby"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Jade Sculpin",
+                        "access_rules": [
+                            "^$fishAccess|The Azim Steppe|Jade Sculpin"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Jade Sculpin"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Fragrant Sweetfish",
+                        "access_rules": [
+                            "^$fishAccess|The Azim Steppe|Fragrant Sweetfish"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Fragrant Sweetfish"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Yat Khan",
+                        "access_rules": [
+                            "^$fishAccess|The Azim Steppe|Yat Khan"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Yat Khan"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "The Azim Steppe",
+                        "x": 1074,
+                        "y": 1362,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
                 "name": "Dotharl Khaa",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
@@ -1921,22 +1921,22 @@
                 ],
                 "sections": [
                     {
-                        "name": "Nhaamas Boon",
-                        "access_rules": [
-                            "^$fishAccess|The Azim Steppe|Nhaama's Boon"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Nhaama's Boon"
-                        ],
-                        "item_count": 1
-                    },
-                    {
                         "name": "Brassfish",
                         "access_rules": [
                             "^$fishAccess|The Azim Steppe|Brassfish"
                         ],
                         "visibility_rules": [
                             "$fishVisibility|Brassfish"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Nhaamas Boon",
+                        "access_rules": [
+                            "^$fishAccess|The Azim Steppe|Nhaama's Boon"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Nhaama's Boon"
                         ],
                         "item_count": 1
                     },
