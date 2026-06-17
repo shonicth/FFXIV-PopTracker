@@ -162,22 +162,22 @@
                 ],
                 "sections": [
                     {
-                        "name": "Peacock Bass",
-                        "access_rules": [
-                            "^$fishAccess|Old Sharlayan|Peacock Bass"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Peacock Bass"
-                        ],
-                        "item_count": 1
-                    },
-                    {
                         "name": "Astacus",
                         "access_rules": [
                             "^$fishAccess|Old Sharlayan|Astacus"
                         ],
                         "visibility_rules": [
                             "$fishVisibility|Astacus"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Peacock Bass",
+                        "access_rules": [
+                            "^$fishAccess|Old Sharlayan|Peacock Bass"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Peacock Bass"
                         ],
                         "item_count": 1
                     },
@@ -235,22 +235,22 @@
                 ],
                 "sections": [
                     {
-                        "name": "Ponderer",
-                        "access_rules": [
-                            "^$fishAccess|Old Sharlayan|Ponderer"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Ponderer"
-                        ],
-                        "item_count": 1
-                    },
-                    {
                         "name": "Astacus",
                         "access_rules": [
                             "^$fishAccess|Old Sharlayan|Astacus"
                         ],
                         "visibility_rules": [
                             "$fishVisibility|Astacus"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Ponderer",
+                        "access_rules": [
+                            "^$fishAccess|Old Sharlayan|Ponderer"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Ponderer"
                         ],
                         "item_count": 1
                     },

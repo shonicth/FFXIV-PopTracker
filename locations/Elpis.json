@@ -671,89 +671,6 @@
                 ]
             },
             {
-                "name": "Lethe",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    
-                ],
-                "visibility_rules": [
-                    
-                ],
-                "sections": [
-                    {
-                        "name": "Smaragdos",
-                        "access_rules": [
-                            "^$fishAccess|Elpis|Smaragdos"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Smaragdos"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Isle Skipper",
-                        "access_rules": [
-                            "^$fishAccess|Elpis|Isle Skipper"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Isle Skipper"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Antheia",
-                        "access_rules": [
-                            "^$fishAccess|Elpis|Antheia"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Antheia"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Iribainion",
-                        "access_rules": [
-                            "^$fishAccess|Elpis|Iribainion"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Iribainion"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Antheian Dahlia",
-                        "access_rules": [
-                            "^$fishAccess|Elpis|Antheian Dahlia"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Antheian Dahlia"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Furcacauda",
-                        "access_rules": [
-                            "^$fishAccess|Elpis|Furcacauda"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Furcacauda"
-                        ],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Elpis",
-                        "x": 1621,
-                        "y": 712,
-                        "size": 40,
-                        "shape": "rect"
-                    }
-                ]
-            },
-            {
                 "name": "Ruminations Ramble",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
@@ -914,6 +831,89 @@
                         "map": "Elpis",
                         "x": 1192,
                         "y": 445,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Lethe",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    
+                ],
+                "visibility_rules": [
+                    
+                ],
+                "sections": [
+                    {
+                        "name": "Smaragdos",
+                        "access_rules": [
+                            "^$fishAccess|Elpis|Smaragdos"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Smaragdos"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Isle Skipper",
+                        "access_rules": [
+                            "^$fishAccess|Elpis|Isle Skipper"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Isle Skipper"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Antheia",
+                        "access_rules": [
+                            "^$fishAccess|Elpis|Antheia"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Antheia"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Iribainion",
+                        "access_rules": [
+                            "^$fishAccess|Elpis|Iribainion"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Iribainion"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Antheian Dahlia",
+                        "access_rules": [
+                            "^$fishAccess|Elpis|Antheian Dahlia"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Antheian Dahlia"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Furcacauda",
+                        "access_rules": [
+                            "^$fishAccess|Elpis|Furcacauda"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Furcacauda"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Elpis",
+                        "x": 1621,
+                        "y": 712,
                         "size": 40,
                         "shape": "rect"
                     }

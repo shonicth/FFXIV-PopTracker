@@ -649,89 +649,6 @@
                 ]
             },
             {
-                "name": "The Frozen Fissure",
-                "chest_unopened_img": "/images/items/close.png",
-                "chest_opened_img": "/images/items/open.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    
-                ],
-                "visibility_rules": [
-                    
-                ],
-                "sections": [
-                    {
-                        "name": "Lunar Lamenter",
-                        "access_rules": [
-                            "^$fishAccess|Mare Lamentorum|Lunar Lamenter"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Lunar Lamenter"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Feverfish",
-                        "access_rules": [
-                            "^$fishAccess|Mare Lamentorum|Feverfish"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Feverfish"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Calicia",
-                        "access_rules": [
-                            "^$fishAccess|Mare Lamentorum|Calicia"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Calicia"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Fleeting Brand",
-                        "access_rules": [
-                            "^$fishAccess|Mare Lamentorum|Fleeting Brand"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Fleeting Brand"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Regotoise",
-                        "access_rules": [
-                            "^$fishAccess|Mare Lamentorum|Regotoise"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Regotoise"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Frozen Regotoise",
-                        "access_rules": [
-                            "^$fishAccess|Mare Lamentorum|Frozen Regotoise"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Frozen Regotoise"
-                        ],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Mare Lamentorum",
-                        "x": 1087,
-                        "y": 1533,
-                        "size": 40,
-                        "shape": "rect"
-                    }
-                ]
-            },
-            {
                 "name": "Greatest Endsvale",
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
@@ -892,6 +809,89 @@
                         "map": "Mare Lamentorum",
                         "x": 1504,
                         "y": 1556,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "The Frozen Fissure",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    
+                ],
+                "visibility_rules": [
+                    
+                ],
+                "sections": [
+                    {
+                        "name": "Lunar Lamenter",
+                        "access_rules": [
+                            "^$fishAccess|Mare Lamentorum|Lunar Lamenter"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Lunar Lamenter"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Feverfish",
+                        "access_rules": [
+                            "^$fishAccess|Mare Lamentorum|Feverfish"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Feverfish"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Calicia",
+                        "access_rules": [
+                            "^$fishAccess|Mare Lamentorum|Calicia"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Calicia"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Fleeting Brand",
+                        "access_rules": [
+                            "^$fishAccess|Mare Lamentorum|Fleeting Brand"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Fleeting Brand"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Regotoise",
+                        "access_rules": [
+                            "^$fishAccess|Mare Lamentorum|Regotoise"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Regotoise"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Frozen Regotoise",
+                        "access_rules": [
+                            "^$fishAccess|Mare Lamentorum|Frozen Regotoise"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Frozen Regotoise"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Mare Lamentorum",
+                        "x": 1087,
+                        "y": 1533,
                         "size": 40,
                         "shape": "rect"
                     }
