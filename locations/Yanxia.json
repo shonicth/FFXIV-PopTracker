@@ -226,22 +226,22 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Kotsu Zetsu",
-                        "access_rules": [
-                            "^$fishAccess|Yanxia|Kotsu Zetsu"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Kotsu Zetsu"
-                        ],
-                        "item_count": 1
-                    },
-                    {
                         "name": "Doman Trout",
                         "access_rules": [
                             "^$fishAccess|Yanxia|Doman Trout"
                         ],
                         "visibility_rules": [
                             "$fishVisibility|Doman Trout"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kotsu Zetsu",
+                        "access_rules": [
+                            "^$fishAccess|Yanxia|Kotsu Zetsu"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Kotsu Zetsu"
                         ],
                         "item_count": 1
                     }
