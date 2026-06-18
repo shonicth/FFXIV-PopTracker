@@ -689,16 +689,6 @@
                 ],
                 "sections": [
                     {
-                        "name": "Giant Aetherlouse",
-                        "access_rules": [
-                            "^$fishAccess|Labyrinthos|Giant Aetherlouse"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Giant Aetherlouse"
-                        ],
-                        "item_count": 1
-                    },
-                    {
                         "name": "Butterfly Fry",
                         "access_rules": [
                             "^$fishAccess|Labyrinthos|Butterfly Fry"
@@ -725,6 +715,16 @@
                         ],
                         "visibility_rules": [
                             "$fishVisibility|Tessera"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Giant Aetherlouse",
+                        "access_rules": [
+                            "^$fishAccess|Labyrinthos|Giant Aetherlouse"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Giant Aetherlouse"
                         ],
                         "item_count": 1
                     },
@@ -782,22 +782,22 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Xenocypris",
-                        "access_rules": [
-                            "^$fishAccess|Labyrinthos|Xenocypris"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Xenocypris"
-                        ],
-                        "item_count": 1
-                    },
-                    {
                         "name": "Prochilodus Luminosus",
                         "access_rules": [
                             "^$fishAccess|Labyrinthos|Prochilodus Luminosus"
                         ],
                         "visibility_rules": [
                             "$fishVisibility|Prochilodus Luminosus"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Xenocypris",
+                        "access_rules": [
+                            "^$fishAccess|Labyrinthos|Xenocypris"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Xenocypris"
                         ],
                         "item_count": 1
                     },
@@ -1031,22 +1031,22 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Xenocypris",
-                        "access_rules": [
-                            "^$fishAccess|Labyrinthos|Xenocypris"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Xenocypris"
-                        ],
-                        "item_count": 1
-                    },
-                    {
                         "name": "Astacus Aetherius",
                         "access_rules": [
                             "^$fishAccess|Labyrinthos|Astacus Aetherius"
                         ],
                         "visibility_rules": [
                             "$fishVisibility|Astacus Aetherius"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Xenocypris",
+                        "access_rules": [
+                            "^$fishAccess|Labyrinthos|Xenocypris"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Xenocypris"
                         ],
                         "item_count": 1
                     },

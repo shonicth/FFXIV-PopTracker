@@ -701,22 +701,22 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Disappirarucu",
-                        "access_rules": [
-                            "^$fishAccess|Mare Lamentorum|Disappirarucu"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Disappirarucu"
-                        ],
-                        "item_count": 1
-                    },
-                    {
                         "name": "Ossicula",
                         "access_rules": [
                             "^$fishAccess|Mare Lamentorum|Ossicula"
                         ],
                         "visibility_rules": [
                             "$fishVisibility|Ossicula"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Disappirarucu",
+                        "access_rules": [
+                            "^$fishAccess|Mare Lamentorum|Disappirarucu"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Disappirarucu"
                         ],
                         "item_count": 1
                     }
@@ -826,16 +826,6 @@
                     
                 ],
                 "sections": [
-                    {
-                        "name": "Lunar Lamenter",
-                        "access_rules": [
-                            "^$fishAccess|Mare Lamentorum|Lunar Lamenter"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Lunar Lamenter"
-                        ],
-                        "item_count": 1
-                    },
                     {
                         "name": "Feverfish",
                         "access_rules": [

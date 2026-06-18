@@ -964,16 +964,6 @@
                 ],
                 "sections": [
                     {
-                        "name": "Garjana Wrasse",
-                        "access_rules": [
-                            "^$fishAccess|Thavnair|Garjana Wrasse"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Garjana Wrasse"
-                        ],
-                        "item_count": 1
-                    },
-                    {
                         "name": "Thavnairian Goby",
                         "access_rules": [
                             "^$fishAccess|Thavnair|Thavnairian Goby"
@@ -994,6 +984,16 @@
                         "item_count": 1
                     },
                     {
+                        "name": "Garjana Wrasse",
+                        "access_rules": [
+                            "^$fishAccess|Thavnair|Garjana Wrasse"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Garjana Wrasse"
+                        ],
+                        "item_count": 1
+                    },
+                    {
                         "name": "Golden Barramundi",
                         "access_rules": [
                             "^$fishAccess|Thavnair|Golden Barramundi"
@@ -1004,22 +1004,22 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Vidyutvat Wrasse",
-                        "access_rules": [
-                            "^$fishAccess|Thavnair|Vidyutvat Wrasse"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Vidyutvat Wrasse"
-                        ],
-                        "item_count": 1
-                    },
-                    {
                         "name": "Sarikuyruk",
                         "access_rules": [
                             "^$fishAccess|Thavnair|Sarikuyruk"
                         ],
                         "visibility_rules": [
                             "$fishVisibility|Sarikuyruk"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Vidyutvat Wrasse",
+                        "access_rules": [
+                            "^$fishAccess|Thavnair|Vidyutvat Wrasse"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Vidyutvat Wrasse"
                         ],
                         "item_count": 1
                     }
@@ -1193,16 +1193,6 @@
                 ],
                 "sections": [
                     {
-                        "name": "Alnairan Salmon",
-                        "access_rules": [
-                            "^$fishAccess|Thavnair|Alnairan Salmon"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Alnairan Salmon"
-                        ],
-                        "item_count": 1
-                    },
-                    {
                         "name": "Green Swordtail",
                         "access_rules": [
                             "^$fishAccess|Thavnair|Green Swordtail"
@@ -1316,6 +1306,16 @@
                         "item_count": 1
                     },
                     {
+                        "name": "Banana Eel",
+                        "access_rules": [
+                            "^$fishAccess|Thavnair|Banana Eel"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Banana Eel"
+                        ],
+                        "item_count": 1
+                    },
+                    {
                         "name": "Browned Banana Eel",
                         "access_rules": [
                             "^$fishAccess|Thavnair|Browned Banana Eel"
@@ -1365,16 +1365,6 @@
                         ],
                         "visibility_rules": [
                             "$fishVisibility|Radzbalik"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Banana Eel",
-                        "access_rules": [
-                            "^$fishAccess|Thavnair|Banana Eel"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Banana Eel"
                         ],
                         "item_count": 1
                     },
