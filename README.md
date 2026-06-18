@@ -2,9 +2,9 @@
 
 WIP
 
-Current Status(6/10/2026):
+Current Status(6/17/2026):
 
--Everything should be fully implemented wrt APWorld v0.28.1, I'm currently focusing my efforts on reviewing/organizing the fish based on in game fishing log. Currently finished with all the ARR zones for this.
+-Everything should be fully implemented wrt APWorld v0.29.0, I'm currently focusing my efforts on reviewing/organizing the fish based on in game fishing log. Currently finished with all the ShB zones for this.
 
 -Assets need to be done, as well as clean up layouts. There are currently a lot of placeholders
 
@@ -22,9 +22,11 @@ TODO:
 
 -Make a proper readme and make a proper release
 
--Replace all the placeholder images for the items/settings, as well as properly order the baits in a human readable order
+-Replace all the placeholder images for the items/settings
 
 -Clean up mapping, maybe merge FATE locations
+
+-Create overworlds based on sections(ie La Noscea, Thanalan, The First, etc)
 
 -Playtest constantly and make sure everything is working
 
@@ -34,6 +36,6 @@ _____________
 
 Far future planned todo:
 
--Add every bait to every fishing hole and ensure the fish are in the same order as the fishing log in game
+-Add every bait to every fishing hole and ensure the fish are in the same order as the fishing log in game(Probably need to start this sooner rather than later at this point)
 
 -Add images to every location representing what they are
