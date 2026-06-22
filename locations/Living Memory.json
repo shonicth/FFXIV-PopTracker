@@ -596,6 +596,16 @@
                             "$fishVisibility|Harlequin Lancer"
                         ],
                         "item_count": 1
+                    //},
+                    //{
+                    //    "name": "Harlequin Queen",
+                    //    "access_rules": [
+                    //        "^$fishAccess|The Knowable|Harlequin Queen"
+                    //    ],
+                    //    "visibility_rules": [
+                    //        "$fishVisibility|Harlequin Queen"
+                    //    ],
+                    //    "item_count": 1
                     }
                 ],
                 "map_locations": [
@@ -631,16 +641,6 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Harlequin Lancer",
-                        "access_rules": [
-                            "^$fishAccess|Living Memory|Harlequin Lancer"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Harlequin Lancer"
-                        ],
-                        "item_count": 1
-                    },
-                    {
                         "name": "Knight Goby",
                         "access_rules": [
                             "^$fishAccess|Living Memory|Knight Goby"
@@ -669,6 +669,16 @@
                             "$fishVisibility|Giant Snakehead"
                         ],
                         "item_count": 1
+                    //},
+                    //{
+                    //    "name": "Gigagiant Snakehead",
+                    //    "access_rules": [
+                    //        "^$fishAccess|Mu Springs Eternal|Gigagiant Snakehead"
+                    //    ],
+                    //    "visibility_rules": [
+                    //        "$fishVisibility|Gigagiant Snakehead"
+                    //    ],
+                    //    "item_count": 1
                     }
                 ],
                 "map_locations": [
@@ -898,6 +908,16 @@
                             "$fishVisibility|Copper Shark"
                         ],
                         "item_count": 1
+                    //},
+                    //{
+                    //    "name": "Shined Copper Shark",
+                    //    "access_rules": [
+                    //        "^$fishAccess|Canal Town North|Shined Copper Shark"
+                    //    ],
+                    //    "visibility_rules": [
+                    //        "$fishVisibility|Shined Copper Shark"
+                    //    ],
+                    //    "item_count": 1
                     }
                 ],
                 "map_locations": [
@@ -961,6 +981,16 @@
                             "$fishVisibility|Ultimoat Carp"
                         ],
                         "item_count": 1
+                    //},
+                    //{
+                    //    "name": "Esperance Carp",
+                    //    "access_rules": [
+                    //        "^$fishAccess|Proto Alexandria|Esperance Carp"
+                    //    ],
+                    //    "visibility_rules": [
+                    //        "$fishVisibility|Esperance Carp"
+                    //    ],
+                    //    "item_count": 1
                     }
                 ],
                 "map_locations": [
