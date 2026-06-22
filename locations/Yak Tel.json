@@ -630,7 +630,17 @@
                             "$fishVisibility|Xd'aa Talat Cichlid"
                         ],
                         "item_count": 1
-                    }
+                    },
+                    //{
+                    //    "name": "Ilyon Asoh Cichlid",
+                    //    "access_rules": [
+                    //        "^$fishAccess|Xd'aa Talat Tsoly|Ilyon Asoh Cichlid"
+                    //    ],
+                    //    "visibility_rules": [
+                    //        "$fishVisibility|Ilyon Asoh Cichlid"
+                    //    ],
+                    //    "item_count": 1
+                    //}
                 ],
                 "map_locations": [
                     {
@@ -691,6 +701,16 @@
                         ],
                         "visibility_rules": [
                             "$fishVisibility|Hunmu Ob"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Deep Canopy",
+                        "access_rules": [
+                            "^$fishAccess|Yak T'el|Deep Canopy"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Deep Canopy"
                         ],
                         "item_count": 1
                     }
@@ -849,7 +869,18 @@
                             "$fishVisibility|Shadowtongue"
                         ],
                         "item_count": 1
+                    },
+                    {
+                        "name": "Iron Shadowtongue",
+                        "access_rules": [
+                            "^$fishAccess|Yak T'el|Iron Shadowtongue"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Iron Shadowtongue"
+                        ],
+                        "item_count": 1
                     }
+
                 ],
                 "map_locations": [
                     {
@@ -983,6 +1014,16 @@
                         ],
                         "visibility_rules": [
                             "$fishVisibility|Ankledeep Catfish"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Shin Snuffler",
+                        "access_rules": [
+                            "^$fishAccess|Yak T'el|Shin Snuffler"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Shin Snuffler"
                         ],
                         "item_count": 1
                     }
@@ -1131,6 +1172,16 @@
                             "$fishVisibility|Flawless Saucer"
                         ],
                         "item_count": 1
+                    //},
+                    //{
+                    //    "name": "Moonmarking Saucer",
+                    //    "access_rules": [
+                    //        "^$fishAccess|Cenote Jayunja|Moonmarking Saucer"
+                    //    ],
+                    //    "visibility_rules": [
+                    //        "$fishVisibility|Moonmarking Saucer"
+                    //    ],
+                    //    "item_count": 1
                     }
                 ],
                 "map_locations": [
@@ -1194,6 +1245,16 @@
                             "$fishVisibility|Twig Catfish"
                         ],
                         "item_count": 1
+                    //},
+                    //{
+                    //    "name": "Autarchs Supper",
+                    //    "access_rules": [
+                    //        "^$fishAccess|Sapsweet Cenote|Autarch's Supper"
+                    //    ],
+                    //    "visibility_rules": [
+                    //        "$fishVisibility|Autarch's Supper"
+                    //    ],
+                    //    "item_count": 1
                     }
                 ],
                 "map_locations": [
@@ -1267,6 +1328,16 @@
                             "$fishVisibility|Cenote Oyster"
                         ],
                         "item_count": 1
+                    //},
+                    //{
+                    //    "name": "Bitterbark Caiman",
+                    //    "access_rules": [
+                    //        "^$fishAccess|Bitterbark Cenote|Bitterbark Caiman"
+                    //    ],
+                    //    "visibility_rules": [
+                    //        "$fishVisibility|Bitterbark Caiman"
+                    //    ],
+                    //    "item_count": 1
                     }
                 ],
                 "map_locations": [
@@ -1302,16 +1373,6 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Xtyiinbek Sleeper",
-                        "access_rules": [
-                            "^$fishAccess|Yak T'el|Xty'iinbek Sleeper"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Xty'iinbek Sleeper"
-                        ],
-                        "item_count": 1
-                    },
-                    {
                         "name": "Sharknose Goby",
                         "access_rules": [
                             "^$fishAccess|Yak T'el|Sharknose Goby"
@@ -1328,6 +1389,16 @@
                         ],
                         "visibility_rules": [
                             "$fishVisibility|Yak T'el Crab"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Xtyiinbek Sleeper",
+                        "access_rules": [
+                            "^$fishAccess|Yak T'el|Xty'iinbek Sleeper"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Xty'iinbek Sleeper"
                         ],
                         "item_count": 1
                     },

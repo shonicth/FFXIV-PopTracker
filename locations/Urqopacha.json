@@ -743,6 +743,16 @@
                             "$fishVisibility|Shooting Starscale"
                         ],
                         "item_count": 1
+                    //},
+                    //{
+                    //    "name": "Ole Ole Ole",
+                    //    "access_rules": [
+                    //        "^$fishAccess|Chirwagur Lake|Ole Ole Ole"
+                    //    ],
+                    //    "visibility_rules": [
+                    //        "$fishVisibility|Ole Ole Ole"
+                    //    ],
+                    //    "item_count": 1
                     }
                 ],
                 "map_locations": [
@@ -798,12 +808,22 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Deepwarden",
+                        "name": "Zeh Tortoh",
                         "access_rules": [
-                            "^$fishAccess|Urqopacha|Deepwarden"
+                            "^$fishAccess|Urqopacha|Zeh Tortoh"
                         ],
                         "visibility_rules": [
-                            "$fishVisibility|Deepwarden"
+                            "$fishVisibility|Zeh Tortoh"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Morsel Trout",
+                        "access_rules": [
+                            "^$fishAccess|Urqopacha|Morsel Trout"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Morsel Trout"
                         ],
                         "item_count": 1
                     },
