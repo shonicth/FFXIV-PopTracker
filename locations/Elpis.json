@@ -693,22 +693,22 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Iribainion",
-                        "access_rules": [
-                            "^$fishAccess|Elpis|Iribainion"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Iribainion"
-                        ],
-                        "item_count": 1
-                    },
-                    {
                         "name": "Albino Loach",
                         "access_rules": [
                             "^$fishAccess|Elpis|Albino Loach"
                         ],
                         "visibility_rules": [
                             "$fishVisibility|Albino Loach"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Iribainion",
+                        "access_rules": [
+                            "^$fishAccess|Elpis|Iribainion"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Iribainion"
                         ],
                         "item_count": 1
                     },
@@ -776,22 +776,22 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Iribainion",
-                        "access_rules": [
-                            "^$fishAccess|Elpis|Iribainion"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Iribainion"
-                        ],
-                        "item_count": 1
-                    },
-                    {
                         "name": "Dermogenys",
                         "access_rules": [
                             "^$fishAccess|Elpis|Dermogenys"
                         ],
                         "visibility_rules": [
                             "$fishVisibility|Dermogenys"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Iribainion",
+                        "access_rules": [
+                            "^$fishAccess|Elpis|Iribainion"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Iribainion"
                         ],
                         "item_count": 1
                     },
@@ -849,16 +849,6 @@
                 ],
                 "sections": [
                     {
-                        "name": "Smaragdos",
-                        "access_rules": [
-                            "^$fishAccess|Elpis|Smaragdos"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Smaragdos"
-                        ],
-                        "item_count": 1
-                    },
-                    {
                         "name": "Isle Skipper",
                         "access_rules": [
                             "^$fishAccess|Elpis|Isle Skipper"
@@ -885,6 +875,16 @@
                         ],
                         "visibility_rules": [
                             "$fishVisibility|Iribainion"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Smaragdos",
+                        "access_rules": [
+                            "^$fishAccess|Elpis|Smaragdos"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Smaragdos"
                         ],
                         "item_count": 1
                     },

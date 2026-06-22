@@ -551,22 +551,22 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Star Eater",
-                        "access_rules": [
-                            "^$fishAccess|Ultima Thule|Star Eater"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Star Eater"
-                        ],
-                        "item_count": 1
-                    },
-                    {
                         "name": "Dragonscale",
                         "access_rules": [
                             "^$fishAccess|Ultima Thule|Dragonscale"
                         ],
                         "visibility_rules": [
                             "$fishVisibility|Dragonscale"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Star Eater",
+                        "access_rules": [
+                            "^$fishAccess|Ultima Thule|Star Eater"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Star Eater"
                         ],
                         "item_count": 1
                     },
@@ -591,22 +591,22 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Eehs Fan",
-                        "access_rules": [
-                            "^$fishAccess|Ultima Thule|Eehs Fan"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Eehs Fan"
-                        ],
-                        "item_count": 1
-                    },
-                    {
                         "name": "Stargilt Lobster",
                         "access_rules": [
                             "^$fishAccess|Ultima Thule|Stargilt Lobster"
                         ],
                         "visibility_rules": [
                             "$fishVisibility|Stargilt Lobster"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Eehs Fan",
+                        "access_rules": [
+                            "^$fishAccess|Ultima Thule|Eehs Fan"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Eehs Fan"
                         ],
                         "item_count": 1
                     }
@@ -644,22 +644,22 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Star Eater",
-                        "access_rules": [
-                            "^$fishAccess|Ultima Thule|Star Eater"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Star Eater"
-                        ],
-                        "item_count": 1
-                    },
-                    {
                         "name": "Glassfish",
                         "access_rules": [
                             "^$fishAccess|Ultima Thule|Glassfish"
                         ],
                         "visibility_rules": [
                             "$fishVisibility|Glassfish"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Star Eater",
+                        "access_rules": [
+                            "^$fishAccess|Ultima Thule|Star Eater"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Star Eater"
                         ],
                         "item_count": 1
                     },
@@ -717,22 +717,22 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Star Eater",
-                        "access_rules": [
-                            "^$fishAccess|Ultima Thule|Star Eater"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Star Eater"
-                        ],
-                        "item_count": 1
-                    },
-                    {
                         "name": "Vacuum Shrimp",
                         "access_rules": [
                             "^$fishAccess|Ultima Thule|Vacuum Shrimp"
                         ],
                         "visibility_rules": [
                             "$fishVisibility|Vacuum Shrimp"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Star Eater",
+                        "access_rules": [
+                            "^$fishAccess|Ultima Thule|Star Eater"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Star Eater"
                         ],
                         "item_count": 1
                     },
@@ -780,6 +780,16 @@
                 ],
                 "sections": [
                     {
+                        "name": "Protoflesh",
+                        "access_rules": [
+                            "^$fishAccess|Ultima Thule|Protoflesh"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Protoflesh"
+                        ],
+                        "item_count": 1
+                    },
+                    {
                         "name": "Katoptron",
                         "access_rules": [
                             "^$fishAccess|Ultima Thule|Katoptron"
@@ -806,16 +816,6 @@
                         ],
                         "visibility_rules": [
                             "$fishVisibility|Aoide"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Protoflesh",
-                        "access_rules": [
-                            "^$fishAccess|Ultima Thule|Protoflesh"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Protoflesh"
                         ],
                         "item_count": 1
                     },
@@ -853,22 +853,22 @@
                 ],
                 "sections": [
                     {
-                        "name": "Katoptron",
-                        "access_rules": [
-                            "^$fishAccess|Ultima Thule|Katoptron"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Katoptron"
-                        ],
-                        "item_count": 1
-                    },
-                    {
                         "name": "Protoflesh",
                         "access_rules": [
                             "^$fishAccess|Ultima Thule|Protoflesh"
                         ],
                         "visibility_rules": [
                             "$fishVisibility|Protoflesh"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Katoptron",
+                        "access_rules": [
+                            "^$fishAccess|Ultima Thule|Katoptron"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Katoptron"
                         ],
                         "item_count": 1
                     },
