@@ -106,10 +106,12 @@ function fateVisibility(fate)
 end
 
 function duty_visibility(name)
-  local dutyname = dutylist[name]
-    for _, duty in ipairs(ExcludedDuties) do
-        if duty == dutyname then
-            return false
+    local dutyname = dutylist[name]
+    if ExcludedDuties ~= nil then
+        for _, duty in ipairs(ExcludedDuties) do
+            if duty == dutyname then
+                return false
+            end
         end
     end
     return true
