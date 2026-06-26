@@ -3,183 +3,183 @@
         "type": "tabbed",
         "tabs": [
             {
-                "title": "Hydaelyn",
+                "title": "Overworld",
                 "content": {
-                    "type": "tabbed",
-                    "tabs": [
-                        {
-                            "title": "Hydaelyn",
-                            "content": {
+                    //"type": "tabbed",
+                    //"tabs": [
+                    //    {
+                    //        "title": "Hydaelyn",
+                    //        "content": {
                                 "type": "map",
                                 "maps": [
                                     "Hydaelyn"
                                 ]
                             }
-                        },
-                        {
-                            "title": "La Noscea",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "La Noscea"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "The Black Shroud",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "The Black Shroud"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "Thanalan",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "Thanalan"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "Coerthas",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "Coerthas"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "Mor Dhona",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "Mor Dhona"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "Abalathia's Spine",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "Abalathia's Spine"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "Dravania",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "Dravania"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "Gyr Abania",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "Gyr Abania"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "Hingashi",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "Hingashi"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "Othard",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "Othard"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "Norvrandt",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "Norvrandt"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "The Northern Empty",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "The Northern Empty"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "Ilsabard",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "Ilsabard"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "The Sea of Stars",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "The Sea of Stars"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "The World Unsundered",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "The World Unsundered"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "Yok Tural",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "Yok Tural"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "Xak Tural",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "Xak Tural"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "Unlost World",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "Unlost World"
-                                ]
-                            }
-                        }
-                    ]
-                }
+                        //},
+                        //{
+                        //    "title": "La Noscea",
+                        //    "content": {
+                        //        "type": "map",
+                        //        "maps": [
+                        //            "La Noscea"
+                        //        ]
+                        //    }
+                        //},
+                        //{
+                        //    "title": "The Black Shroud",
+                        //    "content": {
+                        //        "type": "map",
+                        //        "maps": [
+                        //            "The Black Shroud"
+                        //        ]
+                        //    }
+                        //},
+                        //{
+                        //    "title": "Thanalan",
+                        //    "content": {
+                        //        "type": "map",
+                        //        "maps": [
+                        //            "Thanalan"
+                        //        ]
+                        //    }
+                        //},
+                        //{
+                        //    "title": "Coerthas",
+                        //    "content": {
+                        //        "type": "map",
+                        //        "maps": [
+                        //            "Coerthas"
+                        //        ]
+                        //    }
+                        //},
+                        //{
+                        //    "title": "Mor Dhona",
+                        //    "content": {
+                        //        "type": "map",
+                        //        "maps": [
+                        //            "Mor Dhona"
+                        //        ]
+                        //    }
+                        //},
+                        //{
+                        //    "title": "Abalathia's Spine",
+                        //    "content": {
+                        //        "type": "map",
+                        //        "maps": [
+                        //            "Abalathia's Spine"
+                        //        ]
+                        //    }
+                        //},
+                        //{
+                        //    "title": "Dravania",
+                        //    "content": {
+                        //        "type": "map",
+                        //        "maps": [
+                        //            "Dravania"
+                        //        ]
+                        //    }
+                        //},
+                        //{
+                        //    "title": "Gyr Abania",
+                        //    "content": {
+                        //        "type": "map",
+                        //        "maps": [
+                        //            "Gyr Abania"
+                        //        ]
+                        //    }
+                        //},
+                        //{
+                        //    "title": "Hingashi",
+                        //    "content": {
+                        //        "type": "map",
+                        //        "maps": [
+                        //            "Hingashi"
+                        //        ]
+                        //    }
+                        //},
+                        //{
+                        //    "title": "Othard",
+                        //    "content": {
+                        //        "type": "map",
+                        //        "maps": [
+                        //            "Othard"
+                        //        ]
+                        //    }
+                        //},
+                        //{
+                        //    "title": "Norvrandt",
+                        //    "content": {
+                        //        "type": "map",
+                        //        "maps": [
+                        //            "Norvrandt"
+                        //        ]
+                        //    }
+                        //},
+                        //{
+                        //    "title": "The Northern Empty",
+                        //    "content": {
+                        //        "type": "map",
+                        //        "maps": [
+                        //            "The Northern Empty"
+                        //        ]
+                        //    }
+                        //},
+                        //{
+                        //    "title": "Ilsabard",
+                        //    "content": {
+                        //        "type": "map",
+                        //        "maps": [
+                        //            "Ilsabard"
+                        //        ]
+                        //    }
+                        //},
+                        //{
+                        //    "title": "The Sea of Stars",
+                        //    "content": {
+                        //        "type": "map",
+                        //        "maps": [
+                        //            "The Sea of Stars"
+                        //        ]
+                        //    }
+                        //},
+                        //{
+                        //    "title": "The World Unsundered",
+                        //    "content": {
+                        //        "type": "map",
+                        //        "maps": [
+                        //            "The World Unsundered"
+                        //        ]
+                        //    }
+                        //},
+                        //{
+                        //    "title": "Yok Tural",
+                        //    "content": {
+                        //        "type": "map",
+                        //        "maps": [
+                        //            "Yok Tural"
+                        //        ]
+                        //    }
+                        //},
+                        //{
+                        //    "title": "Xak Tural",
+                        //    "content": {
+                        //        "type": "map",
+                        //        "maps": [
+                        //            "Xak Tural"
+                        //        ]
+                        //    }
+                        //},
+                        //{
+                        //    "title": "Unlost World",
+                        //    "content": {
+                        //        "type": "map",
+                        //        "maps": [
+                        //            "Unlost World"
+                        //        ]
+                        //    }
+                        //}
+                    //]
+                //}
             },
             {
                 "title": "A Realm Reborn",
