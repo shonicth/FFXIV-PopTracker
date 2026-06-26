@@ -3,16 +3,193 @@
         "type": "tabbed",
         "tabs": [
             {
-                                                     "title": "Overworld",
-                                                    "content": {
-                                                        "type": "map",
-                                                        "maps": [
-                                                            "Overworld"
-
-                                            ]
-                                            
-                                        }   
-                                    },
+                "title": "Hydaelyn",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Hydaelyn",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Hydaelyn"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "La Noscea",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "La Noscea"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "The Black Shroud",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "The Black Shroud"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Thanalan",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Thanalan"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Coerthas",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Coerthas"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Mor Dhona",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Mor Dhona"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Abalathia's Spine",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Abalathia's Spine"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Dravania",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Dravania"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Gyr Abania",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Gyr Abania"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Hingashi",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Hingashi"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Othard",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Othard"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Norvrandt",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Norvrandt"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "The Northern Empty",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "The Northern Empty"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Ilsabard",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Ilsabard"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "The Sea of Stars",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "The Sea of Stars"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "The World Unsundered",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "The World Unsundered"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Yok Tural",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Yok Tural"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Xak Tural",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Xak Tural"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Unlost World",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Unlost World"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "???",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "???"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
             {
                 "title": "A Realm Reborn",
                 "content": {
@@ -24,544 +201,420 @@
                                 "type": "tabbed",
                                 "tabs": [
                                     {
-                                      
-                                                "title": "Limsa Lominsa Lower Decks",
-                                                    "content": {
-                                                        "type": "map",
-                                                        "maps": [
-                                                            "Limsa Lominsa Lower Decks"
-
+                                        "title": "Limsa Lominsa Lower Decks",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "Limsa Lominsa Lower Decks"
                                             ]
-                                            
                                         }
                                     },
-                                                                        {
-                                      
-                                                "title": "Limsa Lominsa Upper Decks",
-                                                    "content": {
-                                                        "type": "map",
-                                                        "maps": [
-                                                            "Limsa Lominsa Upper Decks"
-
+                                    {
+                                        "title": "Limsa Lominsa Upper Decks",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "Limsa Lominsa Upper Decks"
                                             ]
-                                            
                                         }
                                     },
-                                                                                                            {
-                                      
-                                                "title": "Middle La Noscea",
-                                                    "content": {
-                                                        "type": "map",
-                                                        "maps": [
-                                                            "Middle La Noscea"
-
+                                    {
+                                        "title": "Middle La Noscea",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "Middle La Noscea"
                                             ]
-                                            
                                         }
                                     },
-                                                                                                            {
-                                      
-                                                "title": "Lower La Noscea",
-                                                    "content": {
-                                                        "type": "map",
-                                                        "maps": [
-                                                            "Lower La Noscea"
-
+                                    {
+                                        "title": "Lower La Noscea",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "Lower La Noscea"
                                             ]
-                                            
                                         }
                                     },
-                                                                                                            {
-                                      
-                                                "title": "Eastern La Noscea",
-                                                    "content": {
-                                                        "type": "map",
-                                                        "maps": [
-                                                            "Eastern La Noscea"
-
+                                    {
+                                        "title": "Eastern La Noscea",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "Eastern La Noscea"
                                             ]
-                                            
                                         }
                                     },
-                                                                                                            {
-                                      
-                                                "title": "Western La Noscea",
-                                                    "content": {
-                                                        "type": "map",
-                                                        "maps": [
-                                                            "Western La Noscea"
-
+                                    {
+                                        "title": "Western La Noscea",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "Western La Noscea"
                                             ]
-                                            
                                         }
                                     },
-                                                                                                            {
-                                      
-                                                "title": "Upper La Noscea",
-                                                    "content": {
-                                                        "type": "map",
-                                                        "maps": [
-                                                            "Upper La Noscea"
-
+                                    {
+                                        "title": "Upper La Noscea",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "Upper La Noscea"
                                             ]
-                                            
                                         }
                                     },
-                                                                                                            {
-                                      
-                                                "title": "Outer La Noscea",
-                                                    "content": {
-                                                        "type": "map",
-                                                        "maps": [
-                                                            "Outer La Noscea"
-
+                                    {
+                                        "title": "Outer La Noscea",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "Outer La Noscea"
                                             ]
-                                            
                                         }
                                     },
-                                                                                                            {
-                                      
-                                                "title": "Mist",
-                                                    "content": {
-                                                        "type": "map",
-                                                        "maps": [
-                                                            "Mist"
-
+                                    {
+                                        "title": "Mist",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "Mist"
                                             ]
-                                            
                                         }
                                     }
-                                    
                                 ]
-                            }  
-                        },                             
+                            }
+                        },
                         {
                             "title": "The Black Shroud",
                             "content": {
                                 "type": "tabbed",
                                 "tabs": [
                                     {
-                                      
-                                                "title": "New Gridania",
-                                                    "content": {
-                                                        "type": "map",
-                                                        "maps": [
-                                                            "New Gridania"
-
+                                        "title": "New Gridania",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "New Gridania"
                                             ]
-                                            
                                         }
                                     },
-                                                                        {
-                                      
-                                                "title": "Old Gridania",
-                                                    "content": {
-                                                        "type": "map",
-                                                        "maps": [
-                                                            "Old Gridania"
-
+                                    {
+                                        "title": "Old Gridania",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "Old Gridania"
                                             ]
-                                            
                                         }
                                     },
-                                                                                                            {
-                                      
-                                                "title": "Central Shroud",
-                                                    "content": {
-                                                        "type": "map",
-                                                        "maps": [
-                                                            "Central Shroud"
-
+                                    {
+                                        "title": "Central Shroud",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "Central Shroud"
                                             ]
-                                            
                                         }
                                     },
-                                                                                                            {
-                                      
-                                                "title": "East Shroud",
-                                                    "content": {
-                                                        "type": "map",
-                                                        "maps": [
-                                                            "East Shroud"
-
+                                    {
+                                        "title": "East Shroud",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "East Shroud"
                                             ]
-                                            
                                         }
                                     },
-                                                                                                            {
-                                      
-                                                "title": "South Shroud",
-                                                    "content": {
-                                                        "type": "map",
-                                                        "maps": [
-                                                            "South Shroud"
-
+                                    {
+                                        "title": "South Shroud",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "South Shroud"
                                             ]
-                                            
                                         }
                                     },
-                                                                                                            {
-                                      
-                                                "title": "North Shroud",
-                                                    "content": {
-                                                        "type": "map",
-                                                        "maps": [
-                                                            "North Shroud"
-
+                                    {
+                                        "title": "North Shroud",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "North Shroud"
                                             ]
-                                            
                                         }
                                     },
-                                                                                                            {
-                                      
-                                                "title": "The Lavender Beds",
-                                                    "content": {
-                                                        "type": "map",
-                                                        "maps": [
-                                                            "The Lavender Beds"
-
+                                    {
+                                        "title": "The Lavender Beds",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "The Lavender Beds"
                                             ]
-                                            
                                         }
                                     }
-                                    
                                 ]
-                            }  
+                            }
                         },
                         {
-                                                        "title": "Thanalan",
+                            "title": "Thanalan",
                             "content": {
                                 "type": "tabbed",
                                 "tabs": [
                                     {
-                                      
-                                                "title": "Uldah Steps of Nald",
-                                                    "content": {
-                                                        "type": "map",
-                                                        "maps": [
-                                                            "Uldah Steps of Nald"
-
+                                        "title": "Uldah Steps of Nald",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "Uldah Steps of Nald"
                                             ]
-                                            
                                         }
                                     },
-                                                                        {
-                                      
-                                                "title": "Central Thanalan",
-                                                    "content": {
-                                                        "type": "map",
-                                                        "maps": [
-                                                            "Central Thanalan"
-
+                                    {
+                                        "title": "Central Thanalan",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "Central Thanalan"
                                             ]
-                                            
                                         }
                                     },
-                                                                                                            {
-                                      
-                                                "title": "Western Thanalan",
-                                                    "content": {
-                                                        "type": "map",
-                                                        "maps": [
-                                                            "Western Thanalan"
-
+                                    {
+                                        "title": "Western Thanalan",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "Western Thanalan"
                                             ]
-                                            
                                         }
                                     },
-                                                                                                            {
-                                      
-                                                "title": "Eastern Thanalan",
-                                                    "content": {
-                                                        "type": "map",
-                                                        "maps": [
-                                                            "Eastern Thanalan"
-
+                                    {
+                                        "title": "Eastern Thanalan",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "Eastern Thanalan"
                                             ]
-                                            
                                         }
                                     },
-                                                                                                            {
-                                      
-                                                "title": "Southern Thanalan",
-                                                    "content": {
-                                                        "type": "map",
-                                                        "maps": [
-                                                            "Southern Thanalan"
-
+                                    {
+                                        "title": "Southern Thanalan",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "Southern Thanalan"
                                             ]
-                                            
                                         }
                                     },
-                                                                                                            {
-                                      
-                                                "title": "Northern Thanalan",
-                                                    "content": {
-                                                        "type": "map",
-                                                        "maps": [
-                                                            "Northern Thanalan"
-
+                                    {
+                                        "title": "Northern Thanalan",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "Northern Thanalan"
                                             ]
-                                            
                                         }
                                     },
-                                                                                                            {
-                                      
-                                                "title": "The Goblet",
-                                                    "content": {
-                                                        "type": "map",
-                                                        "maps": [
-                                                            "The Goblet"
-
+                                    {
+                                        "title": "The Goblet",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "The Goblet"
                                             ]
-                                            
                                         }
                                     }
                                 ]
-                            }  
+                            }
                         },
                         {
-                                                "title": "Mor Dhona",
-                                                    "content": {
-                                                        "type": "map",
-                                                        "maps": [
-                                                            "Mor Dhona"
-                                                        ]
-                                                    }
+                            "title": "Mor Dhona",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Mor Dhona"
+                                ]
+                            }
                         },
                         {
-                                                     "title": "Coerthas Central Highlands",
-                                                    "content": {
-                                                        "type": "map",
-                                                        "maps": [
-                                                            "Coerthas Central Highlands"
-                                                        ]
-                                                    }
+                            "title": "Coerthas Central Highlands",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Coerthas Central Highlands"
+                                ]
+                            }
                         }
                     ]
                 }
             },
-             {
+            {
                 "title": "Heavensward",
                 "content": {
                     "type": "tabbed",
                     "tabs": [
-
-                                    {
-                                      
-                                                "title": "Foundation",
-                                                    "content": {
-                                                        "type": "map",
-                                                        "maps": [
-                                                            "Foundation"
-
-                                            ]
-                                            
-                                        }
-                                    },
-                                                                        {
-                                      
-                                                "title": "Coerthas Western Highlands",
-                                                    "content": {
-                                                        "type": "map",
-                                                        "maps": [
-                                                            "Coerthas Western Highlands"
-
-                                            ]
-                                            
-                                        }
-                                    },
-                                                                        {
-                                      
-                                                "title": "The Sea of Clouds",
-                                                    "content": {
-                                                        "type": "map",
-                                                        "maps": [
-                                                            "The Sea of Clouds"
-
-                                            ]
-                                            
-                                        }
-                                    },
-                                                                        {
-                                      
-                                                "title": "The Dravanian Forelands",
-                                                    "content": {
-                                                        "type": "map",
-                                                        "maps": [
-                                                            "The Dravanian Forelands"
-
-                                            ]
-                                            
-                                        }
-                                    },
-                                                                        {
-                                      
-                                                "title": "The Churning Mists",
-                                                    "content": {
-                                                        "type": "map",
-                                                        "maps": [
-                                                            "The Churning Mists"
-
-                                            ]
-                                            
-                                        }
-                                    },
-                                                                        {
-                                      
-                                                "title": "The Dravanian Hinterlands",
-                                                    "content": {
-                                                        "type": "map",
-                                                        "maps": [
-                                                            "The Dravanian Hinterlands"
-
-                                            ]
-                                            
-                                        }
-                                    },
-                                                                        {
-                                      
-                                                "title": "Azys Lla",
-                                                    "content": {
-                                                        "type": "map",
-                                                        "maps": [
-                                                            "Azys Lla"
-
-                                            ]
-                                            
-                                        }
-                                    }
-                                    
+                        {
+                            "title": "Foundation",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Foundation"
                                 ]
-                                }
-                            },
-                            {
+                            }
+                        },
+                        {
+                            "title": "Coerthas Western Highlands",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Coerthas Western Highlands"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "The Sea of Clouds",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "The Sea of Clouds"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "The Dravanian Forelands",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "The Dravanian Forelands"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "The Churning Mists",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "The Churning Mists"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "The Dravanian Hinterlands",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "The Dravanian Hinterlands"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Azys Lla",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Azys Lla"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
                 "title": "Stormblood",
                 "content": {
                     "type": "tabbed",
                     "tabs": [
-
+                        {
+                            "title": "Gyr Abania",
+                            "content": {
+                                "type": "tabbed",
+                                "tabs": [
                                     {
-                "title": "Gyr Abania",
-                "content": {
-                    "type": "tabbed",
-                    "tabs": [
-
-                                    {
-                                      
-                                                "title": "Rhalgrs Reach",
-                                                    "content": {
-                                                        "type": "map",
-                                                        "maps": [
-                                                            "Rhalgrs Reach"
-
+                                        "title": "Rhalgrs Reach",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "Rhalgrs Reach"
                                             ]
-                                            
                                         }
                                     },
                                     {
-                                      
-                                                "title": "The Fringes",
-                                                    "content": {
-                                                        "type": "map",
-                                                        "maps": [
-                                                            "The Fringes"
-
+                                        "title": "The Fringes",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "The Fringes"
                                             ]
-                                            
                                         }
                                     },
                                     {
-                                      
-                                                "title": "The Peaks",
-                                                    "content": {
-                                                        "type": "map",
-                                                        "maps": [
-                                                            "The Peaks"
-
+                                        "title": "The Peaks",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "The Peaks"
                                             ]
-                                            
                                         }
                                     },
                                     {
-                                      
-                                                "title": "The Lochs",
-                                                    "content": {
-                                                        "type": "map",
-                                                        "maps": [
-                                                            "The Lochs"
-
+                                        "title": "The Lochs",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "The Lochs"
                                             ]
-                                            
                                         }
                                     }
                                 ]
                             }
                         },
                         {
-                "title": "The Far East",
-                "content": {
-                    "type": "tabbed",
-                    "tabs": [
-
+                            "title": "The Far East",
+                            "content": {
+                                "type": "tabbed",
+                                "tabs": [
                                     {
-                                      
-                                                "title": "Kugane",
-                                                    "content": {
-                                                        "type": "map",
-                                                        "maps": [
-                                                            "Kugane"
-
+                                        "title": "Kugane",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "Kugane"
                                             ]
-                                            
                                         }
                                     },
                                     {
-                                      
-                                                "title": "The Ruby Sea",
-                                                    "content": {
-                                                        "type": "map",
-                                                        "maps": [
-                                                            "The Ruby Sea"
-
+                                        "title": "The Ruby Sea",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "The Ruby Sea"
                                             ]
-                                            
                                         }
                                     },
                                     {
-                                      
-                                                "title": "Yanxia",
-                                                    "content": {
-                                                        "type": "map",
-                                                        "maps": [
-                                                            "Yanxia"
-
+                                        "title": "Yanxia",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "Yanxia"
                                             ]
-                                            
                                         }
                                     },
                                     {
-                                      
-                                                "title": "The Azim Steppe",
-                                                    "content": {
-                                                        "type": "map",
-                                                        "maps": [
-                                                            "The Azim Steppe"
-
+                                        "title": "The Azim Steppe",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "The Azim Steppe"
                                             ]
-                                            
                                         }
                                     },
                                     {
-                                      
-                                                "title": "Shirogane",
-                                                    "content": {
-                                                        "type": "map",
-                                                        "maps": [
-                                                            "Shirogane"
-
+                                        "title": "Shirogane",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "Shirogane"
                                             ]
-                                            
                                         }
                                     }
                                 ]
@@ -571,313 +624,260 @@
                 }
             },
             {
-                            "title": "Shadowbringers",
+                "title": "Shadowbringers",
                 "content": {
                     "type": "tabbed",
                     "tabs": [
-
-                                    
-                                    {
-                                                     "title": "The Crystarium",
-                                                    "content": {
-                                                        "type": "map",
-                                                        "maps": [
-                                                            "The Crystarium"
-
-                                            ]
-                                            
-                                        }   
-                                    },
-                                    {
-                                                     "title": "Eulmore",
-                                                    "content": {
-                                                        "type": "map",
-                                                        "maps": [
-                                                            "Eulmore"
-
-                                            ]
-                                            
-                                        }   
-                                    },
-                                    {
-                                                     "title": "Lakeland",
-                                                    "content": {
-                                                        "type": "map",
-                                                        "maps": [
-                                                            "Lakeland"
-
-                                            ]
-                                            
-                                        }   
-                                    },
-                                    {
-                                                     "title": "Kholusia",
-                                                    "content": {
-                                                        "type": "map",
-                                                        "maps": [
-                                                            "Kholusia"
-
-                                            ]
-                                            
-                                        }   
-                                    },
-                                    {
-                                                     "title": "Amh Araeng",
-                                                    "content": {
-                                                        "type": "map",
-                                                        "maps": [
-                                                            "Amh Araeng"
-
-                                            ]
-                                            
-                                        }   
-                                    },
-                                    {
-                                                     "title": "Il Mheg",
-                                                    "content": {
-                                                        "type": "map",
-                                                        "maps": [
-                                                            "Il Mheg"
-
-                                            ]
-                                            
-                                        }   
-                                    },
-                                    {
-                                                     "title": "The Rak'tika Greatwood",
-                                                    "content": {
-                                                        "type": "map",
-                                                        "maps": [
-                                                            "The Rak'tika Greatwood"
-
-                                            ]
-                                            
-                                        }   
-                                    },
-                                    {
-                                                     "title": "The Tempest",
-                                                    "content": {
-                                                        "type": "map",
-                                                        "maps": [
-                                                            "The Tempest"
-
-                                            ]
-                                            
-                                        }   
-                                    }
+                        {
+                            "title": "The Crystarium",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "The Crystarium"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Eulmore",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Eulmore"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Lakeland",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Lakeland"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Kholusia",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Kholusia"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Amh Araeng",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Amh Araeng"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Il Mheg",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Il Mheg"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "The Rak'tika Greatwood",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "The Rak'tika Greatwood"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "The Tempest",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "The Tempest"
+                                ]
+                            }
+                        }
                     ]
                 }
             },
             {
-            "title": "Endwalker",
+                "title": "Endwalker",
                 "content": {
                     "type": "tabbed",
                     "tabs": [
-
-                                    {
-                                                     "title": "Old Sharlayan",
-                                                    "content": {
-                                                        "type": "map",
-                                                        "maps": [
-                                                            "Old Sharlayan"
-
-                                            ]
-                                            
-                                        }   
-                                    },
-                                    {
-                                                     "title": "Radz-at-Han",
-                                                    "content": {
-                                                        "type": "map",
-                                                        "maps": [
-                                                            "Radz-at-Han"
-
-                                            ]
-                                            
-                                        }   
-                                    },
-                                    {
-                                                     "title": "Labyrinthos",
-                                                    "content": {
-                                                        "type": "map",
-                                                        "maps": [
-                                                            "Labyrinthos"
-
-                                            ]
-                                            
-                                        }   
-                                    },
-                                    {
-                                                     "title": "Thavnair",
-                                                    "content": {
-                                                        "type": "map",
-                                                        "maps": [
-                                                            "Thavnair"
-
-                                            ]
-                                            
-                                        }   
-                                    },
-                                    {
-                                                     "title": "Garlemald",
-                                                    "content": {
-                                                        "type": "map",
-                                                        "maps": [
-                                                            "Garlemald"
-
-                                            ]
-                                            
-                                        }   
-                                    },
-                                    {
-                                                     "title": "Mare Lamentorum",
-                                                    "content": {
-                                                        "type": "map",
-                                                        "maps": [
-                                                            "Mare Lamentorum"
-
-                                            ]
-                                            
-                                        }   
-                                    },
-                                    {
-                                                     "title": "Elpis",
-                                                    "content": {
-                                                        "type": "map",
-                                                        "maps": [
-                                                            "Elpis"
-
-                                            ]
-                                            
-                                        }   
-                                    },
-                                    {
-                                                     "title": "Ultima Thule",
-                                                    "content": {
-                                                        "type": "map",
-                                                        "maps": [
-                                                            "Ultima Thule"
-
-                                            ]
-                                            
-                                        }   
-                                    }
+                        {
+                            "title": "Old Sharlayan",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Old Sharlayan"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Radz-at-Han",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Radz-at-Han"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Labyrinthos",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Labyrinthos"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Thavnair",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Thavnair"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Garlemald",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Garlemald"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Mare Lamentorum",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Mare Lamentorum"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Elpis",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Elpis"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Ultima Thule",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Ultima Thule"
+                                ]
+                            }
+                        }
                     ]
                 }
             },
             {
-                                            "title": "Dawntrail",
+                "title": "Dawntrail",
                 "content": {
                     "type": "tabbed",
                     "tabs": [
-
-                                    {
-                                                     "title": "Tuliyollal",
-                                                    "content": {
-                                                        "type": "map",
-                                                        "maps": [
-                                                            "Tuliyollal"
-
-                                            ]
-                                            
-                                        }   
-                                    },
-                                    {
-                                                     "title": "Solution Nine",
-                                                    "content": {
-                                                        "type": "map",
-                                                        "maps": [
-                                                            "Solution Nine"
-
-                                            ]
-                                            
-                                        }   
-                                    },
-                                    {
-                                                     "title": "Urqopacha",
-                                                    "content": {
-                                                        "type": "map",
-                                                        "maps": [
-                                                            "Urqopacha"
-
-                                            ]
-                                            
-                                        }   
-                                    },
-                                    {
-                                                     "title": "Kozamauka",
-                                                    "content": {
-                                                        "type": "map",
-                                                        "maps": [
-                                                            "Kozamauka"
-
-                                            ]
-                                            
-                                        }   
-                                    },
-                                    {
-                                                     "title": "Yak Tel",
-                                                    "content": {
-                                                        "type": "map",
-                                                        "maps": [
-                                                            "Yak Tel"
-
-                                            ]
-                                            
-                                        }   
-                                    },
-                                    {
-                                                     "title": "Shaaloani",
-                                                    "content": {
-                                                        "type": "map",
-                                                        "maps": [
-                                                            "Shaaloani"
-
-                                            ]
-                                            
-                                        }   
-                                    },
-                                    {
-                                                     "title": "Heritage Found",
-                                                    "content": {
-                                                        "type": "map",
-                                                        "maps": [
-                                                            "Heritage Found"
-
-                                            ]
-                                            
-                                        }   
-                                    },
-                                    {
-                                                     "title": "Living Memory",
-                                                    "content": {
-                                                        "type": "map",
-                                                        "maps": [
-                                                            "Living Memory"
-
-                                            ]
-                                            
-                                        }   
-                                    }
-                                    
+                        {
+                            "title": "Tuliyollal",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Tuliyollal"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Solution Nine",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Solution Nine"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Urqopacha",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Urqopacha"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Kozamauka",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Kozamauka"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Yak Tel",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Yak Tel"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Shaaloani",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Shaaloani"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Heritage Found",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Heritage Found"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Living Memory",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Living Memory"
+                                ]
+                            }
+                        }
                     ]
                 }
-            }        
+            }
         ]
     }
     //Maybe do later? idk
-//   "tabbed_maps_vertical": {
-//       "type": "tabbed",
-//       "tabs": [
-//           {
-//               "title": "Living Memory",
-//               "content": {
-//                   "type": "map",
-//                   "maps": [
-//                       "Living Memory"
-//                   ]
-//               }
-//           }
-//       ]
-//   }
+    //"tabbed_maps_vertical": {
+    //"type": "tabbed",
+    //"tabs": [
+    //{
+    //"title": "Living Memory",
+    //"content": {
+    //"type": "map",
+    //"maps": [
+    //"Living Memory"
+    //]
+    //}
+    //}
+    //]
+    //}
 }
