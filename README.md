@@ -2,9 +2,9 @@
 
 WIP
 
-Current Status(6/17/2026):
+Current Status(6/27/2026):
 
--Everything should be fully implemented wrt APWorld v0.29.0, I'm currently focusing my efforts on reviewing/organizing the fish based on in game fishing log. Currently finished with all the ShB zones for this.
+-Everything should be fully implemented wrt APWorld v0.29.0.
 
 -Assets need to be done, as well as clean up layouts. There are currently a lot of placeholders
 
@@ -18,11 +18,9 @@ ______________
 
 TODO:
 
--Review and order fish based on fish log
-
 -Make a proper readme and make a proper release
 
--Replace all the placeholder images for the items/settings
+-Replace all the placeholder images for the settings
 
 -Clean up mapping, maybe merge FATE locations
 
