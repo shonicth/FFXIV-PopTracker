@@ -44,6 +44,7 @@ function fishAccess(zone, fish)
                     return AccessibilityLevel.Normal
                 end
             end
+        end
         if allBait ~= nil then
             for _, item in ipairs(logicBait) do
                 if Tracker:ProviderCountForCode(item) > 0 then
