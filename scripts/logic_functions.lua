@@ -30,8 +30,9 @@ end
 function fishAccess(zone, fish)
     local fshLevels = Tracker:ProviderCountForCode("5fshlevels")
     local reqFshLevel = fishtable[fish].lvl
-    local logicBait = fishtable[fish].zones[zone]
-    if logicBait == nil then
+    local logicBait = fishtable[fish].logical_bait[zone] or fishtableOld[fish].zones[zone]
+    local allBait = fishtable[fish].all_bait[zone]
+    if allBait == nil then
         print(zone)
         print(fish)
         print("zone/fish is nil")
@@ -41,6 +42,12 @@ function fishAccess(zone, fish)
             for _, item in ipairs(logicBait) do
                 if Tracker:ProviderCountForCode(item) > 0 then
                     return AccessibilityLevel.Normal
+                end
+            end
+        if allBait ~= nil then
+            for _, item in ipairs(logicBait) do
+                if Tracker:ProviderCountForCode(item) > 0 then
+                    return AccessibilityLevel.SequenceBreak
                 end
             end
         end
