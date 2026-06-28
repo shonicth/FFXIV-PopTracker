@@ -46,7 +46,7 @@ function fishAccess(zone, fish)
             end
         end
         if allBait ~= nil then
-            for _, item in ipairs(logicBait) do
+            for _, item in ipairs(allBait) do
                 if Tracker:ProviderCountForCode(item) > 0 then
                     return AccessibilityLevel.SequenceBreak
                 end
