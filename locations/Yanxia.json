@@ -224,26 +224,26 @@
                             "level_cap:80, duty_difficulty_normal, $duty_visibility|The Dalriada, include_bozja"
                         ],
                         "item_count": 1
-                    },
-                    {
-                        "name": "Doman Trout",
-                        "access_rules": [
-                            "^$fishAccess|Yanxia|Doman Trout"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Doman Trout"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Kotsu Zetsu",
-                        "access_rules": [
-                            "^$fishAccess|Yanxia|Kotsu Zetsu"
-                        ],
-                        "visibility_rules": [
-                            "$fishVisibility|Kotsu Zetsu"
-                        ],
-                        "item_count": 1
+                    //},
+                    //{
+                    //    "name": "Doman Trout",
+                    //    "access_rules": [
+                    //        "^$fishAccess|The Doman Enclave|Doman Trout"
+                    //    ],
+                    //    "visibility_rules": [
+                    //        "$fishVisibility|Doman Trout"
+                    //    ],
+                    //    "item_count": 1
+                    //},
+                    //{
+                    //    "name": "Kotsu Zetsu",
+                    //    "access_rules": [
+                    //        "^$fishAccess|The Doman Enclave|Kotsu Zetsu"
+                    //    ],
+                    //    "visibility_rules": [
+                    //        "$fishVisibility|Kotsu Zetsu"
+                    //    ],
+                    //    "item_count": 1
                     }
                 ],
                 "map_locations": [
@@ -1443,7 +1443,7 @@
                     {
                         "name": "Doman Trout",
                         "access_rules": [
-                            "^$fishAccess|Yanxia|Doman Trout"
+                            "^$fishAccess|The Heron's Nest|Doman Trout"
                         ],
                         "visibility_rules": [
                             "$fishVisibility|Doman Trout"
@@ -1453,7 +1453,7 @@
                     {
                         "name": "Doman Crayfish",
                         "access_rules": [
-                            "^$fishAccess|Yanxia|Doman Crayfish"
+                            "^$fishAccess|The Heron's Nest|Doman Crayfish"
                         ],
                         "visibility_rules": [
                             "$fishVisibility|Doman Crayfish"
@@ -1463,7 +1463,7 @@
                     {
                         "name": "Maidens Heart",
                         "access_rules": [
-                            "^$fishAccess|Yanxia|Maiden's Heart"
+                            "^$fishAccess|The Heron's Nest|Maiden's Heart"
                         ],
                         "visibility_rules": [
                             "$fishVisibility|Maiden's Heart"
@@ -1473,7 +1473,7 @@
                     {
                         "name": "Pomegranate Trout",
                         "access_rules": [
-                            "^$fishAccess|Yanxia|Pomegranate Trout"
+                            "^$fishAccess|The Heron's Nest|Pomegranate Trout"
                         ],
                         "visibility_rules": [
                             "$fishVisibility|Pomegranate Trout"
@@ -1506,7 +1506,7 @@
                     {
                         "name": "River Barramundi",
                         "access_rules": [
-                            "^$fishAccess|Yanxia|River Barramundi"
+                            "^$fishAccess|The Heron's Way|River Barramundi"
                         ],
                         "visibility_rules": [
                             "$fishVisibility|River Barramundi"
@@ -1516,7 +1516,7 @@
                     {
                         "name": "Doman Trout",
                         "access_rules": [
-                            "^$fishAccess|Yanxia|Doman Trout"
+                            "^$fishAccess|The Heron's Way|Doman Trout"
                         ],
                         "visibility_rules": [
                             "$fishVisibility|Doman Trout"
@@ -1526,7 +1526,7 @@
                     {
                         "name": "Doman Crayfish",
                         "access_rules": [
-                            "^$fishAccess|Yanxia|Doman Crayfish"
+                            "^$fishAccess|The Heron's Way|Doman Crayfish"
                         ],
                         "visibility_rules": [
                             "$fishVisibility|Doman Crayfish"
@@ -1536,7 +1536,7 @@
                     {
                         "name": "Glarramundi",
                         "access_rules": [
-                            "^$fishAccess|Yanxia|Glarramundi"
+                            "^$fishAccess|The Heron's Way|Glarramundi"
                         ],
                         "visibility_rules": [
                             "$fishVisibility|Glarramundi"
@@ -1569,7 +1569,7 @@
                     {
                         "name": "Nogoi",
                         "access_rules": [
-                            "^$fishAccess|Yanxia|Nogoi"
+                            "^$fishAccess|Namai|Nogoi"
                         ],
                         "visibility_rules": [
                             "$fishVisibility|Nogoi"
@@ -1579,7 +1579,7 @@
                     {
                         "name": "Hermits End",
                         "access_rules": [
-                            "^$fishAccess|Yanxia|Hermit's End"
+                            "^$fishAccess|Namai|Hermit's End"
                         ],
                         "visibility_rules": [
                             "$fishVisibility|Hermit's End"
@@ -1612,7 +1612,7 @@
                     {
                         "name": "Yanxian Koi",
                         "access_rules": [
-                            "^$fishAccess|Yanxia|Yanxian Koi"
+                            "^$fishAccess|The One River (East)|Yanxian Koi"
                         ],
                         "visibility_rules": [
                             "$fishVisibility|Yanxian Koi"
@@ -1622,7 +1622,7 @@
                     {
                         "name": "Longhair Catfish",
                         "access_rules": [
-                            "^$fishAccess|Yanxia|Longhair Catfish"
+                            "^$fishAccess|The One River (East)|Longhair Catfish"
                         ],
                         "visibility_rules": [
                             "$fishVisibility|Longhair Catfish"
@@ -1632,7 +1632,7 @@
                     {
                         "name": "Doman Trout",
                         "access_rules": [
-                            "^$fishAccess|Yanxia|Doman Trout"
+                            "^$fishAccess|The One River (East)|Doman Trout"
                         ],
                         "visibility_rules": [
                             "$fishVisibility|Doman Trout"
@@ -1642,7 +1642,7 @@
                     {
                         "name": "Yanxian Barramundi",
                         "access_rules": [
-                            "^$fishAccess|Yanxia|Yanxian Barramundi"
+                            "^$fishAccess|The One River (East)|Yanxian Barramundi"
                         ],
                         "visibility_rules": [
                             "$fishVisibility|Yanxian Barramundi"
@@ -1652,7 +1652,7 @@
                     {
                         "name": "Kotsu Zetsu",
                         "access_rules": [
-                            "^$fishAccess|Yanxia|Kotsu Zetsu"
+                            "^$fishAccess|The One River (East)|Kotsu Zetsu"
                         ],
                         "visibility_rules": [
                             "$fishVisibility|Kotsu Zetsu"
@@ -1662,7 +1662,7 @@
                     {
                         "name": "Othardian Salmon",
                         "access_rules": [
-                            "^$fishAccess|Yanxia|Othardian Salmon"
+                            "^$fishAccess|The One River (East)|Othardian Salmon"
                         ],
                         "visibility_rules": [
                             "$fishVisibility|Othardian Salmon"
@@ -1672,7 +1672,7 @@
                     {
                         "name": "Axelrod",
                         "access_rules": [
-                            "^$fishAccess|Yanxia|Axelrod"
+                            "^$fishAccess|The One River (East)|Axelrod"
                         ],
                         "visibility_rules": [
                             "$fishVisibility|Axelrod"
@@ -1705,7 +1705,7 @@
                     {
                         "name": "Longhair Catfish",
                         "access_rules": [
-                            "^$fishAccess|Yanxia|Longhair Catfish"
+                            "^$fishAccess|The One River (West)|Longhair Catfish"
                         ],
                         "visibility_rules": [
                             "$fishVisibility|Longhair Catfish"
@@ -1715,7 +1715,7 @@
                     {
                         "name": "Doman Trout",
                         "access_rules": [
-                            "^$fishAccess|Yanxia|Doman Trout"
+                            "^$fishAccess|The One River (West)|Doman Trout"
                         ],
                         "visibility_rules": [
                             "$fishVisibility|Doman Trout"
@@ -1725,7 +1725,7 @@
                     {
                         "name": "Kotsu Zetsu",
                         "access_rules": [
-                            "^$fishAccess|Yanxia|Kotsu Zetsu"
+                            "^$fishAccess|The One River (West)|Kotsu Zetsu"
                         ],
                         "visibility_rules": [
                             "$fishVisibility|Kotsu Zetsu"
@@ -1735,7 +1735,7 @@
                     {
                         "name": "Seraphim",
                         "access_rules": [
-                            "^$fishAccess|Yanxia|Seraphim"
+                            "^$fishAccess|The One River (West)|Seraphim"
                         ],
                         "visibility_rules": [
                             "$fishVisibility|Seraphim"
@@ -1745,7 +1745,7 @@
                     {
                         "name": "Hagoromo Bijin",
                         "access_rules": [
-                            "^$fishAccess|Yanxia|Hagoromo Bijin"
+                            "^$fishAccess|The One River (West)|Hagoromo Bijin"
                         ],
                         "visibility_rules": [
                             "$fishVisibility|Hagoromo Bijin"
@@ -1778,7 +1778,7 @@
                     {
                         "name": "Doman Trout",
                         "access_rules": [
-                            "^$fishAccess|Yanxia|Doman Trout"
+                            "^$fishAccess|Plum Spring|Doman Trout"
                         ],
                         "visibility_rules": [
                             "$fishVisibility|Doman Trout"
@@ -1788,7 +1788,7 @@
                     {
                         "name": "Kotsu Zetsu",
                         "access_rules": [
-                            "^$fishAccess|Yanxia|Kotsu Zetsu"
+                            "^$fishAccess|Plum Spring|Kotsu Zetsu"
                         ],
                         "visibility_rules": [
                             "$fishVisibility|Kotsu Zetsu"
@@ -1798,7 +1798,7 @@
                     {
                         "name": "Pandamoth",
                         "access_rules": [
-                            "^$fishAccess|Yanxia|Pandamoth"
+                            "^$fishAccess|Plum Spring|Pandamoth"
                         ],
                         "visibility_rules": [
                             "$fishVisibility|Pandamoth"
@@ -1808,7 +1808,7 @@
                     {
                         "name": "Silken Koi",
                         "access_rules": [
-                            "^$fishAccess|Yanxia|Silken Koi"
+                            "^$fishAccess|Plum Spring|Silken Koi"
                         ],
                         "visibility_rules": [
                             "$fishVisibility|Silken Koi"
@@ -1818,7 +1818,7 @@
                     {
                         "name": "Plum Gazer",
                         "access_rules": [
-                            "^$fishAccess|Yanxia|Plum Gazer"
+                            "^$fishAccess|Plum Spring|Plum Gazer"
                         ],
                         "visibility_rules": [
                             "$fishVisibility|Plum Gazer"
@@ -1828,7 +1828,7 @@
                     {
                         "name": "Hagoromo Koi",
                         "access_rules": [
-                            "^$fishAccess|Yanxia|Hagoromo Koi"
+                            "^$fishAccess|Plum Spring|Hagoromo Koi"
                         ],
                         "visibility_rules": [
                             "$fishVisibility|Hagoromo Koi"
@@ -1861,7 +1861,7 @@
                     {
                         "name": "Doman Trout",
                         "access_rules": [
-                            "^$fishAccess|Yanxia|Doman Trout"
+                            "^$fishAccess|Prism Canyon|Doman Trout"
                         ],
                         "visibility_rules": [
                             "$fishVisibility|Doman Trout"
@@ -1871,7 +1871,7 @@
                     {
                         "name": "Doman Crayfish",
                         "access_rules": [
-                            "^$fishAccess|Yanxia|Doman Crayfish"
+                            "^$fishAccess|Prism Canyon|Doman Crayfish"
                         ],
                         "visibility_rules": [
                             "$fishVisibility|Doman Crayfish"
@@ -1881,7 +1881,7 @@
                     {
                         "name": "Doman Eel",
                         "access_rules": [
-                            "^$fishAccess|Yanxia|Doman Eel"
+                            "^$fishAccess|Prism Canyon|Doman Eel"
                         ],
                         "visibility_rules": [
                             "$fishVisibility|Doman Eel"
@@ -1891,7 +1891,7 @@
                     {
                         "name": "The Unraveled Bow",
                         "access_rules": [
-                            "^$fishAccess|Yanxia|The Unraveled Bow"
+                            "^$fishAccess|Prism Canyon|The Unraveled Bow"
                         ],
                         "visibility_rules": [
                             "$fishVisibility|The Unraveled Bow"
@@ -1924,7 +1924,7 @@
                     {
                         "name": "Yellow Prismfish",
                         "access_rules": [
-                            "^$fishAccess|Yanxia|Yellow Prismfish"
+                            "^$fishAccess|Prism Lake|Yellow Prismfish"
                         ],
                         "visibility_rules": [
                             "$fishVisibility|Yellow Prismfish"
@@ -1934,7 +1934,7 @@
                     {
                         "name": "Blue Prismfish",
                         "access_rules": [
-                            "^$fishAccess|Yanxia|Blue Prismfish"
+                            "^$fishAccess|Prism Lake|Blue Prismfish"
                         ],
                         "visibility_rules": [
                             "$fishVisibility|Blue Prismfish"
@@ -1944,7 +1944,7 @@
                     {
                         "name": "Violet Prismfish",
                         "access_rules": [
-                            "^$fishAccess|Yanxia|Violet Prismfish"
+                            "^$fishAccess|Prism Lake|Violet Prismfish"
                         ],
                         "visibility_rules": [
                             "$fishVisibility|Violet Prismfish"
@@ -1954,7 +1954,7 @@
                     {
                         "name": "Red Prismfish",
                         "access_rules": [
-                            "^$fishAccess|Yanxia|Red Prismfish"
+                            "^$fishAccess|Prism Lake|Red Prismfish"
                         ],
                         "visibility_rules": [
                             "$fishVisibility|Red Prismfish"
@@ -1964,7 +1964,7 @@
                     {
                         "name": "White Goldfish",
                         "access_rules": [
-                            "^$fishAccess|Yanxia|White Goldfish"
+                            "^$fishAccess|Prism Lake|White Goldfish"
                         ],
                         "visibility_rules": [
                             "$fishVisibility|White Goldfish"
@@ -1974,7 +1974,7 @@
                     {
                         "name": "Firelight Goldfish",
                         "access_rules": [
-                            "^$fishAccess|Yanxia|Firelight Goldfish"
+                            "^$fishAccess|Prism Lake|Firelight Goldfish"
                         ],
                         "visibility_rules": [
                             "$fishVisibility|Firelight Goldfish"
@@ -1984,7 +1984,7 @@
                     {
                         "name": "Indigo Prismfish",
                         "access_rules": [
-                            "^$fishAccess|Yanxia|Indigo Prismfish"
+                            "^$fishAccess|Prism Lake|Indigo Prismfish"
                         ],
                         "visibility_rules": [
                             "$fishVisibility|Indigo Prismfish"
@@ -1994,7 +1994,7 @@
                     {
                         "name": "Green Prismfish",
                         "access_rules": [
-                            "^$fishAccess|Yanxia|Green Prismfish"
+                            "^$fishAccess|Prism Lake|Green Prismfish"
                         ],
                         "visibility_rules": [
                             "$fishVisibility|Green Prismfish"
@@ -2004,7 +2004,7 @@
                     {
                         "name": "Warden of the Seven Hues",
                         "access_rules": [
-                            "^$fishAccess|Yanxia|Warden of the Seven Hues"
+                            "^$fishAccess|Prism Lake|Warden of the Seven Hues"
                         ],
                         "visibility_rules": [
                             "$fishVisibility|Warden of the Seven Hues"
@@ -2037,7 +2037,7 @@
                     {
                         "name": "Doman Trout",
                         "access_rules": [
-                            "^$fishAccess|Yanxia|Doman Trout"
+                            "^$fishAccess|Mercantile Docks|Doman Trout"
                         ],
                         "visibility_rules": [
                             "$fishVisibility|Doman Trout"
@@ -2047,7 +2047,7 @@
                     {
                         "name": "Doman Grass Carp",
                         "access_rules": [
-                            "^$fishAccess|Yanxia|Doman Grass Carp"
+                            "^$fishAccess|Mercantile Docks|Doman Grass Carp"
                         ],
                         "visibility_rules": [
                             "$fishVisibility|Doman Grass Carp"
@@ -2057,7 +2057,7 @@
                     {
                         "name": "Lordly Salmon",
                         "access_rules": [
-                            "^$fishAccess|Yanxia|Lordly Salmon"
+                            "^$fishAccess|Mercantile Docks|Lordly Salmon"
                         ],
                         "visibility_rules": [
                             "$fishVisibility|Lordly Salmon"
@@ -2067,7 +2067,7 @@
                     {
                         "name": "Kotsu Zetsu",
                         "access_rules": [
-                            "^$fishAccess|Yanxia|Kotsu Zetsu"
+                            "^$fishAccess|Mercantile Docks|Kotsu Zetsu"
                         ],
                         "visibility_rules": [
                             "$fishVisibility|Kotsu Zetsu"
@@ -2077,7 +2077,7 @@
                     {
                         "name": "White Clam",
                         "access_rules": [
-                            "^$fishAccess|Yanxia|White Clam"
+                            "^$fishAccess|Mercantile Docks|White Clam"
                         ],
                         "visibility_rules": [
                             "$fishVisibility|White Clam"
@@ -2087,7 +2087,7 @@
                     {
                         "name": "Suiten Ippeki",
                         "access_rules": [
-                            "^$fishAccess|Yanxia|Suiten Ippeki"
+                            "^$fishAccess|Mercantile Docks|Suiten Ippeki"
                         ],
                         "visibility_rules": [
                             "$fishVisibility|Suiten Ippeki"
@@ -2117,7 +2117,7 @@
                     {
                         "name": "Doman Trout",
                         "access_rules": [
-                            "^$fishAccess|Yanxia|Doman Trout"
+                            "^$fishAccess|Doma Castle|Doman Trout"
                         ],
                         "visibility_rules": [
                             "$fishVisibility|Doman Trout"
@@ -2127,7 +2127,7 @@
                     {
                         "name": "Samurai Fish",
                         "access_rules": [
-                            "^$fishAccess|Yanxia|Samurai Fish"
+                            "^$fishAccess|Doma Castle|Samurai Fish"
                         ],
                         "visibility_rules": [
                             "$fishVisibility|Samurai Fish"
@@ -2137,7 +2137,7 @@
                     {
                         "name": "Blank Oscar",
                         "access_rules": [
-                            "^$fishAccess|Yanxia|Blank Oscar"
+                            "^$fishAccess|Doma Castle|Blank Oscar"
                         ],
                         "visibility_rules": [
                             "$fishVisibility|Blank Oscar"
@@ -2147,7 +2147,7 @@
                     {
                         "name": "Dragonfish",
                         "access_rules": [
-                            "^$fishAccess|Yanxia|Dragonfish"
+                            "^$fishAccess|Doma Castle|Dragonfish"
                         ],
                         "visibility_rules": [
                             "$fishVisibility|Dragonfish"
@@ -2157,7 +2157,7 @@
                     {
                         "name": "Raitonfish",
                         "access_rules": [
-                            "^$fishAccess|Yanxia|Raitonfish"
+                            "^$fishAccess|Doma Castle|Raitonfish"
                         ],
                         "visibility_rules": [
                             "$fishVisibility|Raitonfish"
@@ -2167,7 +2167,7 @@
                     {
                         "name": "Bokuden",
                         "access_rules": [
-                            "^$fishAccess|Yanxia|Bokuden"
+                            "^$fishAccess|Doma Castle|Bokuden"
                         ],
                         "visibility_rules": [
                             "$fishVisibility|Bokuden"
