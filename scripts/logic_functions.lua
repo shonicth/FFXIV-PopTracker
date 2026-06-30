@@ -32,7 +32,7 @@ function fishAccess(zone, fish)
     local reqFshLevel = fishtable[fish].lvl
     local logicalIntuition = fishtable[fish].logical_intuition[zone]
     local intuitionBait = fishtable[fish].intuition_bait[zone]
-    local logicBait = fishtable[fish].logical_bait[zone] or fishtableOld[fish].zones[zone]
+    local logicBait = fishtable[fish].logical_bait[zone]
     local allBait = fishtable[fish].all_bait[zone]
     if fshLevels >= ((reqFshLevel // 5) * 5)  then
         if logicalIntuition ~= nil then
