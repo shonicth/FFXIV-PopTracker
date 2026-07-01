@@ -562,11 +562,11 @@ def apply_bait() -> None:
                 #    print("if bait not in bait_data and not info.get('mooch')")
                 
             if baits:
-                fish['all_bait'][hole] = baits
                 fish['logical_bait'].setdefault(hole, []).append(teamcraft_optimalbait)
+                fish['all_bait'][hole] = baits
                 #sort and clean
-                fish['all_bait'][hole] = sorted(set(fish['all_bait'][hole]))  
                 fish['logical_bait'][hole] = sorted(set(fish['logical_bait'][hole]))
+                fish['all_bait'][hole] = sorted(set(fish['all_bait'][hole]))  
                 #Merge zones, comment this out for poptracker scraper
                 #if zone_name == 'Limsa Lominsa Lower Decks':
                 #    fish['all_bait']['Limsa Lominsa'] = combine_lists(fish['all_bait'].get('Limsa Lominsa', []), fish['all_bait']['Limsa Lominsa Lower Decks'])
