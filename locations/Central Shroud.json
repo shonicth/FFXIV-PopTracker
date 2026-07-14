@@ -1338,6 +1338,77 @@
                         "shape": "rect"
                     }
                 ]
+            },
+            {
+                "name": "Hunts",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$leveling:50"
+                ],
+                "visibility_rules": [
+                    "level_cap:50"
+                ],
+                "sections": [
+                    {
+                        "name": "Hunt White Joker",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "include_hunts_B"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Hunt Forneus",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "include_hunts_A"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Hunt Laideronnette",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "include_hunts_S"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Central Shroud",
+                        "x": 1390,
+                        "y": 128,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Bentbranch Meadows Aetheryte",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "name": "Attune Bentbranch Meadows",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Central Shroud",
+                        "x": 1041,
+                        "y": 1062,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
             }
         ]
     }

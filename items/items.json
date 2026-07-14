@@ -1568,6 +1568,22 @@
         "codes": "gangosaccess"
     },
     {
+        "name": "Zadnor Access",
+        "type": "toggle",
+        "img": "images/items/gangos.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "zadnoraccess"
+    },
+    {
+        "name": "Phantom Village Access",
+        "type": "toggle",
+        "img": "images/items/gangos.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "phantovillageaccess"
+    },
+    {
         "name": "5 WHM Levels",
         "type": "consumable",
         "img": "images/items/5whmlevels.png",
@@ -1831,6 +1847,20 @@
         "overlay_font_size": 14,
         "overlay_background": "#000000",
         "codes": "5pctlevels"
+    },
+    {
+        "name": "filler",
+        "type": "consumable",
+        "img": "images/items/5pctlevels.png",
+        "min_quantity": 0,
+        "max_quantity": 999999,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_align": "right",
+        "overlay_font_size": 14,
+        "overlay_background": "#000000",
+        "codes": "filler"
     },
     {
         "name": "update",

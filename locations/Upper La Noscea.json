@@ -500,12 +500,8 @@
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
-                "access_rules": [
-                    
-                ],
-                "visibility_rules": [
-                    
-                ],
+                "access_rules": [],
+                "visibility_rules": [],
                 "sections": [
                     {
                         "name": "River Crab",
@@ -623,12 +619,8 @@
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
-                "access_rules": [
-                    
-                ],
-                "visibility_rules": [
-                    
-                ],
+                "access_rules": [],
+                "visibility_rules": [],
                 "sections": [
                     {
                         "name": "Crimson Crayfish",
@@ -746,12 +738,8 @@
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
-                "access_rules": [
-                    
-                ],
-                "visibility_rules": [
-                    
-                ],
+                "access_rules": [],
+                "visibility_rules": [],
                 "sections": [
                     {
                         "name": "Crimson Crayfish",
@@ -829,12 +817,8 @@
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
-                "access_rules": [
-                    
-                ],
-                "visibility_rules": [
-                    
-                ],
+                "access_rules": [],
+                "visibility_rules": [],
                 "sections": [
                     {
                         "name": "Jade Eel",
@@ -942,6 +926,77 @@
                         "map": "Upper La Noscea",
                         "x": 1335,
                         "y": 1083,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Hunts",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$leveling:50"
+                ],
+                "visibility_rules": [
+                    "level_cap:50"
+                ],
+                "sections": [
+                    {
+                        "name": "Hunt Myradrosh",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "include_hunts_B"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Hunt Marberry",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "include_hunts_A"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Hunt Nandi",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "include_hunts_S"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Upper La Noscea",
+                        "x": 1349,
+                        "y": 140,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Camp Bronze Lake Aetheryte",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "name": "Attune Camp Bronze Lake",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Upper La Noscea",
+                        "x": 1460,
+                        "y": 1118,
                         "size": 40,
                         "shape": "rect"
                     }

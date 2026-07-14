@@ -802,10 +802,8 @@
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
-                "access_rules": [
-                ],
-                "visibility_rules": [
-                ],
+                "access_rules": [],
+                "visibility_rules": [],
                 "sections": [
                     {
                         "name": "Shadow Crab",
@@ -893,10 +891,8 @@
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
-                "access_rules": [
-                ],
-                "visibility_rules": [
-                ],
+                "access_rules": [],
+                "visibility_rules": [],
                 "sections": [
                     {
                         "name": "Shadow Crab",
@@ -984,10 +980,8 @@
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
-                "access_rules": [
-                ],
-                "visibility_rules": [
-                ],
+                "access_rules": [],
+                "visibility_rules": [],
                 "sections": [
                     {
                         "name": "Garik Crab",
@@ -1002,7 +996,7 @@
                     {
                         "name": "Desert Dustfish",
                         "access_rules": [
-                           "^$fishAccess|The Hills of Amber|Desert Dustfish"
+                            "^$fishAccess|The Hills of Amber|Desert Dustfish"
                         ],
                         "visibility_rules": [
                             "$fishVisibility|Desert Dustfish"
@@ -1065,6 +1059,141 @@
                         "map": "Amh Araeng",
                         "x": 758,
                         "y": 672,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Hunts",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$leveling:80"
+                ],
+                "visibility_rules": [
+                    "level_cap:80"
+                ],
+                "sections": [
+                    {
+                        "name": "Hunt Worm of the Well",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "include_hunts_B"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Hunt Juggler Hecatomb",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "include_hunts_B"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Hunt Maliktender",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "include_hunts_A"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Hunt Sugaar",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "include_hunts_A"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Hunt Tarchia",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "include_hunts_S"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Amh Araeng",
+                        "x": 1354,
+                        "y": 141,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Mord Souq Aetheryte",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "name": "Attune Mord Souq",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Amh Araeng",
+                        "x": 1275,
+                        "y": 808,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Twine Aetheryte",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "name": "Attune Twine",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Amh Araeng",
+                        "x": 513,
+                        "y": 814,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "The Inn at Journey's Head Aetheryte",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "name": "Attune The Inn at Journey's Head",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Amh Araeng",
+                        "x": 1422,
+                        "y": 1334,
                         "size": 40,
                         "shape": "rect"
                     }

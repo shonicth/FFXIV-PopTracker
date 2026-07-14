@@ -1008,12 +1008,8 @@
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
-                "access_rules": [
-                    
-                ],
-                "visibility_rules": [
-                    
-                ],
+                "access_rules": [],
+                "visibility_rules": [],
                 "sections": [
                     {
                         "name": "Copperfish",
@@ -1091,12 +1087,8 @@
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
-                "access_rules": [
-                    
-                ],
-                "visibility_rules": [
-                    
-                ],
+                "access_rules": [],
+                "visibility_rules": [],
                 "sections": [
                     {
                         "name": "Moat Carp",
@@ -1194,12 +1186,8 @@
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
-                "access_rules": [
-                    
-                ],
-                "visibility_rules": [
-                    
-                ],
+                "access_rules": [],
+                "visibility_rules": [],
                 "sections": [
                     {
                         "name": "Copperfish",
@@ -1297,12 +1285,8 @@
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
-                "access_rules": [
-                    
-                ],
-                "visibility_rules": [
-                    
-                ],
+                "access_rules": [],
+                "visibility_rules": [],
                 "sections": [
                     {
                         "name": "Sandfish",
@@ -1410,12 +1394,8 @@
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
-                "access_rules": [
-                    
-                ],
-                "visibility_rules": [
-                    
-                ],
+                "access_rules": [],
+                "visibility_rules": [],
                 "sections": [
                     {
                         "name": "Sand Bream",
@@ -1503,6 +1483,101 @@
                         "map": "Southern Thanalan",
                         "x": 1307,
                         "y": 1792,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Hunts",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$leveling:50"
+                ],
+                "visibility_rules": [
+                    "level_cap:50"
+                ],
+                "sections": [
+                    {
+                        "name": "Hunt Albin the Ashen",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "include_hunts_B"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Hunt Zanig'oh",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "include_hunts_A"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Hunt Nunyunuwi",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "include_hunts_S"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Southern Thanalan",
+                        "x": 1331,
+                        "y": 130,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Little Ala Mhigo Aetheryte",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "name": "Attune Little Ala Mhigo",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Southern Thanalan",
+                        "x": 868,
+                        "y": 608,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Forgotten Springs Aetheryte",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "name": "Attune Forgotten Springs",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Southern Thanalan",
+                        "x": 698,
+                        "y": 1430,
                         "size": 40,
                         "shape": "rect"
                     }

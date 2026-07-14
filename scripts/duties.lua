@@ -95,6 +95,7 @@ dutylist["Cloud Nine"] = "Cloud Nine"
 dutylist["The Clockwork Castletown"] = "The Clockwork Castletown"
 dutylist["The Red Sands"] = "The Red Sands"
 dutylist["The Bayside Battleground"] = "The Bayside Battleground"
+dutylist["Archeia Harmonias"] = "Archeia Harmonias"
 dutylist["The Dusk Vigil"] = "The Dusk Vigil"
 dutylist["Sohm Al"] = "Sohm Al"
 dutylist["The Aery"] = "The Aery"
@@ -268,10 +269,40 @@ dutylist["Eden's Promise Eternity (Savage)"] = "Eden's Promise: Eternity (Savage
 dutylist["The Copied Factory"] = "The Copied Factory"
 dutylist["The Puppets' Bunker"] = "The Puppets' Bunker"
 dutylist["The Tower at Paradigm's Breach"] = "The Tower at Paradigm's Breach"
-dutylist["Castrum Lacus Litore"] = "Castrum Lacus Litore"
+dutylist["The Battle of Castrum Lacus Litore"] = "The Battle of Castrum Lacus Litore"
 dutylist["Delubrum Reginae"] = "Delubrum Reginae"
 dutylist["The Dalriada"] = "The Dalriada"
-dutylist["EW"] = "EW"
+dutylist["Kill It with Fire"] = "Kill It with Fire"
+dutylist["The Baying of the Hound(s)"] = "The Baying of the Hound(s)"
+dutylist["Vigil for the Lost"] = "Vigil for the Lost"
+dutylist["Aces High"] = "Aces High"
+dutylist["The Shadow of Death's Hand"] = "The Shadow of Death's Hand"
+dutylist["The Final Furlong"] = "The Final Furlong"
+dutylist["The Hunt for Red Choctober"] = "The Hunt for Red Choctober"
+dutylist["Beast of Man"] = "Beast of Man"
+dutylist["The Fires of War"] = "The Fires of War"
+dutylist["Patriot Games"] = "Patriot Games"
+dutylist["Trampled under Hoof"] = "Trampled under Hoof"
+dutylist["And the Flames Went Higher"] = "And the Flames Went Higher"
+dutylist["Metal Fox Chaos"] = "Metal Fox Chaos"
+dutylist["Rise of the Robots"] = "Rise of the Robots"
+dutylist["Where Strode the Behemoth"] = "Where Strode the Behemoth"
+dutylist["On Serpents' Wings"] = "On Serpents' Wings"
+dutylist["Feeling the Burn"] = "Feeling the Burn"
+dutylist["The Broken Blade"] = "The Broken Blade"
+dutylist["From Beyond the Grave"] = "From Beyond the Grave"
+dutylist["With Diremite and Main"] = "With Diremite and Main"
+dutylist["Here Comes the Cavalry"] = "Here Comes the Cavalry"
+dutylist["Head of the Snake"] = "Head of the Snake"
+dutylist["There Would Be Blood"] = "There Would Be Blood"
+dutylist["Never Cry Wolf"] = "Never Cry Wolf"
+dutylist["Time to Burn"] = "Time to Burn"
+dutylist["Lean, Mean, Magitek Machines"] = "Lean, Mean, Magitek Machines"
+dutylist["Worn to a Shadow"] = "Worn to a Shadow"
+dutylist["A Familiar Face"] = "A Familiar Face"
+dutylist["Looks to Die For"] = "Looks to Die For"
+dutylist["Taking the Lyon's Share"] = "Taking the Lyon's Share"
+
 dutylist["The Tower of Zot"] = "The Tower of Zot"
 dutylist["The Tower of Babil"] = "The Tower of Babil"
 dutylist["Vanaspati"] = "Vanaspati"
@@ -387,3 +418,101 @@ dutylist["AAC Heavyweight M4 (Savage)"] = "AAC Heavyweight M4 (Savage)"
 dutylist["Jeuno The First Walk"] = "Jeuno: The First Walk"
 dutylist["San d'Oria The Second Walk"] = "San d'Oria: The Second Walk"
 dutylist["Windurst The Third Walk"] = "Windurst: The Third Walk"
+dutylist["Scourge of the Mind"] = "Scourge of the Mind"
+dutylist["The Black Regiment"] = "The Black Regiment"
+dutylist["The Unbridled"] = "The Unbridled"
+dutylist["Crawling Death"] = "Crawling Death"
+dutylist["Calamity Bound"] = "Calamity Bound"
+dutylist["Trial by Claw"] = "Trial by Claw"
+dutylist["From Times Bygone"] = "From Times Bygone"
+dutylist["Company of Stone"] = "Company of Stone"
+dutylist["Shark Attack"] = "Shark Attack"
+dutylist["On the Hunt"] = "On the Hunt"
+dutylist["With Extreme Prejudice"] = "With Extreme Prejudice"
+dutylist["Noise Complaint"] = "Noise Complaint"
+dutylist["Cursed Concern"] = "Cursed Concern"
+dutylist["Eternal Watch"] = "Eternal Watch"
+dutylist["Flame of Dusk"] = "Flame of Dusk"
+dutylist["The Forked Tower: Blood"] = "The Forked Tower: Blood"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

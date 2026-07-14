@@ -724,12 +724,8 @@
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
-                "access_rules": [
-                    
-                ],
-                "visibility_rules": [
-                    
-                ],
+                "access_rules": [],
+                "visibility_rules": [],
                 "sections": [
                     {
                         "name": "Bone Crayfish",
@@ -827,12 +823,8 @@
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
-                "access_rules": [
-                    
-                ],
-                "visibility_rules": [
-                    
-                ],
+                "access_rules": [],
+                "visibility_rules": [],
                 "sections": [
                     {
                         "name": "Crayfish",
@@ -930,12 +922,8 @@
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
-                "access_rules": [
-                    
-                ],
-                "visibility_rules": [
-                    
-                ],
+                "access_rules": [],
+                "visibility_rules": [],
                 "sections": [
                     {
                         "name": "Lominsan Anchovy",
@@ -1023,12 +1011,8 @@
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
-                "access_rules": [
-                    
-                ],
-                "visibility_rules": [
-                    
-                ],
+                "access_rules": [],
+                "visibility_rules": [],
                 "sections": [
                     {
                         "name": "Lominsan Anchovy",
@@ -1126,12 +1110,8 @@
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
-                "access_rules": [
-                    
-                ],
-                "visibility_rules": [
-                    
-                ],
+                "access_rules": [],
+                "visibility_rules": [],
                 "sections": [
                     {
                         "name": "Lominsan Anchovy",
@@ -1239,12 +1219,8 @@
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
-                "access_rules": [
-                    
-                ],
-                "visibility_rules": [
-                    
-                ],
+                "access_rules": [],
+                "visibility_rules": [],
                 "sections": [
                     {
                         "name": "Merlthor Goby",
@@ -1362,12 +1338,8 @@
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
-                "access_rules": [
-                    
-                ],
-                "visibility_rules": [
-                    
-                ],
+                "access_rules": [],
+                "visibility_rules": [],
                 "sections": [
                     {
                         "name": "Blindfish",
@@ -1445,12 +1417,8 @@
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
-                "access_rules": [
-                    
-                ],
-                "visibility_rules": [
-                    
-                ],
+                "access_rules": [],
+                "visibility_rules": [],
                 "sections": [
                     {
                         "name": "Grip Killifish",
@@ -1538,6 +1506,77 @@
                         "map": "Western Thanalan",
                         "x": 680,
                         "y": 252,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Hunts",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$leveling:50"
+                ],
+                "visibility_rules": [
+                    "level_cap:50"
+                ],
+                "sections": [
+                    {
+                        "name": "Hunt Sewer Syrup",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "include_hunts_B"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Hunt Alectryon",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "include_hunts_A"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Hunt Zona Seeker",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "include_hunts_S"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Western Thanalan",
+                        "x": 1332,
+                        "y": 131,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Horizon Aetheryte",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "name": "Attune Horizon",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Western Thanalan",
+                        "x": 1093,
+                        "y": 796,
                         "size": 40,
                         "shape": "rect"
                     }

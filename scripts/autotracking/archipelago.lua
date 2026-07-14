@@ -59,6 +59,13 @@ function dump_table(o, depth)
     end
 end
 
+function contains(arr, find)
+  for _, v in pairs(arr) do
+    if v == find then return true end
+  end
+  return false
+end
+
 function LocationHandler(location)
     if MANUAL_CHECKED then
         local custom_storage_item = Tracker:FindObjectForCode("manual_location_storage").ItemState
@@ -181,6 +188,8 @@ function processYaml(slot_data)
         Tracker:FindObjectForCode("fatesanity").Active = slot_data["fatesanity"] == 1
         Tracker:FindObjectForCode("level_cap").AcquiredCount = slot_data["level_cap"]
         Tracker:FindObjectForCode("include_bozja").Active = slot_data["include_bozja"] == 1
+        Tracker:FindObjectForCode("include_duels").Active = slot_data["include_duels"] == 1
+        Tracker:FindObjectForCode("include_occult_crescent").Active = slot_data["include_occult_crescent"] == 1
         Tracker:FindObjectForCode("include_ocean_fishing").Active = slot_data["include_ocean_fishing"] == 1
         Tracker:FindObjectForCode("fishsanity").CurrentStage = slot_data["fishsanity"]
         Tracker:FindObjectForCode("include_unreasonable_fates").Active = slot_data["include_unreasonable_fates"] == 1
@@ -191,6 +200,9 @@ function processYaml(slot_data)
         Tracker:FindObjectForCode("extra_dungeon_checks").AcquiredCount = slot_data["extra_dungeon_checks"]
         Tracker:FindObjectForCode("include_guildhests").Active = slot_data["include_guildhests"] == 1
         Tracker:FindObjectForCode("mcguffins_needed").AcquiredCount = slot_data["mcguffins_needed"]
+        Tracker:FindObjectForCode("include_hunts_B").Active = contains(slot_data["huntsanity"], 'B')
+        Tracker:FindObjectForCode("include_hunts_A").Active = contains(slot_data["huntsanity"], 'A')
+        Tracker:FindObjectForCode("include_hunts_S").Active = contains(slot_data["huntsanity"], 'S')
         local goal = slot_data["goal"]
         Tracker:FindObjectForCode("goal").CurrentStage = goal or 0
 
@@ -256,6 +268,10 @@ function checkCount()
      Tracker:FindObjectForCode('@Shaaloani/FATEs/FATEs').AvailableChestCount = fates_per_zone
      Tracker:FindObjectForCode('@Heritage Found/FATEs/FATEs').AvailableChestCount = fates_per_zone
      Tracker:FindObjectForCode('@Living Memory/FATEs/FATEs').AvailableChestCount = fates_per_zone
+     --TODO: put in its own maps
+     Tracker:FindObjectForCode('@Yanxia/The Doman Enclave/The Bozjan Southern Front FATEs').AvailableChestCount = fates_per_zone
+     Tracker:FindObjectForCode('@Yanxia/The Doman Enclave/Zadnor FATEs').AvailableChestCount = fates_per_zone
+     Tracker:FindObjectForCode('@Tuliyollal/OC/The Occult Crescent: South Horn FATEs').AvailableChestCount = fates_per_zone
      
      --Dungeon count
      local extra_dungeon_checks = Tracker:ProviderCountForCode("extra_dungeon_checks") +1
@@ -610,6 +626,7 @@ function UpdateHints(locationID, status) -->
     if Highlight then
          --print(locationID, status)
         local location_table = LOCATION_MAPPING[locationID]
+        print(location_table)
         for _, location in ipairs(location_table) do
             if location:sub(1, 1) == "@" then
                 local obj = Tracker:FindObjectForCode(location)

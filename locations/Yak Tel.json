@@ -587,9 +587,7 @@
                 "access_rules": [
                     " "
                 ],
-                "visibility_rules": [
-                    
-                ],
+                "visibility_rules": [],
                 "sections": [
                     {
                         "name": "Shimmering Shadow",
@@ -631,16 +629,16 @@
                         ],
                         "item_count": 1
                     },
-                    //{
-                    //    "name": "Ilyon Asoh Cichlid",
-                    //    "access_rules": [
-                    //        "^$fishAccess|Xd'aa Talat Tsoly|Ilyon Asoh Cichlid"
-                    //    ],
-                    //    "visibility_rules": [
-                    //        "$fishVisibility|Ilyon Asoh Cichlid"
-                    //    ],
-                    //    "item_count": 1
-                    //}
+                    {
+                        "name": "Ilyon Asoh Cichlid",
+                        "access_rules": [
+                            "^$fishAccess|Xd'aa Talat Tsoly|Ilyon Asoh Cichlid"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Ilyon Asoh Cichlid"
+                        ],
+                        "item_count": 1
+                    }
                 ],
                 "map_locations": [
                     {
@@ -660,9 +658,7 @@
                 "access_rules": [
                     " "
                 ],
-                "visibility_rules": [
-                    
-                ],
+                "visibility_rules": [],
                 "sections": [
                     {
                         "name": "Shimmering Shadow",
@@ -733,9 +729,7 @@
                 "access_rules": [
                     " "
                 ],
-                "visibility_rules": [
-                    
-                ],
+                "visibility_rules": [],
                 "sections": [
                     {
                         "name": "Shimmering Shadow",
@@ -816,9 +810,7 @@
                 "access_rules": [
                     " "
                 ],
-                "visibility_rules": [
-                    
-                ],
+                "visibility_rules": [],
                 "sections": [
                     {
                         "name": "Tsoly Mu",
@@ -880,7 +872,6 @@
                         ],
                         "item_count": 1
                     }
-
                 ],
                 "map_locations": [
                     {
@@ -900,9 +891,7 @@
                 "access_rules": [
                     " "
                 ],
-                "visibility_rules": [
-                    
-                ],
+                "visibility_rules": [],
                 "sections": [
                     {
                         "name": "Cloud-eye Carp",
@@ -973,9 +962,7 @@
                 "access_rules": [
                     " "
                 ],
-                "visibility_rules": [
-                    
-                ],
+                "visibility_rules": [],
                 "sections": [
                     {
                         "name": "Mudfish",
@@ -1046,9 +1033,7 @@
                 "access_rules": [
                     " "
                 ],
-                "visibility_rules": [
-                    
-                ],
+                "visibility_rules": [],
                 "sections": [
                     {
                         "name": "Mudfish",
@@ -1119,9 +1104,7 @@
                 "access_rules": [
                     " "
                 ],
-                "visibility_rules": [
-                    
-                ],
+                "visibility_rules": [],
                 "sections": [
                     {
                         "name": "Mudfish",
@@ -1172,16 +1155,16 @@
                             "$fishVisibility|Flawless Saucer"
                         ],
                         "item_count": 1
-                    //},
-                    //{
-                    //    "name": "Moonmarking Saucer",
-                    //    "access_rules": [
-                    //        "^$fishAccess|Cenote Jayunja|Moonmarking Saucer"
-                    //    ],
-                    //    "visibility_rules": [
-                    //        "$fishVisibility|Moonmarking Saucer"
-                    //    ],
-                    //    "item_count": 1
+                    },
+                    {
+                        "name": "Moonmarking Saucer",
+                        "access_rules": [
+                            "^$fishAccess|Cenote Jayunja|Moonmarking Saucer"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Moonmarking Saucer"
+                        ],
+                        "item_count": 1
                     }
                 ],
                 "map_locations": [
@@ -1202,9 +1185,7 @@
                 "access_rules": [
                     " "
                 ],
-                "visibility_rules": [
-                    
-                ],
+                "visibility_rules": [],
                 "sections": [
                     {
                         "name": "Mudfish",
@@ -1245,23 +1226,23 @@
                             "$fishVisibility|Twig Catfish"
                         ],
                         "item_count": 1
-                    //},
-                    //{
-                    //    "name": "Autarchs Supper",
-                    //    "access_rules": [
-                    //        "^$fishAccess|Sapsweet Cenote|Autarch's Supper"
-                    //    ],
-                    //    "visibility_rules": [
-                    //        "$fishVisibility|Autarch's Supper"
-                    //    ],
-                    //    "item_count": 1
+                    },
+                    {
+                        "name": "Autarchs Supper",
+                        "access_rules": [
+                            "^$fishAccess|Sapsweet Cenote|Autarch's Supper"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Autarch's Supper"
+                        ],
+                        "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "Yak Tel",
-                        "x": 1720,
-                        "y": 1570,
+                        "x": 1731,
+                        "y": 1694,
                         "size": 40,
                         "shape": "rect"
                     }
@@ -1275,9 +1256,7 @@
                 "access_rules": [
                     " "
                 ],
-                "visibility_rules": [
-                    
-                ],
+                "visibility_rules": [],
                 "sections": [
                     {
                         "name": "Mudfish",
@@ -1328,16 +1307,16 @@
                             "$fishVisibility|Cenote Oyster"
                         ],
                         "item_count": 1
-                    //},
-                    //{
-                    //    "name": "Bitterbark Caiman",
-                    //    "access_rules": [
-                    //        "^$fishAccess|Bitterbark Cenote|Bitterbark Caiman"
-                    //    ],
-                    //    "visibility_rules": [
-                    //        "$fishVisibility|Bitterbark Caiman"
-                    //    ],
-                    //    "item_count": 1
+                    },
+                    {
+                        "name": "Bitterbark Caiman",
+                        "access_rules": [
+                            "^$fishAccess|Bitterbark Cenote|Bitterbark Caiman"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Bitterbark Caiman"
+                        ],
+                        "item_count": 1
                     }
                 ],
                 "map_locations": [
@@ -1358,9 +1337,7 @@
                 "access_rules": [
                     " "
                 ],
-                "visibility_rules": [
-                    
-                ],
+                "visibility_rules": [],
                 "sections": [
                     {
                         "name": "Utohmu Tiika",
@@ -1428,6 +1405,117 @@
                         "map": "Yak Tel",
                         "x": 1798,
                         "y": 1243,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Hunts",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$leveling:100"
+                ],
+                "visibility_rules": [
+                    "level_cap:100"
+                ],
+                "sections": [
+                    {
+                        "name": "Hunt Leafscourge Hadoll Ja",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "include_hunts_B"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Hunt Xty'iinbek",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "include_hunts_B"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Hunt Rrax Yity'a",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "include_hunts_A"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Hunt Starcrier",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "include_hunts_A"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Hunt Neyoozoteel",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "include_hunts_S"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Yak Tel",
+                        "x": 700,
+                        "y": 126,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Iq Br'aax Aetheryte",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "name": "Attune Iq Br'aax",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Yak Tel",
+                        "x": 623,
+                        "y": 592,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Mamook Aetheryte",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "name": "Attune Mamook",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Yak Tel",
+                        "x": 1753,
+                        "y": 1551,
                         "size": 40,
                         "shape": "rect"
                     }

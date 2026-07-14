@@ -551,9 +551,7 @@
                 "access_rules": [
                     " "
                 ],
-                "visibility_rules": [
-                    
-                ],
+                "visibility_rules": [],
                 "sections": [
                     {
                         "name": "Kozamauka Skipper",
@@ -644,9 +642,7 @@
                 "access_rules": [
                     " "
                 ],
-                "visibility_rules": [
-                    
-                ],
+                "visibility_rules": [],
                 "sections": [
                     {
                         "name": "Kozamauka Skipper",
@@ -707,9 +703,7 @@
                 "access_rules": [
                     " "
                 ],
-                "visibility_rules": [
-                    
-                ],
+                "visibility_rules": [],
                 "sections": [
                     {
                         "name": "Kozamauka Skipper",
@@ -790,9 +784,7 @@
                 "access_rules": [
                     " "
                 ],
-                "visibility_rules": [
-                    
-                ],
+                "visibility_rules": [],
                 "sections": [
                     {
                         "name": "Oho Hunu",
@@ -853,9 +845,7 @@
                 "access_rules": [
                     " "
                 ],
-                "visibility_rules": [
-                    
-                ],
+                "visibility_rules": [],
                 "sections": [
                     {
                         "name": "Oho Hunu",
@@ -936,9 +926,7 @@
                 "access_rules": [
                     " "
                 ],
-                "visibility_rules": [
-                    
-                ],
+                "visibility_rules": [],
                 "sections": [
                     {
                         "name": "Kuuxage Bitterling",
@@ -1019,9 +1007,7 @@
                 "access_rules": [
                     " "
                 ],
-                "visibility_rules": [
-                    
-                ],
+                "visibility_rules": [],
                 "sections": [
                     {
                         "name": "Ligaka Guppy",
@@ -1072,16 +1058,16 @@
                             "$fishVisibility|Honeycomb Sponge"
                         ],
                         "item_count": 1
-                    //},
-                    //{
-                    //    "name": "Iron Oxydoras",
-                    //    "access_rules": [
-                    //        "^$fishAccess|Miyakabek'zoma|Iron Oxydoras"
-                    //    ],
-                    //    "visibility_rules": [
-                    //        "$fishVisibility|Iron Oxydoras"
-                    //    ],
-                    //    "item_count": 1
+                    },
+                    {
+                        "name": "Iron Oxydoras",
+                        "access_rules": [
+                            "^$fishAccess|Miyakabek'zoma|Iron Oxydoras"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Iron Oxydoras"
+                        ],
+                        "item_count": 1
                     }
                 ],
                 "map_locations": [
@@ -1102,9 +1088,7 @@
                 "access_rules": [
                     " "
                 ],
-                "visibility_rules": [
-                    
-                ],
+                "visibility_rules": [],
                 "sections": [
                     {
                         "name": "Ligaka Guppy",
@@ -1155,24 +1139,182 @@
                             "$fishVisibility|Shovelnose Catfish"
                         ],
                         "item_count": 1
-                    //},
-                    //{
-                    //    "name": "Excavator Catfish",
-                    //    "access_rules": [
-                    //        "^$fishAccess|Marsh Ligaka|Excavator Catfish"
-                    //    ],
-                    //    "visibility_rules": [
-                    //        "$fishVisibility|Excavator Catfish"
-                    //    ],
-                    //    "item_count": 1
+                    },
+                    {
+                        "name": "Excavator Catfish",
+                        "access_rules": [
+                            "^$fishAccess|Marsh Ligaka|Excavator Catfish"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Excavator Catfish"
+                        ],
+                        "item_count": 1
                     }
-
                 ],
                 "map_locations": [
                     {
                         "map": "Kozamauka",
                         "x": 1225,
                         "y": 1536,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Hunts",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$leveling:100"
+                ],
+                "visibility_rules": [
+                    "level_cap:100"
+                ],
+                "sections": [
+                    {
+                        "name": "Hunt The Slammer",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "include_hunts_B"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Hunt Go'ozoabek'be",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "include_hunts_B"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Hunt The Raintriller",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "include_hunts_A"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Hunt Pkuucha",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "include_hunts_A"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Hunt Ihnuxokiy",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "include_hunts_S"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Kozamauka",
+                        "x": 682,
+                        "y": 120,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Ok'hanu Aetheryte",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "name": "Attune Ok'hanu",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Kozamauka",
+                        "x": 856,
+                        "y": 544,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Many Fires Aetheryte",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "name": "Attune Many Fires",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Kozamauka",
+                        "x": 1565,
+                        "y": 1228,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Earthenshire Aetheryte",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "name": "Attune Earthenshire",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Kozamauka",
+                        "x": 547,
+                        "y": 1335,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Dock Poga Aetheryte",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "name": "Attune Dock Poga",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Kozamauka",
+                        "x": 1812,
+                        "y": 788,
                         "size": 40,
                         "shape": "rect"
                     }

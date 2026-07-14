@@ -30,6 +30,22 @@
     "codes": "include_bozja"
   },
   {
+    "name": "Include Duels",
+    "type": "toggle",
+    "img": "images/items/placeholder.png",
+    "initial_active_state": true,
+    "overlay_align": "right",
+    "codes": "include_duels"
+  },
+  {
+    "name": "Include Occult Crescent",
+    "type": "toggle",
+    "img": "images/items/placeholder.png",
+    "initial_active_state": true,
+    "overlay_align": "right",
+    "codes": "include_occult_crescent"
+  },
+  {
     "name": "Include Ocean Fishing",
     "type": "toggle",
     "img": "images/items/placeholder.png",
@@ -92,6 +108,30 @@
     "initial_active_state": true,
     "overlay_align": "right",
     "codes": "include_pvp"
+  },
+  {
+    "name": "Include Hunts B",
+    "type": "toggle",
+    "img": "images/items/placeholder.png",
+    "initial_active_state": false,
+    "overlay_align": "right",
+    "codes": "include_hunts_B"
+  },
+  {
+    "name": "Include Hunts A",
+    "type": "toggle",
+    "img": "images/items/placeholder.png",
+    "initial_active_state": false,
+    "overlay_align": "right",
+    "codes": "include_hunts_A"
+  },
+  {
+    "name": "Include Hunts S",
+    "type": "toggle",
+    "img": "images/items/placeholder.png",
+    "initial_active_state": false,
+    "overlay_align": "right",
+    "codes": "include_hunts_S"
   },
   {
     "name": "Duty Difficulty",

@@ -636,9 +636,7 @@
                 "access_rules": [
                     " "
                 ],
-                "visibility_rules": [
-                    
-                ],
+                "visibility_rules": [],
                 "sections": [
                     {
                         "name": "Bonytail Chub",
@@ -709,9 +707,7 @@
                 "access_rules": [
                     " "
                 ],
-                "visibility_rules": [
-                    
-                ],
+                "visibility_rules": [],
                 "sections": [
                     {
                         "name": "Bonytail Chub",
@@ -792,9 +788,7 @@
                 "access_rules": [
                     " "
                 ],
-                "visibility_rules": [
-                    
-                ],
+                "visibility_rules": [],
                 "sections": [
                     {
                         "name": "Zorgor Core",
@@ -855,18 +849,17 @@
                             "$fishVisibility|Sunray Ray"
                         ],
                         "item_count": 1
-                    //},
-                    //{
-                    //    "name": "Vagrant Keeper",
-                    //    "access_rules": [
-                    //        "^$fishAccess|Westbound Zorgor|Vagrant Keeper"
-                    //    ],
-                    //    "visibility_rules": [
-                    //        "$fishVisibility|Vagrant Keeper"
-                    //    ],
-                    //    "item_count": 1
+                    },
+                    {
+                        "name": "Vagrant Keeper",
+                        "access_rules": [
+                            "^$fishAccess|Westbound Zorgor|Vagrant Keeper"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Vagrant Keeper"
+                        ],
+                        "item_count": 1
                     }
-
                 ],
                 "map_locations": [
                     {
@@ -886,9 +879,7 @@
                 "access_rules": [
                     " "
                 ],
-                "visibility_rules": [
-                    
-                ],
+                "visibility_rules": [],
                 "sections": [
                     {
                         "name": "Zorgor Core",
@@ -956,6 +947,141 @@
                         "map": "Shaaloani",
                         "x": 1517,
                         "y": 1718,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Hunts",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$leveling:100"
+                ],
+                "visibility_rules": [
+                    "level_cap:100"
+                ],
+                "sections": [
+                    {
+                        "name": "Hunt Nopalitender Fabuloso",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "include_hunts_B"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Hunt Uktena",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "include_hunts_B"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Hunt Yehehetoaua'pyo",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "include_hunts_A"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Hunt Keheniheyamewi",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "include_hunts_A"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Hunt Sansheya",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "include_hunts_S"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Shaaloani",
+                        "x": 717,
+                        "y": 1945,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Hhusatahwi Aetheryte",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "name": "Attune Hhusatahwi",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Shaaloani",
+                        "x": 1412,
+                        "y": 1493,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Sheshenewezi Springs Aetheryte",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "name": "Attune Sheshenewezi Springs",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Shaaloani",
+                        "x": 731,
+                        "y": 909,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Mehwahhetsoan Aetheryte",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "name": "Attune Mehwahhetsoan",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Shaaloani",
+                        "x": 1336,
+                        "y": 455,
                         "size": 40,
                         "shape": "rect"
                     }

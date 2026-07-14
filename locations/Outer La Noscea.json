@@ -20,13 +20,17 @@
                     {
                         "name": "The Navel (Hard)",
                         "access_rules": [],
-                        "visibility_rules": ["duty_difficulty_normal, level_cap:50, $duty_visibility|The Navel (Hard)"],
+                        "visibility_rules": [
+                            "duty_difficulty_normal, level_cap:50, $duty_visibility|The Navel (Hard)"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "The Navel (Extreme)",
                         "access_rules": [],
-                        "visibility_rules": ["duty_difficulty_ex, level_cap:50, $duty_visibility|The Navel (Extreme)"],
+                        "visibility_rules": [
+                            "duty_difficulty_ex, level_cap:50, $duty_visibility|The Navel (Extreme)"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -497,12 +501,8 @@
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
-                "access_rules": [
-                    
-                ],
-                "visibility_rules": [
-                    
-                ],
+                "access_rules": [],
+                "visibility_rules": [],
                 "sections": [
                     {
                         "name": "Giant Bass",
@@ -590,12 +590,8 @@
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
-                "access_rules": [
-                    
-                ],
-                "visibility_rules": [
-                    
-                ],
+                "access_rules": [],
+                "visibility_rules": [],
                 "sections": [
                     {
                         "name": "Jade Eel",
@@ -701,8 +697,79 @@
                 "map_locations": [
                     {
                         "map": "Outer La Noscea",
-                        "x": 913,
-                        "y": 848,
+                        "x": 928,
+                        "y": 869,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Hunts",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$leveling:50"
+                ],
+                "visibility_rules": [
+                    "level_cap:50"
+                ],
+                "sections": [
+                    {
+                        "name": "Hunt Vuokho",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "include_hunts_B"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Hunt Cornu",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "include_hunts_A"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Hunt Chernobog",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "include_hunts_S"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Outer La Noscea",
+                        "x": 1326,
+                        "y": 1877,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Camp Overlook Aetheryte",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "name": "Attune Camp Overlook",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Outer La Noscea",
+                        "x": 907,
+                        "y": 813,
                         "size": 40,
                         "shape": "rect"
                     }

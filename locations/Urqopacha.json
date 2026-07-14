@@ -620,9 +620,7 @@
                 "access_rules": [
                     " "
                 ],
-                "visibility_rules": [
-                    
-                ],
+                "visibility_rules": [],
                 "sections": [
                     {
                         "name": "Sea Alpaca",
@@ -703,9 +701,7 @@
                 "access_rules": [
                     " "
                 ],
-                "visibility_rules": [
-                    
-                ],
+                "visibility_rules": [],
                 "sections": [
                     {
                         "name": "Chirwagur Loach",
@@ -746,16 +742,16 @@
                             "$fishVisibility|Shooting Starscale"
                         ],
                         "item_count": 1
-                    //},
-                    //{
-                    //    "name": "Ole Ole Ole",
-                    //    "access_rules": [
-                    //        "^$fishAccess|Chirwagur Lake|Ole Ole Ole"
-                    //    ],
-                    //    "visibility_rules": [
-                    //        "$fishVisibility|Ole Ole Ole"
-                    //    ],
-                    //    "item_count": 1
+                    },
+                    {
+                        "name": "Ole Ole Ole",
+                        "access_rules": [
+                            "^$fishAccess|Chirwagur Lake|Ole Ole Ole"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Ole Ole Ole"
+                        ],
+                        "item_count": 1
                     }
                 ],
                 "map_locations": [
@@ -776,9 +772,7 @@
                 "access_rules": [
                     " "
                 ],
-                "visibility_rules": [
-                    
-                ],
+                "visibility_rules": [],
                 "sections": [
                     {
                         "name": "First Feastfish",
@@ -821,6 +815,16 @@
                         "item_count": 1
                     },
                     {
+                        "name": "Deepwarden",
+                        "access_rules": [
+                            "^$fishAccess|Karvarhur the First|Deepwarden"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Deepwarden"
+                        ],
+                        "item_count": 1
+                    },
+                    {
                         "name": "Prime Adjudicator",
                         "access_rules": [
                             "^$fishAccess|Karvarhur the First|Prime Adjudicator"
@@ -836,6 +840,117 @@
                         "map": "Urqopacha",
                         "x": 282,
                         "y": 1103,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Hunts",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$leveling:100"
+                ],
+                "visibility_rules": [
+                    "level_cap:100"
+                ],
+                "sections": [
+                    {
+                        "name": "Hunt Mad Maguey",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "include_hunts_B"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Hunt Chupacabra",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "include_hunts_B"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Hunt Queen Hawk",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "include_hunts_A"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Hunt Nechuciho",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "include_hunts_A"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Hunt Kirlirger the Abhorrent",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "include_hunts_S"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Urqopacha",
+                        "x": 1352,
+                        "y": 127,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Wachunpelo Aetheryte",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "name": "Attune Wachunpelo",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Urqopacha",
+                        "x": 1357,
+                        "y": 608,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Worlar's Echo Aetheryte",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "name": "Attune Worlar's Echo",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Urqopacha",
+                        "x": 1490,
+                        "y": 1657,
                         "size": 40,
                         "shape": "rect"
                     }

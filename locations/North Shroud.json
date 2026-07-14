@@ -16,55 +16,72 @@
                 "access_rules": [
                     "$leveling:50, bahamutkey"
                 ],
-                
-                "visibility_rules": ["level_cap:50, duty_difficulty_savage"],
+                "visibility_rules": [
+                    "level_cap:50, duty_difficulty_savage"
+                ],
                 "sections": [
                     {
                         "name": "The Second Coil of Bahamut Turn 1",
                         "access_rules": [],
-                        "visibility_rules": ["$duty_visibility|The Second Coil of Bahamut - Turn 1"],
+                        "visibility_rules": [
+                            "$duty_visibility|The Second Coil of Bahamut - Turn 1"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "The Second Coil of Bahamut Turn 2",
                         "access_rules": [],
-                        "visibility_rules": ["$duty_visibility|The Second Coil of Bahamut - Turn 2"],
+                        "visibility_rules": [
+                            "$duty_visibility|The Second Coil of Bahamut - Turn 2"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "The Second Coil of Bahamut Turn 3",
                         "access_rules": [],
-                        "visibility_rules": ["$duty_visibility|The Second Coil of Bahamut - Turn 3"],
+                        "visibility_rules": [
+                            "$duty_visibility|The Second Coil of Bahamut - Turn 3"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "The Second Coil of Bahamut Turn 4",
                         "access_rules": [],
-                        "visibility_rules": ["$duty_visibility|The Second Coil of Bahamut - Turn 4"],
+                        "visibility_rules": [
+                            "$duty_visibility|The Second Coil of Bahamut - Turn 4"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "The Second Coil of Bahamut (Savage) Turn 1",
                         "access_rules": [],
-                        "visibility_rules": ["$duty_visibility|The Second Coil of Bahamut (Savage) - Turn 1"],
+                        "visibility_rules": [
+                            "$duty_visibility|The Second Coil of Bahamut (Savage) - Turn 1"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "The Second Coil of Bahamut (Savage) Turn 2",
                         "access_rules": [],
-                        "visibility_rules": ["$duty_visibility|The Second Coil of Bahamut (Savage) - Turn 2"],
+                        "visibility_rules": [
+                            "$duty_visibility|The Second Coil of Bahamut (Savage) - Turn 2"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "The Second Coil of Bahamut (Savage) Turn 3",
                         "access_rules": [],
-                        "visibility_rules": ["$duty_visibility|The Second Coil of Bahamut (Savage) - Turn 3"],
+                        "visibility_rules": [
+                            "$duty_visibility|The Second Coil of Bahamut (Savage) - Turn 3"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "The Second Coil of Bahamut (Savage) Turn 4",
                         "access_rules": [],
-                        "visibility_rules": ["$duty_visibility|The Second Coil of Bahamut (Savage) - Turn 4"],
+                        "visibility_rules": [
+                            "$duty_visibility|The Second Coil of Bahamut (Savage) - Turn 4"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -535,12 +552,8 @@
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
-                "access_rules": [
-                    
-                ],
-                "visibility_rules": [
-                    
-                ],
+                "access_rules": [],
+                "visibility_rules": [],
                 "sections": [
                     {
                         "name": "Brass Loach",
@@ -628,12 +641,8 @@
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
-                "access_rules": [
-                    
-                ],
-                "visibility_rules": [
-                    
-                ],
+                "access_rules": [],
+                "visibility_rules": [],
                 "sections": [
                     {
                         "name": "Striped Goby",
@@ -741,12 +750,8 @@
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
-                "access_rules": [
-                    
-                ],
-                "visibility_rules": [
-                    
-                ],
+                "access_rules": [],
+                "visibility_rules": [],
                 "sections": [
                     {
                         "name": "Pond Mussel",
@@ -854,12 +859,8 @@
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
-                "access_rules": [
-                    
-                ],
-                "visibility_rules": [
-                    
-                ],
+                "access_rules": [],
+                "visibility_rules": [],
                 "sections": [
                     {
                         "name": "Mudcrab",
@@ -957,6 +958,77 @@
                         "map": "North Shroud",
                         "x": 851,
                         "y": 941,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Hunts",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$leveling:50"
+                ],
+                "visibility_rules": [
+                    "level_cap:50"
+                ],
+                "sections": [
+                    {
+                        "name": "Hunt Phecda",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "include_hunts_B"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Hunt Girtab",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "include_hunts_A"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Hunt Thousand-cast Theda",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "include_hunts_S"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "North Shroud",
+                        "x": 1327,
+                        "y": 129,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Fallgourd Float Aetheryte",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "name": "Attune Fallgourd Float",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "North Shroud",
+                        "x": 982,
+                        "y": 1258,
                         "size": 40,
                         "shape": "rect"
                     }

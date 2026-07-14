@@ -42,12 +42,8 @@
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
-                "access_rules": [
-                    
-                ],
-                "visibility_rules": [
-                    
-                ],
+                "access_rules": [],
+                "visibility_rules": [],
                 "sections": [
                     {
                         "name": "Mosquito Fish",
@@ -105,12 +101,8 @@
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
-                "access_rules": [
-                    
-                ],
-                "visibility_rules": [
-                    
-                ],
+                "access_rules": [],
+                "visibility_rules": [],
                 "sections": [
                     {
                         "name": "Reasonscale Silverside",
@@ -198,12 +190,8 @@
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
-                "access_rules": [
-                    
-                ],
-                "visibility_rules": [
-                    
-                ],
+                "access_rules": [],
+                "visibility_rules": [],
                 "sections": [
                     {
                         "name": "Reasonscale Silverside",
@@ -261,6 +249,354 @@
                         "map": "Tuliyollal",
                         "x": 1271,
                         "y": 1114,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "OC",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "phantovillageaccess"
+                ],
+                "visibility_rules": [
+                    "include_occult_crescent"
+                ],
+                "sections": [
+                    {
+                        "name": "The Occult Crescent: South Horn FATEs",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "^$fateMinLevelAccess|100"
+                        ],
+                        "visibility_rules": [
+                            "$fateMinLevelVisibility|100, fates_per_zone"
+                        ],
+                        "item_count": 10
+                    },
+                    {
+                        "name": "A Delicate Balance (FATE)",
+                        "access_rules": [
+                            "^$fateAccess|A Delicate Balance"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|A Delicate Balance"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "A Prying Eye (FATE)",
+                        "access_rules": [
+                            "^$fateAccess|A Prying Eye"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|A Prying Eye"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "An Unending Duty (FATE)",
+                        "access_rules": [
+                            "^$fateAccess|An Unending Duty"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|An Unending Duty"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Brain Drain (FATE)",
+                        "access_rules": [
+                            "^$fateAccess|Brain Drain"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|Brain Drain"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Fatal Allure (FATE)",
+                        "access_rules": [
+                            "^$fateAccess|Fatal Allure"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|Fatal Allure"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "King of the Crescent (FATE)",
+                        "access_rules": [
+                            "^$fateAccess|King of the Crescent"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|King of the Crescent"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Persistent Pots (FATE)",
+                        "access_rules": [
+                            "^$fateAccess|Persistent Pots"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|Persistent Pots"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Pleading Pots (FATE)",
+                        "access_rules": [
+                            "^$fateAccess|Pleading Pots"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|Pleading Pots"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Rough Waters (FATE)",
+                        "access_rules": [
+                            "^$fateAccess|Rough Waters"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|Rough Waters"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Serving Darkness (FATE)",
+                        "access_rules": [
+                            "^$fateAccess|Serving Darkness"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|Serving Darkness"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Sworn to Soil (FATE)",
+                        "access_rules": [
+                            "^$fateAccess|Sworn to Soil"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|Sworn to Soil"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "The Golden Guardian (FATE)",
+                        "access_rules": [
+                            "^$fateAccess|The Golden Guardian"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|The Golden Guardian"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "The Winged Terror (FATE)",
+                        "access_rules": [
+                            "^$fateAccess|The Winged Terror"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|The Winged Terror"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Scourge of the Mind",
+                        "access_rules": [
+                            "$leveling:100"
+                        ],
+                        "visibility_rules": [
+                            "level_cap:100, duty_difficulty_normal, $duty_visibility|Scourge of the Mind"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "The Black Regiment",
+                        "access_rules": [
+                            "$leveling:100"
+                        ],
+                        "visibility_rules": [
+                            "level_cap:100, duty_difficulty_normal, $duty_visibility|The Black Regiment"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "The Unbridled",
+                        "access_rules": [
+                            "$leveling:100"
+                        ],
+                        "visibility_rules": [
+                            "level_cap:100, duty_difficulty_normal, $duty_visibility|The Unbridled"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Crawling Death",
+                        "access_rules": [
+                            "$leveling:100"
+                        ],
+                        "visibility_rules": [
+                            "level_cap:100, duty_difficulty_normal, $duty_visibility|Crawling Death"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Calamity Bound",
+                        "access_rules": [
+                            "$leveling:100"
+                        ],
+                        "visibility_rules": [
+                            "level_cap:100, duty_difficulty_normal, $duty_visibility|Calamity Bound"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Trial by Claw",
+                        "access_rules": [
+                            "$leveling:100"
+                        ],
+                        "visibility_rules": [
+                            "level_cap:100, duty_difficulty_normal, $duty_visibility|Trial by Claw"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "From Times Bygone",
+                        "access_rules": [
+                            "$leveling:100"
+                        ],
+                        "visibility_rules": [
+                            "level_cap:100, duty_difficulty_normal, $duty_visibility|From Times Bygone"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Company of Stone",
+                        "access_rules": [
+                            "$leveling:100"
+                        ],
+                        "visibility_rules": [
+                            "level_cap:100, duty_difficulty_normal, $duty_visibility|Company of Stone"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Shark Attack",
+                        "access_rules": [
+                            "$leveling:100"
+                        ],
+                        "visibility_rules": [
+                            "level_cap:100, duty_difficulty_normal, $duty_visibility|Shark Attack"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "On the Hunt",
+                        "access_rules": [
+                            "$leveling:100"
+                        ],
+                        "visibility_rules": [
+                            "level_cap:100, duty_difficulty_normal, $duty_visibility|On the Hunt"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "With Extreme Prejudice",
+                        "access_rules": [
+                            "$leveling:100"
+                        ],
+                        "visibility_rules": [
+                            "level_cap:100, duty_difficulty_normal, $duty_visibility|With Extreme Prejudice"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Noise Complaint",
+                        "access_rules": [
+                            "$leveling:100"
+                        ],
+                        "visibility_rules": [
+                            "level_cap:100, duty_difficulty_normal, $duty_visibility|Noise Complaint"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cursed Concern",
+                        "access_rules": [
+                            "$leveling:100"
+                        ],
+                        "visibility_rules": [
+                            "level_cap:100, duty_difficulty_normal, $duty_visibility|Cursed Concern"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Eternal Watch",
+                        "access_rules": [
+                            "$leveling:100"
+                        ],
+                        "visibility_rules": [
+                            "level_cap:100, duty_difficulty_normal, $duty_visibility|Eternal Watch"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Flame of Dusk",
+                        "access_rules": [
+                            "$leveling:100"
+                        ],
+                        "visibility_rules": [
+                            "level_cap:100, duty_difficulty_normal, $duty_visibility|Flame of Dusk"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "The Forked Tower: Blood",
+                        "access_rules": [
+                            "$leveling:100"
+                        ],
+                        "visibility_rules": [
+                            "level_cap:100, duty_difficulty_ultimate, $duty_visibility|The Forked Tower Blood"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Tuliyollal",
+                        "x": 1488,
+                        "y": 1020,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Tuliyollal Aetheryte",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "name": "Attune Tuliyollal",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Tuliyollal",
+                        "x": 1073,
+                        "y": 909,
                         "size": 40,
                         "shape": "rect"
                     }

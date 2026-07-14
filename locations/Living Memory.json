@@ -52,7 +52,9 @@
                     {
                         "name": "Mistwake",
                         "access_rules": [],
-                        "visibility_rules": ["duty_difficulty_normal, $duty_visibility|Mistwake"],
+                        "visibility_rules": [
+                            "duty_difficulty_normal, $duty_visibility|Mistwake"
+                        ],
                         "item_count": 10
                     },
                     {
@@ -101,13 +103,17 @@
                     {
                         "name": "Alexandria",
                         "access_rules": [],
-                        "visibility_rules": ["duty_difficulty_normal, $duty_visibility|Alexandria"],
+                        "visibility_rules": [
+                            "duty_difficulty_normal, $duty_visibility|Alexandria"
+                        ],
                         "item_count": 10
-                    },                    
+                    },
                     {
                         "name": "The Meso Terminal",
                         "access_rules": [],
-                        "visibility_rules": ["duty_difficulty_normal, $duty_visibility|The Meso Terminal"],
+                        "visibility_rules": [
+                            "duty_difficulty_normal, $duty_visibility|The Meso Terminal"
+                        ],
                         "item_count": 10
                     },
                     {
@@ -360,10 +366,8 @@
                         "visibility_rules": [
                             "$fateVisibility|Mascot March"
                         ],
-                    
                         "item_count": 1
                     },
-                    
                     {
                         "name": "Mascot Mayhem (FATE)",
                         "access_rules": [
@@ -553,9 +557,7 @@
                 "access_rules": [
                     " "
                 ],
-                "visibility_rules": [
-                    
-                ],
+                "visibility_rules": [],
                 "sections": [
                     {
                         "name": "Rosebud Frog",
@@ -596,16 +598,16 @@
                             "$fishVisibility|Harlequin Lancer"
                         ],
                         "item_count": 1
-                    //},
-                    //{
-                    //    "name": "Harlequin Queen",
-                    //    "access_rules": [
-                    //        "^$fishAccess|The Knowable|Harlequin Queen"
-                    //    ],
-                    //    "visibility_rules": [
-                    //        "$fishVisibility|Harlequin Queen"
-                    //    ],
-                    //    "item_count": 1
+                    },
+                    {
+                        "name": "Harlequin Queen",
+                        "access_rules": [
+                            "^$fishAccess|The Knowable|Harlequin Queen"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Harlequin Queen"
+                        ],
+                        "item_count": 1
                     }
                 ],
                 "map_locations": [
@@ -626,9 +628,7 @@
                 "access_rules": [
                     " "
                 ],
-                "visibility_rules": [
-                    
-                ],
+                "visibility_rules": [],
                 "sections": [
                     {
                         "name": "Rosebud Frog",
@@ -669,16 +669,16 @@
                             "$fishVisibility|Giant Snakehead"
                         ],
                         "item_count": 1
-                    //},
-                    //{
-                    //    "name": "Gigagiant Snakehead",
-                    //    "access_rules": [
-                    //        "^$fishAccess|Mu Springs Eternal|Gigagiant Snakehead"
-                    //    ],
-                    //    "visibility_rules": [
-                    //        "$fishVisibility|Gigagiant Snakehead"
-                    //    ],
-                    //    "item_count": 1
+                    },
+                    {
+                        "name": "Gigagiant Snakehead",
+                        "access_rules": [
+                            "^$fishAccess|Mu Springs Eternal|Gigagiant Snakehead"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Gigagiant Snakehead"
+                        ],
+                        "item_count": 1
                     }
                 ],
                 "map_locations": [
@@ -699,10 +699,14 @@
                 "access_rules": [
                     " "
                 ],
-                "visibility_rules": [
-                    
-                ],
+                "visibility_rules": [],
                 "sections": [
+                    {
+                        "name": "Attune Leynode Aero",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
                     {
                         "name": "Rosebud Frog",
                         "access_rules": [
@@ -772,9 +776,7 @@
                 "access_rules": [
                     " "
                 ],
-                "visibility_rules": [
-                    
-                ],
+                "visibility_rules": [],
                 "sections": [
                     {
                         "name": "Canal Bream",
@@ -855,9 +857,7 @@
                 "access_rules": [
                     " "
                 ],
-                "visibility_rules": [
-                    
-                ],
+                "visibility_rules": [],
                 "sections": [
                     {
                         "name": "Canal Bream",
@@ -908,16 +908,16 @@
                             "$fishVisibility|Copper Shark"
                         ],
                         "item_count": 1
-                    //},
-                    //{
-                    //    "name": "Shined Copper Shark",
-                    //    "access_rules": [
-                    //        "^$fishAccess|Canal Town North|Shined Copper Shark"
-                    //    ],
-                    //    "visibility_rules": [
-                    //        "$fishVisibility|Shined Copper Shark"
-                    //    ],
-                    //    "item_count": 1
+                    },
+                    {
+                        "name": "Shined Copper Shark",
+                        "access_rules": [
+                            "^$fishAccess|Canal Town North|Shined Copper Shark"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Shined Copper Shark"
+                        ],
+                        "item_count": 1
                     }
                 ],
                 "map_locations": [
@@ -938,9 +938,7 @@
                 "access_rules": [
                     " "
                 ],
-                "visibility_rules": [
-                    
-                ],
+                "visibility_rules": [],
                 "sections": [
                     {
                         "name": "Golden Day",
@@ -981,16 +979,16 @@
                             "$fishVisibility|Ultimoat Carp"
                         ],
                         "item_count": 1
-                    //},
-                    //{
-                    //    "name": "Esperance Carp",
-                    //    "access_rules": [
-                    //        "^$fishAccess|Proto Alexandria|Esperance Carp"
-                    //    ],
-                    //    "visibility_rules": [
-                    //        "$fishVisibility|Esperance Carp"
-                    //    ],
-                    //    "item_count": 1
+                    },
+                    {
+                        "name": "Esperance Carp",
+                        "access_rules": [
+                            "^$fishAccess|Proto Alexandria|Esperance Carp"
+                        ],
+                        "visibility_rules": [
+                            "$fishVisibility|Esperance Carp"
+                        ],
+                        "item_count": 1
                     }
                 ],
                 "map_locations": [
@@ -998,6 +996,117 @@
                         "map": "Living Memory",
                         "x": 1874,
                         "y": 1536,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Hunts",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$leveling:100"
+                ],
+                "visibility_rules": [
+                    "level_cap:100"
+                ],
+                "sections": [
+                    {
+                        "name": "Hunt Jewel Bearer",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "include_hunts_B"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Hunt 13th Child",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "include_hunts_B"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Hunt Sally the Sweeper",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "include_hunts_A"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Hunt Cat's Eye",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "include_hunts_A"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Hunt The Forecaster",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "include_hunts_S"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Living Memory",
+                        "x": 1948,
+                        "y": 1960,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Leynode Mnemo Aetheryte",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "name": "Attune Leynode Mnemo",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Living Memory",
+                        "x": 1025,
+                        "y": 1828,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Leynode Pyro Aetheryte",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "name": "Attune Leynode Pyro",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Living Memory",
+                        "x": 1683,
+                        "y": 740,
                         "size": 40,
                         "shape": "rect"
                     }

@@ -186,6 +186,614 @@
                 ],
                 "sections": [
                     {
+                        "name": "Attune The Doman Enclave",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "The Bozjan Southern Front FATEs",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "^$fateMinLevelAccess|71, gangosaccess"
+                        ],
+                        "visibility_rules": [
+                            "$fateMinLevelVisibility|71, fates_per_zone"
+                        ],
+                        "item_count": 10
+                    },
+                    {
+                        "name": "Zadnor FATEs",
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "^$fateMinLevelAccess|76, zadnoraccess"
+                        ],
+                        "visibility_rules": [
+                            "$fateMinLevelVisibility|76, fates_per_zone"
+                        ],
+                        "item_count": 10
+                    },
+                    {
+                        "name": "All Pets Are Off (FATE)",
+                        "access_rules": [
+                            "^$fateAccess|All Pets Are Off, gangosaccess"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|All Pets Are Off, include_bozja"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Brought to Heal (FATE)",
+                        "access_rules": [
+                            "^$fateAccess|Brought to Heal, gangosaccess"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|Brought to Heal, include_bozja"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Can Carnivorous Plants Bloom Even on a Battlefield? (FATE)",
+                        "access_rules": [
+                            "^$fateAccess|Can Carnivorous Plants Bloom Even on a Battlefield?, gangosaccess"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|Can Carnivorous Plants Bloom Even on a Battlefield?, include_bozja"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Conflicting with the First Law (FATE)",
+                        "access_rules": [
+                            "^$fateAccess|Conflicting with the First Law, gangosaccess"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|Conflicting with the First Law, include_bozja"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Demonstrably Demonic (FATE)",
+                        "access_rules": [
+                            "^$fateAccess|Demonstrably Demonic, gangosaccess"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|Demonstrably Demonic, include_bozja"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Desperately Seeking Something (FATE)",
+                        "access_rules": [
+                            "^$fateAccess|Desperately Seeking Something, gangosaccess"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|Desperately Seeking Something, include_bozja"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "For Absent Friends (FATE)",
+                        "access_rules": [
+                            "^$fateAccess|For Absent Friends, gangosaccess"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|For Absent Friends, include_bozja"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Heavy Boots of Lead (FATE)",
+                        "access_rules": [
+                            "^$fateAccess|Heavy Boots of Lead, gangosaccess"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|Heavy Boots of Lead, include_bozja"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Help Wanted (FATE)",
+                        "access_rules": [
+                            "^$fateAccess|Help Wanted, gangosaccess"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|Help Wanted, include_bozja"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "I'm a Mechanical Man (FATE)",
+                        "access_rules": [
+                            "^$fateAccess|I'm a Mechanical Man, gangosaccess"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|I'm a Mechanical Man, include_bozja"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Let Slip the Dogs of War (FATE)",
+                        "access_rules": [
+                            "^$fateAccess|Let Slip the Dogs of War, gangosaccess"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|Let Slip the Dogs of War, include_bozja"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "More Machine Now than Man (FATE)",
+                        "access_rules": [
+                            "^$fateAccess|More Machine Now than Man, gangosaccess"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|More Machine Now than Man, include_bozja"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Murder Death Kill (FATE)",
+                        "access_rules": [
+                            "^$fateAccess|Murder Death Kill, gangosaccess"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|Murder Death Kill, include_bozja"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "My Family and Other Animals (FATE)",
+                        "access_rules": [
+                            "^$fateAccess|My Family and Other Animals, gangosaccess"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|My Family and Other Animals, include_bozja"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "No Camping Allowed (FATE)",
+                        "access_rules": [
+                            "^$fateAccess|No Camping Allowed, gangosaccess"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|No Camping Allowed, include_bozja"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "None of Them Knew They Were Robots (FATE)",
+                        "access_rules": [
+                            "^$fateAccess|None of Them Knew They Were Robots, gangosaccess"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|None of Them Knew They Were Robots, include_bozja"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Of Steel and Flame (FATE)",
+                        "access_rules": [
+                            "^$fateAccess|Of Steel and Flame, gangosaccess"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|Of Steel and Flame, include_bozja"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Parts and Recreation (FATE)",
+                        "access_rules": [
+                            "^$fateAccess|Parts and Recreation, gangosaccess"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|Parts and Recreation, include_bozja"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Pyromancer Supreme (FATE)",
+                        "access_rules": [
+                            "^$fateAccess|Pyromancer Supreme, gangosaccess"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|Pyromancer Supreme, include_bozja"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Red (Chocobo) Alert (FATE)",
+                        "access_rules": [
+                            "^$fateAccess|Red (Chocobo) Alert, gangosaccess"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|Red (Chocobo) Alert, include_bozja"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Scavengers of Man's Sorrow (FATE)",
+                        "access_rules": [
+                            "^$fateAccess|Scavengers of Man's Sorrow, gangosaccess"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|Scavengers of Man's Sorrow, include_bozja"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Seeq and Destroy (FATE)",
+                        "access_rules": [
+                            "^$fateAccess|Seeq and Destroy, gangosaccess"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|Seeq and Destroy, include_bozja"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Sneak & Spell (FATE)",
+                        "access_rules": [
+                            "^$fateAccess|Sneak & Spell, gangosaccess"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|Sneak & Spell, include_bozja"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Supplies Party (FATE)",
+                        "access_rules": [
+                            "^$fateAccess|Supplies Party, gangosaccess"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|Supplies Party, include_bozja"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "The Beasts Must Die (FATE)",
+                        "access_rules": [
+                            "^$fateAccess|The Beasts Must Die, gangosaccess"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|The Beasts Must Die , include_bozja"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "The Element of Supplies (FATE)",
+                        "access_rules": [
+                            "^$fateAccess|The Element of Supplies, gangosaccess"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|The Element of Supplies, include_bozja"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "The Monster Mash (FATE)",
+                        "access_rules": [
+                            "^$fateAccess|The Monster Mash, gangosaccess"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|The Monster Mash, include_bozja"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "The War Against the Machines (FATE)",
+                        "access_rules": [
+                            "^$fateAccess|The War Against the Machines, gangosaccess"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|The War Against the Machines, include_bozja"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "The Wild Bunch (FATE)",
+                        "access_rules": [
+                            "^$fateAccess|The Wild Bunch, gangosaccess"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|The Wild Bunch, include_bozja"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Unicorn Flakes (FATE)",
+                        "access_rules": [
+                            "^$fateAccess|Unicorn Flakes, gangosaccess"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|Unicorn Flakes, include_bozja"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Unrest for the Wicked (FATE)",
+                        "access_rules": [
+                            "^$fateAccess|Unrest for the Wicked, gangosaccess"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|Unrest for the Wicked, include_bozja"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Waste the Rainbow (FATE)",
+                        "access_rules": [
+                            "^$fateAccess|Waste the Rainbow, gangosaccess"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|Waste the Rainbow, include_bozja"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "A Just Pursuit (FATE)",
+                        "access_rules": [
+                            "^$fateAccess|A Just Pursuit, zadnoraccess"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|A Just Pursuit, include_bozja"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "A Relic Unleashed (FATE)",
+                        "access_rules": [
+                            "^$fateAccess|A Relic Unleashed, zadnoraccess"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|A Relic Unleashed, include_bozja"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "A Wrench in the Reconnaissance Effort (FATE)",
+                        "access_rules": [
+                            "^$fateAccess|A Wrench in the Reconnaissance Effort, zadnoraccess"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|A Just Pursuit, include_bozja"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "An End to Atrocities (FATE)",
+                        "access_rules": [
+                            "^$fateAccess|An End to Atrocities, zadnoraccess"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|An End to Atrocities, include_bozja"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "An Immoral Dilemma (FATE)",
+                        "access_rules": [
+                            "^$fateAccess|An Immoral Dilemma, zadnoraccess"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|An Immoral Dilemma, include_bozja"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Another Pilot Episode (FATE)",
+                        "access_rules": [
+                            "^$fateAccess|Another Pilot Episode, zadnoraccess"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|Another Pilot Episode, include_bozja"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Attack of the Machines (FATE)",
+                        "access_rules": [
+                            "^$fateAccess|Attack of the Machines, zadnoraccess"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|Attack of the Machines, include_bozja"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Attack of the Supersoldiers (FATE)",
+                        "access_rules": [
+                            "^$fateAccess|Attack of the Supersoldiers, zadnoraccess"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|Attack of the Supersoldiers, include_bozja"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Breaking the Ice (FATE)",
+                        "access_rules": [
+                            "^$fateAccess|Breaking the Ice, zadnoraccess"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|Breaking the Ice, include_bozja"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Challenge Accepted (FATE)",
+                        "access_rules": [
+                            "^$fateAccess|Challenge Accepted (FATE), zadnoraccess"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|Challenge Accepted (FATE), include_bozja"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Deadly Divination (FATE)",
+                        "access_rules": [
+                            "^$fateAccess|Deadly Divination, zadnoraccess"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|Deadly Divination, include_bozja"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Demented Mentor (FATE)",
+                        "access_rules": [
+                            "^$fateAccess|Demented Mentor, zadnoraccess"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|Demented Mentor, include_bozja"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Hypertuned Havoc (FATE)",
+                        "access_rules": [
+                            "^$fateAccess|Hypertuned Havoc, zadnoraccess"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|Hypertuned Havoc, include_bozja"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Mean-spirited (FATE)",
+                        "access_rules": [
+                            "^$fateAccess|Mean-spirited, zadnoraccess"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|Mean-spirited, include_bozja"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Meet the Puppetmaster (FATE)",
+                        "access_rules": [
+                            "^$fateAccess|Meet the Puppetmaster, zadnoraccess"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|Meet the Puppetmaster, include_bozja"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Of Beasts and Braggadocio (FATE)",
+                        "access_rules": [
+                            "^$fateAccess|Of Beasts and Braggadocio, zadnoraccess"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|Of Beasts and Braggadocio, include_bozja"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Parts and Parcel (FATE)",
+                        "access_rules": [
+                            "^$fateAccess|Parts and Parcel, zadnoraccess"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|Parts and Parcel, include_bozja"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Seeq and You Will Find (FATE)",
+                        "access_rules": [
+                            "^$fateAccess|Seeq and You Will Find, zadnoraccess"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|Seeq and You Will Find, include_bozja"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Sever the Strings (FATE)",
+                        "access_rules": [
+                            "^$fateAccess|Sever the Strings, zadnoraccess"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|Sever the Strings, include_bozja"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Still Only Counts as One (FATE)",
+                        "access_rules": [
+                            "^$fateAccess|Still Only Counts as One, zadnoraccess"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|Still Only Counts as One, include_bozja"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Supersoldier Rising (FATE)",
+                        "access_rules": [
+                            "^$fateAccess|Supersoldier Rising, zadnoraccess"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|Supersoldier Rising, include_bozja"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Tanking Up (FATE)",
+                        "access_rules": [
+                            "^$fateAccess|Tanking Up, zadnoraccess"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|Tanking Up, include_bozja"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Th'uban the Terrible (FATE)",
+                        "access_rules": [
+                            "^$fateAccess|Th'uban the Terrible, zadnoraccess"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|Th'uban the Terrible, include_bozja"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "The Beasts Are Back (FATE)",
+                        "access_rules": [
+                            "^$fateAccess|The Beasts Are Back, zadnoraccess"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|The Beasts Are Back, include_bozja"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "The Student Becalms the Master (FATE)",
+                        "access_rules": [
+                            "^$fateAccess|The Student Becalms the Master, zadnoraccess"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|The Student Becalms the Master, include_bozja"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "When Mages Rage (FATE)",
+                        "access_rules": [
+                            "^$fateAccess|When Mages Rage, zadnoraccess"
+                        ],
+                        "visibility_rules": [
+                            "$fateVisibility|When Mages Rage, include_bozja"
+                        ],
+                        "item_count": 1
+                    },
+                    {
                         "name": "Memoria Misera (Extreme)",
                         "access_rules": [
                             "$leveling:80"
@@ -196,12 +804,12 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Castrum Lacus Litore",
+                        "name": "The Battle of Castrum Lacus Litore",
                         "access_rules": [
                             "$leveling:80, gangosaccess"
                         ],
                         "visibility_rules": [
-                            "level_cap:80, duty_difficulty_normal, $duty_visibility|Castrum Lacus Litore, include_bozja"
+                            "level_cap:80, duty_difficulty_normal, $duty_visibility|The Battle of Castrum Lacus Litore, include_bozja"
                         ],
                         "item_count": 1
                     },
@@ -218,32 +826,312 @@
                     {
                         "name": "The Dalriada",
                         "access_rules": [
-                            "$leveling:80, gangosaccess"
+                            "$leveling:80, zadnoraccess"
                         ],
                         "visibility_rules": [
                             "level_cap:80, duty_difficulty_normal, $duty_visibility|The Dalriada, include_bozja"
                         ],
                         "item_count": 1
-                    //},
-                    //{
-                    //    "name": "Doman Trout",
-                    //    "access_rules": [
-                    //        "^$fishAccess|The Doman Enclave|Doman Trout"
-                    //    ],
-                    //    "visibility_rules": [
-                    //        "$fishVisibility|Doman Trout"
-                    //    ],
-                    //    "item_count": 1
-                    //},
-                    //{
-                    //    "name": "Kotsu Zetsu",
-                    //    "access_rules": [
-                    //        "^$fishAccess|The Doman Enclave|Kotsu Zetsu"
-                    //    ],
-                    //    "visibility_rules": [
-                    //        "$fishVisibility|Kotsu Zetsu"
-                    //    ],
-                    //    "item_count": 1
+                    },
+                    {
+                        "name": "Kill It with Fire",
+                        "access_rules": [
+                            "$leveling:80, gangosaccess"
+                        ],
+                        "visibility_rules": [
+                            "level_cap:80, duty_difficulty_normal, $duty_visibility|Kill It with Fire, include_bozja"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "The Baying of the Hound(s)",
+                        "access_rules": [
+                            "$leveling:80, gangosaccess"
+                        ],
+                        "visibility_rules": [
+                            "level_cap:80, duty_difficulty_normal, $duty_visibility|The Baying of the Hound(s), include_bozja"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Vigil for the Lost",
+                        "access_rules": [
+                            "$leveling:80, gangosaccess"
+                        ],
+                        "visibility_rules": [
+                            "level_cap:80, duty_difficulty_normal, $duty_visibility|Vigil for the Lost, include_bozja"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Aces High",
+                        "access_rules": [
+                            "$leveling:80, gangosaccess"
+                        ],
+                        "visibility_rules": [
+                            "level_cap:80, duty_difficulty_normal, $duty_visibility|Aces High, include_bozja, include_duels"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "The Shadow of Death's Hand",
+                        "access_rules": [
+                            "$leveling:80, gangosaccess"
+                        ],
+                        "visibility_rules": [
+                            "level_cap:80, duty_difficulty_normal, $duty_visibility|The Shadow of Death's Hand, include_bozja"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "The Final Furlong",
+                        "access_rules": [
+                            "$leveling:80, gangosaccess"
+                        ],
+                        "visibility_rules": [
+                            "level_cap:80, duty_difficulty_normal, $duty_visibility|The Final Furlong, include_bozja"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "The Hunt for Red Choctober",
+                        "access_rules": [
+                            "$leveling:80, gangosaccess"
+                        ],
+                        "visibility_rules": [
+                            "level_cap:80, duty_difficulty_normal, $duty_visibility|The Hunt for Red Choctober, include_bozja"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Beast of Man",
+                        "access_rules": [
+                            "$leveling:80, gangosaccess"
+                        ],
+                        "visibility_rules": [
+                            "level_cap:80, duty_difficulty_normal, $duty_visibility|Beast of Man, include_bozja, include_duels"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "The Fires of War",
+                        "access_rules": [
+                            "$leveling:80, gangosaccess"
+                        ],
+                        "visibility_rules": [
+                            "level_cap:80, duty_difficulty_normal, $duty_visibility|The Fires of War, include_bozja"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Patriot Games",
+                        "access_rules": [
+                            "$leveling:80, gangosaccess"
+                        ],
+                        "visibility_rules": [
+                            "level_cap:80, duty_difficulty_normal, $duty_visibility|Patriot Games, include_bozja"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Trampled under Hoof",
+                        "access_rules": [
+                            "$leveling:80, gangosaccess"
+                        ],
+                        "visibility_rules": [
+                            "level_cap:80, duty_difficulty_normal, $duty_visibility|Trampled under Hoof, include_bozja"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "And the Flames Went Higher",
+                        "access_rules": [
+                            "$leveling:80, gangosaccess"
+                        ],
+                        "visibility_rules": [
+                            "level_cap:80, duty_difficulty_normal, $duty_visibility|And the Flames Went Higher, include_bozja, include_duels"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Metal Fox Chaos",
+                        "access_rules": [
+                            "$leveling:80, gangosaccess"
+                        ],
+                        "visibility_rules": [
+                            "level_cap:80, duty_difficulty_normal, $duty_visibility|Metal Fox Chaos, include_bozja"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Rise of the Robots",
+                        "access_rules": [
+                            "$leveling:80, gangosaccess"
+                        ],
+                        "visibility_rules": [
+                            "level_cap:80, duty_difficulty_normal, $duty_visibility|Rise of the Robots, include_bozja"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Where Strode the Behemoth",
+                        "access_rules": [
+                            "$leveling:80, gangosaccess"
+                        ],
+                        "visibility_rules": [
+                            "level_cap:80, duty_difficulty_normal, $duty_visibility|Where Strode the Behemoth, include_bozja"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "On Serpents' Wings",
+                        "access_rules": [
+                            "$leveling:80, zadnoraccess"
+                        ],
+                        "visibility_rules": [
+                            "level_cap:80, duty_difficulty_normal, $duty_visibility|On Serpents' Wings, include_bozja"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Feeling the Burn",
+                        "access_rules": [
+                            "$leveling:80, zadnoraccess"
+                        ],
+                        "visibility_rules": [
+                            "level_cap:80, duty_difficulty_normal, $duty_visibility|Feeling the Burn, include_bozja"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "The Broken Blade",
+                        "access_rules": [
+                            "$leveling:80, zadnoraccess"
+                        ],
+                        "visibility_rules": [
+                            "level_cap:80, duty_difficulty_normal, $duty_visibility|The Broken Blade, include_bozja, include_duels"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "From Beyond the Grave",
+                        "access_rules": [
+                            "$leveling:80, zadnoraccess"
+                        ],
+                        "visibility_rules": [
+                            "level_cap:80, duty_difficulty_normal, $duty_visibility|From Beyond the Grave, include_bozja"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "With Diremite and Main",
+                        "access_rules": [
+                            "$leveling:80, zadnoraccess"
+                        ],
+                        "visibility_rules": [
+                            "level_cap:80, duty_difficulty_normal, $duty_visibility|With Diremite and Main, include_bozja"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Here Comes the Cavalry",
+                        "access_rules": [
+                            "$leveling:80, zadnoraccess"
+                        ],
+                        "visibility_rules": [
+                            "level_cap:80, duty_difficulty_normal, $duty_visibility|Here Comes the Cavalry, include_bozja"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Head of the Snake",
+                        "access_rules": [
+                            "$leveling:80, zadnoraccess"
+                        ],
+                        "visibility_rules": [
+                            "level_cap:80, duty_difficulty_normal, $duty_visibility|Head of the Snake, include_bozja, include_duels"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "There Would Be Blood",
+                        "access_rules": [
+                            "$leveling:80, zadnoraccess"
+                        ],
+                        "visibility_rules": [
+                            "level_cap:80, duty_difficulty_normal, $duty_visibility|There Would Be Blood, include_bozja"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Never Cry Wolf",
+                        "access_rules": [
+                            "$leveling:80, zadnoraccess"
+                        ],
+                        "visibility_rules": [
+                            "level_cap:80, duty_difficulty_normal, $duty_visibility|Never Cry Wolf, include_bozja"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Time to Burn",
+                        "access_rules": [
+                            "$leveling:80, zadnoraccess"
+                        ],
+                        "visibility_rules": [
+                            "level_cap:80, duty_difficulty_normal, $duty_visibility|Time to Burn, include_bozja"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Lean, Mean, Magitek Machines",
+                        "access_rules": [
+                            "$leveling:80, zadnoraccess"
+                        ],
+                        "visibility_rules": [
+                            "level_cap:80, duty_difficulty_normal, $duty_visibility|Lean, Mean, Magitek Machines, include_bozja"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Worn to a Shadow",
+                        "access_rules": [
+                            "$leveling:80, zadnoraccess"
+                        ],
+                        "visibility_rules": [
+                            "level_cap:80, duty_difficulty_normal, $duty_visibility|Worn to a Shadow, include_bozja"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "A Familiar Face",
+                        "access_rules": [
+                            "$leveling:80, zadnoraccess"
+                        ],
+                        "visibility_rules": [
+                            "level_cap:80, duty_difficulty_normal, $duty_visibility|A Familiar Face, include_bozja"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Looks to Die For",
+                        "access_rules": [
+                            "$leveling:80, zadnoraccess"
+                        ],
+                        "visibility_rules": [
+                            "level_cap:80, duty_difficulty_normal, $duty_visibility|Looks to Die For, include_bozja"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Taking the Lyon's Share",
+                        "access_rules": [
+                            "$leveling:80, zadnoraccess"
+                        ],
+                        "visibility_rules": [
+                            "level_cap:80, duty_difficulty_normal, $duty_visibility|Taking the Lyon's Share, include_bozja, include_duels"
+                        ],
+                        "item_count": 1
                     }
                 ],
                 "map_locations": [
@@ -1433,12 +2321,8 @@
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
-                "access_rules": [
-                    
-                ],
-                "visibility_rules": [
-                    
-                ],
+                "access_rules": [],
+                "visibility_rules": [],
                 "sections": [
                     {
                         "name": "Doman Trout",
@@ -1496,12 +2380,8 @@
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
-                "access_rules": [
-                    
-                ],
-                "visibility_rules": [
-                    
-                ],
+                "access_rules": [],
+                "visibility_rules": [],
                 "sections": [
                     {
                         "name": "River Barramundi",
@@ -1559,13 +2439,15 @@
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
-                "access_rules": [
-                    
-                ],
-                "visibility_rules": [
-                    
-                ],
+                "access_rules": [],
+                "visibility_rules": [],
                 "sections": [
+                    {
+                        "name": "Attune Namai",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
                     {
                         "name": "Nogoi",
                         "access_rules": [
@@ -1602,12 +2484,8 @@
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
-                "access_rules": [
-                    
-                ],
-                "visibility_rules": [
-                    
-                ],
+                "access_rules": [],
+                "visibility_rules": [],
                 "sections": [
                     {
                         "name": "Yanxian Koi",
@@ -1695,12 +2573,8 @@
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
-                "access_rules": [
-                    
-                ],
-                "visibility_rules": [
-                    
-                ],
+                "access_rules": [],
+                "visibility_rules": [],
                 "sections": [
                     {
                         "name": "Longhair Catfish",
@@ -1768,12 +2642,8 @@
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
-                "access_rules": [
-                    
-                ],
-                "visibility_rules": [
-                    
-                ],
+                "access_rules": [],
+                "visibility_rules": [],
                 "sections": [
                     {
                         "name": "Doman Trout",
@@ -1851,12 +2721,8 @@
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
-                "access_rules": [
-                    
-                ],
-                "visibility_rules": [
-                    
-                ],
+                "access_rules": [],
+                "visibility_rules": [],
                 "sections": [
                     {
                         "name": "Doman Trout",
@@ -1914,12 +2780,8 @@
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
-                "access_rules": [
-                    
-                ],
-                "visibility_rules": [
-                    
-                ],
+                "access_rules": [],
+                "visibility_rules": [],
                 "sections": [
                     {
                         "name": "Yellow Prismfish",
@@ -2027,12 +2889,8 @@
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
-                "access_rules": [
-                    
-                ],
-                "visibility_rules": [
-                    
-                ],
+                "access_rules": [],
+                "visibility_rules": [],
                 "sections": [
                     {
                         "name": "Doman Trout",
@@ -2180,6 +3038,93 @@
                         "map": "Yanxia",
                         "x": 645,
                         "y": 659,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Hunts",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$leveling:70"
+                ],
+                "visibility_rules": [
+                    "level_cap:70"
+                ],
+                "sections": [
+                    {
+                        "name": "Hunt Deidar",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "include_hunts_B"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Hunt Gyorai Quickstrike",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "include_hunts_B"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Hunt Gajasura",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "include_hunts_A"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Hunt Angada",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "include_hunts_A"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Hunt Gamma",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "include_hunts_S"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Yanxia",
+                        "x": 717,
+                        "y": 150,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "The House of the Fierce Aetheryte",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "name": "Attune The House of the Fierce",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Yanxia",
+                        "x": 1272,
+                        "y": 623,
                         "size": 40,
                         "shape": "rect"
                     }

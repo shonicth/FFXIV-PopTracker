@@ -16,20 +16,28 @@
                 "access_rules": [
                     ""
                 ],
-                "visibility_rules":[
+                "visibility_rules": [
                     "duty_difficulty_normal"
                 ],
                 "sections": [
                     {
                         "name": "Hullbreaker Isle",
-                        "access_rules": ["$leveling:50"],
-                        "visibility_rules": ["level_cap:50, $duty_visibility|Hullbreaker Isle"],
+                        "access_rules": [
+                            "$leveling:50"
+                        ],
+                        "visibility_rules": [
+                            "level_cap:50, $duty_visibility|Hullbreaker Isle"
+                        ],
                         "item_count": 10
                     },
                     {
                         "name": "Hullbreaker Isle (Hard)",
-                        "access_rules": ["$leveling:60"],
-                        "visibility_rules": ["level_cap:60, $duty_visibility|Hullbreaker Isle (Hard)"],
+                        "access_rules": [
+                            "$leveling:60"
+                        ],
+                        "visibility_rules": [
+                            "level_cap:60, $duty_visibility|Hullbreaker Isle (Hard)"
+                        ],
                         "item_count": 10
                     }
                 ],
@@ -54,14 +62,22 @@
                 "sections": [
                     {
                         "name": "The Whorleater (Hard)",
-                        "access_rules": ["$leveling:50"],
-                        "visibility_rules": ["level_cap:50, $duty_visibility|The Whorleater (Hard), duty_difficulty_normal"],
+                        "access_rules": [
+                            "$leveling:50"
+                        ],
+                        "visibility_rules": [
+                            "level_cap:50, $duty_visibility|The Whorleater (Hard), duty_difficulty_normal"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "The Whorleater (Extreme)",
-                        "access_rules": ["$leveling:50"],
-                        "visibility_rules": ["level_cap:50, $duty_visibility|The Whorleater (Extreme), duty_difficulty_ex"],
+                        "access_rules": [
+                            "$leveling:50"
+                        ],
+                        "visibility_rules": [
+                            "level_cap:50, $duty_visibility|The Whorleater (Extreme), duty_difficulty_ex"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -86,8 +102,12 @@
                 "sections": [
                     {
                         "name": "Annoy the Void",
-                        "access_rules": ["$leveling:30"],
-                        "visibility_rules": ["include_guildhests, duty_difficulty_normal, $duty_visibility|Annoy the Void"],
+                        "access_rules": [
+                            "$leveling:30"
+                        ],
+                        "visibility_rules": [
+                            "include_guildhests, duty_difficulty_normal, $duty_visibility|Annoy the Void"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -107,44 +127,59 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "$leveling:30, wolvesdenpieraccess"
+                    "wolvesdenpieraccess"
                 ],
-                "visibility_rules": ["include_pvp, duty_difficulty_normal"],
+                "visibility_rules": [
+                    
+                ],
                 "sections": [
+                    
                     {
-                        "name": "The Palaistra",
+                        "name": "Attune Wolves' Den Pier",
                         "access_rules": [],
                         "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "The Palaistra",
+                        "access_rules": ["$leveling:30"],
+                        "visibility_rules": ["include_pvp, duty_difficulty_normal"],
                         "item_count": 1
                     },
                     {
                         "name": "The Volcanic Heart",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["$leveling:30"],
+                        "visibility_rules": ["include_pvp, duty_difficulty_normal"],
                         "item_count": 1
                     },
                     {
                         "name": "Cloud Nine",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["$leveling:30"],
+                        "visibility_rules": ["include_pvp, duty_difficulty_normal"],
                         "item_count": 1
                     },
                     {
                         "name": "The Clockwork Castletown",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["$leveling:30"],
+                        "visibility_rules": ["include_pvp, duty_difficulty_normal"],
                         "item_count": 1
                     },
                     {
                         "name": "The Red Sands",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["$leveling:30"],
+                        "visibility_rules": ["include_pvp, duty_difficulty_normal"],
                         "item_count": 1
                     },
                     {
                         "name": "The Bayside Battleground",
-                        "access_rules": [],
-                        "visibility_rules": [],
+                        "access_rules": ["$leveling:30"],
+                        "visibility_rules": ["include_pvp, duty_difficulty_normal"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Archeia Harmonias",
+                        "access_rules": ["$leveling:30"],
+                        "visibility_rules": ["include_pvp, duty_difficulty_normal"],
                         "item_count": 1
                     }
                 ],
@@ -555,12 +590,8 @@
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
-                "access_rules": [
-                    
-                ],
-                "visibility_rules": [
-
-                ],
+                "access_rules": [],
+                "visibility_rules": [],
                 "sections": [
                     {
                         "name": "Crayfish",
@@ -658,12 +689,8 @@
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
-                "access_rules": [
-                    
-                ],
-                "visibility_rules": [
-                    
-                ],
+                "access_rules": [],
+                "visibility_rules": [],
                 "sections": [
                     {
                         "name": "Merlthor Goby",
@@ -771,12 +798,8 @@
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
-                "access_rules": [
-                    
-                ],
-                "visibility_rules": [
-                    
-                ],
+                "access_rules": [],
+                "visibility_rules": [],
                 "sections": [
                     {
                         "name": "Merlthor Goby",
@@ -884,12 +907,8 @@
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
-                "access_rules": [
-                    
-                ],
-                "visibility_rules": [
-                    
-                ],
+                "access_rules": [],
+                "visibility_rules": [],
                 "sections": [
                     {
                         "name": "Sea Cucumber",
@@ -987,12 +1006,8 @@
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
-                "access_rules": [
-                    
-                ],
-                "visibility_rules": [
-                    
-                ],
+                "access_rules": [],
+                "visibility_rules": [],
                 "sections": [
                     {
                         "name": "Lominsan Anchovy",
@@ -1090,13 +1105,15 @@
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
-                "access_rules": [
-                    
-                ],
-                "visibility_rules": [
-                    
-                ],
+                "access_rules": [],
+                "visibility_rules": [],
                 "sections": [
+                    {
+                        "name": "Attune Moraby Drydocks",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
                     {
                         "name": "Ocean Cloud",
                         "access_rules": [
@@ -1203,12 +1220,8 @@
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
-                "access_rules": [
-                    
-                ],
-                "visibility_rules": [
-                    
-                ],
+                "access_rules": [],
+                "visibility_rules": [],
                 "sections": [
                     {
                         "name": "Dusk Goby",
@@ -1316,12 +1329,8 @@
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
-                "access_rules": [
-                    
-                ],
-                "visibility_rules": [
-                    
-                ],
+                "access_rules": [],
+                "visibility_rules": [],
                 "sections": [
                     {
                         "name": "Sea Cucumber",
@@ -1429,12 +1438,8 @@
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
-                "access_rules": [
-                    
-                ],
-                "visibility_rules": [
-                
-                ],
+                "access_rules": [],
+                "visibility_rules": [],
                 "sections": [
                     {
                         "name": "Bone Crayfish",
@@ -1492,6 +1497,53 @@
                         "map": "Lower La Noscea",
                         "x": 1293,
                         "y": 722,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Hunts",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$leveling:50"
+                ],
+                "visibility_rules": [
+                    "level_cap:50"
+                ],
+                "sections": [
+                    {
+                        "name": "Hunt Barbastelle",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "include_hunts_B"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Hunt Unktehi",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "include_hunts_A"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Hunt Croakadile",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "include_hunts_S"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Lower La Noscea",
+                        "x": 1358,
+                        "y": 130,
                         "size": 40,
                         "shape": "rect"
                     }

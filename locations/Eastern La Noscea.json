@@ -16,20 +16,28 @@
                 "access_rules": [
                     ""
                 ],
-                "visibility_rules":[
+                "visibility_rules": [
                     "duty_difficulty_normal"
                 ],
                 "sections": [
                     {
                         "name": "Brayfloxs Longstop",
-                        "access_rules": ["$leveling:34"],
-                        "visibility_rules": ["level_cap:34, $duty_visibility|Brayflox's Longstop"],
+                        "access_rules": [
+                            "$leveling:34"
+                        ],
+                        "visibility_rules": [
+                            "level_cap:34, $duty_visibility|Brayflox's Longstop"
+                        ],
                         "item_count": 10
                     },
                     {
                         "name": "Brayfloxs Longstop (Hard)",
-                        "access_rules": ["$leveling:50"],
-                        "visibility_rules": ["level_cap:50, $duty_visibility|Brayflox's Longstop (Hard)"],
+                        "access_rules": [
+                            "$leveling:50"
+                        ],
+                        "visibility_rules": [
+                            "level_cap:50, $duty_visibility|Brayflox's Longstop (Hard)"
+                        ],
                         "item_count": 10
                     }
                 ],
@@ -51,36 +59,48 @@
                 "access_rules": [
                     "$leveling:50, bahamutkey"
                 ],
-                "visibility_rules": ["level_cap:50, duty_difficulty_savage"],
+                "visibility_rules": [
+                    "level_cap:50, duty_difficulty_savage"
+                ],
                 "sections": [
                     {
                         "name": "The Binding Coil of Bahamut Turn 1",
                         "access_rules": [],
-                        "visibility_rules": ["$duty_visibility|The Binding Coil of Bahamut - Turn 1"],
+                        "visibility_rules": [
+                            "$duty_visibility|The Binding Coil of Bahamut - Turn 1"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "The Binding Coil of Bahamut Turn 2",
                         "access_rules": [],
-                        "visibility_rules": ["$duty_visibility|The Binding Coil of Bahamut - Turn 2"],
+                        "visibility_rules": [
+                            "$duty_visibility|The Binding Coil of Bahamut - Turn 2"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "The Binding Coil of Bahamut Turn 3",
                         "access_rules": [],
-                        "visibility_rules": ["$duty_visibility|The Binding Coil of Bahamut - Turn 3"],
+                        "visibility_rules": [
+                            "$duty_visibility|The Binding Coil of Bahamut - Turn 3"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "The Binding Coil of Bahamut Turn 4",
                         "access_rules": [],
-                        "visibility_rules": ["$duty_visibility|The Binding Coil of Bahamut - Turn 4"],
+                        "visibility_rules": [
+                            "$duty_visibility|The Binding Coil of Bahamut - Turn 4"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "The Binding Coil of Bahamut Turn 5",
                         "access_rules": [],
-                        "visibility_rules": ["$duty_visibility|The Binding Coil of Bahamut - Turn 5"],
+                        "visibility_rules": [
+                            "$duty_visibility|The Binding Coil of Bahamut - Turn 5"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -731,12 +751,8 @@
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
-                "access_rules": [
-                    
-                ],
-                "visibility_rules": [
-                    
-                ],
+                "access_rules": [],
+                "visibility_rules": [],
                 "sections": [
                     {
                         "name": "Merlthor Goby",
@@ -854,12 +870,8 @@
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
-                "access_rules": [
-                    
-                ],
-                "visibility_rules": [
-                    
-                ],
+                "access_rules": [],
+                "visibility_rules": [],
                 "sections": [
                     {
                         "name": "Angelfish",
@@ -977,12 +989,8 @@
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
-                "access_rules": [
-                    
-                ],
-                "visibility_rules": [
-                    
-                ],
+                "access_rules": [],
+                "visibility_rules": [],
                 "sections": [
                     {
                         "name": "Harbor Herring",
@@ -1100,12 +1108,8 @@
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
-                "access_rules": [
-                    
-                ],
-                "visibility_rules": [
-                    
-                ],
+                "access_rules": [],
+                "visibility_rules": [],
                 "sections": [
                     {
                         "name": "Finger Shrimp",
@@ -1223,12 +1227,8 @@
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
-                "access_rules": [
-                    
-                ],
-                "visibility_rules": [
-                    
-                ],
+                "access_rules": [],
+                "visibility_rules": [],
                 "sections": [
                     {
                         "name": "Merlthor Goby",
@@ -1346,12 +1346,8 @@
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
-                "access_rules": [
-                    
-                ],
-                "visibility_rules": [
-                    
-                ],
+                "access_rules": [],
+                "visibility_rules": [],
                 "sections": [
                     {
                         "name": "Crimson Crayfish",
@@ -1439,12 +1435,8 @@
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
-                "access_rules": [
-                    
-                ],
-                "visibility_rules": [
-                    
-                ],
+                "access_rules": [],
+                "visibility_rules": [],
                 "sections": [
                     {
                         "name": "Copperfish",
@@ -1552,12 +1544,8 @@
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
-                "access_rules": [
-                    
-                ],
-                "visibility_rules": [
-                    
-                ],
+                "access_rules": [],
+                "visibility_rules": [],
                 "sections": [
                     {
                         "name": "Copperfish",
@@ -1675,12 +1663,8 @@
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
-                "access_rules": [
-                    
-                ],
-                "visibility_rules": [
-                    
-                ],
+                "access_rules": [],
+                "visibility_rules": [],
                 "sections": [
                     {
                         "name": "Copperfish",
@@ -1778,12 +1762,8 @@
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
-                "access_rules": [
-                    
-                ],
-                "visibility_rules": [
-                    
-                ],
+                "access_rules": [],
+                "visibility_rules": [],
                 "sections": [
                     {
                         "name": "Mitten Crab",
@@ -1891,12 +1871,8 @@
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
-                "access_rules": [
-                    
-                ],
-                "visibility_rules": [
-                    
-                ],
+                "access_rules": [],
+                "visibility_rules": [],
                 "sections": [
                     {
                         "name": "Merlthor Goby",
@@ -2004,6 +1980,101 @@
                         "map": "Eastern La Noscea",
                         "x": 1742,
                         "y": 1287,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Hunts",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$leveling:50"
+                ],
+                "visibility_rules": [
+                    "level_cap:50"
+                ],
+                "sections": [
+                    {
+                        "name": "Hunt Bloody Mary",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "include_hunts_B"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Hunt Hellsclaw",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "include_hunts_A"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Hunt The Garlok",
+                        "access_rules": [],
+                        "visibility_rules": [
+                            "include_hunts_S"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Eastern La Noscea",
+                        "x": 1331,
+                        "y": 132,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Costa del Sol Aetheryte",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "name": "Attune Costa del Sol",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Eastern La Noscea",
+                        "x": 1516,
+                        "y": 1497,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Wineport Aetheryte",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "name": "Attune Wineport",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Eastern La Noscea",
+                        "x": 1011,
+                        "y": 1039,
                         "size": 40,
                         "shape": "rect"
                     }

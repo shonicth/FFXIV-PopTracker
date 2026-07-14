@@ -16,7 +16,7 @@
                 "access_rules": [
                     "$leveling:61"
                 ],
-                "visibility_rules":[
+                "visibility_rules": [
                     "level_cap:61, $duty_visibility|The Sirensong Sea, duty_difficulty_normal"
                 ],
                 "sections": [
@@ -45,44 +45,70 @@
                 "access_rules": [
                     ""
                 ],
-                "visibility_rules":[
+                "visibility_rules": [
                     "include_ocean_fishing"
                 ],
                 "sections": [
                     {
                         "name": "Rhotano Sea",
-                        "access_rules": ["5fshlevels:1"],
+                        "access_rules": [
+                            "5fshlevels:1"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Bloodbrine Sea",
-                        "access_rules": ["5fshlevels:1"],
+                        "access_rules": [
+                            "5fshlevels:1"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Rothlyt Sound",
-                        "access_rules": ["5fshlevels:1"],
+                        "access_rules": [
+                            "5fshlevels:1"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Northern Strait of Merlthor",
-                        "access_rules": ["5fshlevels:1"],
+                        "access_rules": [
+                            "5fshlevels:1"
+                        ],
                         "visibility_rules": [],
                         "item_count": 1
                     },
                     {
                         "name": "Ruby Sea",
-                        "access_rules": ["5fshlevels:60"],
-                        "visibility_rules": ["level_cap:60"],
+                        "access_rules": [
+                            "5fshlevels:60"
+                        ],
+                        "visibility_rules": [
+                            "level_cap:60"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "One River",
-                        "access_rules": ["5fshlevels:60"],
-                        "visibility_rules": ["level_cap:60"],
+                        "access_rules": [
+                            "5fshlevels:60"
+                        ],
+                        "visibility_rules": [
+                            "level_cap:60"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Thavnairian Coast",
+                        "access_rules": [
+                            "5fshlevels:60"
+                        ],
+                        "visibility_rules": [
+                            "level_cap:60"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -101,12 +127,8 @@
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
-                "access_rules": [
-                    
-                ],
-                "visibility_rules":[
-                    
-                ],
+                "access_rules": [],
+                "visibility_rules": [],
                 "sections": [
                     {
                         "name": "Merlthor Goby",
@@ -204,6 +226,30 @@
                         "map": "Limsa Lominsa Lower Decks",
                         "x": 661,
                         "y": 1374,
+                        "size": 40,
+                        "shape": "rect"
+                    }
+                ]
+            },
+            {
+                "name": "Limsa Lominsa Lower Decks Aetheryte",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "name": "Attune Limsa Lominsa Lower Decks",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Limsa Lominsa Lower Decks",
+                        "x": 857,
+                        "y": 1023,
                         "size": 40,
                         "shape": "rect"
                     }

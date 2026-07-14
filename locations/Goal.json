@@ -15,12 +15,6 @@
                 "item_count": 1
             },
             {
-                "name": "Defeat Shinryu",
-                "access_rules": ["@The Lochs/Ala Mhigo/The Royal Menagerie"],
-                "visibility_rules": ["DefeatShinryu"],
-                "item_count": 1
-            },
-            {
                 "name": "Defeat the Ultima Weapon",
                 "access_rules": ["@Northern Thanalan/The Praetorium/The Porta Decumana"],
                 "visibility_rules": ["DefeatUltimaWeapon"],
@@ -36,6 +30,12 @@
                 "name": "Defeat Nidhogg",
                 "access_rules": ["@Foundation/The Final Steps of Faith/The Final Steps of Faith"],
                 "visibility_rules": ["DefeatNidhogg"],
+                "item_count": 1
+            },
+            {
+                "name": "Defeat Shinryu",
+                "access_rules": ["@The Lochs/Ala Mhigo/The Royal Menagerie"],
+                "visibility_rules": ["DefeatShinryu"],
                 "item_count": 1
             },
             {
