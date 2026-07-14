@@ -626,7 +626,6 @@ function UpdateHints(locationID, status) -->
     if Highlight then
          --print(locationID, status)
         local location_table = LOCATION_MAPPING[locationID]
-        print(locationID)
         for _, location in ipairs(location_table) do
             if location:sub(1, 1) == "@" then
                 local obj = Tracker:FindObjectForCode(location)
