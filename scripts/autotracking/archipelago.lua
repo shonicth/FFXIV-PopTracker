@@ -212,9 +212,7 @@ function processYaml(slot_data)
         end    
 
      --Exclude Duty Check
-        print(slot_data["skipped_duties"])
         ExcludedDuties = slot_data["skipped_duties"]
-        print(ExcludedDuties)
     end
 
 function checkCount()    
