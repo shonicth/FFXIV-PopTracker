@@ -404,26 +404,46 @@
             "item_height": 36,
             "item_width": 36,
             "rows": [
+                //Game Options
+                [
+                    "goal",
+                    "mcguffins_needed",
+                    "boss_key_pieces"
+                ],
+                //Character Settings
+                [
+                    "level_cap"
+                ],
+                //Fates
                 [
                     "fatesanity",
-                    "include_unreasonable_fates",
-                    "level_cap",
-                    "include_bozja",
-                    "include_ocean_fishing"
+                    "fates_per_zone",
+                    "include_unreasonable_fates"
                 ],
+                //Fishsanity
                 [
                     "fishsanity",
-                    "allow_main_scenario_duties",
-                    "include_pvp",
-                    "duty_difficulty",
-                    "fates_per_zone"
+                    "include_ocean_fishing"
                 ],
+                //Huntsanity
                 [
-                    "extra_dungeon_checks",
+                    "include_hunts_B",
+                    "include_hunts_A",
+                    "include_hunts_S"
+                ],
+                //Field Operations
+                [
+                    "include_bozja",
+                    "include_occult_crescent",
+                    "include_duels"
+                ],
+                //Duty Finder
+                [
+                    "duty_difficulty",
+                    "include_pvp",
                     "include_guildhests",
-                    "mcguffins_needed",
-                    "boss_key_pieces",
-                    "goal"
+                    "extra_dungeon_checks",
+                    "allow_main_scenario_duties"
                 ]
             ]
         }]
