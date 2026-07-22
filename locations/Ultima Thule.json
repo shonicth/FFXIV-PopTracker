@@ -78,7 +78,7 @@
                     {
                         "name": "The Final Day",
                         "access_rules": [
-                            "$leveling:90, goal_duty_access|DefeatEndsinger"
+                            "$leveling:90, $goal_duty_access|DefeatEndsinger"
                         ],
                         "visibility_rules": [
                             "level_cap:90, duty_difficulty_normal, $duty_visibility|The Final Day"

@@ -49,7 +49,7 @@
                     {
                         "name": "The Seat of Sacrifice",
                         "access_rules": [
-                            "$leveling:80, goal_duty_access|DefeatWarriorOfLight"
+                            "$leveling:80, $goal_duty_access|DefeatWarriorOfLight"
                         ],
                         "visibility_rules": [
                             "level_cap:80, duty_difficulty_normal, $duty_visibility|The Seat of Sacrifice"

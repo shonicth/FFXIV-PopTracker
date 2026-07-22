@@ -119,7 +119,7 @@
                     {
                         "name": "The Interphos",
                         "access_rules": [
-                            "$leveling:100, goal_duty_access|DefeatSphene"
+                            "$leveling:100, $goal_duty_access|DefeatSphene"
                         ],
                         "visibility_rules": [
                             "level_cap:100, duty_difficulty_normal, $duty_visibility|The Interphos"
@@ -139,7 +139,7 @@
                     {
                         "name": "The Ageless Necropolis",
                         "access_rules": [
-                            "$leveling:100, goal_duty_access|DefeatNecron"
+                            "$leveling:100, $goal_duty_access|DefeatNecron"
                         ],
                         "visibility_rules": [
                             "level_cap:100, duty_difficulty_normal, $duty_visibility|The Ageless Necropolis"
