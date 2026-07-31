@@ -99,6 +99,7 @@ LOCATION_MAPPING = {
 	[353] = {"@Lower La Noscea/Wolves Den Pier/The Clockwork Castletown"},
 	[354] = {"@Lower La Noscea/Wolves Den Pier/The Red Sands"},
 	[355] = {"@Lower La Noscea/Wolves Den Pier/The Bayside Battleground"},
+	[356] = {"@Lower La Noscea/Wolves Den Pier/Archeia Harmonias"},
 	[400] = {"@Coerthas Western Highlands/The Dusk Vigil/The Dusk Vigil"},
 	[401] = {"@The Dravanian Forelands/Sohm Al/Sohm Al"},
 	[402] = {"@Foundation/The Aery/The Aery"},
